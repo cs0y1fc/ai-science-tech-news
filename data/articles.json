@@ -1,5 +1,135 @@
 [
   {
+    "id": "4edc93bd116e",
+    "title": "As it gets harder to figure out what to eat, some Americans are turning to religion for answers",
+    "url": "https://phys.org/news/2026-11-harder-figure-americans-religion.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:20:06Z",
+    "excerpt": "It's getting harder and harder to figure out what to eat. A scroll through social media raises many questions. Why is food so expensive? Am I getting enough protein? What about fiber? Do I need supplements? Should I be making all my bread at home? What foods were recalled this week?",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/as-it-gets-harder-to-f.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:29:14.210335339Z"
+  },
+  {
+    "id": "52ccb3ca7f0a",
+    "title": "Reading single vesicles reveals clues to the origin of chronic inflammation",
+    "url": "https://phys.org/news/2026-11-vesicles-reveals-clues-chronic-inflammation.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:20:02Z",
+    "excerpt": "A new technique to diagnose chronic inflammation developed at Nagoya University can read information from the surface and within individual extracellular vesicles in blood and urine. This technique could be used to develop noninvasive tests that can not only detect chronic inflammation but also provide information about the tissues where it occurs.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/single-vesicle-package.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:29:14.210335339Z"
+  },
+  {
+    "id": "64057f2c89c3",
+    "title": "Veterans Day Apple Watch Activity Challenge Launches November 11",
+    "url": "https://www.macrumors.com/2026/11/03/apple-watch-veterans-day-challenge-2026/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T20:18:29Z",
+    "excerpt": "Apple is planning an Apple Watch Activity Challenge for Veterans Day, which takes place next Wednesday in the United States. Apple Watch owners are tasked with doing any workout for 11 minutes or more on November 11. Apple Watch owners who complete the challenge will win an Apple Watch activity award in the Fitness app. Earn this award on November 11 by doing any workout for 11 minutes or more. Re…",
+    "image_url": "https://images.macrumors.com/article-new/2025/11/veterans-day-2025.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Apple has announced an upcoming Veterans Day Activity Challenge for Apple Watch users, encouraging them to complete an outdoor workout of at least eleven minutes. Participants who meet the goal will earn a virtual award and animated stickers for the Messages app. The announcement also addresses separate user reports regarding daylight saving time bugs and mild skin irritation associated with newer watch models.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f72d4cd244e9",
+    "title": "JRPG mystery solved after 29 years as Tales of Destiny fan finds a way to recruit a hidden character",
+    "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T20:17:05Z",
+    "excerpt": "Somehow, Tales of games still hold secrets",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/F3Hs5ce5Xi2tD8VoGvjT7P-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Nearly three decades after its initial release, players have discovered a method to recruit a hidden character in the original PlayStation version of Tales of Destiny. A complex, multi-step route allows players to add Lilith Aileros to their party during Part 2. The discovery highlights the hidden secrets embedded in classic role-playing games.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f6e054ad7703",
+    "title": "iPhone 18 rumors suggest a bigger battery, higher price next year",
+    "url": "https://www.theverge.com/tech/1025748/apple-iphone-18-rumors-price-hike-battery",
+    "source": "The Verge",
+    "section": "phones",
+    "published": "2026-11-03T20:16:54Z",
+    "excerpt": "After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, including a larger battery and […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257946_iPhone_17_AKrales_0063.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Leaks indicate that Apple's upcoming base iPhone 18 may feature a larger battery and a 2-nanometer processor alongside a price increase. Rising component costs, particularly for RAM, have driven broader price adjustments across major smartphone manufacturers.",
+    "tags": [
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "54a2712cc42e",
+    "title": "Detecting Catch-All and Role-Based Addresses Programmatically in Go",
+    "url": "https://dev.to/gamalogic_64e23/detecting-catch-all-and-role-based-addresses-programmatically-in-go-201n",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T20:16:51Z",
+    "excerpt": "Two kinds of email address cause trouble precisely because they look fine. A catch-all domain accepts mail for any address, so a mailbox check can't prove a specific inbox exists. A role-based address (info@, support@, sales@) belongs to a team, not a person, so it rarely engages. Neither should be a hard reject. Both should be flagged so your application can decide what to do. Here's a small Go p…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqd8nhu2q9b9v0llz280d.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "This article presents a Go program designed to programmatically evaluate and classify email addresses as accept, review, or reject. It utilizes an external validation API with bounded concurrency and request contexts to identify catch-all and role-based domains. The approach helps applications make nuanced decisions about deliverability rather than relying on binary outcomes.",
+    "tags": [
+      "tutorial",
+      "go",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "775f6b0b1d66",
+    "title": "Apple starts giving Siri AI access to third-party apps",
+    "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+    "source": "The Verge",
+    "section": "ai",
+    "published": "2026-11-03T20:16:17Z",
+    "excerpt": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process natural language prompts, and use on-screen awareness to […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-6.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.736302165243%2C100%2C78.527395669513\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Apple is expanding its voice assistant capabilities by allowing Siri AI to interact directly with third-party applications. The update enables developers to integrate natural language processing and personal context awareness across various mobile services. Additionally, built-in system applications are receiving deeper AI integration to handle complex user requests.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c10c60758d53",
+    "title": "Chimera Linux Releases New ISOs with Kernel 7.3, GNOME 51, and Plasma 6.8",
+    "url": "https://linuxiac.com/chimera-linux-releases-new-isos-with-kernel-7-3-gnome-51-plasma-6-8/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-03T20:15:47Z",
+    "excerpt": "Chimera Linux refreshes its installation images with Linux kernel 7.3, GNOME 51, KDE Plasma 6.8, and NetworkManager replacing iwd.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/chimera-linux-2026-11-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Chimera Linux has issued new installation images incorporating the Linux kernel 7.3, GNOME 51, and KDE Plasma 6.8. This incremental update removes the X.Org server in favor of Wayland and switches the default networking tool to NetworkManager. Existing users can receive these updates through the rolling-release package manager without needing a clean installation.",
+    "tags": [
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
     "id": "9f0513c84d7a",
     "title": "iOS 27.3 brings the iPhone Duo’s revamped StandBy to other iPhones",
     "url": "https://9to5mac.com/2026/11/03/ios-27-3-brings-the-iphone-duos-revamped-standby-to-other-iphones/",
@@ -51,6 +181,24 @@
       "gaming",
       "indie",
       "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "55ad78933df4",
+    "title": "Pratt parsing is a black box",
+    "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+    "source": "Hacker News",
+    "section": "tutorials",
+    "published": "2026-11-03T20:07:41Z",
+    "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
+    "points": 7,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
+    "tags": [
+      "devtools",
+      "tutorial"
     ],
     "enriched": true
   },
@@ -139,7 +287,27 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjyjknvjsf7gkpeaaxwwr.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "fd0eafd0e533",
+    "title": "$20M in Fines and Vizio Smart TVs Opt Out of Spying Option Does Nothing",
+    "url": "https://pcper.com/2026/11/20-million-in-fines-and-still-vizio-smart-tvs-opt-out-of-spying-option-does-nothing/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T19:52:07Z",
+    "image_url": "https://pcper.com/wp-content/uploads/2026/11/vizio.png",
+    "points": 7,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:29:14.210335339Z",
+    "summary": "Recent research evaluating smart TV data privacy practices reveals that opting out of tracking features often fails to stop data collection. Devices from major manufacturers continued sending network traffic even after users disabled monitoring options, with some brands showing no change in behavior at all.",
+    "tags": [
+      "security",
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "20eaa515a1d3",
@@ -401,7 +569,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 30,
+    "points": 50,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -542,7 +710,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 20,
+    "points": 24,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -2085,7 +2253,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 16,
+    "points": 17,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -2226,7 +2394,7 @@
     "section": "ai",
     "published": "2026-11-03T17:40:00Z",
     "image_checked": true,
-    "points": 281,
+    "points": 303,
     "weight": 1,
     "first_seen": "2026-11-03T20:15:23.671536475Z",
     "summary": "Recent research demonstrates that frontier artificial intelligence models can interpret and modify raw neural network weights directly without executing external code. Termed weight-space programming, this capability allows models to identify flaws and improve performance in other networks by analyzing floating-point parameters. Analysts debate whether these pure weight-inspection tasks should be separated from tool-assisted model updates.",
@@ -2277,7 +2445,12 @@
     "excerpt": "Class changes will come \"over the course of the months and years ahead\"",
     "image_url": "https://cdn.mos.cms.futurecdn.net/D4AqEqmtnhZKRJ3pSUCpZh-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Blizzard outlined its class design philosophy for the upcoming World of Warcraft: Forever spin-off, focusing on unique identities rather than strict numerical balance. Developers adjusted damage and creature health based on beta feedback to ensure every class feels impactful. Further tuning passes are planned after gathering data from higher-level gameplay.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "d2f119366d65",
@@ -2374,7 +2547,12 @@
     "excerpt": "One voice actor calls the AI text-to-speech tech \"freeing\" as \"I can go and take a job somewhere else\"",
     "image_url": "https://cdn.mos.cms.futurecdn.net/WiwQfwqetgKFP7Uk3QnX8D-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Embark Studios defended its use of text-to-speech AI for minor NPC roles in Arc Raiders, arguing it helps a smaller team build a rich world. The audio director stated that expecting voice actors to record the sheer volume of lines would be impractical. While some voice talent found the tool flexible, the practice continues to face criticism from players.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "f578385f5872",
@@ -2437,7 +2615,14 @@
     "excerpt": "\"Even a single change can instantly increase the number of things that need to be reviewed,\" says Eiji Aonuma",
     "image_url": "https://cdn.mos.cms.futurecdn.net/c59zUEC7u76xbUe4trWdfQ-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The upcoming Nintendo Switch 2 remake of The Legend of Zelda: Ocarina of Time introduces a dedicated jump button to align with modern game design conventions. Developers adjusted the environment and terrain to accommodate unrestricted jumping from any location. This change also led to a revised, two-step approach for executing the classic Jump Attack.",
+    "tags": [
+      "gaming",
+      "consoles",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "51332a6cf234",
@@ -2533,7 +2718,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 675,
+    "points": 712,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -2700,9 +2885,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/YeG8Yv3MXJ7C5jGSfdXhE7-1920-80.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The director and dungeon designer of The Legend of Zelda: Ocarina of Time has discussed adjustments made to the infamous Water Temple in the game's remake. The development team modified item handling and dungeon geometry to reduce tedium and improve navigation. These changes fulfill a long-standing desire by the creator to refine the original design.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "43ee9f38cd69",
@@ -2838,7 +3025,12 @@
     "excerpt": "Bethesda is doing some teasing againg",
     "image_url": "https://cdn.mos.cms.futurecdn.net/gCGvuQSPLZkuyZj7KzF8L7-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bethesda has revealed new details regarding The Elder Scrolls 6, confirming the subtitle Sentinel and a timeline set five years after the events of Skyrim. The information was shared during the studio's 40th-anniversary commemoration video. A featured quote from a Hammerfell Moth Priest provides initial lore context for the upcoming title.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "d91ac415fda4",
@@ -3018,7 +3210,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T16:59:19Z",
-    "points": 43,
+    "points": 47,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3214,7 +3406,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 119,
+    "points": 131,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -3333,7 +3525,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 30,
+    "points": 31,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -4217,7 +4409,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:52Z",
     "image_url": "https://hissingkitty.com/api/public/og/hacker-churn.png",
-    "points": 58,
+    "points": 60,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "HackerChurn aggregates Hacker News comments to rank SaaS tools with the most negative feedback over the past three years. Tools receiving at least three complaints across two threads appear on the list, highlighting platforms like Bitwarden, Obsidian, Xero, WordPress, and others that users consider replacing.",
@@ -4320,7 +4512,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 204,
+    "points": 215,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -4509,7 +4701,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 310,
+    "points": 321,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4592,7 +4784,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 380,
+    "points": 397,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4704,7 +4896,13 @@
     "excerpt": "\"Implemented terminal velocity\": great news for Tarhiel.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/JmF4o6RuMPxHWWr64cRf5N-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The open-source OpenMW engine for Morrowind has released a new candidate version introducing clustered lighting and physics adjustments. The update fixes terminal velocity and gravity calculations while adding quality-of-life improvements. These modifications enhance performance and modernize the classic role-playing game on contemporary systems.",
+    "tags": [
+      "gaming",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "a0529394abc7",
@@ -4716,7 +4914,9 @@
     "excerpt": "Memory foam comfort, while keeping the heat away.",
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/sweetnight-featured-scaled.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "1e0e1a110b00",
@@ -4745,7 +4945,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 51,
+    "points": 53,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -4954,7 +5154,12 @@
     "excerpt": "During Apple’s quarterly earnings call, CEO John Ternus was asked repeatedly about Siri AI’s future. Here’s what he said about Apple’s plans for improving and expanding Siri AI. more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/john-ternus-iphone-event-hub.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple CEO John Ternus discussed future improvements for Siri AI during an earnings call, highlighting potential agentic capabilities. He emphasized that the company plans to continuously evolve the assistant rather than leave it unchanged. Ternus also noted that future advanced intelligence features could present new opportunities for paid services.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "fb38d5fafe2a",
@@ -5021,7 +5226,12 @@
     "excerpt": "The Mass Effect studio was shuttered weeks before its annual celebration would have taken place",
     "image_url": "https://kotaku.com/app/uploads/2021/06/2fea610b2e26dae8ab702c67f5c50e43-1280x720.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Following EA's decision to shut down BioWare and cancel the next Mass Effect game, various partners continued releasing planned merchandise for N7 Day. Fans have responded by organizing campaigns to support the franchise and boost player counts for existing titles. The studio's closure overshadowed what was supposed to be a major celebration week for the series.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "e8840c4dd0f3",
@@ -5067,7 +5277,12 @@
     "excerpt": "Step back into classic Azeroth.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/W9ZaqFzmFCEu3SmtBTueCg-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "World of Warcraft: Forever is scheduled for a simultaneous global release across multiple time zones. Players can preload the approximately 50GB client through Battle.net ahead of launch. The spin-off brings classic Azeroth adventuring back alongside updated visuals, class adjustments, and new content.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "e4b1e8267340",
@@ -5079,7 +5294,12 @@
     "excerpt": "Adobe Premiere mobile users will soon be able to add licensed music from two of the world’s biggest music companies to their videos. Here are the details. more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/adob-universal-warner.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Adobe has partnered with Universal Music Group and Warner Music Group to integrate licensed music directly into the Premiere mobile application. Users can browse, preview, and add up to 60 seconds of popular tracks for personal, non-commercial video edits. The feature also includes music-powered templates and advanced filtering options.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "b1972bf72470",
@@ -5124,7 +5344,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 36,
+    "points": 37,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -5142,7 +5362,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 223,
+    "points": 231,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -5163,21 +5383,28 @@
     "image_url": "https://assetsio.gnwcdn.com/Gang-of-Dragon.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Nagoshi Studio has been dissolved following the withdrawal of funding by its primary investor, ending development on its debut action game Gang of Dragon. The title faced criticism for closely resembling the Like a Dragon series despite featuring new elements and actor Ma Dong-seok. The studio's closure highlights the financial vulnerabilities of independent developers relying on major corporate backers.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "745f9c360025",
     "title": "T-Mobile launches 5-gigabit fiber for $90/mo with 10-year price guarantee",
     "url": "https://9to5mac.com/2026/11/03/t-mobile-launches-5-gigabit-fiber-for-90-mo-with-10-year-price-guarantee/",
     "source": "9to5Mac",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T14:50:01Z",
     "excerpt": "T-Mobile has announced a new 5 gigabit fiber broadband service priced at $90 a month, starting today. The company also says that if you sign up now, the price is guaranteed not to increase for a full decade … more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/T-Mobile-launches-5-gigabit-fiber-for-90mo-with-10-year-price-guarantee.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "T-Mobile has introduced a new five-gigabit fiber broadband plan priced at ninety dollars per month with a ten-year price guarantee. The service offers symmetrical upload and download speeds designed for high-bandwidth households with multiple connected devices. Additional lower-tier fiber plans and promotional bill credits are also available in selected areas.",
+    "tags": [
+      "cloud"
+    ],
+    "enriched": true
   },
   {
     "id": "c0589e96c805",
@@ -5241,7 +5468,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 48,
+    "points": 49,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5258,9 +5485,12 @@
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/06/gmail-sponsored-emails-inbox-view-scaled.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google is preparing a design overhaul for the Gemini integration within the Gmail app on mobile devices. The update introduces a floating pill-shaped overlay that matches the standalone Gemini application. It includes voice input and a plus menu for managing sources and adding files from Google Drive.",
     "tags": [
-      "llm"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "08f6f3b15661",
@@ -5306,12 +5536,18 @@
     "title": "Does Google use your Gmail and Photos for ads? Here's what changed",
     "url": "https://www.androidpolice.com/google-gmail-and-photos-ads/",
     "source": "Android Police",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T14:30:10Z",
     "excerpt": "What Google's new privacy policy means",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/10/google-maps-bad-logo.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google's updated privacy policy introduces exceptions regarding how data from personal services like Gmail and Google Photos is utilized. Under the revised terms, information shared with connected services like Search can potentially be used for personalized advertising. Google maintains that private files are not automatically scanned for ads unless users enable specific cross-service integrations.",
+    "tags": [
+      "security",
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "b5b460571a4b",
@@ -6395,9 +6631,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The openSUSE Leap 16.1 Linux distribution has been released, aligning with SUSE Linux Enterprise Server 16.1 sources. This version introduces an immutable mode derived from the Leap Micro server distribution. It features the Linux 6.12 LTS kernel and includes updates to KDE Plasma and GNOME desktop environments.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "fef513f6fb0f",
@@ -6668,7 +6907,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 783,
+    "points": 787,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -8119,7 +8358,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 252,
+    "points": 253,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -13188,7 +13427,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 287,
+    "points": 293,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -14175,7 +14414,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 78,
+    "points": 80,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -14276,7 +14515,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 96,
+    "points": 98,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -14624,7 +14863,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-02T02:21:07Z",
-    "points": 139,
+    "points": 141,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -15172,7 +15411,7 @@
     "section": "ai",
     "published": "2026-11-01T15:27:44Z",
     "image_checked": true,
-    "points": 20,
+    "points": 21,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -15642,7 +15881,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 295,
+    "points": 296,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -15699,7 +15938,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 8,
+    "points": 9,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z"
   },
