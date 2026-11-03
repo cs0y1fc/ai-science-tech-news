@@ -1,5 +1,18 @@
 [
   {
+    "id": "d15a33ccf6a4",
+    "title": "SMS Delivery Status Explained — 3 Receipt Checks Before Fetching Events",
+    "url": "https://dev.to/sawyerflynn1578/sms-delivery-status-explained-3-receipt-checks-before-fetching-events-43n",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T22:07:47Z",
+    "excerpt": "Customer support needs SMS delivery status events fetched via API to decide whether an order receipt should be sent again after payment settles. The constraint is evidentiary: a payment record, an accepted notification request, and a delivery observation answer different questions, so combining them into one success flag makes that decision difficult to defend. Short answer: fetch SMS delivery sta…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F171sdr0t5cd7puz21egt.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:12:45.892683367Z"
+  },
+  {
     "id": "eafbecb43636",
     "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
     "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
@@ -18,6 +31,20 @@
     "enriched": true
   },
   {
+    "id": "e375265df7fe",
+    "title": "Horror giant Blumhouse officially changes name to Blumhouse Atomic after James Wan partnership",
+    "url": "https://www.gamesradar.com/entertainment/horror-movies/horror-giant-blumhouse-officially-changes-name-to-blumhouse-atomic-after-james-wan-partnership/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T22:02:40Z",
+    "excerpt": "Blumhouse Atomic is here to stay",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/3GALJmepAU5VfFiWTr6G94-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:12:45.892683367Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
     "id": "a09326f72c06",
     "title": "iPhone Duo shortages will continue for the foreseeable future, Apple CEO says",
     "url": "https://www.gsmarena.com/iphone_duo_shortages_will_continue_for_the_foreseeable_future_apple_ceo_says-news-75329.php",
@@ -34,6 +61,23 @@
       "hardware"
     ],
     "enriched": true
+  },
+  {
+    "id": "ede1e5ff96b6",
+    "title": "The Swiss Army Knife Trap: Why Wrapping Every API as an Agent Tool Backfires",
+    "url": "https://dev.to/abivarma/the-swiss-army-knife-trap-why-wrapping-every-api-as-an-agent-tool-backfires-1be0",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T22:01:01Z",
+    "excerpt": "You've got two ways to connect an agent to your backend, and each one breaks somewhere different. Wrap every endpoint as a tool and you keep flexibility: the agent can combine steps in ways nobody planned. It breaks when the job needs a long chain and the ordering rules live in the prompt. Build a few deep tools shaped around whole tasks and the steps run in code. That breaks when a job falls outs…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo79cqads8wowfjf2hho0.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:12:45.892683367Z",
+    "tags": [
+      "agents",
+      "prompting"
+    ]
   },
   {
     "id": "519310b2a984",
@@ -116,12 +160,12 @@
   },
   {
     "id": "e1f6d45914ae",
-    "title": "GIMP 3.2.8 brings bug fixes, fixes \u0026 fixes",
+    "title": "GIMP 3.2.8 released with text tool, performance improvements",
     "url": "https://www.omgubuntu.co.uk/2026/11/gimp-3-2-8-brings-bug-fixes-fixes-fixes",
     "source": "OMG! Ubuntu",
     "section": "linux",
     "published": "2026-11-03T21:59:26Z",
-    "excerpt": "GIMP 3.2.8 is out, the fourth maintenance update in the current stable series, which first launched in March 2026. No shiny new features ship, as fixes and fine-tuning are the primary focus. Major work is happening alongside maintenance, but the fruits of that will arrive in the next major series update – those do come out sooner now, so patience. So what has changed since the v3.2.6 update? GIMP…",
+    "excerpt": "GIMP 3.2.8 is out, the fourth maintenance update in the current stable series, which first launched in March 2026. No shiny new features ship, as fixes and fine-tuning are the primary focus. Major work is happening alongside maintenance efforts, but that work is targeted at the next major series. What’s changed since the v3.2.6 update in September? GIMP 3.2.8 offers better initial positioning of d…",
     "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232\u0026ssl=1",
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
@@ -176,7 +220,7 @@
     "section": "coding",
     "published": "2026-11-03T21:51:06Z",
     "image_checked": true,
-    "points": 3,
+    "points": 6,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "This resource provides documentation regarding the internal mechanisms of PostgreSQL. It outlines the terms for noncommercial educational use while restricting commercial reproduction. The documentation is maintained as an HTML-optimized reference by its author.",
@@ -208,7 +252,12 @@
     "excerpt": "The devs themselves turned their \"almost androgynous\" hero into the Lara Croft we know, but the marketing \"showed a lack of imagination by oversexualising her\"",
     "image_url": "https://cdn.mos.cms.futurecdn.net/rDAzcvWzc4S7B2HcDJdctH-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T22:07:03.034214394Z"
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Original developers of the Tomb Raider series have discussed their initial vision for Lara Croft as a realistic and androgynous character. They noted that the publisher, Eidos Interactive, shifted the marketing focus heavily toward the character's sex appeal to drive sales. While this strategy propelled the franchise to commercial success, the creators felt the oversexualization went too far.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "2e6577740a71",
@@ -221,10 +270,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/DjHygAvVxq5SRXiCL2bj3i-1920-80.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "The upcoming launch of Grand Theft Auto 6 has prompted several studios to reschedule their November releases to avoid direct competition. Industry analysts suggest this clearance creates an open market for titles launching on different platforms, such as the Zelda Ocarina of Time remake and World of Warcraft: Forever. Despite differing target platforms and genres, major releases continue to navigate the congested holiday shopping season.",
     "tags": [
-      "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "f7b02949050d",
@@ -288,7 +338,7 @@
     "section": "ai",
     "published": "2026-11-03T21:40:53Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 28,
+    "points": 32,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "This book offers a mathematical introduction to modern generative artificial intelligence. It connects major generative model families such as variational autoencoders, diffusion models, and generative adversarial networks. The text serves as a foundation for researchers and students seeking to understand the mathematical derivation of these models.",
@@ -331,7 +381,7 @@
     "section": "phones",
     "published": "2026-11-03T21:39:05Z",
     "image_url": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
-    "points": 60,
+    "points": 72,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "Safari has introduced an Adaptive Dark Mode feature in its beta release. The tool automatically converts bright web pages into a dark format when enabled, maintaining color hue and contrast standards. It analyzes page elements like backgrounds, text, and images to ensure readability without altering native dark sites.",
@@ -402,7 +452,7 @@
     "section": "ai",
     "published": "2026-11-03T21:26:44Z",
     "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover\u0026gravity=faces\u0026dpr=2\u0026quality=medium\u0026source=nar-cms\u0026format=jpg\u0026width=1260\u0026height=630",
-    "points": 27,
+    "points": 28,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "Major U.S. technology companies have seen their off-balance-sheet debt related to artificial intelligence obligations surge significantly over a six-month period. These commitments now represent a vast portion of their total assets. The rapid accumulation highlights the heavy financial investments being poured into AI infrastructure.",
@@ -420,7 +470,7 @@
     "section": "ai",
     "published": "2026-11-03T21:25:48Z",
     "image_checked": true,
-    "points": 29,
+    "points": 32,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "tags": [
@@ -535,7 +585,7 @@
     "section": "coding",
     "published": "2026-11-03T21:16:48Z",
     "image_url": "https://opengraph.githubassets.com/762e315693671ef15400f1f6fffb07ad54479b2dfd75b8dd0887f21d114e496c/finic-ai/kairos",
-    "points": 17,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "summary": "Kairos is an open-source fraud decisioning and risk management platform designed for developers. It integrates with AI coding assistants over the Model Context Protocol to automatically build workflows, propose model variants, and tune decisions. The platform combines traditional machine learning with natural language reasoning models to process real-time transactional events.",
@@ -676,7 +726,7 @@
     "source": "TechCrunch",
     "section": "tech",
     "published": "2026-11-03T21:05:55Z",
-    "excerpt": "Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet, retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s because Palantir’s enterprise sales, its big growth area, showed signs of slowing. First, the good […]",
+    "excerpt": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
     "image_checked": true,
     "weight": 1,
@@ -698,7 +748,12 @@
     "excerpt": "Wuthering Waves is now more than two years old, but somehow, it’s bigger and more …",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/HVyOjFIa8AIzUvO.jpeg",
     "weight": 1,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Wuthering Waves has experienced significant player growth over two years, driven by frequent content updates and major cross-media collaborations. The game achieved high positions on Steam sales charts following updates that introduced new storylines, map expansions, and crossover events. Developer Kuro Games maintained a steady release cycle that introduced diverse traversal mechanics and character variants.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "7875cef8c824",
@@ -710,7 +765,13 @@
     "excerpt": "The three new charging accessories from Peak Design hit the high notes, like (dual) Qi2 wireless charging and wired fast charging without bulky bricks. more…",
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Peak-Design-chargers-5.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Peak Design has introduced three new charging accessories, including a dual Qi2 wireless charging stand, a slim travel charger, and a magnetic battery pack. The products utilize durable build materials like aluminum and support fast wired and wireless charging protocols. These accessories cater to users seeking portable and versatile power solutions for mobile devices and laptops.",
+    "tags": [
+      "hardware",
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "7da8d94726f0",
@@ -1079,7 +1140,7 @@
     "section": "ai",
     "published": "2026-11-03T20:33:23Z",
     "image_url": "https://helgesver.re/og/article-macos-vulgar-word-flags.png",
-    "points": 116,
+    "points": 119,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "An investigation into Apple's internal word-usage database reveals how macOS and iOS track profanity to improve autocorrect. The author uncovered system dictionary classifications for sensitive and vulgar terms across multiple languages. Private framework functions were used to extract the undocumented data.",
@@ -1413,7 +1474,7 @@
     "section": "tutorials",
     "published": "2026-11-03T20:07:41Z",
     "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
-    "points": 19,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
@@ -1824,7 +1885,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 136,
+    "points": 138,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -1912,7 +1973,7 @@
     "section": "linux",
     "published": "2026-11-03T19:27:53Z",
     "image_checked": true,
-    "points": 43,
+    "points": 46,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "The latest macOS release drops support for CoreStorage volumes and encrypted HFS+ file systems, rendering older storage media inaccessible. Users are unable to mount, convert, or erase these volumes through standard disk utilities. The operating system provides misleading error messages and lacks backward compatibility paths for affected hardware.",
@@ -1965,7 +2026,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 40,
+    "points": 41,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -3108,7 +3169,7 @@
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 40,
+    "points": 42,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -3622,13 +3683,19 @@
     "title": "kitty 0.50.0",
     "url": "https://sw.kovidgoyal.net/kitty/changelog/#id1",
     "source": "Lobsters",
-    "section": "coding",
+    "section": "linux",
     "published": "2026-11-03T17:43:09Z",
     "excerpt": "Comments",
     "image_url": "https://sw.kovidgoyal.net/kitty/_images/social_previews/summary_changelog_ebdebeba.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The kitty terminal emulator version 0.50.0 introduces new layout splitting strategies, official support for custom graphical shaders, and major performance optimizations. These updates deliver substantial improvements in text throughput, UTF-8 decoding via SIMD acceleration, and escape code parsing. The release also enhances alpha blending and image compositing speeds across platforms.",
+    "tags": [
+      "linux",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "12645468b604",
@@ -3704,7 +3771,7 @@
     "section": "ai",
     "published": "2026-11-03T17:40:00Z",
     "image_checked": true,
-    "points": 303,
+    "points": 396,
     "weight": 1,
     "first_seen": "2026-11-03T20:15:23.671536475Z",
     "summary": "Recent research demonstrates that frontier artificial intelligence models can interpret and modify raw neural network weights directly without executing external code. Termed weight-space programming, this capability allows models to identify flaws and improve performance in other networks by analyzing floating-point parameters. Analysts debate whether these pure weight-inspection tasks should be separated from tool-assisted model updates.",
@@ -3726,9 +3793,12 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "This article examines the performance characteristics of anonymous functions and closures in Go. It debunks the common myth that closures inherently cause slow heap allocations, demonstrating that compiler escape analysis often keeps captured variables on the stack. Through benchmarking, the author illustrates when closures allocate memory and how to avoid costly retention issues.",
     "tags": [
+      "tutorial",
       "go"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "d14b1700f99c",
@@ -3871,18 +3941,21 @@
     "title": "Safety Rules Don’t Survive the Context Window: Quantifying and Fixing Agent Compliance Decay",
     "url": "https://dev.to/priyeshdave6/safety-rules-dont-survive-the-context-window-quantifying-and-fixing-agent-compliance-decay-5co9",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T17:30:16Z",
     "excerpt": "Safety Rules Don’t Survive the Context Window: Quantifying and Fixing Agent Compliance Decay Injected Safety Rules Are Ignored as Context Windows Fill Anyone deploying LLM agents with hardcoded safety rules has seen this: as dialogs grow, initial guardrails disappear. The cause is structural. Once the system prompt—“Never give medical advice,” “Decline illegal requests,” etc.—is pushed out of the…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa26mt989dagsw8r28ban.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "As LLM context windows fill up with long conversation histories, initial system guardrails and safety instructions tend to fall out of the visible context, causing compliance decay. Experiments across major models show that rule adherence drops sharply once prompt instructions are pushed out. Developers must account for this structural behavior when deploying long-running conversational agents.",
     "tags": [
       "llm",
       "agents",
-      "prompting"
-    ]
+      "prompting",
+      "safety"
+    ],
+    "enriched": true
   },
   {
     "id": "fc3d5f478dc2",
@@ -4030,7 +4103,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 839,
+    "points": 851,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -4159,15 +4232,20 @@
     "title": "Agent Memory's Reality Check: Why Simpler Retrieval Keeps Winning and Harnesses Split Brain From Hands",
     "url": "https://dev.to/felipe0liveira/agent-memorys-reality-check-why-simpler-retrieval-keeps-winning-and-harnesses-split-brain-from-10d1",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T17:12:41Z",
     "excerpt": "This digest covers AI agent research and engineering writing published between 2026-10-20 and 2026-11-03. It's a heavy week for agent memory in particular — several independent groups converged on the same uncomfortable finding: more complex memory doesn't automatically mean better memory. 🔥 Highlights Delivered, Not Used: Evaluating Agent Memory at Its Point of Use — resolved tasks still waste mo…",
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr9ujc6s5douxn7rq04iv.png",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Recent research highlights issues in AI agent memory, showing that complex retrieval systems often underperform compared to simple RAG approaches. Studies evaluate memory utilization, cross-session prompt injection vulnerabilities, and context compaction impacts on rule adherence. Additionally, new guardrail frameworks introduce formal verification techniques to secure tool-using agents against malicious behavior.",
     "tags": [
-      "agents"
-    ]
+      "llm",
+      "rag",
+      "research",
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "5791f8eafb04",
@@ -4277,17 +4355,20 @@
     "title": "A Shader Loop That Never Ran: What GPU Readback Found in gogpu/naga, a Go WGSL Compiler",
     "url": "https://dev.to/gogpu/a-shader-loop-that-never-ran-what-gpu-readback-found-in-gogpunaga-a-go-wgsl-compiler-41ja",
     "source": "dev.to (Go)",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-11-03T17:07:23Z",
     "excerpt": "Here's a WGSL loop: for (var j = 0u; j \u003c 4u; j++) { result[j] = j + 1u; } Until v0.20.3 in October, naga , our shader compiler written in Go, turned it into DXIL that never ran the loop. Microsoft's validator looked at the module and said it was valid. On an Intel and an NVIDIA GPU the loop body didn't execute once. The validator wasn't wrong. That's the interesting part. What the validator saw Th…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo8dnuwiog7m4ciolams5.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Developers of the Go-based WebGPU shader compiler naga discovered bugs where specific loop structures were compiled into invalid DXIL instructions that failed to execute. Standard static validators marked the modules as valid because they checked syntax rather than semantic correctness. The issues were identified by running the compiled shaders directly on physical GPUs and reading back the buffer states.",
     "tags": [
-      "chips",
+      "devtools",
+      "open-source",
       "go"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "a4abd1e2a1c1",
@@ -4579,11 +4660,14 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "AI engineering interviews in 2026 focus heavily on system design, practical reasoning, and operational challenges associated with large language models. Key topics include token management, the limitations of traditional unit testing, debugging retrieval-augmented generation pipelines, and estimating operational costs. Candidates are expected to demonstrate structured approaches to evaluating and troubleshooting language model systems.",
     "tags": [
       "llm",
       "rag",
+      "devtools",
       "tutorial"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "e14fbc55db10",
@@ -4733,7 +4817,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 234,
+    "points": 241,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -4885,16 +4969,19 @@
     "title": "LLM API Pricing Compared: Claude vs GPT vs Gemini vs DeepSeek (Live Numbers, Nov 2026)",
     "url": "https://dev.to/dijinlong/llm-api-pricing-compared-claude-vs-gpt-vs-gemini-vs-deepseek-live-numbers-nov-2026-1f4c",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T16:36:04Z",
     "excerpt": "Short version: the gap between a model vendor's list price and what you actually pay on a multi-seller LLM gateway can be an order of magnitude — but the deepest discount you see is the best tier available right now, not a price every request gets. Below is one table comparing official list prices against live effective prices for eight major model vendors. Data as of 2026-11-04 00:35 (UTC+8) . Th…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F32bcrn7xxfu5kxx66n6f.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A comparative analysis of LLM API pricing highlights significant discrepancies between official vendor list rates and effective market prices available through multi-seller gateways. Data covering major providers like Anthropic, OpenAI, and DeepSeek reveals deep discounts driven by idle quota reselling and bulk availability. These pricing dynamics allow developers to access high-performance models at reduced costs through OpenAI-compatible endpoints.",
     "tags": [
-      "llm"
-    ]
+      "llm",
+      "cloud"
+    ],
+    "enriched": true
   },
   {
     "id": "bc4177032a04",
@@ -4943,7 +5030,13 @@
     "image_url": "https://zayenz.se/_astro/workshop-planning.Q8eJeaxX.webp",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Gecode constraint programming solver has introduced open variable lists in version 6.5.0, enabling models to dynamically add variables and constraints during search. This feature facilitates planning problems where plan lengths are initially unknown, such as robotic navigation tasks with battery constraints. The release also includes experimental search algorithms and open versions of standard constraints.",
+    "tags": [
+      "devtools",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "ba273efe94ab",
@@ -5048,7 +5141,9 @@
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
       "llm"
-    ]
+    ],
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "a2a1b38b505b",
@@ -6034,7 +6129,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 395,
+    "points": 398,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6117,7 +6212,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 472,
+    "points": 475,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6651,11 +6746,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-4th-Generation-feature5.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple is preparing minor updates including tvOS 27.2.1 and macOS 27.2.1 to address security and system issues. Meanwhile, leaks indicate upcoming hardware launches such as a smart home hub, updated HomePod mini, and a new Apple TV 4K powered by the A19 chip. Additional product refreshes, including new MacBook Pro and iPad models, are anticipated in the coming weeks.",
     "tags": [
-      "ios",
       "mobile",
-      "tutorial"
-    ]
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "046907941b47",
@@ -6701,7 +6797,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 265,
+    "points": 270,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -6975,7 +7071,14 @@
     "excerpt": "Apple's research and development (R\u0026D) spending increased by $11.22 billion in fiscal 2026, reaching $45.77 billion, according to the company's financial statements . The figures represent a 32% increase from $34.55 billion in fiscal 2025. That works out to roughly $125 million a day spent on developing Apple's products and technologies during its financial year, which ended on September 26. Resea…",
     "image_url": "https://images.macrumors.com/article-new/2022/05/apple-park-sunset.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple reported a significant increase in its research and development spending for fiscal 2026, reaching $45.77 billion as investments in artificial intelligence accelerate. The company continues its busy hardware release schedule, launching several new devices featuring updated OLED displays and proprietary chips. Meanwhile, Apple addressed an inner display issue affecting the iPhone Duo in guidance sent to retail technicians.",
+    "tags": [
+      "hardware",
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "1996b88b2006",
@@ -8305,7 +8408,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 831,
+    "points": 837,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -8567,17 +8670,18 @@
     "title": "LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend",
     "url": "https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
     "source": "InfoQ",
-    "section": "coding",
+    "section": "tech",
     "published": "2026-11-03T12:00:00Z",
     "excerpt": "LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services processing those interactions. By Craig Risi",
     "image_url": "https://res.infoq.com/news/2026/11/linkedin-opentelemetry-journey/en/headerimage/generatedHeaderImage-1793095474316.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "LinkedIn has implemented an OpenTelemetry-based platform to bridge the observability gap between client-side user interactions and backend services. By tracking user journeys from mobile and web apps through to underlying databases using distributed tracing and custom context identifiers, engineers can better correlate frontend events with backend execution. The architecture handles heterogeneous tech stacks and heavy telemetry volume through coordinated sampling and structured storage.",
     "tags": [
-      "android",
-      "ios",
-      "mobile"
-    ]
+      "cloud",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "c0ab40093e73",
@@ -8625,7 +8729,13 @@
     "excerpt": "Region queueing's open for business.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/hKNsUztXzucJqhUUSdWfxj-1920-80.png",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Square Enix is introducing same-region player matchmaking for Final Fantasy 14 to reduce queue times for alliance raids and other group content. The update expands cross-world and matchmaking functionalities within physical data centers, making group organization more flexible. The feature follows a successful trial phase on Japanese servers and launches globally in November.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "632c10598e94",
@@ -8698,9 +8808,11 @@
     "image_url": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(4).jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Recent market data indicates that Call of Duty: Modern Warfare 4 experienced lower player engagement at launch in the US compared to the previous year's Black Ops 7. Analyst figures show declines across major consoles, though the title maintained a strong position in overall platform rankings. Industry observers suggest factors like the absence of a day-one Game Pass release may have affected Xbox numbers.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "e4508eb4a69f",
@@ -8768,19 +8880,32 @@
     "excerpt": "Google's best app just got better",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/10/snapseed-editing-feature-on-google-pixel-phone.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google has released version 4.2 of its Snapseed photo editing application for Android and iOS, bringing advanced professional tools to the free platform. The update introduces motion blur and depth-based lens blur effects to enhance dynamic movement and background bokeh. Additionally, users can now utilize multi-wheel color grading and import custom LUT presets from software like Lightroom.",
+    "tags": [
+      "mobile",
+      "android",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "a8b69cd19232",
     "title": "How setting up Google Drive properly stopped me from sending attachment emails to my own inbox all day",
     "url": "https://www.androidpolice.com/drive-attachments-inbox-self-email/",
     "source": "Android Police",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T11:00:10Z",
     "excerpt": "I had to get rid of emailing myself attachments",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/10/google-drive-logo-beside-colorful-folders-labeled-work-personal-receipts-temporary-and-others.png",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "An author describes how organizing Google Drive into structured folders and shortcuts helped eliminate the bad habit of emailing file attachments to their own inbox. By streamlining the document management workflow, finding important files across multiple devices became much easier and more efficient.",
+    "tags": [
+      "web",
+      "cloud"
+    ],
+    "enriched": true
   },
   {
     "id": "6f4537eaa30a",
@@ -8792,7 +8917,12 @@
     "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage \u0026 protect Apple devices at work. Over 45,000 organizations trust Mosyle to make millions of Apple devices work-ready with no effort and at an affordable…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-at-work-27.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "A podcast episode discusses the evolving enterprise trade-in market for Apple devices. Industry experts explore how rising hardware costs and extended macOS support lifecycles are impacting corporate device lifecycle management and circular economy initiatives.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "a6f42c40481c",
@@ -8813,15 +8943,18 @@
     "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
     "url": "https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
     "source": "InfoQ",
-    "section": "coding",
+    "section": "ai",
     "published": "2026-11-03T11:00:00Z",
     "excerpt": "Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides agents with bounded autonomy, continuous drift detection, and decision records to scale software development resiliently. By Nimisha Asthagiri",
     "image_url": "https://res.infoq.com/presentations/canvas-ai-agents/en/mediumimage/nimisha-asthagiri-medium-1792655073821.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "A technical presentation explores architectural parallels between managing large open-source codebases and guiding autonomous AI agents. The speaker discusses how principles like cognitive debt, guardrails, and structured context can help maintain control and direction when deploying AI agents.",
     "tags": [
+      "llm",
       "agents"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "7e31443b040e",
@@ -8866,12 +8999,17 @@
     "title": "Users pull $3.6 bn from Binance as it reopens following $6.3 billion mega-hack - FBI says North Korean hacking group 'TraderTraitor' to blame, North Korea says nuh-uh",
     "url": "https://www.pcgamer.com/software/security/users-pull-usd3-6-bn-from-binance-as-it-reopens-following-usd6-3-billion-mega-hack-fbi-says-north-korean-hacking-group-tradertraitor-to-blame-north-korea-says-nuh-uh/",
     "source": "PC Gamer",
-    "section": "gaming",
+    "section": "tech",
     "published": "2026-11-03T10:54:30Z",
     "excerpt": "Plenty of users still happy to deposit their funds into the cryptocurrency exchange nevertheless.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/eDGcGRApH6Ut5G9XMKVRHB-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Binance experienced massive user withdrawals totaling billions of dollars after reopening following a major cryptocurrency security breach. While the FBI attributes the massive hack to a North Korean state-sponsored group, government officials have denied involvement.",
+    "tags": [
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "2efe95ba891b",
@@ -9837,7 +9975,12 @@
     "excerpt": "Oppo recently confirmed that the Reno17 series will launch in China this month. Ahead of the debut, a new leak has revealed the key specs, color options, and the configurations of the Reno17 and Reno17 Pro. In a now edited post on Weibo, tipster Digital Chat Station shared new details about the upcoming Oppo Reno17 series. According to the tipster, both models in the lineup will feature a 50MP per…",
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/oppo-reno17-new-leak/-184x111/gsmarena_00.jpg",
     "weight": 1.2,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Upcoming specifications and color options for Oppo's Reno17 and Reno17 Pro smartphones have surfaced through a regulatory leak. The devices are expected to feature periscope telephoto cameras, large batteries, and high-capacity storage configurations ahead of their official launch.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "4449983fd123",
@@ -10823,7 +10966,7 @@
     "section": "tech",
     "published": "2026-11-03T01:18:09Z",
     "image_checked": true,
-    "points": 57,
+    "points": 65,
     "weight": 1,
     "first_seen": "2026-11-03T20:35:18.443973736Z",
     "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
@@ -14866,7 +15009,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 330,
+    "points": 331,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -16261,7 +16404,7 @@
     "published": "2026-11-02T04:31:20Z",
     "image_url": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
     "image_checked": true,
-    "points": 33,
+    "points": 37,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "enriched": true,
@@ -17400,7 +17543,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 36,
+    "points": 37,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "Developers are training specialized AI models to handle iterative editing tasks within Figma, aiming to speed up everyday design workflows. By moving beyond prompt engineering, the team utilized supervised fine-tuning and synthetic data generation to teach models native Figma syntax. Current efforts focus on incorporating reinforcement learning to improve generalization and better align model outputs with professional design standards.",
