@@ -1,15 +1,38 @@
 :root {
-  --bg: #1e1f22;
-  --surface: #2a2b30;
-  --surface-2: #34363c;
-  --text: #e6e7ea;
-  --muted: #9a9ca4;
-  --line: #3a3c43;
-  --c-ia: #7bd88f;
-  --c-ciencia: #f2b05e;
-  --c-tech: #6cb6ff;
-  --c-tutoriales: #d891ef;
+  color-scheme: light;
+  /* Tema claro por defecto; el oscuro se aplica abajo según el sistema. */
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-2: #eceef2;
+  --text: #1b1c1f;
+  --muted: #5b5e66;
+  --line: #dcdfe5;
+  --top-bg: rgba(244, 245, 247, .92);
+  --shadow: 0 1px 2px rgba(20, 21, 24, .08);
+  /* Colores de sección, oscurecidos para que el texto se lea sobre fondo claro */
+  --c-ia: #1d7a3c;
+  --c-ciencia: #a35f00;
+  --c-tech: #1a63b5;
+  --c-tutoriales: #8f35b8;
   --radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #1e1f22;
+    --surface: #2a2b30;
+    --surface-2: #34363c;
+    --text: #e6e7ea;
+    --muted: #9a9ca4;
+    --line: #3a3c43;
+    --top-bg: rgba(30, 31, 34, .92);
+    --shadow: none;
+    --c-ia: #7bd88f;
+    --c-ciencia: #f2b05e;
+    --c-tech: #6cb6ff;
+    --c-tutoriales: #d891ef;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -24,7 +47,7 @@ a { color: inherit; text-decoration: none; }
 .wrap { width: min(1200px, 100% - 32px); margin-inline: auto; }
 
 /* Cabecera */
-.top { position: sticky; top: 0; z-index: 10; background: rgba(30, 31, 34, .92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.top { position: sticky; top: 0; z-index: 10; background: var(--top-bg); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 .top-in { display: flex; align-items: center; gap: 24px; min-height: 56px; }
 .brand { font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .nav { display: flex; gap: 4px; overflow-x: auto; flex: 1; }
@@ -53,7 +76,13 @@ a { color: inherit; text-decoration: none; }
   position: relative; display: block; margin-top: 24px; min-height: 340px;
   border-radius: var(--radius); overflow: hidden;
   background: var(--surface);
+  /* Sobre la imagen siempre hay un velo oscuro: texto claro en ambos temas */
+  --text: #f1f2f4; --muted: #c3c5cc; color: var(--text);
 }
+.hero.sec-ia { --c: #7bd88f; }
+.hero.sec-ciencia { --c: #f2b05e; }
+.hero.sec-tech { --c: #6cb6ff; }
+.hero.sec-tutoriales { --c: #d891ef; }
 /* Respaldo de color por sección cuando no hay imagen. Se evita color-mix()
    dentro de un gradiente: algunas versiones de Chrome lo renderizan mal. */
 .hero::before, .thumb::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, var(--c), transparent 80%); opacity: .4; }
@@ -73,7 +102,7 @@ a { color: inherit; text-decoration: none; }
   display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 270px); gap: 14px;
   overflow-x: auto; padding-bottom: 12px; scroll-snap-type: x proximity; scrollbar-color: var(--surface-2) transparent;
 }
-.card { scroll-snap-align: start; background: var(--surface); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform .15s ease, background .15s ease; }
+.card { scroll-snap-align: start; box-shadow: var(--shadow); background: var(--surface); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform .15s ease, background .15s ease; }
 .card:hover { background: var(--surface-2); transform: translateY(-2px); }
 .thumb { aspect-ratio: 16 / 9; position: relative; overflow: hidden; background: var(--surface-2); }
 .thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -137,3 +166,4 @@ a { color: inherit; text-decoration: none; }
 .pg:hover { background: var(--surface-2); }
 .pg.cur { background: var(--surface-2); outline: 1px solid var(--line); font-weight: 600; }
 .hero-text .badge { justify-self: start; }
+.hero .badge { background: rgba(20, 21, 24, .75); }
