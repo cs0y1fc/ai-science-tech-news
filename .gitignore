@@ -1,0 +1,4 @@
+# Generado por cmd/build
+public/
+/build
+.env

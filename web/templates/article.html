@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>{{template "head" .}}</head>
+<body>
+  {{template "header" .}}
+
+  {{with .Article}}
+  <main class="wrap article">
+    <p class="crumbs"><a href="{{$.Section.Href}}">← {{$.Section.Label}}</a></p>
+
+    <article>
+      <div class="cover sec-{{.Section}}">
+        {{if .ImageURL}}<img src="{{img .ImageURL}}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
+      </div>
+      <span class="badge sec-{{.Section}}">{{.Section.Label}}</span>
+      <h1>{{.Title}}</h1>
+      <p class="meta">{{.Source}} · {{ago .Published}}</p>
+
+      {{if .Summary}}
+      <p class="summary">{{.Summary}}</p>
+      <p class="note">Resumen generado automáticamente a partir del artículo original.</p>
+      {{else}}
+      <p class="summary">{{.Excerpt}}</p>
+      <p class="note">Extracto proporcionado por la fuente.</p>
+      {{end}}
+
+      {{with $.Tags}}{{template "chips" .}}{{end}}
+
+      <p><a class="button" href="{{.URL}}" target="_blank" rel="noopener noreferrer">Leer el artículo original en {{.Source}} ↗</a></p>
+    </article>
+
+    {{with $.Related}}
+    <section class="row">
+      <h2>Más de {{$.Section.Label}}</h2>
+      <div class="grid">
+        {{range .}}{{template "card" .}}{{end}}
+      </div>
+    </section>
+    {{end}}
+  </main>
+  {{end}}
+
+  {{template "footer" .}}
+</body>
+</html>

@@ -1,0 +1,45 @@
+{{define "head"}}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{.Title}}</title>
+  <meta name="description" content="{{.Description}}">
+  <link rel="stylesheet" href="{{.Base}}static/style.css">
+{{end}}
+
+{{define "header"}}
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="{{.Base}}">{{.SiteName}}</a>
+      <nav class="nav">
+        {{range .Nav}}<a href="{{.Href}}">{{.Label}}</a>{{end}}
+      </nav>
+      <span class="updated" title="{{.Updated.Format "02/01/2006 15:04 UTC"}}">Actualizado {{ago .Updated}}</span>
+    </div>
+  </header>
+{{end}}
+
+{{define "footer"}}
+  <footer class="wrap foot">
+    Los resúmenes se generan automáticamente a partir de las fuentes originales y pueden contener errores. Se actualiza cada 6 horas.
+  </footer>
+{{end}}
+
+{{define "card"}}
+  <a class="card" href="{{.Href}}"{{if .External}} target="_blank" rel="noopener noreferrer"{{end}}>
+    <div class="thumb sec-{{.Article.Section}}">
+      {{if .Article.ImageURL}}<img src="{{img .Article.ImageURL}}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
+    </div>
+    <div class="card-body">
+      <span class="badge sec-{{.Article.Section}}">{{.Article.Section.Label}}</span>
+      <h3>{{.Article.Title}}</h3>
+      {{with .Article.Tags}}<span class="tags">{{range .}}<span class="tag">{{.}}</span>{{end}}</span>{{end}}
+      <span class="meta">{{.Article.Source}} · {{ago .Article.Published}}</span>
+    </div>
+  </a>
+{{end}}
+
+{{define "chips"}}
+  <div class="chips">
+    {{range .}}<a class="chip" href="{{.Href}}">#{{.Tag}}{{if .Count}} <small>{{.Count}}</small>{{end}}</a>{{end}}
+  </div>
+{{end}}

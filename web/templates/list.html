@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>{{template "head" .}}</head>
+<body>
+  {{template "header" .}}
+
+  <main class="wrap">
+    <h1 class="page-title">{{.Heading}}</h1>
+    <div class="grid">
+      {{range .Cards}}{{template "card" .}}{{end}}
+    </div>
+  </main>
+
+  {{template "footer" .}}
+</body>
+</html>
