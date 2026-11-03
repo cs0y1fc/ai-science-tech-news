@@ -1,5 +1,291 @@
 [
   {
+    "id": "7da8d94726f0",
+    "title": "Xcode 27.3 adds GitHub Copilot to its built-in coding assistant",
+    "url": "https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant/",
+    "source": "9to5Mac",
+    "section": "coding",
+    "published": "2026-11-03T21:04:18Z",
+    "excerpt": "Apple released Xcode 27.3 beta 1 today with multiple new features, chief among them an expansion of its built-in coding assistant to support GitHub Copilot. Here are the details. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/xcode.webp?w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Xcode 27.3 beta adds GitHub Copilot integration to its built‑in coding assistant, joining previous AI agents like ChatGPT, Claude, and Gemini. The update also includes Swift 6.4, new SDKs and device hub improvements. Developers can now use Copilot directly within Xcode on macOS Tahoe 26.6 or later.",
+    "tags": [
+      "devtools",
+      "llm",
+      "agents"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a242db01b26a",
+    "title": "The WoW: Forever Beta Was a Magical Experience",
+    "url": "https://www.polygon.com/wow-world-of-warcraft-forever-beta-review/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T21:01:17Z",
+    "excerpt": "World of Warcraft: Forever, which launches on Nov. 4, is a brilliant reinvention of the classic MMO by Blizzard",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/wow_forever_cinematic_still_8.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "World of Warcraft: Forever’s beta lets players revisit classic WoW with updated graphics and new content such as the Skyborne race and Zephras Isle. The reviewer notes improved visual fidelity, optional gamepad support, and a slower, more deliberate gameplay pace compared to modern releases, though some new elements feel out of place.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "298f7ab4fa1c",
+    "title": "Don’t be fooled by the fake hair on these famous baldies",
+    "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T21:01:07Z",
+    "excerpt": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Fake-Jeff-Bezos-Jason-Statham-hair-photo-edits.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Images circulating online show Jeff Bezos and Jason Statham with full heads of hair, but they are fabricated using photo‑editing or generative AI tools. The Verge’s investigation used reverse‑image search to locate the original bald photos and highlighted the difficulty of detecting such fakes on social platforms, noting current AI labeling solutions are inadequate.",
+    "tags": [
+      "security",
+      "policy"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "095c967471cf",
+    "title": "Xbox Isn’t Allowed To Market GTA 6 So It Stuck A Console Inside Of An Alligator Instead",
+    "url": "https://kotaku.com/xbox-isnt-allowed-to-market-gta-6-so-it-stuck-a-console-inside-of-an-alligator-instead-2000752847",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T21:00:56Z",
+    "excerpt": "'Xbox is heading to Florida'",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/alligator-1280x709.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Xbox announced a promotional stunt featuring an Xbox Series X placed inside a life‑size animatronic alligator, avoiding direct mention of GTA 6 due to a marketing exclusivity deal with Sony. The one‑off piece, complete with a custom controller, is offered through a sweepstakes, illustrating how companies circumvent advertising restrictions.",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4e8785a6f71c",
+    "title": "Nearly 7 in 10 professors report being bullied, often by students over grades",
+    "url": "https://phys.org/news/2026-11-professors-bullied-students-grades.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:00:10Z",
+    "excerpt": "Faculty and university staff members report being bullied in two ways: by their colleagues and supervisors, and by their students over grades, according to an international study I conducted with colleagues Zahra Moradi and Deborah Circo.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/lecture-room.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:05:01.462553724Z"
+  },
+  {
+    "id": "23646b5c3e68",
+    "title": "More power, less payoff: Study reveals a bottleneck in cleaner methanol production",
+    "url": "https://phys.org/news/2026-11-power-payoff-reveals-bottleneck-cleaner.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:00:01Z",
+    "excerpt": "Dialing up the power on electricity-driven chemical reactions doesn't guarantee that they'll be more efficient, suggests a new study, a finding that gets researchers closer to creating the ideal conditions for sustainable chemical manufacturing.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-advances-new-pat.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:05:01.462553724Z"
+  },
+  {
+    "id": "d69ab2c43b13",
+    "title": "\"It's Californian bulls***\": Wardogs CEO calls out devs who earn $100K but won't work overtime",
+    "url": "https://www.gamesradar.com/games/fps/respectfully-its-californian-bulls-wardogs-ceo-says-devs-earning-usd100k-who-dont-want-to-work-overtime-need-a-reality-check/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T21:00:00Z",
+    "excerpt": "\"When you're on the eve of releasing a game that keeps you all employed, work's more important\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/PvgsEnvfvPoB2JgWqVGBxn-1920-80.png",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Wardogs CEO Joe Brammer defended his studio's approach to crunch culture during a recent interview. He criticized developers who resist working overtime despite earning high salaries. The studio is currently preparing for a planned break following the early access success of their first-person shooter.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fc591ddcfa11",
+    "title": "Orbital Matter 3D printed the first rigid beam in the vacuum of space",
+    "url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
+    "source": "TechCrunch",
+    "section": "science",
+    "published": "2026-11-03T20:57:17Z",
+    "excerpt": "An in-space construction first could be an enabler for the space data centers of the future.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/2026-10-21_09-57-41-128.jpg?w=800",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "German startup Orbital Matter successfully 3D‑printed a half‑meter rigid beam in orbit using its Replicator‑2 satellite, marking the first such demonstration on a free‑flying spacecraft. The technology aims to enable in‑space construction of larger structures, such as solar arrays, and could support future orbital data centers. The company plans further missions and has raised a seed round.",
+    "tags": [
+      "space",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4857afeaf14d",
+    "title": "iPadOS 27.3 Expands Siri Mode to Camera App",
+    "url": "https://www.macrumors.com/2026/11/03/ipados-27-3-siri-mode-in-camera-app/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T20:56:42Z",
+    "excerpt": "iOS 27 added a Siri tab to the Camera app on the iPhone 15 Pro and newer for convenient access to Visual Intelligence. Starting with iPadOS 27.3, which is in beta starting today , that feature has expanded to iPad Pro and iPad Air models with the M1 chip and newer, as well as the iPad mini models with the A17 Pro and A20 Pro chips. When you switch to Siri mode in the Camera app on supported iPhone…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/Siri-in-Camera-Feature.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "The upcoming iPadOS 27.3 update brings the Camera app's Siri mode and Visual Intelligence features to compatible iPad Pro, Air, and mini models. Users will be able to utilize Apple Pencil integration to query information about photographed objects. Apple expects to officially release the software update in December.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a90fa8e501bb",
+    "title": "Reddit tests yet another change that absolutely no users want",
+    "url": "https://www.androidauthority.com/reddit-tests-ads-in-search-results-3731362/",
+    "source": "Android Authority",
+    "section": "tech",
+    "published": "2026-11-03T20:52:58Z",
+    "excerpt": "Soon, even your Reddit searches will have ads.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2022/03/Reddit-stock-photo-3.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Reddit has announced a new test that introduces targeted advertisements into search result pages. The platform will select a specific group of advertisers for this initial phase. The ads will use contextual relevance and other factors to match user search queries.",
+    "tags": [
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "19a98353aeec",
+    "title": "Workspace Presence: Detect Missed Realtime Messages and Refetch Authoritative State",
+    "url": "https://dev.to/ashwhispertorvin64/workspace-presence-detect-missed-realtime-messages-and-refetch-authoritative-state-icf",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T20:51:36Z",
+    "excerpt": "Recovering who is online requires choosing between reconstructing an event history and replacing a stale view; for a marketplace auction workspace, replace the view whenever its sequence has a gap. TL;DR: track the last accepted sequence on the client, refetch authoritative state after a discontinuity, and report gap frequency. A connected socket alone doesn't establish that the displayed particip…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8dcxe56pryvlvklhyah9.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "This tutorial examines how to detect missed realtime messages in distributed applications by tracking sequence numbers and refetching authoritative state when gaps occur. Using Go examples, it explains how to maintain data integrity in scenarios like an auction workspace.",
+    "tags": [
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a0ededc029a2",
+    "title": "Xbox’s first wave of November Game Pass releases includes Vampire Crawlers",
+    "url": "https://www.videogameschronicle.com/news/xboxs-first-wave-of-november-game-pass-releases-includes-vampire-crawlers/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-03T20:51:19Z",
+    "excerpt": "Xbox reveals the additions to Game Pass coming in the first half of November",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/Xbox-Game-Pass-November-games-1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Microsoft has announced the initial lineup of games coming to Xbox Game Pass for the first half of November. The new additions include titles such as Vampire Crawlers, Football Manager 27, and MySims Cozy Bundle. Additionally, several titles are scheduled to leave the service by the end of the month.",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cbfc52ea7b02",
+    "title": "Report Attachment Email API Rate Limit Errors (Preserving Template Ownership)",
+    "url": "https://dev.to/fletchervance3712/report-attachment-email-api-rate-limit-errors-preserving-template-ownership-2524",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T20:47:15Z",
+    "excerpt": "Keep the customer support report template in application source control, persist the attachment revision before sending, and handle email API 429 responses with bounded exponential backoff that honors Retry-After. Template ownership determines whether changing delivery providers requires rewriting the report workflow or replacing a transport adapter. Short answer: for a Node.js email worker, use a…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Freovfstuxcsjwm565ggm.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "This tutorial explains how to manage email API rate limit errors using exponential backoff while preserving report template ownership in application source control. It discusses separating application logic from transport adapters using Go.",
+    "tags": [
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ac225135506d",
+    "title": "A single measurement makes quantum bits more reliable",
+    "url": "https://phys.org/news/2026-11-quantum-bits-reliable.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:40:06Z",
+    "excerpt": "Researchers at the University of Regensburg and their international partners have found a way to significantly reduce errors in quantum bits. In an experiment, they demonstrated that a single additional measurement before a series of quantum operations can cut the error rate by more than half. The results have been published in Applied Physics Reviews.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-single-measurement-m.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "9f05f8879f1a",
+    "title": "Wherever there are people, there is also wildlife—though not necessarily at the same time",
+    "url": "https://phys.org/news/2026-11-people-wildlife-necessarily.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:40:01Z",
+    "excerpt": "Human-induced global change has reached an unprecedented scale and intensity. Through intensive land use and the associated loss of species, humans are permanently altering the habitats and communities of wild animals. \"How do predators manage to find their way in landscapes heavily shaped by humans and establish their niche? It is precisely this question that interested us,\" says Kathi Kasper, a…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wolves.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "4c70499edffa",
+    "title": "iPhone Duo's woes are a boon for Samsung as Galaxy Z Fold8 sales go up by 20% in a week",
+    "url": "https://www.gsmarena.com/iphone_duos_woes_are_a_boon_for_samsung_as_galaxy_z_fold8_sales_go_up_by_20_in_a_week-news-75325.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-03T20:38:02Z",
+    "excerpt": "Reports of spotty quality assurance and breaking displays have scared off some potential iPhone Duo buyers and driven them into Samsung’s arms – a report from South Korea states that Galaxy Z Fold8 sales increased by more than 20% in a week after the Duo started shipping. Something similar happened back in September when the Duo was unveiled – Z Fold8 sales went up by 10% on a week-to-week basis a…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/galaxy-z-fold8-sales-pick-up-after-iphone-duo-troubles/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Samsung experienced a surge in Galaxy Z Fold8 sales following reported quality issues with Apple's new foldable device. In response, Samsung extended upgrade promotions and trade-in bonuses to capture market share. European sales for the new Samsung foldables also outperformed previous generations.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b5b6baf8a7bc",
+    "title": "Magic: The Gathering Is Reprinting a Powerful $30 Sword With Perfect Pixel Art",
+    "url": "https://www.polygon.com/magic-the-gathering-sword-truth-justice-secret-lair-extra-life-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T20:35:17Z",
+    "excerpt": "Truth, justice... and polygons?",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/sword-of-truth-and-justice-extra-life-2026-magic.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Wizards of the Coast is releasing a new Magic: The Gathering Secret Lair collection featuring retro video game artwork. The drop includes a reprint of the valuable Sword of Truth and Justice artifact alongside Balefire Dragon. Half of the proceeds from the collection will benefit children's hospitals.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
     "id": "60b4d8884de6",
     "title": "Google will disable Search for students unless schools accept AI features in ‘Guided Learning’ push",
     "url": "https://9to5google.com/2026/11/03/google-search-ai-guided-learning-changes/",
@@ -14,6 +300,25 @@
     "tags": [
       "llm",
       "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "72fee34c6623",
+    "title": "I Dumped Apple's Fucking Word List",
+    "url": "https://helgesver.re/articles/macos-vulgar-word-flags",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T20:33:23Z",
+    "image_url": "https://helgesver.re/og/article-macos-vulgar-word-flags.png",
+    "points": 58,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "An investigation into Apple's internal word-usage database reveals how macOS and iOS track profanity to improve autocorrect. The author uncovered system dictionary classifications for sensitive and vulgar terms across multiple languages. Private framework functions were used to extract the undocumented data.",
+    "tags": [
+      "research",
+      "mobile",
+      "security"
     ],
     "enriched": true
   },
@@ -125,6 +430,25 @@
       "llm",
       "devtools",
       "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "96cefa2b4516",
+    "title": "Apple opens the door to a nightmare world of always-listening tech",
+    "url": "https://this.weekinsecurity.com/watch-what-you-say-apple-opens-the-door-to-a-nightmare-world-of-always-listening-tech/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T20:25:05Z",
+    "image_url": "https://storage.ghost.io/c/ed/a2/eda2c6f7-faef-48b4-9ed4-86a4fa4dca68/content/images/size/w1200/2026/09/twis-social-apple-watch-zw-1.jpeg",
+    "points": 10,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "Apple's new always-listening watch features raise significant privacy concerns regarding ambient audio transcription and conversation summaries. While Apple relies on encryption and local processing, critics warn that mainstreaming such technology sets a dangerous precedent. This normalization could encourage less secure surveillance products from other developers.",
+    "tags": [
+      "safety",
+      "mobile",
+      "research"
     ],
     "enriched": true
   },
@@ -321,7 +645,7 @@
     "section": "tutorials",
     "published": "2026-11-03T20:07:41Z",
     "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
-    "points": 7,
+    "points": 13,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
@@ -330,6 +654,19 @@
       "tutorial"
     ],
     "enriched": true
+  },
+  {
+    "id": "66426363bc18",
+    "title": "Would you believe it's jank?",
+    "url": "https://www.youtube.com/watch?v=tHgApFhevrQ",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-03T20:03:16Z",
+    "excerpt": "Comments",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "c9e8dced1f2b",
@@ -565,6 +902,24 @@
     "enriched": true
   },
   {
+    "id": "b0359f33c5ae",
+    "title": "Common Beliefs About DNSSEC Put to the Test: An Invitation to Fact-Check Your Assumptions",
+    "url": "https://circleid.com/posts/common-beliefs-about-dnssec-put-to-the-test-an-invitation-to-fact-check-your-assumptions",
+    "source": "Lobsters",
+    "section": "tech",
+    "published": "2026-11-03T19:45:28Z",
+    "excerpt": "Comments",
+    "image_url": "https://circleid.com/images/member_photos/photo_9505.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "This article critically examines common beliefs and historical outages surrounding DNSSEC. It evaluates the reliability of legacy documentation and explores how the protocol and its operational practices have evolved.",
+    "tags": [
+      "research",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
     "id": "6065a1d20c3d",
     "title": "This Election Day, remember which party ran against EVs and tethered us all to the gas pump",
     "url": "https://www.theverge.com/transportation/1025318/trump-gop-ev-war-record-gas-prices-midterms",
@@ -701,7 +1056,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 54,
+    "points": 98,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -782,6 +1137,24 @@
     "enriched": true
   },
   {
+    "id": "1b35b6c8242f",
+    "title": "macOS 27 does not support CoreStorage volumes",
+    "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+    "source": "Hacker News",
+    "section": "linux",
+    "published": "2026-11-03T19:27:53Z",
+    "image_checked": true,
+    "points": 5,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "The latest macOS release drops support for CoreStorage volumes and encrypted HFS+ file systems, rendering older storage media inaccessible. Users are unable to mount, convert, or erase these volumes through standard disk utilities. The operating system provides misleading error messages and lacks backward compatibility paths for affected hardware.",
+    "tags": [
+      "hardware",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
     "id": "d44503d8dcba",
     "title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
     "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/",
@@ -824,7 +1197,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 24,
+    "points": 27,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -972,7 +1345,7 @@
   },
   {
     "id": "a23cd5a8e03e",
-    "title": "Google is making it harder for schools to say no to AI",
+    "title": "Google is making it harder for schools to say no to AI (Update: Statement)",
     "url": "https://www.androidauthority.com/google-to-turn-off-ai-for-students-3731314/",
     "source": "Android Authority",
     "section": "ai",
@@ -1393,7 +1766,7 @@
   },
   {
     "id": "71f04ca6adf6",
-    "title": "iPad Mini 8 Reviewer Isn't Satisfied With Apple's Excuse for Lack of 120Hz Display",
+    "title": "iPad Mini 8 Reviewer Dissatisfied With Apple's Excuse for Lack of 120Hz Display",
     "url": "https://www.macrumors.com/2026/11/03/ipad-mini-8-review-highlights-lack-of-120hz/",
     "source": "MacRumors",
     "section": "phones",
@@ -1512,16 +1885,19 @@
     "title": "LongCat-2.5: 1.6T Parameters, 1M Context, $0.30 API",
     "url": "https://dev.to/toolpilotpro/longcat-25-16t-parameters-1m-context-030-api-gc8",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T18:34:18Z",
     "excerpt": "The most interesting AI lab of 2026 might be a food-delivery company. Meituan — the Chinese platform that delivers more meals than almost anyone on Earth — has spent two years quietly building a frontier model programme, and on November 2, 2026 its LongCat team made LongCat-2.5 generally available: a 1.6-trillion-parameter, natively multimodal model with a 1-million-token context window, priced at…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz3vaxjn7et71k9y6m94d.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Meituan has released LongCat-2.5, a 1.6-trillion-parameter sparse mixture-of-experts model featuring native multimodality and a 1-million-token context window. Priced competitively, the model is targeted at long-horizon autonomous agent tasks across various software environments. While currently accessible via its API platform and select gateways, the open-weight release is still pending.",
     "tags": [
+      "llm",
       "multimodal"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "038e98993cc8",
@@ -1683,13 +2059,12 @@
     "source": "dev.to (LLM)",
     "section": "tutorials",
     "published": "2026-11-03T18:29:18Z",
-    "excerpt": "I Tested All Claude 5.5 Models to Find the Perfect One (Here's What Happened) Devesh Korde Devesh Korde Devesh Korde Follow Nov 3 I Tested All Claude 5.5 Models to Find the Perfect One (Here's What Happened) # ai # claude # developers # llm 1  reaction Add Comment 1 min read",
+    "excerpt": "I Tested All Claude 5.5 Models to Find the Perfect One (Here's What Happened) Devesh Korde Devesh Korde Devesh Korde Follow Nov 3 I Tested All Claude 5.5 Models to Find the Perfect One (Here's What Happened) # ai # claude # developers # llm 6  reactions Add Comment 1 min read",
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1246867%2F800d4535-16ee-4186-bdb8-da61047e6694.jpeg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "tags": [
-      "llm"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "c3c20fe19c42",
@@ -1720,9 +2095,13 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "This article evaluates Claude 5.5 model variants across speed, cost, and accuracy to determine the best fit for production workloads. It compares Opus, Sonnet, and Haiku using real-world code problems rather than standard benchmarks. The analysis calculates operating costs at scale to help developers avoid overpaying for unnecessary performance.",
     "tags": [
-      "llm"
-    ]
+      "llm",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "75f00a164dff",
@@ -1769,7 +2148,14 @@
     "excerpt": "Apple announced expanded language support for the redesigned Health app, bringing personalized health insights to millions of people worldwide.",
     "image_url": "https://www.apple.com/newsroom/images/2026/11/redesigned-health-app-expands-language-support/tile/Apple-Health-app-language-expansion.jpg.og.jpg",
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple has announced an expanded language rollout and new features for its redesigned Health app, powered by on-device AI. The update introduces holistic insights, a Longevity tab with Health Age metrics, and vision-based movement evaluations. These tools operate privately on supported iPhones and Apple Watches.",
+    "tags": [
+      "mobile",
+      "ios",
+      "health"
+    ],
+    "enriched": true
   },
   {
     "id": "723d25d9d852",
@@ -1783,9 +2169,13 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "This guide explains queueing theory concepts and applies them to Go backend services to diagnose latency bottlenecks. It details how arrival rates, service rates, and resource utilization impact request wait times near system saturation. The article also covers practical approaches to worker pools and load testing.",
     "tags": [
-      "go"
-    ]
+      "go",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "e2bcb405233c",
@@ -2384,7 +2774,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 17,
+    "points": 18,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -2858,7 +3248,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 718,
+    "points": 752,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -3561,7 +3951,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 134,
+    "points": 161,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -3680,7 +4070,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 31,
+    "points": 33,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -4673,7 +5063,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 219,
+    "points": 229,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -4862,7 +5252,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 327,
+    "points": 357,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4945,7 +5335,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 400,
+    "points": 423,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5106,7 +5496,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 53,
+    "points": 55,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -5511,7 +5901,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 38,
+    "points": 45,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -5529,7 +5919,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 235,
+    "points": 253,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -5635,7 +6025,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 49,
+    "points": 56,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6600,6 +6990,19 @@
     "enriched": true
   },
   {
+    "id": "034bab33f045",
+    "title": "How McDonald's first got its start",
+    "url": "https://www.smithsonianmag.com/history/story-how-mcdonalds-first-got-its-start-180960931/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T13:12:47Z",
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
     "id": "5f8eb44c3c21",
     "title": "The 'fun and powerful' Motorola Razr Ultra (2025) is now $600 off at Best Buy",
     "url": "https://www.androidpolice.com/motorola-razr-ultra-2025-best-buy-deal-early-black-friday/",
@@ -6609,7 +7012,13 @@
     "excerpt": "Best Buy isn't waiting for Black Friday, so why should you?",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/07/motorola-razr-ultra-tree.JPG",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Best Buy is offering a 600-dollar discount on the Motorola Razr Ultra (2025) without requiring a trade-in. The foldable device features a Snapdragon 8 Elite processor, 16GB of RAM, and dual pOLED displays. Despite offering strong performance and hardware specifications, the device is limited by a shorter software support window compared to newer competitors.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "aec032b2702c",
@@ -6636,15 +7045,17 @@
     "title": "Google’s Ocarina of Time easter egg is a blast from the past",
     "url": "https://9to5google.com/2026/11/03/googles-ocarina-of-time-easter-egg-is-a-blast-from-the-past/",
     "source": "9to5Google",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T13:05:44Z",
     "excerpt": "If you’re sick of AI search and all the business of modern Google search, this week’s Google easter egg will take you back 28 years to a simpler time when Ocarina of Time was the pinnacle of gaming, and Google was still a new name. more…",
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/google-search-zelda-november-2026-02.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google has introduced a nostalgic search easter egg celebrating the legacy of The Legend of Zelda: Ocarina of Time. Users searching for specific terms can activate a retro interface styled after the search engine's appearance in 1998. The interactive feature includes period-accurate elements alongside audio cues from the game.",
     "tags": [
-      "gaming"
-    ]
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "3ebae2717113",
@@ -6839,7 +7250,9 @@
     "excerpt": "Investors didn’t seem overly happy about yesterday’s Apple earnings call despite the record results . That likely reflects the company’s cautious take on margins in the current quarter, but some have also criticized what they describe as a very “scripted” approach by new CEO John Ternus . Bloomberg was the biggest critic, describing it as a “timid” performance that left analysts “sorely disappoint…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/john-ternus-product-launch.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "c8bd0380396f",
@@ -7098,7 +7511,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 790,
+    "points": 801,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -7678,11 +8091,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Intel Compute Runtime version 26.40.40196.8 introduces default unified shared memory for the upcoming Intel GPU D Series and incorporates several performance optimizations. Additionally, the update enables the OpenCL LEO implementation by default for Nova Lake P hardware. These changes aim to improve graphics and compute capabilities across supported Linux and Windows systems.",
     "tags": [
       "linux",
-      "open-source",
-      "chips"
-    ]
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "63d6994edd33",
@@ -9607,7 +10021,7 @@
     "section": "tech",
     "published": "2026-11-03T01:18:09Z",
     "image_checked": true,
-    "points": 4,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T20:35:18.443973736Z",
     "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
@@ -11242,7 +11656,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 90,
+    "points": 96,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -12864,7 +13278,7 @@
     "published": "2026-11-02T15:23:02Z",
     "image_url": "https://thehustle.co/hubfs/undefined-Oct-30-2026-04-01-33-2861-PM.jpeg",
     "image_checked": true,
-    "points": 15,
+    "points": 21,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "enriched": true,
@@ -13637,7 +14051,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 296,
+    "points": 309,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -14099,12 +14513,17 @@
     "title": "Exploring the Legacy of Image Club Graphics",
     "url": "https://blog.somnolescent.net/2026/02/exploring-the-legacy-of-image-club-graphics/",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "tech",
     "published": "2026-11-02T12:46:28Z",
     "image_checked": true,
     "points": 9,
     "weight": 1,
-    "first_seen": "2026-11-03T18:05:26.35239174Z"
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "The article explores the history of Image Club Graphics, a pioneering digital software and stock imagery company founded in the 1980s by Greg Kolodziejzyk. It highlights the company's role in introducing digital stock photography on CD-ROM and producing resizable vector fonts. The piece reflects on the distinct aesthetic of 1990s desktop publishing materials discovered through vintage software archives.",
+    "tags": [
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "cf246908d6a8",
@@ -14624,7 +15043,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 80,
+    "points": 81,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -14725,7 +15144,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 98,
+    "points": 109,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -15019,6 +15438,19 @@
     ]
   },
   {
+    "id": "a3cc189440a8",
+    "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+    "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-02T04:31:20Z",
+    "image_url": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
+    "image_checked": true,
+    "points": 8,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:05:01.462553724Z"
+  },
+  {
     "id": "77b007ef2652",
     "title": "Borrowed reading: stories from our extended colleagues",
     "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
@@ -15073,7 +15505,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-02T02:21:07Z",
-    "points": 141,
+    "points": 143,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -15624,9 +16056,12 @@
     "points": 21,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "This article explores embedding boolean logic circuits directly into neural networks by mapping boolean operators to specific neuron weights and thresholds. It discusses using probes and stimuli as ingress and egress mappings to bridge symbolic logic with real-valued neural activations.",
     "tags": [
-      "rag"
-    ]
+      "llm",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "cbc558c8813c",
@@ -16091,7 +16526,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 296,
+    "points": 298,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -16148,7 +16583,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 9,
+    "points": 15,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z"
   },
@@ -16201,7 +16636,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 208,
+    "points": 209,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
