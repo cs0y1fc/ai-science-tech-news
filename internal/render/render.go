@@ -23,6 +23,9 @@ const (
 	topicCount = 12
 	// relatedCount son las noticias relacionadas al pie de un artículo.
 	relatedCount = 4
+	// homeMaxPages son las páginas de la portada; las demás noticias se
+	// encuentran por sección o etiqueta.
+	homeMaxPages = 4
 )
 
 // Card es un artículo listo para pintar como tarjeta.
@@ -72,6 +75,8 @@ var blurbs = map[model.Section]string{
 	model.SectionTech:      "Hardware, software, security and the technology industry.",
 	model.SectionCoding:    "Programming languages, developer tools, software engineering and open-source releases.",
 	model.SectionPhones:    "Smartphones, Android and iOS, mobile apps and the devices in your pocket.",
+	model.SectionGaming:    "Video games, consoles, PC gaming, the game industry and esports.",
+	model.SectionLinux:     "The Linux kernel, distributions, desktops and the open-source operating-system ecosystem.",
 	model.SectionTutorials: "Hands-on guides to programming and to building apps with AI.",
 }
 
@@ -248,19 +253,21 @@ type listSpec struct {
 	Tpl                              string
 	Tabs                             func(base string) []Tab
 	Topics                           bool
+	MaxPages                         int // 0 = sin límite
 	Featured                         *Card
 	Arts                             []model.Article
 }
 
 func (r *renderer) home(sel rank.Selection, visible []model.Article) error {
 	spec := listSpec{
-		Tpl:     "index.html",
-		Heading: "Latest news",
-		Title:   siteName + " · AI, science & technology news",
-		Desc:    "The latest news on artificial intelligence, science and technology, plus programming tutorials. Updated every 6 hours.",
-		Tabs:    func(base string) []Tab { return r.tabs(base, "") },
-		Topics:  true,
-		Arts:    visible,
+		Tpl:      "index.html",
+		Heading:  "Latest news",
+		Title:    siteName + " · AI, science & technology news",
+		Desc:     "The latest news on artificial intelligence, science and technology, plus programming tutorials. Updated every 6 hours.",
+		Tabs:     func(base string) []Tab { return r.tabs(base, "") },
+		Topics:   true,
+		MaxPages: homeMaxPages,
+		Arts:     visible,
 	}
 	if sel.Featured != nil {
 		c := card("", *sel.Featured)
@@ -298,6 +305,9 @@ func depth(dir string) int {
 // Dir/page/N/. La portada usa Dir vacío.
 func (r *renderer) list(sp listSpec) error {
 	total := max((len(sp.Arts)+listLimit-1)/listLimit, 1)
+	if sp.MaxPages > 0 {
+		total = min(total, sp.MaxPages)
+	}
 	for n := 1; n <= total; n++ {
 		pdir := sp.Dir
 		if n > 1 {

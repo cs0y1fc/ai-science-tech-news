@@ -30,9 +30,11 @@ Return exactly one item per article, using the same id.
 section is one of:
 - "ai": artificial intelligence, machine learning, LLMs and AI products.
 - "science": scientific discoveries and research, space, health science, physics, biology, climate.
-- "tech": the technology industry, hardware, internet, gadgets, cybersecurity and software that is not about programming or phones.
+- "tech": the technology industry, hardware, internet, gadgets, cybersecurity and software that is not about programming, phones, gaming or Linux.
 - "coding": programming languages, developer tools, frameworks, software engineering practice, open-source releases and developer-community news (not step-by-step guides).
 - "phones": smartphones, tablets and wearables, Android and iOS releases, phone reviews and leaks, mobile apps and mobile platforms.
+- "gaming": video games, consoles, PC gaming, game releases and reviews, the game industry and esports.
+- "linux": the Linux kernel, distributions, desktop environments and the open-source operating-system ecosystem (a story about a specific game goes to "gaming" even if it runs on Linux).
 - "tutorials": how-to guides, tutorials and code walkthroughs for programmers, including building apps with AI.
 - "none": anything else (politics, sports, culture, general business, personal essays, jobs posts) and any article whose text or title is not written in English.
 section_hint is only a hint from the source; correct it when it is wrong.
@@ -206,6 +208,7 @@ func apply(a model.Article, r result, p Page) (model.Article, bool) {
 	}
 
 	a.Section = sec
+	a.Skip = false // puede venir de un reprocesado de un artículo antes oculto
 	a.Summary = truncate(summary, maxSummaryLen)
 	a.Tags = CleanTags(r.Tags, maxTags)
 	a.Enriched = true

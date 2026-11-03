@@ -11,7 +11,7 @@ import (
 var Vocabulary = []string{
 	"llm", "agents", "rag", "prompting", "multimodal", "open-source", "safety", "policy",
 	"research", "startups", "chips", "hardware", "robotics", "cloud", "data", "security",
-	"web", "mobile", "android", "ios", "gaming", "devtools", "tutorial",
+	"web", "mobile", "android", "ios", "gaming", "consoles", "pc-gaming", "indie", "esports", "linux", "kernel", "devtools", "tutorial",
 	"go", "python", "javascript", "rust",
 	"space", "physics", "biology", "health", "climate", "energy", "math",
 }
@@ -51,6 +51,12 @@ var keywordRules = []struct {
 	{"llm", regexp.MustCompile(`(?i)\b(llms?|gpt|chatgpt|claude|gemini|language models?|openai|anthropic)\b`)},
 	{"android", regexp.MustCompile(`(?i)\b(android|pixel \d+|galaxy (s|z|a)\d+|samsung|oneplus)\b`)},
 	{"ios", regexp.MustCompile(`(?i)\b(ios|iphone|ipad|apple watch|ipados)\b`)},
+	{"linux", regexp.MustCompile(`(?i)\b(linux|ubuntu|debian|fedora|gnome|kde plasma|arch linux|distro)\b`)},
+	{"kernel", regexp.MustCompile(`(?i)\b(kernel|systemd)\b`)},
+	{"consoles", regexp.MustCompile(`(?i)\b(playstation|ps5|xbox|nintendo|switch 2|steam deck)\b`)},
+	{"pc-gaming", regexp.MustCompile(`(?i)\b(steam|pc gaming|pc gamer)\b`)},
+	{"indie", regexp.MustCompile(`(?i)\bindie\b`)},
+	{"esports", regexp.MustCompile(`(?i)\be-?sports?\b`)},
 	{"agents", regexp.MustCompile(`(?i)\b(agents?|agentic)\b`)},
 	{"rag", regexp.MustCompile(`(?i)\b(rag|retrieval[- ]augmented|embeddings?|vector (db|database|search))\b`)},
 	{"prompting", regexp.MustCompile(`(?i)\bprompt(s|ing)?\b`)},

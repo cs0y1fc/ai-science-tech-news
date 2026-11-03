@@ -32,6 +32,8 @@ var validSections = map[model.Section]bool{
 	model.SectionTech:      true,
 	model.SectionCoding:    true,
 	model.SectionPhones:    true,
+	model.SectionGaming:    true,
+	model.SectionLinux:     true,
 	model.SectionTutorials: true,
 }
 

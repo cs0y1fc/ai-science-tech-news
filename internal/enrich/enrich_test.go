@@ -236,3 +236,12 @@ func TestApplyKeywordTags(t *testing.T) {
 		t.Errorf("no debe tocar los ya procesados por la IA: %v", arts[1].Tags)
 	}
 }
+
+func TestApplyUnhidesReclassifiedArticle(t *testing.T) {
+	a := art("a", model.SectionTech)
+	a.Skip, a.Enriched = true, true
+	got, ok := apply(a, result{ID: "a", Section: "gaming", Summary: "A new game."}, Page{Text: "text"})
+	if !ok || got.Skip || got.Section != model.SectionGaming {
+		t.Errorf("got %+v ok=%v", got, ok)
+	}
+}

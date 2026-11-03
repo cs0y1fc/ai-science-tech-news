@@ -11,6 +11,8 @@ const (
 	SectionTech      Section = "tech"
 	SectionCoding    Section = "coding"
 	SectionPhones    Section = "phones"
+	SectionGaming    Section = "gaming"
+	SectionLinux     Section = "linux"
 	SectionTutorials Section = "tutorials"
 )
 
@@ -29,7 +31,7 @@ func (s Section) Normalize() Section {
 }
 
 // AllSections es el orden en que aparecen las secciones en la portada.
-var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionCoding, SectionPhones, SectionTutorials}
+var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionCoding, SectionPhones, SectionGaming, SectionLinux, SectionTutorials}
 
 // Label es el nombre que se muestra al lector.
 func (s Section) Label() string {
@@ -44,6 +46,10 @@ func (s Section) Label() string {
 		return "Coding"
 	case SectionPhones:
 		return "Phones"
+	case SectionGaming:
+		return "Gaming"
+	case SectionLinux:
+		return "Linux"
 	case SectionTutorials:
 		return "Tutorials"
 	}

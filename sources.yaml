@@ -132,6 +132,80 @@ sources:
     weight: 0.8
     limit: 8
 
+  # --- Videojuegos ---
+  - name: PC Gamer
+    url: https://www.pcgamer.com/rss/
+    section: gaming
+    limit: 15
+  - name: Rock Paper Shotgun
+    url: https://www.rockpapershotgun.com/feed
+    section: gaming
+    limit: 15
+  - name: Eurogamer
+    url: https://www.eurogamer.net/feed
+    section: gaming
+    limit: 15
+  - name: GamesRadar
+    url: https://www.gamesradar.com/rss/
+    section: gaming
+    weight: 0.9
+    limit: 12
+  - name: Polygon
+    url: https://www.polygon.com/rss/index.xml
+    section: gaming
+    limit: 10
+  - name: Kotaku
+    url: https://kotaku.com/rss
+    section: gaming
+    limit: 10
+  - name: VGC
+    url: https://www.videogameschronicle.com/feed/
+    section: gaming
+    limit: 10
+  - name: Nintendo Life
+    url: https://www.nintendolife.com/feeds/latest
+    section: gaming
+    weight: 0.8
+    limit: 10
+  - name: GamingOnLinux
+    url: https://www.gamingonlinux.com/article_rss.php
+    section: gaming
+    limit: 10
+
+  # --- Linux ---
+  - name: Phoronix
+    url: https://www.phoronix.com/rss.php
+    section: linux
+    weight: 1.1
+    limit: 15
+  - name: LWN.net
+    url: https://lwn.net/headlines/rss
+    section: linux
+    weight: 1.1
+    limit: 12
+  - name: OMG! Ubuntu
+    url: https://www.omgubuntu.co.uk/feed
+    section: linux
+    limit: 12
+  - name: 9to5Linux
+    url: https://9to5linux.com/feed
+    section: linux
+    limit: 10
+  - name: It's FOSS
+    url: https://itsfoss.com/feed/
+    section: linux
+    weight: 0.9
+    limit: 10
+  - name: Fedora Magazine
+    url: https://fedoramagazine.org/feed/
+    section: linux
+    weight: 0.8
+    limit: 6
+  - name: Linuxiac
+    url: https://linuxiac.com/feed/
+    section: linux
+    limit: 10
+
   # --- Tutoriales de programación e IA ---
   - name: dev.to (Go)
     url: https://dev.to/feed/tag/go

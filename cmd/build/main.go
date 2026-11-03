@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"regexp"
 	"time"
 
 	"noticias-tech/internal/dedupe"
@@ -29,16 +30,18 @@ func main() {
 	dataPath := flag.String("data", "data/articles.json", "estado persistente de artículos")
 	outDir := flag.String("out", "public", "directorio de salida del sitio")
 	siteURL := flag.String("site-url", os.Getenv("SITE_URL"), "URL pública del sitio; activa feed.xml y sitemap.xml")
+	reclassify := flag.String("reclassify", "", "expresión regular: vuelve a pasar por la IA los artículos guardados cuyo título coincida (también los ocultos)")
+	maxAI := flag.Int("max-ai", 0, "máximo de artículos por ejecución para la IA (0 = el valor por defecto)")
 	repoURL := flag.String("repo-url", os.Getenv("REPO_URL"), "URL del código fuente, para la página Acerca de")
 	flag.Parse()
 
-	if err := run(*cfgPath, *dataPath, *outDir, render.Options{SiteURL: *siteURL, RepoURL: *repoURL}); err != nil {
+	if err := run(*cfgPath, *dataPath, *outDir, *reclassify, *maxAI, render.Options{SiteURL: *siteURL, RepoURL: *repoURL}); err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(1)
 	}
 }
 
-func run(cfgPath, dataPath, outDir string, ropts render.Options) error {
+func run(cfgPath, dataPath, outDir, reclassify string, maxAI int, ropts render.Options) error {
 	srcs, err := sources.LoadConfig(cfgPath)
 	if err != nil {
 		return err
@@ -65,7 +68,14 @@ func run(cfgPath, dataPath, outDir string, ropts render.Options) error {
 	all := store.Merge(old, unique, now, retention)
 
 	opts := rank.Options{Now: now}
-	enrichWithAI(all, opts)
+	forced, err := matchTitles(all, reclassify)
+	if err != nil {
+		return err
+	}
+	if reclassify != "" {
+		fmt.Printf("Reprocesado: %d artículos guardados coinciden con la expresión\n", len(forced))
+	}
+	enrichWithAI(all, opts, forced, maxAI)
 	fillImages(all, opts)
 	enrich.ApplyKeywordTags(all)
 
@@ -104,7 +114,7 @@ func run(cfgPath, dataPath, outDir string, ropts render.Options) error {
 // Variables de entorno: LLM_API_KEY, LLM_MODEL y, opcionalmente, LLM_BASE_URL
 // (por defecto el endpoint compatible con OpenAI de Gemini). Los respaldos
 // se definen igual con prefijo LLM2_, LLM3_… (con BASE_URL obligatoria).
-func enrichWithAI(all []model.Article, opts rank.Options) {
+func enrichWithAI(all []model.Article, opts rank.Options, forced map[string]bool, maxAI int) {
 	client, err := enrich.ChainFromEnv()
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "aviso: IA desactivada:", err)
@@ -115,9 +125,18 @@ func enrichWithAI(all []model.Article, opts rank.Options) {
 		return
 	}
 
+	// Primero los artículos a reprocesar (también los ocultos), luego los
+	// candidatos de la portada que aún no ha visto la IA.
 	var todo []model.Article
+	queued := map[string]bool{}
+	for _, a := range all {
+		if forced[a.ID] {
+			todo = append(todo, a)
+			queued[a.ID] = true
+		}
+	}
 	for _, a := range rank.Candidates(all, opts) {
-		if !a.Enriched {
+		if !a.Enriched && !queued[a.ID] {
 			todo = append(todo, a)
 		}
 	}
@@ -128,7 +147,11 @@ func enrichWithAI(all []model.Article, opts rank.Options) {
 
 	ctx, cancel := context.WithTimeout(context.Background(), enrichTimeout)
 	defer cancel()
-	done, st := enrich.New(client, enrich.NewHTTPPages()).Enrich(ctx, todo)
+	enricher := enrich.New(client, enrich.NewHTTPPages())
+	if maxAI > 0 {
+		enricher.MaxPerRun = maxAI
+	}
+	done, st := enricher.Enrich(ctx, todo)
 
 	byID := make(map[string]model.Article, len(done))
 	for _, a := range done {
@@ -144,6 +167,26 @@ func enrichWithAI(all []model.Article, opts rank.Options) {
 		fmt.Print(" · límite de uso alcanzado (se reintentará en la próxima ejecución)")
 	}
 	fmt.Println()
+}
+
+// matchTitles devuelve los IDs de los artículos guardados cuyo título
+// coincide con la expresión (sin distinguir mayúsculas). Vacía, no devuelve
+// ninguno.
+func matchTitles(all []model.Article, expr string) (map[string]bool, error) {
+	if expr == "" {
+		return nil, nil
+	}
+	re, err := regexp.Compile("(?i)" + expr)
+	if err != nil {
+		return nil, fmt.Errorf("-reclassify: %w", err)
+	}
+	out := map[string]bool{}
+	for _, a := range all {
+		if re.MatchString(a.Title) {
+			out[a.ID] = true
+		}
+	}
+	return out, nil
 }
 
 // fillImages busca la imagen de los mejores artículos que no la traen en el

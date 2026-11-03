@@ -6,7 +6,7 @@ Es un sitio **estático** generado por un programa en Go y publicado en GitHub P
 
 ## Qué hace
 
-1. **Recoge** las últimas noticias de 36 fuentes gratuitas (feeds RSS y la API pública de Hacker News).
+1. **Recoge** las últimas noticias de 52 fuentes gratuitas (feeds RSS y la API pública de Hacker News).
 2. **Deduplica** por URL normalizada y por título.
 3. **Puntúa** cada noticia y elige la destacada y las mejores de cada sección.
 4. **Enriquece con IA** (capa gratuita): resumen corto, sección y etiquetas. Oculta lo que no trata de estos temas.
@@ -17,8 +17,8 @@ Es un sitio **estático** generado por un programa en Go y publicado en GitHub P
 
 | Ruta | Contenido |
 |---|---|
-| `/` | Noticia destacada, temas del momento y todas las noticias por orden de llegada (más recientes primero), con pestañas por sección (AI, Science, Technology, Coding, Phones, Tutorials) y paginación (24 por página) |
-| `/s/{section}/` (`ai`, `science`, `tech`, `coding`, `phones`, `tutorials`) | Lista paginada de una sección, con sus temas |
+| `/` | Noticia destacada, temas del momento y todas las noticias por orden de llegada (más recientes primero), con pestañas por sección (AI, Science, Technology, Coding, Phones, Gaming, Linux, Tutorials) y paginación (24 por página, hasta 4 páginas en la portada; las demás noticias se ven por sección o etiqueta) |
+| `/s/{section}/` (`ai`, `science`, `tech`, `coding`, `phones`, `gaming`, `linux`, `tutorials`) | Lista paginada de una sección, con sus temas |
 | `/t/{tag}/` | Todo lo de una etiqueta |
 | `/n/{id}/` | Resumen de una noticia, con enlace al original y noticias relacionadas |
 | `/about/` | Cómo se genera, límites de los resúmenes y lista de fuentes |
@@ -69,7 +69,7 @@ La puntuación solo decide la **noticia destacada** (la mejor de los últimos 3 
 - Habla con cualquier API compatible con *Chat Completions* de OpenAI (Gemini, Groq, Mistral…).
 - Procesa los artículos nuevos en lotes de 5, hasta 30 por ejecución, y guarda el resultado: no repite trabajo.
 - Las etiquetas salen de un **vocabulario cerrado** de unas 30 (`llm`, `agents`, `space`, `go`, `tutorial`…) para que sean coherentes.
-- La sección debe ser una de `ai`, `science`, `tech`, `coding`, `phones`, `tutorials` o `none`; con `none` la noticia se oculta, y también si no está escrita en inglés.
+- La sección debe ser una de `ai`, `science`, `tech`, `coding`, `phones`, `gaming`, `linux`, `tutorials` o `none`; con `none` la noticia se oculta, y también si no está escrita en inglés.
 - **Cadena de respaldo:** si el proveedor principal falla o agota su cuota, la misma petición pasa al siguiente. Un proveedor limitado, o que falla 3 veces seguidas, se salta el resto de la ejecución.
 - **Sin IA o si falla:** la web sigue funcionando con el extracto del feed y etiquetas por palabras clave. Nunca queda vacía.
 - Sin texto de origen no se genera resumen, para no inventarlo.
@@ -131,6 +131,16 @@ Configuración necesaria en el repositorio (*Settings*):
 
 `SITE_URL` y `REPO_URL` las calcula el propio workflow.
 
+## Reprocesar artículos con la IA
+
+Si añades una sección o cambias el vocabulario, los artículos ya guardados no se reevalúan solos. Para reprocesar los que coincidan con una expresión regular sobre el título (también los que estaban ocultos):
+
+```bash
+go run ./cmd/build -reclassify 'linux|ubuntu|kernel' -max-ai 200
+```
+
+o, sin tocar claves en local, desde GitHub: *Actions → Actualizar y publicar → Run workflow*, rellenando `reclassify` y `max_ai`.
+
 ## Añadir o quitar fuentes
 
 Edita `sources.yaml`; no hace falta tocar código:
@@ -138,7 +148,7 @@ Edita `sources.yaml`; no hace falta tocar código:
 ```yaml
 - name: Nombre visible
   url: https://ejemplo.com/feed.xml
-  section: tech          # ai | science | tech | coding | phones | tutorials
+  section: tech          # ai | science | tech | coding | phones | gaming | linux | tutorials
   type: rss              # rss (por defecto) | hn
   weight: 1.0            # relevancia relativa (por defecto 1)
   limit: 20              # máximo de artículos por ejecución

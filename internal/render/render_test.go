@@ -331,3 +331,31 @@ func TestThemeToggle(t *testing.T) {
 	page := read(t, build(t), "index.html")
 	mustContain(t, "portada", page, `class="theme-toggle"`, `localStorage.getItem("theme")`)
 }
+
+func TestHomeStopsAtMaxPages(t *testing.T) {
+	var all []model.Article
+	for i := 0; i < listLimit*(homeMaxPages+2); i++ {
+		all = append(all, model.Article{
+			ID: fmt.Sprintf("a%03d", i), Title: "T", URL: fmt.Sprintf("https://x.com/%d", i),
+			Section: model.SectionTech, Published: now.Add(-time.Duration(i) * time.Minute),
+		})
+	}
+	out := t.TempDir()
+	if err := Site(web.FS, out, now, rank.Selection{}, all); err != nil {
+		t.Fatal(err)
+	}
+	last := read(t, out, fmt.Sprintf("page/%d/index.html", homeMaxPages))
+	if strings.Contains(last, `rel="next"`) {
+		t.Error("the last home page must not link onwards")
+	}
+	if strings.Contains(read(t, out, "index.html"), fmt.Sprintf(`>%d</a>`, homeMaxPages+1)) {
+		t.Errorf("home must not link to page %d", homeMaxPages+1)
+	}
+	if exists(out, fmt.Sprintf("page/%d/index.html", homeMaxPages+1)) {
+		t.Errorf("page %d must not exist", homeMaxPages+1)
+	}
+	// Sections are not capped.
+	if !exists(out, "s/tech/page/6/index.html") {
+		t.Error("section pages keep full pagination")
+	}
+}

@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+    inputs:
+      reclassify:
+        description: "Opcional: expresión regular; los artículos guardados cuyo título coincida vuelven a pasar por la IA"
+        required: false
+        default: ""
+      max_ai:
+        description: "Máximo de artículos para la IA en esta ejecución (0 = valor por defecto)"
+        required: false
+        default: "0"
   push:
     branches: [main]
 
@@ -32,6 +41,8 @@ jobs:
 
       - name: Generar el sitio
         env:
+          RECLASSIFY: ${{ inputs.reclassify }}
+          MAX_AI: ${{ inputs.max_ai }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
           REPO_URL: ${{ github.server_url }}/${{ github.repository }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
@@ -42,7 +53,7 @@ jobs:
           LLM3_API_KEY: ${{ secrets.LLM3_API_KEY }}
           LLM3_MODEL: ${{ vars.LLM3_MODEL }}
           LLM3_BASE_URL: ${{ vars.LLM3_BASE_URL }}
-        run: go run ./cmd/build
+        run: go run ./cmd/build -reclassify "$RECLASSIFY" -max-ai "${MAX_AI:-0}"
 
       - name: Guardar el estado (data/articles.json)
         run: |
