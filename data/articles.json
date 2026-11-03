@@ -1,5 +1,391 @@
 [
   {
+    "id": "abad5ebcdba7",
+    "title": "\"Steam's review queue is clogged up by AI slop\": Salacious Fire Emblem-ish Food Devils gets a delay because its devs think Valve is inundated with genAI games",
+    "url": "https://www.rockpapershotgun.com/steams-review-queue-is-clogged-up-by-ai-slop-salacious-fire-emblem-ish-food-devils-gets-a-delay-because-its-devs-think-valve-is-inundated-with-genai-games",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-03T21:41:08Z",
+    "excerpt": "You might have seen that for today's grub, Edwin decided to in part feed The Maw with Food Devils, an incredibly salacious, foodie take on Fire Emblem, as it was meant to release today. The only problem is, it's not actually out yet. That might prompt you to call Edwin a rotten liar and march up to his castle at the top of the hill on a dark and stormy night with pitchforks and torches, but I bese…",
+    "image_url": "https://assetsio.gnwcdn.com/food-devils.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "The release of the tactical role-playing game Food Devils has been delayed due to extended review times on Steam. The developers attribute the backlog to a surge of AI-generated games flooding the platform's approval queue. Valve has reported a significant increase in games featuring AI disclosures over the past year.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b89ce8f9defe",
+    "title": "Mass Effect Fans Are Trying to Make This N7 Day the Biggest One Ever",
+    "url": "https://www.polygon.com/mass-effect-n7-day-fans-play-together/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T21:40:53Z",
+    "excerpt": "Mass Effect fans are asking players on every platform to boot up the games together on Saturday, Nov. 7, from 2 to 5 p.m. ET, for N7 Day",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/assets/2133933/commander_shepard_by_donabruja-d4v001d.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Fans of the Mass Effect franchise are organizing a synchronized community event on N7 Day to demonstrate the enduring popularity of the series. Following news about BioWare's closure, players are encouraged to boot up a Mass Effect game simultaneously across various platforms. The initiative accompanies ongoing fan campaigns, including petitions and billboards, aimed at showing continued support for the science-fiction role-playing games.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "beb4bff996ff",
+    "title": "Study finds stronger trade secret protection leads firms to break down innovation silos",
+    "url": "https://phys.org/news/2026-11-stronger-secret-firms-silos.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:40:12Z",
+    "excerpt": "To guard proprietary know-how, many firms separate their inventors into independent groups so that no single employee sees too much of the organization's knowledge. New research published in Strategic Management Journal finds that when U.S. states strengthened trade secret law, high-tech firms relied less on this kind of compartmentalization and connected their inventors more broadly—and the inven…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2025/firm.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "df47f868da71",
+    "title": "A laser can draw superconductivity at the nanoscale",
+    "url": "https://phys.org/news/2026-11-laser-superconductivity-nanoscale.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:40:02Z",
+    "excerpt": "Researchers from ICMAB-CSIC, the Politecnico di Milano and Université de Liège have adapted a direct laser writing technique that allows them to \"draw\" superconducting properties in a material. The result is a new way to locally program the behavior of a superconductor, tuning it from a fully superconducting state to an insulating one with extraordinary precision.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/this-article-has-been.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "2ffb9ca311f1",
+    "title": "9to5Mac Daily: November 3, 2026 – Apple reports Q4 earnings",
+    "url": "https://9to5mac.com/2026/11/03/daily-november-3-2026/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T21:30:02Z",
+    "excerpt": "Listen to a recap of the top stories of the day from  9to5Mac . 9to5Mac Daily is available  on iTunes and Apple’s Podcasts app ,  Stitcher ,  TuneIn ,  Google Play , or through our  dedicated RSS feed  for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Apple reported its Q4 2026 earnings, posting $114.5 billion in revenue, which is a 12% increase year-over-year. The company noted record R\u0026D spending of $45.77 billion for the fiscal year. Despite anticipating its largest revenue quarter ever, Apple cautioned that memory costs and Siri AI investments may impact holiday profit margins.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bf7fc72b70b6",
+    "title": "The Sideload 050: The phones Samsung and Google won’t make",
+    "url": "https://9to5google.com/2026/11/03/the-sideload-050-the-phones-samsung-and-google-wont-make/",
+    "source": "9to5Google",
+    "section": "phones",
+    "published": "2026-11-03T21:30:00Z",
+    "excerpt": "Welcome to episode 50 of The Sideload, a 9to5Google podcast. This week, Will and Daniel are joined by Nick Sutrich to discuss the ever-present split between North American and global phones, what the marketplace looks like with OnePlus gone, and why your next smartphone might actually replace your Steam Deck. Plus, some thoughts on how AI is choking out the games space. Sponsored by NordVPN : List…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/sideload-podcast-wider-copy-1.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "A technology podcast episode discusses regional differences in smartphone availability, the state of the mobile market, and how AI developments intersect with gaming. The hosts also examine hardware components such as camera sensors and batteries. Additionally, they explore potential modular accessories for mobile devices.",
+    "tags": [
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fb57b7fa0b3b",
+    "title": "Don’t miss this scary-good deal: make your wireless bill less frightening this Halloween",
+    "url": "https://9to5mac.com/2026/11/03/dont-miss-this-scary-good-deal-make-your-wireless-bill-less-frightening-this-halloween/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T21:27:24Z",
+    "excerpt": "Halloween is full of tricks, but your phone bill doesn’t have to be one of them. While mobile carriers might advertise plans starting from low monthly fees, the reality for most people is that they are paying $60 to $100 per month or more. Comparing your current plan to the Tello Mobile equivalent is likely to reveal that you are significantly overpaying, and that you can get the same coverage for…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/1920-x-1080.png?w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Independent mobile virtual network operators offer cellular plans with coverage comparable to major carriers at a fraction of the cost. Tello Mobile provides flexible, contract-free 5G plans starting from low monthly rates, including free international calling. A limited-time promotion discounts one of its mid-tier data packages for new subscribers.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3f3380d961ed",
+    "title": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T21:25:48Z",
+    "image_checked": true,
+    "points": 12,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "tags": [
+      "llm",
+      "startups"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "9155279fed4f",
+    "title": "$1,200 Off the iPhone Duo? Here’s How Carrier Deals Actually Work",
+    "url": "https://www.wired.com/story/iphone-duo-carrier-deal-november-2026/",
+    "source": "Wired",
+    "section": "phones",
+    "published": "2026-11-03T21:25:25Z",
+    "excerpt": "T-Mobile, AT\u0026T, and Verizon are offering incentives of up to $1,200 off the iPhone Duo, but you will need to commit to a 36-month plan, which can be expensive.",
+    "image_url": "https://media.wired.com/photos/6aea4b96e416db7de4d0d053/master/pass/iPhone%20Duo%20Deal%20112026%20top%20art%20SOURCE%20Apple.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Major US carriers such as T-Mobile, AT\u0026T, and Verizon are offering promotional discounts of up to $1,200 on Apple's expensive foldable phone, the iPhone Duo. These deals typically require customers to commit to multi-year service contracts and device payment plans, with the discount distributed as monthly bill credits. Additional trade-in incentives and bundle offers are also available for select customers.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cb6647f108bd",
+    "title": "AI Character Chat Apps for Roleplay Writers: What Actually Matters (Memory, Lore, Group Scenes and Content Controls)",
+    "url": "https://dev.to/pogee/ai-character-chat-apps-for-roleplay-writers-what-actually-matters-memory-lore-group-scenes-and-3091",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T21:24:21Z",
+    "excerpt": "If you write stories with AI characters, you already know that the marketing page of an app tells you almost nothing. Every listing promises \"immersive\" conversations and \"characters that feel real.\" What you actually care about is narrower and more practical: will the character remember the scar you gave them in chapter two, can you keep a world's rules consistent across fifty scenes, and can you…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcet819ibjsv95i1s8v27.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "4e9f0aaa0128",
+    "title": "Ubisoft Among Those Bidding On Marvel’s Blade Studio Arkane",
+    "url": "https://kotaku.com/ubisoft-among-those-bidding-on-marvels-blade-studio-arkane-2000752854",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T21:23:36Z",
+    "excerpt": "Xbox is trying to cut the studio loose without closing it",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/GettyImages-2300557789-e1793740977164-1280x709.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "a4e0a9a225b6",
+    "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
+    "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T21:21:04Z",
+    "excerpt": "It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, and these features are meant to be lived with in day-to-day life. We're definitely going to do that over the next […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/liverewind.jpg?quality=90\u0026strip=all\u0026crop=0%2C7.0647280488212%2C100%2C85.870543902358\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "tags": [
+      "ios"
+    ]
+  },
+  {
+    "id": "b204b66a4e2b",
+    "title": "Plant-inspired natural coatings can beat forever chemicals",
+    "url": "https://phys.org/news/2026-11-natural-coatings-chemicals.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:20:04Z",
+    "excerpt": "Polyfluoroalkyl substances (PFAS) are known as \"forever chemicals\" because of the impact they make on the environment and human bodies. Much of modern manufacturing relies on these substances for safe packaging, fire protection and waterproof coatings.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/plant-inspired-natural-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "9b81faadf7de",
+    "title": "Cold storage can extend shelf life of platelets for dogs facing life-threatening bleeding",
+    "url": "https://phys.org/news/2026-11-cold-storage-shelf-life-platelets.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T21:20:01Z",
+    "excerpt": "Veterinarians often have limited access to one of the most effective tools for controlling life-threatening bleeding complications in dogs: platelets.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wsu-research-could-sav.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "78da873c3350",
+    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+    "url": "https://github.com/finic-ai/kairos",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-03T21:16:48Z",
+    "image_url": "https://opengraph.githubassets.com/762e315693671ef15400f1f6fffb07ad54479b2dfd75b8dd0887f21d114e496c/finic-ai/kairos",
+    "points": 11,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Kairos is an open-source fraud decisioning and risk management platform designed for developers. It integrates with AI coding assistants over the Model Context Protocol to automatically build workflows, propose model variants, and tune decisions. The platform combines traditional machine learning with natural language reasoning models to process real-time transactional events.",
+    "tags": [
+      "open-source",
+      "devtools",
+      "python",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "acd782bb7b38",
+    "title": "Property Email Timeout Troubleshooting: Audit Suppression Across Identity Handoffs",
+    "url": "https://dev.to/wilhelmknight8435/property-email-timeout-troubleshooting-audit-suppression-across-identity-handoffs-2cbh",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T21:15:28Z",
+    "excerpt": "A property manager needs timely transactional email, but retrying a notice after an API response timeout can undermine the evidence needed to explain who was contacted and why. TL;DR: investigate network latency, configure bounded HTTP deadlines, and reconcile an uncertain send before retrying it; preserve the original operation identity and check recipient suppression again before dispatch. A tim…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjbhygpalscau1qz1722v.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Transactional email troubleshooting for property management requires distinguishing network timeouts from provider rejections to ensure accurate audit trails. Developers must configure bounded HTTP deadlines, carefully manage retry policies, and preserve operation identifiers without restoring recipient suppression status. Using a unified API can simplify authentication handoffs across identity and notification services.",
+    "tags": [
+      "tutorial",
+      "go",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c7f9f27f5654",
+    "title": "Ubisoft has reportedly offered to buy Arkane Lyon from Xbox",
+    "url": "https://www.videogameschronicle.com/news/ubisoft-has-reportedly-offered-to-buy-arkane-lyon-from-xbox/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-03T21:15:26Z",
+    "excerpt": "A new report suggests that Arkane Lyon could go indie, or be bought by Ubisoft",
+    "image_url": "https://www.videogameschronicle.com/files/2023/09/dishonored.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "tags": [
+      "consoles",
+      "indie",
+      "gaming"
+    ]
+  },
+  {
+    "id": "f57533a0faeb",
+    "title": "Private Document Uploads: How to Choose Presigned URLs vs Server Proxy",
+    "url": "https://dev.to/ignatiuscole6932/private-document-uploads-how-to-choose-presigned-urls-vs-server-proxy-1p",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-03T21:14:59Z",
+    "excerpt": "When an e-commerce checkout stores a receipt, the hard constraint is access control, not upload latency. Short answer: use a server proxy for small private documents, and use backend-issued presigned uploads for larger ones; avoid a fully self-serve browser-to-bucket flow unless you have already verified the provider's CORS behavior for the exact bucket. I learned to make that decision during a re…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1g388rpssqcn05v7564n.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Choosing between server proxies and presigned URLs for private document uploads involves balancing access control, bandwidth costs, and architecture complexity. Server proxies handle small files securely through backend validation, while presigned URLs offload large uploads directly to object storage. Implementing these patterns in Go helps maintain idempotency and robust audit trails for sensitive user transactions.",
+    "tags": [
+      "tutorial",
+      "go",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "aff4fb0322ed",
+    "title": "Google Messages redesigning pinned chats and moving search",
+    "url": "https://9to5google.com/2026/11/03/google-messages-pinned-chats-redesign/",
+    "source": "9to5Google",
+    "section": "phones",
+    "published": "2026-11-03T21:14:05Z",
+    "excerpt": "In addition to the new app icon , Google Messages is testing a redesign of pinned chats and search on the homepage. more…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/google-messages-thread-1.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "442222879b58",
+    "title": "DC Studios Has Officially Cast Its New Robin",
+    "url": "https://www.polygon.com/dc-studios-cast-robin-dynamic-duo-movie/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T21:13:45Z",
+    "excerpt": "DC has cast Mason Thames (How to Train Your Dragon) as one of the Robins in its upcoming animated movie Dynamic Duo.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/batman-and-robin.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "3100806aa9cf",
+    "title": "The Internet’s Conspiracy Theorists Are Desperate for Voter Fraud",
+    "url": "https://www.wired.com/story/the-internets-conspiracy-theorists-are-desperate-for-voter-fraud/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T21:11:00Z",
+    "excerpt": "Influencers, watchdogs, and MAGA pundits are convinced that election fraud is everywhere today, despite a lack of apparent evidence.",
+    "image_url": "https://media.wired.com/photos/6ae50b80941f4f67ee5f2a88/master/pass/GettyImages-2300813713.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "4857afeaf14d",
+    "title": "iPadOS 27.3 Expands Siri Mode to Camera App",
+    "url": "https://www.macrumors.com/2026/11/03/ipados-27-3-siri-mode-in-camera-app/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T21:07:21Z",
+    "excerpt": "iOS 27 added a Siri tab to the Camera app on the iPhone 15 Pro and newer for convenient access to Visual Intelligence. Starting with iPadOS 27.3, which is in beta starting today , that feature has expanded to iPad Pro and iPad Air models with the M1 chip and newer, as well as the iPad mini models with the A17 Pro and A20 Pro chips. When you switch to Siri mode in the Camera app on supported iPhone…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/Siri-in-Camera-Feature.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "summary": "The upcoming iPadOS 27.3 update brings the Camera app's Siri mode and Visual Intelligence features to compatible iPad Pro, Air, and mini models. Users will be able to utilize Apple Pencil integration to query information about photographed objects. Apple expects to officially release the software update in December.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "032b81f3baec",
+    "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+    "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T21:05:55Z",
+    "excerpt": "Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet, retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s because Palantir’s enterprise sales, its big growth area, showed signs of slowing. First, the good […]",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "5c1a7d66e5fb",
+    "title": "Expanding Horizons: How Wuthering Waves Won Over a Global Audience Through Sustained Live Support",
+    "url": "https://www.videogameschronicle.com/news/expanding-horizons-how-wuthering-waves-won-over-a-global-audience-through-sustained-live-support/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-03T21:05:22Z",
+    "excerpt": "Wuthering Waves is now more than two years old, but somehow, it’s bigger and more …",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/HVyOjFIa8AIzUvO.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "7875cef8c824",
+    "title": "Peak Design’s new wireless charging stand pulls double duty, literally",
+    "url": "https://9to5google.com/2026/11/03/peak-design-new-charging-accessories/",
+    "source": "9to5Google",
+    "section": "phones",
+    "published": "2026-11-03T21:05:00Z",
+    "excerpt": "The three new charging accessories from Peak Design hit the high notes, like (dual) Qi2 wireless charging and wired fast charging without bulky bricks. more…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Peak-Design-chargers-5.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
     "id": "7da8d94726f0",
     "title": "Xcode 27.3 adds GitHub Copilot to its built-in coding assistant",
     "url": "https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant/",
@@ -19,8 +405,27 @@
     "enriched": true
   },
   {
+    "id": "b00b1aa47925",
+    "title": "本地 Qwen 3.8 27B 能仅凭权重识别游戏吗？",
+    "url": "https://dev.to/arthur1988/ben-di-qwen-38-27b-neng-jin-ping-quan-zhong-shi-bie-you-xi-ma--f72",
+    "source": "dev.to (LLM)",
+    "section": "ai",
+    "published": "2026-11-03T21:02:57Z",
+    "excerpt": "把神经网络权重当作文本来读 如果把一个策略网络的权重直接交给大语言模型，不让它运行网络，也不允许调用工具，它能判断这个网络学会了玩什么游戏吗？ 一组使用本地 Qwen 3.8 27B 的测试尝试了这个问题。四个案例中，模型识别出了 Pac-Man、Pong 和 Breakout，但把 Freeway 判断成了类似吃豆人的游戏。 在讨论结果前，需要区分 Weight-Space Programming（权重空间编程） 中两种不同的任务： 直接分析权重文本 ：不调用工具，根据数值及任务说明推断网络可能具备的行为。 借助代码操作权重 ：通过程序修改另一个模型的参数，尝试调整其行为或改善性能。 这两类任务的实验条件和能力要求不同。本文讨论的是第一类，而不是自动修改权重的实验。 实验设置：四个小型游戏策略网络 测试涉及四个经过强化学习训练的策略网络，分别对应简化的 10×10 网格游戏 ： 游戏 基…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhq6x7tp10dm9m2wlfzat.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "A recent experiment evaluated whether a local large language model could identify simple reinforcement learning games solely by analyzing their neural network weights. Using Qwen 3.8 27B, the model successfully deduced the game types for Pac-Man, Pong, and Breakout without executing code or calling tools. However, the process required significant computational time, and the approach remains limited to analysis rather than automated model modification.",
+    "tags": [
+      "llm",
+      "research",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
     "id": "a242db01b26a",
-    "title": "The WoW: Forever Beta Was a Magical Experience",
+    "title": "WoW: Forever's Beta Was Pure Magic. No One Knows What Happens Next",
     "url": "https://www.polygon.com/wow-world-of-warcraft-forever-beta-review/",
     "source": "Polygon",
     "section": "gaming",
@@ -38,7 +443,7 @@
   },
   {
     "id": "298f7ab4fa1c",
-    "title": "Don’t be fooled by the fake hair on these famous baldies",
+    "title": "Those Jeff Bezos hair transplant photos are very fake",
     "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
     "source": "The Verge",
     "section": "tech",
@@ -133,20 +538,20 @@
     "enriched": true
   },
   {
-    "id": "4857afeaf14d",
-    "title": "iPadOS 27.3 Expands Siri Mode to Camera App",
-    "url": "https://www.macrumors.com/2026/11/03/ipados-27-3-siri-mode-in-camera-app/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-03T20:56:42Z",
-    "excerpt": "iOS 27 added a Siri tab to the Camera app on the iPhone 15 Pro and newer for convenient access to Visual Intelligence. Starting with iPadOS 27.3, which is in beta starting today , that feature has expanded to iPad Pro and iPad Air models with the M1 chip and newer, as well as the iPad mini models with the A17 Pro and A20 Pro chips. When you switch to Siri mode in the Camera app on supported iPhone…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/Siri-in-Camera-Feature.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T21:05:01.462553724Z",
-    "summary": "The upcoming iPadOS 27.3 update brings the Camera app's Siri mode and Visual Intelligence features to compatible iPad Pro, Air, and mini models. Users will be able to utilize Apple Pencil integration to query information about photographed objects. Apple expects to officially release the software update in December.",
+    "id": "f85d6442d8d3",
+    "title": "ChatGPT has hit roughly 20% of Google Search volume, OpenAI says",
+    "url": "https://9to5google.com/2026/11/03/chatgpt-has-hit-roughly-20-of-google-search-volume-openai-says/",
+    "source": "9to5Google",
+    "section": "ai",
+    "published": "2026-11-03T20:55:00Z",
+    "excerpt": "According to OpenAI, ChatGPT has managed to grow its search use to around 20% of Google Search’s total volume, a staggering figure. more…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/04/chatgpt-android-1.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "OpenAI reports that ChatGPT handles roughly 20% of the search volume generated by Google. The milestone highlights ChatGPT's growing role as an alternative search engine. OpenAI executives note that users are receptive to personalization and potential ad integration as the product scales.",
     "tags": [
-      "mobile",
-      "ios"
+      "llm",
+      "web"
     ],
     "enriched": true
   },
@@ -252,6 +657,24 @@
     ]
   },
   {
+    "id": "d3f05a61364c",
+    "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+    "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+    "source": "Ars Technica",
+    "section": "science",
+    "published": "2026-11-03T20:39:55Z",
+    "excerpt": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Ukrainian drone strikes targeting Russian data centers have prompted emergency plans to relocate and construct underground infrastructure. The disruptions exposed vulnerabilities in Russia's centralized digital network. Meanwhile, Ukraine's decentralized approach, aided by Western cloud providers and satellite communications, has maintained digital resilience.",
+    "tags": [
+      "cloud",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
     "id": "4c70499edffa",
     "title": "iPhone Duo's woes are a boon for Samsung as Galaxy Z Fold8 sales go up by 20% in a week",
     "url": "https://www.gsmarena.com/iphone_duos_woes_are_a_boon_for_samsung_as_galaxy_z_fold8_sales_go_up_by_20_in_a_week-news-75325.php",
@@ -305,13 +728,13 @@
   },
   {
     "id": "72fee34c6623",
-    "title": "I Dumped Apple's Fucking Word List",
+    "title": "I dumped Apple’s word list",
     "url": "https://helgesver.re/articles/macos-vulgar-word-flags",
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T20:33:23Z",
     "image_url": "https://helgesver.re/og/article-macos-vulgar-word-flags.png",
-    "points": 58,
+    "points": 107,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "An investigation into Apple's internal word-usage database reveals how macOS and iOS track profanity to improve autocorrect. The author uncovered system dictionary classifications for sensitive and vulgar terms across multiple languages. Private framework functions were used to extract the undocumented data.",
@@ -441,7 +864,7 @@
     "section": "ai",
     "published": "2026-11-03T20:25:05Z",
     "image_url": "https://storage.ghost.io/c/ed/a2/eda2c6f7-faef-48b4-9ed4-86a4fa4dca68/content/images/size/w1200/2026/09/twis-social-apple-watch-zw-1.jpeg",
-    "points": 10,
+    "points": 21,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "Apple's new always-listening watch features raise significant privacy concerns regarding ambient audio transcription and conversation summaries. While Apple relies on encryption and local processing, critics warn that mainstreaming such technology sets a dangerous precedent. This normalization could encourage less secure surveillance products from other developers.",
@@ -645,7 +1068,7 @@
     "section": "tutorials",
     "published": "2026-11-03T20:07:41Z",
     "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
-    "points": 13,
+    "points": 15,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
@@ -765,7 +1188,7 @@
     "section": "tech",
     "published": "2026-11-03T19:52:07Z",
     "image_url": "https://pcper.com/wp-content/uploads/2026/11/vizio.png",
-    "points": 7,
+    "points": 17,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "Recent research evaluating smart TV data privacy practices reveals that opting out of tracking features often fails to stop data collection. Devices from major manufacturers continued sending network traffic even after users disabled monitoring options, with some brands showing no change in behavior at all.",
@@ -1056,7 +1479,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 98,
+    "points": 118,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -1144,7 +1567,7 @@
     "section": "linux",
     "published": "2026-11-03T19:27:53Z",
     "image_checked": true,
-    "points": 5,
+    "points": 27,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "The latest macOS release drops support for CoreStorage volumes and encrypted HFS+ file systems, rendering older storage media inaccessible. Users are unable to mount, convert, or erase these volumes through standard disk utilities. The operating system provides misleading error messages and lacks backward compatibility paths for affected hardware.",
@@ -1197,7 +1620,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 27,
+    "points": 34,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -1331,7 +1754,7 @@
     "url": "https://www.macrumors.com/2026/11/03/iphone-duo-reachability-ios-27-3/",
     "source": "MacRumors",
     "section": "phones",
-    "published": "2026-11-03T19:19:11Z",
+    "published": "2026-11-03T19:19:02Z",
     "excerpt": "With today's iOS 27.3 beta, Apple expanded Reachability to the iPhone Duo . Reachability lets ‌iPhone Duo‌ users shift the content on the left or right side of the outer screen to make it easier to reach with a thumb. Reachability can be turned on or off by going to Settings \u003e Accessibility \u003e Touch \u003e Reachability. It is on by default after updating to the new software. When the ‌iPhone Duo‌ is clo…",
     "image_url": "https://images.macrumors.com/article-new/2026/11/ios-27-3-reachability-duo.jpg",
     "weight": 0.9,
@@ -2318,27 +2741,29 @@
     "title": "GPU Kernels, Part 2: Teaching a 27B Model to Write Triton Kernels with SFT and a GPU Gym",
     "url": "https://dev.to/g_factor/gpu-kernels-part-2-teaching-a-27b-model-to-write-triton-kernels-with-sft-and-a-gpu-gym-4h79",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T18:11:19Z",
     "excerpt": "In Part 1 , we explored how GPU kernels work under the hood — why operator fusion and memory tiling matter, and how benchmarks like KernelBench evaluate whether an LLM can write kernels that actually beat PyTorch. This post is the hands-on sequel. We took an open-weight model, Qwen3.8-27B , and trained it to write Triton kernels across two stages: supervised fine-tuning (SFT) on 2,034 high-quality…",
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdt8koo1kakj6acpiwa4r.png",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Researchers trained an open-weight 27B language model to write Triton GPU kernels using supervised fine-tuning and reinforcement learning within an automated gym. The training process improved overall correctness and performance compared to baseline models, though frontier commercial models still maintain an advantage. The resulting model weights and training datasets have been publicly released.",
     "tags": [
       "llm",
-      "chips",
-      "energy"
-    ]
+      "research",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "a959325bd7be",
-    "title": "I use AI (Oct 2026)",
+    "title": "How I use AI (Oct 2026)",
     "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 29,
+    "points": 35,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -2486,10 +2911,13 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A developer explores the stale worker problem in distributed background job processing and explains how to implement lease fencing in Go and MongoDB. Instead of relying solely on time-based locks, the approach uses incrementing fencing tokens to prevent outdated worker processes from overwriting newer state. This pattern helps ensure safe at-least-once task delivery without risking duplicate side effects.",
     "tags": [
-      "open-source",
-      "go"
-    ]
+      "tutorial",
+      "go",
+      "data"
+    ],
+    "enriched": true
   },
   {
     "id": "5aa23e97d763",
@@ -2502,7 +2930,14 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwo3n7ci3xyjj48mcwvc9.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:05:26.35239174Z"
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "ForgeCMS introduces a sandboxed plugin system designed to avoid the complexity and security risks of traditional plugin architectures. Plugins are written in a constrained scripting language that operates within strict resource limits and explicit permission boundaries. This design allows developers to extend content management features safely using simple repository files.",
+    "tags": [
+      "tutorial",
+      "web",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "2328c9be4ee2",
@@ -2774,7 +3209,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 18,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -3225,7 +3660,7 @@
   },
   {
     "id": "cb73087219cd",
-    "title": "Smart homes are in disarray after daylight saving time baffles Google Nest devices",
+    "title": "Smart homes are in disarray after daylight saving time baffles Google Nest devices (Update)",
     "url": "https://www.androidauthority.com/google-nest-devices-baffled-by-dst-3731238/",
     "source": "Android Authority",
     "section": "tech",
@@ -3248,7 +3683,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 752,
+    "points": 803,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -3266,7 +3701,7 @@
     "source": "Ars Technica",
     "section": "science",
     "published": "2026-11-03T17:21:29Z",
-    "excerpt": "NY gov. pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks.",
+    "excerpt": "NY governor pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks.",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg",
     "weight": 1.1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
@@ -3951,7 +4386,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 161,
+    "points": 206,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -4070,7 +4505,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 33,
+    "points": 35,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -5063,7 +5498,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 229,
+    "points": 236,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -5252,7 +5687,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 357,
+    "points": 383,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5335,7 +5770,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 423,
+    "points": 451,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5496,7 +5931,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 55,
+    "points": 57,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -5919,7 +6354,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 253,
+    "points": 263,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -6025,7 +6460,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 56,
+    "points": 62,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6996,7 +7431,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T13:12:47Z",
-    "points": 6,
+    "points": 12,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "enriched": true,
@@ -7277,7 +7712,13 @@
     "excerpt": "LibreOffice 26.2.7 is now available for download as the seventh and last maintenance update to the LibreOffice 26.2 office suite series with 20 bug fixes. The post LibreOffice 26.2.7 Is Out as the Last Update in the LibreOffice 26.2 Series appeared first on 9to5Linux - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/02/lo262.webp",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "LibreOffice 26.2.7 is now available as the seventh and final maintenance update for the LibreOffice 26.2 office suite series. This release includes twenty bug fixes to improve stability and performance. Users are encouraged to update to ensure a reliable office productivity experience.",
+    "tags": [
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "428cc87a7cc3",
@@ -7511,7 +7952,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 801,
+    "points": 819,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -8175,16 +8616,18 @@
     "title": "SUSE Laying Off 10% Of Its Workforce Due To AI \u0026 Automation",
     "url": "https://www.phoronix.com/news/SUSE-Layoffs-10p-AI",
     "source": "Phoronix",
-    "section": "linux",
+    "section": "tech",
     "published": "2026-11-03T10:31:00Z",
     "excerpt": "Bavarian-based enterprise Linux distribution vendor SUSE is laying off 10% of its global workforce as a result of AI and automation...",
     "image_url": "https://www.phoronix.net/image.php?id=0x2012\u0026image=phoronix_2012beer_opensuse1",
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Enterprise Linux vendor SUSE is reducing its global workforce by ten percent. The layoffs are attributed to industry shifts driven by artificial intelligence and automation. Affected employees will be notified following insufficient uptake of prior voluntary separation offers.",
     "tags": [
       "linux"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "29dbc72a0e3f",
@@ -10021,7 +10464,7 @@
     "section": "tech",
     "published": "2026-11-03T01:18:09Z",
     "image_checked": true,
-    "points": 20,
+    "points": 39,
     "weight": 1,
     "first_seen": "2026-11-03T20:35:18.443973736Z",
     "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
@@ -11656,7 +12099,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 96,
+    "points": 101,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -13278,7 +13721,7 @@
     "published": "2026-11-02T15:23:02Z",
     "image_url": "https://thehustle.co/hubfs/undefined-Oct-30-2026-04-01-33-2861-PM.jpeg",
     "image_checked": true,
-    "points": 21,
+    "points": 26,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "enriched": true,
@@ -14051,7 +14494,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 309,
+    "points": 322,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -15043,7 +15486,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 81,
+    "points": 84,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -15144,7 +15587,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 109,
+    "points": 114,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -15446,9 +15889,11 @@
     "published": "2026-11-02T04:31:20Z",
     "image_url": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
     "image_checked": true,
-    "points": 8,
+    "points": 20,
     "weight": 1,
-    "first_seen": "2026-11-03T21:05:01.462553724Z"
+    "first_seen": "2026-11-03T21:05:01.462553724Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "77b007ef2652",
@@ -15505,7 +15950,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-02T02:21:07Z",
-    "points": 143,
+    "points": 145,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -16583,9 +17028,16 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 15,
+    "points": 26,
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Developers are training specialized AI models to handle iterative editing tasks within Figma, aiming to speed up everyday design workflows. By moving beyond prompt engineering, the team utilized supervised fine-tuning and synthetic data generation to teach models native Figma syntax. Current efforts focus on incorporating reinforcement learning to improve generalization and better align model outputs with professional design standards.",
+    "tags": [
+      "llm",
+      "research",
+      "startups"
+    ],
+    "enriched": true
   },
   {
     "id": "a12e61cbacf8",
@@ -16636,7 +17088,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 209,
+    "points": 212,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
