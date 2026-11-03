@@ -1,6 +1,7 @@
 package render
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -175,11 +176,11 @@ func TestEmptySiteShowsMessage(t *testing.T) {
 	mustContain(t, "portada vacía", read(t, out, "index.html"), "Todavía no hay noticias")
 }
 
-func TestListLimit(t *testing.T) {
+func TestListPagination(t *testing.T) {
 	var all []model.Article
-	for i := 0; i < listLimit+15; i++ {
+	for i := 0; i < listLimit*2+5; i++ {
 		all = append(all, model.Article{
-			ID: string(rune('a'+i%26)) + string(rune('a'+i/26)), Title: "T", URL: "https://x.com/" + string(rune('a'+i)),
+			ID: fmt.Sprintf("a%02d", i), Title: "T", URL: fmt.Sprintf("https://x.com/%d", i),
 			Section: model.SectionAI, Published: now.Add(-time.Duration(i) * time.Minute),
 		})
 	}
@@ -187,9 +188,36 @@ func TestListLimit(t *testing.T) {
 	if err := Site(web.FS, out, now, rank.Selection{}, all); err != nil {
 		t.Fatal(err)
 	}
-	page := read(t, out, "s/ia/index.html")
-	if n := strings.Count(page, `class="card"`); n != listLimit {
-		t.Errorf("tarjetas = %d, quería %d", n, listLimit)
+	p1 := read(t, out, "s/ia/index.html")
+	if n := strings.Count(p1, `class="card"`); n != listLimit {
+		t.Errorf("página 1: %d tarjetas, quería %d", n, listLimit)
+	}
+	mustContain(t, "página 1", p1, `href="page/2/" rel="next"`, `aria-current="page"`)
+	if strings.Contains(p1, `rel="prev"`) {
+		t.Error("la primera página no tiene anterior")
+	}
+
+	p2 := read(t, out, "s/ia/page/2/index.html")
+	mustContain(t, "página 2", p2, `href="../../" rel="prev"`, `href="../3/" rel="next"`,
+		`href="../../../../static/style.css"`, "(página 2)")
+
+	p3 := read(t, out, "s/ia/page/3/index.html")
+	if n := strings.Count(p3, `class="card"`); n != 5 {
+		t.Errorf("última página: %d tarjetas, quería 5", n)
+	}
+	if strings.Contains(p3, `rel="next"`) {
+		t.Error("la última página no tiene siguiente")
+	}
+	if exists(out, "s/ia/page/4/index.html") {
+		t.Error("sobra una página vacía")
+	}
+}
+
+func TestSectionPageHasBlurbAndTopics(t *testing.T) {
+	sec := read(t, build(t), "s/ia/index.html")
+	mustContain(t, "sección", sec, "Modelos, investigación", `href="../../t/llm/"`)
+	if strings.Contains(sec, `class="pager"`) {
+		t.Error("con una sola página no hay paginador")
 	}
 }
 

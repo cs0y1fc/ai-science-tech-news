@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -16,8 +17,8 @@ import (
 
 const (
 	siteName = "Noticias Tech"
-	// listLimit es el máximo de tarjetas en una página de sección o etiqueta.
-	listLimit = 60
+	// listLimit son las tarjetas por página en una sección o etiqueta.
+	listLimit = 24
 	// topicCount son las etiquetas que se muestran en la portada.
 	topicCount = 12
 	// relatedCount son las noticias relacionadas al pie de un artículo.
@@ -52,6 +53,27 @@ type Chip struct {
 	Href  string
 }
 
+// PageLink es un enlace numerado del paginador.
+type PageLink struct {
+	N       int
+	Href    string
+	Current bool
+}
+
+// Pager es la navegación entre páginas de una lista.
+type Pager struct {
+	Prev, Next string
+	Links      []PageLink
+}
+
+// blurbs describe cada sección bajo su título.
+var blurbs = map[model.Section]string{
+	model.SectionAI:        "Modelos, investigación, productos y debates sobre inteligencia artificial.",
+	model.SectionScience:   "Descubrimientos y avances en física, espacio, biología y más.",
+	model.SectionTech:      "Hardware, software, seguridad y la industria tecnológica.",
+	model.SectionTutorials: "Guías prácticas de programación y de integración de IA en aplicaciones.",
+}
+
 // Page reúne los datos de cualquier página; cada plantilla usa los que necesita.
 type Page struct {
 	SiteName    string
@@ -71,7 +93,9 @@ type Page struct {
 
 	// Listas (sección o etiqueta).
 	Heading string
+	Blurb   string
 	Cards   []Card
+	Pager   *Pager
 
 	// Artículo.
 	Article *model.Article
@@ -143,12 +167,12 @@ func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.S
 		if len(in) == 0 {
 			continue
 		}
-		if err := r.list(filepath.Join("s", string(sec)), sec.Label(), in); err != nil {
+		if err := r.list(filepath.Join("s", string(sec)), sec.Label(), blurbs[sec], true, in); err != nil {
 			return err
 		}
 	}
 	for tag, in := range byTag(visible) {
-		if err := r.list(filepath.Join("t", tag), "#"+tag, in); err != nil {
+		if err := r.list(filepath.Join("t", tag), "#"+tag, "", false, in); err != nil {
 			return err
 		}
 	}
@@ -229,17 +253,62 @@ func (r *renderer) home(sel rank.Selection, visible []model.Article) error {
 	return r.write("index.html", "", p)
 }
 
-func (r *renderer) list(dir, heading string, arts []model.Article) error {
-	base := "../../"
-	p := r.page(base, heading, fmt.Sprintf("%s: últimas noticias de %s.", heading, siteName))
-	p.Heading = heading
-	for i, a := range arts {
-		if i == listLimit {
-			break
+// list escribe una lista paginada: dir es la primera página y las demás
+// cuelgan de dir/page/N/. Con topics se muestran las etiquetas más usadas.
+func (r *renderer) list(dir, heading, blurb string, topics bool, arts []model.Article) error {
+	total := max((len(arts)+listLimit-1)/listLimit, 1)
+	for n := 1; n <= total; n++ {
+		pdir := dir
+		if n > 1 {
+			pdir = filepath.Join(dir, "page", strconv.Itoa(n))
 		}
-		p.Cards = append(p.Cards, card(base, a))
+		base := strings.Repeat("../", strings.Count(filepath.ToSlash(pdir), "/")+1)
+		p := r.page(base, heading, fmt.Sprintf("%s: últimas noticias de %s.", heading, siteName))
+		p.Heading, p.Blurb = heading, blurb
+		if n > 1 {
+			p.Title = fmt.Sprintf("%s (página %d) · %s", heading, n, siteName)
+		}
+		for _, a := range arts[(n-1)*listLimit : min(n*listLimit, len(arts))] {
+			p.Cards = append(p.Cards, card(base, a))
+		}
+		if topics {
+			p.Topics = topChips(base, arts, 10)
+		}
+		if total > 1 {
+			p.Pager = pager(n, total)
+		}
+		if err := r.write("list.html", pdir, p); err != nil {
+			return err
+		}
 	}
-	return r.write("list.html", dir, p)
+	return nil
+}
+
+// pageHref es el enlace relativo desde la página from hasta la página to.
+func pageHref(from, to int) string {
+	switch {
+	case from == 1 && to == 1:
+		return "./"
+	case from == 1:
+		return fmt.Sprintf("page/%d/", to)
+	case to == 1:
+		return "../../"
+	}
+	return fmt.Sprintf("../%d/", to)
+}
+
+func pager(cur, total int) *Pager {
+	pg := &Pager{}
+	if cur > 1 {
+		pg.Prev = pageHref(cur, cur-1)
+	}
+	if cur < total {
+		pg.Next = pageHref(cur, cur+1)
+	}
+	for n := 1; n <= total; n++ {
+		pg.Links = append(pg.Links, PageLink{N: n, Href: pageHref(cur, n), Current: n == cur})
+	}
+	return pg
 }
 
 func (r *renderer) article(a model.Article, visible []model.Article) error {
