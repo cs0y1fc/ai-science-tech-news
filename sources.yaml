@@ -61,6 +61,77 @@ sources:
     url: https://www.wired.com/feed/rss
     section: tech
 
+  # --- Programación (noticias, herramientas y práctica del software) ---
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    section: coding
+  - name: Stack Overflow Blog
+    url: https://stackoverflow.blog/feed/
+    section: coding
+    limit: 15
+  - name: InfoQ
+    url: https://feed.infoq.com/
+    section: coding
+  - name: Martin Fowler
+    url: https://martinfowler.com/feed.atom
+    section: coding
+    weight: 1.1
+    limit: 8
+  - name: The Changelog
+    url: https://changelog.com/feed
+    section: coding
+    limit: 12
+  - name: Smashing Magazine
+    url: https://www.smashingmagazine.com/feed/
+    section: coding
+    limit: 12
+  - name: Rust Blog
+    url: https://blog.rust-lang.org/feed.xml
+    section: coding
+    weight: 0.9
+    limit: 6
+  - name: Android Developers Blog
+    url: https://android-developers.googleblog.com/feeds/posts/default
+    section: coding
+    weight: 0.9
+    limit: 10
+  - name: Lobsters
+    url: https://lobste.rs/rss
+    section: coding
+    weight: 0.8
+    limit: 20
+
+  # --- Móviles ---
+  - name: GSMArena
+    url: https://www.gsmarena.com/rss-news-reviews.php3
+    section: phones
+    weight: 1.2
+  - name: 9to5Google
+    url: https://9to5google.com/feed/
+    section: phones
+    limit: 15
+  - name: 9to5Mac
+    url: https://9to5mac.com/feed/
+    section: phones
+    limit: 15
+  - name: Android Authority
+    url: https://www.androidauthority.com/feed/
+    section: phones
+    limit: 15
+  - name: Android Police
+    url: https://www.androidpolice.com/feed/
+    section: phones
+  - name: MacRumors
+    url: https://feeds.macrumors.com/MacRumors-All
+    section: phones
+    weight: 0.9
+    limit: 15
+  - name: Apple Newsroom
+    url: https://www.apple.com/newsroom/rss-feed.rss
+    section: phones
+    weight: 0.8
+    limit: 8
+
   # --- Tutoriales de programación e IA ---
   - name: dev.to (Go)
     url: https://dev.to/feed/tag/go

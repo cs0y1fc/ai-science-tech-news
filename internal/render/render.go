@@ -70,6 +70,8 @@ var blurbs = map[model.Section]string{
 	model.SectionAI:        "Models, research, products and debates in artificial intelligence.",
 	model.SectionScience:   "Discoveries and advances in physics, space, biology and more.",
 	model.SectionTech:      "Hardware, software, security and the technology industry.",
+	model.SectionCoding:    "Programming languages, developer tools, software engineering and open-source releases.",
+	model.SectionPhones:    "Smartphones, Android and iOS, mobile apps and the devices in your pocket.",
 	model.SectionTutorials: "Hands-on guides to programming and to building apps with AI.",
 }
 

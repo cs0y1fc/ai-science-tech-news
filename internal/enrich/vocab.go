@@ -11,7 +11,7 @@ import (
 var Vocabulary = []string{
 	"llm", "agents", "rag", "prompting", "multimodal", "open-source", "safety", "policy",
 	"research", "startups", "chips", "hardware", "robotics", "cloud", "data", "security",
-	"web", "mobile", "gaming", "devtools", "tutorial",
+	"web", "mobile", "android", "ios", "gaming", "devtools", "tutorial",
 	"go", "python", "javascript", "rust",
 	"space", "physics", "biology", "health", "climate", "energy", "math",
 }
@@ -49,6 +49,8 @@ var keywordRules = []struct {
 	re  *regexp.Regexp
 }{
 	{"llm", regexp.MustCompile(`(?i)\b(llms?|gpt|chatgpt|claude|gemini|language models?|openai|anthropic)\b`)},
+	{"android", regexp.MustCompile(`(?i)\b(android|pixel \d+|galaxy (s|z|a)\d+|samsung|oneplus)\b`)},
+	{"ios", regexp.MustCompile(`(?i)\b(ios|iphone|ipad|apple watch|ipados)\b`)},
 	{"agents", regexp.MustCompile(`(?i)\b(agents?|agentic)\b`)},
 	{"rag", regexp.MustCompile(`(?i)\b(rag|retrieval[- ]augmented|embeddings?|vector (db|database|search))\b`)},
 	{"prompting", regexp.MustCompile(`(?i)\bprompt(s|ing)?\b`)},

@@ -9,6 +9,8 @@ const (
 	SectionAI        Section = "ai"
 	SectionScience   Section = "science"
 	SectionTech      Section = "tech"
+	SectionCoding    Section = "coding"
+	SectionPhones    Section = "phones"
 	SectionTutorials Section = "tutorials"
 )
 
@@ -27,7 +29,7 @@ func (s Section) Normalize() Section {
 }
 
 // AllSections es el orden en que aparecen las secciones en la portada.
-var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionTutorials}
+var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionCoding, SectionPhones, SectionTutorials}
 
 // Label es el nombre que se muestra al lector.
 func (s Section) Label() string {
@@ -38,6 +40,10 @@ func (s Section) Label() string {
 		return "Science"
 	case SectionTech:
 		return "Technology"
+	case SectionCoding:
+		return "Coding"
+	case SectionPhones:
+		return "Phones"
 	case SectionTutorials:
 		return "Tutorials"
 	}
@@ -49,6 +55,10 @@ func (s Section) Short() string {
 	switch s {
 	case SectionAI:
 		return "AI"
+	case SectionCoding:
+		return "Coding"
+	case SectionPhones:
+		return "Phones"
 	case SectionTutorials:
 		return "Tutorials"
 	}
