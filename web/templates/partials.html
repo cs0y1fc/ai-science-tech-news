@@ -5,7 +5,6 @@
   <meta name="description" content="{{.Description}}">
   {{with .Canonical}}<link rel="canonical" href="{{.}}">{{end}}
   {{if .HasFeed}}<link rel="alternate" type="application/rss+xml" title="{{.SiteName}}" href="{{.Base}}feed.xml">{{end}}
-  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
   <link rel="icon" href="{{.Base}}static/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/png" href="{{.Base}}static/favicon-48.png" sizes="48x48">
   <link rel="icon" type="image/png" href="{{.Base}}static/favicon-192.png" sizes="192x192">
@@ -16,12 +15,10 @@
 {{define "header"}}
   <header class="top">
     <div class="wrap top-in">
-      <a class="brand" href="{{.Base}}"><span class="logo" aria-hidden="true"></span>{{.SiteName}}</a>
+      <a class="brand" href="{{.Base}}"><img class="logo" src="{{.Base}}static/favicon-48.png" width="40" height="40" alt="">{{.SiteName}}</a>
       <nav class="nav" aria-label="Sections">
         {{range .Nav}}<a href="{{.Href}}">{{.Label}}</a>{{end}}
       </nav>
-      <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme" onclick="var d=document.documentElement,n=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}">Theme</button>
-      <span class="updated" title="{{.Updated.Format "2 Jan 2006 15:04 UTC"}}">Updated {{ago .Updated}}</span>
     </div>
   </header>
 {{end}}

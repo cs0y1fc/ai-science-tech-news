@@ -88,7 +88,7 @@ func mustContain(t *testing.T, what, page string, wants ...string) {
 func TestHomepage(t *testing.T) {
 	page := read(t, build(t), "index.html")
 	mustContain(t, "home", page,
-		`<html lang="en">`, "A discovery", "Nature", "3h ago", "Updated just now", "Latest news", "Top story",
+		`<html lang="en">`, "A discovery", "Nature", "3h ago", "Latest news", "Top story",
 		`href="static/style.css"`, `<span class="tag">space</span>`, "AI summary",
 		`href="n/sci/"`,                   // with excerpt: own page
 		`href="s/science/"`,               // section tab
@@ -325,11 +325,6 @@ func TestAboutPageAndNoFeedWithoutSiteURL(t *testing.T) {
 	if exists(out, "feed.xml") || exists(out, "sitemap.xml") {
 		t.Error("sin SiteURL no se generan feed ni sitemap")
 	}
-}
-
-func TestThemeToggle(t *testing.T) {
-	page := read(t, build(t), "index.html")
-	mustContain(t, "portada", page, `class="theme-toggle"`, `localStorage.getItem("theme")`)
 }
 
 func TestHomeStopsAtMaxPages(t *testing.T) {
