@@ -1,6 +1,7 @@
 package render
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"os"
 	"path/filepath"
@@ -27,6 +28,33 @@ func (r *renderer) about() error {
 	p := r.page("../", "About", "How "+siteName+" is built, where the news comes from and what the limits of automatic summaries are.")
 	p.Sources = r.opts.Sources
 	return r.write("about.html", "about", p)
+}
+
+// tagIndex escribe tags.json, el índice que usa el buscador del navegador:
+// cada etiqueta con su número de noticias, de más a menos frecuente.
+func (r *renderer) tagIndex(visible []model.Article) error {
+	type entry struct {
+		T string `json:"t"`
+		N int    `json:"n"`
+	}
+	var idx []entry
+	for tag, in := range byTag(visible) {
+		idx = append(idx, entry{tag, len(in)})
+	}
+	sort.Slice(idx, func(i, j int) bool {
+		if idx[i].N != idx[j].N {
+			return idx[i].N > idx[j].N
+		}
+		return idx[i].T < idx[j].T
+	})
+	if idx == nil {
+		idx = []entry{}
+	}
+	b, err := json.Marshal(idx)
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(filepath.Join(r.outDir, "tags.json"), b, 0o644)
 }
 
 // saved genera la página de favoritos. Se rellena en el navegador con los

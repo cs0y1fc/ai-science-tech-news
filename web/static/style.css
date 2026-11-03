@@ -157,8 +157,9 @@ h1, h2, h3 { letter-spacing: -.02em; }
 .empty { margin: 56px 0; text-align: center; color: var(--muted); }
 
 /* Footer */
-.foot { margin-block: 64px 36px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-.foot a { color: var(--accent); }
+body { min-height: 100vh; display: flex; flex-direction: column; }
+body > main { flex: 1 0 auto; margin-bottom: 64px; }
+.foot { padding: 26px 0; background: linear-gradient(135deg, #1f2125 0%, #2c2f36 100%); color: rgba(255, 255, 255, .7); font-size: 14px; text-align: center; }
 
 /* About page */
 .prose { max-width: 68ch; line-height: 1.75; }
@@ -226,3 +227,19 @@ h1, h2, h3 { letter-spacing: -.02em; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0; }
 .fav-btn { padding: 11px 20px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; }
 .fav-btn:hover { background: var(--surface-2); }
+
+/* Tag search */
+.search { position: relative; display: flex; align-items: center; margin-left: auto; }
+.search + .auth { margin-left: 0; }
+.search-btn { display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 0; border-radius: 50%; background: none; color: rgba(255,255,255,.85); cursor: pointer; transition: background .15s, color .15s; }
+.search-btn:hover, .search-btn[aria-expanded="true"] { background: rgba(255,255,255,.14); color: #fff; }
+.search-form { position: absolute; right: 0; top: calc(100% + 12px); width: min(340px, calc(100vw - 28px)); z-index: 20; }
+.search-form[hidden] { display: none; }
+.search-input { width: 100%; padding: 12px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--text); font: inherit; font-size: 15px; box-shadow: var(--shadow-md); }
+.search-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.search-results { list-style: none; margin: 8px 0 0; padding: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-md); }
+.search-results[hidden] { display: none; }
+.search-results a { display: flex; justify-content: space-between; padding: 9px 12px; border-radius: 9px; font-size: 14px; color: var(--text); }
+.search-results small { color: var(--muted); }
+.search-results li.act a, .search-results a:hover { background: var(--surface-2); }
+.search-results .none { padding: 10px 12px; color: var(--muted); font-size: 14px; }

@@ -311,7 +311,7 @@ func TestFeedAndSitemap(t *testing.T) {
 	}
 
 	home := read(t, out, "index.html")
-	mustContain(t, "portada", home, `rel="canonical" href="https://u.github.io/repo/"`, `href="feed.xml"`, `href="about/"`)
+	mustContain(t, "portada", home, `rel="canonical" href="https://u.github.io/repo/"`, `href="feed.xml"`)
 	mustContain(t, "artículo", read(t, out, "n/feat/index.html"), `rel="canonical" href="https://u.github.io/repo/n/feat/"`)
 }
 
@@ -390,4 +390,21 @@ func firstArticleDir(t *testing.T, out string) string {
 		t.Fatalf("no article pages: %v", err)
 	}
 	return es[0].Name()
+}
+
+func TestFooterAndTagSearch(t *testing.T) {
+	out := build(t)
+	page := read(t, out, "index.html")
+	mustContain(t, "home", page, "© honolulu &amp; bcn", `id="search"`, `static/search.js`, `aria-label="Search tags"`)
+	for _, no := range []string{"Summaries are generated", ">RSS<"} {
+		if strings.Contains(page, no) {
+			t.Errorf("footer must not contain %q", no)
+		}
+	}
+	tags := read(t, out, "tags.json")
+	mustContain(t, "tags.json", tags, `"t":"llm"`, `"n":`)
+	if !exists(out, "static/search.js") {
+		t.Error("search.js not copied")
+	}
+	mustContain(t, "article page search", read(t, out, "n/feat/index.html"), `data-base="../../"`)
 }
