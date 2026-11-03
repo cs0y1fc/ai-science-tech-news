@@ -1,5 +1,60 @@
 [
   {
+    "id": "9f0513c84d7a",
+    "title": "iOS 27.3 brings the iPhone Duo’s revamped StandBy to other iPhones",
+    "url": "https://9to5mac.com/2026/11/03/ios-27-3-brings-the-iphone-duos-revamped-standby-to-other-iphones/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T20:14:38Z",
+    "excerpt": "Apple released iOS 27.3 beta 1 today, with a surprisingly extensive set of new features and improvements across the system. One of them is the expansion of the iPhone Duo’s redesigned StandBy experience to other iPhone models. Here are the details. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/standby.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:15:23.671536475Z",
+    "summary": "Apple has released the first beta of iOS 27.3, bringing the redesigned StandBy experience previously exclusive to the iPhone Duo to a broader range of iPhone models. Users gain access to new clock faces, expanded customization options, and shared album support for photos. The official public release is anticipated in December.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "61e223017911",
+    "title": "Apple Watch Challenge set for Veterans Day",
+    "url": "https://9to5mac.com/2026/11/03/apple-watch-challenge-set-for-veterans-day/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T20:12:15Z",
+    "excerpt": "The next  Apple Watch  fitness challenge is set for Veterans Day on Wednesday, November 11th, 2026. Apple Watch Challenges increase awareness about fitness features and healthy habits while observing holidays and other notable occasions. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2023/10/apple-watch-veteran-challenge.webp?w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:15:23.671536475Z",
+    "summary": "Apple has scheduled its next Apple Watch fitness challenge for Veterans Day. Users can earn a virtual achievement and animated sticker packs by completing a workout of eleven minutes or more using the Workout app or any compatible health tracking application.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e536258d4ae8",
+    "title": "The Citadel Project is a Thief-inspired dark fantasy, survival-horror lite stealth-em-up with some lovely shadows set in a medieval megastructure",
+    "url": "https://www.rockpapershotgun.com/the-citadel-project-is-a-thief-inspired-dark-fantasy-survival-horror-lite-stealth-em-up-with-some-lovely-shadows-set-in-a-medieval-megastructure",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-03T20:10:03Z",
+    "excerpt": "You know, given the whole stealthy element of Thief-like immersive sims, I'm surprised there haven't been more of them with horror elements. There's Gloomwood , sure, but it's not as common as I'd like. That in turn then makes me curious about The Citadel Project, an immersive sim with some survival-horror elements set in a nasty, parasite-infected dark fantasy world, all apparently made by just o…",
+    "image_url": "https://assetsio.gnwcdn.com/the-citadel-project.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:15:23.671536475Z",
+    "summary": "The Citadel Project is an upcoming immersive stealth-horror game developed by a solo creator, set within a medieval megastructure infected by parasites. Players utilize a versatile crossbow and shadow mechanics to navigate the dark environment. A demo is currently available, with an early access launch planned for November.",
+    "tags": [
+      "gaming",
+      "indie",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
     "id": "c9e8dced1f2b",
     "title": "I saved money by replacing 6 paid subscription Android apps with open source alternatives",
     "url": "https://www.androidpolice.com/replacing-paid-subscription-android-apps-with-open-source-alternatives-saved-money/",
@@ -118,6 +173,23 @@
     "summary": "Following BioWare's closure, this retrospective looks back at memorable moments across the four Dragon Age games. It highlights the distinct narrative beginnings in Origins and iconic character introductions that defined the fantasy role-playing franchise.",
     "tags": [
       "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "be4586f32bc9",
+    "title": "You can’t hit a wrong note when playing along with songs on Casio’s new keyboard",
+    "url": "https://www.theverge.com/tech/1025673/casio-digital-piano-keyboard-ct-fs1-feel-sync-technology",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T19:48:41Z",
+    "excerpt": "Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without the frustrations or discouragement of hitting the wrong note. The Casiotone CT-FS1 is available now for $399.99 in a monochromatic black or white version where even the […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/casiokeyboard1.jpg?quality=90\u0026strip=all\u0026crop=0,10.732984293194,100,78.534031413613",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:15:23.671536475Z",
+    "summary": "Casio has introduced the Casiotone CT-FS1 portable keyboard, featuring Feel Sync technology designed to assist beginners with rhythm and timing. When paired with a mobile application, the keyboard automatically harmonizes notes so players cannot hit a wrong key. The device also supports standard keyboard modes and split-zone playing.",
+    "tags": [
+      "mobile"
     ],
     "enriched": true
   },
@@ -277,7 +349,13 @@
     "excerpt": "We're getting closer to Black Friday , which lands on Friday, November 27 this year. In the lead-up to the shopping holiday, we're tracking a few lowest-ever prices on Apple's most popular Macs, including the M5 MacBook Air, MacBook Neo, and the new Mac mini and Mac Studio. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive…",
     "image_url": "https://images.macrumors.com/article-new/2026/11/macs-black-friday.jpeg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Major retailers are offering early Black Friday discounts on popular Apple computers, including the MacBook Air, Mac mini, and Mac Studio. Shoppers can save up to nearly $200 on select M5 MacBook Air models and find reduced prices on various Mac mini configurations. These promotions precede the official holiday shopping season kickoff in late November.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "d6d242dfb87b",
@@ -290,10 +368,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/11/apple-fitness-plus-strength.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Apple is introducing a new Gym Strength workout feature to Apple Fitness+ with the release of iOS 27.3. The custom tool generates four-week workout plans based on individual user goals, schedules, and available equipment. Additionally, recent software updates like iOS 27.2 bring conversation-recall improvements to Siri AI and various interface enhancements.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "42ec3b43220b",
@@ -321,7 +401,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 18,
+    "points": 30,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -361,10 +441,12 @@
     "image_url": "https://images.macrumors.com/article-new/2023/06/StandBy-iOS-17.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The upcoming iOS 27.3 update will bring new StandBy mode features, previously exclusive to the iPhone Duo, to all compatible iPhone 11 and newer models. Users will gain enhanced clock faces, customizable photo options, and new calendar and weather widgets. The update is currently in developer beta and scheduled for a public release in December.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "01fd782c8f92",
@@ -410,10 +492,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/08/AirPods-Pro-Beta-Firmware-2.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Apple has rolled out new beta firmware for several models of AirPods and AirPods Max for developers and public testers. The update can be enabled through the device settings when connected to compatible Apple hardware. Meanwhile, Apple is also releasing limited-edition festive accessories in specific regional markets alongside a fresh wave of hardware launches.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "d44503d8dcba",
@@ -458,7 +542,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 13,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -533,7 +617,13 @@
     "excerpt": "\"He was put forth with probably what felt like a very arduous task\"",
     "image_url": "https://cdn.mos.cms.futurecdn.net/obsuYN7pfVdbUC59rTRaHU-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Neil Druckmann assumed creative control of Uncharted 4 after Amy Hennig's departure and reportedly drafted a new story outline within weeks, guiding the team to finish the game. The article highlights his efficient approach and the controversy surrounding the transition.",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "625dc5ad7e74",
@@ -591,10 +681,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/11/ios-27-3-reachability-duo.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "iOS 27.3 beta adds Reachability to the iPhone Duo, allowing users to shift the outer display left or right with edge swipes for easier thumb access. The feature is enabled by default and can be toggled in Accessibility settings.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "a23cd5a8e03e",
@@ -638,16 +730,18 @@
     "title": "Siri AI Gets More Capable in iOS 27.3",
     "url": "https://www.macrumors.com/2026/11/03/ios-27-3-siri-ai/",
     "source": "MacRumors",
-    "section": "phones",
+    "section": "ai",
     "published": "2026-11-03T19:06:26Z",
     "excerpt": "Apple is expanding what Siri AI can do in and across apps in iOS 27.3, which is available to developers as of today. ‌Siri‌ can complete more complex tasks across Calendar, Files, Finder, Journal, Mail, Maps, Messages, Music, Notes, Photos , Preview, Reminders, Safari, Shortcuts, and Weather. You can ask ‌Siri‌ AI what you can do with each app to get more information on what's possible. In Mail, f…",
     "image_url": "https://images.macrumors.com/article-new/2026/06/Siri-AI.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "iOS 27.3 expands Siri AI’s abilities across many native apps, enabling actions like unsubscribing from emails, managing tabs, and organizing files, and adds support for several new languages. Developers can integrate their apps via App Intents and a new Developer Preview.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "827e358f634a",
@@ -715,9 +809,8 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
-    "tags": [
-      "go"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "c7401e9dbc2d",
@@ -764,7 +857,12 @@
     "excerpt": "Save $14 on the XTEINK X4 Pro right now, with a touchscreen, warm/cool front light, and a tiny 4.3-inch E Ink display.",
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/XTEINK-X4-Pro-Press-Image.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The XTEINK X4 Pro pocket e-reader is currently available at a discounted price on Amazon. The compact device features a 4.3-inch E Ink touchscreen with adjustable warm and cool front lighting. Designed for portability, it includes physical page-turn buttons, Wi-Fi connectivity, and an 1100mAh battery.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "c0abe12ede84",
@@ -776,7 +874,12 @@
     "excerpt": "Director Aaron Keller and associate director Alec Dawson talk about the past, present, and future of storytelling in Overwatch",
     "image_url": "https://kotaku.com/app/uploads/2026/11/vendetta-1280x720.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Blizzard is reflecting on the first year of Overwatch's renewed narrative focus following its 2026 reboot and the conclusion of its latest story arc. The development team utilized various media formats, including cinematics and audio dramas, to tell the tale of Vendetta and Talon. Moving forward, the studio aims to improve story visibility and help players better connect the narrative elements across future arcs.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "85296bf74051",
@@ -813,12 +916,18 @@
     "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
     "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
     "source": "InfoQ",
-    "section": "coding",
+    "section": "ai",
     "published": "2026-11-03T19:00:00Z",
     "excerpt": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Google, it combines the flexibility of native model authoring with cross-platform portability. By Sergio De Simone",
     "image_url": "https://res.infoq.com/news/2026/11/litert-tensor-api/en/headerimage/litert-tensor-api-1793729374644.jpeg",
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Google has released the LiteRT Tensor API, a C++ interface that enables developers to build and optimize machine learning models for on-device execution across various hardware backends. The API allows direct graph construction, weight ingestion from standard formats, and zero-copy buffer interoperability. Additionally, Google demonstrated how AI coding agents can utilize the API to implement and optimize complex models like SAM 2.",
+    "tags": [
+      "devtools",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "73b0d484c1c9",
@@ -842,7 +951,12 @@
     "excerpt": "The concept of fusing an RTS and an FPS always sounds like a fun one, and since 2023 Martin Melichárek has been trying to make a new take on the combination under the watchful eye of DayZ devs Bohemia Interactive through Silica . Today marks the day that Silica leaves early access and enters 1.0, fully fleshing out its hybrid and mish mash of Dune's Arrakis and Helldivers ' Terminids. Read more",
     "image_url": "https://assetsio.gnwcdn.com/silica_L5bW7ZL.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The hybrid first-person shooter and real-time strategy game Silica has officially exited early access with its 1.0 release. Set on an alien planet, the title lets players fight on the ground or command armies from above while competing for resources against rival factions and giant alien creatures. The update introduces a new story-driven single-player campaign, improved strategy controls, 1v1 matchmaking, and expanded modding tools.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "6dac3c5fec65",
@@ -952,7 +1066,12 @@
     "excerpt": "It was a simpler time.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/ogPk9x6Zvmdyf38Wf5vt9C-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Bethesda Game Studios is celebrating its 40th anniversary, reflecting on its history and staff memories. Alan Nanes, now a design director, recalls starting as the studio's first full-time QA tester after initially just hanging out with developers. The article also touches on the broader context of labor relations and unionization efforts among QA workers at the company.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "492c1f6b0ac4",
@@ -1530,7 +1649,7 @@
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 26,
+    "points": 29,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -1551,7 +1670,13 @@
     "excerpt": "Apple today started testing the next macOS Golden Gate update, and developers can now download the first beta of ‌macOS Golden Gate‌ 27.3. The beta comes a week after Apple launched ‌macOS Golden Gate‌ 27.2. Registered developers can download ‌macOS Golden Gate‌ 27.3 by opening up the System Settings app, clicking on General, selecting Software Update, and opting into ‌macOS Golden Gate‌ betas. Ru…",
     "image_url": "https://images.macrumors.com/article-new/2026/06/macOS-27-next-to-MacBook-Pro-Running-macOS-27.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has initiated testing for the macOS Golden Gate 27.3 beta, granting registered developers early access through system settings. Rumors indicate the upcoming update may introduce Apple Intelligence features in China.",
+    "tags": [
+      "ios",
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "1f0d128fba60",
@@ -1617,10 +1742,12 @@
     "image_url": "https://images.macrumors.com/article-new/2025/04/General-visionOS-watchOS-and-tvOS-Betas-Feature-Redux.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has rolled out the initial developer betas for watchOS 27.3, tvOS 27.3, and visionOS 27.3. Upcoming updates are expected to bring new AI transcription and recap capabilities to select wearable devices.",
     "tags": [
       "ios",
       "mobile"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "9f5f1629317a",
@@ -1958,7 +2085,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 14,
+    "points": 16,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -2090,6 +2217,24 @@
     "tags": [
       "prompting"
     ]
+  },
+  {
+    "id": "9b0f1b3870f8",
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T17:40:00Z",
+    "image_checked": true,
+    "points": 281,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:15:23.671536475Z",
+    "summary": "Recent research demonstrates that frontier artificial intelligence models can interpret and modify raw neural network weights directly without executing external code. Termed weight-space programming, this capability allows models to identify flaws and improve performance in other networks by analyzing floating-point parameters. Analysts debate whether these pure weight-inspection tasks should be separated from tool-assisted model updates.",
+    "tags": [
+      "llm",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "b08c1054d416",
@@ -2388,7 +2533,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 646,
+    "points": 675,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -2873,7 +3018,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T16:59:19Z",
-    "points": 42,
+    "points": 43,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -2999,9 +3144,13 @@
     "image_url": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/4192997d-6653-4cd6-a51f-22c379b2565c.png",
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The guide explains how freelance developers can collaborate with design studios, covering role clarification, communication, design handoffs, scope management, and post‑launch support. It offers practical checklists and advice to avoid common pitfalls.",
     "tags": [
-      "tutorial"
-    ]
+      "tutorial",
+      "devtools",
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "bafdcf38cff7",
@@ -3065,7 +3214,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 109,
+    "points": 119,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -3184,7 +3333,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 29,
+    "points": 30,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -3651,9 +3800,12 @@
     "image_url": "https://i.ytimg.com/vi/lR931Iz8Z6U/maxresdefault.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "This beginner-friendly guide explores vector databases, embeddings, and similarity search mechanisms. It covers underlying math, tokenization, and practical implementation using ChromaDB and Gemini.",
     "tags": [
-      "rag"
-    ]
+      "tutorial",
+      "python"
+    ],
+    "enriched": true
   },
   {
     "id": "bb49342b4e9e",
@@ -3995,7 +4147,13 @@
     "excerpt": "The best meta loadout for the VEL 46 SMG in Call of Duty: Modern Warfare 4",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/COD-MW4-Multiplayer-Best-meta-VEL-46-build-2.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A comprehensive multiplayer loadout and attachment guide for the VEL 46 SMG in Call of Duty: Modern Warfare 4. The recommended build focuses on maximizing range and stability for fast-paced combat.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "70158e6ea566",
@@ -4043,7 +4201,13 @@
     "excerpt": "The best loadout for the Mosin-Nagant marksman rifle in Call of Duty: Modern Warfare 4",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/COD-MW4-Multiplayer-Best-meta-Moisin-Nagant-build-3.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A detailed multiplayer build guide for the Mosin-Nagant marksman rifle in Call of Duty: Modern Warfare 4. It outlines the best attachments to enhance accuracy, mobility, and performance at longer ranges.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "680c37f0e49d",
@@ -4053,7 +4217,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:52Z",
     "image_url": "https://hissingkitty.com/api/public/og/hacker-churn.png",
-    "points": 57,
+    "points": 58,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "HackerChurn aggregates Hacker News comments to rank SaaS tools with the most negative feedback over the past three years. Tools receiving at least three complaints across two threads appear on the list, highlighting platforms like Bitwarden, Obsidian, Xero, WordPress, and others that users consider replacing.",
@@ -4071,7 +4235,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:46Z",
     "image_url": "https://blog.bear.app/wp-content/uploads/2026/10/default-blog_1920x1080.png",
-    "points": 82,
+    "points": 83,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Bear, a note‑taking app launched in 2016, celebrates its 10‑year anniversary. Developed by three friends seeking a better design, it earned Mac App of the Year and an Apple Design Award, and has expanded to include a web beta and new editor features. The company emphasizes simplicity, delight, and trust in its user experience.",
@@ -4156,7 +4320,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 197,
+    "points": 204,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -4211,7 +4375,13 @@
     "excerpt": "Apple Wallet driver’s licenses recently launched in Virginia and Oklahoma , but three more states are expected to follow soon, bringing us close to 20 US states on board. more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/apple-wallet-ios-27-app-icon-colors.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple Wallet is expanding its support for digital driver's licenses to more US states. Utah, Kentucky, and North Carolina are expected to introduce support soon, following recent launches in Virginia and Oklahoma. This growth brings the total number of participating states and territories closer to twenty.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "481f7c407586",
@@ -4275,7 +4445,13 @@
     "excerpt": "The best Axion assault rifle loadout in Call of Duty: Modern Warfare 4",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/COD-MW4-Multiplayer-Best-meta-Axion-build-2.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Players are adopting the Axion as the meta weapon of choice for multiplayer matches in Call of Duty: Modern Warfare 4. A specific loadout focusing on heavy silencers, long barrels, and specialized grips maximizes range and accuracy. While handling and mobility decrease slightly, the configuration provides a distinct advantage in short to mid-range combat.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "79ac2a2f215a",
@@ -4333,7 +4509,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 302,
+    "points": 310,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4344,12 +4520,17 @@
     "title": "Google's premier Nest Learning Thermostat is down to its best price ever",
     "url": "https://www.androidpolice.com/google-nest-learning-thermostat-4th-gen-220-deal/",
     "source": "Android Police",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T15:27:53Z",
     "excerpt": "It might be time for a change",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2024/09/google-nest-learning-thermostat-4th-gen-straight-on-temp-hero.JPG",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The fourth-generation Google Nest Learning Thermostat is currently available at its lowest price yet on Amazon. The flagship smart home device features a sleek design, a physical rotating ring, and an included remote temperature sensor. It offers easy installation without requiring a C wire while helping households manage energy efficiently.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "8ce6318f1b8a",
@@ -4380,10 +4561,12 @@
     "image_url": "https://assetsio.gnwcdn.com/gta-6-pre-load.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Rockstar Games has announced that pre-loading for Grand Theft Auto 6 will begin on November 10 across PlayStation 5 and Xbox Series X/S. Players must clear 212GB of storage space to accommodate the massive file size. Regional release timings and official download instructions are now available.",
     "tags": [
       "gaming",
-      "space"
-    ]
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "9c1c48497af1",
@@ -4395,7 +4578,12 @@
     "excerpt": "Straight Talk is having some issues.",
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2023/03/Stock-photo-of-Straight-Talk-logo-on-phone-2.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Users of the prepaid mobile provider Straight Talk are experiencing a widespread service outage. Reports on tracking platforms surged in the morning, leaving customers unable to access the network or reach support. The company has not yet officially confirmed or commented on the technical issues.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "b450560162d2",
@@ -4404,7 +4592,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 374,
+    "points": 380,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4557,7 +4745,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 49,
+    "points": 51,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -4936,7 +5124,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 34,
+    "points": 36,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -4954,7 +5142,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 220,
+    "points": 223,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -5053,7 +5241,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 46,
+    "points": 48,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6287,7 +6475,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T12:42:30Z",
-    "points": 95,
+    "points": 97,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "enriched": true,
@@ -6480,7 +6668,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 781,
+    "points": 783,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -7931,7 +8119,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 251,
+    "points": 252,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -10605,7 +10793,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 86,
+    "points": 90,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -12227,9 +12415,11 @@
     "published": "2026-11-02T15:23:02Z",
     "image_url": "https://thehustle.co/hubfs/undefined-Oct-30-2026-04-01-33-2861-PM.jpeg",
     "image_checked": true,
-    "points": 14,
+    "points": 15,
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "e06637a3e858",
@@ -12998,7 +13188,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 285,
+    "points": 287,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -13967,7 +14157,7 @@
     "published": "2026-11-02T08:58:33Z",
     "image_url": "https://erici.eu/img/og-card.png",
     "image_checked": true,
-    "points": 184,
+    "points": 185,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The European RISC-V Industrial Computing Initiative (ERICI) aims to bring open-standard architecture to industrial environments. By establishing a standardized reference stack for RVA23 silicon, the project helps bridge the gap between emerging open-source hardware and long-term industrial deployment needs.",
@@ -13985,7 +14175,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 74,
+    "points": 78,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -14086,7 +14276,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 94,
+    "points": 96,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -14434,7 +14624,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-02T02:21:07Z",
-    "points": 138,
+    "points": 139,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -15452,7 +15642,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 293,
+    "points": 295,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -15509,7 +15699,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 6,
+    "points": 8,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z"
   },
