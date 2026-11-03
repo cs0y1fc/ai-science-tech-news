@@ -1,5 +1,36 @@
 [
   {
+    "id": "92ccfb4394cc",
+    "title": "watchOS 27.3 beta adds new Siri Recap and Live Rewind features for Apple Watch",
+    "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T18:56:25Z",
+    "excerpt": "Apple has released the first beta of watchOS 27.3 for developers, including two new Audio Intelligence features for Apple Watch Series 12 and Apple Watch Ultra 4: Siri Recap and Live Rewind. Apple first announced these features at its special event in September, saying they would “arrive in beta later this year.” more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-watch-live-rewind-demo.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:57:11.742686151Z",
+    "summary": "Apple has introduced watchOS 27.3 beta for developers, featuring two new Audio Intelligence capabilities called Siri Recap and Live Rewind. Siri Recap automatically generates high-level summaries of daily conversations, while Live Rewind lets users view a transcript of the previous 15 seconds of audio. Both features are processed securely using on-device hardware isolation with end-to-end encryption.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bb04e6f34634",
+    "title": "Your terminal manipulation/navigation setups",
+    "url": "https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-03T18:54:55Z",
+    "excerpt": "Dear Lobste.rs, over a year after my previous post on mouse free setups , your advice was instrumental to building the tech stack I use today as a disabled person, composed of the Svalboard, Talon Voice, and a fair few extensions for Talon (including ones I've written myself.) One aspect of my work and personal life that has remained stubbornly able-bodied has been, surprisingly, my terminal use.…",
+    "image_url": "https://lobste.rs/touch-icon-144.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:57:11.742686151Z"
+  },
+  {
     "id": "eca781caad29",
     "title": "iOS 27.3 and macOS 27.3 add Vertical Tabs, Adaptive Dark Mode, and more to Safari",
     "url": "https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/",
@@ -10,10 +41,10 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/safari-27.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple has released early betas of iOS 27.3, iPadOS 27.3, and macOS 27.3, introducing several new Safari features. The updates bring a vertical tab layout option, an Adaptive Dark Mode for websites lacking native dark themes, and new Siri AI capabilities for managing tabs.",
+    "summary": "The first betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 bring notable updates to Safari, including a vertical tab layout and Adaptive Dark Mode for websites lacking native dark themes. Additionally, the update integrates new Siri AI actions to help users organize, sort, and manage browser tabs.",
     "tags": [
-      "ios",
-      "mobile"
+      "mobile",
+      "ios"
     ],
     "enriched": true
   },
@@ -44,10 +75,10 @@
     "image_url": "https://images.macrumors.com/article-new/2026/11/safari-vertical-tabs.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple's latest software betas for iOS, iPadOS, and macOS introduce a vertical tab layout option for Safari. The updates also feature Adaptive Dark Mode to automatically re-render bright websites and expand Siri's ability to interact with and organize browser tabs.",
+    "summary": "Apple's upcoming software betas introduce major enhancements to Safari across iPhone, iPad, and Mac. The updates bring a vertical tab bar option, Adaptive Dark Mode for unsupported websites, and expanded Siri AI capabilities for tab and browsing history management.",
     "tags": [
-      "ios",
-      "mobile"
+      "mobile",
+      "ios"
     ],
     "enriched": true
   },
@@ -79,10 +110,10 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/health-app-ios-27-2-watchos-27-2.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple has released the first beta for iOS 27.3, featuring a redesigned Apple Health app. The update introduces three primary sections: an Insights tab for daily health summaries, a Longevity tab for long-term health tracking and biological age estimation, and vision-based movement evaluations that run entirely on the device.",
+    "summary": "Apple has re-released the redesigned Health app in the first beta of iOS 27.3, featuring new Insights and Longevity tabs alongside at-home movement evaluations. The updated app utilizes on-device AI models to deliver personalized health recommendations and physical assessments without recording or sharing video data.",
     "tags": [
-      "ios",
       "mobile",
+      "ios",
       "health"
     ],
     "enriched": true
@@ -98,9 +129,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/Apple-iPad-mini-Procreate-Dreams-261026-feature.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Reviewers have expressed mixed feelings regarding the lack of a 120Hz ProMotion display on the newly announced iPad mini, despite its upgrade to an OLED panel. While Apple defends the decision by highlighting the fast pixel response times of OLED technology, critics argue that the absence of a higher refresh rate remains noticeable during scrolling and pen input.",
     "tags": [
+      "mobile",
       "ios"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "36315b3cb5b6",
@@ -158,11 +192,10 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Google-Play-collage-208837.webp?w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "A new batch of mobile app and game discounts has appeared on the Google Play Store. Notable price drops and freebies include titles like Rush Rally 3, Descenders, and 20 Minutes Till Dawn.",
+    "summary": "A variety of digital storefront discounts for mobile platforms and applications are available for users. Numerous games and productivity tools receive temporary price cuts or free promotions on Google Play.",
     "tags": [
       "mobile",
-      "android",
-      "gaming"
+      "android"
     ],
     "enriched": true
   },
@@ -188,16 +221,19 @@
     "title": "watchOS 27.3 Brings Live Rewind and Siri Recap to Apple Watch",
     "url": "https://www.macrumors.com/2026/11/03/watchos-27-3-audio-intelligence/",
     "source": "MacRumors",
-    "section": "phones",
+    "section": "ai",
     "published": "2026-11-03T18:35:24Z",
     "excerpt": "With the first beta of watchOS 27.3, Apple is introducing new Audio Intelligence features it previewed for the Apple Watch Series 12 and Ultra 4 earlier this year. Powered by the S11 chip, Audio Intelligence includes Live Rewind, Siri Recap, Sound Recognition, and Shazam Music Recognition. Sound Recognition and Shazam are already on the watch, but Live Rewind and ‌Siri‌ Recap are now available in…",
     "image_url": "https://images.macrumors.com/article-new/2026/11/siri-recap-live-rewind.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple has released the first watchOS beta featuring new audio intelligence capabilities powered by the S11 chip. The update introduces tools like Live Rewind for conversational transcripts and Siri Recap for daily summaries, both emphasizing on-device privacy and secure processing.",
     "tags": [
-      "ios",
-      "chips"
-    ]
+      "llm",
+      "multimodal",
+      "safety"
+    ],
+    "enriched": true
   },
   {
     "id": "b47ec60ee29c",
@@ -210,9 +246,10 @@
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/marvel-s-wolverine-angry-logan.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Sony has announced that its annual Black Friday sale on the PlayStation Store will begin earlier and run longer than usual, starting on November 4 and lasting through November 30. The month-long event will feature discounts on numerous popular games and recent titles, with offerings refreshed midway through the month. However, official announcements indicate that console hardware and accessories will not be included in these holiday discounts.",
+    "summary": "Sony has announced an extended Black Friday sale on the PlayStation Store, running throughout November with discounts on several major titles. However, the promotion currently omits any price reductions for console hardware or accessories.",
     "tags": [
-      "gaming"
+      "gaming",
+      "consoles"
     ],
     "enriched": true
   },
@@ -295,7 +332,7 @@
     "image_url": "https://kotaku.com/app/uploads/2026/09/ocarina-of-time-navi-1280x720.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "During an interview about the upcoming Legend of Zelda: Ocarina of Time remake, Nintendo developers discussed the game's updated musical score, surround sound support, and voice casting. The sound team created over 150 new musical pieces using a full orchestra alongside recreated Nintendo 64 sound sources. Additionally, developers revealed they inadvertently rehired one of the original voice actors after conducting entirely blind auditions.",
+    "summary": "Nintendo developers discussed the audio design and voice casting process for the upcoming Legend of Zelda: Ocarina of Time remake in a recent interview. They revealed that blind auditions unintentionally led to the rehiring of at least one original voice actor.",
     "tags": [
       "gaming"
     ],
@@ -329,11 +366,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/iPad-mini-OLED-feature-1.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Recent benchmark testing indicates that the new iPad mini surpasses Apple's official battery life claims during continuous web browsing. Despite featuring a smaller battery, the device benefits from improved component efficiency.",
     "tags": [
-      "ios",
-      "tutorial",
-      "energy"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "a118161042ed",
@@ -358,8 +396,9 @@
     "image_url": "https://assetsio.gnwcdn.com/Atuel.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Atuel is a short documentary game that casts players as the Atuel River in Argentina, allowing them to drift through Patagonian landscapes while controlling water and wildlife. Developed by Matajuegos, the title combines surreal visuals and real-world audio commentary to explore environmental themes and the climate crisis. The game is available for free on PC platforms.",
+    "summary": "Atuel is a short, narrative-driven indie game that places players in the role of a river to explore the environmental and cultural aspects of the Atuel River in Argentina. Blending contemplative exploration with real audio commentary from scientists and historians, the title addresses climate change themes while offering a therapeutic experience. Players can download the game for free on PC platforms.",
     "tags": [
+      "indie",
       "gaming"
     ],
     "enriched": true
@@ -423,10 +462,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/09/ios-27-health-app-longevity.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple's upcoming iOS 27.3 update reintroduces a redesigned Health app featuring new Insights and Longevity tabs. The updated software integrates Apple Intelligence to provide personalized wellness guidance, track metrics like heart rate variability, and calculate a health age based on various biomarkers. Additionally, the update expands language support and incorporates data from compatible Apple Watch models and lab results.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "75f00a164dff",
@@ -533,9 +574,12 @@
     "image_url": "https://www.videogameschronicle.com/files/2026/11/itch.io-logo.png",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Indie game platform Itch.io has introduced a search filter that allows users to hide games containing generative AI disclosures. The update follows a massive cleanup effort in which administrators removed terabytes of low-quality AI-generated content. Storefronts like Steam and Itch continue to grapple with the moderation challenges posed by a surge in automated game submissions.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "5d6d28699f13",
@@ -548,10 +592,10 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2024/05/Pixel-8a-angled.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Cyclon proposes repurposing older Google Pixel phones with AI‑driven software that handles tasks via a chatbot, aiming to replace traditional smartphones. The prototype runs on Pixel 8a hardware, with a planned “Cyclon Phone” priced at $699 for two devices. The concept raises questions about practicality and user desire for such pervasive AI control.",
+    "summary": "Cyclon is a new software and hardware venture that repurposes older Google Pixel smartphones to run an interface heavily reliant on generative AI. The system aims to automate everyday tasks, handle notifications, and even generate responses on behalf of the user through conversational chatbots. While the concept includes experimental features like on-demand app creation, it raises privacy and practicality concerns.",
     "tags": [
-      "mobile",
-      "llm"
+      "agents",
+      "mobile"
     ],
     "enriched": true
   },
@@ -566,10 +610,9 @@
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ss_51fdf31162fecb3570ff97b0248b2706248e3281.1920x1080.jpg?quality=90\u0026strip=all\u0026crop=0%2C3.4613147178592%2C100%2C93.077370564282\u0026w=1200",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Indie developers report extended approval times on Steam, causing missed launch dates for games like Food Devils and Wheel Make It. Valve states reviews take 3‑5 business days, but a surge in submissions, including AI‑generated titles, appears to be clogging the queue. Similar delays are observed on itch.io, which recently removed large amounts of AI content.",
+    "summary": "Independent game developers are experiencing significant delays in getting their titles reviewed and approved on Steam, leading to missed launch dates. Creators suspect the backlog is caused by a surge in submissions, including a high volume of generative AI content flooding the moderation queue. While Valve officially estimates a short review window, developers report waiting several weeks for final release clearance.",
     "tags": [
-      "gaming",
-      "cloud"
+      "gaming"
     ],
     "enriched": true
   },
@@ -584,7 +627,7 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/watchOS-27.3-b1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Apple has released the first developer betas for watchOS 27.3, iPadOS 27.3, and tvOS 27.3. The updates introduce new audio intelligence features for compatible smartwatches and preparations for expanded language support. Additionally, users can expect interface refinements and the return of the updated Health application.",
+    "summary": "Apple has released the first developer betas for watchOS 27.3, iPadOS 27.3, and tvOS 27.3. The updates introduce new audio intelligence features for the Apple Watch, such as Siri Recap and Live Rewind. Additionally, the revised Health app is expected to return in these builds.",
     "tags": [
       "ios",
       "mobile"
@@ -684,11 +727,10 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/iOS-27.3-Feature.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Apple has released the first betas for iOS 27.3 and iPadOS 27.3 to developers, following closely after the rollout of version 27.2. The new betas point toward anticipated features like an overhauled Health app integrated with Apple Intelligence and potential regional expansions.",
+    "summary": "Apple has seeded the first developer betas for iOS 27.3 and iPadOS 27.3. The new software cycle points toward upcoming features like a redesigned Health app with Apple Intelligence insights and expanded regional support. These updates arrive shortly after the public rollout of iOS 27.2.",
     "tags": [
       "ios",
-      "mobile",
-      "llm"
+      "mobile"
     ],
     "enriched": true
   },
@@ -703,7 +745,7 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iOS-27.3-b1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Apple has issued the first developer beta for iOS 27.3, signaling the start of a new testing cycle. Developers can test the early software while anticipating upcoming features, including the potential return of a redesigned Health app.",
+    "summary": "Apple has rolled out the first iOS 27.3 developer beta for iPhone testing. The update is anticipated to reintroduce the redesigned Health app featuring Health Age and Quest Diagnostics integration. Developers can install the beta through the standard software update mechanism.",
     "tags": [
       "ios",
       "mobile"
@@ -737,10 +779,11 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2021/07/stadia_controller_android_tv_1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Microsoft is adopting direct Wi-Fi cloud connectivity for its newly announced Xbox Nano Controller, mirroring a feature previously pioneered by Google's Stadia controller. The technology aims to deliver a responsive cloud gaming experience across compatible platforms.",
+    "summary": "The new Xbox Nano Controller features a compact design and includes direct Wi-Fi cloud connectivity. Similar to the defunct Stadia controller, this functionality allows the peripheral to connect directly to cloud gaming services. Microsoft plans to bring this Wi-Fi pairing capability to future Elite controllers as well.",
     "tags": [
+      "hardware",
       "gaming",
-      "hardware"
+      "cloud"
     ],
     "enriched": true
   },
@@ -801,7 +844,12 @@
     "excerpt": "The man's family confirmed he died on October 29 following complications from lung transplant surgery",
     "image_url": "https://kotaku.com/app/uploads/2026/10/GTA-launch-trailer_0001_Brightness_Contrast-2-1280x720.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Jerry Fort, a gaming fan who went viral on TikTok expressing his wish to play GTA 6, has passed away at age 25 due to complications from a lung transplant. His online appeal gained millions of views and prompted a successful fundraising campaign to support his medical treatment. Family and supporters rallied around his dream, turning his goal into a community effort.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "333f72b6e1ee",
@@ -829,10 +877,11 @@
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/10/google-pixel-phone-with-a-magnifying-glass-highlighting-the-lineageos-logo-surrounded-by-screenshots-of-its-features.png",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "LineageOS offers advanced customization features for Android devices beyond a standard stock interface. Users can configure automated system profiles based on location or connectivity, and remap physical buttons for shortcuts like media control and call management.",
+    "summary": "LineageOS provides a clean Android experience packed with extensive customization tools for users. Key features include customizable system profiles that adjust device settings based on Wi-Fi or Bluetooth connections. Users can also configure hardware volume buttons to handle tasks like waking the device or controlling media playback.",
     "tags": [
-      "tutorial",
-      "mobile"
+      "android",
+      "mobile",
+      "tutorial"
     ],
     "enriched": true
   },
@@ -841,15 +890,18 @@
     "title": "Are Counter-Strike players better at decision-making? Study reveals faster brain processing in expert gamers",
     "url": "https://phys.org/news/2026-11-counter-players-decision-reveals-faster.html",
     "source": "Phys.org",
-    "section": "science",
+    "section": "gaming",
     "published": "2026-11-03T18:00:02Z",
     "excerpt": "Expert Counter-Strike players could make ideal candidates for fast-paced emergency service response jobs requiring split-second decision-making, according to a new University of Sheffield study aiming to debunk myths about video games.",
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/counter-strike.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Recent research indicates that experienced video game players demonstrate quicker cognitive processing speeds. The study suggests that such individuals might excel in high-pressure environments requiring rapid decision-making skills.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "41298b9a76b6",
@@ -879,7 +931,12 @@
     "excerpt": "For the time being, the world of Frostpunk remains a hypothetical, even if it's one that seems just that little bit more likely than I'd like it to be given who's in charge of the world. But at the very least, there are pockets of hope to be found in Frostpunk 2 , namely with its newly revealed next bit of DLC, The Surge, a name that has been bequeathed to it for incredibly obvious reasons. Oh, yo…",
     "image_url": "https://assetsio.gnwcdn.com/frostpunk-2-the-surge.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The survival strategy game Frostpunk 2 is expanding with a new downloadable content pack titled The Surge, scheduled for release in December. Set in an unexplored region of the UK, the expansion introduces electricity-based mechanics inspired by Nikola Tesla and challenges players to manage conflicting factions. Survivors must also contend with severe weather events and uncover hidden resources in nearby ruins.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "258ac3833439",
@@ -892,9 +949,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/MzEmQe5m4W2B8ccsdcNUCU-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Digital storefront Itch.io has removed terabytes of low-quality generative AI content and introduced new search filters to help users avoid automated projects. The platform reports a significant surge in daily page creations that have not translated into actual downloads or purchases. Furthermore, Itch.io expanded its mandatory AI disclosure rules to categories beyond software, including tabletop games, books, comics, and soundtracks.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "8fc2315555ec",
@@ -923,7 +982,7 @@
     "section": "ai",
     "published": "2026-11-03T17:55:26Z",
     "image_checked": true,
-    "points": 58,
+    "points": 60,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -943,7 +1002,12 @@
     "excerpt": "A closer look at how TES6 might connect to Skyrim and The Elder Scrolls Online's lore, and what the Sentinel title could mean",
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/es6.JPG",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bethesda has officially titled its upcoming role-playing game The Elder Scrolls 6: Sentinel. Accompanying promotional material features lore references and quotes indicating the game will be set in the desert region of Hammerfell. The subtitle points to the prominent coastal trading city of Sentinel, with the narrative taking place five years after the events of Skyrim.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "089a2f50181b",
@@ -972,7 +1036,12 @@
     "excerpt": "After financial turmoil at Remedy, the company just said 'Control Resonant's successful performance is a \"defining milestone for the company.\"",
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/control-resonant-key-art.png",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Remedy Entertainment's self-published title Control Resonant has become the studio's fastest-selling game to date, significantly boosting third-quarter revenues. The success follows a period of financial underperformance and executive changes, driven by strong pre-orders and a massive marketing investment. The game also attracted a large portion of players who were new to the franchise.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "55e6b6a4f928",
@@ -984,7 +1053,14 @@
     "excerpt": "Naturally.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/cZhgbmCkM4EDB7xnfrzNQN-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A new update for the MGSHDFix mod brings performance improvements and significantly reduced loading times for classic Metal Gear games. The latest version also introduces optional sprite restorations and preliminary raw mouse input support.",
+    "tags": [
+      "gaming",
+      "pc-gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "fab231cae975",
@@ -1060,7 +1136,7 @@
     "section": "tech",
     "published": "2026-11-03T17:44:26Z",
     "image_url": "https://image.cnbcfm.com/api/v1/image/108486127-1793363861367-gettyimages-2302646786-vcg111678111006.jpeg?v=1793363876\u0026w=1920\u0026h=1080",
-    "points": 9,
+    "points": 11,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Binance suffered a massive cyberattack resulting in the theft of over six billion dollars after hackers infiltrated its wallet infrastructure. The attackers used sophisticated social engineering, including fake job interviews and malicious developer tools, to compromise internal systems and AI tools. Binance has since replenished most of the affected funds and enhanced its security protocols.",
@@ -1106,9 +1182,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/11/ipad-mini-oled-in-hand.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has released a redesigned iPad mini featuring an OLED display and a thinner, lighter chassis. The device introduces an acoustic display system and IP67 water resistance, though it retains a standard 60Hz refresh rate.",
     "tags": [
-      "ios"
-    ]
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "203ac27353d1",
@@ -1195,7 +1274,7 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-14000mah-battery-phone-leak-new/-184x111/gsmarena_00.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Leaks indicate that a high-density smartphone battery ranging from 14,000mAh to 15,000mAh has entered trial production at Honor. Expected to launch next year, the large battery aims to provide up to a week of usage on a single charge while maintaining a manageable profile.",
+    "summary": "Industry reports indicate that Honor is mass-producing a high-density smartphone battery with a capacity of up to 15,000mAh. The massive power cell is expected to provide up to a week of battery life on a single charge in upcoming device models.",
     "tags": [
       "mobile",
       "hardware"
@@ -1231,10 +1310,10 @@
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/09/samsung-galaxy-z-fold-8-play-store.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "The Samsung Galaxy Z Fold 8 is currently discounted by $300 on Amazon, bringing the price down to $1,599.99. The foldable device features a Snapdragon processor, dual AMOLED displays, and integration with Galaxy AI features.",
+    "summary": "Amazon has introduced its first major discount on the Samsung Galaxy Z Fold 8, reducing the price by $300. The foldable device features a Snapdragon processor, an improved display crease, and access to Galaxy AI tools.",
     "tags": [
       "mobile",
-      "android"
+      "hardware"
     ],
     "enriched": true
   },
@@ -1262,9 +1341,12 @@
     "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/plasma676-380x214.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The KDE project has released the Plasma 6.7.6 maintenance update, focusing primarily on stability improvements for the KWin window manager. The release addresses various bugs related to screen recording, Wayland pointer focus, power management, and desktop widgets.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "0e9bbbd5f1ba",
@@ -1307,26 +1389,25 @@
     "image_url": "https://kotaku.com/app/uploads/2026/11/reporters-1280x711.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "tags": [
-      "gaming",
-      "tutorial"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "34a2d6fcac49",
     "title": "Moft’s new origami case adds a kickstand and grip to the iPhone Duo",
     "url": "https://www.theverge.com/tech/1025364/moft-dynamic-folio-case-stand-grip-apple-iphone-duo",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-03T17:27:52Z",
     "excerpt": "Originally released in early 2025 as an accessory for the iPad, Moft has redesigned its Dynamic Folio as a case for the iPhone Duo that does more than just protect Apple's folding phone. You can use it to prop the Duo up at several different angles for hands-free use, or reconfigure the Dynamic Folio's origami-like […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/moft1.jpg?quality=90\u0026strip=all\u0026crop=0,10.751871746636,100,78.496256506728",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
-    "summary": "Moft has introduced a redesigned version of its origami-inspired Dynamic Folio case tailored for Apple's folding iPhone Duo. The accessory provides device protection while folding into multiple angles to function as a hands-free kickstand or a secure finger grip.",
+    "summary": "Moft has introduced a new version of its Dynamic Folio case designed specifically for foldable Apple smartphones. The case features an origami-style cover that protects the outer display and functions as a multi-angle kickstand or finger grip. It is available for preorder in multiple color options ahead of its shipping date.",
     "tags": [
-      "mobile"
+      "mobile",
+      "hardware"
     ],
     "enriched": true
   },
@@ -1353,9 +1434,11 @@
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/kp676.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The KDE Plasma 6.7.6 desktop environment has been released as the seventh maintenance update in its series. It brings various improvements and bug fixes to enhance the overall user experience.",
     "tags": [
       "linux"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "195cf5ecf91b",
@@ -1368,9 +1451,11 @@
     "image_url": "https://assetsio.gnwcdn.com/Helldivers_IEMuWpS.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Helldivers 2 is expanding with a new update introducing noxious Terminid enemies, including fast-moving scavengers and web-shooting spewers. Players will encounter these deadly creatures and environmental hazards across various planets while utilizing area-of-effect weapons.",
     "tags": [
-      "space"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "cc635bffd992",
@@ -1383,7 +1468,7 @@
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/06/Xiaomi-17-Ultra_1.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Xiaomi has announced the global rollout schedule for HyperOS 4, covering over 80 devices across three waves. Based on Android 17, the update brings a glass-inspired interface redesign, enhanced customization, and performance improvements.",
+    "summary": "Xiaomi has announced its global rollout schedule for HyperOS 4, covering over 80 devices across three waves starting in November. The update introduces a glass-inspired interface design, enhanced customization options, and improvements based on Android.",
     "tags": [
       "mobile",
       "android"
@@ -1400,7 +1485,12 @@
     "excerpt": "Studio Trigger drops a music video for Cyberpunk: Edgerunners 2, delving into Weak and Avida's backstory.",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/Cyberpunk-Edgerunners-2-Weak-Kingsley.jpeg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A new music video for the animated series Cyberpunk: Edgerunners 2 reveals previously unseen scenes and character backstories. Meanwhile, developers continue supporting the franchise with crossover content and upcoming game projects.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "cb73087219cd",
@@ -1427,7 +1517,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 400,
+    "points": 409,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -1449,9 +1539,11 @@
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/far45.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Fedora Asahi Remix 45 is now available for Apple Silicon Macs, built on Fedora Linux 45 and equipped with the KDE Plasma 6.8 desktop environment. This release brings updated open-source software and desktop features to ARM-based Mac hardware.",
     "tags": [
       "linux"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "1217e903b38d",
@@ -1490,25 +1582,26 @@
     "excerpt": "Sony and Lionsgate are teaming up for Spider-Man Brand New Day director Destin Daniel Cretton's live-action Naruto movie",
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/mcdspma_sp140_h.JPG",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "5732e4161d14",
     "title": "The Xbox Nano has a hidden cloud secret",
     "url": "https://www.theverge.com/games/1025430/xbox-nano-controller-direct-cloud-wifi-connectivity",
     "source": "The Verge",
-    "section": "tech",
+    "section": "gaming",
     "published": "2026-11-03T17:16:04Z",
     "excerpt": "Microsoft is about to launch its new Xbox Nano controller tomorrow, and the tiny device has a little secret. The Nano can connect directly to Xbox Cloud Gaming over Wi-Fi to improve latency. It's a feature Microsoft hasn't officially announced yet, but one I've been anticipating since the Xbox Nano leaked earlier this year. The […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nanowifi.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
-    "summary": "Microsoft’s upcoming Xbox Nano controller can connect directly to Xbox Cloud Gaming via Wi‑Fi, a feature that reduces latency by linking the device straight to Microsoft’s cloud servers. The capability is being tested privately and has not yet been officially announced. Similar direct‑to‑cloud functionality was previously planned for other Xbox controllers but was cancelled.",
+    "summary": "Microsoft's upcoming Xbox Nano controller features a hidden capability to connect directly to Xbox Cloud Gaming servers via Wi-Fi. This functionality is designed to reduce input latency during cloud gaming sessions. Users can pair the compact controller through the Xbox mobile app while it undergoes private testing on the cloud gaming platform.",
     "tags": [
-      "hardware",
-      "cloud",
-      "gaming"
+      "gaming",
+      "hardware"
     ],
     "enriched": true
   },
@@ -1603,7 +1696,7 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Android-Auto-Immerisve-View-1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Google is rolling out the Android Auto 18.1 update to stable users, featuring minor backend adjustments rather than major user-facing changes. Code strings suggest ongoing preparation for the upcoming 'Cielo' redesign, light mode elements, and Samsung-specific interface additions.",
+    "summary": "Google is rolling out the Android Auto 18.1 update to stable users, bringing several behind-the-scenes adjustments rather than major user-facing features. The release continues groundwork for an upcoming visual overhaul known internally as Cielo, which features widget improvements and light mode preparations. Code hints also suggest customized Samsung-specific UI elements are in development.",
     "tags": [
       "mobile",
       "android"
@@ -1639,7 +1732,7 @@
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware.jpg",
     "weight": 1.1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
-    "summary": "Google and international law enforcement agencies have dismantled a large botnet that secretly infected over a million Android TV boxes worldwide. The operation targeted malicious servers and blocked the responsible manufacturer from accessing Google services. Affected devices require manual intervention or specific updates to ensure complete security.",
+    "summary": "Google and international law enforcement agencies dismantled a malicious botnet that infected over a million Android TV boxes worldwide. The operation targeted infrastructure linked to manufacturer Videostrong, which had pre-installed stealthy malware on uncertified devices. Google severed ties with the company and is updating its device certification process to close related security loopholes.",
     "tags": [
       "security",
       "hardware"
@@ -1693,9 +1786,13 @@
     "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/03/launchpad.jpg?resize=406%2C232\u0026ssl=1",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Canonical has integrated FIDO2 hardware security key support into Launchpad to secure API access for developers. This update replaces traditional stored access tokens with hardware-bound credentials, helping protect core system infrastructure from malware and unauthorized use. Users must configure a compatible USB security key along with the python3-fido2 package to use the new authentication method.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "security",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "975c2186648f",
@@ -1720,9 +1817,12 @@
     "image_url": "https://kotaku.com/app/uploads/2026/11/gta-6-preloads.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Rockstar Games has announced pre-load dates, global release schedules, and a massive 212GB file size for the upcoming launch of Grand Theft Auto 6. Digital pre-loading begins on November 10 across PlayStation 5 and Xbox Series X|S consoles. The game officially unlocks globally on November 19, 2026, with regional times varying across time zones.",
     "tags": [
-      "tutorial"
-    ]
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "63d0f98c9daa",
@@ -1752,9 +1852,11 @@
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/the-stormwind-auction-house-in-dungeons-dragons-world-of-warcraft.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Wizards of the Coast is releasing a crossover book that merges Dungeons \u0026 Dragons with World of Warcraft as part of its Universes Beyond line. The publication introduces high-level tactical options, complex character classes like Death Knights and Demon Hunters, and multi-phased boss encounters. This release aims to increase combat complexity and adapt iconic Azeroth mechanics for tabletop players.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "b21a0bba3704",
@@ -1796,15 +1898,16 @@
     "title": "Xbox’s smallest-ever controller is surprisingly comfortable",
     "url": "https://www.theverge.com/tech/1025097/xbox-nano-controller-hands-on",
     "source": "The Verge",
-    "section": "tech",
+    "section": "gaming",
     "published": "2026-11-03T17:00:00Z",
     "excerpt": "Even though I knew Microsoft's new Xbox Nano controller was tiny, I still gasped when I unboxed it a few days ago. The compact controller is small enough to slip into a pocket unnoticed, and it has been designed specifically for younger people, or for anyone with smaller hands. I'm not young, but I do […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VLS_5915.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.486021930258%2C100%2C79.027956139484\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
-    "summary": "Microsoft's new Xbox Nano controller is an exceptionally small, lightweight device designed primarily for younger users or those with smaller hands. Weighing just 101 grams, it features shrunk-down thumbsticks and responsive triggers, though it lacks vibration support and offers shorter battery life than standard controllers. It is scheduled for release on November 4th at a price of $49.99.",
+    "summary": "Microsoft's new Xbox Nano controller is a miniature peripheral tailored for younger players and individuals with smaller hands. Weighing only 101 grams, the device features scaled-down thumbsticks and buttons while retaining analog triggers and ergonomic grips. Despite lacking vibration support and offering shorter battery life than standard controllers, it provides a comfortable alternative for portable gaming.",
     "tags": [
+      "gaming",
       "hardware"
     ],
     "enriched": true
@@ -1819,7 +1922,12 @@
     "excerpt": "What's old is new again.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/7ZQq7itFC8wZ44VDMJqTc3-1920-80.png",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "World of Warcraft's new Dungeons \u0026 Dragons crossover sourcebook has received mixed reviews for its inconsistent quality and rule adaptations. While some adapted classes like the Death Knight feature creative and impactful mechanical changes, others feel thin or rely too heavily on existing rules. Certain spells and features have also drawn criticism for being poorly balanced.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "8b479969c770",
@@ -1832,9 +1940,12 @@
     "image_url": "https://images.nintendolife.com/b88bb9fdea311/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Zero Parades: Director's Cut continues the atmospheric, narrative-driven style of Disco Elysium on the Nintendo Switch 2. Players control an amnesiac spy navigating a politically fractured city through dialogue trees and skill checks. The game introduces tension via status meters that track fatigue, delirium, and anxiety during investigations.",
     "tags": [
+      "gaming",
       "consoles"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "b33030b5cf78",
@@ -1932,10 +2043,11 @@
     "image_url": "https://assetsio.gnwcdn.com/Gundam.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bandai Namco has announced Mobile Suit Gundam Battle Operation 3, a free-to-play team action game featuring large-scale mecha battles. The sequel follows the closure of Gundam Evolution and aims to refine the franchise's multiplayer formula. Network tests are scheduled in Japan ahead of a broader release.",
     "tags": [
-      "gaming",
-      "biology"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "5e4f6792b258",
@@ -1980,7 +2092,7 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/9to5Google-Nov-3.webp?w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Retailers have launched early holiday sales featuring discounts on various Google devices, including the Pixel 11 lineup, Pixel Watch 5 models, and the Google Home Speaker. Best Buy is also offering additional price cuts on open-box units.",
+    "summary": "Retailers have launched early Black Friday sales offering deep discounts on Google hardware, including the Pixel 11 series and Nest smart home devices. Price cuts apply to both new and open-box units across several major retailers. Additional promotions cover wearable accessories and streaming hardware.",
     "tags": [
       "mobile",
       "android"
@@ -1998,9 +2110,12 @@
     "image_url": "https://www.videogameschronicle.com/files/2026/11/bill-and-ted.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Developer Art of Play Interactive is working on a retro-inspired side-scrolling beat 'em up based on the Bill \u0026 Ted franchise. Scheduled for release across major platforms in 2027, the title features voice acting from the original film stars. The studio explicitly prohibits generative AI across all aspects of the game's production and marketing.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "13775dae291d",
@@ -2031,11 +2146,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/iphone-duo-dark.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Market forecasts indicate Apple could capture nearly thirty percent of the global foldable smartphone market by 2027. Early user feedback highlights both the productivity benefits of multitasking and concerns regarding hardware durability and app compatibility. Meanwhile, retail staff are advising customers to secure pre-orders due to anticipated supply constraints.",
     "tags": [
-      "android",
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "b6bf91b204a6",
@@ -2045,7 +2161,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 41,
+    "points": 42,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -2086,7 +2202,7 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/ios-26-5-pride-luminance-iphone-17-pro-black.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Rumors suggest the upcoming base iPhone 18 will inherit features from the Pro models, including extended battery life and a 2-nanometer A20 processor. While these hardware upgrades promise better performance and efficiency, price increases are also anticipated.",
+    "summary": "Rumors suggest the upcoming base iPhone 18 will feature significant upgrades inspired by the Pro models, including a larger battery capacity and a 2-nanometer A20 processor. These enhancements aim to deliver notable improvements in performance and energy efficiency.",
     "tags": [
       "mobile"
     ],
@@ -2121,7 +2237,7 @@
     "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=linux_74_drm",
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "The Linux 7.4 kernel features a large merge window with numerous updates, including initial support for Apple M4 and A18 Pro SoCs, Zen 6 platform preparations, and various hardware and performance improvements.",
+    "summary": "The Linux 7.4 kernel merge window has introduced extensive updates, featuring enablement for AMD Zen 6 processors, initial support for Apple M4 and A18 Pro chips, and various memory management improvements. The release also includes updates for virtual reality headsets and multiple hardware platform optimizations.",
     "tags": [
       "linux",
       "kernel",
@@ -2287,9 +2403,11 @@
     "image_url": "https://kotaku.com/app/uploads/2026/09/ocarina-water-temple-new-1280x720.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "In a recent interview, franchise producer Eiji Aonuma reflected on the infamous Water Temple from the original Ocarina of Time, calling its redesign overdue homework. He discussed the original design goals behind the underwater exploration and acknowledged how frustrating frequent inventory menu toggling was for players. Recent remakes address these pacing issues by streamlining equipment handling and clarifying navigation.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "b196e9453785",
@@ -2302,7 +2420,7 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-deals-MacBook-Neo-Apple-Watch-Ultra-4-AirPods.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Amazon and Apple are offering discounts on various Apple devices, including AirPods Pro 3, Apple Watch Ultra 4 configurations, and select Mac models. Price cuts reach up to $200 on certain computers and around $100 on specific smartwatch variants ahead of the holiday shopping season.",
+    "summary": "Retailers have rolled out notable discounts on various Apple devices, including price cuts on AirPods Pro 3, Apple Watch Ultra 4 models, and select Mac computers. These promotions offer all-time low pricing on several configurations ahead of the shopping season.",
     "tags": [
       "mobile"
     ],
@@ -2313,17 +2431,17 @@
     "title": "[$] LLM reviews for Debian's new queue spark debate",
     "url": "https://lwn.net/Articles/1103674/",
     "source": "LWN.net",
-    "section": "linux",
+    "section": "coding",
     "published": "2026-11-03T16:28:40Z",
     "excerpt": "The Debian project has wrestled with the topic of LLM usage for years, which culminated in a general-resolution vote this August. The project voted in favor of the fifth, out of eight, option: \" Responsible Use of Generative AI \". With the door open to LLM use, the DFSG, Licensing \u0026 New Packages Team (usually shortened to \"DFSG team\"), which is relatively new , has started to employ LLMs in sendin…",
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "The Debian project is discussing the integration of large language models in package reviews following a recent general resolution vote. The new policy encourages responsible use of generative AI within maintenance and review teams.",
+    "summary": "The Debian project's recent adoption of guidelines for generative AI has led to new practices within its packaging teams. Specifically, the integration of LLMs in package review queues has sparked ongoing discussions among contributors regarding responsible usage.",
     "tags": [
-      "linux",
       "llm",
-      "open-source"
+      "open-source",
+      "research"
     ],
     "enriched": true
   },
@@ -2338,9 +2456,11 @@
     "image_url": "https://www.videogameschronicle.com/files/2026/09/zelda-ocarina-of-time-remake-pic-021.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Nintendo developers discussed the challenges of removing auto-jump in the upcoming remake of The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2. Transitioning to manual jumping required redesigning environments and adjusting dungeon layouts, such as the Water Temple, to accommodate player freedom while retaining classic elements.",
     "tags": [
-      "consoles"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "c6e7ad3705a9",
@@ -2368,7 +2488,13 @@
     "excerpt": "The one to get just got even better",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/11/copy-of-16_9.png",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Garmin Vivoactive 5 smartwatch is currently available at a record-low price of $170 following a significant Amazon discount. The lightweight wearable features a vibrant AMOLED display, comprehensive health and fitness tracking, and up to 11 days of battery life. It offers built-in sleep coaching, Garmin Pay, and smart notifications.",
+    "tags": [
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "dad7f464127e",
@@ -2381,10 +2507,9 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-galaxy-s27-ultra-dummy-unit/-184x111/gsmarena_001.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "The article describes a physical dummy unit of the unreleased Samsung Galaxy S27 Ultra built from leaked CAD files. It compares dimensions and design features with the previous S26 Ultra, iPhone 18 Pro, and Pixel 11 Pro, noting changes such as a smaller camera island and lack of internal components. No performance or pricing details are provided.",
+    "summary": "A dummy unit of the upcoming Samsung Galaxy S27 Ultra has been constructed using CAD renders, offering a look at its physical dimensions and design changes. The device features a redesigned rear camera island that houses one fewer camera than its predecessor, potentially accommodating magnetic accessories. It was photographed alongside the Samsung Galaxy S26 Ultra, Apple iPhone 18 Pro, and Google Pixel 11 Pro to compare sizes.",
     "tags": [
-      "mobile",
-      "hardware"
+      "mobile"
     ],
     "enriched": true
   },
@@ -2399,9 +2524,11 @@
     "image_url": "https://images.macrumors.com/article-new/2026/10/MacBook-Pro-PROLED-Touch-1.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple executives have reiterated that the company has no plans to merge iPadOS and macOS into a single operating system. During a recent earnings call, Apple's CEO addressed the topic, noting that the company focuses on creating the best version of each distinct product rather than combining them. Despite maintaining separate operating systems, both platforms continue to share overlapping features and design elements.",
     "tags": [
-      "ios"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "d60c54f827dc",
@@ -2442,9 +2569,11 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-Watch-5-Display-4.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google has acknowledged a bug causing unexpected battery drain on certain Pixel Watch models. A software fix is currently rolling out to affected users and is expected to reach all devices within a few days. Users can apply the update by manually checking for app updates through the Play Store on their smartwatch.",
     "tags": [
-      "energy"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "d6b2179e0d9a",
@@ -2469,10 +2598,11 @@
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/steam-neon-alt.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The indie game storefront Itch.io has introduced a new filtering option that allows users to hide projects containing generative AI content. The update comes in response to a significant surge in AI-generated submissions across various digital platforms. While the platform permits AI usage as long as it is properly disclosed and adds value, it continues to enforce strict spam guidelines against uncurated algorithmic output.",
     "tags": [
-      "pc-gaming",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "529660a75e38",
@@ -2500,7 +2630,13 @@
     "excerpt": "The Oura Ring 4 is 30% off on Amazon right now, bringing premium sleep and health tracking to its all-time low price.",
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/01/Oura-ring-4-ceramic-ring-scaled.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Oura Ring 4 in Ceramic Midnight is currently discounted by 30% on Amazon, bringing its price down to $279. This screen-free smart ring utilizes advanced continuous sensors to monitor sleep, recovery, heart rate, and stress levels. Built with high-performance zirconia ceramic, it features a comfortable inner fit and an estimated battery life of up to eight days.",
+    "tags": [
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "581c7eed18fb",
@@ -2529,21 +2665,29 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/z97tu6QgVY7qy5FoGveeGh-1920-80.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Rockstar Games is omitting physical fold-out maps from the physical packages of Grand Theft Auto VI, deviating from a long-standing series tradition. Instead, players can download a digital version or purchase a physical double-sided poster and map separately from the Rockstar Store. This change highlights the ongoing industry shift away from traditional physical media extras.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "d933c2f6394e",
     "title": "This TP-Link Tri-Band Wi-Fi 7 router just returned to its lowest-ever price",
     "url": "https://www.androidauthority.com/tp-link-tri-band-be15000-wi-fi-7-router-deal-3731246/",
     "source": "Android Authority",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T16:10:26Z",
     "excerpt": "Save $100 on the TP-Link Archer BE700 and get a tri-band Wi-Fi 7 router with Multi-Link Operation and 4.4-star rating.",
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/TP-Link-Tri-Band-BE15000-WiFi-7-Router-Product-Image.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "TP-Link's Archer BE700 tri-band Wi-Fi 7 router is currently on sale for $249.97, matching its lowest-ever price. The router supports multi-gigabit wired connections, including a 10GbE WAN port and Multi-Link Operation for compatible devices. It is designed to deliver fast local networking and strong short-range performance on the 6GHz band.",
+    "tags": [
+      "web",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "a1a85c022015",
@@ -2568,9 +2712,11 @@
     "image_url": "https://assetsio.gnwcdn.com/elder-scrolls-6-sentinel-01.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bethesda has revealed a new teaser for The Elder Scrolls 6, officially titling the game The Elder Scrolls 6: Sentinel. The short video confirms a setting in Hammerfell and hints at narrative elements involving moth priests and mysterious scrolls. This announcement finally provides the gaming press with new promotional imagery after years of relying on the 2018 teaser.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "b2c585f778ee",
@@ -2583,10 +2729,12 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/ios-27-iphone-side-angle-fi.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The iOS 27.2 update introduces several improvements, including a split queue for the Podcasts app and new organization options for Shared Albums in Photos. It also brings minor updates to CarPlay, Find My, and Siri.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "bb49342b4e9e",
@@ -2631,10 +2779,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/3XWA3EbMASFrqQYUVrjPre-1920-80.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Despite major restructuring and significant layoffs at Xbox that affected id Software, studio leadership insists operations remain strong. The developer is collaborating closely with MachineGames on upcoming projects following the downsizing.",
     "tags": [
-      "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "3964f1b6a771",
@@ -2665,10 +2814,12 @@
     "image_url": "https://images.macrumors.com/article-new/2026/11/apple-watch-sound-recognition-Shazam-interface.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Recent Apple Watch models feature an automatic Music Recognition tool powered by Shazam. The feature identifies nearby audio without recording sound and surfaces track details directly in the Smart Stack.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "f7dd3701b3ac",
@@ -2680,7 +2831,13 @@
     "excerpt": "'The actors would just go crazy if they had to read all of that!'",
     "image_url": "https://kotaku.com/app/uploads/2026/11/arc-actor-1280x721.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The developers of the extraction shooter Arc Raiders released a video attempting to justify their controversial use of generative AI for character voice acting. Studio representatives argued that the sheer volume of lines required made human recording impractical, though they later announced plans to replace the AI voices with human actors. The explanations have drawn skepticism from players and industry observers concerned about the impact on voice acting professionals.",
+    "tags": [
+      "gaming",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "97667e5ea7c1",
@@ -2707,7 +2864,12 @@
     "excerpt": "Resident Evil's VFX team reveals the secrets behind the Pedestrian, Mutant Bryan, and more",
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/resident-evil.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Visual effects artists from Wētā Workshop discussed their work on Zach Cregger's horror film adaptation, clarifying the creation process behind the mutated monster known as the Pedestrian. While early viral tests featured practical performers tied together, the final creature was brought to life digitally to achieve a more unnatural and asymmetrical appearance. The team emphasized that practical tests merely serve as early conceptual explorations before digital enhancement takes over.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "8ba0ccb39d33",
@@ -2731,7 +2893,12 @@
     "excerpt": "Don't ignore the discounts, though",
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/02/samsung-galaxy-s26-ultra-audio-eraser-buds.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Black Friday smartphone discounts are often minimal compared to deals on other consumer electronics. Industry analysts suggest that waiting for these sales may not provide significant savings over standard pricing.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "0e7b16327df7",
@@ -2744,7 +2911,15 @@
     "image_url": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
     "image_checked": true,
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "An open-source project named Arnis allows users to convert real-world geospatial data from OpenStreetMap into explorable Minecraft worlds. Created by Louis Erbkamm as a school break project, the tool has gained a large developer community and significant download numbers on GitHub. The software translates streets, buildings, elevation, and custom 3D models into game blocks, evolving through community contributions and code ports.",
+    "tags": [
+      "open-source",
+      "devtools",
+      "python",
+      "rust"
+    ],
+    "enriched": true
   },
   {
     "id": "c6101696c6bb",
@@ -2848,7 +3023,12 @@
     "excerpt": "Netflix brings Jason Statham and Guy Ritchie back together for another action-packed revenge flick, Dogfight.",
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/jason-statham-mutiny.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Filmmaker Guy Ritchie and actor Jason Statham are reuniting for a new Netflix action-thriller titled Dogfight, set in the criminal underground of London. The project adds to a long history of collaborations between the duo that began with Lock, Stock, and Two Smoking Barrels. Filming is scheduled to begin in the United Kingdom, alongside other upcoming releases featuring the actor.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "e7a3f00aea39",
@@ -2860,7 +3040,12 @@
     "excerpt": "The best meta loadout for the PPSH-41 in Call of Duty: Modern Warfare 4",
     "image_url": "https://www.videogameschronicle.com/files/2026/11/COD-MW4-Multiplayer-Best-meta-PPSH-41-build-2.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A guide outlines a custom loadout for the PPSH-41 submachine gun in Call of Duty: Modern Warfare 4. While not traditionally considered a top-tier meta weapon, specific attachments like heavy barrels and frangible ammunition can improve its range and stability. The build aims to provide an enjoyable and viable gameplay experience for players prioritizing fun over strict weapon optimization.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "3c115a7d7819",
@@ -2886,11 +3071,12 @@
     "image_url": "https://images.macrumors.com/article-new/2025/09/iphone-17-models.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Leaks indicate that the upcoming standard iPhone 18 may feature a larger battery and a potential price increase. The device is rumored to include a 2nm A20 chip and a 120Hz display, alongside expected models like the iPhone 18e.",
     "tags": [
-      "ios",
       "mobile",
-      "energy"
-    ]
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "88e6125a1401",
@@ -3063,7 +3249,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 143,
+    "points": 144,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -3165,9 +3351,12 @@
     "image_url": "https://www.videogameschronicle.com/files/2026/11/Control-Resonant.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Remedy Entertainment announced that Control Resonant has sold over one million copies globally, becoming the fastest-selling game in the studio's history. Reaching this milestone just three weeks after its digital debut and physical release, the self-published title attracted a large portion of new players to the franchise.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "192067df90a7",
@@ -3207,10 +3396,12 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/Tks6Lt3XiARpDgRtQxUFok-1920-80.png",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "PC Gamer has released its annual Top 100 list, highlighting the best computer games currently available. The selection process involves a subjective editorial vote based on quality, importance, and originality. The compilation balances timeless classics with modern favorites to capture the current landscape of PC gaming.",
     "tags": [
-      "pc-gaming",
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "584563de848e",
@@ -3235,7 +3426,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 215,
+    "points": 218,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3264,10 +3455,12 @@
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/08/Samsung-Galaxy-S26FE-pistachio.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The 256GB version of the Samsung Galaxy S26 FE is currently discounted by $100 on Amazon, bringing its price down to $699.99. The smartphone features a 6.7-inch 120Hz display, a triple-lens rear camera system, and long-term software support. It provides many flagship features at a more accessible price point.",
     "tags": [
-      "android",
-      "space"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "6f869461755a",
@@ -3304,7 +3497,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 298,
+    "points": 301,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3335,16 +3528,18 @@
     "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
     "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
     "source": "Lobsters",
-    "section": "coding",
+    "section": "linux",
     "published": "2026-11-03T15:23:21Z",
     "excerpt": "Comments",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Rust-based implementation of sudo included in Ubuntu 26.04 is reportedly incompatible with standard sudo configurations. This change impacts administrators and users managing system privileges on the upcoming Linux distribution.",
     "tags": [
       "linux",
       "rust"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "e14a1c56a374",
@@ -3440,10 +3635,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Valve's Linux graphics team has enabled D16 16-bit data modifier support for the AMD GFX8 GPU generation. The patches land in Mesa to improve memory bandwidth pressure and register efficiency across RadeonSI and RADV drivers.",
     "tags": [
       "linux",
-      "chips"
-    ]
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "60d509013177",
@@ -3492,11 +3689,12 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/Galaxy-Z-Fold-8-lavender.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Sales of the Samsung Galaxy Z Fold 8 experienced a significant increase in South Korea following the launch of Apple's foldable device. Consumer hesitation surrounding hardware issues and software optimization challenges with competing products appear to have driven buyers toward Samsung's foldable line.",
     "tags": [
-      "android",
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "cbdab6a9711d",
@@ -3528,9 +3726,11 @@
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/07/z-fold-8-launch-day-7.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Samsung's upcoming Galaxy Z Fold 9 and Z Fold 9 Ultra may reuse the same camera hardware as their predecessors. A recent leak suggests the company is taking a cautious approach instead of introducing major camera upgrades. The standard model and the Ultra variant are expected to retain familiar sensor configurations.",
     "tags": [
-      "space"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "c2a1c89153a1",
@@ -3573,9 +3773,10 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Fedora Linux 45 is now available, bringing updates across Workstation, Server, Cloud, and other editions. The release introduces Stratis storage installation support, removes outdated NetworkManager plugins, and refreshes desktop environments and developer toolchains.",
+    "summary": "Fedora Linux 45 has been officially released across various desktop editions, servers, cloud images, and IoT variants. The update introduces support for Stratis storage installations, removes unmaintained VPN plugins, and updates desktop environments and developer toolchains.",
     "tags": [
-      "linux"
+      "linux",
+      "kernel"
     ],
     "enriched": true
   },
@@ -3754,9 +3955,12 @@
     "image_url": "https://itsfoss.com/content/images/2026/10/fedora-45-features-banner.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Fedora 45 is now available, featuring improved kernel panic handling with a web frontend for QR codes and the integration of kmscon for the virtual console. The release also ships with Linux 7.2, bringing initial HDMI 2.1 support for Radeon hardware and expanded laptop compatibility.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
   },
   {
     "id": "bab8cecf844c",
@@ -3810,10 +4014,12 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/redmi-note-17-pro-max-back.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Xiaomi has announced the rollout schedule for its Android 17-based HyperOS 4 update across numerous device series. The update brings a visual redesign, enhanced lockscreen customization, and performance improvements driven by background optimization algorithms.",
     "tags": [
-      "android",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "742cc8364fba",
@@ -3926,10 +4132,12 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/Pixel-11-Pro-Search-Settings-.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google is introducing a new Family Hub feature within the Android Settings menu to centralize family account management. The dedicated space consolidates family sharing tools, permission controls, and calendar events into a single menu.",
     "tags": [
-      "android",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "d874c6737783",
@@ -3938,7 +4146,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 33,
+    "points": 35,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3970,10 +4178,13 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/qUqrbeiRf4jWs4ivTS3KUg-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Two notable game studios are co-hosting a point-and-click adventure game showcase featuring numerous world premieres, release dates, and demos. Alongside the event, a digital storefront sale offers discounted prices on dozens of classic and modern adventure titles.",
     "tags": [
-      "pc-gaming",
-      "gaming"
-    ]
+      "indie",
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "e87f7fb1b5d3",
@@ -3987,9 +4198,13 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Fedora Project has released Fedora 45, bringing several updates and under-the-hood improvements to the Linux distribution. The new version incorporates the GNOME desktop environment, updated compiler toolchains, and enhanced security defaults alongside storage and kernel-level updates.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "6f377c9edbe7",
@@ -4029,10 +4244,12 @@
     "image_url": "https://images.nintendolife.com/63bd0177fcf2c/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Nintendo has shared details regarding the voice cast for the upcoming Nintendo Switch 2 version of a classic action-adventure game. Through blind auditions, developers inadvertently selected a voice actor who worked on the original N64 release to reprise their role.",
     "tags": [
-      "consoles",
-      "gaming"
-    ]
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "098e253b14c4",
@@ -4045,9 +4262,12 @@
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/10/new_in_Atomic_desktop_45.svg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Fedora project has launched version 45 of its Atomic Desktops, bringing updated container management tools and a modernized installer. Various desktop variants like Silverblue and Kinoite receive environment updates alongside improvements to image building and remote installations.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "78a29dd1f1af",
@@ -4096,9 +4316,11 @@
     "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/fedora45-380x214.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "The Fedora Project has released Fedora Linux 45, featuring updates such as GNOME 51 and KDE Plasma 6.8. The release also includes security enhancements like default RPM package signature verification and various installation improvements.",
+    "summary": "Fedora Linux 45 has officially launched with updated desktop environments, security enhancements, and modern development tools. Notable updates include transitioning further toward Wayland, replacing the in-kernel console with kmscon, and enforcing stricter package signature verification by default.",
     "tags": [
-      "linux"
+      "linux",
+      "open-source",
+      "rust"
     ],
     "enriched": true
   },
@@ -4138,11 +4360,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "LWN.net has published security updates detailing various Linux kernel patches and vulnerability fixes for multiple Ubuntu releases. These advisories cover standard and cloud-optimized kernel packages across several distribution versions. Administrators are encouraged to apply these updates to maintain system security.",
     "tags": [
       "linux",
-      "kernel",
-      "python"
-    ]
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "81752436549a",
@@ -4170,9 +4393,12 @@
     "image_url": "https://itsfoss.com/content/images/2026/11/apple-linux-distros-banner.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Several community-driven Linux distributions allow users to install and run operating systems like Fedora, Ubuntu, and Debian directly on Apple Silicon Mac hardware. These ports leverage ongoing reverse-engineering and driver development to bypass macOS restrictions. While core features often function smoothly on M1 and M2 chips, newer hardware generations may still have partial driver support limitations.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "cb890b9d81d7",
@@ -4218,10 +4444,12 @@
     "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/10/Samsung-Galaxy-S26-FE-face-down-outdoors-scaled.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Samsung Galaxy S26 FE delivers a performance upgrade by adopting the Exynos 2500 chipset globally, but retains several compromises like a meager base storage configuration and a plastic camera module. Despite durable materials and a bright FHD+ display, the lack of an efficient LTPO panel limits its appeal. These persistent limitations raise questions about the value proposition of Samsung's Fan Edition lineup.",
     "tags": [
-      "android",
-      "space"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "70dc2d12c0a7",
@@ -4266,10 +4494,12 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/ipad-mini-hero2-edited-1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has updated its smallest tablet with a significantly thinner and lighter design featuring a larger OLED display and improved peak brightness. The device incorporates slimmer bezels and the powerful A20 Pro chip while maintaining a compact form factor. However, the screen still lacks support for ProMotion higher refresh rates.",
     "tags": [
-      "ios",
-      "chips"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "540c19b98164",
@@ -4312,24 +4542,28 @@
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/10/new_in_fedora_workstaiion_45-300x127.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Fedora Workstation 45 introduces performance refinements and security enhancements built around GNOME 51. Key improvements include a reworked frame scheduling system in Mutter for smoother animations and the transition to the GBM graphics memory management path. Additionally, the release features updates to core applications like Files, Calendar, and the file previewer alongside sandboxed credential storage.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "469aa1849694",
     "title": "Apple iPad Mini (2026) Review: A Dream Device, but Who Is It For?",
     "url": "https://www.wired.com/review/ipad-mini-2026/",
     "source": "Wired",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-03T14:00:00Z",
     "excerpt": "The iPad Mini’s impressive new features make it a better tablet than ever—only to be betrayed by its higher price.",
     "image_url": "https://media.wired.com/photos/6ae914d0db4305d8f2ef46a8/master/pass/Review%20iPad%20Mini%20112026%20top%20art%20SOURCE%20Amazon.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
-    "summary": "The eighth-generation Apple iPad Mini features significant hardware upgrades, including an OLED display, increased memory, and a waterproof design. Reviewers praise its sharp screen and compact form factor, particularly highlighting the optional nano-texture display for outdoor use. However, the higher price tag raises questions about its target audience compared to other tablet options.",
+    "summary": "The eighth-generation iPad Mini receives a substantial upgrade featuring an OLED display, a faster processor, a slimmer chassis, and water resistance. The smaller form factor provides high pixel density, and an optional nano-texture glass significantly reduces glare for outdoor use. Despite these improvements, the higher price tag and lack of a 120Hz refresh rate complicate its position in Apple's tablet lineup.",
     "tags": [
-      "hardware"
+      "mobile",
+      "ios"
     ],
     "enriched": true
   },
@@ -4344,9 +4578,12 @@
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/10/new_in_KDE_plasma_desktop_45-300x127.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Fedora KDE Plasma Desktop Edition 45 highlights the release of KDE Plasma 6.8 alongside the reliable Fedora base. The update introduces various system enhancements, including per-screen virtual desktops, better accessibility features, and refined theming options. Users can also expect broader system updates such as a new version of Podman.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "75a2d0dba127",
@@ -4422,26 +4659,31 @@
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/09/Fedora_LInux_45-300x127.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Fedora Project has announced the release of Fedora Linux 45, bringing updated desktop environments, developer toolchains, and kernel enhancements. A major highlight is the integrated support for Stratis storage within the Anaconda installer, providing enterprise-grade local storage management. Upgrading is available for existing users across various desktop editions and architectures.",
     "tags": [
       "linux",
-      "cloud"
-    ]
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "f44f41d627e8",
     "title": "How to Rebase to Fedora Linux 45 on Silverblue",
     "url": "https://fedoramagazine.org/how-to-rebase-to-fedora-linux-45-on-silverblue/",
     "source": "Fedora Magazine",
-    "section": "linux",
+    "section": "tutorials",
     "published": "2026-11-03T14:00:00Z",
     "excerpt": "Fedora Silverblue is an operating system for your desktop built on Fedora Linux. It’s excellent for daily use, development, and container-based workflows. It offers numerous advantages such as being able to roll back in case of any problems. If you want to rebase to Fedora Linux 45 on your Fedora Silverblue system, this article tells you how. It not […]",
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/11/silverblue-F45-rebase-300x127.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "This guide explains how to rebase an existing Fedora Silverblue system to Fedora Linux 45 using either the GNOME Software interface or the terminal. It details the necessary update steps, verification methods, and commands for pinning deployments. Additionally, it provides instructions on how to roll back changes in case of boot issues.",
     "tags": [
       "linux",
-      "tutorial"
-    ]
+      "tutorial",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "1c989db03656",
@@ -4454,10 +4696,12 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/bvBBk23DEaHmvBdZ5eTAEP-1920-80.png",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Community developers have introduced an unofficial launcher that brings the SteamOS interface and Windows game compatibility to Apple Silicon Macs via a virtual machine. Utilizing translation layers like Proton, FEX, and Metal APIs, the tool allows users to run various PC games on macOS. Testing shows promising performance on high-end M-series chips, though numerous software layers and caveats remain.",
     "tags": [
-      "pc-gaming",
-      "gaming"
-    ]
+      "gaming",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "5497e9cc74ea",
@@ -4470,11 +4714,12 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2025/06/Galaxy-S25-Ultra-camera-system-4.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google has confirmed that a fix is now available for Android Auto connectivity and performance issues affecting certain Samsung Galaxy smartphones running One UI 9. Users previously reported connection failures and stuttering after updating their devices. The resolution follows user complaints shared across Reddit and official support forums.",
     "tags": [
       "android",
-      "mobile",
-      "space"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "93d957f67853",
@@ -4536,9 +4781,12 @@
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-tiny-shift-exposes-a.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "Observations by the James Webb Space Telescope revealed that an object initially thought to be an early galaxy actually moved over a 3.5-year period. This movement identified the faint red celestial body as a cool brown dwarf instead.",
     "tags": [
-      "space"
-    ]
+      "space",
+      "physics"
+    ],
+    "enriched": true
   },
   {
     "id": "3bf0307e1c19",
@@ -4678,10 +4926,13 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/redmagic-12-pro-with-switch-and-controllers-02.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Redmagic 12 Pro is a smartphone designed for gaming, featuring a Snapdragon processor, an 8,400mAh battery, and active liquid and fan cooling. Reviewers noted its sustained performance and flat build, which integrates smoothly with mobile controllers.",
     "tags": [
-      "gaming",
-      "energy"
-    ]
+      "mobile",
+      "android",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "0a6e99d7f2be",
@@ -4750,9 +5001,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Upcoming updates for the Linux kernel are expected to bring major performance improvements to FAT32 file systems. Developer work on batching synchronous mirror writes has demonstrated speed increases of up to 4.06x.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
   },
   {
     "id": "a91ba8573ef4",
@@ -4921,10 +5175,13 @@
     "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/10/an-esim-chip-on-a-blue-circuit-board-against-a-blue-background.png",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The growing adoption of eSIMs on modern smartphones prevents thieves from easily removing a physical SIM card to disconnect a stolen device. Combined with device security settings, this keeps lost phones connected to cellular networks, making network tracking more reliable.",
     "tags": [
+      "mobile",
       "android",
-      "space"
-    ]
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "6fc7b2db6679",
@@ -4949,10 +5206,10 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-better-sleep-apnea-detection-live/-184x111/gsmarena_000.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Samsung has rolled out an upgraded sleep apnea risk detection feature for the Galaxy Ring and Galaxy Watch9 in the US. The updated tool provides deeper analysis of sleep vitals and breathing disruptions to help users discuss results with a clinician.",
+    "summary": "Samsung has rolled out an upgraded sleep apnea detection feature for its Galaxy Ring and Galaxy Watch9 in the US. The FDA-cleared tool provides deeper analysis of breathing disruptions during sleep using data collected over multiple nights.",
     "tags": [
       "mobile",
-      "android"
+      "health"
     ],
     "enriched": true
   },
@@ -5006,9 +5263,12 @@
     "image_url": "https://images.nintendolife.com/4cf16af46be2a/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "FuturLab is releasing a Barbie-themed DLC for PowerWash Simulator 2 on the Switch 2 next month. The expansion adds five new levels, a narrative element, and a specialized outfit.",
     "tags": [
-      "consoles"
-    ]
+      "indie",
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "13972d7a328e",
@@ -5021,9 +5281,10 @@
     "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/opensuse-leap-161-380x214.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "The openSUSE Project has launched openSUSE Leap 16.1, introducing a new Immutable Mode that integrates Leap Micro into the main distribution. The release also updates the desktop environments, including KDE Plasma 6.6, and provides updated software stacks for developers.",
+    "summary": "The openSUSE Project has released Leap 16.1, introducing an immutable installation mode that integrates Leap Micro into the main distribution. The update also features KDE Plasma 6.6 and various software stack upgrades while maintaining the Linux kernel 6.12.",
     "tags": [
-      "linux"
+      "linux",
+      "kernel"
     ],
     "enriched": true
   },
@@ -5119,7 +5380,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T12:42:30Z",
-    "points": 94,
+    "points": 95,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "enriched": true,
@@ -5260,10 +5521,11 @@
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-earnings-show-the-iPhone-18-launch-strategy-is-really-working.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple's latest earnings report highlights record revenue, driven in part by strong iPhone sales during the September quarter. The absence of a base model release alongside the Pro variants appears to have influenced buyer behavior toward higher-end devices.",
     "tags": [
-      "ios",
       "mobile"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "70df1929ba84",
@@ -5295,11 +5557,13 @@
     "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/ipfire229-205-380x214.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "IPFire has released an emergency security update for version 2.29 to patch a critical use-after-free vulnerability in the Linux kernel TCP stack. Core Update 205 upgrades the kernel to version 6.18.60 and requires a system reboot.",
     "tags": [
       "linux",
       "kernel",
       "security"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "435a4449f912",
@@ -5309,7 +5573,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 745,
+    "points": 746,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -5397,11 +5661,12 @@
     "image_url": "https://assetsio.gnwcdn.com/itch-logo-black-new-svg.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Indie storefront itch.io has updated its search filters to allow users to hide games created with generative AI. The platform is addressing a surge in low-effort AI content and dealing with server storage challenges caused by automated submissions.",
     "tags": [
-      "pc-gaming",
-      "indie",
-      "gaming"
-    ]
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "92da6b46c376",
@@ -5429,9 +5694,12 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/redmagic-12-pro-global/-184x111/gsmarena_000.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The RedMagic 12 Pro has launched globally, offering an 185Hz OLED display, a Snapdragon 8 Elite processor, and an upgraded liquid cooling system with an RGB fan. It features a large 8,400 mAh battery with 80W wired charging and an under-display selfie camera. The device is available internationally starting at $899 in various memory and storage configurations.",
     "tags": [
-      "energy"
-    ]
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "7fa43fd34d85",
@@ -5497,29 +5765,29 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/razer-prio-controller-3.jpg?quality=82\u0026strip=all\u0026w=1200",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The article discusses recent developments in mobile gaming, highlighting various classic titles and ongoing retrospectives. It reflects on historical gaming content within a tech newsletter format.",
     "tags": [
-      "android",
       "mobile",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "476e305651d6",
     "title": "Redmagic upgrades its liquid-cooled gaming phone with extra RGBs",
     "url": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-03T12:00:00Z",
     "excerpt": "After introducing true liquid cooling to its gaming phones last year, Redmagic is upping the ante in its 12 Pro by building RGB lights into the transparent cooling loop, too. And they work! Sort of. The lights do turn on, and they can be set to glow in set patterns, activate for specific apps, or […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/redmagic-12-pro-3.jpg?quality=90\u0026strip=all\u0026crop=0%2C8.1151832460733%2C100%2C83.769633507853\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
-    "summary": "Redmagic has updated its mobile gaming device with integrated RGB lighting embedded directly into its liquid-cooling system. The smartphone features enhanced thermal performance, a high refresh rate display, and a large battery capacity. However, design compromises include uneven lighting interactions with the blue coolant and the removal of the headphone jack.",
+    "summary": "Redmagic has announced its 12 Pro gaming phone, featuring an upgraded liquid-cooling system with integrated RGB lighting effects. The device includes high-end specifications such as a Snapdragon processor, a large battery, and a high refresh rate display. However, reviewers note that achieving consistent lighting aesthetics can be challenging due to the fluid colors.",
     "tags": [
-      "hardware",
       "mobile",
-      "gaming"
+      "hardware"
     ],
     "enriched": true
   },
@@ -5609,10 +5877,11 @@
     "image_url": "https://assetsio.gnwcdn.com/complusion-games-staff-reportedly-given--permission-to-look-for-work-01.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Compulsion Games creative director David Sears reflected on Xbox funding South of Midnight, calling the financial model unsustainable in hindsight. He noted that while he is glad the game was made, publishers often prioritize short-term financial returns over cultural impact. Compulsion parted ways with Microsoft following recent industry-wide layoffs.",
     "tags": [
-      "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "a77f51e7faeb",
@@ -5713,10 +5982,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Linux kernel is preparing to remove the final remaining MMX-optimized code ahead of version 7.5. This change phases out performance optimizations designed for outdated 32-bit processors like the Intel Pentium MMX and Pentium II. Affected systems will fall back to standard scalar code paths for software RAID operations.",
     "tags": [
       "linux",
       "kernel"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "5a3345f135c4",
@@ -5851,9 +6122,12 @@
     "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/11955567id30115gol.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Epic Games has released updates for its Epic Games Launcher Preview, introducing a collapsible friends list and account switching options. The preview version also includes various bug fixes and layout improvements for the library interface. These updates bring the client closer to feature parity with the legacy launcher.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "177ce5c9b1e8",
@@ -5914,9 +6188,9 @@
     "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/11/cake.jpg?resize=1200,600",
     "weight": 1.2,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
-    "summary": "Safety researchers are exploring reverse game theory, or mechanism design, to align powerful AI models by creating structural incentives rather than trying to interpret internal neural states. This approach uses reward structures and competitive dynamics to discourage deceptive behaviors like test sandbagging. By aligning incentives, developers aim to keep autonomous agents compliant without needing full transparency into their computations.",
+    "summary": "Researchers are exploring reverse game theory, or mechanism design, as an alternative method for aligning AI models. Rather than inspecting internal model weights, this approach creates rule systems and incentives that encourage safe behaviors and discourage deceit. Recent academic proposals suggest rewarding models based on cross-checking predictions or pitting agents against each other in competitive environments.",
     "tags": [
-      "safety",
+      "llm",
       "agents",
       "research"
     ],
@@ -5933,10 +6207,12 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/apple-september-quarter-financials/-184x111/gsmarena_000.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple announced a record financial quarter with $114.5 billion in revenue, driven largely by strong iPhone sales and an all-time high in its Services division. Full-year revenue also reached new heights at $479 billion. The company recently launched a major product lineup including new iPhones, Macs with touch capabilities, and updated smart home hardware.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "8a5008229d9a",
@@ -6029,10 +6305,12 @@
     "image_url": "https://assetsio.gnwcdn.com/itch-AI-filter.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The indie storefront itch.io is introducing a search filter to let users hide projects with generative AI disclosures. The platform is also expanding mandatory AI labeling to include tabletop games, books, and soundtracks. The changes follow a massive surge in AI-generated content uploads that strained the site's moderation resources.",
     "tags": [
-      "pc-gaming",
+      "indie",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "e9e45917f6ca",
@@ -6116,9 +6394,12 @@
     "image_url": "https://assetsio.gnwcdn.com/Control-Resonant_Dhpy5QW.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Remedy Entertainment reported a 226 percent surge in quarterly revenue following the launch of Control Resonant, which became the studio's fastest-selling game ever. The title attracted a large number of players new to the franchise, particularly in the US and Chinese-speaking regions. The commercial success helped the developer swing to an operating profit for the quarter.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "5dc6ba520824",
@@ -6214,10 +6495,12 @@
     "image_url": "https://assetsio.gnwcdn.com/The-main-character-from-Days-Gone-holding-a-large-gun-in-his-hands.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Sony's Bend Studio is reportedly preparing to announce and release its next third-person PlayStation exclusive in 2027. Following the cancellation of a previous live-service project, the studio is developing a new title featuring co-op support but no live-service elements. The upcoming game is not a sequel to Days Gone and is said to be significantly advanced in development.",
     "tags": [
-      "consoles",
-      "gaming"
-    ]
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "dbd4061a5233",
@@ -6275,10 +6558,11 @@
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/f45.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Fedora Linux 45 is now available, bringing the Linux kernel 7.2 alongside the GNOME 51 and KDE Plasma 6.8 desktop environments. The release continues the distribution's tradition of offering updated software packages and core system components. Users can download the new version directly from the official project channels.",
     "tags": [
-      "linux",
-      "kernel"
-    ]
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "393e45878a25",
@@ -6307,10 +6591,12 @@
     "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1130705651id30113gol.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The 3dSen emulator has released version 2.0, introducing a major overhaul that transforms retro NES games into 3D voxel dioramas across PC and VR platforms. The update includes a redesigned interface, gamepad navigation, enhanced visual effects like Retina rendering, and native Apple Silicon support. Performance optimizations and loading improvements also feature prominently in the new build.",
     "tags": [
-      "pc-gaming",
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "c713bccc50ec",
@@ -6424,10 +6710,12 @@
     "image_url": "https://www.gamingonlinux.com/uploads/tagline_gallery/itch-logo.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The indie game platform itch.io is experiencing a massive influx of low-quality AI-generated content, prompting administrators to delete terabytes of material. To combat the issue, the platform is expanding mandatory AI disclosure labels to include books, soundtracks, and tabletop games. Users are also being provided with search filters to hide AI-generated submissions entirely.",
     "tags": [
-      "indie",
-      "gaming"
-    ]
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "3c0296acb11a",
@@ -6504,11 +6792,13 @@
     "image_url": "https://www.gamingonlinux.com/uploads/tagline_gallery/SteamVR.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Valve has rolled out SteamVR Beta 2.19.1, introducing significant visual enhancements for Steam Link streaming and better overall image clarity. The update improves color accuracy, text sharpness, and detail preservation across various VR applications and the SteamVR interface. Additionally, the release brings improved container compatibility and runtime updates for Linux users.",
     "tags": [
-      "linux",
+      "gaming",
       "pc-gaming",
-      "gaming"
-    ]
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "f2574cc7e456",
@@ -6559,10 +6849,11 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/03/samsung-galaxy-s26-ultra-privacy-display-tested/-184x111/gsmarena_001.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Rumors indicate that Samsung's upcoming Galaxy S27 Pro and S27 Ultra smartphones will feature an advanced iteration of the Privacy Display technology. Reports suggest these models will also benefit from increased screen brightness for improved outdoor visibility under direct sunlight. Unlike earlier rumors, the feature may remain exclusive to the Pro and Ultra variants.",
     "tags": [
-      "android",
-      "space"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "47232cce3a89",
@@ -6588,16 +6879,18 @@
     "title": "GE-Proton 11-12 is another big release with lots of game fixes for Linux / SteamOS",
     "url": "https://www.gamingonlinux.com/2026/11/ge-proton-11-12-is-another-big-release-with-lots-of-game-fixes-for-linux-steamos/",
     "source": "GamingOnLinux",
-    "section": "gaming",
+    "section": "linux",
     "published": "2026-11-03T07:32:19Z",
     "excerpt": "GE-Proton is one of the most popular community-made Proton layers to run more Windows games on Linux / SteamOS, and GE-Proton 11-12 is now available. Read the full article on GamingOnLinux .",
     "image_url": "https://www.gamingonlinux.com/uploads/tagline_gallery/ge-proton_gol2.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The latest GE-Proton 11-12 update is now available, bringing numerous game compatibility and performance fixes for Linux and SteamOS users. It includes updated Wine and DXVK components, alongside improved controller haptics and input handling for several titles.",
     "tags": [
       "linux",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "09a3d3528780",
@@ -6657,16 +6950,17 @@
     "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
     "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
     "source": "TechCrunch",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-03T07:20:00Z",
     "excerpt": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/live-rewind-restaurant.jpg?resize=1200,669",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
-    "summary": "Apple is beta testing new Audio Intelligence features for the Apple Watch, designed to help users identify sounds and manage conversations. The update introduces tools like Live Rewind and Siri Recaps, which allow wearers to review short audio snippets and summarize discussions. These capabilities incorporate privacy safeguards, including automated deletion and clear recording indicators, to address potential concerns surrounding ambient audio wearables.",
+    "summary": "Apple has begun beta testing new AI-powered Audio Intelligence features for the Apple Watch, aimed at developers on iOS. The update introduces tools for sound recognition, song identification, and conversation recaps with privacy safeguards.",
     "tags": [
-      "mobile"
+      "mobile",
+      "ios"
     ],
     "enriched": true
   },
@@ -6730,7 +7024,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 246,
+    "points": 247,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -6813,9 +7107,12 @@
     "image_url": "https://images.nintendolife.com/0f855dd77c7ea/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A midnight launch event in London will offer a limited-edition Nintendo 64 box replica for purchasers of the upcoming Zelda remake on Switch 2. The promotional item is restricted to in-store attendees while supplies last.",
     "tags": [
+      "gaming",
       "consoles"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "9b4aef480d78",
@@ -7033,10 +7330,13 @@
     "image_url": "https://images.nintendolife.com/b5734a47a18ea/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Reviewers have shared their thoughts on the newly released Switch 2 port of Stellar Blade. Critics praise the action title's fluid combat and overall performance on portable hardware despite some visual compromises.",
     "tags": [
+      "gaming",
       "consoles",
-      "gaming"
-    ]
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "2147ac7bda8e",
@@ -7443,9 +7743,12 @@
     "image_url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/affinity-linux-406x232.avif",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Canva has confirmed that an official version of the Affinity design suite is currently in active development for Linux. Although no release date has been provided, the news marks a significant expansion for the popular software beyond Windows, macOS, and iPadOS.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "4ed35bdfdb65",
@@ -7502,18 +7805,17 @@
     "title": "Show HN: I built a little browser game to practice Vim commands",
     "url": "https://hjkl.duy.run",
     "source": "Hacker News",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-11-03T03:10:04Z",
     "image_url": "https://hjkl.duy.run/og.png",
     "image_checked": true,
     "points": 51,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
-    "summary": "A browser-based game helps users practice and master Vim text-editor commands through guided, prompted, and independent editing exercises. The free tool runs entirely client-side without requiring user accounts or registration.",
+    "summary": "An interactive browser-based game allows developers to practice and improve their Vim editing commands. The tool offers guided, prompted, and independent editing challenges for various skill levels without requiring an account.",
     "tags": [
       "devtools",
-      "tutorial",
-      "web"
+      "tutorial"
     ],
     "enriched": true
   },
@@ -7748,10 +8050,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Intel has submitted a new set of patches to bring SoundWire support for Raptor Lake processors into the upstream Linux kernel. The updates target automotive platforms using Software Defined Vehicle architectures for in-vehicle audio streaming.",
     "tags": [
       "linux",
       "kernel"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "8313cf22fcd4",
@@ -7982,10 +8286,11 @@
     "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/01/linux-mint-22.3-on-a-laptop.jpg?resize=406%2C232\u0026ssl=1",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Linux Mint is reintroducing native laptop hibernation support in its upcoming release alongside new hybrid sleep modes. The new features aim to prevent battery drain while offering users more flexible session-saving options.",
     "tags": [
-      "linux",
-      "energy"
-    ]
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "b856a313b8fe",
@@ -8061,7 +8366,7 @@
     "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
-    "summary": "A highly anticipated cardiovascular drug designed to lower genetic lipoprotein(a) cholesterol levels unexpectedly failed to reduce heart attack and stroke risks in late-stage clinical trials. This setback has surprised cardiologists and raised important questions regarding the complex relationship between Lp(a) levels and major cardiovascular events.",
+    "summary": "A highly anticipated cardiovascular drug designed to lower lipoprotein(a) levels unexpectedly failed in a major clinical trial. The setback has left cardiologists questioning the relationship between genetically driven cholesterol and heart disease risks.",
     "tags": [
       "health",
       "research"
@@ -8373,17 +8678,19 @@
     "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
     "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
     "source": "TechCrunch",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-02T23:25:32Z",
     "excerpt": "Apple says iPhone Duo production is ramping up, but it still can't say when supply will catch up with demand as shipping delays stretch into next year.",
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Apple has acknowledged persistent shipping delays for the new iPhone Duo due to extraordinary demand and industry-wide memory chip constraints driven by the artificial intelligence sector. The company's executives stated it remains difficult to predict when supply and demand will balance out.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "d14ed93738f9",
@@ -8506,17 +8813,20 @@
     "title": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
     "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-02T22:56:11Z",
     "excerpt": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this ​point, we're not able to predict when supply and demand will be in […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1378.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Apple is experiencing ongoing supply constraints and unprecedented memory costs for its recently launched iPhone Duo foldable. CEO John Ternus stated that the company cannot predict when supply and demand will balance. Despite these component cost pressures, Apple reported record-breaking iPhone revenue during its fourth quarter.",
     "tags": [
-      "ios",
+      "chips",
+      "hardware",
       "mobile"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "f8edbaaa8916",
@@ -8544,10 +8854,13 @@
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2025/01/google-play-services-1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The November 2026 Google System Updates bring new features across Android devices, including family management tools in Settings and automatic photo backups from Android to Windows via Quick Share. Google Play services also introduces developer tools for location and context processes. Additionally, the update adds security enhancements and bug fixes.",
     "tags": [
       "android",
-      "mobile"
-    ]
+      "mobile",
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "9f015f2ecd8a",
@@ -8560,9 +8873,13 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/jkAf2nyLUPSWPoR5CKuqii-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Queen's Domain is a first-person dark fantasy RPG that draws comparisons to classic titles like Metroid Prime and King's Field. The game emphasizes vertical traversal and combat exploration through upgradeable weapons and mobility tools. Players have praised its distinct art style, pacing, and expansive arsenal design.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "215653652705",
@@ -8648,10 +8965,13 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Apple reported a record-breaking quarter with 57.58 billion dollars in iPhone revenue, driven by the iPhone 18 Pro lineup and price increases across older models. Overall company revenue grew by twelve percent, supported by strong growth in Mac and services divisions. Meanwhile, the newly launched folding iPhone Duo faced supply constraints and limited initial availability.",
     "tags": [
-      "ios",
+      "chips",
+      "hardware",
       "mobile"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "cbc140818c17",
@@ -8726,7 +9046,9 @@
     "tags": [
       "ios",
       "tutorial"
-    ]
+    ],
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "0e755e2b5c1d",
@@ -8776,9 +9098,12 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/oneplus-turbo-7-leak/-184x111/gsmarena_000.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Leaks indicate that the upcoming OnePlus Turbo 7 will feature a Snapdragon processor and high-end camera specifications. The device is rumored to include a fast display refresh rate and a large battery capacity. It is expected to launch before the end of the year.",
     "tags": [
-      "android"
-    ]
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "a026182fb3eb",
@@ -8846,10 +9171,13 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T20:50:25.909697782Z",
+    "summary": "Google discovered that an Android hardware partner deliberately installed a hidden backdoor across millions of consumer devices. The compromised set-top boxes and IoT hardware were integrated into a botnet used for financial gain and malicious activities. Google has since severed ties with the manufacturer and dismantled the associated infrastructure.",
     "tags": [
-      "android",
-      "mobile"
-    ]
+      "security",
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "e52d28089ff3",
@@ -8863,10 +9191,13 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Google reported that an Android partner intentionally embedded malware into millions of consumer electronics. The affected devices, primarily Android TV set-top boxes and IoT products, operated as a botnet for ad fraud and data exfiltration. Google has banned the manufacturer and disabled the associated command-and-control servers.",
     "tags": [
-      "android",
-      "mobile"
-    ]
+      "security",
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "1d34c93c0fd8",
@@ -8895,9 +9226,11 @@
     "image_url": "https://assetsio.gnwcdn.com/Screenshot-2026-03-07-at-17.05.06.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Nagoshi Studio has closed its doors after losing financial backing from its publisher for its debut game, Gang of Dragon. The studio was founded by the creator of the Yakuza series and faced severe funding shortages following international investment pullbacks. Consequently, the development of the title has been cancelled.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "4e811b6e39b1",
@@ -9281,10 +9614,12 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
+    "summary": "The Apple Watch Ultra 4 is currently available at a discounted price on Amazon, matching its previous low. The smartwatch features updated internal hardware, advanced health tracking sensors, and improved battery life. Additionally, various discounts on accessories and tracking devices are also available.",
     "tags": [
-      "ios",
-      "energy"
-    ]
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "f0b4eb6bbee5",
@@ -9478,18 +9813,20 @@
     "title": "Anthropic clamps down on Claude’s AI video game clones",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
     "source": "The Verge",
-    "section": "tech",
+    "section": "ai",
     "published": "2026-11-02T18:56:02Z",
     "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
+    "summary": "Anthropic has updated the system prompt for Claude Code to prevent users from generating direct clones of existing video games. While original games and projects based on user designs are still permitted, the change is intended to prevent potential intellectual property infringement.",
     "tags": [
       "llm",
-      "prompting",
-      "gaming"
-    ]
+      "safety",
+      "policy"
+    ],
+    "enriched": true
   },
   {
     "id": "c931d5a15c07",
@@ -9637,7 +9974,9 @@
     "tags": [
       "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "6aba332505ce",
@@ -9705,17 +10044,18 @@
     "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
     "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
     "source": "Hacker News",
-    "section": "tech",
+    "section": "linux",
     "published": "2026-11-02T18:39:38Z",
     "image_url": "https://freenode.net/media/og-default.png",
     "image_checked": true,
     "points": 561,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
-    "summary": "Important Long Term Support releases of a major Linux distribution remain vulnerable to a severe remote code execution flaw due to delayed vendor patches. System administrators managing internet-facing infrastructure face difficult choices as official updates remain unavailable weeks after the vulnerability was disclosed. The lack of a confirmed timeline for the fix has prompted concerns about security response times.",
+    "summary": "Ubuntu has not yet released official patched kernel packages for a critical remote code execution vulnerability rated 9.8 on the CVSS scale affecting LTS versions 22.04, 24.04, and 26.04. System administrators running these versions remain exposed until vendor updates become available.",
     "tags": [
+      "linux",
       "security",
-      "cloud"
+      "kernel"
     ],
     "enriched": true
   },
@@ -9730,10 +10070,12 @@
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/aos2611.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The independent GNU/Linux distribution aerynOS has released version 2026.11, featuring updates including GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10. The release offers users access to recent open-source software and desktop environments.",
     "tags": [
       "linux",
       "open-source"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "ea57cf68dad1",
@@ -9826,27 +10168,34 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
+    "summary": "This tutorial explores running a quantized small language model locally on Android devices using Kotlin coroutines and a custom library wrapper around llama.cpp. It addresses native thread safety, responsive cancellation, and UTF-8 byte stream decoding to ensure smooth mobile performance.",
     "tags": [
       "llm",
+      "mobile",
       "android",
-      "chips"
-    ]
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "6ce5cd9cb91f",
     "title": "Зачем я создал yesh. Язык автоматизации Linux, который можно объяснить",
     "url": "https://dev.to/rbelshevitz/zachiem-ia-sozdal-yesh-iazyk-avtomatizatsii-linux-kotoryi-mozhno-obiasnit-6pg",
     "source": "dev.to (Go)",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-11-02T18:26:06Z",
     "excerpt": "Вышел yesh v0.2.0 . В v0.2.0 можно проверить резервное копирование и восстановление с помощью rsync и rsnapshot , подготовить и опубликовать конфигурацию, проверить службу и журнал, посмотреть действия через --plan и убедиться, что после ошибки старые данные не исчезают. Команды Linux остаются видимыми; yesh сам по себе не делает ваши действия в системе безопасными. Типичный административный скрип…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg4k2zkqaokqr6tthbxec.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
+    "summary": "The developer of yesh has released version 0.2.0 of the Linux automation language designed to make administrative procedures more transparent and easier to explain. The tool aims to address the shortcomings of traditional Bash scripts by offering explicit verification steps, predictable backups, and clear execution orders. Version 0.2.0 adds support for testing backups using rsync and rsnapshot alongside plan inspection capabilities.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "devtools",
+      "rust"
+    ],
+    "enriched": true
   },
   {
     "id": "d3bf011426dd",
@@ -9931,16 +10280,20 @@
     "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
     "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
     "source": "Ars Technica",
-    "section": "tech",
+    "section": "ai",
     "published": "2026-11-02T18:05:31Z",
     "excerpt": "The tsunami of imitators is way bigger than any one model maker can stem.",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg",
     "weight": 1.1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
+    "summary": "Anthropic has updated Claude Code's system prompts to prevent the AI models from recreating specific, existing video games in order to reduce intellectual property infringement risks. The modification is designed to block direct game clones while still permitting the generation of original titles and genre-based projects. Despite this change, industry observers note it is unlikely to halt the broader wave of AI-assisted game porting and replication tools.",
     "tags": [
       "llm",
-      "gaming"
-    ]
+      "safety",
+      "policy",
+      "startups"
+    ],
+    "enriched": true
   },
   {
     "id": "c14a42ca2076",
@@ -9953,9 +10306,12 @@
     "image_url": "https://assetsio.gnwcdn.com/Ocarina-of-Time-Link.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Nintendo developers considered adding fast travel points to the upcoming Nintendo Switch 2 remake of The Legend of Zelda: Ocarina of Time to modernize navigation. However, playtesting revealed that removing long-distance travel detracted from spontaneous moments of discovery and exploration. Consequently, the team decided to drop the feature to preserve the pacing and structural integrity of the original game design.",
     "tags": [
+      "gaming",
       "consoles"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "a4a3f94120ca",
@@ -10044,9 +10400,11 @@
     "image_url": "https://itsfoss.com/content/images/2026/11/pond-banner.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Pond is a new rolling-release Linux distribution built on Arch Linux that utilizes the Niri Wayland compositor for scrollable window tiling. It features a keyboard-focused workflow, a simplified graphical installer, and a unified package manager that handles sources from Pacman, Nix, and Flatpak. The desktop environment incorporates a spatial arrangement system along with a centralized sidebar for notifications and app management.",
     "tags": [
       "linux"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "c723e57bb94b",
@@ -10442,16 +10800,20 @@
     "title": "Fewer genAI clones of \"someone else's specific game\" should flood the net going forwards, as Anthropic tell Claude to stop messing with some stuff other people own",
     "url": "https://www.rockpapershotgun.com/fewer-genai-clones-of-someone-elses-specific-game-should-flood-the-net-going-forwards-as-anthropic-tell-claude-to-stop-messing-with-some-stuff-other-people-own",
     "source": "Rock Paper Shotgun",
-    "section": "gaming",
+    "section": "ai",
     "published": "2026-11-02T16:51:17Z",
     "excerpt": "Anthropic have told their genAI tool Claude to start ducking requests from users to recreate or clone existing games, following a flood of folks using the tech to generate six-fingered remakes. Instead of risking infringing on the intellectual property of series or titles that companies which aren't Anthropic own, Claude will instead restrict itself to only generating \"original\" games slopped toge…",
     "image_url": "https://assetsio.gnwcdn.com/cyberpunk-2077-songbird-01.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Anthropic has introduced a prompt restriction to prevent its Claude AI model from generating clones or remakes of specific existing video games. The update aims to mitigate intellectual property risks associated with the recent surge of AI-generated game ports and de-compilations. While intended to curb unauthorized copies, the model will continue to support the generation of original video games and general genre concepts.",
     "tags": [
       "llm",
-      "gaming"
-    ]
+      "safety",
+      "policy",
+      "startups"
+    ],
+    "enriched": true
   },
   {
     "id": "91e27663790d",
@@ -10766,10 +11128,11 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-galaxy-s27-plus-new-certification/-184x111/gsmarena_000.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Upcoming safety certifications for the Samsung Galaxy S27+ indicate it will support 45W fast charging globally. This matches the charging speeds of previous Plus models, while the base Galaxy S27 is expected to retain 25W charging.",
     "tags": [
-      "android",
-      "space"
-    ]
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "b09ca4a91403",
@@ -11036,13 +11399,18 @@
     "title": "Vivo’s first Pro Max phone proves its Ultra is still in a league of its own",
     "url": "https://www.theverge.com/tech/1023131/vivo-x500-pro-max-review-cameras-specs-price",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-02T15:15:00Z",
     "excerpt": "When I declared this spring that Vivo's X300 Ultra had the best cameras in any phone, two things made it stand out in my mind: its excellent main camera with a narrow 35mm focal length and what remains the most capable ultrawide in any phone worldwide. You won't find either in the new X500 Pro […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/vivo-x500-pro-max-03.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.741906587151%2C100%2C78.516186825698\u0026w=1200",
     "image_checked": true,
     "weight": 1,
-    "first_seen": "2026-11-02T16:31:43.526468419Z"
+    "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Vivo's X500 Pro Max offers a high-end display, a large battery, and an impressive telephoto camera, but it lacks the unique focal length and primary sensor of the Ultra model. Positioned as an ultra-premium device, it narrows the gap between standard flagships and camera-focused iterations.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "5709fdb21dab",
@@ -11143,11 +11511,13 @@
     "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1091620781id30108gol.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A roundup of top-rated Steam Deck Verified games released in October highlights popular survival, action, and racing titles. These games offer plug-and-play compatibility for portable Linux-based handhelds.",
     "tags": [
-      "consoles",
+      "gaming",
       "pc-gaming",
-      "gaming"
-    ]
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "85c03e4abd88",
@@ -11322,16 +11692,16 @@
     "title": "WTF Ubuntu?",
     "url": "https://chalmovsky.com/posts/wtf-ubuntu",
     "source": "Hacker News",
-    "section": "tech",
+    "section": "linux",
     "published": "2026-11-02T14:52:00Z",
     "image_checked": true,
     "points": 1563,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
-    "summary": "A critical vulnerability in the Linux kernel's TCP implementation has left numerous servers exposed to remote exploits. While other distributions promptly released security updates, Ubuntu has delayed shipping a patched kernel for several weeks. This delay has drawn criticism from system administrators regarding the responsiveness of enterprise-grade security support.",
+    "summary": "A critical vulnerability in the Linux kernel's TCP code has sparked criticism against Ubuntu for delaying its security patch release compared to volunteer-run distributions. Users are expressing frustration over the slow response time from a commercial enterprise vendor.",
     "tags": [
       "security",
-      "cloud"
+      "linux"
     ],
     "enriched": true
   },
@@ -11497,16 +11867,19 @@
     "title": "As the controversy around AI-created video game copies continues, Anthropic seemingly restricts Claude's cloning abilities",
     "url": "https://www.eurogamer.net/anthropic-claude-generative-ai-game-clones-update",
     "source": "Eurogamer",
-    "section": "gaming",
+    "section": "ai",
     "published": "2026-11-02T14:29:41Z",
     "excerpt": "An update to Anthropic's Claude AI software has seemingly blocked the creation of outright clones or copies of existing games. Instead, Claude has been altered to only create \"original\" games. Read more",
     "image_url": "https://assetsio.gnwcdn.com/Stellar-Blade_robotic-old-man.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Anthropic has updated Claude to restrict the generation of direct clones or unauthorized copies of existing video games to prevent intellectual property infringement. While users can still build original titles, the change addresses growing concerns regarding AI-assisted copyright violations in the gaming community.",
     "tags": [
       "llm",
-      "gaming"
-    ]
+      "gaming",
+      "safety"
+    ],
+    "enriched": true
   },
   {
     "id": "c371edf5ec5f",
@@ -11543,11 +11916,13 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Amazon engineers discussed the ongoing challenges of managing the overwhelming volume of Linux kernel vulnerability reports at the Linux Plumbers Conference. The talk highlighted the practical difficulties faced by infrastructure teams trying to keep large-scale cloud environments secure against frequent CVE disclosures.",
     "tags": [
       "linux",
       "kernel",
-      "cloud"
-    ]
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "7909b6caa325",
@@ -11703,7 +12078,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 247,
+    "points": 248,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -11755,16 +12130,19 @@
     "title": "Affinity’s creative studio is now available on iPad for free",
     "url": "https://www.theverge.com/1024283/canva-affinity-for-ipad-design-app-availability",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-02T14:00:00Z",
     "excerpt": "Canva is giving digital creatives a new way to design, illustrate, and edit photos on their iPads, and it doesn't have to cost them a thing. After relaunching the Affinity creative suite as an all-in-one desktop app last year, Canva has now introduced Affinity for iPad, which provides the same pro-grade tools for vector graphics, […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Canva-Affinity-for-iPad-hero.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Canva has released Affinity for iPad, offering its professional-grade vector graphics, photo editing, and layout tools for free to individual users. The app features a dedicated Sketch Studio optimized for Apple Pencil Pro capabilities and includes optional generative AI tools available through a paid subscription.",
     "tags": [
+      "mobile",
       "ios"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "51bf4b4f71d7",
@@ -11879,11 +12257,14 @@
     "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1188864758id30107gol.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A curated list highlights the top-rated native Linux games released on Steam, offering players a variety of independent titles across genres like simulation, strategy, and casual exploration. The selection excludes games containing AI-generated notices to focus entirely on human-created projects.",
     "tags": [
+      "gaming",
       "linux",
-      "pc-gaming",
-      "gaming"
-    ]
+      "indie",
+      "pc-gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "89cc26e4a472",
@@ -11937,9 +12318,11 @@
     "image_url": "https://itsfoss.com/content/images/2026/11/mint-sleep-mode.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Linux Mint is reintroducing hibernation support in its upcoming version 27 via a new Sleep Modes configuration page. This feature aims to simplify power management by allowing users to save system states directly to disk, bypassing previous configuration hurdles while offering alternative hybrid suspend options.",
     "tags": [
       "linux"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "51b428b5b003",
@@ -11952,9 +12335,13 @@
     "image_url": "https://assetsio.gnwcdn.com/hull-rupture-1.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A new weekly roundup highlights various upcoming and recently released PC games, ranging from incremental titles and tactical role-playing games to action-oriented gravity-gun experiences. The selection showcases diverse independent and simulation projects launching across digital storefronts.",
     "tags": [
-      "gaming"
-    ]
+      "gaming",
+      "pc-gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "cbd83578039a",
@@ -12221,15 +12608,18 @@
     "title": "18 Best Gifts for PC Gamers (2026): Headsets, Desks, Monitors",
     "url": "https://www.wired.com/gallery/gift-ideas-for-pc-gamers/",
     "source": "Wired",
-    "section": "tech",
+    "section": "gaming",
     "published": "2026-11-02T12:00:00Z",
     "excerpt": "Shopping for a PC gamer? This is the gear we use ourselves, starting at prices as low as $12.",
     "image_url": "https://media.wired.com/photos/6ae2dc2055ec48169ba25e52/master/pass/Update%20Best%20Gifts%20for%20PC%20Gamers%20102026%20top%20art%20SOURCE%20Amazon.jpg",
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "This buying guide offers gift recommendations for PC gamers, ranging from budget-friendly mice and compact keyboards to wireless headsets and desktop speakers. It highlights specific hardware choices that balance performance and cost, and suggests gift cards as a versatile alternative.",
     "tags": [
-      "pc-gaming"
-    ]
+      "pc-gaming",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "b708780fe4b6",
@@ -12470,9 +12860,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "KDE Linux is nearing its beta release, incorporating a basic installer slideshow and enabling the NTSYNC kernel module by default to improve gaming performance with Wine and Proton. Recent updates also add wayland-protocols to the base image and outline remaining milestones for the distribution.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
   },
   {
     "id": "54590a658c97",
@@ -12513,9 +12906,12 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/oneplus-turbo-6vs-ofic/-184x111/gsmarena_00.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "OnePlus has introduced the Turbo 6Vs in China, featuring specifications identical to the standard Turbo 6V but with new color options. The device runs on a Snapdragon 7s Gen 4 processor, includes a large 9,000mAh battery, and features a 144Hz AMOLED display.",
     "tags": [
+      "mobile",
       "android"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "5cad9868c0c5",
@@ -12595,17 +12991,18 @@
     "title": "Show HN: I've updated my Linux System Call website and API",
     "url": "https://syscall.sh/",
     "source": "Hacker News",
-    "section": "tech",
+    "section": "coding",
     "published": "2026-11-02T09:29:16Z",
     "image_url": "https://syscall.sh/og.png",
     "image_checked": true,
     "points": 220,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
-    "summary": "A comprehensive online resource catalogs Linux system call tables across 27 architectures from kernel versions 3.3 to 7.3. It details architecture-specific arguments, calling conventions, and historical changes with downloadable JSON files and an accompanying API.",
+    "summary": "A developer has updated an open-source website and API tracking Linux system call tables across numerous architectures. The resource provides historical data, calling conventions, and JSON files detailing syscall numbers and arguments for various kernel versions.",
     "tags": [
       "devtools",
-      "web"
+      "linux",
+      "open-source"
     ],
     "enriched": true
   },
@@ -13086,10 +13483,12 @@
     "image_url": "https://itsfoss.com/content/images/2026/11/linux-next-to-windows.png",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Libertix is a new open-source Windows application that allows users to install Linux Mint or Zorin in a dual-boot configuration directly from Windows without needing a live USB. The tool performs compatibility checks, manages disk partitioning, and configures the bootloader with built-in recovery pathways.",
     "tags": [
       "linux",
       "open-source"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "7c941312d588",
@@ -13242,9 +13641,12 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Linus Torvalds has announced the release of the first release candidate for the Linux 7.4 kernel. The development cycle experienced an unusually large merge window, driven heavily by AI-related contributions. Torvalds noted that incorporating AI fixes into regular development creates a healthier model than addressing them entirely during stabilization.",
     "tags": [
+      "linux",
       "kernel"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "09665d9854dd",
@@ -13422,9 +13824,13 @@
     "image_url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/lrr-oct-26-406x232.avif",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The October 2026 Linux app release roundup highlights updates to various open-source tools and applications. OpenShot 4.1 introduces new text-editing tools and expanded command-line automation features for AI workflows. Other notable updates include Firefox, Calibre, and FBReader, bringing improved file format support and reading features to desktop users.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "open-source",
+      "llm"
+    ],
+    "enriched": true
   },
   {
     "id": "7d7291538279",
@@ -13468,10 +13874,13 @@
     "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/lk74rc.webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The first release candidate for the Linux 7.4 kernel is now available for public testing and early adopters. Linus Torvalds announced the milestone, marking the official start of the testing phase for the upcoming kernel series.",
     "tags": [
       "linux",
-      "kernel"
-    ]
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "826e500342a5",
@@ -13485,9 +13894,13 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "GitHub has announced the fourteenth annual Game Off game jam, inviting developers to build games around the theme \"SHIFT.\" Participants have until December 1, 2026, to create and submit projects of any genre inspired by the concept. The event encourages both solo developers and teams to use any programming language or engine.",
     "tags": [
-      "gaming"
-    ]
+      "devtools",
+      "indie",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "abd897111c35",
@@ -13679,10 +14092,13 @@
     "image_url": "https://itsfoss.com/content/images/2026/11/vpn-linux.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Using free virtual private networks on Linux requires careful selection to avoid privacy risks associated with untrusted providers. Reputable companies offer limited free plans with zero-log policies, often funded by paid tiers or used for lead generation. Users can choose between browser-integrated options and standalone system-wide clients depending on their security needs.",
     "tags": [
       "linux",
+      "security",
       "web"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "53892c342df2",
@@ -13704,16 +14120,19 @@
     "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
     "url": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
     "source": "TechCrunch",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-01T15:00:00Z",
     "excerpt": "Google made a sturdy phone, but there is increasing competition in the foldable world.",
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Pixel-11-fold-feat.jpg?resize=1200,675",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Google's Pixel 11 Pro Fold features minor hardware updates, including a slightly lighter design, a brighter display, and improved durability, while maintaining a familiar foldable format. Reviewers note that the device retains a visible screen crease and offers standard multitasking capabilities alongside updated camera sensors.",
     "tags": [
+      "mobile",
       "android"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "5de6186fd161",
@@ -13917,16 +14336,18 @@
     "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App",
     "url": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app/",
     "source": "Wired",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-01T12:00:00Z",
     "excerpt": "The Chromagraph Camera app costs $13 and processes iPhone photos with the same color math Rian Johnson’s cinematographer, Steve Yedlin, uses for film.",
     "image_url": "https://media.wired.com/photos/6ae4d8cd63df19eea97af1ce/master/pass/GettyImages-2247231598.jpg",
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Filmmaker Steve Yedlin and director Rian Johnson have launched an iOS camera application designed to apply custom film-grade color processing to smartphone photos. The app bypasses default operating system image pipelines to produce curated, stylized still images based on the creators' preferences.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "fb63437ae892",
@@ -13946,15 +14367,18 @@
     "title": "Lenovo LOQ 15: The Only Gaming Laptop Worth Buying Below $1,500",
     "url": "https://www.wired.com/story/lenovo-loq-15-best-deal/",
     "source": "Wired",
-    "section": "tech",
+    "section": "gaming",
     "published": "2026-11-01T11:30:00Z",
     "excerpt": "As prices escalate on gaming laptops, there’s really only one affordable option still around: the Lenovo LOQ 15, which offers a better performance and display than its competitors.",
     "image_url": "https://media.wired.com/photos/6ae50db5ba91943b4382fb11/master/pass/Lenovo%20LOQ%2015%20deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "The Lenovo LOQ 15 remains a competitive option in the budget gaming laptop category amidst industry-wide price increases and hardware stagnation. Equipped with mid-range graphics options and a quality display, it delivers stable performance for modern titles at an accessible price point.",
     "tags": [
-      "gaming"
-    ]
+      "pc-gaming",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "7eacdbcf5ac0",
@@ -14335,11 +14759,12 @@
     "image_url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/10/sanket-menu-layouts-406x232.avif",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Sanket is a new GNOME Shell extension that allows users to customize the layout and behavior of the desktop's date menu, calendar, and Quick Settings. It provides visual previews and granular configuration options for repositioning notifications and compacting system controls.",
     "tags": [
-      "android",
       "linux",
-      "mobile"
-    ]
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "a7e11bfba6b1",
@@ -14811,9 +15236,13 @@
     "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/10/ubuntu-tenacious-t-rex.webp?resize=406%2C232\u0026ssl=1",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Development for Ubuntu 27.04, codenamed 'Tenacious T-Rex', has officially commenced with the opening of its package archive. The upcoming release is expected to feature updated GNOME desktop environments, newer Linux kernel versions, expanded use of Rust, and continued exploration of on-device AI features.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "93351cbb4cc4",
@@ -14970,9 +15399,13 @@
     "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Mapping-ISM-cr.NASA-Default.webp",
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Recent three-dimensional mapping of the interstellar medium challenges long-held astronomical models by revealing that the space between stars is dynamic and unstable rather than a static backdrop. This new understanding may help researchers better understand stellar formation processes.",
     "tags": [
-      "space"
-    ]
+      "space",
+      "physics",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "6f116f1e09fd",
@@ -15192,10 +15625,13 @@
     "image_url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/10/cmf-linux-406x232.avif",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A new open-source GTK4 application named EarA allows Linux users to manage settings for Nothing and CMF earbuds directly from their desktops. The utility provides access to active noise cancellation controls, equalisers, and battery monitoring.",
     "tags": [
       "linux",
-      "open-source"
-    ]
+      "open-source",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "00c80dc6c239",
@@ -15430,18 +15866,18 @@
     "title": "Building a multiplayer game world with autonomous Fable-class models",
     "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
     "source": "Simon Willison",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-10-29T17:00:26Z",
     "excerpt": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to mod…",
     "image_url": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
     "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "A multiplayer gaming environment called Spawn is being developed entirely by autonomous AI agents running on frontier models. The system automatically detects and fixes bugs, shipping updates directly to production on an hourly cycle.",
     "tags": [
-      "agents",
-      "prompting",
-      "gaming"
-    ]
+      "agents"
+    ],
+    "enriched": true
   },
   {
     "id": "2672bc4978ba",
@@ -15612,10 +16048,13 @@
     "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/ghostty-logo.jpg?resize=406%2C232\u0026ssl=1",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The open-source terminal emulator Ghostty has released version 1.4, bringing performance enhancements, lower RAM usage for off-screen scrollback, and improved Linux rendering. The update also adds support for the Kitty graphics protocol and draggable window splits.",
     "tags": [
       "linux",
-      "open-source"
-    ]
+      "open-source",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "1a708813f454",
@@ -15836,18 +16275,19 @@
     "title": "The October inflection point for vibe game development",
     "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
     "source": "Simon Willison",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-10-28T13:55:15Z",
     "excerpt": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones…",
     "image_url": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
     "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Recent advancements in AI models like Claude Opus 5.5 have significantly improved automated game design and vibe coding capabilities. Developers can now generate functional and genuinely entertaining browser-based games using simple natural language prompts.",
     "tags": [
       "llm",
-      "agents",
-      "gaming"
-    ]
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "c9ff3900c5bd",
@@ -15928,13 +16368,17 @@
     "section": "coding",
     "published": "2026-10-28T00:00:00Z",
     "excerpt": "This year at Android Dev Summit we shared how Android's developer tools are evolving to help you be more productive alongside your agents.",
+    "image_url": "https://developer.android.com/static/blog/assets/ABL_146_ADS_Spotlight_Tools_and_Performance_47f52bd6b1_Z1qi2aR.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Android Studio Rabbit 2 introduces Bring Your Own Agent support, allowing developers to integrate over 40 coding agents directly into the IDE. The release also brings agentic code review tools and improved CLI integration to streamline Android app development workflows.",
     "tags": [
-      "android",
+      "devtools",
       "agents",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "4001ba3aa601",
@@ -15944,13 +16388,17 @@
     "section": "coding",
     "published": "2026-10-28T00:00:00Z",
     "excerpt": "Today, at the Android Dev Summit, we are announcing the broad availability of many tools and APIs designed to remove everyday friction and give you more flexibility to build great Android apps.",
+    "image_url": "https://developer.android.com/static/blog/assets/Mesa_de_trabajo_1_copy_8_3f8cf8a935_Z1QqkpY.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "The Android Dev Summit highlighted new agent-focused updates across Android Studio and the Android CLI. Developers can now utilize custom coding agents, remote device streaming, performance profiling tools, and specialized Android skills to build and test applications more efficiently.",
     "tags": [
-      "android",
+      "devtools",
       "agents",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "81fba957dd14",
@@ -15971,30 +16419,37 @@
     "section": "coding",
     "published": "2026-10-28T00:00:00Z",
     "excerpt": "Android Studio Rabbit 2 is now stable and ready for you to use in production. This release includes key features to improve your development such as Bring Your Own Agent, new XR Emulator features, a LeakCanary update, a new agent skills manager tool, AI code review, and more.",
+    "image_url": "https://developer.android.com/static/blog/assets/Rabbit2_Strapi_27563aeaf4_RYuQD.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Android Studio Rabbit 2 is now stable, featuring Bring Your Own Agent integration for over 40 coding assistants, a new skill manager, and stable Android XR emulators. The update gives developers granular control over specialized workflows and allows testing for spatial computing directly from a laptop.",
     "tags": [
-      "android",
+      "devtools",
       "agents",
-      "mobile"
-    ]
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "f376eece8b40",
     "title": "Game Boy Color on My Conference Badge",
     "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
     "source": "Simon Willison",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-10-27T19:34:18Z",
     "excerpt": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy C…",
     "image_url": "https://static.simonwillison.net/static/2026/zelda-card.jpg",
     "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Developers at GitHub Universe successfully ran Game Boy Color and NES emulators on the conference badge's built-in screen computer. The project highlights creative hardware hacking and retro gaming emulation on unconventional devices.",
     "tags": [
-      "llm",
+      "devtools",
+      "hardware",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "f698a9f66caa",
@@ -16225,9 +16680,13 @@
     "image_url": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has announced an updated iPad mini featuring an 8.5-inch OLED display, the A20 Pro chip, and water resistance. The device includes enhanced AI capabilities through iPadOS and features a thinner, lighter form factor.",
     "tags": [
+      "mobile",
+      "hardware",
       "ios"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "8b97b35d7a87",
@@ -16358,10 +16817,12 @@
     "image_url": "https://www.apple.com/newsroom/images/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/tile/Apple-Domain-NORTHSIDE-Austin-iPhone-Duo-launch-moments-261023-lp.jpg.og.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has released the iPhone Duo globally, offering customers hands-on demonstrations at Apple Store locations. The new device introduces a foldable design to the company's smartphone lineup. Shoppers can also access specialized setup assistance and trade-in programs through Apple Specialists.",
     "tags": [
-      "ios",
-      "mobile"
-    ]
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
   },
   {
     "id": "6430909168b5",
@@ -16579,12 +17040,15 @@
     "section": "coding",
     "published": "2026-10-21T00:00:00Z",
     "excerpt": "Apps that target the upcoming Android release will no longer be able to directly write to contacts with the WRITE_CONTACTS permission.",
+    "image_url": "https://developer.android.com/static/blog/assets/1009_ABL_142_A_more_reliable_way_to_add_and_edit_contacts_on_Android_Strapi_b510ec4fc0_Z1wE0B4.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Android is updating its contact management permissions, removing direct write access for apps targeting upcoming releases in favor of standardized system intents. This change prevents background modifications while offering a consistent editing interface. A new MANAGE_CONTACTS permission will be introduced for specialized applications requiring broad access.",
     "tags": [
       "android",
-      "mobile"
-    ]
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "eb477756520c",
@@ -16948,16 +17412,19 @@
     "title": "Bringing our latest frontier model to Android Developers",
     "url": "https://developer.android.com/blog/posts/bringing-gemini-4-argon-to-android-agentic-engineering-antigravity-cli",
     "source": "Android Developers Blog",
-    "section": "coding",
+    "section": "ai",
     "published": "2026-10-13T00:00:00Z",
     "excerpt": "As agentic development accelerates, Android engineering is reaching an exciting new frontier: moving from assistive code completion to agents executing end-to-end under your direction. You have total choice and flexibility in the models and agents you use.",
+    "image_url": "https://developer.android.com/static/blog/assets/Blog_0140_strapi_8d85f71a6e_2ePG4T.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Google has integrated its Gemini 4 Argon model into Android developer tools to support autonomous agentic workflows and code generation. The update enables self-healing build loops using compiler error logs and allows the model to produce advanced Jetpack Compose graphics shaders. Developers can access these capabilities via Android Studio Canary and the Android CLI.",
     "tags": [
-      "android",
+      "llm",
       "agents",
-      "mobile"
-    ]
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "c1943c76c01f",
@@ -16978,14 +17445,19 @@
     "title": "Introducing the Googlebook Linux Terminal Preview: A VM-Backed Environment for AI and Development",
     "url": "https://developer.android.com/blog/posts/googlebook-linux-terminal-preview-vm",
     "source": "Android Developers Blog",
-    "section": "coding",
+    "section": "tech",
     "published": "2026-10-12T00:00:00Z",
     "excerpt": "With Googlebook, we’re excited to help users express themselves and gain access to these tools.",
+    "image_url": "https://developer.android.com/static/blog/assets/1006_ABL_141_Strapi_1_540d64279e_2bE6sn.webp",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "A new Linux terminal preview for Googlebook provides a VM-backed environment designed to support AI agents and software development. The isolated sandbox architecture allows users to run command-line tools securely while maintaining separation from the host operating system. The environment includes support for modern runtimes and local port forwarding for rapid prototyping.",
     "tags": [
-      "linux"
-    ]
+      "linux",
+      "devtools",
+      "cloud"
+    ],
+    "enriched": true
   },
   {
     "id": "f7658b91393d",
@@ -17013,9 +17485,12 @@
     "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp",
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Google has launched Playground, an experimental platform that allows users to create and share custom video games using text prompts. The browser-based tool uses a conversational interface to modify game rules, physics, and environments without requiring coding knowledge. Future updates will include an integration with Unity Spark for advanced 3D mechanics.",
     "tags": [
+      "llm",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "52954c80b9f7",
