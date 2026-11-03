@@ -33,9 +33,11 @@ func main() {
 	reclassify := flag.String("reclassify", "", "expresión regular: vuelve a pasar por la IA los artículos guardados cuyo título coincida (también los ocultos)")
 	maxAI := flag.Int("max-ai", 0, "máximo de artículos por ejecución para la IA (0 = el valor por defecto)")
 	repoURL := flag.String("repo-url", os.Getenv("REPO_URL"), "URL del código fuente, para la página Acerca de")
+	supaURL := flag.String("supabase-url", os.Getenv("SUPABASE_URL"), "URL del proyecto Supabase; activa login y favoritos")
+	supaKey := flag.String("supabase-key", os.Getenv("SUPABASE_ANON_KEY"), "clave pública (anon) de Supabase")
 	flag.Parse()
 
-	if err := run(*cfgPath, *dataPath, *outDir, *reclassify, *maxAI, render.Options{SiteURL: *siteURL, RepoURL: *repoURL}); err != nil {
+	if err := run(*cfgPath, *dataPath, *outDir, *reclassify, *maxAI, render.Options{SiteURL: *siteURL, RepoURL: *repoURL, SupabaseURL: *supaURL, SupabaseKey: *supaKey}); err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(1)
 	}

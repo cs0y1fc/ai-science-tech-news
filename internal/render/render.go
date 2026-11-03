@@ -116,6 +116,11 @@ type Page struct {
 	// Acerca de.
 	Sources []string
 	RepoURL string
+
+	// AuthEnabled activa el inicio de sesión y los favoritos (Supabase).
+	AuthEnabled bool
+	SupabaseURL string
+	SupabaseKey string
 }
 
 // Options son los datos opcionales del despliegue. Sin SiteURL no se generan
@@ -128,6 +133,10 @@ type Options struct {
 	RepoURL string
 	// Sources son los nombres de las fuentes que se muestran en "Acerca de".
 	Sources []string
+	// SupabaseURL y SupabaseKey (la clave pública "anon") activan el login y
+	// los favoritos. Si falta alguno, la web no muestra nada de esto.
+	SupabaseURL string
+	SupabaseKey string
 }
 
 type renderer struct {
@@ -197,6 +206,9 @@ func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.S
 	if err := r.about(); err != nil {
 		return err
 	}
+	if err := r.saved(); err != nil {
+		return err
+	}
 	if opts.SiteURL != "" {
 		if err := r.feed(visible); err != nil {
 			return err
@@ -239,6 +251,11 @@ func (r *renderer) page(base, title, desc string) Page {
 		Updated:     r.updated,
 		HasFeed:     r.opts.SiteURL != "",
 		RepoURL:     r.opts.RepoURL,
+	}
+	if r.opts.SupabaseURL != "" && r.opts.SupabaseKey != "" {
+		p.AuthEnabled = true
+		p.SupabaseURL = r.opts.SupabaseURL
+		p.SupabaseKey = r.opts.SupabaseKey
 	}
 	for _, sec := range model.AllSections {
 		p.Nav = append(p.Nav, NavItem{Label: sec.Short(), Href: base + "s/" + string(sec) + "/"})

@@ -29,6 +29,16 @@ func (r *renderer) about() error {
 	return r.write("about.html", "about", p)
 }
 
+// saved genera la página de favoritos. Se rellena en el navegador con los
+// favoritos del usuario; sin Supabase configurado no se genera.
+func (r *renderer) saved() error {
+	if r.opts.SupabaseURL == "" || r.opts.SupabaseKey == "" {
+		return nil
+	}
+	p := r.page("../", "Saved", "Your saved stories.")
+	return r.write("saved.html", "saved", p)
+}
+
 type rss struct {
 	XML     xml.Name   `xml:"rss"`
 	Version string     `xml:"version,attr"`

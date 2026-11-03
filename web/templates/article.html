@@ -8,7 +8,7 @@
   <main class="wrap article">
     <p class="crumbs"><a href="{{$.Section.Href}}">← {{$.Section.Label}}</a></p>
 
-    <article>
+    <article data-id="{{.ID}}" data-title="{{.Title}}" data-url="{{.URL}}" data-source="{{.Source}}" data-section="{{.Section}}" data-image="{{.ImageURL}}" data-published="{{.Published.Format "2006-01-02T15:04:05Z07:00"}}">
       <div class="cover sec-{{.Section}}">
         {{if .ImageURL}}<img src="{{img .ImageURL}}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
       </div>
@@ -26,7 +26,10 @@
 
       {{with $.Tags}}{{template "chips" .}}{{end}}
 
-      <p><a class="button" href="{{.URL}}" target="_blank" rel="noopener noreferrer">Read the original article at {{.Source}} ↗</a></p>
+      <p class="actions">
+        <a class="button" href="{{.URL}}" target="_blank" rel="noopener noreferrer">Read the original article at {{.Source}} ↗</a>
+        {{if $.AuthEnabled}}<button class="fav-btn" type="button" data-fav-article aria-pressed="false">♡ Save</button>{{end}}
+      </p>
     </article>
 
     {{with $.Related}}

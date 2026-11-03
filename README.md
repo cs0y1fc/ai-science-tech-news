@@ -112,6 +112,15 @@ export LLM2_API_KEY=... LLM2_MODEL=openai/gpt-oss-120b LLM2_BASE_URL=https://api
 
 Los nombres de modelo de las capas gratuitas cambian con el tiempo; revisa la documentación de tu proveedor.
 
+## Login y favoritos (opcional, Supabase)
+
+Si se definen `SUPABASE_URL` y `SUPABASE_ANON_KEY`, la cabecera muestra "Sign in" (Google o enlace por email) y cada noticia tiene un corazón para guardarla. Los favoritos se ven en `/saved/`. Sin esas variables no aparece nada de esto.
+
+1. Crea un proyecto en [supabase.com](https://supabase.com) y ejecuta `supabase/schema.sql` en el SQL Editor (tabla `favorites` con RLS: cada usuario solo ve y toca sus filas).
+2. En *Authentication → Sign In / Providers* activa **Google** (necesita un Client ID y Secret de Google Cloud Console; la URI de redirección es la que muestra Supabase) y **Email**.
+3. En *Authentication → URL Configuration* pon como Site URL y Redirect URL la de la web publicada (`https://<usuario>.github.io/<repo>/`).
+4. En GitHub → Settings → Variables del repositorio crea `SUPABASE_URL` y `SUPABASE_ANON_KEY` (la clave *anon* / publishable). Es pública por diseño; **nunca** uses la `service_role`.
+
 ## Publicación
 
 El workflow `.github/workflows/update.yml` se ejecuta cada 6 horas (`0 */6 * * *`), a mano y en cada push a `main`:

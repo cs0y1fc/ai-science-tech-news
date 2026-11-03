@@ -354,3 +354,40 @@ func TestHomeStopsAtMaxPages(t *testing.T) {
 		t.Error("section pages keep full pagination")
 	}
 }
+
+func TestAuthHiddenWithoutSupabase(t *testing.T) {
+	out := build(t)
+	page := read(t, out, "index.html")
+	for _, no := range []string{`id="auth"`, "auth.js", "authdlg", "Sign in"} {
+		if strings.Contains(page, no) {
+			t.Errorf("home without Supabase must not contain %q", no)
+		}
+	}
+	if exists(out, "saved/index.html") {
+		t.Error("saved page must not be generated without Supabase")
+	}
+}
+
+func TestAuthAndSavedWithSupabase(t *testing.T) {
+	out := buildWith(t, Options{SupabaseURL: "https://x.supabase.co", SupabaseKey: "anon-public"})
+	page := read(t, out, "index.html")
+	mustContain(t, "home", page,
+		`data-auth-open`, `id="authdlg"`, `data-provider="google"`, `static/auth.js`,
+		`data-supabase-url="https://x.supabase.co"`, `data-supabase-key="anon-public"`,
+		`data-id="`, `data-url="`)
+	mustContain(t, "saved", read(t, out, "saved/index.html"), "Saved stories", `id="saved-grid"`)
+	if !exists(out, "static/auth.js") {
+		t.Error("auth.js not copied")
+	}
+	art := read(t, out, "n/"+firstArticleDir(t, out)+"/index.html")
+	mustContain(t, "article", art, `data-fav-article`)
+}
+
+func firstArticleDir(t *testing.T, out string) string {
+	t.Helper()
+	es, err := os.ReadDir(filepath.Join(out, "n"))
+	if err != nil || len(es) == 0 {
+		t.Fatalf("no article pages: %v", err)
+	}
+	return es[0].Name()
+}
