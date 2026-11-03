@@ -1,5 +1,134 @@
 [
   {
+    "id": "60b4d8884de6",
+    "title": "Google will disable Search for students unless schools accept AI features in ‘Guided Learning’ push",
+    "url": "https://9to5google.com/2026/11/03/google-search-ai-guided-learning-changes/",
+    "source": "9to5Google",
+    "section": "ai",
+    "published": "2026-11-03T20:35:00Z",
+    "excerpt": "Google is today launching new AI settings for schools, but with the big catch that Search is fully disabled if AI features are turned off entirely. more…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2024/01/Google-logo-CES-2024-6.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "Google is introducing new AI settings for K-12 schools, making tools like Gemini and Search disabled by default unless administrators explicitly enable them. However, schools that disable AI features will also lose access to Google Search entirely due to deep integration between the two systems. The update includes a Guided Learning tool designed to help students work through problems without receiving direct answers.",
+    "tags": [
+      "llm",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f796e1f2ecc3",
+    "title": "iOS 27.3 Adding New StandBy Mode Features to iPhone 11 and Newer",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-new-standby-features-on-more-iphones/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T20:32:45Z",
+    "excerpt": "iOS 27.3 will expand new StandBy features first introduced on the iPhone Duo to all iPhone models compatible with the update, according to Apple. StandBy mode makes it easier to view information at a glance while your iPhone is placed on a charger and in a landscape position. It effectively turns an iPhone into a bedside clock with some extra details. On the iPhone Duo, StandBy also works when the…",
+    "image_url": "https://images.macrumors.com/article-new/2023/06/StandBy-iOS-17.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The upcoming iOS 27.3 update will bring new StandBy mode features, previously exclusive to the iPhone Duo, to all compatible iPhone 11 and newer models. Users will gain enhanced clock faces, customizable photo options, and new calendar and weather widgets. The update is currently in developer beta and scheduled for a public release in December.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "65e7ff4a2aee",
+    "title": "Phantom Blade Zero Meets God of War Ragnarök in Upcoming Steam Action Game Hit",
+    "url": "https://www.polygon.com/tides-of-annihilation-preview-gamescom-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T20:30:17Z",
+    "excerpt": "Tides of Annihilation plays a whole lot like Black Myth: Wukong, Phantom Blade Zero, and other stylish action games out of China's gaming scene.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/tides-annihilation-epic.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "The action game Tides of Annihilation draws inspiration from titles like God of War and Phantom Blade Zero. Developed in China, the game blends character-action mechanics with Soulslike elements. Following initial casting changes, the protagonist Gwendolyn has been redesigned to feature a realistic appearance.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b6833b3a15ab",
+    "title": "The Pixel Buds Pro 2 have returned to their lowest price to date",
+    "url": "https://www.theverge.com/gadgets/1025466/google-pixel-buds-pro-2-borderlands-goty-nintendo-switch-deal-sale",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T20:29:26Z",
+    "excerpt": "Android owners looking for an earbud upgrade are in luck. The Google Pixel Buds Pro 2 are back down to $169 at Amazon, Best Buy, and the Google Store, matching the lowest price we’ve seen. Google’s site claims the deal will last until 11:59PM PT on November 8th, and other retailers will likely follow suit. […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/pixel-buds-pro-2-roundup.png?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "Google Pixel Buds Pro 2 wireless earbuds are currently discounted to their lowest price yet across multiple major retailers. The earbuds feature improved ergonomics, stronger active noise cancellation, and tight integration with Android and Gemini. Additional tech deals include discounts on a Nintendo Switch game and a refurbished smart coffee maker.",
+    "tags": [
+      "hardware",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "34c986b584a0",
+    "title": "One voice note, three requests: how we built an LLM router",
+    "url": "https://dev.to/baigorria/one-voice-note-three-requests-how-we-built-an-llm-router-2il8",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T20:28:44Z",
+    "excerpt": "In the first post of this series, a four-second voice note helped us separate what the model does from what the harness does: \"Done with the Novak job.\" That was the easy case. A real day sounds more like this: \"Done with the Novak job. We're starting the school job tomorrow at 9, remind me at 8.\" That one voice note holds three requests: close a job, record a new one and set a reminder. Whoever r…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8ejiecwdqewu9v5bejc.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "This article explains how to build an intelligent request router using a language model to process complex voice notes containing multiple tasks. The system uses a router to separate distinct requests and distribute them to specialized agents without losing context. Additionally, it highlights methods for combining code-based project searches with model decision-making to handle ambiguous references accurately.",
+    "tags": [
+      "llm",
+      "agents",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4ee3ff0262fc",
+    "title": "These muscle-reading wearables let you use voice input without speaking a word",
+    "url": "https://www.androidauthority.com/glasses-mouth-input-3731345/",
+    "source": "Android Authority",
+    "section": "tech",
+    "published": "2026-11-03T20:26:17Z",
+    "excerpt": "Forget glide typing — these glasses have maybe the best text-entry trick yet.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/subvocal-speech-muscles.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "A new wearable device called Subvocal uses radar technology to detect subtle muscle movements in the mouth, translating silent speech into written text. Based on research from the MIT Media Lab, the glasses-like peripheral functions as a hands-free input method for mobile devices. Pre-orders are currently open ahead of a planned shipment early next year.",
+    "tags": [
+      "hardware",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "9295850ae80b",
+    "title": "Claude message threads: send only new messages on long agent loops",
+    "url": "https://dev.to/sueun-dev/claude-message-threads-send-only-new-messages-on-long-agent-loops-4b0g",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T20:26:00Z",
+    "excerpt": "Message threads landed in the Claude Messages API in beta on Nov. 2, 2026 . The API keeps the conversation on the server, so each later request sends only the new messages. Here is how to turn it on, what the request looks like before and after, what it speeds up, and which expiry rules you have to design around. Turn it on Every request of a thread needs the message-threads-2026-08-12 beta header…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flnojllluy34yag7vk9b5.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "This tutorial explains how to use Claude message threads in the API to send only new messages in ongoing conversations, reducing payload sizes. It covers implementation details, request headers, and limitations developers must consider when building agent loops.",
+    "tags": [
+      "llm",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
     "id": "4edc93bd116e",
     "title": "As it gets harder to figure out what to eat, some Americans are turning to religion for answers",
     "url": "https://phys.org/news/2026-11-harder-figure-americans-religion.html",
@@ -403,17 +532,20 @@
     "title": "Claude Message Threads Are Fast Until Your Agent Waits 5 Minutes",
     "url": "https://dev.to/dishant0406/claude-message-threads-are-fast-until-your-agent-waits-5-minutes-ip2",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T19:47:08Z",
     "excerpt": "Someone on r/ClaudeAI summed the whole launch up in five words: \"5 minutes ttl is such BS.\" That was one of the top comments under Anthropic's message threads announcement, posted hours after it went live. The feature itself is clean. You send the conversation once. Every turn after that sends only the new message plus a previous_message_id . Anthropic says median time to first token drops about 3…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fdishant0406%2Fblog-assets%2Fmain%2Fclaude-message-threads-cover.webp",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Anthropic's message threads feature reduces latency for LLM requests by storing conversation state on the server, but the five-minute idle expiration window poses challenges for long-running agent workflows or slow tool calls.",
     "tags": [
       "llm",
-      "agents"
-    ]
+      "devtools",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "8f72d813f63a",
@@ -569,7 +701,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 50,
+    "points": 54,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -592,24 +724,6 @@
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The iOS 27.3 beta brings initial Apple Intelligence features to users in China following regulatory approval and a partnership with Alibaba. While advanced Siri AI features are omitted in this release, tools like live translation, writing assistance, and visual intelligence are included. These updates focus on bringing older AI capabilities to compatible devices in the region.",
-    "tags": [
-      "mobile",
-      "ios"
-    ],
-    "enriched": true
-  },
-  {
-    "id": "f796e1f2ecc3",
-    "title": "iOS 27.3 Adding New StandBy Mode Features to iPhone 11 and Newer",
-    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-new-standby-features-on-more-iphones/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-03T19:31:18Z",
-    "excerpt": "iOS 27.3 will expand new StandBy features first introduced on the iPhone Duo to all iPhone models compatible with the update, according to Apple. StandBy mode makes it easier to view information at a glance while your iPhone is placed on a charger and in a landscape position. It effectively turns an iPhone into a bedside clock with some extra details. On the iPhone Duo, StandBy also works when the…",
-    "image_url": "https://images.macrumors.com/article-new/2023/06/StandBy-iOS-17.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T20:04:34.399819931Z",
-    "summary": "The upcoming iOS 27.3 update will bring new StandBy mode features, previously exclusive to the iPhone Duo, to all compatible iPhone 11 and newer models. Users will gain enhanced clock faces, customizable photo options, and new calendar and weather widgets. The update is currently in developer beta and scheduled for a public release in December.",
     "tags": [
       "mobile",
       "ios"
@@ -918,7 +1032,7 @@
     "source": "9to5Mac",
     "section": "phones",
     "published": "2026-11-03T19:05:31Z",
-    "excerpt": "iOS 27.3 beta 1 is here. Apple’s next iPhone software update brings TK. Below, we’re collecting the new features and changes discovered during testing. more…",
+    "excerpt": "iOS 27.3 beta 1 is here. Apple’s next iPhone software update brings a ton of changes including the redesigned Health app and much more. Below, we’re collecting the new features and changes discovered during testing. more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iOS-27.3-hero.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
@@ -1107,7 +1221,9 @@
     "excerpt": "Mirror, mirror... With five Sages under my belt, it was time to head off to the final temple in my Ocarina of Time replay to pick up the last of 'em before the big showdown (not technically the 'last', but you catch my drift). I chose to polish off the Shadow Temple last week, so I was left with no other direction than to head west to the Gerudo Desert and finish the main quest with one of my favo…",
     "image_url": "https://images.nintendolife.com/e8212f2f983eb/large.jpg",
     "weight": 0.8,
-    "first_seen": "2026-11-03T20:04:34.399819931Z"
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "b46917163ff6",
@@ -1138,9 +1254,14 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "This article explores how to build and audit evaluation suites designed to test AI agent benchmarks. By comparing a clean test suite with an intentionally flawed twin, the experiment demonstrates how uncalibrated graders can distort benchmark scores. The project highlights the importance of rigorous evaluation design for catching hidden test flaws before deploying AI agents.",
     "tags": [
-      "agents"
-    ]
+      "llm",
+      "agents",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "92ccfb4394cc",
@@ -1171,7 +1292,12 @@
     "image_url": "https://lobste.rs/touch-icon-144.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:57:11.742686151Z"
+    "first_seen": "2026-11-03T18:57:11.742686151Z",
+    "summary": "A user discusses the challenges of achieving a mouse-free and accessible terminal navigation setup. Despite using voice control and specialized hardware for other tasks, interacting with and editing the terminal still heavily relies on keyboards and mice. The author seeks community input on efficient terminal workflows and alternative ways to read and edit command outputs.",
+    "tags": [
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "eca781caad29",
@@ -1203,9 +1329,14 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "This tutorial demonstrates how to design strict and effective Model Context Protocol (MCP) servers for language models. By comparing a loose schema design with a strict redesign, the experiment shows how precise tool descriptions and strict schemas drastically reduce malformed model calls. The findings emphasize treating an MCP server as a user interface that requires rigorous testing and auditing.",
     "tags": [
-      "llm"
-    ]
+      "llm",
+      "rag",
+      "python",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "f5824b7ace6b",
@@ -2284,15 +2415,17 @@
     "title": "How to get the Flaming Mane Phantom Edge in Phantom Blade Zero",
     "url": "https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-flaming-mane/",
     "source": "GamesRadar",
-    "section": "gaming",
+    "section": "tutorials",
     "published": "2026-11-03T17:45:08Z",
     "excerpt": "Here's how you get the Flaming Mane in Phantom Blade Zero – be warned: it takes ages",
     "image_url": "https://cdn.mos.cms.futurecdn.net/JyfPULtFSwWWPzyQkMNfm7-1920-80.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Players seeking the Flaming Mane item in Phantom Blade Zero must progress through the main quest until reaching the fourth region, Pangzhen. The guide outlines the necessary steps, including defeating specific bosses, interacting with characters, and utilizing the Tiger Cannon to repair the weapon. Acquiring the Flaming Mane allows players to clear previously blocked paths and access new areas.",
     "tags": [
-      "tutorial"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "5ec5d84feb33",
@@ -2335,7 +2468,12 @@
     "excerpt": "\"It feels great to finally reveal the name and location with you\"",
     "image_url": "https://cdn.mos.cms.futurecdn.net/QBKGJVzFmfUEWNc2o6ctKJ-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bethesda has officially confirmed the title of the next entry in its fantasy role-playing series as The Elder Scrolls 6: Sentinel, set in Hammerfell. Despite releasing the first teaser since 2018, the studio warned fans that the game's release is still a significant amount of time away. Development continues amidst studio restructuring and recent layoffs at Xbox, leaving fans waiting even longer for concrete details.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "fba81ac36d9b",
@@ -2431,9 +2569,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/TPEJsBEuuwup79VXJH72NF-1920-80.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "A gameplay mechanic originally tested and discarded for Diablo 3 because it lacked engagement eventually found success in World of Warcraft. The concept involved enemy groups sharing abilities upon defeat, which failed in Diablo due to fast-paced combat styles. However, when adapted for boss encounters in World of Warcraft, the mechanic thrived by forcing players to strategize against randomized enemy traits.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "9332c033c800",
@@ -2718,7 +2858,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 712,
+    "points": 718,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -3201,7 +3341,12 @@
     "excerpt": "B\u0026H Photo introduced its early Black Friday sale this week, with savings on storage accessories, home and portable audio devices, drones, cameras, Apple products, and more. Note: MacRumors is an affiliate partner with B\u0026H Photo. When you click a link and make a purchase, we may receive a small payment, which helps us keep the site running. B\u0026H Photo is matching a few all-time low prices on Apple's…",
     "image_url": "https://images.macrumors.com/article-new/2026/11/bh-photo-early-black-friday.jpeg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "B\u0026H Photo launched an early Black Friday sale featuring discounts on Apple products such as Mac mini and Mac Studio computers, alongside various audio equipment and portable storage devices.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "e4f768269ce7",
@@ -3226,7 +3371,12 @@
     "excerpt": "Brian Tyree Henry stars in Bass X Machina",
     "image_url": "https://cdn.mos.cms.futurecdn.net/C3gRu9R2aywKjfkyTtVCFQ-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The new Netflix steampunk anime series Bass X Machina has debuted with a perfect Rotten Tomatoes score. The show stars Brian Tyree Henry as a cybernetically enhanced marshal in the Wild West.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "8b4ee92364e6",
@@ -3238,7 +3388,12 @@
     "excerpt": "Apple today announced that its Festival Place store in Basingstoke, England will be permanently closing on Saturday, November 21. Apple Festival Place Apple had already announced that the store would be closing in November, but it had not provided the public with a specific date until now. Apple's store inside the Festival Place shopping center opened in 2011, so it had a 15-year run. In a stateme…",
     "image_url": "https://images.macrumors.com/article-new/2026/11/Apple-Festival-Place-scaled.jpeg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple has announced the permanent closure of its Festival Place retail store in Basingstoke, England, after fifteen years of operation. Employees are being offered positions at nearby locations, including a newly redesigned store in Reading.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "97e8b4c674c4",
@@ -3406,7 +3561,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 131,
+    "points": 134,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -3944,7 +4099,13 @@
     "excerpt": "You can start preloading GTA 6 from November 10, and these are the details you need to know",
     "image_url": "https://cdn.mos.cms.futurecdn.net/q9VEvTmjqXdkuDN5ZDPPxh-1920-80.jpg",
     "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Rockstar has announced the preload details and file sizes for Grand Theft Auto 6 ahead of its upcoming release. Players on PlayStation 5 and Xbox Series X will have a generous lead time of over a week to download the massive files required for the game. Digital preorders enable preloading starting in mid-November across various global time zones, while physical code-in-box versions will become available soon after.",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "enriched": true
   },
   {
     "id": "103bc83001ee",
@@ -4409,7 +4570,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:52Z",
     "image_url": "https://hissingkitty.com/api/public/og/hacker-churn.png",
-    "points": 60,
+    "points": 62,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "HackerChurn aggregates Hacker News comments to rank SaaS tools with the most negative feedback over the past three years. Tools receiving at least three complaints across two threads appear on the list, highlighting platforms like Bitwarden, Obsidian, Xero, WordPress, and others that users consider replacing.",
@@ -4427,7 +4588,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:46Z",
     "image_url": "https://blog.bear.app/wp-content/uploads/2026/10/default-blog_1920x1080.png",
-    "points": 83,
+    "points": 84,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Bear, a note‑taking app launched in 2016, celebrates its 10‑year anniversary. Developed by three friends seeking a better design, it earned Mac App of the Year and an Apple Design Award, and has expanded to include a web beta and new editor features. The company emphasizes simplicity, delight, and trust in its user experience.",
@@ -4512,7 +4673,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 215,
+    "points": 219,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -4701,7 +4862,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 321,
+    "points": 327,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -4784,7 +4945,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 397,
+    "points": 400,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5037,7 +5198,12 @@
     "excerpt": "It has been nearly a decade since Todd Howard and Bethesda first announced the upcoming RPG",
     "image_url": "https://kotaku.com/app/uploads/2026/11/TES6-logo-bg-1280x720.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Bethesda has revealed that the next installment in its role-playing franchise will be titled The Elder Scrolls 6: Sentinel, set in the region of Hammerfell. The announcement came during a video celebrating the studio's 40th anniversary, featuring a brief teaser trailer. However, the company did not provide a release date, and industry reports suggest the game is still years away from launch.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "06f5a45de4db",
@@ -5121,10 +5287,11 @@
     "image_url": "https://assetsio.gnwcdn.com/ES-6.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Xbox and Bethesda have officially revealed that The Elder Scrolls 6 is titled Sentinel, taking place in the Tamriel region of Hammerfell. The announcement arrives over eight years after the game's initial teaser in 2018, coinciding with Bethesda's 40th anniversary. While the new trailer showcases a brief glimpse of the setting and lore, a release date remains unannounced.",
     "tags": [
-      "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "4d96c97b0a81",
@@ -5344,7 +5511,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 37,
+    "points": 38,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -5362,7 +5529,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 231,
+    "points": 235,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -5622,7 +5789,9 @@
     "excerpt": "'I have brought peace, freedom, justice, and security to my new empire'",
     "image_url": "https://kotaku.com/app/uploads/2026/11/star-wars-s.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "d12f1609e616",
@@ -5673,12 +5842,18 @@
     "title": "Apple explains the $400 premium for the MacBook Pro with PROLED XDR Display",
     "url": "https://9to5mac.com/2026/11/03/apple-explains-the-400-premium-for-the-macbook-pro-with-proled-xdr-display/",
     "source": "9to5Mac",
-    "section": "phones",
+    "section": "tech",
     "published": "2026-11-03T14:14:03Z",
     "excerpt": "Apple argued that the touchscreen isn’t the headline feature of the MacBook Pro with PROLED XDR Display , merely a bonus. The headline should instead be the quality of the display itself – with the company effectively suggesting that the $400 premium is positively cheap for what you’re getting … more…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/You-can-now-spend-between-1999-and-14549-on-a-MacBook-Pro.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "Apple explains the design choices behind the new MacBook Pro featuring the PROLED XDR display, justifying its price premium through advanced tandem OLED technology. The screen delivers high sustained brightness, deep contrast ratios, and extreme color accuracy comparable to professional reference monitors. According to Apple, custom display engines in the M5 processors manage pixel performance and longevity in real time.",
+    "tags": [
+      "hardware",
+      "chips"
+    ],
+    "enriched": true
   },
   {
     "id": "97203355f3e2",
@@ -5709,9 +5884,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/bRiuwtX3nBa4tkWWeeib9f-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Filmmaker Mike Flanagan confirmed he is writing the script for an upcoming Warhammer 40,000 project involving Henry Cavill. While expressing enthusiasm for the vast lore of the franchise, Flanagan noted that specific details remain tightly under wraps. The adaptation continues to be developed in collaboration with Games Workshop and Amazon.",
     "tags": [
-      "space"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "6a089d3b89f3",
@@ -5760,9 +5937,11 @@
     "image_url": "https://assetsio.gnwcdn.com/W%26R-Space.png?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The city-building and logistics simulation game Workers \u0026 Resources: Soviet Republic is receiving a new expansion titled the Space Program DLC. Set to release on November 23rd, the add-on introduces rocketry, historical space programs like Sputnik and Vostok, and complex industrial supply chains. Players will also experience a 1960s-themed campaign centered around centralized planning and technological development.",
     "tags": [
-      "space"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "156ad1492862",
@@ -5793,9 +5972,12 @@
     "image_url": "https://kotaku.com/app/uploads/2026/11/wardogs2-1280x720.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The studio head behind the tactical multiplayer game Wardogs has announced that the development team will take the entire month of December off following the title's successful early-access launch. Despite the game seeing a drop in concurrent players from its initial peak, the studio remains confident in its long-term roadmap. The CEO humorously suggested that players also take a break in December to play other titles.",
     "tags": [
-      "go"
-    ]
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
   },
   {
     "id": "5951d7316dde",
@@ -5962,7 +6144,9 @@
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-audience.jpg?resize=1200,800",
     "image_checked": true,
     "weight": 1,
-    "first_seen": "2026-11-03T18:05:26.35239174Z"
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "b678bd22392c",
@@ -6062,7 +6246,12 @@
     "excerpt": "It's rough out here for Zarya fans.",
     "image_url": "https://cdn.mos.cms.futurecdn.net/gjcwSH2mVVH9McVnjBNjQX-1920-80.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Overwatch developers have addressed community complaints regarding lopsided skin distribution across the hero roster. Game director Aaron Keller explained that while the team tries to support newer and less popular heroes, they must also release cosmetics for fan-favorite characters to maintain the game's business model. This revenue strategy allows the studio to fund less profitable cosmetic projects for the broader roster.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "03c0278cb3bf",
@@ -6182,9 +6371,11 @@
     "image_url": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(6).jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The latest update for Call of Duty: Modern Warfare 4 introduces significant balance changes to the extraction mode DMZ. Infinity Ward has randomised and reduced the spawn rate of controversial UAV Towers by 40 percent to curb aggressive spawn-killing tactics. Additionally, the patch improves the Sedative Inhaler item to help players stay undetected for longer periods during matches.",
     "tags": [
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "557267b20b68",
@@ -6907,7 +7098,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 787,
+    "points": 790,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -7801,10 +7992,12 @@
     "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-v80-fe-online-listing/-184x111/gsmarena_00.jpg",
     "weight": 1.2,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "vivo has listed its upcoming V80 FE smartphone on its official Philippine website, revealing its full specifications ahead of an official launch. The device features a MediaTek Dimensity 7400-Turbo processor, up to 8GB of RAM, and a 6.59-inch 120Hz AMOLED display. It also packs a 7,000mAh battery with 90W fast charging and a triple 50MP camera setup running Android 17-based OriginOS 7.",
     "tags": [
       "mobile",
-      "energy"
-    ]
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "c07e5198e558",
@@ -9405,6 +9598,23 @@
     "tags": [
       "climate"
     ]
+  },
+  {
+    "id": "2fc1e68caf2a",
+    "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+    "url": "https://hackertv.org",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T01:18:09Z",
+    "image_checked": true,
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:35:18.443973736Z",
+    "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
+    "tags": [
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "1ae1679f93e7",
@@ -13427,7 +13637,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 293,
+    "points": 296,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -15991,7 +16201,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 207,
+    "points": 208,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
