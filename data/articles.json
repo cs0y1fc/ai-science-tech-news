@@ -1,5 +1,250 @@
 [
   {
+    "id": "eafbecb43636",
+    "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+    "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T22:04:02Z",
+    "excerpt": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process that started with one developer downloading a tampered installer in June apparently spread by a malicious Google ad, exposing details about the […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Binance reported that a major cryptocurrency theft was executed using sophisticated social engineering, including fake job interviews and compromised internal tools. Attackers bypassed security by deploying custom malware that evaded endpoint detection. While a substantial portion of the stolen assets was frozen or recovered, the incident underscores ongoing vulnerabilities in developer environments.",
+    "tags": [
+      "security",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a09326f72c06",
+    "title": "iPhone Duo shortages will continue for the foreseeable future, Apple CEO says",
+    "url": "https://www.gsmarena.com/iphone_duo_shortages_will_continue_for_the_foreseeable_future_apple_ceo_says-news-75329.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-03T22:01:02Z",
+    "excerpt": "Apple's first foldable, the iPhone Duo, sold out within hours of pre-orders opening on October 16, and shipping dates quickly slipped all the way to January. Ahead of launch day, the company also warned of limited walk-in stock in its stores. Now, if you were hoping things would get better soon, Apple's CEO has some bad news for you. [#InlinePriceWidget,13804,1#] Speaking yesterday, after Apple re…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/iphone-duo-supply-constraints-ongoing/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Apple's newly launched foldable smartphone, the iPhone Duo, faces ongoing supply shortages with shipping dates delayed significantly. Executives indicate that production is ramping up, but predicting when supply and demand will balance remains difficult. Additionally, the company is addressing a small percentage of reported inner display issues by replacing affected devices.",
+    "tags": [
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "519310b2a984",
+    "title": "Chrome could soon make tab overload a lot easier to manage",
+    "url": "https://www.androidauthority.com/google-chrome-horizontal-tab-scrolling-testing-3731218/",
+    "source": "Android Authority",
+    "section": "tech",
+    "published": "2026-11-03T22:00:53Z",
+    "excerpt": "Finally catching up to Firefox.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2022/02/Google-Chrome-logo-stock-photo-2.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Google is testing a horizontally scrollable tab bar in Chrome Canary to help users manage large numbers of open tabs. The feature allows users to navigate hidden tabs using a mouse wheel or dedicated arrows while keeping pinned tabs fixed on the left. It is currently experimental and requires enabling a specific browser flag.",
+    "tags": [
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "641f90c4500a",
+    "title": "Overwatch’s Midseason Patch Adds Teaser For Its Sexy New Omnic Detective Hero",
+    "url": "https://kotaku.com/overwatch-season-5-midseason-patch-omnic-detective-new-hero-55-rigby-2000752862",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T22:00:42Z",
+    "excerpt": "The Midtown map has a new clue for fans to investigate",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/owstellarblade-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "The latest midseason patch for Overwatch introduces teasers for an upcoming hero known within the community as the Omnic Detective. Players discovered a new business card for Hudson Investigations on the Midtown map, pointing to characters named Ellie Hudson and Rigby M-018. This detective character is expected to shape the game's upcoming narrative arc.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c89f2723230b",
+    "title": "I replaced Google Keep with Gemini; it's been a game changer for my notes",
+    "url": "https://www.androidpolice.com/i-replaced-google-keep-with-gemini-its-been-a-game-changer/",
+    "source": "Android Police",
+    "section": "ai",
+    "published": "2026-11-03T22:00:10Z",
+    "excerpt": "Google Keep is no longer the primary app where I take notes",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/11/gemini-logo-and-a-torn-google-keep-logo-on-sticky-notes.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "A user describes transitioning their note-taking workflow from Google Keep to Gemini. By utilizing Gemini's integrated notebook features during research chats, notes can be saved and queried directly within conversations. This approach provides contextual AI assistance and easier source tracking across stored information.",
+    "tags": [
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "94735a2c912d",
+    "title": "Researchers develop method for single-cell DNA methylation analysis",
+    "url": "https://phys.org/news/2026-11-method-cell-dna-methylation-analysis.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:00:06Z",
+    "excerpt": "Researchers have recently developed a standardized workflow for analyzing DNA methylation in individual cells. The protocol combines an improved laboratory procedure with an automated data analysis tool, making it easier to study differences between cells. Published in Nature Protocols, the study was led by researchers from the Institute of Health and Medical Technology at the Hefei Institutes of…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-a-19.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "tags": [
+      "biology",
+      "health"
+    ]
+  },
+  {
+    "id": "f935aed9ea47",
+    "title": "The marginalia found in millions of Arabic manuscripts could reshape our understanding of Islamic history",
+    "url": "https://phys.org/news/2026-11-marginalia-millions-arabic-manuscripts-reshape.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:00:01Z",
+    "excerpt": "For a comprehensive understanding of the content of millions of Arabic manuscripts held in libraries around the world, it is crucial for scholars to first examine what their marginalia reveal, according to a new study published in the Journal of Islamic Thought and Civilization.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-marginalia-found-i.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:07:03.034214394Z"
+  },
+  {
+    "id": "e1f6d45914ae",
+    "title": "GIMP 3.2.8 brings bug fixes, fixes \u0026 fixes",
+    "url": "https://www.omgubuntu.co.uk/2026/11/gimp-3-2-8-brings-bug-fixes-fixes-fixes",
+    "source": "OMG! Ubuntu",
+    "section": "linux",
+    "published": "2026-11-03T21:59:26Z",
+    "excerpt": "GIMP 3.2.8 is out, the fourth maintenance update in the current stable series, which first launched in March 2026. No shiny new features ship, as fixes and fine-tuning are the primary focus. Major work is happening alongside maintenance, but the fruits of that will arrive in the next major series update – those do come out sooner now, so patience. So what has changed since the v3.2.6 update? GIMP…",
+    "image_url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232\u0026ssl=1",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "GIMP 3.2.8 has been released as a maintenance update focusing on bug fixes, performance improvements, and security patches rather than new features. The update includes better right-to-left text handling, faster preferences loading, and improved caching for large gradients. It also delivers platform-specific fixes for macOS and Windows alongside Linux distributions.",
+    "tags": [
+      "open-source",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "569110e59096",
+    "title": "Apple now explicitly bans employees from using confidential information in prediction markets",
+    "url": "https://9to5mac.com/2026/11/03/apple-now-explicitly-bans-employees-from-using-confidential-information-in-prediction-markets/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T21:58:58Z",
+    "excerpt": "Apple has updated its insider trading policy to explicitly prohibit employees from using confidential information to bet on prediction markets. Here are the details. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2023/10/apple-park-dusk.jpeg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Apple updated its annual financial disclosures to include an explicit prohibition against employees using confidential corporate information to participate in prediction markets. The new policy addresses a gray area regarding insider trading regulations and event contracts. It applies to both internal data and information concerning Apple's business partners and suppliers.",
+    "tags": [
+      "policy",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ff0189a5f08c",
+    "title": "Control Resonant is Remedy's fastest-selling game to date, tripling the studio's quarterly revenue",
+    "url": "https://www.pcgamer.com/games/action/control-resonant-is-remedys-fastest-selling-game-to-date-tripling-the-studios-quarterly-revenue/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-03T21:54:41Z",
+    "excerpt": "Countless sickos of a certain vintage just breathed sighs of relief.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/xb2cQYdhNf5wD8AmMALY4G-1920-80.webp",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Remedy Entertainment reported a significant increase in quarterly revenue, driven largely by the launch of Control Resonant. The self-published sequel became the studio's fastest-selling game to date after surpassing one million copies sold. The developer plans to maintain this momentum by focusing on targeted marketing and expanding the title's reach to new players.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "719c3d9d4da6",
+    "title": "The Internals of PostgreSQL",
+    "url": "https://www.interdb.jp/pg/index.html",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-03T21:51:06Z",
+    "image_checked": true,
+    "points": 3,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "This resource provides documentation regarding the internal mechanisms of PostgreSQL. It outlines the terms for noncommercial educational use while restricting commercial reproduction. The documentation is maintained as an HTML-optimized reference by its author.",
+    "tags": [
+      "data"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a67ffd2cb5fe",
+    "title": "Free vs Paid AI Character Chat Apps: What You Actually Get on Each Tier (and When Upgrading Is Worth It)",
+    "url": "https://dev.to/pogee/free-vs-paid-ai-character-chat-apps-what-you-actually-get-on-each-tier-and-when-upgrading-is-boo",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T21:50:53Z",
+    "excerpt": "Almost every AI character app now follows the same pattern: a free tier that lets you start chatting right away, and one or more paid plans that promise \"more.\" The problem is that \"more\" is rarely explained in terms that matter to you. Does a subscription make characters smarter, or just faster? Will your character finally stop forgetting things? Is the free tier a real product or a demo? This gu…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsxxypiehj9zhuevh19tx.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:07:03.034214394Z"
+  },
+  {
+    "id": "9953c1043481",
+    "title": "Original Tomb Raider devs didn't love how Lara Croft was \"sexualized\" in marketing",
+    "url": "https://www.gamesradar.com/games/tomb-raider/original-tomb-raider-devs-didnt-love-how-lara-croft-was-sexualized-in-marketing-i-think-it-went-a-bit-too-far/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T21:50:23Z",
+    "excerpt": "The devs themselves turned their \"almost androgynous\" hero into the Lara Croft we know, but the marketing \"showed a lack of imagination by oversexualising her\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/rDAzcvWzc4S7B2HcDJdctH-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:07:03.034214394Z"
+  },
+  {
+    "id": "2e6577740a71",
+    "title": "GTA 6 may have done Ocarina of Time remake and WoW: Forever a favor by scaring games out of November",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-may-have-done-ocarina-of-time-remake-and-wow-forever-a-favor-by-scaring-games-out-of-november-everything-else-in-the-market-well-see-says-analyst/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T21:47:03Z",
+    "excerpt": "Nintendo and Blizzard aren't competing with Rockstar in the same way as some",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/DjHygAvVxq5SRXiCL2bj3i-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "f7b02949050d",
+    "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+    "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T21:43:08Z",
+    "excerpt": "Cybersecurity focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Ballistic-Ventures-GP-team.jpg?resize=1200,801",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Venture capital firm Ballistic Ventures is attempting to raise $490 million across two new funds to invest in cybersecurity startups. The fundraising effort coincides with a broader industry boom driven by artificial intelligence and sophisticated cyber threats. The firm focuses primarily on early-stage security companies addressing automated attacks and AI-enabled vulnerabilities.",
+    "tags": [
+      "startups",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
     "id": "abad5ebcdba7",
     "title": "\"Steam's review queue is clogged up by AI slop\": Salacious Fire Emblem-ish Food Devils gets a delay because its devs think Valve is inundated with genAI games",
     "url": "https://www.rockpapershotgun.com/steams-review-queue-is-clogged-up-by-ai-slop-salacious-fire-emblem-ish-food-devils-gets-a-delay-because-its-devs-think-valve-is-inundated-with-genai-games",
@@ -36,6 +281,25 @@
     "enriched": true
   },
   {
+    "id": "edbf4ed1a954",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T21:40:53Z",
+    "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "points": 28,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "This book offers a mathematical introduction to modern generative artificial intelligence. It connects major generative model families such as variational autoencoders, diffusion models, and generative adversarial networks. The text serves as a foundation for researchers and students seeking to understand the mathematical derivation of these models.",
+    "tags": [
+      "llm",
+      "research",
+      "math"
+    ],
+    "enriched": true
+  },
+  {
     "id": "beb4bff996ff",
     "title": "Study finds stronger trade secret protection leads firms to break down innovation silos",
     "url": "https://phys.org/news/2026-11-stronger-secret-firms-silos.html",
@@ -58,6 +322,24 @@
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/this-article-has-been.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "7da3b08fd70d",
+    "title": "Safari introduces Adaptive Dark Mode in 27.3",
+    "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "source": "Hacker News",
+    "section": "phones",
+    "published": "2026-11-03T21:39:05Z",
+    "image_url": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
+    "points": 60,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Safari has introduced an Adaptive Dark Mode feature in its beta release. The tool automatically converts bright web pages into a dark format when enabled, maintaining color hue and contrast standards. It analyzes page elements like backgrounds, text, and images to ensure readability without altering native dark sites.",
+    "tags": [
+      "mobile",
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "2ffb9ca311f1",
@@ -113,6 +395,24 @@
     "enriched": true
   },
   {
+    "id": "f3900be82c6f",
+    "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T21:26:44Z",
+    "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover\u0026gravity=faces\u0026dpr=2\u0026quality=medium\u0026source=nar-cms\u0026format=jpg\u0026width=1260\u0026height=630",
+    "points": 27,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "Major U.S. technology companies have seen their off-balance-sheet debt related to artificial intelligence obligations surge significantly over a six-month period. These commitments now represent a vast portion of their total assets. The rapid accumulation highlights the heavy financial investments being poured into AI infrastructure.",
+    "tags": [
+      "startups",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
     "id": "3f3380d961ed",
     "title": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
     "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
@@ -120,7 +420,7 @@
     "section": "ai",
     "published": "2026-11-03T21:25:48Z",
     "image_checked": true,
-    "points": 12,
+    "points": 29,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "tags": [
@@ -158,7 +458,14 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcet819ibjsv95i1s8v27.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "This guide explains how to evaluate AI character chat applications for roleplay and collaborative fiction writing. It examines critical features like memory retention, lore management, group scene handling, and content controls. The article provides practical testing methods to help writers choose apps that maintain consistent narrative rules.",
+    "tags": [
+      "llm",
+      "tutorial",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "4e9f0aaa0128",
@@ -171,26 +478,30 @@
     "image_url": "https://kotaku.com/app/uploads/2026/11/GettyImages-2300557789-e1793740977164-1280x709.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Ubisoft has reportedly submitted a bid to acquire Arkane, the game studio currently developing Marvel’s Blade. Microsoft is evaluating potential buyers for the studio following a series of corporate restructuring decisions and set a December deadline for a final sale. If negotiations fail, the studio faces the possibility of permanent closure.",
     "tags": [
-      "consoles",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "a4e0a9a225b6",
     "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
     "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
     "source": "The Verge",
-    "section": "tech",
+    "section": "phones",
     "published": "2026-11-03T21:21:04Z",
     "excerpt": "It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, and these features are meant to be lived with in day-to-day life. We're definitely going to do that over the next […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/liverewind.jpg?quality=90\u0026strip=all\u0026crop=0%2C7.0647280488212%2C100%2C85.870543902358\u0026w=1200",
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "The developer beta for watchOS introduces new Audio Intelligence features including Live Rewind and Siri Recap to compatible Apple Watch models. These capabilities require manual activation and configuration through a paired iPhone rather than being enabled by default. Early impressions highlight privacy considerations, opt-in controls, and the initial setup process for live transcription and conversation summaries.",
     "tags": [
+      "mobile",
       "ios"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "b204b66a4e2b",
@@ -224,7 +535,7 @@
     "section": "coding",
     "published": "2026-11-03T21:16:48Z",
     "image_url": "https://opengraph.githubassets.com/762e315693671ef15400f1f6fffb07ad54479b2dfd75b8dd0887f21d114e496c/finic-ai/kairos",
-    "points": 11,
+    "points": 17,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "summary": "Kairos is an open-source fraud decisioning and risk management platform designed for developers. It integrates with AI coding assistants over the Model Context Protocol to automatically build workflows, propose model variants, and tune decisions. The platform combines traditional machine learning with natural language reasoning models to process real-time transactional events.",
@@ -266,11 +577,11 @@
     "image_url": "https://www.videogameschronicle.com/files/2023/09/dishonored.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Ubisoft has reportedly submitted a bid to acquire Arkane Lyon from Xbox, alongside interest from other gaming companies. This potential sale follows a period of restructuring and layoffs within Xbox. Meanwhile, the future of the studio's upcoming titles and established intellectual properties remains uncertain.",
     "tags": [
-      "consoles",
-      "indie",
       "gaming"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "f57533a0faeb",
@@ -301,7 +612,13 @@
     "excerpt": "In addition to the new app icon , Google Messages is testing a redesign of pinned chats and search on the homepage. more…",
     "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/google-messages-thread-1.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Google Messages is testing a redesigned homepage interface that elevates pinned chats above standard conversations and introduces a floating action button for search. The layout aims to improve one-handed usage, drawing comparisons to iOS features. These updates are currently limited to the app's beta channel.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
   },
   {
     "id": "442222879b58",
@@ -314,9 +631,11 @@
     "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/batman-and-robin.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "DC Studios has announced that Mason Thames will portray Dick Grayson in the upcoming animated film Dynamic Duo. The project focuses on two Robins and utilizes a mix of physical and digital techniques. Co-CEO James Gunn confirmed the film will exist outside the main DC Universe continuity.",
     "tags": [
-      "tutorial"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "3100806aa9cf",
@@ -328,7 +647,9 @@
     "excerpt": "Influencers, watchdogs, and MAGA pundits are convinced that election fraud is everywhere today, despite a lack of apparent evidence.",
     "image_url": "https://media.wired.com/photos/6ae50b80941f4f67ee5f2a88/master/pass/GettyImages-2300813713.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "4857afeaf14d",
@@ -359,7 +680,13 @@
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
     "image_checked": true,
     "weight": 1,
-    "first_seen": "2026-11-03T21:42:26.195492856Z"
+    "first_seen": "2026-11-03T21:42:26.195492856Z",
+    "summary": "Palantir reported strong third-quarter earnings driven by high demand for its enterprise artificial intelligence software, surpassing revenue and profit expectations. However, the report also highlighted a potential slowdown in enterprise sales growth, characterized by shorter contract durations and declining total contract values. Company leadership remains confident despite these mixed indicators.",
+    "tags": [
+      "cloud",
+      "data"
+    ],
+    "enriched": true
   },
   {
     "id": "5c1a7d66e5fb",
@@ -456,6 +783,24 @@
     "tags": [
       "security",
       "policy"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "797fca1b137f",
+    "title": "mine",
+    "url": "https://coalton-lang.github.io/mine/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-03T21:01:04Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "The mine project is a specialized integrated development environment for Coalton and Common Lisp, available for Windows, macOS, and Linux. It offers native binary compilation, a fully integrated REPL, an interactive debugger, inline diagnostics, and built-in structural editing lessons. Users can choose between an all-in-one packaged application or a hacker-friendly terminal-based core variant.",
+    "tags": [
+      "devtools",
+      "open-source"
     ],
     "enriched": true
   },
@@ -734,7 +1079,7 @@
     "section": "ai",
     "published": "2026-11-03T20:33:23Z",
     "image_url": "https://helgesver.re/og/article-macos-vulgar-word-flags.png",
-    "points": 107,
+    "points": 116,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "An investigation into Apple's internal word-usage database reveals how macOS and iOS track profanity to improve autocorrect. The author uncovered system dictionary classifications for sensitive and vulgar terms across multiple languages. Private framework functions were used to extract the undocumented data.",
@@ -1068,7 +1413,7 @@
     "section": "tutorials",
     "published": "2026-11-03T20:07:41Z",
     "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
-    "points": 15,
+    "points": 19,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
@@ -1479,7 +1824,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 118,
+    "points": 136,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -1567,7 +1912,7 @@
     "section": "linux",
     "published": "2026-11-03T19:27:53Z",
     "image_checked": true,
-    "points": 27,
+    "points": 43,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "The latest macOS release drops support for CoreStorage volumes and encrypted HFS+ file systems, rendering older storage media inaccessible. Users are unable to mount, convert, or erase these volumes through standard disk utilities. The operating system provides misleading error messages and lacks backward compatibility paths for affected hardware.",
@@ -1620,7 +1965,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 34,
+    "points": 40,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -2763,7 +3108,7 @@
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 35,
+    "points": 40,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -3143,10 +3488,12 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "This tutorial details how to integrate Anthropic's Claude API into backend Java services for production environments. It covers essential aspects such as configuring the HTTP client, handling authentication headers, processing structured outputs, and implementing tool use. The guide provides practical code examples and architectural best practices for robust error handling and observability.",
     "tags": [
       "llm",
-      "prompting"
-    ]
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "e6f63aae3591",
@@ -3209,7 +3556,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 20,
+    "points": 22,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -3683,7 +4030,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 803,
+    "points": 839,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -4386,7 +4733,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 206,
+    "points": 234,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -4505,7 +4852,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 35,
+    "points": 36,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -5687,7 +6034,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 383,
+    "points": 395,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5770,7 +6117,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 451,
+    "points": 472,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5931,7 +6278,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 57,
+    "points": 58,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -6336,7 +6683,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 45,
+    "points": 48,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -6354,7 +6701,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 263,
+    "points": 265,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -6460,7 +6807,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 62,
+    "points": 63,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6876,7 +7223,7 @@
     "source": "Fedora Magazine",
     "section": "linux",
     "published": "2026-11-03T14:00:00Z",
-    "excerpt": "Fedora Workstation features the latest six months of meticulous polish, under-the-hood responsiveness, and security hardening for F45, based on GNOME 51. Whether you are multitasking across monitors, managng daily appointments, or organizing large sets of files, GNOME 51 brings thoughtful refinements to your daily workflow on Fedora Workstation. Silky-Smooth Responsiveness: Reworked Frame Scheduli…",
+    "excerpt": "Fedora Workstation features the latest six months of meticulous polish, under-the-hood responsiveness, and security hardening for F45, based on GNOME 51. Whether you are multitasking across monitors, managing daily appointments, or organizing large sets of files, GNOME 51 brings thoughtful refinements to your daily workflow on Fedora Workstation. Silky-Smooth Responsiveness: Reworked Frame Schedul…",
     "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/10/new_in_fedora_workstaiion_45-300x127.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
@@ -7821,7 +8168,13 @@
     "excerpt": "LibreOffice 26.2.7 fixes DOCX compatibility, PDF hyperlinks, presentation audio, and macOS crashes ahead of the branch's end of support.",
     "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/libreoffice2627-380x214.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The Document Foundation has released LibreOffice 26.2.7 as the final maintenance update for its mature 26.2 series office suite. This version delivers various bug fixes, including improvements to Microsoft Word DOCX compatibility, PDF export reliability, and audio playback in Impress presentations. It also upgrades the bundled Python interpreter to version 3.12.16 while users are encouraged to migrate to the newer 26.8 branch.",
+    "tags": [
+      "open-source",
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "8c31e0ebf9cf",
@@ -7952,7 +8305,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 819,
+    "points": 831,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -8655,7 +9008,13 @@
     "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=gcc_lands_avx10v1aux",
     "image_checked": true,
     "weight": 1.1,
-    "first_seen": "2026-11-03T18:55:21.289776767Z"
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "The GCC 17 compiler codebase has merged initial support for AVX10V1AUX, an auxiliary update to the AVX10.1 specification developed collaboratively by AMD and Intel. This addition acts as a bridge between early AVX10 hardware and later AVX10.2 capabilities, introducing native VNNI INT8 and VNNI INT16 support. AMD engineers led the integration work, which is now accessible via a new compiler switch in GCC Git.",
+    "tags": [
+      "hardware",
+      "linux"
+    ],
+    "enriched": true
   },
   {
     "id": "5c551539c4ea",
@@ -10464,7 +10823,7 @@
     "section": "tech",
     "published": "2026-11-03T01:18:09Z",
     "image_checked": true,
-    "points": 39,
+    "points": 57,
     "weight": 1,
     "first_seen": "2026-11-03T20:35:18.443973736Z",
     "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
@@ -12099,7 +12458,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 101,
+    "points": 105,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -13663,6 +14022,19 @@
     ]
   },
   {
+    "id": "41eddc2b7124",
+    "title": "Curiosity Traps",
+    "url": "https://www.autodidacts.io/curiosity-traps/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-02T15:40:04Z",
+    "image_url": "https://www.autodidacts.io/content/images/2026/10/winnie-the-pooh-honey-pot-1.jpg",
+    "image_checked": true,
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:07:03.034214394Z"
+  },
+  {
     "id": "969d4bd65e4f",
     "title": "Please Let the Internet Die. It's Time to Start Over",
     "url": "https://www.wired.com/story/let-the-internet-die/",
@@ -13721,7 +14093,7 @@
     "published": "2026-11-02T15:23:02Z",
     "image_url": "https://thehustle.co/hubfs/undefined-Oct-30-2026-04-01-33-2861-PM.jpeg",
     "image_checked": true,
-    "points": 26,
+    "points": 28,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "enriched": true,
@@ -14494,7 +14866,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 322,
+    "points": 330,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -15486,7 +15858,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 84,
+    "points": 88,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -15587,7 +15959,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 114,
+    "points": 115,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -15889,7 +16261,7 @@
     "published": "2026-11-02T04:31:20Z",
     "image_url": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
     "image_checked": true,
-    "points": 20,
+    "points": 33,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "enriched": true,
@@ -17028,7 +17400,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 26,
+    "points": 36,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "Developers are training specialized AI models to handle iterative editing tasks within Figma, aiming to speed up everyday design workflows. By moving beyond prompt engineering, the team utilized supervised fine-tuning and synthetic data generation to teach models native Figma syntax. Current efforts focus on incorporating reinforcement learning to improve generalization and better align model outputs with professional design standards.",
@@ -17088,7 +17460,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 212,
+    "points": 214,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
