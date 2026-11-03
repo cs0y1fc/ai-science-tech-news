@@ -1,6 +1,6 @@
-# Noticias Tech
+# Tech News
 
-Web de noticias de **inteligencia artificial, ciencia y tecnología**, más **tutoriales** de programación y de integración de IA en aplicaciones. Se regenera sola cada 6 horas. Las noticias están en inglés; la interfaz, en español.
+Web de noticias de **inteligencia artificial, ciencia y tecnología**, más **tutoriales** de programación y de integración de IA en aplicaciones. Se regenera sola cada 6 horas. Toda la web (interfaz y contenido) está en inglés; este README y los comentarios del código, en español.
 
 Es un sitio **estático** generado por un programa en Go y publicado en GitHub Pages. No hay servidor, base de datos ni JavaScript propio: solo HTML y CSS.
 
@@ -11,15 +11,15 @@ Es un sitio **estático** generado por un programa en Go y publicado en GitHub P
 3. **Puntúa** cada noticia y elige la destacada y las mejores de cada sección.
 4. **Enriquece con IA** (capa gratuita): resumen corto, sección y etiquetas. Oculta lo que no trata de estos temas.
 5. **Busca imagen** de cada noticia (`og:image`) cuando el feed no la trae.
-6. **Genera** el sitio: portada, secciones, etiquetas, una página por noticia, RSS, sitemap y "Acerca de".
+6. **Genera** el sitio: portada, secciones, etiquetas, una página por noticia, RSS, sitemap y la página "About".
 
 ## Páginas
 
 | Ruta | Contenido |
 |---|---|
-| `/` | Noticia destacada, temas del momento y una fila por sección (IA, Ciencia, Tech, Tutoriales) |
-| `/s/{seccion}/` | Lista paginada (24 por página) de una sección, con sus temas |
-| `/t/{etiqueta}/` | Todo lo de una etiqueta |
+| `/` | Noticia destacada, temas del momento y todas las noticias por orden de llegada (más recientes primero), con pestañas por sección y paginación (24 por página) |
+| `/s/{section}/` (`ai`, `science`, `tech`, `tutorials`) | Lista paginada de una sección, con sus temas |
+| `/t/{tag}/` | Todo lo de una etiqueta |
 | `/n/{id}/` | Resumen de una noticia, con enlace al original y noticias relacionadas |
 | `/about/` | Cómo se genera, límites de los resúmenes y lista de fuentes |
 | `/feed.xml` | RSS con las 50 últimas |
@@ -34,7 +34,7 @@ cmd/build/            Programa principal: orquesta todo el proceso
 internal/
   sources/            Lee sources.yaml y descarga feeds (RSS y Hacker News)
   dedupe/             Normaliza URLs, genera IDs y elimina duplicados
-  rank/               Puntuación y selección de portada y filas
+  rank/               Puntuación y elección de la noticia destacada
   enrich/             IA: cliente compatible con OpenAI, cadena de respaldo,
                       vocabulario de etiquetas, extracción del texto de la página
   images/             Busca la imagen principal (og:image) de cada artículo
@@ -43,7 +43,7 @@ internal/
   model/              Tipo Article y secciones
 web/
   templates/          Plantillas HTML (html/template)
-  static/style.css    Estilos (tema claro por defecto; oscuro con el botón "Tema")
+  static/style.css    Estilos (tema claro por defecto; oscuro con el botón "Theme")
 sources.yaml          Lista de fuentes: nombre, URL, sección, tipo, peso, límite
 data/articles.json    Artículos guardados (30 días); lo actualiza el workflow
 .github/workflows/    Actualización y publicación cada 6 horas
@@ -62,14 +62,14 @@ puntos = peso_fuente · (10·e^(−horas/24) + 2·ln(1 + puntos_HN)) + 3·min(co
 - **Cobertura:** cuántas *otras* fuentes cuentan lo mismo (similitud de títulos ≥ 0,5).
 - **Peso:** cada fuente tiene el suyo en `sources.yaml`.
 
-Las noticias entran en portada hasta 3 días; los tutoriales, hasta 14. La destacada es la mejor que no sea tutorial, con preferencia por las que tienen imagen.
+La puntuación solo decide la **noticia destacada** (la mejor de los últimos 3 días que no sea tutorial, con preferencia por las que tienen imagen). El resto de la portada no se ordena por puntuación ni por etiqueta: va **por orden de llegada, las más recientes primero**, y se pagina.
 
 ### IA
 
 - Habla con cualquier API compatible con *Chat Completions* de OpenAI (Gemini, Groq, Mistral…).
 - Procesa los artículos nuevos en lotes de 5, hasta 30 por ejecución, y guarda el resultado: no repite trabajo.
 - Las etiquetas salen de un **vocabulario cerrado** de unas 30 (`llm`, `agents`, `space`, `go`, `tutorial`…) para que sean coherentes.
-- La sección debe ser una de `ia`, `ciencia`, `tech`, `tutoriales` o `none`; con `none` la noticia se oculta.
+- La sección debe ser una de `ai`, `science`, `tech`, `tutorials` o `none`; con `none` la noticia se oculta, y también si no está escrita en inglés.
 - **Cadena de respaldo:** si el proveedor principal falla o agota su cuota, la misma petición pasa al siguiente. Un proveedor limitado, o que falla 3 veces seguidas, se salta el resto de la ejecución.
 - **Sin IA o si falla:** la web sigue funcionando con el extracto del feed y etiquetas por palabras clave. Nunca queda vacía.
 - Sin texto de origen no se genera resumen, para no inventarlo.
@@ -138,7 +138,7 @@ Edita `sources.yaml`; no hace falta tocar código:
 ```yaml
 - name: Nombre visible
   url: https://ejemplo.com/feed.xml
-  section: tech          # ia | ciencia | tech | tutoriales
+  section: tech          # ai | science | tech | tutorials
   type: rss              # rss (por defecto) | hn
   weight: 1.0            # relevancia relativa (por defecto 1)
   limit: 20              # máximo de artículos por ejecución

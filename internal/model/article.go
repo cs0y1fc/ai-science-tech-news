@@ -6,11 +6,25 @@ import "time"
 type Section string
 
 const (
-	SectionAI        Section = "ia"
-	SectionScience   Section = "ciencia"
+	SectionAI        Section = "ai"
+	SectionScience   Section = "science"
 	SectionTech      Section = "tech"
-	SectionTutorials Section = "tutoriales"
+	SectionTutorials Section = "tutorials"
 )
+
+// Normalize traduce los nombres de sección que tenían los datos antiguos
+// (en español) a los actuales.
+func (s Section) Normalize() Section {
+	switch s {
+	case "ia":
+		return SectionAI
+	case "ciencia":
+		return SectionScience
+	case "tutoriales":
+		return SectionTutorials
+	}
+	return s
+}
 
 // AllSections es el orden en que aparecen las secciones en la portada.
 var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionTutorials}
@@ -19,15 +33,26 @@ var AllSections = []Section{SectionAI, SectionScience, SectionTech, SectionTutor
 func (s Section) Label() string {
 	switch s {
 	case SectionAI:
-		return "Inteligencia artificial"
+		return "Artificial Intelligence"
 	case SectionScience:
-		return "Ciencia"
+		return "Science"
 	case SectionTech:
-		return "Tecnología"
+		return "Technology"
 	case SectionTutorials:
-		return "Tutoriales"
+		return "Tutorials"
 	}
 	return string(s)
+}
+
+// Short es el nombre corto, para menús e insignias.
+func (s Section) Short() string {
+	switch s {
+	case SectionAI:
+		return "AI"
+	case SectionTutorials:
+		return "Tutorials"
+	}
+	return s.Label()
 }
 
 // Article es una noticia recogida de una fuente.

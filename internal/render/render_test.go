@@ -17,44 +17,38 @@ var now = time.Date(2026, 11, 2, 12, 0, 0, 0, time.UTC)
 
 func TestAgo(t *testing.T) {
 	cases := map[time.Duration]string{
-		10 * time.Second: "ahora mismo",
-		5 * time.Minute:  "hace 5 min",
-		3 * time.Hour:    "hace 3 h",
-		50 * time.Hour:   "hace 2 d",
+		10 * time.Second: "just now",
+		5 * time.Minute:  "5m ago",
+		3 * time.Hour:    "3h ago",
+		50 * time.Hour:   "2d ago",
 	}
 	for d, want := range cases {
 		if got := Ago(now.Add(-d), now); got != want {
-			t.Errorf("Ago(-%v) = %q, quería %q", d, got, want)
+			t.Errorf("Ago(-%v) = %q, want %q", d, got, want)
 		}
 	}
 }
 
 func fixture() (rank.Selection, []model.Article) {
 	feat := model.Article{
-		ID: "feat", Title: "Destacada <b>peligrosa</b>", URL: "https://example.com/f", Source: "Fuente",
+		ID: "feat", Title: "Featured <b>dangerous</b>", URL: "https://example.com/f", Source: "Source",
 		Section: model.SectionAI, Published: now.Add(-time.Hour), ImageURL: "http://example.com/f.jpg",
-		Summary: "Resumen de la IA", Excerpt: "extracto del feed", Tags: []string{"llm", "agents"},
+		Summary: "AI summary", Excerpt: "feed excerpt", Tags: []string{"llm", "agents"},
 	}
 	sci := model.Article{
-		ID: "sci", Title: "Un hallazgo", URL: "https://example.com/c", Source: "Nature",
+		ID: "sci", Title: "A discovery", URL: "https://example.com/c", Source: "Nature",
 		Section: model.SectionScience, Published: now.Add(-3 * time.Hour),
-		Excerpt: "Extracto de ciencia", Tags: []string{"space", "physics"},
+		Excerpt: "Science excerpt", Tags: []string{"space", "physics"},
 	}
 	bare := model.Article{
-		ID: "bare", Title: "Solo titular", URL: "https://news.ycombinator.com/x", Source: "Hacker News",
+		ID: "bare", Title: "Headline only", URL: "https://news.ycombinator.com/x", Source: "Hacker News",
 		Section: model.SectionTech, Published: now.Add(-2 * time.Hour), Tags: []string{"web"},
 	}
 	hidden := model.Article{
-		ID: "hidden", Title: "Oculto por la IA", URL: "https://example.com/h", Source: "S",
-		Section: model.SectionTech, Published: now, Summary: "no debe verse", Skip: true, Tags: []string{"secreta"},
+		ID: "hidden", Title: "Hidden by AI", URL: "https://example.com/h", Source: "S",
+		Section: model.SectionTech, Published: now, Summary: "must not show", Skip: true, Tags: []string{"secret"},
 	}
-	sel := rank.Selection{
-		Featured: &feat,
-		Rows: []rank.Row{
-			{Section: model.SectionScience, Articles: []model.Article{sci}},
-			{Section: model.SectionTech, Articles: []model.Article{bare}},
-		},
-	}
+	sel := rank.Selection{Featured: &feat}
 	return sel, []model.Article{feat, sci, bare, hidden}
 }
 
@@ -72,7 +66,7 @@ func read(t *testing.T, out, path string) string {
 	t.Helper()
 	b, err := os.ReadFile(filepath.Join(out, path))
 	if err != nil {
-		t.Fatalf("falta %s: %v", path, err)
+		t.Fatalf("missing %s: %v", path, err)
 	}
 	return string(b)
 }
@@ -86,85 +80,141 @@ func mustContain(t *testing.T, what, page string, wants ...string) {
 	t.Helper()
 	for _, w := range wants {
 		if !strings.Contains(page, w) {
-			t.Errorf("%s: falta %q", what, w)
+			t.Errorf("%s: missing %q", what, w)
 		}
 	}
 }
 
 func TestHomepage(t *testing.T) {
 	page := read(t, build(t), "index.html")
-	mustContain(t, "portada", page,
-		"Un hallazgo", "Nature", "hace 3 h", `id="ciencia"`, "Actualizado ahora mismo",
-		`href="static/style.css"`, `<span class="tag">space</span>`, "Resumen de la IA",
-		`href="n/sci/"`,                   // con extracto: página propia
-		`href="s/ciencia/"`,               // título de la fila enlaza a la sección
-		`href="t/llm/"`,                   // tema en la portada
+	mustContain(t, "home", page,
+		`<html lang="en">`, "A discovery", "Nature", "3h ago", "Updated just now", "Latest news", "Top story",
+		`href="static/style.css"`, `<span class="tag">space</span>`, "AI summary",
+		`href="n/sci/"`,                   // with excerpt: own page
+		`href="s/science/"`,               // section tab
+		`aria-current="page">All</a>`,     // "All" tab is the active one
+		`href="t/llm/"`,                   // topic
 		`src="https://example.com/f.jpg"`, // http -> https
 	)
-	// Sin resumen ni extracto, la tarjeta va directa a la fuente.
-	mustContain(t, "portada", page, `href="https://news.ycombinator.com/x" target="_blank"`)
+	// Without summary or excerpt the card links straight to the source.
+	mustContain(t, "home", page, `href="https://news.ycombinator.com/x" target="_blank"`)
 	if strings.Contains(page, `href="n/bare/"`) {
-		t.Error("un artículo sin contenido no debe tener página propia")
+		t.Error("an article with no content must not get its own page")
 	}
-	if strings.Contains(page, "extracto del feed") {
-		t.Error("con resumen de la IA no debe mostrarse el extracto del feed")
+	if strings.Contains(page, "feed excerpt") {
+		t.Error("with an AI summary the feed excerpt must not be shown")
 	}
-	if strings.Contains(page, "<b>peligrosa</b>") {
-		t.Error("el título no se escapó: posible inyección de HTML")
+	if strings.Contains(page, "<b>dangerous</b>") {
+		t.Error("title not escaped: possible HTML injection")
 	}
-	if strings.Contains(page, "Oculto por la IA") || strings.Contains(page, "secreta") {
-		t.Error("los artículos ocultos no deben aparecer")
+	if strings.Contains(page, "Hidden by AI") || strings.Contains(page, "secret") {
+		t.Error("hidden articles must not appear")
 	}
-	if strings.Contains(page, "http://example.com/f.jpg") {
-		t.Error("las imágenes deben servirse por https")
+	// Newest first: "Headline only" (2h) comes before "A discovery" (3h).
+	if strings.Index(page, "Headline only") > strings.Index(page, "A discovery") {
+		t.Error("the feed must be ordered newest first")
+	}
+	// The featured story is not repeated in the feed.
+	if n := strings.Count(page, `href="n/feat/"`); n != 1 {
+		t.Errorf("featured story linked %d times, want 1", n)
+	}
+	// No Spanish left in the UI.
+	for _, es := range []string{"Actualizado", "Temas", "Acerca", "Siguiente"} {
+		if strings.Contains(page, es) {
+			t.Errorf("Spanish text left in the page: %q", es)
+		}
+	}
+}
+
+func TestHomeIsChronologicalAndPaginated(t *testing.T) {
+	var all []model.Article
+	n := listLimit*2 + 5
+	for i := 0; i < n; i++ {
+		sec := model.AllSections[i%len(model.AllSections)] // mixed sections
+		all = append(all, model.Article{
+			ID: fmt.Sprintf("a%03d", i), Title: fmt.Sprintf("Story %03d", i), URL: fmt.Sprintf("https://x.com/%d", i),
+			Section: sec, Published: now.Add(-time.Duration(i) * time.Minute),
+		})
+	}
+	out := t.TempDir()
+	if err := Site(web.FS, out, now, rank.Selection{}, all); err != nil {
+		t.Fatal(err)
+	}
+	p1 := read(t, out, "index.html")
+	if c := strings.Count(p1, `class="card `); c != listLimit {
+		t.Errorf("page 1: %d cards, want %d", c, listLimit)
+	}
+	mustContain(t, "page 1", p1, "Story 000", `href="page/2/" rel="next"`)
+	if strings.Contains(p1, "Story 024") {
+		t.Error("page 2 content on page 1")
+	}
+	// Order is by recency regardless of section.
+	if strings.Index(p1, "Story 000") > strings.Index(p1, "Story 001") {
+		t.Error("not newest first")
+	}
+
+	p2 := read(t, out, "page/2/index.html")
+	mustContain(t, "page 2", p2, "Story 024", `href="../../" rel="prev"`, `href="../3/" rel="next"`,
+		`href="../../static/style.css"`, "(page 2)")
+	if strings.Contains(p2, "Top story") {
+		t.Error("the top story only appears on page 1")
+	}
+	p3 := read(t, out, "page/3/index.html")
+	if c := strings.Count(p3, `class="card `); c != 5 {
+		t.Errorf("last page: %d cards, want 5", c)
+	}
+	if exists(out, "page/4/index.html") {
+		t.Error("empty extra page")
 	}
 }
 
 func TestArticlePage(t *testing.T) {
 	out := build(t)
 	page := read(t, out, "n/feat/index.html")
-	mustContain(t, "artículo", page,
-		`href="../../static/style.css"`, `href="../../"`, "Resumen de la IA",
-		"Resumen generado automáticamente", `href="https://example.com/f"`, "Leer el artículo original en Fuente",
-		`href="../../t/llm/"`, `href="../../s/ia/"`,
-		"<title>Destacada &lt;b&gt;peligrosa&lt;/b&gt; · Noticias Tech</title>",
+	mustContain(t, "article", page,
+		`href="../../static/style.css"`, `href="../../"`, "AI summary",
+		"Automatically generated summary", `href="https://example.com/f"`, "Read the original article at Source",
+		`href="../../t/llm/"`, `href="../../s/ai/"`,
+		"<title>Featured &lt;b&gt;dangerous&lt;/b&gt; · Tech News</title>",
 	)
-	if strings.Contains(page, "<b>peligrosa</b>") {
-		t.Error("título sin escapar")
+	if strings.Contains(page, "<b>dangerous</b>") {
+		t.Error("unescaped title")
 	}
 
-	// Sin resumen de IA se muestra el extracto, indicándolo.
 	sci := read(t, out, "n/sci/index.html")
-	mustContain(t, "artículo sin IA", sci, "Extracto de ciencia", "Extracto proporcionado por la fuente")
+	mustContain(t, "article without AI", sci, "Science excerpt", "Excerpt provided by the source")
 
 	if exists(out, "n/bare/index.html") || exists(out, "n/hidden/index.html") {
-		t.Error("no debe haber página para artículos sin contenido ni ocultos")
+		t.Error("no page for content-less or hidden articles")
 	}
 }
 
 func TestSectionAndTagPages(t *testing.T) {
 	out := build(t)
 
-	sec := read(t, out, "s/ia/index.html")
-	mustContain(t, "sección", sec, "Inteligencia artificial", "Destacada", `href="../../n/feat/"`, `href="../../static/style.css"`)
+	sec := read(t, out, "s/ai/index.html")
+	mustContain(t, "section", sec, "Artificial Intelligence", "Featured", `href="../../n/feat/"`,
+		`href="../../static/style.css"`, "Models, research", `href="../../t/llm/"`, `aria-current="page">AI</a>`)
+	if strings.Contains(sec, `class="pager"`) {
+		t.Error("a single page has no pager")
+	}
 
 	tag := read(t, out, "t/space/index.html")
-	mustContain(t, "etiqueta", tag, "#space", "Un hallazgo")
-	if strings.Contains(tag, "Destacada") {
-		t.Error("la página de una etiqueta solo debe listar sus artículos")
+	mustContain(t, "tag", tag, "#space", "A discovery")
+	if strings.Contains(tag, "Featured") {
+		t.Error("a tag page lists only its own articles")
 	}
-
-	if exists(out, "t/secreta/index.html") {
-		t.Error("las etiquetas de artículos ocultos no deben generar página")
+	if exists(out, "t/secret/index.html") {
+		t.Error("tags of hidden articles must not get a page")
 	}
-	if exists(out, "s/tutoriales/index.html") {
-		t.Error("una sección sin artículos no debe generar página")
+	if exists(out, "s/tutorials/index.html") {
+		t.Error("an empty section must not get a page")
 	}
 }
 
 func TestStaticAssetsCopied(t *testing.T) {
 	if !exists(build(t), "static/style.css") {
-		t.Error("no se copió el CSS")
+		t.Error("CSS not copied")
 	}
 }
 
@@ -173,10 +223,10 @@ func TestEmptySiteShowsMessage(t *testing.T) {
 	if err := Site(web.FS, out, now, rank.Selection{}, nil); err != nil {
 		t.Fatal(err)
 	}
-	mustContain(t, "portada vacía", read(t, out, "index.html"), "Todavía no hay noticias")
+	mustContain(t, "empty home", read(t, out, "index.html"), "No news yet")
 }
 
-func TestListPagination(t *testing.T) {
+func TestSectionListPagination(t *testing.T) {
 	var all []model.Article
 	for i := 0; i < listLimit*2+5; i++ {
 		all = append(all, model.Article{
@@ -188,36 +238,23 @@ func TestListPagination(t *testing.T) {
 	if err := Site(web.FS, out, now, rank.Selection{}, all); err != nil {
 		t.Fatal(err)
 	}
-	p1 := read(t, out, "s/ia/index.html")
-	if n := strings.Count(p1, `class="card"`); n != listLimit {
-		t.Errorf("página 1: %d tarjetas, quería %d", n, listLimit)
+	p1 := read(t, out, "s/ai/index.html")
+	if n := strings.Count(p1, `class="card `); n != listLimit {
+		t.Errorf("page 1: %d cards, want %d", n, listLimit)
 	}
-	mustContain(t, "página 1", p1, `href="page/2/" rel="next"`, `aria-current="page"`)
+	mustContain(t, "page 1", p1, `href="page/2/" rel="next"`, `aria-current="page"`)
 	if strings.Contains(p1, `rel="prev"`) {
-		t.Error("la primera página no tiene anterior")
+		t.Error("the first page has no previous")
 	}
-
-	p2 := read(t, out, "s/ia/page/2/index.html")
-	mustContain(t, "página 2", p2, `href="../../" rel="prev"`, `href="../3/" rel="next"`,
-		`href="../../../../static/style.css"`, "(página 2)")
-
-	p3 := read(t, out, "s/ia/page/3/index.html")
-	if n := strings.Count(p3, `class="card"`); n != 5 {
-		t.Errorf("última página: %d tarjetas, quería 5", n)
+	p2 := read(t, out, "s/ai/page/2/index.html")
+	mustContain(t, "page 2", p2, `href="../../" rel="prev"`, `href="../3/" rel="next"`,
+		`href="../../../../static/style.css"`, "(page 2)")
+	p3 := read(t, out, "s/ai/page/3/index.html")
+	if n := strings.Count(p3, `class="card `); n != 5 {
+		t.Errorf("last page: %d cards, want 5", n)
 	}
 	if strings.Contains(p3, `rel="next"`) {
-		t.Error("la última página no tiene siguiente")
-	}
-	if exists(out, "s/ia/page/4/index.html") {
-		t.Error("sobra una página vacía")
-	}
-}
-
-func TestSectionPageHasBlurbAndTopics(t *testing.T) {
-	sec := read(t, build(t), "s/ia/index.html")
-	mustContain(t, "sección", sec, "Modelos, investigación", `href="../../t/llm/"`)
-	if strings.Contains(sec, `class="pager"`) {
-		t.Error("con una sola página no hay paginador")
+		t.Error("the last page has no next")
 	}
 }
 
@@ -252,12 +289,12 @@ func TestFeedAndSitemap(t *testing.T) {
 
 	feed := read(t, out, "feed.xml")
 	mustContain(t, "feed", feed,
-		`<rss version="2.0"`, "https://u.github.io/repo/n/feat/", "Resumen de la IA",
-		"Destacada &lt;b&gt;peligrosa&lt;/b&gt;", // título escapado
-		"https://news.ycombinator.com/x",         // sin página propia: enlaza a la fuente
+		`<rss version="2.0"`, "https://u.github.io/repo/n/feat/", "AI summary",
+		"Featured &lt;b&gt;dangerous&lt;/b&gt;", // escaped title
+		"https://news.ycombinator.com/x",        // sin página propia: enlaza a la fuente
 		"<category>llm</category>",
 	)
-	if strings.Contains(feed, "Oculto por la IA") {
+	if strings.Contains(feed, "Hidden by AI") {
 		t.Error("el feed no debe incluir artículos ocultos")
 	}
 
@@ -265,9 +302,9 @@ func TestFeedAndSitemap(t *testing.T) {
 	mustContain(t, "sitemap", sm,
 		"<loc>https://u.github.io/repo/</loc>", "<loc>https://u.github.io/repo/about/</loc>",
 		"<loc>https://u.github.io/repo/n/feat/</loc>", "<loc>https://u.github.io/repo/t/llm/</loc>",
-		"<loc>https://u.github.io/repo/s/ia/</loc>",
+		"<loc>https://u.github.io/repo/s/ai/</loc>",
 	)
-	for _, no := range []string{"/n/bare/", "/n/hidden/", "/t/secreta/", "/s/tutoriales/"} {
+	for _, no := range []string{"/n/bare/", "/n/hidden/", "/t/secret/", "/s/tutorials/"} {
 		if strings.Contains(sm, no) {
 			t.Errorf("el sitemap no debe incluir %s", no)
 		}
@@ -281,7 +318,7 @@ func TestFeedAndSitemap(t *testing.T) {
 func TestAboutPageAndNoFeedWithoutSiteURL(t *testing.T) {
 	out := buildWith(t, Options{Sources: []string{"Nature", "Ars"}, RepoURL: "https://github.com/u/r"})
 	about := read(t, out, "about/index.html")
-	mustContain(t, "acerca de", about, "Acerca de", "Nature · Ars", `href="https://github.com/u/r"`, `href="../static/style.css"`)
+	mustContain(t, "acerca de", about, "About", "Nature · Ars", `href="https://github.com/u/r"`, `href="../static/style.css"`)
 	if strings.Contains(about, "feed.xml") {
 		t.Error("sin SiteURL no debe enlazarse un feed inexistente")
 	}

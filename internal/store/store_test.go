@@ -113,3 +113,21 @@ func TestMergeEmptyFreshKeepsOld(t *testing.T) {
 		t.Errorf("out = %+v", out)
 	}
 }
+
+func TestLoadMigratesLegacySectionNames(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "a.json")
+	legacy := `[{"id":"1","section":"ia"},{"id":"2","section":"ciencia"},{"id":"3","section":"tutoriales"},{"id":"4","section":"tech"}]`
+	if err := os.WriteFile(path, []byte(legacy), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	got, err := Load(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := []model.Section{model.SectionAI, model.SectionScience, model.SectionTutorials, model.SectionTech}
+	for i, a := range got {
+		if a.Section != want[i] {
+			t.Errorf("artículo %s: sección %q, quería %q", a.ID, a.Section, want[i])
+		}
+	}
+}

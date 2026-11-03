@@ -8,42 +8,42 @@ sources:
   # --- Inteligencia artificial ---
   - name: MIT Technology Review (AI)
     url: https://www.technologyreview.com/topic/artificial-intelligence/feed
-    section: ia
+    section: ai
     weight: 1.2
   - name: Hugging Face Blog
     url: https://huggingface.co/blog/feed.xml
-    section: ia
+    section: ai
   - name: Google AI Blog
     url: https://blog.google/technology/ai/rss/
-    section: ia
+    section: ai
   - name: arXiv cs.AI
     url: https://rss.arxiv.org/rss/cs.AI
-    section: ia
+    section: ai
     weight: 0.6
     limit: 15
   - name: Hacker News
     url: https://hacker-news.firebaseio.com/v0
     type: hn
-    section: ia
+    section: ai
     limit: 40
 
   # --- Ciencia ---
   - name: Nature News
     url: https://www.nature.com/nature.rss
-    section: ciencia
+    section: science
     weight: 1.2
   - name: ScienceDaily
     url: https://www.sciencedaily.com/rss/top/science.xml
-    section: ciencia
+    section: science
   - name: NASA
     url: https://www.nasa.gov/feed/
-    section: ciencia
+    section: science
   - name: Quanta Magazine
     url: https://www.quantamagazine.org/feed/
-    section: ciencia
+    section: science
   - name: Phys.org
     url: https://phys.org/rss-feed/
-    section: ciencia
+    section: science
     weight: 0.6
 
   # --- Tecnología ---
@@ -64,23 +64,23 @@ sources:
   # --- Tutoriales de programación e IA ---
   - name: dev.to (Go)
     url: https://dev.to/feed/tag/go
-    section: tutoriales
+    section: tutorials
     weight: 0.8
   - name: dev.to (LLM)
     url: https://dev.to/feed/tag/llm
-    section: tutoriales
+    section: tutorials
     weight: 0.8
   - name: Go Blog
     url: https://go.dev/blog/feed.atom
-    section: tutoriales
+    section: tutorials
     weight: 1.3
   - name: freeCodeCamp
     url: https://www.freecodecamp.org/news/rss/
-    section: tutoriales
+    section: tutorials
   - name: Real Python
     url: https://realpython.com/atom.xml
-    section: tutoriales
+    section: tutorials
   - name: Simon Willison
     url: https://simonwillison.net/atom/everything/
-    section: tutoriales
+    section: tutorials
     weight: 1.2

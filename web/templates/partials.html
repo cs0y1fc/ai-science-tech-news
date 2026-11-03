@@ -12,30 +12,30 @@
 {{define "header"}}
   <header class="top">
     <div class="wrap top-in">
-      <a class="brand" href="{{.Base}}">{{.SiteName}}</a>
-      <nav class="nav">
+      <a class="brand" href="{{.Base}}"><span class="logo" aria-hidden="true"></span>{{.SiteName}}</a>
+      <nav class="nav" aria-label="Sections">
         {{range .Nav}}<a href="{{.Href}}">{{.Label}}</a>{{end}}
       </nav>
-      <button class="theme-toggle" type="button" aria-label="Cambiar entre tema claro y oscuro" onclick="var d=document.documentElement,n=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}">Tema</button>
-      <span class="updated" title="{{.Updated.Format "02/01/2006 15:04 UTC"}}">Actualizado {{ago .Updated}}</span>
+      <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme" onclick="var d=document.documentElement,n=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}">Theme</button>
+      <span class="updated" title="{{.Updated.Format "2 Jan 2006 15:04 UTC"}}">Updated {{ago .Updated}}</span>
     </div>
   </header>
 {{end}}
 
 {{define "footer"}}
   <footer class="wrap foot">
-    Los resúmenes se generan automáticamente a partir de las fuentes originales y pueden contener errores. Se actualiza cada 6 horas.
-    <a href="{{.Base}}about/">Acerca de</a>{{if .HasFeed}} · <a href="{{.Base}}feed.xml">RSS</a>{{end}}
+    Summaries are generated automatically from the original sources and may contain errors. Updated every 6 hours.
+    <a href="{{.Base}}about/">About</a>{{if .HasFeed}} · <a href="{{.Base}}feed.xml">RSS</a>{{end}}
   </footer>
 {{end}}
 
 {{define "card"}}
-  <a class="card" href="{{.Href}}"{{if .External}} target="_blank" rel="noopener noreferrer"{{end}}>
-    <div class="thumb sec-{{.Article.Section}}">
+  <a class="card sec-{{.Article.Section}}" href="{{.Href}}"{{if .External}} target="_blank" rel="noopener noreferrer"{{end}}>
+    <div class="thumb">
       {{if .Article.ImageURL}}<img src="{{img .Article.ImageURL}}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
     </div>
     <div class="card-body">
-      <span class="badge sec-{{.Article.Section}}">{{.Article.Section.Label}}</span>
+      <span class="badge">{{.Article.Section.Short}}</span>
       <h3>{{.Article.Title}}</h3>
       {{with .Article.Tags}}<span class="tags">{{range .}}<span class="tag">{{.}}</span>{{end}}</span>{{end}}
       <span class="meta">{{.Article.Source}} · {{ago .Article.Published}}</span>
@@ -47,4 +47,20 @@
   <div class="chips">
     {{range .}}<a class="chip" href="{{.Href}}">#{{.Tag}}{{if .Count}} <small>{{.Count}}</small>{{end}}</a>{{end}}
   </div>
+{{end}}
+
+{{define "tabs"}}
+  <nav class="tabs" aria-label="Filter by section">
+    {{range .}}<a class="tab{{if .Current}} cur{{end}}" href="{{.Href}}"{{if .Current}} aria-current="page"{{end}}>{{.Label}}</a>{{end}}
+  </nav>
+{{end}}
+
+{{define "pager"}}
+  {{with .}}
+  <nav class="pager" aria-label="Pagination">
+    {{if .Prev}}<a class="pg" href="{{.Prev}}" rel="prev">← Previous</a>{{end}}
+    {{range .Links}}<a class="pg{{if .Current}} cur{{end}}" href="{{.Href}}"{{if .Current}} aria-current="page"{{end}}>{{.N}}</a>{{end}}
+    {{if .Next}}<a class="pg" href="{{.Next}}" rel="next">Next →</a>{{end}}
+  </nav>
+  {{end}}
 {{end}}

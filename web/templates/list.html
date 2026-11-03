@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>{{template "head" .}}</head>
 <body>
   {{template "header" .}}
@@ -7,17 +7,12 @@
   <main class="wrap">
     <h1 class="page-title">{{.Heading}}</h1>
     {{with .Blurb}}<p class="blurb">{{.}}</p>{{end}}
+    {{with .Tabs}}{{template "tabs" .}}{{end}}
     {{with .Topics}}{{template "chips" .}}{{end}}
     <div class="grid">
       {{range .Cards}}{{template "card" .}}{{end}}
     </div>
-    {{with .Pager}}
-    <nav class="pager" aria-label="Paginación">
-      {{if .Prev}}<a class="pg" href="{{.Prev}}" rel="prev">← Anterior</a>{{end}}
-      {{range .Links}}<a class="pg{{if .Current}} cur{{end}}" href="{{.Href}}"{{if .Current}} aria-current="page"{{end}}>{{.N}}</a>{{end}}
-      {{if .Next}}<a class="pg" href="{{.Next}}" rel="next">Siguiente →</a>{{end}}
-    </nav>
-    {{end}}
+    {{template "pager" .Pager}}
   </main>
 
   {{template "footer" .}}

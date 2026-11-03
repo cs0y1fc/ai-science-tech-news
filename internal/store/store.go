@@ -26,6 +26,10 @@ func Load(path string) ([]model.Article, error) {
 	if err := json.Unmarshal(data, &arts); err != nil {
 		return nil, fmt.Errorf("%s: JSON inválido: %w", path, err)
 	}
+	// Los datos antiguos usaban nombres de sección en español.
+	for i := range arts {
+		arts[i].Section = arts[i].Section.Normalize()
+	}
 	return arts, nil
 }
 

@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	siteName = "Noticias Tech"
+	siteName = "Tech News"
 	// listLimit son las tarjetas por página en una sección o etiqueta.
 	listLimit = 24
 	// topicCount son las etiquetas que se muestran en la portada.
@@ -34,16 +34,15 @@ type Card struct {
 	External bool
 }
 
-// RowView es una fila de la portada.
-type RowView struct {
-	Section model.Section
-	Href    string
-	Cards   []Card
-}
-
 // NavItem es un enlace del menú.
 type NavItem struct {
 	Label, Href string
+}
+
+// Tab es una pestaña de filtro por sección sobre la lista de noticias.
+type Tab struct {
+	Label, Href string
+	Current     bool
 }
 
 // Chip es una etiqueta con su recuento.
@@ -68,10 +67,10 @@ type Pager struct {
 
 // blurbs describe cada sección bajo su título.
 var blurbs = map[model.Section]string{
-	model.SectionAI:        "Modelos, investigación, productos y debates sobre inteligencia artificial.",
-	model.SectionScience:   "Descubrimientos y avances en física, espacio, biología y más.",
-	model.SectionTech:      "Hardware, software, seguridad y la industria tecnológica.",
-	model.SectionTutorials: "Guías prácticas de programación y de integración de IA en aplicaciones.",
+	model.SectionAI:        "Models, research, products and debates in artificial intelligence.",
+	model.SectionScience:   "Discoveries and advances in physics, space, biology and more.",
+	model.SectionTech:      "Hardware, software, security and the technology industry.",
+	model.SectionTutorials: "Hands-on guides to programming and to building apps with AI.",
 }
 
 // Page reúne los datos de cualquier página; cada plantilla usa los que necesita.
@@ -86,10 +85,10 @@ type Page struct {
 	Updated time.Time
 	Nav     []NavItem
 
-	// Portada.
+	// Portada y listas.
 	Featured *Card
-	Rows     []RowView
 	Topics   []Chip
+	Tabs     []Tab
 
 	// Listas (sección o etiqueta).
 	Heading string
@@ -130,6 +129,7 @@ type renderer struct {
 	now     time.Time
 	updated time.Time
 	opts    Options
+	all     []model.Article // artículos visibles, para los temas de la portada
 }
 
 // Site genera el sitio estático en outDir a partir de las plantillas y
@@ -153,6 +153,7 @@ func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.S
 	r := &renderer{tpl: tpl, outDir: outDir, now: now, updated: now, opts: opts}
 
 	visible := visibleArticles(all)
+	r.all = visible
 
 	if err := r.home(sel, visible); err != nil {
 		return err
@@ -167,12 +168,15 @@ func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.S
 		if len(in) == 0 {
 			continue
 		}
-		if err := r.list(filepath.Join("s", string(sec)), sec.Label(), blurbs[sec], true, in); err != nil {
+		if err := r.list(listSpec{
+			Dir: filepath.Join("s", string(sec)), Heading: sec.Label(), Blurb: blurbs[sec], Tpl: "list.html",
+			Tabs: func(base string) []Tab { return r.tabs(base, sec) }, Topics: true, Arts: in,
+		}); err != nil {
 			return err
 		}
 	}
 	for tag, in := range byTag(visible) {
-		if err := r.list(filepath.Join("t", tag), "#"+tag, "", false, in); err != nil {
+		if err := r.list(listSpec{Dir: filepath.Join("t", tag), Heading: "#" + tag, Tpl: "list.html", Arts: in}); err != nil {
 			return err
 		}
 	}
@@ -230,54 +234,107 @@ func (r *renderer) page(base, title, desc string) Page {
 		RepoURL:     r.opts.RepoURL,
 	}
 	for _, sec := range model.AllSections {
-		p.Nav = append(p.Nav, NavItem{Label: sec.Label(), Href: base + "s/" + string(sec) + "/"})
+		p.Nav = append(p.Nav, NavItem{Label: sec.Short(), Href: base + "s/" + string(sec) + "/"})
 	}
 	return p
 }
 
-func (r *renderer) home(sel rank.Selection, visible []model.Article) error {
-	p := r.page("", "IA, ciencia y tecnología", "Las noticias más destacadas de inteligencia artificial, ciencia y tecnología, y tutoriales para programadores. Se actualiza cada 6 horas.")
-	p.Title = siteName + " · IA, ciencia y tecnología"
-	if sel.Featured != nil {
-		c := card("", *sel.Featured)
-		p.Featured = &c
-	}
-	for _, row := range sel.Rows {
-		rv := RowView{Section: row.Section, Href: "s/" + string(row.Section) + "/"}
-		for _, a := range row.Articles {
-			rv.Cards = append(rv.Cards, card("", a))
-		}
-		p.Rows = append(p.Rows, rv)
-	}
-	p.Topics = topChips("", visible, topicCount)
-	return r.write("index.html", "", p)
+// listSpec describe una lista paginada de noticias, ya sea la portada, una
+// sección o una etiqueta.
+type listSpec struct {
+	Dir, Heading, Blurb, Title, Desc string
+	Tpl                              string
+	Tabs                             func(base string) []Tab
+	Topics                           bool
+	Featured                         *Card
+	Arts                             []model.Article
 }
 
-// list escribe una lista paginada: dir es la primera página y las demás
-// cuelgan de dir/page/N/. Con topics se muestran las etiquetas más usadas.
-func (r *renderer) list(dir, heading, blurb string, topics bool, arts []model.Article) error {
-	total := max((len(arts)+listLimit-1)/listLimit, 1)
+func (r *renderer) home(sel rank.Selection, visible []model.Article) error {
+	spec := listSpec{
+		Tpl:     "index.html",
+		Heading: "Latest news",
+		Title:   siteName + " · AI, science & technology news",
+		Desc:    "The latest news on artificial intelligence, science and technology, plus programming tutorials. Updated every 6 hours.",
+		Tabs:    func(base string) []Tab { return r.tabs(base, "") },
+		Topics:  true,
+		Arts:    visible,
+	}
+	if sel.Featured != nil {
+		c := card("", *sel.Featured)
+		spec.Featured = &c
+		// El destacado ya sale arriba: no se repite en la lista.
+		spec.Arts = nil
+		for _, a := range visible {
+			if a.ID != sel.Featured.ID {
+				spec.Arts = append(spec.Arts, a)
+			}
+		}
+	}
+	return r.list(spec)
+}
+
+// tabs devuelve las pestañas de sección; current marca la activa ("" = todas).
+func (r *renderer) tabs(base string, current model.Section) []Tab {
+	tabs := []Tab{{Label: "All", Href: base, Current: current == ""}}
+	for _, sec := range model.AllSections {
+		tabs = append(tabs, Tab{Label: sec.Short(), Href: base + "s/" + string(sec) + "/", Current: sec == current})
+	}
+	return tabs
+}
+
+// depth es el número de niveles de directorio de dir.
+func depth(dir string) int {
+	dir = filepath.ToSlash(dir)
+	if dir == "" || dir == "." {
+		return 0
+	}
+	return strings.Count(dir, "/") + 1
+}
+
+// list escribe una lista paginada: la primera página va en Dir y las demás en
+// Dir/page/N/. La portada usa Dir vacío.
+func (r *renderer) list(sp listSpec) error {
+	total := max((len(sp.Arts)+listLimit-1)/listLimit, 1)
 	for n := 1; n <= total; n++ {
-		pdir := dir
+		pdir := sp.Dir
 		if n > 1 {
-			pdir = filepath.Join(dir, "page", strconv.Itoa(n))
+			pdir = filepath.Join(sp.Dir, "page", strconv.Itoa(n))
 		}
-		base := strings.Repeat("../", strings.Count(filepath.ToSlash(pdir), "/")+1)
-		p := r.page(base, heading, fmt.Sprintf("%s: últimas noticias de %s.", heading, siteName))
-		p.Heading, p.Blurb = heading, blurb
+		base := strings.Repeat("../", depth(pdir))
+		title, desc := sp.Title, sp.Desc
+		if title == "" {
+			title = sp.Heading
+			desc = fmt.Sprintf("%s: latest news from %s.", sp.Heading, siteName)
+		}
+		p := r.page(base, title, desc)
+		if sp.Title != "" { // la portada ya trae el título completo
+			p.Title = sp.Title
+		}
 		if n > 1 {
-			p.Title = fmt.Sprintf("%s (página %d) · %s", heading, n, siteName)
+			p.Title = fmt.Sprintf("%s (page %d) · %s", sp.Heading, n, siteName)
 		}
-		for _, a := range arts[(n-1)*listLimit : min(n*listLimit, len(arts))] {
+		p.Heading, p.Blurb = sp.Heading, sp.Blurb
+		if sp.Tabs != nil {
+			p.Tabs = sp.Tabs(base)
+		}
+		if n == 1 {
+			p.Featured = sp.Featured
+		}
+		for _, a := range sp.Arts[(n-1)*listLimit : min(n*listLimit, len(sp.Arts))] {
 			p.Cards = append(p.Cards, card(base, a))
 		}
-		if topics {
-			p.Topics = topChips(base, arts, 10)
+		if sp.Topics {
+			src := sp.Arts // en una sección, los temas de esa sección
+			if sp.Dir == "" {
+				src = r.all
+			}
+			p.Topics = topChips(base, src, topicCount)
 		}
 		if total > 1 {
 			p.Pager = pager(n, total)
 		}
-		if err := r.write("list.html", pdir, p); err != nil {
+		if err := r.write(sp.Tpl, pdir, p); err != nil {
 			return err
 		}
 	}
@@ -420,17 +477,17 @@ func truncate(s string, n int) string {
 	return strings.TrimSpace(string(r[:n])) + "…"
 }
 
-// Ago escribe una antigüedad relativa corta en español ("hace 3 h").
+// Ago escribe una antigüedad relativa corta ("3h ago").
 func Ago(t, now time.Time) string {
 	d := now.Sub(t)
 	switch {
 	case d < time.Minute:
-		return "ahora mismo"
+		return "just now"
 	case d < time.Hour:
-		return fmt.Sprintf("hace %d min", int(d.Minutes()))
+		return fmt.Sprintf("%dm ago", int(d.Minutes()))
 	case d < 24*time.Hour:
-		return fmt.Sprintf("hace %d h", int(d.Hours()))
+		return fmt.Sprintf("%dh ago", int(d.Hours()))
 	default:
-		return fmt.Sprintf("hace %d d", int(d.Hours()/24))
+		return fmt.Sprintf("%dd ago", int(d.Hours()/24))
 	}
 }

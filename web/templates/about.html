@@ -1,39 +1,39 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>{{template "head" .}}</head>
 <body>
   {{template "header" .}}
 
   <main class="wrap prose">
-    <h1 class="page-title">Acerca de {{.SiteName}}</h1>
+    <h1 class="page-title">About {{.SiteName}}</h1>
 
-    <p>{{.SiteName}} reúne cada 6 horas las noticias más destacadas de inteligencia artificial, ciencia y tecnología, y tutoriales de programación y de integración de IA en aplicaciones. Las noticias están en inglés; la interfaz, en español.</p>
+    <p>{{.SiteName}} gathers the most notable news on artificial intelligence, science and technology every 6 hours, together with tutorials on programming and on building apps with AI.</p>
 
-    <h2>Cómo se genera</h2>
+    <h2>How it is built</h2>
     <ol>
-      <li>Un programa en Go recoge los feeds RSS y las API públicas de las fuentes de abajo.</li>
-      <li>Elimina duplicados y puntúa cada noticia según su frescura, su popularidad (puntos en Hacker News), cuántas fuentes la cubren y el peso de su fuente.</li>
-      <li>Una IA de capa gratuita lee el texto, escribe un resumen corto con sus propias palabras, asigna una sección y etiquetas de un vocabulario cerrado, y oculta lo que no trata de estos temas.</li>
-      <li>Se genera un sitio estático que GitHub Actions publica en GitHub Pages.</li>
+      <li>A Go program collects the RSS feeds and public APIs of the sources listed below.</li>
+      <li>It removes duplicates and scores each story by freshness, popularity (Hacker News points), how many sources cover it and the weight of its source.</li>
+      <li>A free-tier AI reads the text, writes a short summary in its own words, assigns a section and tags from a closed vocabulary, and hides anything off-topic.</li>
+      <li>A static site is generated and published to GitHub Pages by GitHub Actions.</li>
     </ol>
 
-    <h2>Qué debes tener en cuenta</h2>
+    <h2>Things to keep in mind</h2>
     <ul>
-      <li>Los resúmenes son automáticos y pueden contener errores u omisiones. Cuando solo hay un extracto, la página lo indica.</li>
-      <li>No se republican artículos completos: cada noticia enlaza al original, que es donde está el contenido y donde van las visitas.</li>
-      <li>Las imágenes pertenecen a sus fuentes y se cargan desde sus servidores.</li>
+      <li>Summaries are automatic and may contain errors or omissions. When only an excerpt is available, the page says so.</li>
+      <li>Full articles are never republished: every story links to the original, which is where the content and the visits belong.</li>
+      <li>Images belong to their sources and are loaded from their servers.</li>
     </ul>
 
     {{with .Sources}}
-    <h2>Fuentes</h2>
+    <h2>Sources</h2>
     <p>{{range $i, $s := .}}{{if $i}} · {{end}}{{$s}}{{end}}</p>
     {{end}}
 
     {{if or .HasFeed .RepoURL}}
-    <h2>Enlaces</h2>
+    <h2>Links</h2>
     <ul>
-      {{if .HasFeed}}<li><a href="{{.Base}}feed.xml">Feed RSS</a></li>{{end}}
-      {{with .RepoURL}}<li><a href="{{.}}" rel="noopener">Código fuente</a></li>{{end}}
+      {{if .HasFeed}}<li><a href="{{.Base}}feed.xml">RSS feed</a></li>{{end}}
+      {{with .RepoURL}}<li><a href="{{.}}" rel="noopener">Source code</a></li>{{end}}
     </ul>
     {{end}}
   </main>

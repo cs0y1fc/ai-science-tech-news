@@ -28,11 +28,11 @@ Reply with one JSON object and nothing else:
 Return exactly one item per article, using the same id.
 
 section is one of:
-- "ia": artificial intelligence, machine learning, LLMs and AI products.
-- "ciencia": scientific discoveries and research, space, health science, physics, biology, climate.
+- "ai": artificial intelligence, machine learning, LLMs and AI products.
+- "science": scientific discoveries and research, space, health science, physics, biology, climate.
 - "tech": the technology industry, hardware, software, internet, gadgets, cybersecurity.
-- "tutoriales": how-to guides, tutorials and code walkthroughs for programmers, including building apps with AI.
-- "none": anything else (politics, sports, culture, general business, personal essays, jobs posts).
+- "tutorials": how-to guides, tutorials and code walkthroughs for programmers, including building apps with AI.
+- "none": anything else (politics, sports, culture, general business, personal essays, jobs posts) and any article whose text or title is not written in English.
 section_hint is only a hint from the source; correct it when it is wrong.
 
 summary: 2 to 4 sentences and at most 80 words, in English, in your own words. Do not copy sentences from the text. Be neutral and factual, with no marketing tone. If the text field is empty, summary must be an empty string.
@@ -185,7 +185,7 @@ func (e *Enricher) fetchPages(ctx context.Context, batch []model.Article) []Page
 // apply valida la respuesta de la IA para un artículo y la vuelca sobre él.
 // Devuelve false si la respuesta no sirve (p. ej. falta el resumen).
 func apply(a model.Article, r result, p Page) (model.Article, bool) {
-	sec := model.Section(strings.ToLower(strings.TrimSpace(r.Section)))
+	sec := model.Section(strings.ToLower(strings.TrimSpace(r.Section))).Normalize()
 	if sec == "none" {
 		a.Skip = true
 		a.Enriched = true

@@ -12,7 +12,7 @@ func TestParseConfigDefaults(t *testing.T) {
 sources:
   - name: Demo
     url: https://example.com/feed
-    section: ia
+    section: ai
 `))
 	if err != nil {
 		t.Fatal(err)
@@ -24,8 +24,8 @@ sources:
 
 func TestParseConfigErrors(t *testing.T) {
 	bad := map[string]string{
-		"sin url":      "sources:\n  - name: X\n    section: ia\n",
-		"tipo malo":    "sources:\n  - name: X\n    url: u\n    section: ia\n    type: ftp\n",
+		"sin url":      "sources:\n  - name: X\n    section: ai\n",
+		"tipo malo":    "sources:\n  - name: X\n    url: u\n    section: ai\n    type: ftp\n",
 		"sección mala": "sources:\n  - name: X\n    url: u\n    section: deportes\n",
 		"yaml roto":    "sources: [",
 	}

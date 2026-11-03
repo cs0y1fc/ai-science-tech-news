@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>{{template "head" .}}</head>
 <body>
   {{template "header" .}}
@@ -12,26 +12,26 @@
       <div class="cover sec-{{.Section}}">
         {{if .ImageURL}}<img src="{{img .ImageURL}}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
       </div>
-      <span class="badge sec-{{.Section}}">{{.Section.Label}}</span>
+      <span class="badge sec-{{.Section}}">{{.Section.Short}}</span>
       <h1>{{.Title}}</h1>
       <p class="meta">{{.Source}} · {{ago .Published}}</p>
 
       {{if .Summary}}
       <p class="summary">{{.Summary}}</p>
-      <p class="note">Resumen generado automáticamente a partir del artículo original.</p>
+      <p class="note">Automatically generated summary of the original article.</p>
       {{else}}
       <p class="summary">{{.Excerpt}}</p>
-      <p class="note">Extracto proporcionado por la fuente.</p>
+      <p class="note">Excerpt provided by the source.</p>
       {{end}}
 
       {{with $.Tags}}{{template "chips" .}}{{end}}
 
-      <p><a class="button" href="{{.URL}}" target="_blank" rel="noopener noreferrer">Leer el artículo original en {{.Source}} ↗</a></p>
+      <p><a class="button" href="{{.URL}}" target="_blank" rel="noopener noreferrer">Read the original article at {{.Source}} ↗</a></p>
     </article>
 
     {{with $.Related}}
     <section class="row">
-      <h2>Más de {{$.Section.Label}}</h2>
+      <h2>More from {{$.Section.Label}}</h2>
       <div class="grid">
         {{range .}}{{template "card" .}}{{end}}
       </div>

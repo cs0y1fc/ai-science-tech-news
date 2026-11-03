@@ -24,7 +24,7 @@ func (r *renderer) abs(rel string) string {
 }
 
 func (r *renderer) about() error {
-	p := r.page("../", "Acerca de", "Cómo se genera "+siteName+", de dónde salen las noticias y qué límites tienen los resúmenes.")
+	p := r.page("../", "About", "How "+siteName+" is built, where the news comes from and what the limits of automatic summaries are.")
 	p.Sources = r.opts.Sources
 	return r.write("about.html", "about", p)
 }
@@ -78,8 +78,8 @@ func (r *renderer) feed(visible []model.Article) error {
 	ch := rssChannel{
 		Title:         siteName,
 		Link:          r.abs(""),
-		Description:   "Noticias de IA, ciencia y tecnología, actualizadas cada 6 horas.",
-		Language:      "es",
+		Description:   "News on AI, science and technology, updated every 6 hours.",
+		Language:      "en",
 		LastBuildDate: r.now.UTC().Format(time.RFC1123Z),
 		Self:          atomLink{Href: r.opts.SiteURL + "/feed.xml", Rel: "self", Type: "application/rss+xml"},
 	}

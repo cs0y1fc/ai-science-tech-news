@@ -59,7 +59,7 @@ func newEnricher(llm Completer, pages PageSource) *Enricher {
 
 func TestEnrichAppliesAIDecisions(t *testing.T) {
 	llm := &fakeLLM{responses: []any{`{"items":[
-	  {"id":"a","section":"IA","summary":"  Un resumen \n bueno. ","tags":["LLM","inventada","agents","llm"]},
+	  {"id":"a","section":"AI","summary":"  Un resumen \n bueno. ","tags":["LLM","inventada","agents","llm"]},
 	  {"id":"b","section":"none","summary":"","tags":[]}
 	]}`}}
 	pages := fakePages{
@@ -105,7 +105,7 @@ func TestEnrichBatchesAndLimitsPerRun(t *testing.T) {
 
 func TestEnrichStopsOnRateLimit(t *testing.T) {
 	llm := &fakeLLM{responses: []any{
-		`{"items":[{"id":"a","section":"ia","summary":"ok","tags":["llm"]}]}`,
+		`{"items":[{"id":"a","section":"ai","summary":"ok","tags":["llm"]}]}`,
 		ErrRateLimited,
 		`{"items":[]}`,
 	}}
@@ -124,7 +124,7 @@ func TestEnrichSurvivesBadResponses(t *testing.T) {
 	llm := &fakeLLM{responses: []any{
 		"esto no es json",
 		errors.New("HTTP 500"),
-		`{"items":[{"id":"c","section":"ia","summary":"bien","tags":[]}]}`,
+		`{"items":[{"id":"c","section":"ai","summary":"bien","tags":[]}]}`,
 	}}
 	e := newEnricher(llm, fakePages{"https://x.com/c": {Text: "t"}})
 	e.BatchSize = 1
@@ -137,8 +137,8 @@ func TestEnrichSurvivesBadResponses(t *testing.T) {
 func TestEnrichRejectsInvalidItems(t *testing.T) {
 	llm := &fakeLLM{responses: []any{`{"items":[
 	  {"id":"a","section":"deportes","summary":"x","tags":[]},
-	  {"id":"b","section":"ia","summary":"","tags":[]},
-	  {"id":"desconocido","section":"ia","summary":"x","tags":[]}
+	  {"id":"b","section":"ai","summary":"","tags":[]},
+	  {"id":"desconocido","section":"ai","summary":"x","tags":[]}
 	]}`}}
 	pages := fakePages{"https://x.com/a": {Text: "t"}, "https://x.com/b": {Text: "t"}}
 	got, st := newEnricher(llm, pages).Enrich(context.Background(), []model.Article{art("a", model.SectionAI), art("b", model.SectionAI)})
@@ -156,7 +156,7 @@ func TestEnrichNoTextMeansNoSummary(t *testing.T) {
 }
 
 func TestEnrichFallsBackToExcerptWhenPageFails(t *testing.T) {
-	llm := &fakeLLM{responses: []any{`{"items":[{"id":"a","section":"ia","summary":"Resumen","tags":[]}]}`}}
+	llm := &fakeLLM{responses: []any{`{"items":[{"id":"a","section":"ai","summary":"Resumen","tags":[]}]}`}}
 	a := art("a", model.SectionAI)
 	a.Excerpt = "extracto del feed"
 	got, _ := newEnricher(llm, fakePages{}).Enrich(context.Background(), []model.Article{a})

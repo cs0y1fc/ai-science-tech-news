@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>{{template "head" .}}</head>
 <body>
   {{template "header" .}}
@@ -7,9 +7,11 @@
   <main class="wrap">
     {{with .Featured}}
     <a class="hero sec-{{.Article.Section}}" href="{{.Href}}"{{if .External}} target="_blank" rel="noopener noreferrer"{{end}}>
-      {{if .Article.ImageURL}}<img src="{{img .Article.ImageURL}}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
+      <div class="hero-media">
+        {{if .Article.ImageURL}}<img src="{{img .Article.ImageURL}}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">{{end}}
+      </div>
       <div class="hero-text">
-        <span class="badge sec-{{.Article.Section}}">{{.Article.Section.Label}}</span>
+        <span class="eyebrow"><span class="badge">{{.Article.Section.Short}}</span> Top story</span>
         <h1>{{.Article.Title}}</h1>
         {{if .Article.Summary}}<p>{{.Article.Summary}}</p>{{else if .Article.Excerpt}}<p>{{.Article.Excerpt}}</p>{{end}}
         <span class="meta">{{.Article.Source}} · {{ago .Article.Published}}</span>
@@ -17,23 +19,27 @@
     </a>
     {{end}}
 
-    {{if .Topics}}
-    <section class="topics" aria-label="Temas">
-      <h2>Temas</h2>
-      {{template "chips" .Topics}}
+    {{with .Topics}}
+    <section class="topics" aria-label="Topics">
+      <h2>Topics</h2>
+      {{template "chips" .}}
     </section>
     {{end}}
 
-    {{range .Rows}}
-    <section class="row" id="{{.Section}}">
-      <h2><a href="{{.Href}}">{{.Section.Label}} <span aria-hidden="true">→</span></a></h2>
-      <div class="scroller">
+    <section class="feed">
+      <div class="feed-head">
+        <h2 class="feed-title">{{.Heading}}</h2>
+        {{template "tabs" .Tabs}}
+      </div>
+      {{if .Cards}}
+      <div class="grid">
         {{range .Cards}}{{template "card" .}}{{end}}
       </div>
+      {{else}}
+      <p class="empty">No news yet. Check back in a few hours.</p>
+      {{end}}
+      {{template "pager" .Pager}}
     </section>
-    {{else}}
-    <p class="empty">Todavía no hay noticias. Vuelve en unas horas.</p>
-    {{end}}
   </main>
 
   {{template "footer" .}}
