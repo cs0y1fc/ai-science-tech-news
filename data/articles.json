@@ -1,5 +1,1449 @@
 [
   {
+    "id": "32964083be2f",
+    "title": "How I solved the \"crashed worker\" problem in Go (Lease Fencing)",
+    "url": "https://dev.to/om_singhchouhan_7a318ed6/how-i-solved-the-crashed-worker-problem-in-go-lease-fencing-2ka4",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T18:02:50Z",
+    "excerpt": "Handling Stale Workers in Go: Why I Chose Lease Fencing Over Distributed Locks When building background workers that process tasks—sending webhooks, processing images, or syncing data—the hardest problem isn't the happy path. It's this: What happens when a worker crashes in the middle of a task? I've been building Relay , an open-source webhook delivery service written in Go and backed by MongoDB.…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp09j9h5nvw0a0qjsernt.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "open-source",
+      "go"
+    ]
+  },
+  {
+    "id": "5aa23e97d763",
+    "title": "Plugins without the plugin jungle: a whole blog with comments in one sandboxed script",
+    "url": "https://dev.to/artanidos/plugins-without-the-plugin-jungle-a-whole-blog-with-comments-in-one-sandboxed-script-377o",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T18:01:22Z",
+    "excerpt": "I built ForgeCMS because I was tired of WordPress plugins. Every site I ran needed a dozen of them, each with its own updates, its own security holes and, more and more often, its own subscription. When my hosting provider simply removed my WordPress sites, I decided my next CMS would have no plugin jungle at all. But a CMS without any way to extend it is a dead end too. Somebody always needs a gu…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwo3n7ci3xyjj48mcwvc9.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "333f72b6e1ee",
+    "title": "'Double mutualist' birds are key to mistletoe reproduction",
+    "url": "https://phys.org/news/2026-11-mutualist-birds-key-mistletoe-reproduction.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T18:00:11Z",
+    "excerpt": "Some bird species act as \"double mutualists\" for a common mistletoe, both pollinating its flowers and dispersing its seeds. These double mutualists play an effective role in mistletoe reproduction.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/double-mutualist-birds.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "8852a6734183",
+    "title": "Are Counter-Strike players better at decision-making? Study reveals faster brain processing in expert gamers",
+    "url": "https://phys.org/news/2026-11-counter-players-decision-reveals-faster.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T18:00:02Z",
+    "excerpt": "Expert Counter-Strike players could make ideal candidates for fast-paced emergency service response jobs requiring split-second decision-making, according to a new University of Sheffield study aiming to debunk myths about video games.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/counter-strike.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "41298b9a76b6",
+    "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+    "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+    "source": "The Verge",
+    "section": "ia",
+    "published": "2026-11-03T18:00:00Z",
+    "excerpt": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or \"Quick Watches.\" When you pick a theme, Netflix will show […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AIDiscover-Product-02.jpg?quality=90\u0026strip=all\u0026crop=0%2C3.5340314136126%2C100%2C92.931937172775\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Netflix is testing an AI Discover tab on its TV application designed to recommend movies and shows based on real-time user preferences and thematic categories. The feature utilizes a newly developed intelligence layer that adapts to viewer feedback. This rollout coincides with broader company cost-cutting measures and shifting user engagement levels.",
+    "tags": [
+      "llm",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "8fc2315555ec",
+    "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+    "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T17:56:52Z",
+    "excerpt": "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2281430305.jpg?w=1024",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "CrowdStrike is acquiring Fiddler AI and Dreadnode to expand its cybersecurity portfolio into AI agent monitoring and security testing. The acquisitions aim to help enterprise clients evaluate, observe, and test AI models and autonomous agents before deployment. These moves reflect rising industry demand for specialized security tools amid growing corporate adoption of artificial intelligence.",
+    "tags": [
+      "agents",
+      "security",
+      "startups"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "36b7855ee5fe",
+    "title": "Google researchers demand freedom to tell the world what they know about AI",
+    "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T17:55:26Z",
+    "image_checked": true,
+    "points": 11,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "research",
+      "safety",
+      "policy"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "089a2f50181b",
+    "title": "Building Production Features with the Claude API in Java",
+    "url": "https://dev.to/said_olano/building-production-features-with-the-claude-api-in-java-1ogb",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:53:08Z",
+    "excerpt": "Why Claude Belongs in Your Java Architecture Most Java teams first meet large language models through a demo: a chat window, a clever prompt, a convincing answer. Turning that demo into a production feature is a different job. The model call becomes one more remote dependency with latency, rate limits, timeouts, and failure modes. Its output is probabilistic, so it needs validation before anything…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8zfvk219akr1vystsl5u.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "c1c2e09ea023",
+    "title": "I crawled 150 pages from 6 popular docs sites into RAG chunks: one page often eats half the token budget",
+    "url": "https://dev.to/fast_data_asap/i-crawled-150-pages-from-6-popular-docs-sites-into-rag-chunks-one-page-often-eats-half-the-token-130f",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:46:24Z",
+    "excerpt": "If you build a RAG bot on top of someone's documentation, the first crawl decides what your retriever will see. I wanted to know what a naive crawl of popular docs sites actually returns, so on 3 November 2026 I pointed a crawler at six of them and counted. Disclosure: I built the crawler used here, Website to LLM Markdown on Apify. It turns pages into clean Markdown and token-counted chunks. Setu…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjjwvw2yectbj49gs5cdk.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "rag"
+    ]
+  },
+  {
+    "id": "5ec5d84feb33",
+    "title": "Binance says hackers used fake job interviews, AI tool to steal $6.3B",
+    "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T17:44:26Z",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108486127-1793363861367-gettyimages-2302646786-vcg111678111006.jpeg?v=1793363876\u0026w=1920\u0026h=1080",
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Binance suffered a massive cyberattack resulting in the theft of over six billion dollars after hackers infiltrated its wallet infrastructure. The attackers used sophisticated social engineering, including fake job interviews and malicious developer tools, to compromise internal systems and AI tools. Binance has since replenished most of the affected funds and enhanced its security protocols.",
+    "tags": [
+      "security",
+      "startups"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "203ac27353d1",
+    "title": "Tell this AI what you want a protein to do—and it designs one",
+    "url": "https://phys.org/news/2026-11-ai-protein.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:40:17Z",
+    "excerpt": "In a short space of time, artificial intelligence has become a whiz at designing proteins, molecular machines that perform various functions such as speeding up reactions, producing fluorescent signals and breaking down plastic. But getting AI to design the specific protein you want usually requires the user to have a strong understanding of molecular structures and geometric constraints to guide…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-ai-model-can-desig.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "tutorial",
+      "space"
+    ]
+  },
+  {
+    "id": "817c96002b04",
+    "title": "AI is changing what's in store for new hires and managers alike",
+    "url": "https://phys.org/news/2026-11-ai-hires-alike.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:40:01Z",
+    "excerpt": "AI is screening résumés, prompting some managers to hire fewer entry-level workers and leading others to expect beginners to tackle more advanced work, Northeastern University's AI \u0026 Society Survey found. The report is the latest in a series that opened with an analysis of how people across the political spectrum view AI training.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-is-changing-whats-i.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "prompting"
+    ]
+  },
+  {
+    "id": "b08c1054d416",
+    "title": "Funções anônimas são mais lentas em Go? Medi os 6 cenários e só 1 custa caro",
+    "url": "https://dev.to/renanbastos93/funcoes-anonimas-sao-mais-lentas-em-go-medi-os-6-cenarios-e-so-1-custa-caro-k2i",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:39:14Z",
+    "excerpt": "Introdução Esse é um mito extremamente comum em code review de Go, inclusive em times experientes. O roteiro é quase sempre o mesmo: alguém roda um benchmark vê uma diferença de ns/op conclui que função anônima é mais lenta abre um PR trocando closures por funções nomeadas Na maioria dos casos, o culpado apontado é este aqui: func ( v int ) int { return v + 1 } E quase sempre o culpado é outro. TL…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fycicag6lghd4g3kgzpvj.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "f578385f5872",
+    "title": "Safety Rules Don’t Survive the Context Window: Quantifying and Fixing Agent Compliance Decay",
+    "url": "https://dev.to/priyeshdave6/safety-rules-dont-survive-the-context-window-quantifying-and-fixing-agent-compliance-decay-5co9",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:30:16Z",
+    "excerpt": "Safety Rules Don’t Survive the Context Window: Quantifying and Fixing Agent Compliance Decay Injected Safety Rules Are Ignored as Context Windows Fill Anyone deploying LLM agents with hardcoded safety rules has seen this: as dialogs grow, initial guardrails disappear. The cause is structural. Once the system prompt—“Never give medical advice,” “Decline illegal requests,” etc.—is pushed out of the…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa26mt989dagsw8r28ban.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "34a2d6fcac49",
+    "title": "Moft’s new origami case adds a kickstand and grip to the iPhone Duo",
+    "url": "https://www.theverge.com/tech/1025364/moft-dynamic-folio-case-stand-grip-apple-iphone-duo",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T17:27:52Z",
+    "excerpt": "Originally released in early 2025 as an accessory for the iPad, Moft has redesigned its Dynamic Folio as a case for the iPhone Duo that does more than just protect Apple's folding phone. You can use it to prop the Duo up at several different angles for hands-free use, or reconfigure the Dynamic Folio's origami-like […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/moft1.jpg?quality=90\u0026strip=all\u0026crop=0,10.751871746636,100,78.496256506728",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "mobile"
+    ]
+  },
+  {
+    "id": "da9a5824109f",
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T17:22:37Z",
+    "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
+    "points": 180,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
+    "tags": [
+      "agents",
+      "security",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1217e903b38d",
+    "title": "Life on the move in a changing Chesapeake Bay",
+    "url": "https://phys.org/news/2026-11-life-chesapeake-bay.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:20:14Z",
+    "excerpt": "In 2025, a local crabber reached out to professor Romuald Lipcius with some news: He'd been catching stone crabs in the Chesapeake Bay. Native to Florida, the species had reached its northernmost documented occurrence to date. News got out, and William \u0026 Mary's VIMS \u0026 Batten School were flooded with additional sightings from the public. Some were legitimate; many were mistaken identities.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/life-on-the-move-in-a.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "a49858d3ed39",
+    "title": "Plants' immune memory hints at new crop breeding approach",
+    "url": "https://phys.org/news/2026-11-immune-memory-hints-crop-approach.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:20:01Z",
+    "excerpt": "A study published in Nature Communications, led by professor Jurriaan Ton and Dr. Adam Hannan Parker at the University of Sheffield, has identified mechanisms by which plants maintain and reset stress memory from past infections. This immune memory enables plants to defend themselves more effectively against harmful bacteria and mildews, which are increasingly threatening our crop and food product…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-unlock-the.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "5732e4161d14",
+    "title": "The Xbox Nano has a hidden cloud secret",
+    "url": "https://www.theverge.com/games/1025430/xbox-nano-controller-direct-cloud-wifi-connectivity",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T17:16:04Z",
+    "excerpt": "Microsoft is about to launch its new Xbox Nano controller tomorrow, and the tiny device has a little secret. The Nano can connect directly to Xbox Cloud Gaming over Wi-Fi to improve latency. It's a feature Microsoft hasn't officially announced yet, but one I've been anticipating since the Xbox Nano leaked earlier this year. The […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nanowifi.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "cloud",
+      "gaming"
+    ]
+  },
+  {
+    "id": "a55665cf4895",
+    "title": "StateBench: Testing how language models track state changes over long documents",
+    "url": "https://huggingface.co/blog/allenai/statebench",
+    "source": "Hugging Face Blog",
+    "section": "ia",
+    "published": "2026-11-03T17:15:21Z",
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "0771d3c9b670",
+    "title": "Agent Memory's Reality Check: Why Simpler Retrieval Keeps Winning and Harnesses Split Brain From Hands",
+    "url": "https://dev.to/felipe0liveira/agent-memorys-reality-check-why-simpler-retrieval-keeps-winning-and-harnesses-split-brain-from-10d1",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:12:41Z",
+    "excerpt": "This digest covers AI agent research and engineering writing published between 2026-10-20 and 2026-11-03. It's a heavy week for agent memory in particular — several independent groups converged on the same uncomfortable finding: more complex memory doesn't automatically mean better memory. 🔥 Highlights Delivered, Not Used: Evaluating Agent Memory at Its Point of Use — resolved tasks still waste mo…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr9ujc6s5douxn7rq04iv.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "43ee9f38cd69",
+    "title": "A new way to navigate tough land and water use decisions",
+    "url": "https://phys.org/news/2026-11-tough-decisions.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:10:01Z",
+    "excerpt": "An open-source software tool to help find a sweet spot between competing environmental and development demands has been launched by researchers at the University of Queensland.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-way-to-navigate.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "open-source"
+    ]
+  },
+  {
+    "id": "03e6647c805e",
+    "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+    "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T17:08:21Z",
+    "excerpt": "Google has cut ties with the company behind the botnet campaign.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Google and international law enforcement agencies have dismantled a large botnet that secretly infected over a million Android TV boxes worldwide. The operation targeted malicious servers and blocked the responsible manufacturer from accessing Google services. Affected devices require manual intervention or specific updates to ensure complete security.",
+    "tags": [
+      "security",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "07cf55e6930b",
+    "title": "A Shader Loop That Never Ran: What GPU Readback Found in gogpu/naga, a Go WGSL Compiler",
+    "url": "https://dev.to/gogpu/a-shader-loop-that-never-ran-what-gpu-readback-found-in-gogpunaga-a-go-wgsl-compiler-41ja",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T17:07:23Z",
+    "excerpt": "Here's a WGSL loop: for (var j = 0u; j \u003c 4u; j++) { result[j] = j + 1u; } Until v0.20.3 in October, naga , our shader compiler written in Go, turned it into DXIL that never ran the loop. Microsoft's validator looked at the module and said it was valid. On an Intel and an NVIDIA GPU the loop body didn't execute once. The validator wasn't wrong. That's the interesting part. What the validator saw Th…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo8dnuwiog7m4ciolams5.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "chips",
+      "go"
+    ]
+  },
+  {
+    "id": "a4abd1e2a1c1",
+    "title": "Anthropic is still grappling with the economics of compute",
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T17:07:01Z",
+    "excerpt": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294935494.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "b21a0bba3704",
+    "title": "Boat burial reveals leprosy strain in fifth-century Germany",
+    "url": "https://phys.org/news/2026-11-boat-burial-reveals-leprosy-strain.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T17:00:06Z",
+    "excerpt": "Visigothic and Vandal forces marched into Italy and conquered Rome; the Huns spread fear and terror on their campaigns through Western Europe; the Franks expanded their domain southward—the fifth century was an era of profound, often violent upheavals in Europe, and at the same time one of great mobility. Researchers from the Institute of Clinical Molecular Biology (IKMB) at Christian-Albrechts-Un…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-map-of-europe-with-a-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "biology",
+      "health"
+    ]
+  },
+  {
+    "id": "6df21e5a1561",
+    "title": "Google is entirely disabling Search in schools that don’t want AI",
+    "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T17:00:04Z",
+    "excerpt": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search \"will be entirely off\" for K-12 student accounts […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_GOOGLE_A-1.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "41b674129a11",
+    "title": "Xbox’s smallest-ever controller is surprisingly comfortable",
+    "url": "https://www.theverge.com/tech/1025097/xbox-nano-controller-hands-on",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T17:00:00Z",
+    "excerpt": "Even though I knew Microsoft's new Xbox Nano controller was tiny, I still gasped when I unboxed it a few days ago. The compact controller is small enough to slip into a pocket unnoticed, and it has been designed specifically for younger people, or for anyone with smaller hands. I'm not young, but I do […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VLS_5915.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.486021930258%2C100%2C79.027956139484\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "b33030b5cf78",
+    "title": "Windows 11 is now ‘up to 40 percent faster’ on PCs with 8GB of RAM",
+    "url": "https://www.theverge.com/news/1025142/windows-11-8gb-ram-memory-improvements-speed-performance",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T17:00:00Z",
+    "excerpt": "Microsoft has been doing a lot of work to improve memory usage and increase performance on Windows 11 PCs over the past year. Last month the company revealed Windows 11 is now \"more responsive\" and runs better on PCs with 8GB of RAM, and now the company is releasing a new update today that includes […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2299110674.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.748316981873%2C100%2C78.503366036255\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "e4f768269ce7",
+    "title": "Snapchat Is Harming Children at an Industrial Scale",
+    "url": "https://www.afterbabel.com/p/industrial-scale-snapchat",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T16:59:19Z",
+    "points": 12,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "97e8b4c674c4",
+    "title": "AI Engineer Interview Questions in 2026: 5 Answers Worth Having Ready",
+    "url": "https://dev.to/stackchief/ai-engineer-interview-questions-in-2026-5-answers-worth-having-ready-4djh",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T16:54:18Z",
+    "excerpt": "AI engineer interviews in 2026 mostly ask you to reason about a working LLM system: why a RAG answer is wrong, how a tool call executes, what a chatbot costs per month, how to keep a model from being tricked. Here is the condensed version of a 13-question guide and the answer shape interviewers reward. What companies actually publish Very little. Google says its process typically takes roughly 6-8…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd16p9f1nsuv59pza5e4m.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "rag",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "5e4f6792b258",
+    "title": "Live Election Results",
+    "url": "https://electionenjoyer.com/live/?v=ca28ddd0",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T16:50:47Z",
+    "points": 10,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "90212ba4d7b2",
+    "title": "This space company is betting its future on a propellant available everywhere",
+    "url": "https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/",
+    "source": "Ars Technica",
+    "section": "ciencia",
+    "published": "2026-11-03T16:50:32Z",
+    "excerpt": "Is that water in your spacecraft, or are you just happy to see the delta-V?",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A new space startup founded by former SpaceX engineers is developing spacecraft propelled primarily by water. The company aims to use water harvested from celestial bodies as a sustainable propellant, coolant, and radiation shield for in-space transportation. Their first demonstration mission faced solar array deployment issues that prevented testing of the core propulsion system.",
+    "tags": [
+      "space",
+      "research",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "13775dae291d",
+    "title": "Rivian spinout Also was working on an e-moto project in Kenya — until it walked away",
+    "url": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T16:49:09Z",
+    "excerpt": "Also co-founder and president Chris Yu told TechCrunch that he wanted to prioritize autonomous vehicles.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/10/Also-portal-screen.jpeg?resize=1200,900",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "5534a07a09b5",
+    "title": "Red and green auroras may share electron-driven origins",
+    "url": "https://phys.org/news/2026-11-red-green-auroras-electron-driven.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:40:15Z",
+    "excerpt": "With their mysterious glow and swirling veils of color, auroras enchant even experienced researchers. When a particularly intense solar storm reached Earth on the night of May 10, 2024, and relevant websites predicted auroras even for southern Lower Saxony, several researchers from the Technical University of Braunschweig, the Fraunhofer Institute for Surface Engineering and Thin Films IST, the Un…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-clues-on-the-origi.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "88aff9114235",
+    "title": "Park users reveal 5 factors shaping acceptance of wildlife management",
+    "url": "https://phys.org/news/2026-11-users-reveal-factors-wildlife.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:40:10Z",
+    "excerpt": "Should an area be fenced off, should animals be sterilized or relocated—or, as a last resort, selectively culled? As the long-running controversy over white-tailed deer in the Montreal suburb of Longueuil's Michel-Chartrand Park has shown, managing wildlife in peri-urban parks isn't just about the science. Emotions, trust and how decisions are communicated also play a role.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wildlife-management-wh.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "a0bc910aca12",
+    "title": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
+    "url": "https://arxiv.org/abs/2611.02618",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T16:40:02Z",
+    "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "points": 13,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
+    "tags": [
+      "data",
+      "hardware",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3311be4cda87",
+    "title": "Astronaut and Earth",
+    "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+    "source": "NASA",
+    "section": "ciencia",
+    "published": "2026-11-03T16:37:42Z",
+    "excerpt": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "space",
+      "energy"
+    ]
+  },
+  {
+    "id": "deaf026546c4",
+    "title": "LLM API Pricing Compared: Claude vs GPT vs Gemini vs DeepSeek (Live Numbers, Nov 2026)",
+    "url": "https://dev.to/dijinlong/llm-api-pricing-compared-claude-vs-gpt-vs-gemini-vs-deepseek-live-numbers-nov-2026-1f4c",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T16:36:04Z",
+    "excerpt": "Short version: the gap between a model vendor's list price and what you actually pay on a multi-seller LLM gateway can be an order of magnitude — but the deepest discount you see is the best tier available right now, not a price every request gets. Below is one table comparing official list prices against live effective prices for eight major model vendors. Data as of 2026-11-04 00:35 (UTC+8) . Th…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F32bcrn7xxfu5kxx66n6f.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "bc4177032a04",
+    "title": "Palette: teaching a small model to build decks in your design language",
+    "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "source": "Hugging Face Blog",
+    "section": "ia",
+    "published": "2026-11-03T16:35:36Z",
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "ba273efe94ab",
+    "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+    "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T16:30:34Z",
+    "excerpt": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "c6e7ad3705a9",
+    "title": "Stop Trusting Vibes: Build a Minimal LLM Eval Harness Before You Claim Your Model Got Better",
+    "url": "https://dev.to/eme_gug_0821b41b948be6516/stop-trusting-vibes-build-a-minimal-llm-eval-harness-before-you-claim-your-model-got-better-2nic",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T16:23:39Z",
+    "excerpt": "Tuần này trên Hacker News có một bài hơn 580 điểm chỉ ra rằng bài viết kiểu \"Astra can read and write weights to improve Qwen\" đang gây hiểu lầm. Mình không bàn chuyện ai đúng ai sai. Điều đáng nói là cả cộng đồng mất mấy ngày tranh cãi chỉ vì một lý do: claim \"model tốt hơn\" mà không có eval đủ chặt . Chuyện này không chỉ xảy ra với các lab lớn. Team mình từng merge một LoRA adapter chỉ vì \"test…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy2t4ynh4q265dnm0068y.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "d60c54f827dc",
+    "title": "An asteroid's shape influences where a nuclear blast must be aimed to deflect it",
+    "url": "https://phys.org/news/2026-11-asteroid-nuclear-blast-aimed-deflect.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:20:09Z",
+    "excerpt": "If a dangerous asteroid were headed toward Earth, one defense could be a nuclear detonation to blast one side with X-rays and nudge it off course. But new simulations suggest that for a lumpy, irregular asteroid, exactly where those X-rays hit could make a huge difference.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/asteroid-defense-hits.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "space",
+      "energy"
+    ]
+  },
+  {
+    "id": "5f26dce92b7a",
+    "title": "New survey measures make double consciousness testable in studies of Black Americans",
+    "url": "https://phys.org/news/2026-11-survey-consciousness-testable-black-americans.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:20:04Z",
+    "excerpt": "W.E.B. Du Bois' standing as a distinguished social scientist, with a distinguished body of work, has been subjected to the same marginalizing forces he examined in his pioneering scholarship on race, culture and Black social thought.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2024/black-american-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "529660a75e38",
+    "title": "6 Go Template Ownership Decisions for Secure E-Commerce Password Reset Email",
+    "url": "https://dev.to/carterhughes6853/6-go-template-ownership-decisions-for-secure-e-commerce-password-reset-email-2pfi",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T16:13:52Z",
+    "excerpt": "An e-commerce recovery email should carry less data than a receipt. TL;DR: include a secure, unique, time-bound reset link, state its expiration, give short reset instructions, and provide a support contact. An IP or device-location notice can add useful context. Never include the current password or other sensitive account data. Keep bounce handling and invalid-recipient suppression in the delive…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Freon5wwp3bh6hvulyq2b.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "581c7eed18fb",
+    "title": "Binance hackers used fake job interview to breach PC before $6.3B attack",
+    "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T16:10:43Z",
+    "image_checked": true,
+    "points": 27,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bb49342b4e9e",
+    "title": "New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech",
+    "url": "https://techcrunch.com/2026/11/03/new-york-citys-mamdani-criticizes-madison-square-garden-owner-over-surveillance-tech/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T16:04:55Z",
+    "excerpt": "The mayor's comments come after the entertainment giant's data breach last year, which exposed James Dolan's surveillance.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1160769930.jpg?resize=860,1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "id": "1ab157fcf696",
+    "title": "One 4k prompt costs a serving node as much as 900 generated tokens",
+    "url": "https://dev.to/jaxsinclair/one-4k-prompt-costs-a-serving-node-as-much-as-900-generated-tokens-cjn",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T16:04:48Z",
+    "excerpt": "A node serving Llama-3.1-70B, 32 conversations streaming, GPU pegged at 95%. Then someone pastes a document. Every live conversation freezes for most of a second, then resumes. Nothing is broken and no config is wrong. The prefill is doing exactly what the arithmetic says it should, and the arithmetic says it costs far more than the time-to-first-token graphs imply. Time to first token measures th…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftbknuagqwwebuh9prt3w.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "prompting",
+      "chips"
+    ]
+  },
+  {
+    "id": "3964f1b6a771",
+    "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+    "url": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T16:03:13Z",
+    "excerpt": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Fully patched Windows systems have been compromised by a new UEFI bootkit named BlackX, which exploits logic flaws in the Windows boot manager to bypass Secure Boot. The malware executes early in the boot process, allowing malicious drivers to load before standard security defenses become active. Although Microsoft previously patched the underlying vulnerability, questions remain regarding certificate revocations and overall boot security.",
+    "tags": [
+      "security",
+      "chips"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "97667e5ea7c1",
+    "title": "A type of Arctic Ocean bacteria may be using acetone to turn carbon into food",
+    "url": "https://phys.org/news/2026-11-arctic-ocean-bacteria-acetone-carbon.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:00:25Z",
+    "excerpt": "A newly identified Arctic Ocean bacterium may have an unusual way of making the building blocks it needs to grow. Using acetone, a common chemical in seawater, the bacteria incorporate carbon dioxide (CO₂) into their metabolisms, allowing them to survive in waters where nutrients and usable organic matter are scarce.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2020/arcticocean.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "climate"
+    ]
+  },
+  {
+    "id": "8ba0ccb39d33",
+    "title": "Research ties heat to mealybug feeding and pasture damage",
+    "url": "https://phys.org/news/2026-11-mealybug-pasture.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T16:00:13Z",
+    "excerpt": "High temperatures change how mealybugs feed, and that could help explain why some pasture mealybug infestations do far more damage than others, according to early findings from Texas A\u0026M AgriLife Research scientists.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/research-ties-heat-to.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "636b7bfce241",
+    "title": "GPT-5.6 Sol vs Claude Opus 4.8 for Coding: A Reproducible CSV-to-JSON Importer Test",
+    "url": "https://dev.to/buluo/gpt-56-sol-vs-claude-opus-48-for-coding-a-reproducible-csv-to-json-importer-test-5d7h",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:59:48Z",
+    "excerpt": "This article was written with AI assistance. On November 3, 2026 I ran GPT-5.6 Sol and Claude Opus 4.8 against the same CSV-to-JSON importer task via the Crazyrouter API and I describe exactly what the generated code did on my machine. I did not add polish numbers or production uptime claims that I did not measure. The scenario I kept in mind is the one most of us actually meet: a weekly export fr…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F86vvwa83kfeoxnnic0xu.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "dc28833f4985",
+    "title": "Midterm elections 2026: all the news",
+    "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T15:58:39Z",
+    "excerpt": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there are several topics impacting the tech industry that […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK423_ELECTIONS2.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "457ebaffaccd",
+    "title": "Convert Word (DOCX) to Markdown With Python (Standard Library Only) for LLM Prompts and Chatbot Knowledge",
+    "url": "https://dev.to/appierun_66/convert-word-docx-to-markdown-with-python-standard-library-only-for-llm-prompts-and-chatbot-5d15",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:56:12Z",
+    "excerpt": "A lot of company knowledge still lives in Word files: refund policies, onboarding guides, SOPs, proposal templates. If you want that content in a prompt, a RAG index or a chatbot's knowledge base, Markdown is a better format than the .docx itself or a flat text dump. It keeps headings, lists, tables and links, and it is easy to diff, chunk and review. This post builds a DOCX-to-Markdown converter…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2dlh23g06vpmdw21zw67.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "rag",
+      "prompting"
+    ]
+  },
+  {
+    "id": "3c115a7d7819",
+    "title": "Retries Are Normal: Building an Idempotent Sync API",
+    "url": "https://dev.to/antonlungameni/retries-are-normal-building-an-idempotent-sync-api-11p7",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:51:26Z",
+    "excerpt": "In short: Networks retry, so any API that moves data or money receives some requests twice. I built an idempotent sync API and hit three instructive bugs: a JSON mismatch that failed without any error, deduplication that worked in tests but not over HTTP, and the design change that made retries free. The pattern applies to payments, webhooks and message queues alike. When my laptop sends its chang…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiugorquf0d8jwiksyrah.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "1d1ac2ab3ff8",
+    "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+    "url": "https://concepts.laxmena.com/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T15:48:35Z",
+    "image_checked": true,
+    "points": 28,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "An interactive web resource offers conceptual insights into reinforcement learning from human feedback, attention mechanisms, Low-Rank Adaptation, and language model evaluation. Users can explore complex engineering ideas by dynamically modifying model inputs.",
+    "tags": [
+      "llm",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "680c37f0e49d",
+    "title": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
+    "url": "https://hissingkitty.com/hacker-churn",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T15:41:52Z",
+    "image_url": "https://hissingkitty.com/api/public/og/hacker-churn.png",
+    "points": 36,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "HackerChurn aggregates Hacker News comments to rank SaaS tools with the most negative feedback over the past three years. Tools receiving at least three complaints across two threads appear on the list, highlighting platforms like Bitwarden, Obsidian, Xero, WordPress, and others that users consider replacing.",
+    "tags": [
+      "startups",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1acfbb4e9547",
+    "title": "Bear turns 10, and it still feels like day one",
+    "url": "https://blog.bear.app/2026/11/bear-turns-10-and-it-still-feels-like-day-one/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T15:41:46Z",
+    "image_url": "https://blog.bear.app/wp-content/uploads/2026/10/default-blog_1920x1080.png",
+    "points": 45,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Bear, a note‑taking app launched in 2016, celebrates its 10‑year anniversary. Developed by three friends seeking a better design, it earned Mac App of the Year and an Apple Design Award, and has expanded to include a web beta and new editor features. The company emphasizes simplicity, delight, and trust in its user experience.",
+    "tags": [
+      "mobile",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "29e07df3312a",
+    "title": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
+    "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:40:30Z",
+    "excerpt": "Physicists have found evidence of a particle decay so rare that it is expected to occur only around once in every 10 billion \"beauty\" particles. The result, from the upgraded LHCb experiment at CERN's Large Hadron Collider (LHC), follows a search spanning more than 40 years and brings physicists closer to exploring the \"Zeptoverse\"—an unexplored world that exists at distances of a billionth of a t…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/manchester-physicists.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "eaa3887b31ec",
+    "title": "How to reduce harmful sexual behavior and protect your kids and their peers",
+    "url": "https://phys.org/news/2026-11-sexual-behavior-kids-peers.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:40:01Z",
+    "excerpt": "Recent media reports of alleged sexual assaults by teenage boys draw attention to an uncomfortable truth: Young people sometimes perpetrate harmful sexual behavior against their peers.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/young-australians-2.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "1d9cf32ebf5b",
+    "title": "Trump wanted to give No Kings no air. Then, Meta suspended its Instagram.",
+    "url": "https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T15:39:30Z",
+    "excerpt": "Meta faces pressure to protect No Kings Instagram on election day.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Meta faced criticism from lawmakers and the No Kings Coalition after temporarily suspending a prominent pro-democracy Instagram account during an early voting push. Meta attributed the suspension to automated moderation systems flagging AI-driven bot-like activity, though the account's administrators remained locked out for hours. Representatives from the coalition expressed concern that such over-enforcement could inadvertently suppress voter information during elections.",
+    "tags": [
+      "policy",
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b20c657114df",
+    "title": "Apple restricts dating apps and AI companions to users 18 and up",
+    "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T15:38:27Z",
+    "excerpt": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "2a34bed60b98",
+    "title": "Study estimates 75% of NFL players who died over 15-year span had CTE",
+    "url": "https://www.nbcnews.com/health/health-news/study-estimates-75-nfl-players-died-15-year-span-may-cte-rcna605975",
+    "source": "Hacker News",
+    "section": "ciencia",
+    "published": "2026-11-03T15:38:04Z",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
+    "points": 104,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
+    "tags": [
+      "health",
+      "biology",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "8da4ba69509e",
+    "title": "Qwen3.8 27B Measured on an RTX 5090 — and Why vLLM Didn't Work",
+    "url": "https://dev.to/kohei_wada/qwen38-27b-measured-on-an-rtx-5090-and-why-vllm-didnt-work-2m14",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:37:06Z",
+    "excerpt": "Introduction Qwen3.8 27B came out, so I put it on my RTX 5090 (32GB). How it did on multi-step agent work is in Only the Design of My Eval Harness Survived ; this post is the numbers and the walls I hit along the way. On ollama, generation came out roughly twice as fast as the previous generation. I could not move it to vLLM. First, a runtime version wall ollama pull qwen3.8:27b gets rejected with…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm5l5f4bufjc1q1jd4j9a.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "e8a8c1d6be61",
+    "title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
+    "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
+    "source": "NASA",
+    "section": "ciencia",
+    "published": "2026-11-03T15:35:14Z",
+    "excerpt": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download PDF here Chip resistors are widely used in NASA projects, yet cases of alumina substrate cracking during environmental testing are rare. Two instances of thick-film chip resistor cracking were observed during thermal cycling after vibration, with fractures occurring across the short axis due […]",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2015/04/tb-26-10-fig-1.png?w=770",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "chips",
+      "space"
+    ]
+  },
+  {
+    "id": "79ac2a2f215a",
+    "title": "Afforestation reshapes wildfire activity across temperate regions worldwide",
+    "url": "https://phys.org/news/2026-11-afforestation-reshapes-wildfire-temperate-regions.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:30:02Z",
+    "excerpt": "Tree planting provides wood, biomass and climate benefits, but the location where those new forests are established matters. An international study by researchers in Spain, Chile and Finland shows that converting nonforested land into planted forests can increase wildfire activity, with contrasting outcomes across temperate regions.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/afforestation-reshapes.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "climate"
+    ]
+  },
+  {
+    "id": "584563de848e",
+    "title": "Running Local LLMs on Developer Hardware is Mostly a Distraction",
+    "url": "https://dev.to/puneet_khandelwal_429a72e/running-local-llms-on-developer-hardware-is-mostly-a-distraction-1pb9",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:29:48Z",
+    "excerpt": "Running a seven-billion parameter model on unified memory sounds great. You spend an afternoon downloading GGUF files, tuning context windows, and fighting with Ollama. Then your fans spin up like a jet engine and the token generation crawls. The pitch promises privacy, zero latency, and no rate limits. The actual coding session looks a lot different. Software bottlenecks aren't typing speed or cl…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwozeazh7cimgv5db90km.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "ac00eb49c451",
+    "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+    "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T15:29:15Z",
+    "points": 162,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "b450560162d2",
+    "title": "Schools that block Google’s A.I. will lose student access to its search engine",
+    "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T15:25:47Z",
+    "points": 227,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "3094283649fc",
+    "title": "Apple is all in on AI — its own and everyone else’s",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T15:24:51Z",
+    "excerpt": "Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.5% from a […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301906266.jpg?quality=90\u0026strip=all\u0026crop=0%2C14.171056661111%2C100%2C78.524215886627\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "mobile"
+    ]
+  },
+  {
+    "id": "e14a1c56a374",
+    "title": "Forgotten flint tools reveal how Egypt's farmers organized work before the pharaohs",
+    "url": "https://phys.org/news/2026-11-forgotten-flint-tools-reveal-egypt.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:20:12Z",
+    "excerpt": "More than a century after they were excavated from beneath Cairo, almost 3,000 stone tools from Heliopolis show that specialized work was already reshaping village life before Egypt became a state.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/forgotten-flint-tools-2.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "889d44efa900",
+    "title": "JWST may have found where heavy black hole seeds formed",
+    "url": "https://phys.org/news/2026-11-jwst-heavy-black-hole-seeds.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:20:01Z",
+    "excerpt": "Astrophysicists think that the supermassive black holes (SMBH) we see in the modern universe are the result of a long, drawn-out process. That process is referred to as the hierarchical black hole mergers framework. It explains how some SMBHs can reach such staggering masses. Some of the most massive appear to have billions of solar masses.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-jwst-may-have-foun.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "60d509013177",
+    "title": "Tiny Basic for Arduino",
+    "url": "https://dilshan.github.io/tiny-basic/",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:17:07Z",
+    "image_checked": true,
+    "points": 33,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
+    "tags": [
+      "hardware",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "60a21e660c7e",
+    "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+    "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+    "source": "NASA",
+    "section": "ciencia",
+    "published": "2026-11-03T15:15:50Z",
+    "excerpt": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/anil-menon-downlink-nov-3.jpg?w=1280",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "id": "cbdab6a9711d",
+    "title": "GTA VI’s download will need up to 212GB of hard drive space",
+    "url": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T15:15:00Z",
+    "excerpt": "You're going to need a lot of extra storage space on your console if you're planning to play Grand Theft Auto VI later this month. Rockstar Games confirmed on Tuesday that the preload file will require up to 212GB \"depending on your device.\" Rockstar says you can start preloading the game on the PlayStation 5 […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-27-at-4.13.31-PM.png?quality=90\u0026strip=all\u0026crop=0%2C3.3036486111791%2C100%2C93.392702777642\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "gaming",
+      "space"
+    ]
+  },
+  {
+    "id": "06f5a45de4db",
+    "title": "Why We Migrated a Python Service to Go: Lessons from the MakeMyTrip Flights Backend",
+    "url": "https://dev.to/pradip_golang/why-we-migrated-a-python-service-to-go-lessons-from-the-makemytrip-flights-backend-2lm6",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:11:47Z",
+    "excerpt": "At MakeMyTrip, I led the migration of the Flights backend from Python to Go. The result: resource usage dropped by 60%, and our AWS costs went down with it. Let me be upfront about what this post is and isn't. The internal details of that system aren't mine to publish, so you won't find architecture diagrams or traffic numbers here. What I can share is why Go is a good fit for that kind of service…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2cfc2inj1nu6tc9odnmm.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "cloud",
+      "go",
+      "python"
+    ]
+  },
+  {
+    "id": "6af132df9572",
+    "title": "Keeping AI Agents from Writing Wrong Data: Validation, Deterministic Checks and Fallbacks in Go",
+    "url": "https://dev.to/pradip_golang/keeping-ai-agents-from-writing-wrong-data-validation-deterministic-checks-and-fallbacks-in-go-ae5",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:11:21Z",
+    "excerpt": "An agent that answers a question wrongly is embarrassing. An agent that writes wrong data, such as moving the wrong ticket, booking the wrong slot or saving a made-up value, is a production incident. And unlike a bad answer, bad data stays around and spreads to every system that reads it. The approach that has worked for me across Go agent projects is one rule: the model proposes, the code decides…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffg85ommw8nfvp6s3eiug.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "agents",
+      "go"
+    ]
+  },
+  {
+    "id": "4d96c97b0a81",
+    "title": "The Elder Scrolls VI officially has a name: Sentinel",
+    "url": "https://www.theverge.com/news/1025273/the-elder-scrolls-vi-sentinel-name-announcement",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T15:07:39Z",
+    "excerpt": "Bethesda is officially confirming today that the next Elder Scrolls game will be called The Elder Scrolls VI Sentinel. The confirmation came in a less than 10-minute video celebrating 40 years of Bethesda game studios. It's been more than eight years since Bethesda officially announced the existence of the sixth game in its Elder Scrolls […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chrome_eg3cbwE9Id.jpg?quality=90\u0026strip=all\u0026crop=0%2C3.4613147178592%2C100%2C93.077370564282\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "182bcfeeb22b",
+    "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+    "url": "https://github.com/Muvon/octomind",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-03T15:02:58Z",
+    "image_url": "https://repository-images.githubusercontent.com/994166447/5deca376-0441-481a-83f3-48dcaeb7487c",
+    "points": 42,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Octomind is an open‑source Rust‑based harness that lets large language models act as coding agents, accessing repositories, running shells, and managing files. It supports interactive, daemon, WebSocket, and editor integrations, with policies defined in TOML rather than prompts. The tool works with any model, offers cost controls, and includes ready‑made specialist agents, positioning it for CI and autonomous development tasks.",
+    "tags": [
+      "llm",
+      "open-source",
+      "rust",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e8840c4dd0f3",
+    "title": "'Evolution in the act': Forest lizards reveal rapid adaptation in a warming world",
+    "url": "https://phys.org/news/2026-11-evolution-forest-lizards-reveal-rapid.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T15:00:09Z",
+    "excerpt": "Yale research scientist Saúl Domínguez-Guerrero didn't set out to catch \"evolution in the act\" when he traveled to the Caribbean with a team of Yale researchers a few years ago. At the time, the team from the lab of evolutionary biologist Martha Muñoz planned to do fieldwork on Caribbean anoles, colorful, tree-dwelling lizards native to warmer regions of the Americas.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/evolution-in-the-act-s.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "biology",
+      "climate"
+    ]
+  },
+  {
+    "id": "742cc8364fba",
+    "title": "Handles are the better pointers (2018)",
+    "url": "https://floooh.github.io/2018/06/17/handles-vs-pointers.html",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-03T14:54:30Z",
+    "image_checked": true,
+    "points": 22,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
+    "tags": [
+      "tutorial",
+      "rust"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "0093518f68d3",
+    "title": "Mac at Any Scale",
+    "url": "https://namespace.so/blog/mac-at-any-scale",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-03T14:53:42Z",
+    "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
+    "points": 150,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
+    "tags": [
+      "hardware",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c0589e96c805",
+    "title": "EPA throws in the towel on policing air pollution from factory farms",
+    "url": "https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T14:49:00Z",
+    "excerpt": "Critics say EPA is effectively abandoning Clean Air Act enforcement at factory farms.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/factory-farm-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "a06afd7026d3",
+    "title": "Here’s Why You Shouldn’t Use AI to Vote",
+    "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T14:45:08Z",
+    "excerpt": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+    "image_url": "https://media.wired.com/photos/6ae90c8c0f4d264d864a7d42/master/pass/Politics_Here's%20Why%20You%20Shouldn't%20Use%20AI%20to%20Vote_v1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "d874c6737783",
+    "title": "Practice speaking Japanese with real YouTube videos, graded line by line",
+    "url": "https://jivx.com/yt",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T14:41:02Z",
+    "points": 23,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "b5b460571a4b",
+    "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+    "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T14:30:00Z",
+    "excerpt": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-networking_2.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "eb3661170b1d",
+    "title": "Just a little AI resistance, as a treat",
+    "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T14:14:12Z",
+    "points": 161,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "5951d7316dde",
+    "title": "Roli Has Fallen Apart—and Left Customers Holding the Bag",
+    "url": "https://www.wired.com/story/roli-has-fallen-apart-and-left-customers-holding-the-bag/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T14:00:34Z",
+    "excerpt": "The inventive instrument maker collapsed into insolvency, leaving buyers empty-handed and users scrambling to keep their musical gear alive.",
+    "image_url": "https://media.wired.com/photos/6ae8f529e0d52c3a137c9f19/master/pass/LUMI%20Top.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "540c19b98164",
+    "title": "Beyond screens: Mercedes-Benz's new holographic heads-up display",
+    "url": "https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T14:00:07Z",
+    "excerpt": "After pioneering the passenger screen, Mercedes has designs on the windshield.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/26C0308_008-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "0e7bea263ccb",
+    "title": "Observability That Actually Helps at 3am",
+    "url": "https://dev.to/v4nd1t/observability-that-actually-helps-at-3am-528i",
+    "source": "dev.to (Go)",
+    "section": "tutoriales",
+    "published": "2026-11-03T14:00:00Z",
+    "excerpt": "Here's the moment observability is actually for. It's 3am, one request out of thousands was slow or errored, and it touched eight services on its way through. The user is angry, the dashboard says \"p99 latency up,\" and you have no idea which of the eight did the damage. If your answer to that question is \"SSH into each service and grep the logs by timestamp and hope,\" you don't have observability.…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fvandit.dev%2Fstatic%2Fimages%2Fblog%2Fog%2Fobservability-that-actually-helps-at-3am.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "469aa1849694",
+    "title": "Apple iPad Mini (2026) Review: A Dream Device, but Who Is It For?",
+    "url": "https://www.wired.com/review/ipad-mini-2026/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T14:00:00Z",
+    "excerpt": "The iPad Mini’s impressive new features make it a better tablet than ever—only to be betrayed by its higher price.",
+    "image_url": "https://media.wired.com/photos/6ae914d0db4305d8f2ef46a8/master/pass/Review%20iPad%20Mini%20112026%20top%20art%20SOURCE%20Amazon.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
+    "id": "7d5057b63b86",
+    "title": "Converting Documents to Markdown With MarkItDown",
+    "url": "https://realpython.com/courses/converting-documents-markdown-markitdown/",
+    "source": "Real Python",
+    "section": "tutoriales",
+    "published": "2026-11-03T14:00:00Z",
+    "excerpt": "Learn how to use MarkItDown to convert Excel files, PDFs, and images into clean Markdown that's ready for LLMs and AI workflows.",
+    "image_url": "https://files.realpython.com/media/MarkItDown-Convert-Anything-to-Markdown-to-Feed-to-Your-LLM_Watermarked.201792042d8c.jpg",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "llm",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "994bc94aa467",
+    "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+    "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T14:00:00Z",
+    "excerpt": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-audience.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
     "id": "03c0278cb3bf",
     "title": "Fossil fuels played a negligible role in the rise of atmospheric CO₂",
     "url": "https://twitter.com/cohler/status/2102716898408280330",
@@ -437,7 +1881,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-03T12:51:11Z",
-    "points": 5,
+    "points": 22,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "enriched": true,
@@ -450,7 +1894,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-03T12:42:30Z",
-    "points": 9,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "enriched": true,
@@ -563,7 +2007,7 @@
     "section": "ia",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 198,
+    "points": 715,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -912,7 +2356,7 @@
     "source": "Wired",
     "section": "tech",
     "published": "2026-11-03T10:35:00Z",
-    "excerpt": "Catch more Z’s with soothing background noise from our favorite sound machines.",
+    "excerpt": "Catch more z’s with soothing background noise from our favorite sound machines.",
     "image_url": "https://media.wired.com/photos/6ae7c5f55d95fb1734aa8438/master/pass/White%20noise%20machines%20112026%20top%20art%20SOURCE%20Amazon.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
@@ -1151,7 +2595,7 @@
     "source": "TechCrunch",
     "section": "tech",
     "published": "2026-11-03T08:01:00Z",
-    "excerpt": "Evertrue Capital announces $17M debut fund to back early stage AI and fintech.",
+    "excerpt": "Evertrue Capital announces $17M debut fund to back early-stage AI and fintech.",
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Yvonne.jpg?resize=1171,1200",
     "image_checked": true,
     "weight": 1,
@@ -1202,7 +2646,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-03T07:56:21Z",
-    "points": 131,
+    "points": 307,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -1377,7 +2821,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 173,
+    "points": 242,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -2541,6 +3985,18 @@
     "enriched": true
   },
   {
+    "id": "20954e3ac0ff",
+    "title": "CWE-bench v2: More coverage, quality, and transparency",
+    "url": "https://huggingface.co/blog/cwe-bench",
+    "source": "Hugging Face Blog",
+    "section": "ia",
+    "published": "2026-11-03T00:00:00Z",
+    "image_url": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
     "id": "22a3ce6c86bf",
     "title": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
     "url": "https://www.nature.com/articles/d41586-026-03504-2",
@@ -2578,6 +4034,19 @@
     "enriched": true
   },
   {
+    "id": "2f89a55f8d63",
+    "title": "Trump’s executive order on women’s health feels like déjà vu",
+    "url": "https://www.nature.com/articles/d41586-026-03503-3",
+    "source": "Nature News",
+    "section": "ciencia",
+    "published": "2026-11-03T00:00:00Z",
+    "excerpt": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03503-3 Previous US administrations fell short on promised improvements to women’s-health research — here’s what real change will take.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03503-3/d41586-026-03503-3_53913616.jpg",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
+  },
+  {
     "id": "477714dad823",
     "title": "Research bonuses need clear and fair rules",
     "url": "https://www.nature.com/articles/d41586-026-03562-6",
@@ -2590,6 +4059,22 @@
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
     "skip": true
+  },
+  {
+    "id": "47d8ce7dc214",
+    "title": "Whence dragons?",
+    "url": "https://www.nature.com/articles/d41586-026-03277-8",
+    "source": "Nature News",
+    "section": "ciencia",
+    "published": "2026-11-03T00:00:00Z",
+    "excerpt": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03277-8 The ecology and evolution of winged legendary beasts, and monkeys that show their behinds to their buddies, in this week’s pick from the Nature archive.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03277-8/d41586-026-03277-8_15948436.jpg",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "biology"
+    ]
   },
   {
     "id": "502a49dfc62c",
@@ -2641,6 +4126,19 @@
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
     "skip": true
+  },
+  {
+    "id": "a635be7a926c",
+    "title": "US social sciences face existential crisis after NSF cuts",
+    "url": "https://www.nature.com/articles/d41586-026-03540-y",
+    "source": "Nature News",
+    "section": "ciencia",
+    "published": "2026-11-03T00:00:00Z",
+    "excerpt": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03540-y The US National Science Foundation is a major funder of economics and archaeology research but in 2026 awarded no new grants in those disciplines.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03540-y/d41586-026-03540-y_53934048.jpg",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
   },
   {
     "id": "e69fc66aa86a",
@@ -3528,6 +5026,22 @@
       "llm",
       "web"
     ]
+  },
+  {
+    "id": "9be4bc9b359a",
+    "title": "Writing seen in PHerc. 306B, for the first time in 2000 years",
+    "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+    "source": "Hacker News",
+    "section": "ciencia",
+    "published": "2026-11-02T19:18:46Z",
+    "image_checked": true,
+    "points": 70,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "3509accc4d52",
@@ -4555,6 +6069,24 @@
     "first_seen": "2026-11-02T16:31:43.526468419Z"
   },
   {
+    "id": "1d0799c05bb0",
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-02T16:29:19Z",
+    "image_url": "https://blog.nns.ee/img/logo.png",
+    "points": 274,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "The author reverse‑engineered the firmware of a 2014 Renault Latitude navigation unit to locate the hidden time‑setting menu. By extracting the update package, mounting its ext3 filesystem, and analyzing the Linux‑based OS, they identified the relevant configuration files, enabling manual adjustment of the vehicle clock without the missing SD‑card maps.",
+    "tags": [
+      "tutorial",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
     "id": "2c232d3ef0d1",
     "title": "Property Report Email: 5 Checks for Malformed JSON Send Responses",
     "url": "https://dev.to/irvincole5861/property-report-email-5-checks-for-malformed-json-send-responses-69m",
@@ -4933,6 +6465,24 @@
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/children-who-grow-up-i.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-02T16:31:43.526468419Z"
+  },
+  {
+    "id": "eae38f3f7db8",
+    "title": "Killing what can't be handled – putting a spaghetti demon to eternal rest",
+    "url": "https://themaister.net/blog/2026/10/29/killing-what-cant-be-handled-putting-a-spaghetti-demon-to-eternal-rest/",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-02T15:18:49Z",
+    "image_checked": true,
+    "points": 27,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A developer details the challenges of maintaining a complex control flow graph structurizer for dxil-spirv and the decision to replace it with an unstructured approach inspired by Mesa. By adopting Mesa's goto_if implementation, the project successfully streamlined shader translation while maintaining performance parity across graphics drivers. The transition eliminated thousands of lines of unmaintainable code.",
+    "tags": [
+      "devtools",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "06eb77325043",
@@ -5503,6 +7053,25 @@
     "first_seen": "2026-11-02T16:31:43.526468419Z"
   },
   {
+    "id": "09484dfee9e7",
+    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-02T14:02:42Z",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
+    "points": 216,
+    "weight": 1,
+    "first_seen": "2026-11-02T16:31:43.526468419Z",
+    "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
+    "tags": [
+      "hardware",
+      "data",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
     "id": "086f92fad5e0",
     "title": "A smart window grows a silver shield to keep sunlight's heat out",
     "url": "https://phys.org/news/2026-11-smart-window-silver-shield-sunlight.html",
@@ -5806,6 +7375,18 @@
       "research"
     ],
     "enriched": true
+  },
+  {
+    "id": "80b440b1a0b6",
+    "title": "Exploring the Legacy of Image Club Graphics",
+    "url": "https://blog.somnolescent.net/2026/02/exploring-the-legacy-of-image-club-graphics/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-02T12:46:28Z",
+    "image_checked": true,
+    "points": 5,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z"
   },
   {
     "id": "922b7e3cb6bf",
@@ -6131,13 +7712,32 @@
     "published": "2026-11-02T08:58:33Z",
     "image_url": "https://erici.eu/img/og-card.png",
     "image_checked": true,
-    "points": 162,
+    "points": 180,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The European RISC-V Industrial Computing Initiative (ERICI) aims to bring open-standard architecture to industrial environments. By establishing a standardized reference stack for RVA23 silicon, the project helps bridge the gap between emerging open-source hardware and long-term industrial deployment needs.",
     "tags": [
       "open-source",
       "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5f1061dc994f",
+    "title": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables",
+    "url": "https://www.mattkeeter.com/projects/antimony/3/",
+    "source": "Hacker News",
+    "section": "tutoriales",
+    "published": "2026-11-02T08:29:40Z",
+    "image_checked": true,
+    "points": 49,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
+    "tags": [
+      "python",
+      "devtools",
+      "tutorial"
     ],
     "enriched": true
   },
@@ -6219,7 +7819,7 @@
     "section": "ciencia",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 12,
+    "points": 65,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -6549,7 +8149,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-02T02:21:07Z",
-    "points": 71,
+    "points": 123,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -6970,6 +8570,21 @@
     "enriched": true
   },
   {
+    "id": "d3b4df3addfb",
+    "title": "Embedding boolean circuits in a neural network",
+    "url": "https://edwardbenson.com/2026/10/embedding-boolean-circuits-in-a-neural-network",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-01T15:27:44Z",
+    "image_checked": true,
+    "points": 13,
+    "weight": 1,
+    "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
     "id": "1bc5500a3dd3",
     "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
     "url": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
@@ -7342,7 +8957,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 239,
+    "points": 279,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -7439,7 +9054,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 159,
+    "points": 195,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
@@ -8017,18 +9632,6 @@
     "section": "ia",
     "published": "2026-10-30T17:57:24Z",
     "weight": 1,
-    "first_seen": "2026-11-02T16:31:43.526468419Z"
-  },
-  {
-    "id": "09484dfee9e7",
-    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-    "source": "Ars Technica",
-    "section": "tech",
-    "published": "2026-10-30T17:38:19Z",
-    "excerpt": "Low costs and offline security mean magnetic tape still has a job.",
-    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "weight": 1.1,
     "first_seen": "2026-11-02T16:31:43.526468419Z"
   },
   {
