@@ -1,16 +1,436 @@
 [
   {
+    "id": "6787b833c110",
+    "title": "When should we listen for alien signals? Scientists turn to game theory",
+    "url": "https://phys.org/news/2026-11-alien-scientists-game-theory.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:50:01Z",
+    "excerpt": "Finding a signal from an extraterrestrial civilization takes more than just pointing a telescope in the right direction. We may also need to listen at exactly the right time.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/when-should-we-listen.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "gaming",
+      "space"
+    ]
+  },
+  {
+    "id": "2686565cd00b",
+    "title": "The Lenovo IdeaPad Slim 5x Is Only $900 Right Now",
+    "url": "https://www.wired.com/story/lenovo-ideapad-slim-5x-deal-11-26/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T22:44:01Z",
+    "excerpt": "Laptop prices keep going up, but this discount on the Lenovo IdeaPad Slim 5x is one of the best deals I’ve seen in months.",
+    "image_url": "https://media.wired.com/photos/6aea5ab56c2140d939cde5aa/master/pass/Ideapad%20Slim%205x%20deals%20post%20112026%20top%20art%20SOURCE%20Amazon.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "The Lenovo IdeaPad Slim 5x laptop is currently available at a discounted price of $900. It features a 15.3-inch OLED display and Qualcomm's Snapdragon X2 Plus processor, offering strong performance for everyday tasks. Despite industry-wide memory shortages affecting laptop pricing, this model provides high-end specifications and generous port selection.",
+    "tags": [
+      "hardware",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "993e48dc4504",
+    "title": "Anthropic is working on a system to prove AI models’ identity",
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+    "source": "TechCrunch",
+    "section": "ai",
+    "published": "2026-11-03T22:41:03Z",
+    "excerpt": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Anthropic is developing an open-source cryptographic system called FlashProve to verify the identity of AI models behind specific outputs. The technology uses model fingerprints to generate mathematical proofs without exposing proprietary weights. This mechanism aims to prevent labs from secretly substituting cheaper models and allows users to independently verify third-party AI claims.",
+    "tags": [
+      "llm",
+      "open-source",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "44c0fe5541f2",
+    "title": "Stone Age hunters in northern Europe may have used poison arrows to hunt big prey",
+    "url": "https://phys.org/news/2026-11-stone-age-hunters-northern-europe.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:40:13Z",
+    "excerpt": "Autumn walks in Britain are glorious, as the foliage changes color and cool, crisp air begins to bite. However, some of these European trees hide a much darker secret. For example, the yew tree's lovely red arils—the cup-shaped coverings around the seeds—carry toxins that may have been used to poison arrow tips in the past.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/stone-age-hunters-in-n.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:50:25.444250434Z"
+  },
+  {
+    "id": "50fd587b46e9",
+    "title": "How humans influence fish behavior and why this is important for species conservation",
+    "url": "https://phys.org/news/2026-11-humans-fish-behavior-important-species.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:40:01Z",
+    "excerpt": "Two recent review articles in the journals Trends in Ecology \u0026 Evolution and Fish and Fisheries, to which researchers from the Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) contributed, focus on the influence of humans on the diversity of fish behavior and on how management can help preserve this diversity.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-humans-influence-f.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "87e195947b78",
+    "title": "Safety and Boundaries in AI Character Chat: What to Check Before You Share Personal Stories",
+    "url": "https://dev.to/pogee/safety-and-boundaries-in-ai-character-chat-what-to-check-before-you-share-personal-stories-4jn4",
+    "source": "dev.to (LLM)",
+    "section": "ai",
+    "published": "2026-11-03T22:37:04Z",
+    "excerpt": "People open AI character chat apps for many reasons: writing practice, comfort, curiosity, or a fictional world they want to live in for a while. Some conversations stay light. Others become personal. The moment you start sharing real feelings, private details, or stories that identify you, the app stops being just a writing tool and becomes something that holds pieces of your life. This guide is…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1d1v7a6jt7ywa57khow4.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "This article outlines safety practices and privacy considerations for users interacting with AI character chat applications. It recommends separating personal identities from fictional narratives, reviewing platform privacy policies, and establishing clear boundaries for roleplay sessions.",
+    "tags": [
+      "safety",
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fad3335a9150",
+    "title": "Final Fantasy 7 Remake And Rebirth Are Absurdly Cheap On Switch 2 Right Now",
+    "url": "https://kotaku.com/final-fantasy-7-remake-and-rebirth-are-absurdly-cheap-on-switch-2-right-now-2000752863",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T22:30:40Z",
+    "excerpt": "Two of the best RPGs on Nintendo's console are dirt cheap",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/cloud-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Final Fantasy VII Remake Intergrade and Rebirth are heavily discounted on the Switch 2 for a limited time. Both games offer solid performance on Nintendo's hardware despite minor visual compromises compared to other platforms.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bda8cd143e08",
+    "title": "Xbox Game Pass November 2026 Lineup Announced",
+    "url": "https://www.polygon.com/xbox-game-pass-escape-academy-2-warhammer-survivors-november-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T22:28:30Z",
+    "excerpt": "Escape Academy 2 and Warhammer Survivors headline Microsoft's latest Xbox Game Pass additions arriving in November.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/warhammer-survivors-key-art-3840x2160-no-logo.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Xbox Game Pass has announced its November 2026 lineup featuring multiple new titles. Subscribers can look forward to cooperative puzzle adventures, minimalist strategy games, and spin-offs from established franchises.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "88ff99e586ea",
+    "title": "Node.js Logout Button: Signing Out All Devices After Suspicious Activity Explained",
+    "url": "https://dev.to/ironspiredraven77/nodejs-logout-button-signing-out-all-devices-after-suspicious-activity-explained-2983",
+    "source": "dev.to (Go)",
+    "section": "coding",
+    "published": "2026-11-03T22:27:36Z",
+    "excerpt": "Use one account-wide revocation boundary for both the \"sign out all devices\" button and a completed password reset, and make every protected request check it before marketplace data is returned. A password change that leaves a stolen session usable is an unfinished recovery operation. TL;DR: For a Node.js application using Express middleware, keep an authoritative session generation on the account…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foehq2173flethc6es9rq.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "This article explains how to implement secure account-wide session revocation in Node.js applications using generation counters. It details how to bind browser sessions to an authoritative generation value and increment it upon suspicious activity or password resets to invalidate stolen sessions. Additionally, the text covers hardening the password recovery endpoint against enumeration and automated abuse.",
+    "tags": [
+      "security",
+      "web",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "221f2d635e55",
+    "title": "Ubisoft Makes Bid to Purchase Xbox Studio on the Brink of Closure",
+    "url": "https://www.polygon.com/ubisoft-xbox-arkane-studios-dishonored-blade/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T22:26:18Z",
+    "excerpt": "Ubisoft and other companies have reportedly made offers to buy Arkane from Xbox, which is looking to divest from the Marvel's Blade studio.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/10/dishonored-key-art.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Ubisoft has submitted a bid to acquire Arkane Studios as Microsoft explores options for the developer. The potential sale could prevent studio closures and allow ongoing projects like Marvel's Blade to continue development.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ba17646626e3",
+    "title": "GIMP 3.2.8 Released With Many Refinements, Numerous Security Fixes Due To AI Reports",
+    "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-03T22:21:50Z",
+    "excerpt": "GIMP 3.2.8 is out today as the newest stable release of this open-source image editing application that's most popular on the Linux desktop...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=gimp_326",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "GIMP 3.2.8 has been released with graphical user interface enhancements, improved HEIF loading capabilities, and better font-handling performance. The update also includes numerous security fixes addressing potential plugin vulnerabilities discovered through software testing. These improvements aim to provide a more stable and secure experience on Linux desktop systems.",
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "d0aa6d2ecc73",
+    "title": "Sonos adds new Presets and prepares for the 27voice AI beta",
+    "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T22:20:50Z",
+    "excerpt": "Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you're in the US, you […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25651509/_STK084_SONOS_C.png?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Sonos is rolling out an app update introducing custom presets and early access sign-ups for its upcoming AI voice assistant. The release follows recent efforts to overhaul the platform experience and incorporate AI agent capabilities.",
+    "tags": [
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "95bc8bf748ec",
+    "title": "iPhone Jailbreak Gets Past Lockdown Mode and Survives an Update",
+    "url": "https://www.macrumors.com/2026/11/03/iphone-jailbreak-lockdown-mode/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T22:20:33Z",
+    "excerpt": "Just over a week after jailbreaking an iPhone Duo on launch day, hacker team Calif is back with another jailbreak demonstration. This time, the group has jailbroken an iPhone in Lockdown Mode, and the jailbreak appears to persist across an iOS update. Calif shared a video of a jailbroken iPhone 18 Pro with Lockdown Mode on. From there, iOS 27.2 is installed, and the jailbreak remains in place afte…",
+    "image_url": "https://images.macrumors.com/article-new/2022/07/Lockdown-Mode-Feature.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "ios",
+      "safety",
+      "mobile"
+    ]
+  },
+  {
+    "id": "b601fda6ef58",
+    "title": "Light-matter hybrids form supersolid quantum state at room temperature",
+    "url": "https://phys.org/news/2026-11-hybrids-supersolid-quantum-state-room.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:20:11Z",
+    "excerpt": "Researchers from the Faculty of Physics at the University of Warsaw, the Military University of Technology (Poland), IBM Research Zurich and the French National Centre for Scientific Research (CNRS) have observed a new quantum state of matter known as a supersolid in an exciton-polariton Bose-Einstein condensate. Remarkably, the phenomenon occurs not at temperatures close to absolute zero, but at…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-quantum-state-of.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "bbf0ee193967",
+    "title": "How to Switch AI Character Chat Apps Without Losing Your Chats, Personas and Lore",
+    "url": "https://dev.to/pogee/how-to-switch-ai-character-chat-apps-without-losing-your-chats-personas-and-lore-4c1p",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T22:20:06Z",
+    "excerpt": "Switching AI character chat apps is common: features change, free tiers shrink, rules shift, or another app simply fits how you write. The hard part is not signing up somewhere else. It is moving what you already built—long chats, personas, and lore—without starting from zero. This is a practical migration checklist. It does not rank apps or invent export features that may not exist. It covers wha…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdzl1t3zbafus7zmlxlwe.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "This guide provides a practical checklist for migrating AI character chat apps without losing personal data. It categorizes content into character definitions, lore, and chat histories, advising users on what to export or copy manually. The process helps maintain continuity when switching platforms due to shifting features or pricing.",
+    "tags": [
+      "tutorial",
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "89e7c1ae9597",
+    "title": "Single-copy genes can be used as markers to distinguish between bacteria in the same family",
+    "url": "https://phys.org/news/2026-11-genes-markers-distinguish-bacteria-family.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T22:20:01Z",
+    "excerpt": "The more than 100 bacterial species of the genus Vibrio are important in marine ecosystems because they contribute to the carbon cycle and other ecological processes, but they can also be significant pathogens for both humans (they can cause cholera) and animals (they can drastically reduce productivity in fish and crustacean farms [e.g., prawns] or cause coral bleaching). Identifying and quantify…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/alternative-found-to-f.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "biology",
+      "climate"
+    ]
+  },
+  {
+    "id": "97ea381abb97",
+    "title": "Data centers are turning to old jet engines as the wait for power grows",
+    "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T22:19:53Z",
+    "excerpt": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less efficient and less environmentally friendly solution: once-discarded jet engines.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Commercial-plane-clouds.jpg?w=719",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "AI data center operators are increasingly turning to converted aircraft jet engines to generate electricity amidst long grid connection delays. While these temporary power sources allow facilities to launch much faster, they are less efficient and produce more emissions than standard power plants.",
+    "tags": [
+      "energy",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "343e26c0dbca",
+    "title": "Casio’s cute digital ring watch just got a successor",
+    "url": "https://www.androidauthority.com/casio-launches-crw-002-3731390/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-03T22:19:44Z",
+    "excerpt": "Casio is back to deliver peak digital nostalgia straight to your finger.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/Casio-CRW-002.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z"
+  },
+  {
+    "id": "4e50b52f3d1c",
+    "title": "Xbox leadership is \"a clownshow,\" says former studio VP amid COO's messy exit",
+    "url": "https://www.gamesradar.com/games/xbox-leadership-is-a-clownshow-says-former-studio-vp-amid-coos-messy-exit-i-feel-terrible-for-anyone-that-still-has-to-deal-with-it/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T22:18:05Z",
+    "excerpt": "\"The future of Xbox is cloudy indeed\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/xNaQuQcBs53YbV6DwjKhcE-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "fff3a2363e74",
+    "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
+    "url": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T22:15:33Z",
+    "excerpt": "In a new post today, Valve acknowledged that it's seen \"a significant increase in submissions for store and page review in recent months\" and says it's \"running a little behind\" by taking \"up to 12 business days\" for reviews instead of the typical 3-5 days. Indie developers have recently expressed frustrations over lengthy approval times […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "tags": [
+      "pc-gaming",
+      "indie",
+      "gaming"
+    ]
+  },
+  {
+    "id": "71c03383110d",
+    "title": "Nexus Mods rules out full AI ban despite community backlash",
+    "url": "https://www.videogameschronicle.com/news/nexus-mods-rules-out-full-ai-ban-despite-community-backlash/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-03T22:12:59Z",
+    "excerpt": "Nexus Mods rolls out new rules on AI usage in mods, but rules out banning AI mods altogether",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/Nexus-Mods-logo.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z"
+  },
+  {
+    "id": "5d6e3a885479",
+    "title": "Ubisoft reportedly wants to buy Arkane from Xbox",
+    "url": "https://www.pcgamer.com/gaming-industry/ubisoft-reportedly-wants-to-buy-arkane-from-xbox/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-03T22:12:35Z",
+    "excerpt": "There might be hope for Arkane after all: A new report says multiple companies have made offers for it.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/omjsXVE2okQWrjxMV2AeBi-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Ubisoft is reportedly among several companies considering the acquisition of developer Arkane. Microsoft previously extended its deadline to find a buyer for the studio following recent industry layoffs. A potential sale could prevent the studio's closure and integrate its immersive sim expertise into major franchises.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "97efcc86bc9b",
+    "title": "DC's Dynamic Duo movie officially casts How to Train Your Dragon star as Robin, confirms co-CEO",
+    "url": "https://www.gamesradar.com/entertainment/dc-movies/dcs-dynamic-duo-movie-officially-casts-how-to-train-your-dragon-star-as-robin-confirms-co-ceo/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T22:10:15Z",
+    "excerpt": "Mason Thames is set to voice Dick Grayson",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/pBfHAVLEcF6UNjtwDGPGKE-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Mason Thames has been officially cast as Dick Grayson, also known as Robin, in the upcoming animated film Dynamic Duo. The movie will explore the origin stories of the first two Robins and their differing visions for the future. Directed by Arthur Mintz and written by Matthew Aldrich, the project is scheduled for release in September 2028.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "07c190825232",
+    "title": "NetBSD 11.1 Released With Security Fixes \u0026 Other Improvements",
+    "url": "https://www.phoronix.com/news/NetBSD-11.1-Released",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-03T22:09:52Z",
+    "excerpt": "Following the release of NetBSD 11.0 in August, NetBSD 11.1 is out today with a collection of security fixes and other improvements...",
+    "image_url": "https://www.phoronix.net/image.php?id=bsd-linux-threadripper-7980x\u0026image=netbsd_10",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "NetBSD 11.1 is now available, bringing backported security fixes and various system improvements without breaking compatibility. The update addresses vulnerabilities in components like the X.Org Server and Brotli library. Additionally, it resolves stability issues for Raspberry Pi USB devices and fixes Wi-Fi hot-plugging bugs.",
+    "tags": [
+      "linux",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
     "id": "d15a33ccf6a4",
     "title": "SMS Delivery Status Explained — 3 Receipt Checks Before Fetching Events",
     "url": "https://dev.to/sawyerflynn1578/sms-delivery-status-explained-3-receipt-checks-before-fetching-events-43n",
     "source": "dev.to (Go)",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-11-03T22:07:47Z",
     "excerpt": "Customer support needs SMS delivery status events fetched via API to decide whether an order receipt should be sent again after payment settles. The constraint is evidentiary: a payment record, an accepted notification request, and a delivery observation answer different questions, so combining them into one success flag makes that decision difficult to defend. Short answer: fetch SMS delivery sta…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F171sdr0t5cd7puz21egt.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T22:12:45.892683367Z"
+    "first_seen": "2026-11-03T22:12:45.892683367Z",
+    "summary": "This article outlines how to integrate and verify SMS delivery status events via messaging APIs to support customer workflows. It proposes requiring strict checks across payment settlement, identity matching, and delivery evidence before authorizing actions. A structured adapter approach helps maintain reliable internal logic while handling external API responses.",
+    "tags": [
+      "web",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c315a5272c5f",
+    "title": "Ubisoft reportedly among studios offering to buy Arkane from Microsoft as it tries to finish Blade",
+    "url": "https://www.gamesradar.com/games/ubisoft-reportedly-among-the-studios-offering-to-buy-arkane-from-microsoft-as-it-tries-to-finish-blade/",
+    "source": "GamesRadar",
+    "section": "tech",
+    "published": "2026-11-03T22:07:25Z",
+    "excerpt": "I'm trying to imagine a Ubisoft logo on Dishonored 3",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/b25WzutVaspEszT7MboT9T-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "Ubisoft and several other companies have reportedly made offers to acquire Arkane Studios from Microsoft. Arkane is currently working on Marvel's Blade following the closure of its Austin branch. The potential sale comes as Microsoft evaluates its portfolio of Xbox developers.",
+    "tags": [
+      "startups"
+    ],
+    "enriched": true
   },
   {
     "id": "eafbecb43636",
@@ -67,17 +487,19 @@
     "title": "The Swiss Army Knife Trap: Why Wrapping Every API as an Agent Tool Backfires",
     "url": "https://dev.to/abivarma/the-swiss-army-knife-trap-why-wrapping-every-api-as-an-agent-tool-backfires-1be0",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T22:01:01Z",
     "excerpt": "You've got two ways to connect an agent to your backend, and each one breaks somewhere different. Wrap every endpoint as a tool and you keep flexibility: the agent can combine steps in ways nobody planned. It breaks when the job needs a long chain and the ordering rules live in the prompt. Build a few deep tools shaped around whole tasks and the steps run in code. That breaks when a job falls outs…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo79cqads8wowfjf2hho0.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T22:12:45.892683367Z",
+    "summary": "This article examines the pitfalls of wrapping every backend API endpoint as a shallow tool for AI agents. It argues that providing too many fine-grained tools increases token consumption, compounds error rates in multi-step tasks, and burdens prompts with strict ordering rules. Instead, it recommends building deep, task-specific tools managed by deterministic code.",
     "tags": [
       "agents",
-      "prompting"
-    ]
+      "llm"
+    ],
+    "enriched": true
   },
   {
     "id": "519310b2a984",
@@ -220,7 +642,7 @@
     "section": "coding",
     "published": "2026-11-03T21:51:06Z",
     "image_checked": true,
-    "points": 6,
+    "points": 27,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "This resource provides documentation regarding the internal mechanisms of PostgreSQL. It outlines the terms for noncommercial educational use while restricting commercial reproduction. The documentation is maintained as an HTML-optimized reference by its author.",
@@ -234,13 +656,18 @@
     "title": "Free vs Paid AI Character Chat Apps: What You Actually Get on Each Tier (and When Upgrading Is Worth It)",
     "url": "https://dev.to/pogee/free-vs-paid-ai-character-chat-apps-what-you-actually-get-on-each-tier-and-when-upgrading-is-boo",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T21:50:53Z",
     "excerpt": "Almost every AI character app now follows the same pattern: a free tier that lets you start chatting right away, and one or more paid plans that promise \"more.\" The problem is that \"more\" is rarely explained in terms that matter to you. Does a subscription make characters smarter, or just faster? Will your character finally stop forgetting things? Is the free tier a real product or a demo? This gu…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsxxypiehj9zhuevh19tx.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T22:07:03.034214394Z"
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "summary": "This guide examines the differences between free and paid tiers in AI character chat applications. It evaluates common upgrades such as response speed, message limits, memory capacity, and model quality to help users determine when a subscription is worthwhile.",
+    "tags": [
+      "llm"
+    ],
+    "enriched": true
   },
   {
     "id": "9953c1043481",
@@ -338,7 +765,7 @@
     "section": "ai",
     "published": "2026-11-03T21:40:53Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 32,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "This book offers a mathematical introduction to modern generative artificial intelligence. It connects major generative model families such as variational autoencoders, diffusion models, and generative adversarial networks. The text serves as a foundation for researchers and students seeking to understand the mathematical derivation of these models.",
@@ -381,7 +808,7 @@
     "section": "phones",
     "published": "2026-11-03T21:39:05Z",
     "image_url": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
-    "points": 72,
+    "points": 140,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "Safari has introduced an Adaptive Dark Mode feature in its beta release. The tool automatically converts bright web pages into a dark format when enabled, maintaining color hue and contrast standards. It analyzes page elements like backgrounds, text, and images to ensure readability without altering native dark sites.",
@@ -452,7 +879,7 @@
     "section": "ai",
     "published": "2026-11-03T21:26:44Z",
     "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover\u0026gravity=faces\u0026dpr=2\u0026quality=medium\u0026source=nar-cms\u0026format=jpg\u0026width=1260\u0026height=630",
-    "points": 28,
+    "points": 55,
     "weight": 1,
     "first_seen": "2026-11-03T22:07:03.034214394Z",
     "summary": "Major U.S. technology companies have seen their off-balance-sheet debt related to artificial intelligence obligations surge significantly over a six-month period. These commitments now represent a vast portion of their total assets. The rapid accumulation highlights the heavy financial investments being poured into AI infrastructure.",
@@ -470,7 +897,7 @@
     "section": "ai",
     "published": "2026-11-03T21:25:48Z",
     "image_checked": true,
-    "points": 32,
+    "points": 50,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "tags": [
@@ -585,7 +1012,7 @@
     "section": "coding",
     "published": "2026-11-03T21:16:48Z",
     "image_url": "https://opengraph.githubassets.com/762e315693671ef15400f1f6fffb07ad54479b2dfd75b8dd0887f21d114e496c/finic-ai/kairos",
-    "points": 20,
+    "points": 24,
     "weight": 1,
     "first_seen": "2026-11-03T21:42:26.195492856Z",
     "summary": "Kairos is an open-source fraud decisioning and risk management platform designed for developers. It integrates with AI coding assistants over the Model Context Protocol to automatically build workflows, propose model variants, and tune decisions. The platform combines traditional machine learning with natural language reasoning models to process real-time transactional events.",
@@ -1140,7 +1567,7 @@
     "section": "ai",
     "published": "2026-11-03T20:33:23Z",
     "image_url": "https://helgesver.re/og/article-macos-vulgar-word-flags.png",
-    "points": 119,
+    "points": 125,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "An investigation into Apple's internal word-usage database reveals how macOS and iOS track profanity to improve autocorrect. The author uncovered system dictionary classifications for sensitive and vulgar terms across multiple languages. Private framework functions were used to extract the undocumented data.",
@@ -1346,7 +1773,7 @@
     "source": "The Verge",
     "section": "phones",
     "published": "2026-11-03T20:16:54Z",
-    "excerpt": "After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, including a larger battery and […]",
+    "excerpt": "After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple of upgrades with the price hike, including a larger battery […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257946_iPhone_17_AKrales_0063.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
@@ -1474,7 +1901,7 @@
     "section": "tutorials",
     "published": "2026-11-03T20:07:41Z",
     "image_url": "https://vinipsmaker.github.io/blog-heading.webp",
-    "points": 20,
+    "points": 25,
     "weight": 1,
     "first_seen": "2026-11-03T20:29:14.210335339Z",
     "summary": "This article explores Pratt parsing, arguing that understanding the algorithm's underlying mindset is more important than memorizing its implementation details. It highlights how treating tokens as nuds or leds simplifies parsing design.",
@@ -1885,7 +2312,7 @@
     "section": "linux",
     "published": "2026-11-03T19:32:13Z",
     "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
-    "points": 138,
+    "points": 144,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
@@ -1973,7 +2400,7 @@
     "section": "linux",
     "published": "2026-11-03T19:27:53Z",
     "image_checked": true,
-    "points": 46,
+    "points": 64,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "summary": "The latest macOS release drops support for CoreStorage volumes and encrypted HFS+ file systems, rendering older storage media inaccessible. Users are unable to mount, convert, or erase these volumes through standard disk utilities. The operating system provides misleading error messages and lacks backward compatibility paths for affected hardware.",
@@ -2026,7 +2453,7 @@
     "section": "tutorials",
     "published": "2026-11-03T19:25:18Z",
     "image_checked": true,
-    "points": 41,
+    "points": 42,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
@@ -2349,6 +2776,24 @@
     "enriched": true
   },
   {
+    "id": "4cccdf7854c4",
+    "title": "How to Find and Fix Common Technical SEO Issues on Your Website",
+    "url": "https://www.freecodecamp.org/news/fix-common-technical-seo-issues/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-03T19:00:29Z",
+    "excerpt": "Let's say you've built a website. You've invested in the design, bought a domain, and so on. But a website isn't only what you see on the screen. A lot happens behind the scenes. You have to understan",
+    "image_url": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/8d158690-136a-44a2-aa34-e24be77e004c.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "This tutorial explains how to identify and resolve common technical SEO issues that prevent search engines from crawling websites. It covers topics such as HTTP status codes, robots.txt configurations, canonical tags, and meta directives using a practice environment.",
+    "tags": [
+      "tutorial",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
     "id": "c0abe12ede84",
     "title": "What Overwatch Learned About Its Own Story In 2026",
     "url": "https://kotaku.com/overwatch-story-season-6-omnic-detective-cinematic-doomfist-vendetta-2000752813",
@@ -2626,6 +3071,24 @@
     "tags": [
       "llm",
       "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "2396fdff656f",
+    "title": "How to Automate Docker Image Creation for Postgres Using Shell Commands",
+    "url": "https://www.freecodecamp.org/news/how-to-automate-docker-image-creation-for-postgres-using-shell/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-03T18:40:47Z",
+    "excerpt": "If you have certain lines of code that repeat over and over again in a project, there's a pretty standard solution for it: using a function. But what about when you have the same project file setup th",
+    "image_url": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/60aa4c00-42d7-4e36-84b4-89f55b140dca.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T22:50:25.444250434Z",
+    "summary": "This guide demonstrates how to use Bash scripting to automate the creation of Docker images for PostgreSQL databases. It covers essential shell commands, conditions, and file management to streamline repetitive project setups.",
+    "tags": [
+      "tutorial",
+      "devtools"
     ],
     "enriched": true
   },
@@ -3169,7 +3632,7 @@
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 42,
+    "points": 50,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -3631,17 +4094,20 @@
     "title": "I crawled 150 pages from 6 popular docs sites into RAG chunks: one page often eats half the token budget",
     "url": "https://dev.to/fast_data_asap/i-crawled-150-pages-from-6-popular-docs-sites-into-rag-chunks-one-page-often-eats-half-the-token-130f",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T17:46:24Z",
     "excerpt": "If you build a RAG bot on top of someone's documentation, the first crawl decides what your retriever will see. I wanted to know what a naive crawl of popular docs sites actually returns, so on 3 November 2026 I pointed a crawler at six of them and counted. Disclosure: I built the crawler used here, Website to LLM Markdown on Apify. It turns pages into clean Markdown and token-counted chunks. Setu…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjjwvw2yectbj49gs5cdk.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "An analysis of popular software documentation crawls reveals that a small number of extensive pages, such as release notes and changelogs, consume a disproportionate share of the token budget in retrieval-augmented generation systems. Furthermore, multilingual translations can introduce significant noise into vector databases when answering queries in a single language.",
     "tags": [
       "llm",
-      "rag"
-    ]
+      "rag",
+      "data"
+    ],
+    "enriched": true
   },
   {
     "id": "f3b715fa86cf",
@@ -4103,7 +4569,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 851,
+    "points": 899,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -4817,7 +5283,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 241,
+    "points": 274,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -4936,7 +5402,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 36,
+    "points": 39,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -5252,7 +5718,13 @@
     "excerpt": "Comments",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
+    "first_seen": "2026-11-03T18:24:33.525130791Z",
+    "summary": "This article explores the second Futamura projection by applying a program specializer to itself with an interpreter as its input, effectively deriving a standalone compiler. It details the theoretical background and the practical challenges of handling static and dynamic evaluations during the specialization process.",
+    "tags": [
+      "research",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "2278cf2ca6f6",
@@ -5276,16 +5748,19 @@
     "title": "6 Go Template Ownership Decisions for Secure E-Commerce Password Reset Email",
     "url": "https://dev.to/carterhughes6853/6-go-template-ownership-decisions-for-secure-e-commerce-password-reset-email-2pfi",
     "source": "dev.to (Go)",
-    "section": "tutorials",
+    "section": "coding",
     "published": "2026-11-03T16:13:52Z",
     "excerpt": "An e-commerce recovery email should carry less data than a receipt. TL;DR: include a secure, unique, time-bound reset link, state its expiration, give short reset instructions, and provide a support contact. An IP or device-location notice can add useful context. Never include the current password or other sensitive account data. Keep bounce handling and invalid-recipient suppression in the delive…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Freon5wwp3bh6hvulyq2b.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "This article outlines essential design and ownership principles for secure e-commerce password reset emails built with Go. It emphasizes minimizing included data, strictly managing token expiration, and keeping template ownership close to the application logic to reduce security risks.",
     "tags": [
-      "go"
-    ]
+      "go",
+      "security"
+    ],
+    "enriched": true
   },
   {
     "id": "070c295e04bd",
@@ -5447,17 +5922,19 @@
     "title": "One 4k prompt costs a serving node as much as 900 generated tokens",
     "url": "https://dev.to/jaxsinclair/one-4k-prompt-costs-a-serving-node-as-much-as-900-generated-tokens-cjn",
     "source": "dev.to (LLM)",
-    "section": "tutorials",
+    "section": "ai",
     "published": "2026-11-03T16:04:48Z",
     "excerpt": "A node serving Llama-3.1-70B, 32 conversations streaming, GPU pegged at 95%. Then someone pastes a document. Every live conversation freezes for most of a second, then resumes. Nothing is broken and no config is wrong. The prefill is doing exactly what the arithmetic says it should, and the arithmetic says it costs far more than the time-to-first-token graphs imply. Time to first token measures th…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftbknuagqwwebuh9prt3w.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
+    "summary": "A performance analysis of serving large language models demonstrates that processing a lengthy prompt requires significantly more compute resources than generating individual tokens. The study highlights how large prefill workloads temporarily impact active streaming conversations on a GPU node.",
     "tags": [
-      "prompting",
-      "chips"
-    ]
+      "llm",
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "9a64c5cb424f",
@@ -6129,7 +6606,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 398,
+    "points": 414,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6212,7 +6689,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 475,
+    "points": 505,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -6373,7 +6850,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 58,
+    "points": 60,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -6797,7 +7274,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 270,
+    "points": 281,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -6903,7 +7380,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 63,
+    "points": 65,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -8408,7 +8885,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 837,
+    "points": 852,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -10966,7 +11443,7 @@
     "section": "tech",
     "published": "2026-11-03T01:18:09Z",
     "image_checked": true,
-    "points": 65,
+    "points": 89,
     "weight": 1,
     "first_seen": "2026-11-03T20:35:18.443973736Z",
     "summary": "HackerTV is a 24/7 streaming service that broadcasts the most frequently recommended YouTube videos from Hacker News. Viewers can watch a shared stream and navigate channels using keyboard shortcuts. The platform offers interactive controls for captions, audio, and display modes.",
@@ -12601,7 +13078,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 105,
+    "points": 108,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -14173,9 +14650,11 @@
     "published": "2026-11-02T15:40:04Z",
     "image_url": "https://www.autodidacts.io/content/images/2026/10/winnie-the-pooh-honey-pot-1.jpg",
     "image_checked": true,
-    "points": 6,
+    "points": 12,
     "weight": 1,
-    "first_seen": "2026-11-03T22:07:03.034214394Z"
+    "first_seen": "2026-11-03T22:07:03.034214394Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "969d4bd65e4f",
@@ -15009,7 +15488,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 331,
+    "points": 341,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -16001,7 +16480,7 @@
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 88,
+    "points": 93,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -16102,7 +16581,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 115,
+    "points": 116,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -16404,7 +16883,7 @@
     "published": "2026-11-02T04:31:20Z",
     "image_url": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
     "image_checked": true,
-    "points": 37,
+    "points": 53,
     "weight": 1,
     "first_seen": "2026-11-03T21:05:01.462553724Z",
     "enriched": true,
@@ -17543,7 +18022,7 @@
     "published": "2026-11-01T04:05:23Z",
     "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
     "image_checked": true,
-    "points": 37,
+    "points": 44,
     "weight": 1,
     "first_seen": "2026-11-03T20:04:34.399819931Z",
     "summary": "Developers are training specialized AI models to handle iterative editing tasks within Figma, aiming to speed up everyday design workflows. By moving beyond prompt engineering, the team utilized supervised fine-tuning and synthetic data generation to teach models native Figma syntax. Current efforts focus on incorporating reinforcement learning to improve generalization and better align model outputs with professional design standards.",
@@ -17603,7 +18082,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 214,
+    "points": 216,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
