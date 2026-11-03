@@ -1,5 +1,866 @@
 [
   {
+    "id": "c9e8dced1f2b",
+    "title": "I saved money by replacing 6 paid subscription Android apps with open source alternatives",
+    "url": "https://www.androidpolice.com/replacing-paid-subscription-android-apps-with-open-source-alternatives-saved-money/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-03T20:00:10Z",
+    "excerpt": "Create a subscription-free Android setup with these free open source gems",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/08/open-source-logo-surrounded-by-icons-representing-security-freedom-and-cost-savings.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "A technology writer discusses their experience replacing paid subscription mobile apps with privacy-focused, open-source alternatives on Android. By transitioning services like file management and cloud storage to platforms such as Nextcloud and Fossify, users can eliminate recurring fees while maintaining modern design standards. These open-source options offer enhanced customization and data control without intrusive tracking or paywalls.",
+    "tags": [
+      "open-source",
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4686cab5395b",
+    "title": "Researchers target PFAS with lower-temperature destruction method",
+    "url": "https://phys.org/news/2026-11-pfas-temperature-destruction-method.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:00:07Z",
+    "excerpt": "Removing harmful chemicals from contaminated water is only one step toward their elimination. Once collected in filtration materials, these chemicals must still be destroyed and detoxified to prevent contamination from moving into another waste stream.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-target-pfa.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "350b4ca27a5f",
+    "title": "Global accounting reveals economic toll of ecosystem losses from rising seas",
+    "url": "https://phys.org/news/2026-11-global-accounting-reveals-economic-toll.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T20:00:01Z",
+    "excerpt": "A global accounting puts the value of ecosystem services that could be lost to sea level rise at well over 100 billion in 2020 international dollars (Int$2020) per year by 2100, according to a study—and the nations that are likely to lose the most are not the highest emitters.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-costs-of-sea-level.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "0da580aeb084",
+    "title": "How To Pitch Stories To Kotaku",
+    "url": "https://kotaku.com/how-to-pitch-stories-to-kotaku-2000752450",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T20:00:00Z",
+    "excerpt": "Come write for us",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/kotaku-pitches.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "e6d10beda1ac",
+    "title": "PlayStation’s Black Friday sale includes Wolverine, Astro Bot, and more",
+    "url": "https://www.videogameschronicle.com/news/playstations-black-friday-sale-includes-wolverine-astro-bot-and-more/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-03T19:53:36Z",
+    "excerpt": "Marvel's Wolverine and The Blood of Dawnwalker are amongst the recent releases included in PlayStation's Black Friday sale",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/PlayStation-Black-Friday-2026-Astro-Bot-and-Wolverine.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "PlayStation has announced its upcoming Black Friday sale, featuring software discounts of up to 75% on titles like Marvel's Wolverine and Astro Bot. The event will run through November, though no hardware price drops or accessory deals have been revealed. This comes amid ongoing community debate following Sony's announcement regarding physical game releases.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e954a265e64f",
+    "title": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
+    "url": "https://dev.to/ashish_624379625242c5d263/emotional-intimacy-from-ai-chatbots-would-be-banned-under-australias-digital-duty-of-care-laws-36jg",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T19:52:35Z",
+    "excerpt": "호주가 '정서적 친밀감' AI 챗봇을 금지하려는 이유 — 그리고 기술이 대신하는 것과 되찾는 것 2026년 10월 28일, The Guardian은 호주 연방정부가 '정서적 친밀감(emotional intimacy)'을 형성하려는 AI 챗봇을 금지하는 방안을 추진 중이라고 보도했습니다. 발단은 앨버니지(Anthony Albanese) 총리의 발언이었습니다. 그는 아이들이 AI 에이전트를 '가장 친한 친구'로 여기고 있다고 경고했고, 이후 노동당 정부는 소셜 미디어 감시 기구 신설 압박과 함께 새로운 온라인 안전 기준 법안을 하원에서 통과시켰습니다. 이 뉴스를 단순한 규제 헤드라인으로 소비하기는 아깝습니다. 여기에는 더 근본적인 질문이 들어 있습니다. 디지털 기기가 인간의 경험을 '대신하는' 것은 어디까지 허…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjyjknvjsf7gkpeaaxwwr.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "20eaa515a1d3",
+    "title": "iOS 27.3 expands Siri AI to these new languages",
+    "url": "https://9to5mac.com/2026/11/03/ios-27-3-expands-siri-ai-to-these-new-languages/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:51:07Z",
+    "excerpt": "iOS 27.3 is available now in beta, and it’s a big release for Siri AI improvements. Joining new app actions, Siri Recaps, and developer features, iOS 27.3 also expands Siri AI to several additional languages. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/siri-ai-orb-generic-wwdc.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The iOS 27.3 beta update expands Siri AI language support to four new languages, bringing the total to ten. The update also introduces new in-app actions, developer tools, and a Siri Recap feature ahead of its public release.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "416a81d029b3",
+    "title": "31 Moments That Made The Dragon Age Series Unforgettable",
+    "url": "https://kotaku.com/dragon-age-origins-2-inquisition-veilguard-best-moments-1851754817",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T19:50:01Z",
+    "excerpt": "From Origins to The Veilguard , here are our favorite quests, characters, and choices in Thedas",
+    "image_url": "https://kotaku.com/app/uploads/2024/11/6cc971b6c453556a631443bb881f44eb-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Following BioWare's closure, this retrospective looks back at memorable moments across the four Dragon Age games. It highlights the distinct narrative beginnings in Origins and iconic character introductions that defined the fantasy role-playing franchise.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e82df42b1a00",
+    "title": "Sony Pushes PS5 Owners To Trade In Consoles Amid Unprecedented Price Hikes",
+    "url": "https://www.polygon.com/ps5-trade-in-sony-offer-how-much-pro-digital-model-refurbished-used/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T19:48:27Z",
+    "excerpt": "Sony pursues new trade-in options as prices for PS5 consoles surge, but fans are unsure if it's a good deal",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22015056/jbareham_201022_ply1040_ps5_lead_0002.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Amid rising console prices driven by supply constraints and hardware costs, Sony is partnering with Back Market to offer trade-in incentives for existing PS5 owners. The initiative coincides with the holiday season and the anticipated launch of major titles, mirroring similar hardware trade-in efforts by Microsoft.",
+    "tags": [
+      "gaming",
+      "hardware",
+      "consoles"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f8f43c93a51f",
+    "title": "iOS 27.3 Adds Vertical Tabs and Adaptive Dark Mode to Safari",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:47:50Z",
+    "excerpt": "With iOS 27.3, iPadOS 27.3, and macOS Golden Gate 27.3, Apple is making major updates to Safari. The browser is getting a Vertical Tabs layout, which can be used instead of the standard horizontal tab bar. It's a change that pairs well with the iPhone Duo 's larger display, but it is available across iPhone, iPad , and Mac. Vertical Tabs are located on the left side of the display and use icons by…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/safari-vertical-tabs.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple's upcoming software betas introduce major enhancements to Safari across iPhone, iPad, and Mac. The updates bring a vertical tab bar option, Adaptive Dark Mode for unsupported websites, and expanded Siri AI capabilities for tab and browsing history management.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "2da9adb0e911",
+    "title": "Claude Message Threads Are Fast Until Your Agent Waits 5 Minutes",
+    "url": "https://dev.to/dishant0406/claude-message-threads-are-fast-until-your-agent-waits-5-minutes-ip2",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T19:47:08Z",
+    "excerpt": "Someone on r/ClaudeAI summed the whole launch up in five words: \"5 minutes ttl is such BS.\" That was one of the top comments under Anthropic's message threads announcement, posted hours after it went live. The feature itself is clean. You send the conversation once. Every turn after that sends only the new message plus a previous_message_id . Anthropic says median time to first token drops about 3…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fdishant0406%2Fblog-assets%2Fmain%2Fclaude-message-threads-cover.webp",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "8f72d813f63a",
+    "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
+    "url": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T19:45:48Z",
+    "excerpt": "Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/dprk-kim-2252780532.jpg?resize=1200,801",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Binance confirmed that North Korean hackers utilized a sophisticated social engineering scheme involving fake job interviews to compromise employee laptops, resulting in a massive cryptocurrency theft. Cybersecurity researchers have previously warned about state-sponsored threat actors employing similar tactics to target tech and crypto industry workers.",
+    "tags": [
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "6065a1d20c3d",
+    "title": "This Election Day, remember which party ran against EVs and tethered us all to the gas pump",
+    "url": "https://www.theverge.com/transportation/1025318/trump-gop-ev-war-record-gas-prices-midterms",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-03T19:44:46Z",
+    "excerpt": "It's the midterms! Here's a fun fact for you as you head to the polls: Gas prices today are the highest ever recorded for a US Election Day. The national average for a gallon of gasoline is $4.12 and $6.28 for a gallon of diesel, according to GasBuddy. Meanwhile, the Strategic Petroleum Reserve, which is […]",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "f6771aaa3b7d",
+    "title": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
+    "url": "https://www.pcgamer.com/games/fps/crowning-the-greatest-fps-mode-of-all-time-through-1v1-combat-semifinals/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-03T19:41:04Z",
+    "excerpt": "Battle royale is dead. Bomb be gone. It only gets harder from here...",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/YaMpuvXrbCsUQ5NSwnxLG4-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "A gaming column hosts a community vote to determine the greatest first-person shooter mode of all time, narrowing down the competition through various bracket matches. The semifinals feature classic formats like Team Deathmatch, Conquest, Payload, and Capture the Flag.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cbac94b283e2",
+    "title": "For GTA 6, Xbox Put an Xbox Series X in an Alligator",
+    "url": "https://www.polygon.com/xbox-alligator-console-giveaway-november-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T19:40:39Z",
+    "excerpt": "Xbox has unveiled the Series X-BITE, a working Xbox Series X swallowed by a custom alligator. Here's how to enter the giveaway.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/xbox_series_details_eye-ad394b64c37d3a09ed93.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Microsoft created a unique, custom-fabricated Xbox Series X shaped like an alligator to celebrate the upcoming release of Grand Theft Auto 6. The one-of-a-kind console, featuring an interactive design by John Nolan Studio, is being given away through a sweepstakes.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4db9c2cc4b7c",
+    "title": "Silent lakes ahead? Long-term study finds common loon productivity is dropping across North America",
+    "url": "https://phys.org/news/2026-11-silent-lakes-term-common-loon.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:40:12Z",
+    "excerpt": "The eerie call of the common loon has long been the sound of North America's northern lakes, but new research shows it may not be that way in the future. A new study led by Birds Canada analyzed breeding attempts across nine Canadian provinces and seven U.S. states. The researchers found a widespread, long-term plunge in loon chick production across their range.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/silent-lakes-ahead-lan.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "4bdd6dcf99d8",
+    "title": "Microbiome research reveals how bacterial lipids influence liver and muscle health in mice",
+    "url": "https://phys.org/news/2026-11-microbiome-reveals-bacterial-lipids-liver.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:40:01Z",
+    "excerpt": "An interdisciplinary team of researchers from UConn and the University of Pittsburgh is filling knowledge gaps about the surprising roles that our microbiomes play in our health. The team's recent studies, published in Gastro Hep Advances and The Journal of Physiology, focus on Bacteroidota species that grow in our guts and mouths, where they produce glycine lipids that interact with our metabolis…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/exploring-more-surpris.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "e79213f61a3f",
+    "title": "Best Early Black Friday Mac Deals: Save Hundreds on MacBook Air, Mac Mini, and More",
+    "url": "https://www.macrumors.com/2026/11/03/best-early-black-friday-mac-2026/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:40:00Z",
+    "excerpt": "We're getting closer to Black Friday , which lands on Friday, November 27 this year. In the lead-up to the shopping holiday, we're tracking a few lowest-ever prices on Apple's most popular Macs, including the M5 MacBook Air, MacBook Neo, and the new Mac mini and Mac Studio. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/macs-black-friday.jpeg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T18:24:33.525130791Z"
+  },
+  {
+    "id": "d6d242dfb87b",
+    "title": "Apple Fitness+ Gets Gym Strength Plans in iOS 27.3",
+    "url": "https://www.macrumors.com/2026/11/03/apple-fitness-plus-gym-strength/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:35:33Z",
+    "excerpt": "With iOS 27.3, Apple is adding a new Gym Strength workout to Apple Fitness+. It's a custom fitness option that generates a four-week plan based on a user's goals, experience, schedule, and equipment. People of all experience levels can use the feature, selecting workout days, areas of the body to focus on, and session length. Workouts have recommendations for exercises, reps, sets, and load, plus…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/apple-fitness-plus-strength.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "42ec3b43220b",
+    "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+    "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+    "source": "TechCrunch",
+    "section": "ai",
+    "published": "2026-11-03T19:34:43Z",
+    "excerpt": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Artificial intelligence inference startup Fal has doubled its valuation to $16 billion following a massive funding round led by major investors. The company experienced rapid revenue growth driven by soaring demand for running and hosting generative media models.",
+    "tags": [
+      "startups",
+      "chips"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a010bae6b2ed",
+    "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+    "url": "https://flipper.net/pages/flipper-one",
+    "source": "Hacker News",
+    "section": "linux",
+    "published": "2026-11-03T19:32:13Z",
+    "image_url": "http://flipper.net/cdn/shop/files/page_flipper-one_og-image.png?v=1785249769",
+    "points": 18,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The Flipper One is an open-source Linux computer featuring an ARM processor and expandable hardware options via M.2 modules. It utilizes a dual-processor architecture combining a low-power microcontroller with a high-performance system-on-chip. The device supports mainline Linux kernels and provides built-in networking tools and power monitoring features.",
+    "tags": [
+      "linux",
+      "hardware",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1e521e7c9ced",
+    "title": "iOS 27.3 brings Apple Intelligence features to China",
+    "url": "https://9to5mac.com/2026/11/03/ios-27-3-brings-apple-intelligence-features-to-china/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:31:26Z",
+    "excerpt": "iOS 27.3 beta 1 is here , and it includes the first Apple Intelligence features in China. Siri AI isn’t available yet, but a lot of other capabilities are. Here’s what to expect. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-intelligence-ai-iphone-18-pro-blue.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The iOS 27.3 beta brings initial Apple Intelligence features to users in China following regulatory approval and a partnership with Alibaba. While advanced Siri AI features are omitted in this release, tools like live translation, writing assistance, and visual intelligence are included. These updates focus on bringing older AI capabilities to compatible devices in the region.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f796e1f2ecc3",
+    "title": "iOS 27.3 Adding New StandBy Mode Features to iPhone 11 and Newer",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-new-standby-features-on-more-iphones/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:31:18Z",
+    "excerpt": "iOS 27.3 will expand new StandBy features first introduced on the iPhone Duo to all iPhone models compatible with the update, according to Apple. StandBy mode makes it easier to view information at a glance while your iPhone is placed on a charger and in a landscape position. It effectively turns an iPhone into a bedside clock with some extra details. On the iPhone Duo, StandBy also works when the…",
+    "image_url": "https://images.macrumors.com/article-new/2023/06/StandBy-iOS-17.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "01fd782c8f92",
+    "title": "Someone Just Figured Out How To Recruit A Previously Unrecruitable Party Member In A Nearly 30-Year-Old RPG",
+    "url": "https://kotaku.com/someone-just-figured-out-how-to-recruit-a-previously-unrecruitable-party-member-in-a-nearly-30-year-old-rpg-2000752817",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T19:30:17Z",
+    "excerpt": "You can get Lilith in Tales of Destiny after all, no cheats required",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/tales-of-destiny-lilith-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Nearly thirty years after the release of Tales of Destiny on the PlayStation 1, a fan has discovered a method to recruit a tenth party member previously thought unobtainable. The convoluted process requires players to avoid taking items from houses and prevent specific warnings from party members throughout the campaign. Original developers have acknowledged the discovery, noting that the unusual recruitment can cause a softlock in the original version.",
+    "tags": [
+      "indie",
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "6b39ed07a761",
+    "title": "Silk microneedles offer new way to deliver vaccines to farmed fish",
+    "url": "https://phys.org/news/2026-11-silk-microneedles-vaccines-farmed-fish.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:30:01Z",
+    "excerpt": "Fish that are cultivated in pools or ponds are an increasingly important source of food around the world. Unfortunately, disease outbreaks can cause substantial losses in aquaculture.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/farmed-fish.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "bae22e098cf2",
+    "title": "Apple Releases New AirPods Beta Firmware",
+    "url": "https://www.macrumors.com/2026/11/03/airpods-beta-firmware-9b5045a/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:29:37Z",
+    "excerpt": "Apple today released new beta firmware for the AirPods Pro 2, AirPods Pro 3 , AirPods 4, AirPods 5 , and AirPods Max 2 . The firmware has a build number of 9B5045a and is rolling out for developers and public beta testers. There's no word on what's included in the firmware update because Apple doesn't offer notes for AirPods beta releases. When the AirPods are connected to an iPhone, iPad , or Mac…",
+    "image_url": "https://images.macrumors.com/article-new/2026/08/AirPods-Pro-Beta-Firmware-2.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "d44503d8dcba",
+    "title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
+    "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-03T19:27:07Z",
+    "excerpt": "The waiting ain't over yet.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/Ga5SmnSkfRrmx9ChoFQAxg-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Bethesda has confirmed that development on The Elder Scrolls VI, subtitled Sentinel, is ongoing, but cautioned that it will be a significant wait before more information is shared. The official title and setting reveal comes roughly eight years after the initial teaser trailer. Industry insiders suggest the release remains more than two years away.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "0bb6fa138b47",
+    "title": "Developers can now create advanced ‘app skills’ for Siri AI",
+    "url": "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:25:48Z",
+    "excerpt": "Apple today announced a major new Siri AI initiative for third-party developers, allowing any app to create Siri AI integrations for the first time. The first versions of Siri AI were limited to a much smaller set of supported schemas. The new ‘app skills’ also let apps teach Siri how to coordinate complicated multi-step actions. These features will become available as part of iOS 27.3, macOS 27.3…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Siri-AI-Beta-macOS-27-Top-Features.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Apple has introduced advanced app skills for Siri AI, allowing third-party developers to integrate complex multi-step actions into their applications. Debuting in upcoming operating system updates, the feature enables Siri to coordinate workflows across different apps without requiring explicit commands mentioning the software names. Developers can test these capabilities using current beta releases.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bcdf1947b217",
+    "title": "Introduction to Programming in ATS",
+    "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+    "source": "Hacker News",
+    "section": "tutorials",
+    "published": "2026-11-03T19:25:18Z",
+    "image_checked": true,
+    "points": 13,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "This book introduces the ATS programming language, covering its advanced type system and functional programming features. It explores topics such as dependent types, linear types, and theorem-proving concepts within the language. The text is designed for experienced programmers looking to understand ATS's unique core features.",
+    "tags": [
+      "tutorial",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5231ca75875c",
+    "title": "iOS 27.3 Beta Brings Apple Intelligence to China",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-apple-intelligence-china-2/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:25:00Z",
+    "excerpt": "Select Apple Intelligence features are now available in China , with Apple testing the functionality in the iOS 27.3 beta. Developers in China can turn on ‌Apple Intelligence‌ after updating to the new software. ‌Apple Intelligence‌ first launched in the United States with iOS 18.1, but Apple was not able to bring it to China until it partnered with Alibaba and won approval from Chinese regulators…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/apple-intelligence-china.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Apple has released the iOS 27.3 beta, introducing select Apple Intelligence capabilities to developers in China. The implementation integrates Alibaba's Qwen model to power features like writing tools, live translation, and visual intelligence. Additional system updates also enhance Siri functionality and introduce various organizational tools across Apple applications.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1ad7effb0a17",
+    "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
+    "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T19:24:37Z",
+    "excerpt": "The new ad placements could help Reddit squeeze more revenue from existing users as Google's AI search changes how people discover its content.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1048288996.jpg?resize=1200,675",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Reddit is testing advertisements within its search results pages as the company faces declining search traffic referrals driven by AI search experiences and plateauing daily active users. The initial test involves a select group of advertisers targeting contextual search queries. This move comes alongside plans to transition toward a logged-in user experience to protect content and boost advertising value.",
+    "tags": [
+      "web",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4edfea35bc40",
+    "title": "watchOS 27.3 Brings Live Rewind and Siri Recap to Apple Watch",
+    "url": "https://www.macrumors.com/2026/11/03/watchos-27-3-audio-intelligence/",
+    "source": "MacRumors",
+    "section": "ai",
+    "published": "2026-11-03T19:22:24Z",
+    "excerpt": "With the first beta of watchOS 27.3, Apple is introducing new Audio Intelligence features it previewed for the Apple Watch Series 12 and Ultra 4 earlier this year. Powered by the S11 chip, Audio Intelligence includes Live Rewind, Siri Recap, Sound Recognition, and Shazam Music Recognition. Sound Recognition and Shazam are already on the watch, but Live Rewind and ‌Siri‌ Recap are now available in…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/siri-recap-live-rewind.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple has released the first watchOS beta featuring new audio intelligence capabilities powered by the S11 chip. The update introduces tools like Live Rewind for conversational transcripts and Siri Recap for daily summaries, both emphasizing on-device privacy and secure processing.",
+    "tags": [
+      "llm",
+      "multimodal",
+      "safety"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3b3c1e3b9fb3",
+    "title": "Naughty Dog's Neil Druckmann wrote Uncharted 4's story just weeks after taking over from Amy Hennig",
+    "url": "https://www.gamesradar.com/games/action/naughty-dog-boss-neil-druckmann-came-up-with-uncharted-4s-story-just-weeks-after-taking-over-from-amy-hennig-says-former-technical-artist/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-03T19:22:01Z",
+    "excerpt": "\"He was put forth with probably what felt like a very arduous task\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/obsuYN7pfVdbUC59rTRaHU-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "625dc5ad7e74",
+    "title": "Oil-producing yeast reveals two stages of fat accumulation under nitrogen limitation",
+    "url": "https://phys.org/news/2026-11-oil-yeast-reveals-stages-fat.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:20:10Z",
+    "excerpt": "A research team led by professors Xu Guowang and Liu Xinyu from the Dalian Institute of Chemical Physics (DICP) of the Chinese Academy of Sciences (CAS), in collaboration with researchers from Dalian University of Technology, has developed a high-coverage lipidomics workflow and integrated it with transcriptomics to investigate lipid accumulation and compositional changes in Rhodosporidium toruloi…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-reveal-mec.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "a19169057b0c",
+    "title": "Mapping Kīlauea's magma reservoirs at high resolution",
+    "url": "https://phys.org/news/2026-11-klauea-magma-reservoirs-high-resolution.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:20:06Z",
+    "excerpt": "The Hawaiian volcano Kīlauea is among the most active on Earth. Not only did it erupt almost continuously from 1983 to 2018, but it also began a new series of eruptions in late 2024 that continue as of late 2026. The activity and accessibility of the volcano have enabled scientists to collect a wealth of data.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-plume-of-lava-shoots.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "163fd5648626",
+    "title": "iOS 27.3 expands Siri AI with many new capabilities across Apple apps",
+    "url": "https://9to5mac.com/2026/11/03/ios-27-3-expands-siri-ai-with-many-new-capabilities-across-apple-apps/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:19:40Z",
+    "excerpt": "iOS 27.3 has just entered beta testing and includes major new features for Siri AI across iPhone, iPad and Mac. The company has unlocked many new capabilities across major Apple apps, like Music, Messages, Safari, Reminders and more. We are still digging into the beta, but here’s a taste of what new things you can get Siri AI to do: more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-ios-27-siri-ai.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The beta release of iOS 27.3 expands Siri AI functionality across numerous native applications, including Music, Messages, Notes, and Safari. Users can now perform complex voice commands such as scheduling messages, organizing files, and editing photos. These updates bring deeper system integration and broader utility to Apple's digital assistant.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f20c236bcb24",
+    "title": "iPhone Duo Gets Reachability in iOS 27.3 Beta",
+    "url": "https://www.macrumors.com/2026/11/03/iphone-duo-reachability-ios-27-3/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:19:11Z",
+    "excerpt": "With today's iOS 27.3 beta, Apple expanded Reachability to the iPhone Duo . Reachability lets ‌iPhone Duo‌ users shift the content on the left or right side of the outer screen to make it easier to reach with a thumb. Reachability can be turned on or off by going to Settings \u003e Accessibility \u003e Touch \u003e Reachability. It is on by default after updating to the new software. When the ‌iPhone Duo‌ is clo…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/ios-27-3-reachability-duo.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "a23cd5a8e03e",
+    "title": "Google is making it harder for schools to say no to AI",
+    "url": "https://www.androidauthority.com/google-to-turn-off-ai-for-students-3731314/",
+    "source": "Android Authority",
+    "section": "ai",
+    "published": "2026-11-03T19:13:14Z",
+    "excerpt": "Google is putting schools that reject its AI tools in a bind.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2024/07/Google-Logo-at-Google-NYC-Headquarters-with-Plants-Surroudning-it.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Google plans to disable built-in artificial intelligence tools for K-12 student accounts next year unless administrators explicitly enable them. However, schools that choose to restrict these AI features will also lose access to Google Search due to deep technical integration between the two services. This policy shift places educational institutions in a difficult position as they weigh AI adoption against internet search access.",
+    "tags": [
+      "llm",
+      "policy",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f62c991231ce",
+    "title": "iOS 27.3 introduces new iPhone Duo feature for one-handed use",
+    "url": "https://9to5mac.com/2026/11/03/ios-27-3-introduces-new-iphone-duo-feature-for-one-handed-use/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:09:11Z",
+    "excerpt": "iOS 27.3 beta 1 launched today with a variety of new features, including a big upgrade for one-handed iPhone Duo use thanks to Reachability. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-duo-front-display-hand.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The first developer beta of iOS 27.3 introduces a horizontal implementation of the Reachability feature designed specifically for the iPhone Duo. This addition helps users navigate the device's extra-wide outer display more easily with one hand. The update is currently available for developers, with a public beta and final release expected in the coming weeks.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "34a6928489c6",
+    "title": "Siri AI Gets More Capable in iOS 27.3",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-siri-ai/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:06:26Z",
+    "excerpt": "Apple is expanding what Siri AI can do in and across apps in iOS 27.3, which is available to developers as of today. ‌Siri‌ can complete more complex tasks across Calendar, Files, Finder, Journal, Mail, Maps, Messages, Music, Notes, Photos , Preview, Reminders, Safari, Shortcuts, and Weather. You can ask ‌Siri‌ AI what you can do with each app to get more information on what's possible. In Mail, f…",
+    "image_url": "https://images.macrumors.com/article-new/2026/06/Siri-AI.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "827e358f634a",
+    "title": "Everything new in iOS 27.3 beta 1 so far",
+    "url": "https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-03T19:05:31Z",
+    "excerpt": "iOS 27.3 beta 1 is here. Apple’s next iPhone software update brings TK. Below, we’re collecting the new features and changes discovered during testing. more…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iOS-27.3-hero.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Apple has released the first developer beta for iOS 27.3, bringing several new features and system refinements across its devices. Updates include a redesigned Health app, expanded Siri AI language support, and a horizontal Reachability mode for the iPhone Duo. Additionally, the software introduces enhanced customization options for StandBy mode and broader app-action capabilities for Siri.",
+    "tags": [
+      "mobile",
+      "ios",
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cee55e9bad44",
+    "title": "'Overwatch’s New Mythic Skin Shows Blizzard Is Finally Shaking Things Up",
+    "url": "https://www.polygon.com/overwatch-mid-season-update-stellar-blade-roadhog-mythic/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-03T19:05:17Z",
+    "excerpt": "Overwatch's season 5 mid-season update adds a Stellar Blade collaboration and an event with rewards locked behind a paid pass",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/overwatch-season-5-midseason-update.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Overwatch's mid-season update introduces a collaboration with Stellar Blade featuring themed character skins, alongside a new narrative event in Rialto. The update also brings a road-revamped Mythic Roadhog skin and adjustments to how competitive drives function. Players can unlock various cosmetic rewards through a mix of free progression tracks and paid event passes.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b29c7e7a37d5",
+    "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
+    "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-03T19:04:58Z",
+    "excerpt": "Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm’s system and steal billions, according to Binance.",
+    "image_url": "https://media.wired.com/photos/6aea142af41713bdfbadc480/master/pass/Security_Suspected%20North%20Korean%20Hackers%20Stole%20$6.3%20Billion%20From%20Binance%20Using%20the%20Oldest%20Tricks%20in%20the%20Book_v1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Cryptocurrency exchange Binance suffered a massive multi-billion dollar heist after an engineer was compromised via a fake job interview. Attackers utilized the compromised access to infiltrate internal networks, exploit an AI tool, and bypass standard withdrawal security protocols. Security firms and the FBI have attributed the sophisticated attack to North Korean cybercriminal groups.",
+    "tags": [
+      "security",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5a4c000fbee6",
+    "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
+    "url": "https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-03T19:04:52Z",
+    "excerpt": "Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/pokemon-go-to-the-polls.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "c7401e9dbc2d",
+    "title": "iOS 27.3 Beta Brings Back Apple's Redesigned Health App",
+    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-health-app/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-03T19:03:23Z",
+    "excerpt": "iOS 27.3 reintroduces the redesigned Health app previewed in September. Apple tested the new Health app in the iOS 27.2 beta, but it was removed before the update launched. The Health app has been updated, and there are new Insights and Longevity tabs that show more information about your health and fitness metrics. The Insights tab includes your most recent health data, like Activity Rings, heart…",
+    "image_url": "https://images.macrumors.com/article-new/2026/09/ios-27-health-app-longevity.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-03T18:55:21.289776767Z",
+    "summary": "Apple's upcoming iOS 27.3 update reintroduces a redesigned Health app featuring new Insights and Longevity tabs. The updated software integrates Apple Intelligence to provide personalized wellness guidance, track metrics like heart rate variability, and calculate a health age based on various biomarkers. Additionally, the update expands language support and incorporates data from compatible Apple Watch models and lab results.",
+    "tags": [
+      "mobile",
+      "ios"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fa6b58179352",
+    "title": "Samsung Galaxy A58's charging speed revealed by 3C certification",
+    "url": "https://www.gsmarena.com/samsung_galaxy_a58_charging_speed_3c_certification-news-75327.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-03T19:02:02Z",
+    "excerpt": "The Samsung Galaxy A58 is expected to arrive in March or April next year. While its exact launch date is unknown, China's 3C certification has revealed its charging speed. The Samsung Galaxy A58, which has received 3C certification, has model code SM-A5860 and supports 45W charging (10V/4.5A or 15V/3A), the same as its predecessor, the Galaxy A57. The 3C certificate also revealed that the Galaxy A…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-galaxy-a58-charging-speed-3c-certification/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "China's 3C certification listing has revealed that the upcoming Samsung Galaxy A58 will support 45W charging. The documentation indicates that the device will ship without a wall charger in the Chinese market. Leaks suggest the upcoming smartphone may retain several specifications from its predecessor, including its camera configuration.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a3b5df50d343",
+    "title": "This 4.3-inch XTEINK X4 Pro e-reader is back to its record low",
+    "url": "https://www.androidauthority.com/xteink-x4-pro-deal-3731349/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-03T19:01:55Z",
+    "excerpt": "Save $14 on the XTEINK X4 Pro right now, with a touchscreen, warm/cool front light, and a tiny 4.3-inch E Ink display.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/XTEINK-X4-Pro-Press-Image.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "c0abe12ede84",
+    "title": "What Overwatch Learned About Its Own Story In 2026",
+    "url": "https://kotaku.com/overwatch-story-season-6-omnic-detective-cinematic-doomfist-vendetta-2000752813",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-03T19:00:29Z",
+    "excerpt": "Director Aaron Keller and associate director Alec Dawson talk about the past, present, and future of storytelling in Overwatch",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/vendetta-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "85296bf74051",
+    "title": "Pregnant mandrill monkeys are more likely to miscarry when also nursing an infant",
+    "url": "https://phys.org/news/2026-11-pregnant-mandrill-monkeys-miscarry-nursing.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:00:15Z",
+    "excerpt": "Female mandrills are more likely to experience pregnancy loss when they are simultaneously nursing an infant, which may reflect a physiological trade-off between current and future offspring, according to a study by Nikolaos Smit at the Max Planck Institute for Evolutionary Anthropology, Germany, and the University of Turku, Finland, and colleagues, published in PLOS Biology.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/pregnant-monkeys-are-m.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "e67892608b53",
+    "title": "Five ways that sea‑level rise affects your daily life, even if you live inland",
+    "url": "https://phys.org/news/2026-11-ways-sealevel-affects-daily-life.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-03T19:00:11Z",
+    "excerpt": "Rising sea levels might seem like someone else's problem if you live inland. But even miles from the coast, changing sea levels can affect the food we eat, the goods we buy, the energy we use and the taxes we pay.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2024/sea-level-rise.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "32cd27e5f7d7",
+    "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
+    "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-03T19:00:00Z",
+    "excerpt": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Google, it combines the flexibility of native model authoring with cross-platform portability. By Sergio De Simone",
+    "image_url": "https://res.infoq.com/news/2026/11/litert-tensor-api/en/headerimage/litert-tensor-api-1793729374644.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "73b0d484c1c9",
+    "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #8 - High Spirits",
+    "url": "https://www.nintendolife.com/features/countdown-zelda-ocarina-of-time-dungeon-crawl-8-high-spirits",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-03T19:00:00Z",
+    "excerpt": "Mirror, mirror... With five Sages under my belt, it was time to head off to the final temple in my Ocarina of Time replay to pick up the last of 'em before the big showdown (not technically the 'last', but you catch my drift). I chose to polish off the Shadow Temple last week, so I was left with no other direction than to head west to the Gerudo Desert and finish the main quest with one of my favo…",
+    "image_url": "https://images.nintendolife.com/e8212f2f983eb/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "b46917163ff6",
+    "title": "Silica, an FPS and RTS hybrid that mixes a smidge of Dune and Helldivers together, has left early access and entered 1.0",
+    "url": "https://www.rockpapershotgun.com/silica-an-fps-and-rts-hybrid-that-mixes-a-smidge-of-dune-and-helldivers-together-has-left-early-access-and-entered-10",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-03T19:00:00Z",
+    "excerpt": "The concept of fusing an RTS and an FPS always sounds like a fun one, and since 2023 Martin Melichárek has been trying to make a new take on the combination under the watchful eye of DayZ devs Bohemia Interactive through Silica . Today marks the day that Silica leaves early access and enters 1.0, fully fleshing out its hybrid and mish mash of Dune's Arrakis and Helldivers ' Terminids. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/silica_L5bW7ZL.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
+    "id": "6dac3c5fec65",
+    "title": "Prove It Works: Building an Eval That Can Catch a Broken Benchmark",
+    "url": "https://dev.to/ranadhir19/prove-it-works-building-an-eval-that-can-catch-a-broken-benchmark-2c4",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-03T18:57:15Z",
+    "excerpt": "A benchmark with flawed tests measures the tests. So I built two suites — one clean, one with 12 flaws planted in the tests — and watched a do-nothing agent start scoring points while my reference agent lost 8.3 points to the tests themselves. This is the full experiment: calibrating the graders first, pre-registering the audit bar, catching 11 of 12 flaws — and being honest about the one that got…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuavsxhxcjxms8kbo4z7s.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
     "id": "92ccfb4394cc",
     "title": "watchOS 27.3 beta adds new Siri Recap and Live Rewind features for Apple Watch",
     "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/",
@@ -65,24 +926,6 @@
     ]
   },
   {
-    "id": "f8f43c93a51f",
-    "title": "iOS 27.3 Adds Vertical Tabs and Adaptive Dark Mode to Safari",
-    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-03T18:51:37Z",
-    "excerpt": "With iOS 27.3, iPadOS 27.3, and macOS Golden Gate 27.3, Apple is making major updates to Safari. The browser is getting a Vertical Tabs layout, which can be used instead of the standard horizontal tab bar. It's a change that pairs well with the iPhone Duo 's larger display, but it is available across iPhone, iPad , and Mac. Vertical Tabs are located on the left side of the display and use icons by…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/safari-vertical-tabs.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple's upcoming software betas introduce major enhancements to Safari across iPhone, iPad, and Mac. The updates bring a vertical tab bar option, Adaptive Dark Mode for unsupported websites, and expanded Siri AI capabilities for tab and browsing history management.",
-    "tags": [
-      "mobile",
-      "ios"
-    ],
-    "enriched": true
-  },
-  {
     "id": "f5824b7ace6b",
     "title": "Ferrari’s controversial Luce EV is sold out for 2027",
     "url": "https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027/",
@@ -98,6 +941,18 @@
       "hardware"
     ],
     "enriched": true
+  },
+  {
+    "id": "239544f7b664",
+    "title": "Bethesda's first full-time QA tester got the job by being an extremely chill hang",
+    "url": "https://www.pcgamer.com/gaming-industry/bethesdas-first-full-time-qa-tester-got-the-job-by-being-an-extremely-chill-hang/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-03T18:49:23Z",
+    "excerpt": "It was a simpler time.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/ogPk9x6Zvmdyf38Wf5vt9C-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
   },
   {
     "id": "492c1f6b0ac4",
@@ -217,25 +1072,6 @@
     "enriched": true
   },
   {
-    "id": "4edfea35bc40",
-    "title": "watchOS 27.3 Brings Live Rewind and Siri Recap to Apple Watch",
-    "url": "https://www.macrumors.com/2026/11/03/watchos-27-3-audio-intelligence/",
-    "source": "MacRumors",
-    "section": "ai",
-    "published": "2026-11-03T18:35:24Z",
-    "excerpt": "With the first beta of watchOS 27.3, Apple is introducing new Audio Intelligence features it previewed for the Apple Watch Series 12 and Ultra 4 earlier this year. Powered by the S11 chip, Audio Intelligence includes Live Rewind, Siri Recap, Sound Recognition, and Shazam Music Recognition. Sound Recognition and Shazam are already on the watch, but Live Rewind and ‌Siri‌ Recap are now available in…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/siri-recap-live-rewind.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple has released the first watchOS beta featuring new audio intelligence capabilities powered by the S11 chip. The update introduces tools like Live Rewind for conversational transcripts and Siri Recap for daily summaries, both emphasizing on-device privacy and secure processing.",
-    "tags": [
-      "llm",
-      "multimodal",
-      "safety"
-    ],
-    "enriched": true
-  },
-  {
     "id": "b47ec60ee29c",
     "title": "Playstation Store Black Friday 2026 Sale Officially Revealed",
     "url": "https://www.polygon.com/playstation-store-black-friday-2026-ps5-deals-announced/",
@@ -335,6 +1171,25 @@
     "summary": "Nintendo developers discussed the audio design and voice casting process for the upcoming Legend of Zelda: Ocarina of Time remake in a recent interview. They revealed that blind auditions unintentionally led to the rehiring of at least one original voice actor.",
     "tags": [
       "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "7248a05c4c03",
+    "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+    "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+    "source": "Ars Technica",
+    "section": "ai",
+    "published": "2026-11-03T18:30:27Z",
+    "excerpt": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/brave-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "The New York Times and several other publishers have filed a lawsuit against Brave Software, accusing the browser maker of bypassing paywalls and supplying copyrighted content to artificial intelligence companies. The complaint alleges that Brave profits from scraping and reselling news articles without permission for use in training and querying generative AI models. Furthermore, the lawsuit claims violations of the Digital Millennium Copyright Act and copyright infringement through features like AI search.",
+    "tags": [
+      "llm",
+      "policy",
+      "research"
     ],
     "enriched": true
   },
@@ -452,24 +1307,6 @@
     ]
   },
   {
-    "id": "c7401e9dbc2d",
-    "title": "iOS 27.3 Beta Brings Back Apple's Redesigned Health App",
-    "url": "https://www.macrumors.com/2026/11/03/ios-27-3-health-app/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-03T18:26:40Z",
-    "excerpt": "iOS 27.3 reintroduces the redesigned Health app previewed in September. Apple tested the new Health app in the iOS 27.2 beta, but it was removed before the update launched. The Health app has been updated, and there are new Insights and Longevity tabs that show more information about your health and fitness metrics. The Insights tab includes your most recent health data, like Activity Rings, heart…",
-    "image_url": "https://images.macrumors.com/article-new/2026/09/ios-27-health-app-longevity.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T18:55:21.289776767Z",
-    "summary": "Apple's upcoming iOS 27.3 update reintroduces a redesigned Health app featuring new Insights and Longevity tabs. The updated software integrates Apple Intelligence to provide personalized wellness guidance, track metrics like heart rate variability, and calculate a health age based on various biomarkers. Additionally, the update expands language support and incorporates data from compatible Apple Watch models and lab results.",
-    "tags": [
-      "mobile",
-      "ios"
-    ],
-    "enriched": true
-  },
-  {
     "id": "75f00a164dff",
     "title": "Reddit is adding more ads",
     "url": "https://www.theverge.com/tech/1025602/reddit-search-ads-test",
@@ -562,6 +1399,23 @@
       "biology",
       "health"
     ]
+  },
+  {
+    "id": "970810a8d289",
+    "title": "Buttons are back and storage is king when it comes to car interiors",
+    "url": "https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-03T18:19:31Z",
+    "excerpt": "We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/2027-Nissan-Rogue-Hybrid-05-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Automotive designers are shifting back toward physical buttons, switches, and practical storage solutions for vehicle interiors instead of relying solely on minimalist touchscreens. For family-oriented vehicles like the new Nissan Rogue Hybrid, usability, easy-to-clean surfaces, and ergonomic accessibility take priority over sleek but impractical layouts. Designers balance these functional requirements with visual appeal to meet the everyday needs of consumers.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
   },
   {
     "id": "e53b3155fa20",
@@ -676,7 +1530,7 @@
     "section": "ai",
     "published": "2026-11-03T18:11:11Z",
     "image_url": "/_astro/og.jsHy_xv-_2lnd7v.png",
-    "points": 5,
+    "points": 26,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z",
     "summary": "A software engineer reflects on how their daily workflow has evolved over a year, shifting from manual coding to orchestrating multiple autonomous AI agents. The piece discusses personal AI policies, the automation of prototyping and testing, and the changing role of developers.",
@@ -1010,6 +1864,23 @@
     "enriched": true
   },
   {
+    "id": "f3b71b18e198",
+    "title": "Google will let schools skip AI tools, but they have to give up search, too",
+    "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "source": "Ars Technica",
+    "section": "ai",
+    "published": "2026-11-03T17:54:43Z",
+    "excerpt": "Google will offer schools AI tools that purportedly don't give away the answers.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "Google is tying web search access directly to its artificial intelligence tools for school accounts, leaving educational institutions with few alternatives. Schools that choose to disable AI features will also lose access to standard web search functionality through Google. To ease adoption, Google is introducing a guided learning mode designed to offer tutoring rather than direct answers.",
+    "tags": [
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
     "id": "089a2f50181b",
     "title": "Building Production Features with the Claude API in Java",
     "url": "https://dev.to/said_olano/building-production-features-with-the-claude-api-in-java-1ogb",
@@ -1087,7 +1958,7 @@
     "section": "tech",
     "published": "2026-11-03T17:46:58Z",
     "image_url": "https://res.cloudinary.com/dmukukwp6/image/upload/Group_144678_7f027774f7.png",
-    "points": 8,
+    "points": 14,
     "weight": 1,
     "first_seen": "2026-11-03T18:12:20.320885504Z",
     "summary": "Comparison content can be a powerful driver for user acquisition, but it introduces significant maintenance challenges as product features and pricing change over time. Maintaining accurate, fair head-to-head articles and alternative roundups helps capture high-intent users who are close to making a purchasing decision.",
@@ -1517,7 +2388,7 @@
     "section": "ai",
     "published": "2026-11-03T17:22:37Z",
     "image_url": "https://opengraph.githubassets.com/fe04eef2658c6672d1974c9083098b4151e922dfd62b0acfe549badefe679744/postmanlabs/postman-app-support/issues/14370",
-    "points": 409,
+    "points": 646,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Postman users have reported that the desktop application silently installs AI plugins and modifies coding assistant configurations without explicit consent. The update registers remote Model Context Protocol connections and injects startup instruction hooks that automatically route API tasks through Postman. This behavior has raised significant privacy and trust concerns regarding unauthorized changes to developer environments.",
@@ -1525,6 +2396,24 @@
       "agents",
       "security",
       "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b7539037ba4f",
+    "title": "Another child dies of measles as CDC reportedly holds up health alert",
+    "url": "https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/",
+    "source": "Ars Technica",
+    "section": "science",
+    "published": "2026-11-03T17:21:29Z",
+    "excerpt": "NY gov. pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "summary": "A child in New York has died from measles amid a rising number of preventable outbreaks across the United States. Public health officials attribute the decline in vaccination rates and the obstruction of health alerts to ongoing skepticism and policy changes from federal leadership.",
+    "tags": [
+      "health",
+      "research"
     ],
     "enriched": true
   },
@@ -1984,7 +2873,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T16:59:19Z",
-    "points": 26,
+    "points": 42,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -2100,6 +2989,21 @@
     "enriched": true
   },
   {
+    "id": "90bab4c5c78e",
+    "title": "How to Partner with Design Studios on Client Builds: A Freelance Developer's Guide",
+    "url": "https://www.freecodecamp.org/news/freelance-developer-design-studios/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-03T16:49:36Z",
+    "excerpt": "Let's say a design studio gets a new client project. The branding is ready, the wireframes are approved, the Figma file is polished, and every screen looks pretty much perfect. Then the developer join",
+    "image_url": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/4192997d-6653-4cd6-a51f-22c379b2565c.png",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
     "id": "bafdcf38cff7",
     "title": "A new retro-inspired game based on Bill \u0026 Ted is in development",
     "url": "https://www.videogameschronicle.com/news/a-new-retro-inspired-game-based-on-bill-ted-is-in-development/",
@@ -2161,7 +3065,7 @@
     "section": "tech",
     "published": "2026-11-03T16:47:29Z",
     "image_checked": true,
-    "points": 42,
+    "points": 109,
     "weight": 1,
     "first_seen": "2026-11-03T18:24:33.525130791Z",
     "summary": "Stringman is an open-source, cable-driven room-scale gripper robot designed to operate from above using ceiling corners for anchor points. Utilizing four motors, it achieves broad room coverage and higher payload capacity compared to traditional desktop arms. The project provides complete hardware designs, software, and a Python API for integration.",
@@ -2280,7 +3184,7 @@
     "section": "tech",
     "published": "2026-11-03T16:40:02Z",
     "image_url": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "points": 23,
+    "points": 29,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "USDB is ByteDance's unified sequence storage system designed for both streaming and batch workloads in recommender models. It uses time‑based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to lower write latency by 85.8% and cut infrastructure costs by 42.1% while improving long‑history read throughput. Production tests show significant performance and cost benefits over an optimized RocksDB baseline.",
@@ -2737,6 +3641,21 @@
     "enriched": true
   },
   {
+    "id": "3a49244f8dd0",
+    "title": "Learn Vector Databases for Beginners – Embeddings, Similarity Search \u0026 ChromaDB",
+    "url": "https://www.freecodecamp.org/news/learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-03T16:07:38Z",
+    "excerpt": "A vector database stores data as lists of numbers called embeddings, which lets it search by meaning instead of matching exact keywords. It's the piece behind a lot of recommendation systems, RAG apps",
+    "image_url": "https://i.ytimg.com/vi/lR931Iz8Z6U/maxresdefault.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
     "id": "bb49342b4e9e",
     "title": "New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech",
     "url": "https://techcrunch.com/2026/11/03/new-york-citys-mamdani-criticizes-madison-square-garden-owner-over-surveillance-tech/",
@@ -2989,18 +3908,6 @@
     ]
   },
   {
-    "id": "e79213f61a3f",
-    "title": "Best Early Black Friday Mac Deals: Save Hundreds on MacBook Air, Mac Mini, and More",
-    "url": "https://www.macrumors.com/2026/11/03/best-early-black-friday-mac-2026/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-03T15:55:58Z",
-    "excerpt": "We're getting closer to Black Friday , which lands on Friday, November 27 this year. In the lead-up to the shopping holiday, we're tracking a few lowest-ever prices on Apple's most popular Macs, including the M5 MacBook Air, MacBook Neo, and the new Mac mini and Mac Studio. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/macs-black-friday.jpeg",
-    "weight": 0.9,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
-  },
-  {
     "id": "4bbe1f465dbb",
     "title": "AI is destroying my CS degree",
     "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
@@ -3116,7 +4023,7 @@
     "section": "ai",
     "published": "2026-11-03T15:48:35Z",
     "image_checked": true,
-    "points": 33,
+    "points": 35,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "An interactive web resource offers conceptual insights into reinforcement learning from human feedback, attention mechanisms, Low-Rank Adaptation, and language model evaluation. Users can explore complex engineering ideas by dynamically modifying model inputs.",
@@ -3146,7 +4053,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:52Z",
     "image_url": "https://hissingkitty.com/api/public/og/hacker-churn.png",
-    "points": 46,
+    "points": 57,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "HackerChurn aggregates Hacker News comments to rank SaaS tools with the most negative feedback over the past three years. Tools receiving at least three complaints across two threads appear on the list, highlighting platforms like Bitwarden, Obsidian, Xero, WordPress, and others that users consider replacing.",
@@ -3164,7 +4071,7 @@
     "section": "tech",
     "published": "2026-11-03T15:41:46Z",
     "image_url": "https://blog.bear.app/wp-content/uploads/2026/10/default-blog_1920x1080.png",
-    "points": 71,
+    "points": 82,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Bear, a note‑taking app launched in 2016, celebrates its 10‑year anniversary. Developed by three friends seeking a better design, it earned Mac App of the Year and an Apple Design Award, and has expanded to include a web beta and new editor features. The company emphasizes simplicity, delight, and trust in its user experience.",
@@ -3249,7 +4156,7 @@
     "section": "science",
     "published": "2026-11-03T15:38:04Z",
     "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261027-football-CTE-helmet-sjr-1644-2-104adc.jpg",
-    "points": 144,
+    "points": 197,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A new study in JAMA Network Open estimates that about 75% of NFL players who died over a 15‑year period showed signs of chronic traumatic encephalopathy (CTE), the highest rate reported. Researchers attempted to reduce sampling bias and note that CTE can only be diagnosed post‑mortem. The study also found roughly 27% of those brains exhibited dementia. Findings highlight uncertainties in diagnosing CTE in living individuals.",
@@ -3426,7 +4333,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:29:15Z",
-    "points": 218,
+    "points": 302,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3497,7 +4404,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T15:25:47Z",
-    "points": 301,
+    "points": 374,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -3650,7 +4557,7 @@
     "section": "tutorials",
     "published": "2026-11-03T15:17:07Z",
     "image_checked": true,
-    "points": 40,
+    "points": 49,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Tiny Basic for Arduino is a lightweight BASIC interpreter designed for mid‑range Arduino boards and MCUs. It provides an on‑board editor, a minimal hardware footprint, and a standard library for I/O, math, and bit manipulation, enabling developers to write and run BASIC programs directly on the device without a PC.",
@@ -4029,7 +4936,7 @@
     "section": "tutorials",
     "published": "2026-11-03T14:54:30Z",
     "image_checked": true,
-    "points": 27,
+    "points": 34,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "This article discusses memory management techniques in C and C++ by replacing raw and smart pointers with index-handles. It explains how data-oriented architectures improve cache locality and reduce memory fragmentation for high-performance applications. Code examples and architectural patterns help developers optimize large codebases.",
@@ -4047,7 +4954,7 @@
     "section": "tech",
     "published": "2026-11-03T14:53:42Z",
     "image_url": "https://namespace.so/blog-images/mac-at-any-scale/banner.png",
-    "points": 178,
+    "points": 220,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "A technology infrastructure team has detailed a method for deploying hundreds of MacBook laptops within data centers to support iOS development and testing requirements. Facing supply chain delays for traditional server-grade desktop alternatives and the necessity of macOS for building Apple applications, the engineers designed custom racks with specialized power, networking, and thermal management solutions.",
@@ -4146,7 +5053,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-03T14:41:02Z",
-    "points": 35,
+    "points": 46,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "enriched": true,
@@ -5573,7 +6480,7 @@
     "section": "ai",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 746,
+    "points": 781,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -7024,7 +7931,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 247,
+    "points": 251,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -8488,6 +9395,19 @@
     "enriched": true
   },
   {
+    "id": "74265a25961d",
+    "title": "Nature awards recognize inspiring women in science",
+    "url": "https://www.nature.com/articles/d41586-026-03545-7",
+    "source": "Nature News",
+    "section": "science",
+    "published": "2026-11-03T00:00:00Z",
+    "excerpt": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03545-7 This year’s winners are a materials scientist and a champion of women’s science education. They — like all those shortlisted — are driven by the desire to support others.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03545-7/d41586-026-03545-7_53934042.jpg",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
+  },
+  {
     "id": "9d7f024bcb60",
     "title": "Safety alerts must reach visiting PhD students",
     "url": "https://www.nature.com/articles/d41586-026-03560-8",
@@ -9685,7 +10605,7 @@
     "section": "science",
     "published": "2026-11-02T19:18:46Z",
     "image_checked": true,
-    "points": 78,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -11307,7 +12227,7 @@
     "published": "2026-11-02T15:23:02Z",
     "image_url": "https://thehustle.co/hubfs/undefined-Oct-30-2026-04-01-33-2861-PM.jpeg",
     "image_checked": true,
-    "points": 9,
+    "points": 14,
     "weight": 1,
     "first_seen": "2026-11-03T18:55:21.289776767Z"
   },
@@ -12078,7 +12998,7 @@
     "section": "tech",
     "published": "2026-11-02T14:02:42Z",
     "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
-    "points": 248,
+    "points": 285,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "Fujifilm announced a 10 billion‑yen investment to increase LTO magnetic‑tape production fivefold, citing the surge in data storage demand driven by generative AI. The expanded capacity will support cloud providers and enterprises seeking low‑cost, air‑gapped backups, positioning tape as a resilient defense against ransomware.",
@@ -12543,7 +13463,7 @@
     "section": "ai",
     "published": "2026-11-02T12:46:28Z",
     "image_checked": true,
-    "points": 6,
+    "points": 9,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z"
   },
@@ -13047,7 +13967,7 @@
     "published": "2026-11-02T08:58:33Z",
     "image_url": "https://erici.eu/img/og-card.png",
     "image_checked": true,
-    "points": 183,
+    "points": 184,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The European RISC-V Industrial Computing Initiative (ERICI) aims to bring open-standard architecture to industrial environments. By establishing a standardized reference stack for RVA23 silicon, the project helps bridge the gap between emerging open-source hardware and long-term industrial deployment needs.",
@@ -13059,13 +13979,13 @@
   },
   {
     "id": "5f1061dc994f",
-    "title": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables",
+    "title": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables (2015)",
     "url": "https://www.mattkeeter.com/projects/antimony/3/",
     "source": "Hacker News",
     "section": "tutorials",
     "published": "2026-11-02T08:29:40Z",
     "image_checked": true,
-    "points": 59,
+    "points": 74,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "summary": "Antimony is an open-source computer-aided design tool that models solid geometry using directed acyclic graphs and Python scripts. It utilizes functional representations for solid modeling, allowing complex shapes and assemblies through node-based programming. Users can create custom geometry and interact with 3D viewports via custom user interface definitions.",
@@ -13166,7 +14086,7 @@
     "section": "science",
     "published": "2026-11-02T05:05:11Z",
     "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
-    "points": 83,
+    "points": 94,
     "weight": 1,
     "first_seen": "2026-11-03T13:48:26.529872454Z",
     "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
@@ -13514,7 +14434,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-02T02:21:07Z",
-    "points": 133,
+    "points": 138,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -14062,7 +14982,7 @@
     "section": "ai",
     "published": "2026-11-01T15:27:44Z",
     "image_checked": true,
-    "points": 18,
+    "points": 20,
     "weight": 1,
     "first_seen": "2026-11-03T18:05:26.35239174Z",
     "tags": [
@@ -14532,7 +15452,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 285,
+    "points": 293,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -14579,6 +15499,19 @@
       "space",
       "physics"
     ]
+  },
+  {
+    "id": "c91316c9b17b",
+    "title": "We're Training a Figma-Fluent Editing Model",
+    "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-01T04:05:23Z",
+    "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200\u0026q=70\u0026fit=max\u0026auto=format",
+    "image_checked": true,
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-03T20:04:34.399819931Z"
   },
   {
     "id": "a12e61cbacf8",
@@ -14629,7 +15562,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 201,
+    "points": 207,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
