@@ -203,7 +203,7 @@ func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.S
 			}
 		}
 	}
-	if err := r.tagIndex(visible); err != nil {
+	if err := r.searchIndex(visible); err != nil {
 		return err
 	}
 	if err := r.about(); err != nil {

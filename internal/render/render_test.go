@@ -395,14 +395,14 @@ func firstArticleDir(t *testing.T, out string) string {
 func TestFooterAndTagSearch(t *testing.T) {
 	out := build(t)
 	page := read(t, out, "index.html")
-	mustContain(t, "home", page, "© honolulu &amp; bcn", `id="search"`, `static/search.js`, `aria-label="Search tags"`)
+	mustContain(t, "home", page, "© honolulu &amp; bcn", `id="search"`, `static/search.js`, `aria-label="Search"`)
 	for _, no := range []string{"Summaries are generated", ">RSS<"} {
 		if strings.Contains(page, no) {
 			t.Errorf("footer must not contain %q", no)
 		}
 	}
-	tags := read(t, out, "tags.json")
-	mustContain(t, "tags.json", tags, `"t":"llm"`, `"n":`)
+	idx := read(t, out, "search.json")
+	mustContain(t, "search.json", idx, `"tags":[`, `"t":"llm"`, `"n":`, `"articles":[`, `"s":"Nature"`, `"h":"n/feat/"`)
 	if !exists(out, "static/search.js") {
 		t.Error("search.js not copied")
 	}

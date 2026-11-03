@@ -20,11 +20,11 @@
         {{range .Nav}}<a href="{{.Href}}">{{.Label}}</a>{{end}}
       </nav>
       <div class="search" id="search">
-        <button class="search-btn" type="button" aria-label="Search tags" aria-expanded="false">
+        <button class="search-btn" type="button" aria-label="Search" aria-expanded="false">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         </button>
         <form class="search-form" role="search" autocomplete="off" hidden>
-          <input class="search-input" type="search" placeholder="Search tags…" aria-label="Search tags" aria-controls="search-results">
+          <input class="search-input" type="search" placeholder="Search tags, titles, sources…" aria-label="Search" aria-controls="search-results">
           <ul class="search-results" id="search-results" role="listbox" hidden></ul>
         </form>
       </div>

@@ -30,31 +30,43 @@ func (r *renderer) about() error {
 	return r.write("about.html", "about", p)
 }
 
-// tagIndex escribe tags.json, el índice que usa el buscador del navegador:
-// cada etiqueta con su número de noticias, de más a menos frecuente.
-func (r *renderer) tagIndex(visible []model.Article) error {
-	type entry struct {
+// searchIndex escribe search.json, el índice que usa el buscador del
+// navegador: las etiquetas (con su número de noticias, de más a menos
+// frecuente) y las noticias visibles, de más reciente a más antigua.
+func (r *renderer) searchIndex(visible []model.Article) error {
+	type tagEntry struct {
 		T string `json:"t"`
 		N int    `json:"n"`
 	}
-	var idx []entry
+	type artEntry struct {
+		T string `json:"t"` // título
+		S string `json:"s"` // fuente
+		K string `json:"k"` // sección
+		H string `json:"h"` // "n/id/" (página propia) o URL absoluta
+	}
+	tags := []tagEntry{}
 	for tag, in := range byTag(visible) {
-		idx = append(idx, entry{tag, len(in)})
+		tags = append(tags, tagEntry{tag, len(in)})
 	}
-	sort.Slice(idx, func(i, j int) bool {
-		if idx[i].N != idx[j].N {
-			return idx[i].N > idx[j].N
+	sort.Slice(tags, func(i, j int) bool {
+		if tags[i].N != tags[j].N {
+			return tags[i].N > tags[j].N
 		}
-		return idx[i].T < idx[j].T
+		return tags[i].T < tags[j].T
 	})
-	if idx == nil {
-		idx = []entry{}
+	arts := make([]artEntry, 0, len(visible))
+	for _, a := range visible {
+		c := card("", a)
+		arts = append(arts, artEntry{T: a.Title, S: a.Source, K: string(a.Section), H: c.Href})
 	}
-	b, err := json.Marshal(idx)
+	b, err := json.Marshal(struct {
+		Tags     []tagEntry `json:"tags"`
+		Articles []artEntry `json:"articles"`
+	}{tags, arts})
 	if err != nil {
 		return err
 	}
-	return os.WriteFile(filepath.Join(r.outDir, "tags.json"), b, 0o644)
+	return os.WriteFile(filepath.Join(r.outDir, "search.json"), b, 0o644)
 }
 
 // saved genera la página de favoritos. Se rellena en el navegador con los

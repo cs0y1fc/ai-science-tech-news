@@ -233,13 +233,16 @@ body > main { flex: 1 0 auto; margin-bottom: 64px; }
 .search + .auth { margin-left: 0; }
 .search-btn { display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 0; border-radius: 50%; background: none; color: rgba(255,255,255,.85); cursor: pointer; transition: background .15s, color .15s; }
 .search-btn:hover, .search-btn[aria-expanded="true"] { background: rgba(255,255,255,.14); color: #fff; }
-.search-form { position: absolute; right: 0; top: calc(100% + 12px); width: min(340px, calc(100vw - 28px)); z-index: 20; }
+.search-form { position: absolute; right: 0; top: calc(100% + 12px); width: min(420px, calc(100vw - 28px)); z-index: 20; }
 .search-form[hidden] { display: none; }
 .search-input { width: 100%; padding: 12px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--text); font: inherit; font-size: 15px; box-shadow: var(--shadow-md); }
 .search-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .search-results { list-style: none; margin: 8px 0 0; padding: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-md); }
 .search-results[hidden] { display: none; }
-.search-results a { display: flex; justify-content: space-between; padding: 9px 12px; border-radius: 9px; font-size: 14px; color: var(--text); }
-.search-results small { color: var(--muted); }
+.search-results { max-height: min(70vh, 460px); overflow-y: auto; }
+.search-results .grp { padding: 8px 12px 4px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.search-results a { display: flex; justify-content: space-between; gap: 12px; padding: 9px 12px; border-radius: 9px; font-size: 14px; color: var(--text); }
+.search-results small { flex: none; max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
+.search-results a span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .search-results li.act a, .search-results a:hover { background: var(--surface-2); }
 .search-results .none { padding: 10px 12px; color: var(--muted); font-size: 14px; }
