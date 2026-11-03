@@ -43,7 +43,7 @@ internal/
   model/              Tipo Article y secciones
 web/
   templates/          Plantillas HTML (html/template)
-  static/style.css    Estilos (tema claro por defecto; oscuro si el sistema lo pide)
+  static/style.css    Estilos (tema claro por defecto; oscuro con el botón "Tema")
 sources.yaml          Lista de fuentes: nombre, URL, sección, tipo, peso, límite
 data/articles.json    Artículos guardados (30 días); lo actualiza el workflow
 .github/workflows/    Actualización y publicación cada 6 horas

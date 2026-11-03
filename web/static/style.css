@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  /* Tema claro por defecto; el oscuro se aplica abajo según el sistema. */
+  /* Tema claro por defecto; el oscuro solo se activa con el botón del menú. */
   --bg: #f4f5f7;
   --surface: #ffffff;
   --surface-2: #eceef2;
@@ -17,26 +17,23 @@
   --radius: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --bg: #1e1f22;
-    --surface: #2a2b30;
-    --surface-2: #34363c;
-    --text: #e6e7ea;
-    --muted: #9a9ca4;
-    --line: #3a3c43;
-    --top-bg: rgba(30, 31, 34, .92);
-    --shadow: none;
-    --c-ia: #7bd88f;
-    --c-ciencia: #f2b05e;
-    --c-tech: #6cb6ff;
-    --c-tutoriales: #d891ef;
-  }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1e1f22;
+  --surface: #2a2b30;
+  --surface-2: #34363c;
+  --text: #e6e7ea;
+  --muted: #9a9ca4;
+  --line: #3a3c43;
+  --top-bg: rgba(30, 31, 34, .92);
+  --shadow: none;
+  --c-ia: #7bd88f;
+  --c-ciencia: #f2b05e;
+  --c-tech: #6cb6ff;
+  --c-tutoriales: #d891ef;
 }
 
 * { box-sizing: border-box; }
-html { color-scheme: dark; }
 body {
   margin: 0;
   background: var(--bg);
@@ -167,3 +164,7 @@ a { color: inherit; text-decoration: none; }
 .pg.cur { background: var(--surface-2); outline: 1px solid var(--line); font-weight: 600; }
 .hero-text .badge { justify-self: start; }
 .hero .badge { background: rgba(20, 21, 24, .75); }
+
+/* Botón de tema */
+.theme-toggle { margin-left: 12px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); font: inherit; font-size: 13px; cursor: pointer; }
+.theme-toggle:hover { color: var(--text); background: var(--surface-2); }

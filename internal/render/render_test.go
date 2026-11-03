@@ -289,3 +289,8 @@ func TestAboutPageAndNoFeedWithoutSiteURL(t *testing.T) {
 		t.Error("sin SiteURL no se generan feed ni sitemap")
 	}
 }
+
+func TestThemeToggle(t *testing.T) {
+	page := read(t, build(t), "index.html")
+	mustContain(t, "portada", page, `class="theme-toggle"`, `localStorage.getItem("theme")`)
+}

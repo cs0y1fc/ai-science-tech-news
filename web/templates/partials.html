@@ -5,6 +5,7 @@
   <meta name="description" content="{{.Description}}">
   {{with .Canonical}}<link rel="canonical" href="{{.}}">{{end}}
   {{if .HasFeed}}<link rel="alternate" type="application/rss+xml" title="{{.SiteName}}" href="{{.Base}}feed.xml">{{end}}
+  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
   <link rel="stylesheet" href="{{.Base}}static/style.css">
 {{end}}
 
@@ -15,6 +16,7 @@
       <nav class="nav">
         {{range .Nav}}<a href="{{.Href}}">{{.Label}}</a>{{end}}
       </nav>
+      <button class="theme-toggle" type="button" aria-label="Cambiar entre tema claro y oscuro" onclick="var d=document.documentElement,n=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}">Tema</button>
       <span class="updated" title="{{.Updated.Format "02/01/2006 15:04 UTC"}}">Actualizado {{ago .Updated}}</span>
     </div>
   </header>
