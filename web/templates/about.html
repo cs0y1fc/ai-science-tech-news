@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>{{template "head" .}}</head>
+<body>
+  {{template "header" .}}
+
+  <main class="wrap prose">
+    <h1 class="page-title">Acerca de {{.SiteName}}</h1>
+
+    <p>{{.SiteName}} reúne cada 6 horas las noticias más destacadas de inteligencia artificial, ciencia y tecnología, y tutoriales de programación y de integración de IA en aplicaciones. Las noticias están en inglés; la interfaz, en español.</p>
+
+    <h2>Cómo se genera</h2>
+    <ol>
+      <li>Un programa en Go recoge los feeds RSS y las API públicas de las fuentes de abajo.</li>
+      <li>Elimina duplicados y puntúa cada noticia según su frescura, su popularidad (puntos en Hacker News), cuántas fuentes la cubren y el peso de su fuente.</li>
+      <li>Una IA de capa gratuita lee el texto, escribe un resumen corto con sus propias palabras, asigna una sección y etiquetas de un vocabulario cerrado, y oculta lo que no trata de estos temas.</li>
+      <li>Se genera un sitio estático que GitHub Actions publica en GitHub Pages.</li>
+    </ol>
+
+    <h2>Qué debes tener en cuenta</h2>
+    <ul>
+      <li>Los resúmenes son automáticos y pueden contener errores u omisiones. Cuando solo hay un extracto, la página lo indica.</li>
+      <li>No se republican artículos completos: cada noticia enlaza al original, que es donde está el contenido y donde van las visitas.</li>
+      <li>Las imágenes pertenecen a sus fuentes y se cargan desde sus servidores.</li>
+    </ul>
+
+    {{with .Sources}}
+    <h2>Fuentes</h2>
+    <p>{{range $i, $s := .}}{{if $i}} · {{end}}{{$s}}{{end}}</p>
+    {{end}}
+
+    {{if or .HasFeed .RepoURL}}
+    <h2>Enlaces</h2>
+    <ul>
+      {{if .HasFeed}}<li><a href="{{.Base}}feed.xml">Feed RSS</a></li>{{end}}
+      {{with .RepoURL}}<li><a href="{{.}}" rel="noopener">Código fuente</a></li>{{end}}
+    </ul>
+    {{end}}
+  </main>
+
+  {{template "footer" .}}
+</body>
+</html>

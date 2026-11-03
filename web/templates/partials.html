@@ -3,6 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{.Title}}</title>
   <meta name="description" content="{{.Description}}">
+  {{with .Canonical}}<link rel="canonical" href="{{.}}">{{end}}
+  {{if .HasFeed}}<link rel="alternate" type="application/rss+xml" title="{{.SiteName}}" href="{{.Base}}feed.xml">{{end}}
   <link rel="stylesheet" href="{{.Base}}static/style.css">
 {{end}}
 
@@ -21,6 +23,7 @@
 {{define "footer"}}
   <footer class="wrap foot">
     Los resúmenes se generan automáticamente a partir de las fuentes originales y pueden contener errores. Se actualiza cada 6 horas.
+    <a href="{{.Base}}about/">Acerca de</a>{{if .HasFeed}} · <a href="{{.Base}}feed.xml">RSS</a>{{end}}
   </footer>
 {{end}}
 

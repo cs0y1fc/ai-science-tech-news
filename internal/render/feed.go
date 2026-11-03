@@ -1,0 +1,163 @@
+package render
+
+import (
+	"encoding/xml"
+	"os"
+	"path/filepath"
+	"sort"
+	"strings"
+	"time"
+
+	"noticias-tech/internal/model"
+)
+
+// feedLimit es el máximo de entradas del feed RSS.
+const feedLimit = 50
+
+// abs convierte una ruta relativa del sitio en URL absoluta.
+func (r *renderer) abs(rel string) string {
+	rel = filepath.ToSlash(rel)
+	if rel == "" || rel == "." {
+		return r.opts.SiteURL + "/"
+	}
+	return r.opts.SiteURL + "/" + strings.Trim(rel, "/") + "/"
+}
+
+func (r *renderer) about() error {
+	p := r.page("../", "Acerca de", "Cómo se genera "+siteName+", de dónde salen las noticias y qué límites tienen los resúmenes.")
+	p.Sources = r.opts.Sources
+	return r.write("about.html", "about", p)
+}
+
+type rss struct {
+	XML     xml.Name   `xml:"rss"`
+	Version string     `xml:"version,attr"`
+	Atom    string     `xml:"xmlns:atom,attr"`
+	Channel rssChannel `xml:"channel"`
+}
+
+type rssChannel struct {
+	Title         string    `xml:"title"`
+	Link          string    `xml:"link"`
+	Description   string    `xml:"description"`
+	Language      string    `xml:"language"`
+	LastBuildDate string    `xml:"lastBuildDate"`
+	Self          atomLink  `xml:"atom:link"`
+	Items         []rssItem `xml:"item"`
+}
+
+type atomLink struct {
+	Href string `xml:"href,attr"`
+	Rel  string `xml:"rel,attr"`
+	Type string `xml:"type,attr"`
+}
+
+type rssItem struct {
+	Title       string   `xml:"title"`
+	Link        string   `xml:"link"`
+	GUID        rssGUID  `xml:"guid"`
+	PubDate     string   `xml:"pubDate"`
+	Description string   `xml:"description"`
+	Categories  []string `xml:"category"`
+}
+
+type rssGUID struct {
+	Permalink bool   `xml:"isPermaLink,attr"`
+	Value     string `xml:",chardata"`
+}
+
+// itemURL es la página propia del artículo si existe, o la fuente original.
+func (r *renderer) itemURL(a model.Article) string {
+	if a.HasPage() {
+		return r.abs("n/" + a.ID)
+	}
+	return a.URL
+}
+
+func (r *renderer) feed(visible []model.Article) error {
+	ch := rssChannel{
+		Title:         siteName,
+		Link:          r.abs(""),
+		Description:   "Noticias de IA, ciencia y tecnología, actualizadas cada 6 horas.",
+		Language:      "es",
+		LastBuildDate: r.now.UTC().Format(time.RFC1123Z),
+		Self:          atomLink{Href: r.opts.SiteURL + "/feed.xml", Rel: "self", Type: "application/rss+xml"},
+	}
+	for i, a := range visible {
+		if i == feedLimit {
+			break
+		}
+		desc := a.Summary
+		if desc == "" {
+			desc = a.Excerpt
+		}
+		link := r.itemURL(a)
+		ch.Items = append(ch.Items, rssItem{
+			Title:       a.Title,
+			Link:        link,
+			GUID:        rssGUID{Permalink: a.HasPage(), Value: link},
+			PubDate:     a.Published.UTC().Format(time.RFC1123Z),
+			Description: truncate(desc, 600),
+			Categories:  append([]string{a.Section.Label()}, a.Tags...),
+		})
+	}
+	return r.writeXML("feed.xml", rss{Version: "2.0", Atom: "http://www.w3.org/2005/Atom", Channel: ch})
+}
+
+type urlset struct {
+	XML   xml.Name `xml:"urlset"`
+	Xmlns string   `xml:"xmlns,attr"`
+	URLs  []siteURL
+}
+
+type siteURL struct {
+	XML     xml.Name `xml:"url"`
+	Loc     string   `xml:"loc"`
+	LastMod string   `xml:"lastmod,omitempty"`
+}
+
+func (r *renderer) sitemap(visible []model.Article) error {
+	day := func(t time.Time) string { return t.UTC().Format("2006-01-02") }
+	set := urlset{Xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9"}
+	add := func(rel string, t time.Time) {
+		u := siteURL{Loc: r.abs(rel)}
+		if !t.IsZero() {
+			u.LastMod = day(t)
+		}
+		set.URLs = append(set.URLs, u)
+	}
+
+	add("", r.now)
+	add("about", time.Time{})
+	for _, sec := range model.AllSections {
+		for _, a := range visible { // visible va de más reciente a más antiguo
+			if a.Section == sec {
+				add("s/"+string(sec), a.Published)
+				break
+			}
+		}
+	}
+	tags := byTag(visible)
+	names := make([]string, 0, len(tags))
+	for tag := range tags {
+		names = append(names, tag)
+	}
+	sort.Strings(names)
+	for _, tag := range names {
+		add("t/"+tag, tags[tag][0].Published)
+	}
+	for _, a := range visible {
+		if a.HasPage() {
+			add("n/"+a.ID, a.Published)
+		}
+	}
+	return r.writeXML("sitemap.xml", set)
+}
+
+func (r *renderer) writeXML(name string, v any) error {
+	out, err := xml.MarshalIndent(v, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(filepath.Join(r.outDir, name), append([]byte(xml.Header), out...), 0o644)
+}

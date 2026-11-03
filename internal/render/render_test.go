@@ -208,3 +208,56 @@ func TestSecureURL(t *testing.T) {
 		t.Error("secureURL incorrecto")
 	}
 }
+
+func buildWith(t *testing.T, opts Options) string {
+	t.Helper()
+	out := t.TempDir()
+	sel, all := fixture()
+	if err := SiteWith(opts, web.FS, out, now, sel, all); err != nil {
+		t.Fatal(err)
+	}
+	return out
+}
+
+func TestFeedAndSitemap(t *testing.T) {
+	out := buildWith(t, Options{SiteURL: "https://u.github.io/repo/", Sources: []string{"Nature", "Ars"}})
+
+	feed := read(t, out, "feed.xml")
+	mustContain(t, "feed", feed,
+		`<rss version="2.0"`, "https://u.github.io/repo/n/feat/", "Resumen de la IA",
+		"Destacada &lt;b&gt;peligrosa&lt;/b&gt;", // título escapado
+		"https://news.ycombinator.com/x",         // sin página propia: enlaza a la fuente
+		"<category>llm</category>",
+	)
+	if strings.Contains(feed, "Oculto por la IA") {
+		t.Error("el feed no debe incluir artículos ocultos")
+	}
+
+	sm := read(t, out, "sitemap.xml")
+	mustContain(t, "sitemap", sm,
+		"<loc>https://u.github.io/repo/</loc>", "<loc>https://u.github.io/repo/about/</loc>",
+		"<loc>https://u.github.io/repo/n/feat/</loc>", "<loc>https://u.github.io/repo/t/llm/</loc>",
+		"<loc>https://u.github.io/repo/s/ia/</loc>",
+	)
+	for _, no := range []string{"/n/bare/", "/n/hidden/", "/t/secreta/", "/s/tutoriales/"} {
+		if strings.Contains(sm, no) {
+			t.Errorf("el sitemap no debe incluir %s", no)
+		}
+	}
+
+	home := read(t, out, "index.html")
+	mustContain(t, "portada", home, `rel="canonical" href="https://u.github.io/repo/"`, `href="feed.xml"`, `href="about/"`)
+	mustContain(t, "artículo", read(t, out, "n/feat/index.html"), `rel="canonical" href="https://u.github.io/repo/n/feat/"`)
+}
+
+func TestAboutPageAndNoFeedWithoutSiteURL(t *testing.T) {
+	out := buildWith(t, Options{Sources: []string{"Nature", "Ars"}, RepoURL: "https://github.com/u/r"})
+	about := read(t, out, "about/index.html")
+	mustContain(t, "acerca de", about, "Acerca de", "Nature · Ars", `href="https://github.com/u/r"`, `href="../static/style.css"`)
+	if strings.Contains(about, "feed.xml") {
+		t.Error("sin SiteURL no debe enlazarse un feed inexistente")
+	}
+	if exists(out, "feed.xml") || exists(out, "sitemap.xml") {
+		t.Error("sin SiteURL no se generan feed ni sitemap")
+	}
+}

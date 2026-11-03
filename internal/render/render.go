@@ -78,6 +78,26 @@ type Page struct {
 	Section NavItem
 	Tags    []Chip
 	Related []Card
+
+	// Canonical es la URL absoluta de la página (solo si hay SiteURL).
+	Canonical string
+	// HasFeed indica que el sitio publica feed.xml.
+	HasFeed bool
+	// Acerca de.
+	Sources []string
+	RepoURL string
+}
+
+// Options son los datos opcionales del despliegue. Sin SiteURL no se generan
+// feed.xml ni sitemap.xml, que necesitan URLs absolutas.
+type Options struct {
+	// SiteURL es la URL pública de la raíz del sitio, p. ej.
+	// https://usuario.github.io/repo
+	SiteURL string
+	// RepoURL enlaza al código fuente desde la página "Acerca de".
+	RepoURL string
+	// Sources son los nombres de las fuentes que se muestran en "Acerca de".
+	Sources []string
 }
 
 type renderer struct {
@@ -85,12 +105,19 @@ type renderer struct {
 	outDir  string
 	now     time.Time
 	updated time.Time
+	opts    Options
 }
 
 // Site genera el sitio estático en outDir a partir de las plantillas y
 // estáticos de fsys (que debe contener templates/ y static/). sel es la
 // selección de la portada y all todos los artículos guardados.
 func Site(fsys fs.FS, outDir string, now time.Time, sel rank.Selection, all []model.Article) error {
+	return SiteWith(Options{}, fsys, outDir, now, sel, all)
+}
+
+// SiteWith es Site con opciones de despliegue (URL pública, fuentes, código).
+func SiteWith(opts Options, fsys fs.FS, outDir string, now time.Time, sel rank.Selection, all []model.Article) error {
+	opts.SiteURL = strings.TrimRight(opts.SiteURL, "/")
 	funcs := template.FuncMap{
 		"ago": func(t time.Time) string { return Ago(t, now) },
 		"img": secureURL,
@@ -99,7 +126,7 @@ func Site(fsys fs.FS, outDir string, now time.Time, sel rank.Selection, all []mo
 	if err != nil {
 		return fmt.Errorf("plantillas: %w", err)
 	}
-	r := &renderer{tpl: tpl, outDir: outDir, now: now, updated: now}
+	r := &renderer{tpl: tpl, outDir: outDir, now: now, updated: now, opts: opts}
 
 	visible := visibleArticles(all)
 
@@ -130,6 +157,17 @@ func Site(fsys fs.FS, outDir string, now time.Time, sel rank.Selection, all []mo
 			if err := r.article(a, visible); err != nil {
 				return err
 			}
+		}
+	}
+	if err := r.about(); err != nil {
+		return err
+	}
+	if opts.SiteURL != "" {
+		if err := r.feed(visible); err != nil {
+			return err
+		}
+		if err := r.sitemap(visible); err != nil {
+			return err
 		}
 	}
 	return copyDir(fsys, "static", filepath.Join(outDir, "static"))
@@ -164,6 +202,8 @@ func (r *renderer) page(base, title, desc string) Page {
 		Description: desc,
 		Base:        base,
 		Updated:     r.updated,
+		HasFeed:     r.opts.SiteURL != "",
+		RepoURL:     r.opts.RepoURL,
 	}
 	for _, sec := range model.AllSections {
 		p.Nav = append(p.Nav, NavItem{Label: sec.Label(), Href: base + "s/" + string(sec) + "/"})
@@ -258,6 +298,9 @@ func topChips(base string, arts []model.Article, n int) []Chip {
 }
 
 func (r *renderer) write(tplName, dir string, p Page) error {
+	if r.opts.SiteURL != "" {
+		p.Canonical = r.abs(dir)
+	}
 	full := filepath.Join(r.outDir, dir)
 	if err := os.MkdirAll(full, 0o755); err != nil {
 		return err

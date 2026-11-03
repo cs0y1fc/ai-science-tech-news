@@ -28,15 +28,17 @@ func main() {
 	cfgPath := flag.String("sources", "sources.yaml", "fichero de fuentes")
 	dataPath := flag.String("data", "data/articles.json", "estado persistente de artículos")
 	outDir := flag.String("out", "public", "directorio de salida del sitio")
+	siteURL := flag.String("site-url", os.Getenv("SITE_URL"), "URL pública del sitio; activa feed.xml y sitemap.xml")
+	repoURL := flag.String("repo-url", os.Getenv("REPO_URL"), "URL del código fuente, para la página Acerca de")
 	flag.Parse()
 
-	if err := run(*cfgPath, *dataPath, *outDir); err != nil {
+	if err := run(*cfgPath, *dataPath, *outDir, render.Options{SiteURL: *siteURL, RepoURL: *repoURL}); err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(1)
 	}
 }
 
-func run(cfgPath, dataPath, outDir string) error {
+func run(cfgPath, dataPath, outDir string, ropts render.Options) error {
 	srcs, err := sources.LoadConfig(cfgPath)
 	if err != nil {
 		return err
@@ -74,7 +76,14 @@ func run(cfgPath, dataPath, outDir string) error {
 	}
 
 	sel := rank.Select(all, opts)
-	if err := render.Site(web.FS, outDir, now, sel, all); err != nil {
+	seen := map[string]bool{}
+	for _, src := range srcs {
+		if !seen[src.Name] {
+			seen[src.Name] = true
+			ropts.Sources = append(ropts.Sources, src.Name)
+		}
+	}
+	if err := render.SiteWith(ropts, web.FS, outDir, now, sel, all); err != nil {
 		return err
 	}
 

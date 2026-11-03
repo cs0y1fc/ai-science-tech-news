@@ -32,6 +32,8 @@ jobs:
 
       - name: Generar el sitio
         env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM2_API_KEY: ${{ secrets.LLM2_API_KEY }}
