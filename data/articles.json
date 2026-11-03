@@ -1,5 +1,90 @@
 [
   {
+    "id": "03c0278cb3bf",
+    "title": "Fossil fuels played a negligible role in the rise of atmospheric CO₂",
+    "url": "https://twitter.com/cohler/status/2102716898408280330",
+    "source": "Hacker News",
+    "section": "ciencia",
+    "published": "2026-11-03T13:41:22Z",
+    "image_url": "https://pbs.twimg.com/media/HS5Z1NWWIAAS1hf?format=webp\u0026name=large",
+    "points": 3,
+    "weight": 1,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "The text discusses an analytical approach to determining the sources of atmospheric carbon dioxide by examining carbon isotope ratios, commonly referred to as fingerprints. By evaluating measurements from monitoring stations and historical records, the author argues that the proportion of carbon from fossil fuels is significantly lower than commonly accepted figures. The discussion relies on mixing calculations and isotopic data to evaluate non-fossil sources.",
+    "tags": [
+      "climate",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "6a20739adbd9",
+    "title": "A tiny shift exposes a cold brown dwarf masquerading as an early galaxy",
+    "url": "https://phys.org/news/2026-11-tiny-shift-exposes-cold-brown.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T13:40:08Z",
+    "excerpt": "A faint red object spotted by the James Webb Space Telescope originally appeared to offer a possible glimpse of the universe's first galaxies. But images taken about 3½ years apart revealed a giveaway: The object, nicknamed Capotauro, had moved.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-tiny-shift-exposes-a.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "id": "3bf0307e1c19",
+    "title": "Unpacking wheat's water use for drought research",
+    "url": "https://phys.org/news/2026-11-wheat-drought.html",
+    "source": "Phys.org",
+    "section": "ciencia",
+    "published": "2026-11-03T13:40:01Z",
+    "excerpt": "Researchers at The University of Queensland have developed a way to quantify how wheat varieties capture and convert soil water. Dr. Raul Gimenez from the Queensland Alliance for Agriculture and Food Innovation said the technique could be used to identify drought-tolerant crops.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/unpacking-wheats-water.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-03T13:48:26.529872454Z"
+  },
+  {
+    "id": "36590a87129b",
+    "title": "Horizontal Rollout vs. One Custom Agent: Which to Fund First",
+    "url": "https://dev.to/basavaraj_sh_1ea7d95f0f2e/horizontal-rollout-vs-one-custom-agent-which-to-fund-first-2a7l",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T13:39:02Z",
+    "excerpt": "Heimstaden, a European residential property company, put ChatGPT Enterprise in front of employees across multiple countries while also giving engineers coding tools like Codex. The sequencing decision underneath it - which every team faces with a fixed AI budget - matters more than the tooling choice. Horizontal Access Buys Information, Not Savings You usually get one real shot at your first AI in…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fante4corbm1umnr2lbjb.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "When managing limited budgets for artificial intelligence implementations, organizations must decide between deploying general assistants horizontally or building vertical custom agents. A horizontal rollout can serve as a discovery phase to identify which workflows people actually automate. Implementing a clear promotion rule based on usage metrics helps teams determine when to transition a shared prompt into a fully funded custom product.",
+    "tags": [
+      "llm",
+      "agents",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b41c191bb69b",
+    "title": "My RAG gave different answers to the same question. One setting I never set, one I never checked",
+    "url": "https://dev.to/neilton_rocha_dev/my-rag-gave-different-answers-to-the-same-question-one-setting-i-never-set-one-i-never-checked-1o08",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T13:36:34Z",
+    "excerpt": "TL;DR: Non-deterministic RAG answers with no error came from two things: temperature and seed left to the provider's defaults, and OpenRouter's context-compression plugin cutting the middle of long prompts. I found it when the same extraction, run twice, returned two different answers. A small experiment with a fictional company reproduces both. Sampling changed how the answers were worded. The cu…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftvbb3cuv6pqtyuifj0gh.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "Retrieval-augmented generation pipelines can produce non-deterministic outputs due to unconfigured temperature and seed settings, along with automatic context-compression plugins. Explicitly defining sampling parameters and auditing middle-cut behavior helps prevent silent evidence loss and inconsistencies in model responses.",
+    "tags": [
+      "llm",
+      "rag",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
     "id": "557267b20b68",
     "title": "Listing an API on RapidAPI: five things the docs don't cover",
     "url": "https://dev.to/atabek_murtazaev_18e1ac50/listing-an-api-on-rapidapi-five-things-the-docs-dont-cover-1bjc",
@@ -10,7 +95,54 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcy90fq58hvm7cfv9x9ct.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T13:35:42.188335427Z"
+    "first_seen": "2026-11-03T13:35:42.188335427Z",
+    "summary": "Publishing an API on gateways like RapidAPI requires careful configuration beyond standard application code. Developers must explicitly declare every endpoint, account for authentication behaviors, and manage rate limits to handle shared proxy IPs correctly.",
+    "tags": [
+      "web",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "eaedfbed10a2",
+    "title": "Why Your RAG Answers Drift: The Document Layer Nobody Talks About",
+    "url": "https://dev.to/uglypeardata/why-your-rag-answers-drift-the-document-layer-nobody-talks-about-3ghm",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T13:34:29Z",
+    "excerpt": "If you have built a retrieval-augmented generation system, you have probably had this moment: the demo works, the prototype impresses, and then in production the answers start to drift. They're confident. They're plausible. They're wrong in ways that are hard to pin down. The instinct is to blame the model, swap in a larger one, lengthen the prompt, add a reranker. Sometimes that helps at the marg…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi441z96gsl0zog1v4sk1.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "Retrieval-augmented generation performance is fundamentally constrained by input document quality rather than model capacity. Effective document preprocessing, deduplication, and compression help reduce noise and improve retrieval accuracy before data reaches vector stores.",
+    "tags": [
+      "llm",
+      "rag",
+      "data",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "566e33b7d9d4",
+    "title": "LLM access controls and monitoring: why the tool call is the attack surface",
+    "url": "https://dev.to/resk/llm-access-controls-and-monitoring-why-the-tool-call-is-the-attack-surface-3nbi",
+    "source": "dev.to (LLM)",
+    "section": "tutoriales",
+    "published": "2026-11-03T13:30:32Z",
+    "excerpt": "The problem is not the output Most teams secure an LLM deployment by filtering what comes out of it. That is the wrong boundary. The dangerous artifact is not the text the model returns to the user. It is the tool call the model emits on the way there. An agent is a model plus a set of tools plus a credential that lets it call them. When a prompt injection lands, the attacker does not need to brea…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fca1cbo5m3h6prw5fxt7m.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "Securing artificial intelligence agents requires focusing on tool calls rather than output text. Implementing strict access controls, external policy authorization, and principle-based logging helps mitigate risks associated with prompt injection and unauthorized data movement.",
+    "tags": [
+      "llm",
+      "agents",
+      "security",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "0a6e99d7f2be",
@@ -23,11 +155,12 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feeinkseadxf4b4hjpdxu.png",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:35:42.188335427Z",
+    "summary": "A developer shares their experience migrating a feature-rich LINE bot from Python to Go 1.26 to optimize resource consumption on Cloud Run. The article outlines the process of breaking down the project into milestones and maintaining zero-downtime deployment while sharing Firestore data. It highlights how the rewrite significantly reduced memory and CPU overhead.",
     "tags": [
-      "llm",
-      "cloud",
-      "go"
-    ]
+      "go",
+      "cloud"
+    ],
+    "enriched": true
   },
   {
     "id": "469e28525b89",
@@ -40,24 +173,31 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgz8wlbx0imdo4ue58z5i.png",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:35:42.188335427Z",
+    "summary": "This tutorial details the migration of an AI research assistant LINE bot from Python-based managed agents to Google's Agent Development Kit for Go. The author discusses replacing sandbox file storage with proper session states and leveraging Cloud Run. Code structure differences between the two language implementations are examined.",
     "tags": [
-      "agents",
-      "open-source",
-      "go"
-    ]
+      "go",
+      "agents"
+    ],
+    "enriched": true
   },
   {
     "id": "5b0febd32d86",
     "title": "From AI visibility to measurable market influence",
     "url": "https://dev.to/alirezaai/from-ai-visibility-to-measurable-market-influence-21lh",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "ia",
     "published": "2026-11-03T13:23:32Z",
     "excerpt": "The Architecture of the AI Recommendation Economy Part 3 of the AI Recommendation Economy Series The first article introduced AI Recommendation Share (ARS) as a potential market metric for the generative AI era. The second explored the broader concept of an AI Recommendation Economy : an emerging environment in which AI systems increasingly influence how people discover, compare, evaluate, and sel…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc5zo5okdbj3kz9joc0qy.png",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T13:27:55.557931422Z"
+    "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "The article introduces a structured measurement framework for the emerging AI recommendation economy, addressing the challenge of evaluating visibility and business outcomes. It breaks down evaluation into four distinct layers: platform share, citation share, recommendation share, and referral share. The goal is to provide transparent metrics that avoid conflating mere visibility with actual customer conversion.",
+    "tags": [
+      "data",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "a91ba8573ef4",
@@ -83,13 +223,19 @@
     "title": "Half the Demos Are Fake Now",
     "url": "https://dev.to/prpatel05/half-the-demos-are-fake-now-431j",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "ia",
     "published": "2026-11-03T13:22:26Z",
     "excerpt": "In September I posted that I had built a trading bot and let it run BTC for 30 days. The next line was the point: \"jk. $0 in. just generated the video. half these posts are fake.\" It did 8,889 impressions, more than anything else I had posted in weeks. No bot. No trades. No thirty days. Just a generated clip that looked exactly like the ones people were posting for real. The reason it landed is th…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9j494d4m1yrlhkcdgdhh.jpg",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T13:27:55.557931422Z"
+    "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "The ease of generating synthetic video content has dramatically changed the credibility of AI demos, making fake demonstrations cheaper to produce than actual software. Many circulating clips simulate autonomous agent runs or terminal outputs without a functioning backend. Consequently, reproducible runs and independent verifications have become necessary standards of proof.",
+    "tags": [
+      "agents",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "302e4ed601fa",
@@ -114,43 +260,53 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F16zd6e6xi62dfkglgwre.gif",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "This tutorial explains the foundational mechanics of large language models, covering tokenization, context windows, and sampling. It breaks down the training pipeline into pre-training via next-token prediction and post-training using reinforcement learning with human feedback.",
     "tags": [
       "llm",
-      "rag"
-    ]
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "aec032b2702c",
     "title": "The AI Recommendation Economy: Measuring the Market Between AI Answers and Human Decisions",
     "url": "https://dev.to/alirezaai/the-ai-recommendation-economy-measuring-the-market-between-ai-answers-and-human-decisions-2mbn",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "ia",
     "published": "2026-11-03T13:06:35Z",
     "excerpt": "The Market Is Changing Before We Have Learned How to Measure It For decades, businesses have competed for visibility. They competed for search rankings, advertising impressions, website traffic, brand recognition, distribution channels, and ultimately market share. The measurement infrastructure was built around these activities. Search engines showed ranked results. Advertising platforms reported…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj623vq3mm8d9czebdbc9.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "The rise of generative answer engines is shifting digital competition from traditional search engine visibility to AI recommendation influence. Businesses must adapt to an economic framework where AI-synthesized recommendations dictate customer choices instead of conventional web links.",
     "tags": [
-      "tutorial"
-    ]
+      "llm",
+      "research",
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "3ebae2717113",
     "title": "How to Secure a Local LLM Relay Listening on *:4000",
     "url": "https://dev.to/orca_forge/how-to-secure-a-local-llm-relay-listening-on-4000-3kdb",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "tech",
     "published": "2026-11-03T13:04:06Z",
     "excerpt": "📝 Originally published (in Japanese) at forge.workstyle.tech . TL;DR I ran a local LLM relay on my PC to use several providers through one model name. Port 4000 was listening on *:4000 , so clients on the same LAN or Tailscale could reach it. The relay also used a placeholder default key that had appeared in my blog, so I restricted the listener to loopback and replaced the key. Bottom Line The lo…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmpresropo1axdvzxcx7k.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "A security review of a local LLM relay revealed that it was unintentionally listening across all network interfaces with a default API key. The administrator mitigated the vulnerability by restricting the listener to the loopback address and rotating the sensitive credentials.",
     "tags": [
-      "llm",
-      "tutorial"
-    ]
+      "security",
+      "devtools",
+      "rag"
+    ],
+    "enriched": true
   },
   {
     "id": "f6a4e1ed4468",
@@ -189,16 +345,19 @@
     "title": "Claude vs GPT-6.1 Terra: Half the Price. I Tested It on My Real Work.",
     "url": "https://dev.to/hisashispace/claude-vs-gpt-61-terra-half-the-price-i-tested-it-on-my-real-work-5b59",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "tech",
     "published": "2026-11-03T13:00:00Z",
     "excerpt": "Using Claude? OpenAI's new GPT-6.1 Terra is half the price of Claude Sonnet. I run about forty Claude sessions a day, so a model at half the price is worth a real look. I made a video about it, but a video can only show a few numbers. This article has all of them: every price, every effort setting on OpenAI's charts, two independent tests, and my own test with the exact prompts, timings and token…",
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdpsillvqg8fir3lxu5xz.webp",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "A comparative analysis of OpenAI's GPT-6.1 Terra model evaluates its performance, pricing, and context window relative to competing options like Claude Sonnet. The review highlights how caching and effort settings significantly impact real-world operational costs for agent workflows.",
     "tags": [
       "llm",
-      "prompting"
-    ]
+      "chips",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "770921c7d455",
@@ -212,11 +371,26 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "This guide covers GoHighLevel's native AI automation features, including conversation agents, voice bots, and workflow integrations. It details how businesses can leverage these tools alongside external APIs for lead qualification and customer support.",
     "tags": [
-      "llm",
       "agents",
-      "rag"
-    ]
+      "llm",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c8bd0380396f",
+    "title": "Show HN: Kvittas, an Expense Splitting App",
+    "url": "https://kvittas.app",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T12:53:48Z",
+    "points": 5,
+    "weight": 1,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "428cc87a7cc3",
@@ -236,6 +410,32 @@
       "research"
     ],
     "enriched": true
+  },
+  {
+    "id": "e6b465e6b867",
+    "title": "Show HN: Bema: Work messaging built for humans",
+    "url": "https://getbema.app/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T12:51:11Z",
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "e5bb03b1f487",
+    "title": "Charles Tandy, the mastermind behind Radio Shack",
+    "url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack/",
+    "source": "Hacker News",
+    "section": "ia",
+    "published": "2026-11-03T12:42:30Z",
+    "points": 8,
+    "weight": 1,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "7ac9adebee20",
@@ -275,25 +475,32 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcp1cvm72majn54y1kvvq.png",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "Recent experiments demonstrate an LLM directly editing the weights of another neural network without relying on gradient descent. By utilizing external testing environments and behavioral feedback, the editor model proposes and refines target weights based on practical performance. This approach provides new insights into weight-space manipulation and model optimization techniques.",
     "tags": [
       "llm",
-      "space"
-    ]
+      "research",
+      "python"
+    ],
+    "enriched": true
   },
   {
     "id": "22a883fab855",
     "title": "Anthropic switches on invisible watermarks in four older Claude models from November 3",
     "url": "https://dev.to/delimitter/anthropic-switches-on-invisible-watermarks-in-four-older-claude-models-from-november-3-385p",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "ia",
     "published": "2026-11-03T12:31:44Z",
     "excerpt": "📅 November 3, 2026 • support.claude.com What happened Starting November 3, Anthropic applies its invisible text watermark to the outputs of four more Claude models: Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6. Until now the marking covered only the newest models in the lineup, so this step extends provenance marking across a much larger share of production traffic. Per Anthropic, the rollout is wo…",
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcdn.bsky.app%2Fimg%2Ffeed_fullsize%2Fplain%2Fdid%3Aplc%3Azl7pjaqajbk5mlwalj62hiz2%2Fbafkreiditauhudat6c634a3pluzdqn2sw62wbl7iomiulab2omqwew25by",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "Anthropic has expanded its invisible text watermarking to four additional Claude models, embedding provenance data directly into generated outputs. The implementation aims to comply with transparency requirements under the EU AI Act without altering user pricing or response quality. While the watermarks remain imperceptible to regular readers, authorized entities can access verification tools through specialized APIs.",
     "tags": [
-      "llm"
-    ]
+      "llm",
+      "safety",
+      "policy"
+    ],
+    "enriched": true
   },
   {
     "id": "1b6c26c17454",
@@ -306,7 +513,9 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8v4kikp326r9els0qzaz.PNG",
     "image_checked": true,
     "weight": 0.8,
-    "first_seen": "2026-11-03T13:27:55.557931422Z"
+    "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "70df1929ba84",
@@ -319,10 +528,13 @@
     "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftd5zed80xfjpv7qjalsn.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "This tutorial explains how Python's default JSON serialization handles NaN values, which can cause parsing errors in web browsers. The author shares a debugging experience involving an interview practice platform where empty LLM scoring categories generated invalid NaN tokens. Practical solutions include using stricter type validation and explicit serialization flags to prevent broken report pipelines.",
     "tags": [
+      "python",
       "llm",
-      "python"
-    ]
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "435a4449f912",
@@ -332,7 +544,7 @@
     "section": "ia",
     "published": "2026-11-03T12:21:17Z",
     "image_url": "https://honnibal.dev/social.png",
-    "points": 147,
+    "points": 185,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Recent claims suggesting that AI models can improve language models simply by reading their raw weights are misleading. A detailed breakdown of various experiments reveals that many tests actually require executing code, running networks, or using external tools rather than purely analyzing raw weight matrices.",
@@ -395,16 +607,19 @@
     "title": "Your LLM call works 99% of the time. Your 100-call job fails 63% of the time.",
     "url": "https://dev.to/altrouter/your-llm-call-works-99-of-the-time-your-100-call-job-fails-63-of-the-time-20b4",
     "source": "dev.to (LLM)",
-    "section": "tutoriales",
+    "section": "ia",
     "published": "2026-11-03T12:00:02Z",
     "excerpt": "You write a script that summarizes a 100-page PDF, one LLM call per page. It dies on page 71 with a timeout. You run it again, and it starts from page 1. No single part is broken: the API had one bad second, which happens. But the rerun pays for pages 1 to 70 a second time, and its odds of dying are the same as the first run's. One call is a coin toss, a job is a streak Model APIs bill per token ,…",
     "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkbwmyvlhboint9ta34bu.png",
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
+    "summary": "Running multi-step LLM jobs can result in high cumulative failure rates due to compounding probabilities over numerous API calls. This analysis examines the financial and operational impact of job failures when processing long documents. Strategies such as selective retries instead of restarting from the beginning can significantly reduce costs and improve overall execution success.",
     "tags": [
-      "llm"
-    ]
+      "llm",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "0ba431324743",
@@ -538,7 +753,7 @@
     "section": "ia",
     "published": "2026-11-03T11:31:11Z",
     "image_url": "https://deepsense.ai/wp-content/smush-webp/2026/10/Harness-cover.png.webp",
-    "points": 6,
+    "points": 7,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "This article explores harness engineering patterns designed to improve the reliability and efficiency of coding agents within software repositories. It outlines strategies for optimizing repository documentation, assembling contextual data just-in-time, and implementing robust validation loops. By focusing on systemic improvements rather than prompt tweaks, engineering teams can achieve more predictable development outcomes.",
@@ -571,7 +786,7 @@
     "section": "ia",
     "published": "2026-11-03T11:16:07Z",
     "image_url": "https://www.techspot.com/images2/news/ts3_thumbs/2026/11/2026-11-03-ts3_thumbs-83d.jpg",
-    "points": 49,
+    "points": 52,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Anthropic's amended S-1 filing reveals that its personnel costs averaged over $100,000 per employee per month, driven largely by stock-based compensation. Despite high overall wage expenses, personnel costs now represent a smaller fraction of the company's growing revenue as it prepares for a potential public offering.",
@@ -762,7 +977,7 @@
     "section": "ia",
     "published": "2026-11-03T09:53:59Z",
     "image_url": "https://pbs.twimg.com/media/HWJxC2yWEAAWYYO?format=webp\u0026name=large",
-    "points": 153,
+    "points": 158,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Financial technology company Revolut has transitioned thousands of software engineers to a self-hosted General Language Model for coding tasks. The move significantly reduced token costs compared to commercial frontier APIs and improved engineering lead times by removing token rationing.",
@@ -909,9 +1124,11 @@
     "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Venture capitalist Yvonne Bajela has launched a new early-stage fund named Evertrue, closing an oversubscribed $17 million Fund I focused on the UK and Europe. The fund aims to support roughly 20 companies over the next three years with average check sizes of £350,000. Bajela notes that the ongoing AI boom creates unique opportunities despite a challenging fundraising climate for emerging managers.",
     "tags": [
       "startups"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "6d12af7c85f1",
@@ -953,7 +1170,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-03T07:56:21Z",
-    "points": 114,
+    "points": 129,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -986,7 +1203,7 @@
     "section": "tutoriales",
     "published": "2026-11-03T07:36:47Z",
     "image_checked": true,
-    "points": 111,
+    "points": 112,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "A custom filter list for uBlock Origin prevents intrusive autoplaying videos and floating ad players on TechCrunch articles. By blocking specific script domains and applying cosmetic hiding rules, users can stop background media playback entirely. This solution works with the full version of uBlock Origin on Firefox.",
@@ -1061,7 +1278,12 @@
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/live-rewind-restaurant.jpg?resize=1200,669",
     "image_checked": true,
     "weight": 1,
-    "first_seen": "2026-11-03T08:20:23.956888509Z"
+    "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "summary": "Apple is beta testing new Audio Intelligence features for the Apple Watch, designed to help users identify sounds and manage conversations. The update introduces tools like Live Rewind and Siri Recaps, which allow wearers to review short audio snippets and summarize discussions. These capabilities incorporate privacy safeguards, including automated deletion and clear recording indicators, to address potential concerns surrounding ambient audio wearables.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
   },
   {
     "id": "6dbed183e08f",
@@ -1123,7 +1345,7 @@
     "published": "2026-11-03T07:04:50Z",
     "image_url": "https://opengraph.githubassets.com/9f0cd5962c2e7adcf13bb6cb4497eacb940accb8474cd7942b62ba762e0e4728/NVIDIA/auto-ontology",
     "image_checked": true,
-    "points": 165,
+    "points": 172,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Nvidia has released an open-source library designed to help enterprise AI agents discover, ground, and validate data across different systems. The Auto Ontology tool builds knowledge graphs from metadata and integrates with standard agent harnesses to improve query accuracy and reliability.",
@@ -1222,7 +1444,9 @@
     "excerpt": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
     "image_url": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
     "weight": 1,
-    "first_seen": "2026-11-03T08:20:23.956888509Z"
+    "first_seen": "2026-11-03T08:20:23.956888509Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "5d72fd893a10",
@@ -1235,9 +1459,8 @@
     "image_url": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
-    "tags": [
-      "gaming"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "9329e08c2f5a",
@@ -1250,9 +1473,8 @@
     "image_url": "https://media.wired.com/photos/66ea077039cb65abef27cd6f/master/pass/WIRED-Coupons-9.jpg",
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
-    "tags": [
-      "gaming"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "994372a1fa3c",
@@ -1786,7 +2008,7 @@
     "published": "2026-11-03T03:10:04Z",
     "image_url": "https://hjkl.duy.run/og.png",
     "image_checked": true,
-    "points": 49,
+    "points": 50,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "A browser-based game helps users practice and master Vim text-editor commands through guided, prompted, and independent editing exercises. The free tool runs entirely client-side without requiring user accounts or registration.",
@@ -1806,7 +2028,7 @@
     "published": "2026-11-03T02:58:44Z",
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "image_checked": true,
-    "points": 43,
+    "points": 45,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "A comparative study evaluates open-source 5G Radio Access Network platforms like OpenAirInterface and srsRAN. The research analyzes deployment flexibility, radio resource control setups, and performance across various application workloads.",
@@ -1918,7 +2140,7 @@
     "section": "tech",
     "published": "2026-11-03T01:53:34Z",
     "image_checked": true,
-    "points": 347,
+    "points": 353,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Recent reports cover developments across technology and software engineering, including early research on direct modifications to neural network weights using language models. Other topics include an archival video library built from forum recommendations and discussions surrounding delayed software releases. Additionally, various programming exercises and tools are highlighted for developers.",
@@ -1962,7 +2184,7 @@
     "section": "tutoriales",
     "published": "2026-11-03T01:33:43Z",
     "image_url": "https://opengraph.githubassets.com/ed7ae0c4d45c7595858bbcc0a00e48dadaadaa8459fe5b00831e779e91322572/JiaFeiMiao-K-Cat/DiscImageStudio",
-    "points": 286,
+    "points": 291,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Disc Image Studio is a tool that allows users to burn visible artwork and patterns onto CDs, DVDs, and Blu-ray discs. It provides a graphical interface for Windows and command-line support for Linux and macOS. The application includes calibration features and preset configurations to ensure precise physical burning.",
@@ -2675,7 +2897,7 @@
     "section": "ciencia",
     "published": "2026-11-02T21:42:25Z",
     "image_url": "https://www6.slac.stanford.edu/sites/default/files/styles/extra_large_card/public/2026-07/altermagnetism_la_v06.jpg?h=d14915d2\u0026itok=ysTK99rN",
-    "points": 92,
+    "points": 94,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "Researchers at the SLAC National Accelerator Laboratory have confirmed the existence of altermagnetism, identifying a third phase of magnetism. By studying manganese telluride, the team observed unique chiral properties that combine characteristics of both ferromagnetism and antiferromagnetism. This discovery could enable advancements in quantum technologies, data centers, and memory devices.",
@@ -3505,7 +3727,7 @@
     "published": "2026-11-02T18:39:38Z",
     "image_url": "https://freenode.net/media/og-default.png",
     "image_checked": true,
-    "points": 558,
+    "points": 561,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "summary": "Important Long Term Support releases of a major Linux distribution remain vulnerable to a severe remote code execution flaw due to delayed vendor patches. System administrators managing internet-facing infrastructure face difficult choices as official updates remain unavailable weeks after the vulnerability was disclosed. The lack of a confirmed timeline for the fix has prompted concerns about security response times.",
@@ -3622,7 +3844,7 @@
     "published": "2026-11-02T18:21:28Z",
     "image_url": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
     "image_checked": true,
-    "points": 2835,
+    "points": 2842,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "summary": "Recent experiments demonstrate that large language models can directly analyze and modify neural network weights to enhance performance without traditional training loops. By interpreting the function of individual weights, an LLM successfully corrected reasoning loops and improved math benchmarks in an existing model. This technique, known as weight-space programming, points toward a shift in how models might be optimized in the future.",
@@ -3889,7 +4111,7 @@
     "published": "2026-11-02T17:47:40Z",
     "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG",
     "image_checked": true,
-    "points": 270,
+    "points": 273,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "NIST has released a new cybersecurity guide specifically tailored for solopreneurs and single-person businesses. Written in accessible language, the publication helps independent operators implement basic security measures and reduce digital risks without requiring prior technical expertise.",
@@ -4006,7 +4228,7 @@
     "published": "2026-11-02T17:20:13Z",
     "image_url": "https://polyend-website.fra1.digitaloceanspaces.com/wp-content/uploads/2026/11/02162002/tracker-1.jpeg",
     "image_checked": true,
-    "points": 145,
+    "points": 146,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "summary": "Polyend has released the firmware source code for its Tracker hardware instruments alongside the launch of the Tracker Community Edition 1.0. The update introduces new features such as sample streaming, timing and velocity controls, plugin support, and new synth engines. Users can now modify the firmware and build custom tools using the provided SDKs.",
@@ -4054,7 +4276,7 @@
     "published": "2026-11-02T17:05:25Z",
     "image_url": "https://momentic.ai/images/og/home.png",
     "image_checked": true,
-    "points": 150,
+    "points": 151,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "summary": "Momentic offers an AI-driven quality assurance platform designed to automate end-to-end testing and catch software bugs. The system helps development teams verify user flows, handle UI changes through automated test healing, and integrate checks directly into CI pipelines.",
@@ -4194,7 +4416,7 @@
     "section": "ia",
     "published": "2026-11-02T16:34:36Z",
     "image_checked": true,
-    "points": 436,
+    "points": 439,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "enriched": true,
@@ -4265,7 +4487,7 @@
     "published": "2026-11-02T16:25:26Z",
     "image_url": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5",
     "image_checked": true,
-    "points": 295,
+    "points": 298,
     "weight": 1,
     "first_seen": "2026-11-02T20:33:15.942229267Z",
     "summary": "This project presents an interactive 3D voxel map depicting the center of Warsaw. Users can explore the detailed virtual urban environment directly in their browsers.",
@@ -4383,16 +4605,20 @@
     "title": "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python",
     "url": "https://github.com/atifcodesalot/pyWolf3D",
     "source": "Hacker News",
-    "section": "ia",
+    "section": "tutoriales",
     "published": "2026-11-02T16:09:13Z",
     "image_url": "https://opengraph.githubassets.com/4041900dd60362f55f333c2297670c2b555dcc5b9793b2e651e1ea7cbf4a1c5c/atifcodesalot/pyWolf3D",
     "image_checked": true,
     "points": 6,
     "weight": 1,
     "first_seen": "2026-11-02T20:50:25.909697782Z",
+    "summary": "A developer shares a custom-built clone of the classic game Wolfenstein 3D implemented entirely in Python using Pygame. The project features a custom raycasting engine, map parsing, and support for original game assets. The author details the implementation process, technical architecture, and instructions for running the code.",
     "tags": [
-      "python"
-    ]
+      "python",
+      "gaming",
+      "tutorial"
+    ],
+    "enriched": true
   },
   {
     "id": "47232cce3a89",
@@ -5350,7 +5576,7 @@
     "section": "tutoriales",
     "published": "2026-11-02T13:28:14Z",
     "image_checked": true,
-    "points": 15,
+    "points": 18,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "This tutorial demonstrates how to build a low-cost 433 MHz radio signal scanner using an FT232H USB-to-SPI board and a CC1101 module. By writing a Python script with pyftdi, programmers can capture and visualize simple remote control signals directly from a laptop without flashing microcontroller firmware.",
@@ -5370,7 +5596,7 @@
     "section": "tutoriales",
     "published": "2026-11-02T13:25:35Z",
     "image_checked": true,
-    "points": 603,
+    "points": 604,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "summary": "The author discusses the importance of personal web archiving after losing access to a long-running favorite fansite that was replaced by spam. The post encourages readers to take action and back up websites they care about rather than relying solely on large institutions. It introduces accessible tools and browser extensions designed to help individuals save and preserve web pages easily.",
@@ -5798,7 +6024,7 @@
     "published": "2026-11-02T08:58:33Z",
     "image_url": "https://erici.eu/img/og-card.png",
     "image_checked": true,
-    "points": 159,
+    "points": 162,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The European RISC-V Industrial Computing Initiative (ERICI) aims to bring open-standard architecture to industrial environments. By establishing a standardized reference stack for RVA23 silicon, the project helps bridge the gap between emerging open-source hardware and long-term industrial deployment needs.",
@@ -5877,6 +6103,23 @@
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "enriched": true,
     "skip": true
+  },
+  {
+    "id": "1e70f5fbee7b",
+    "title": "Why Don't We Live in an Art Nouveau World?",
+    "url": "https://asteriskmag.com/issues/16/why-don-t-we-life-in-an-art-nouveau-world",
+    "source": "Hacker News",
+    "section": "ciencia",
+    "published": "2026-11-02T05:05:11Z",
+    "image_url": "https://asteriskmag.com/media/pages/issues/16/why-don-t-we-life-in-an-art-nouveau-world/8662aa7dad-1793046098/art-nouveau-etienne-fortier-dubois-1600x900-crop-sharpen50.png",
+    "points": 12,
+    "weight": 1,
+    "first_seen": "2026-11-03T13:48:26.529872454Z",
+    "summary": "The completed main spire of the Sagrada Família highlights the enduring legacy of Antoni Gaudí and the distinct aesthetic of Art Nouveau. Emerging around 1890, this artistic movement rejected historicism in favor of organic curves and intricate ornamentation. While celebrated in specific architectural landmarks, the style remains a unique departure from standard urban architecture.",
+    "tags": [
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "ecf01a08e189",
@@ -6199,7 +6442,7 @@
     "source": "Hacker News",
     "section": "ia",
     "published": "2026-11-02T02:21:07Z",
-    "points": 68,
+    "points": 70,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -6229,7 +6472,7 @@
     "published": "2026-11-02T01:34:16Z",
     "image_url": "http://static1.squarespace.com/static/63bdc0806d7fbd5344be5be2/645df304f842893774653248/6aac55340d0cc575543f5d83/1793289481149/OCS-HERO-BLUR.jpg?format=1500w",
     "image_checked": true,
-    "points": 21,
+    "points": 25,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "PsiQuantum has introduced an optical circuit switching technology derived from its silicon photonics platform developed for quantum computing. The demonstration aims to address data bottleneck issues in large-scale artificial intelligence infrastructure by improving network connectivity. The company is currently providing samples of the technology to prospective customers.",
@@ -6267,7 +6510,7 @@
     "published": "2026-11-02T01:11:19Z",
     "image_url": "https://vathography.com/assets/images/share.jpg",
     "image_checked": true,
-    "points": 39,
+    "points": 41,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "summary": "Vathography is a creative technique that translates standard photographs into volumetric depth maps using diffusion models. By extracting the relative distance of objects within a scene, artists can manipulate focus, lighting, and composition after capture. This approach shifts the photographic process from capturing surface light and color to structuring 3D volume.",
@@ -6580,7 +6823,7 @@
     "published": "2026-11-01T16:26:21Z",
     "image_url": "https://hips.hearstapps.com/hmg-prod/images/f762144b-25e4-49ae-8c17-f7a981e7a723.jpg?crop=0.706xw:0.529xh;0.259xw,0.305xh\u0026resize=1200:*",
     "image_checked": true,
-    "points": 45,
+    "points": 49,
     "weight": 1,
     "first_seen": "2026-11-03T13:27:55.557931422Z",
     "enriched": true,
@@ -6641,7 +6884,7 @@
     "published": "2026-11-01T14:52:05Z",
     "image_url": "https://brand.nixos.org/logos/nixos-logo-default-gradient-white-regular-horizontal-recommended.svg",
     "image_checked": true,
-    "points": 84,
+    "points": 88,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "A developer shares a detailed guide on minimizing the RAM footprint and resource requirements of NixOS. By tweaking kernel command-line parameters, disabling unnecessary kernel threads, and adjusting memory management settings, the idle memory usage can be drastically reduced. The process highlights various optimizations for resource-constrained virtual private servers.",
@@ -6992,7 +7235,7 @@
     "published": "2026-11-01T06:13:30Z",
     "image_url": "https://knlb.dev/essays/.surrender_assets/image-4147323edcec4900b374ba7a6e8d4cbb.png",
     "image_checked": true,
-    "points": 232,
+    "points": 238,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "An exploration of cognitive surrender examines the risks of uncritically accepting outputs from AI agents in programming workflows. While relying on automated systems offers speed and reduces effort, it often leads to technical debt, diminished code familiarity, and suboptimal decision-making. The commentary advocates for maintaining a healthy balance of critical thinking alongside automated tooling.",
@@ -7089,7 +7332,7 @@
     "section": "tech",
     "published": "2026-11-01T00:25:04Z",
     "image_checked": true,
-    "points": 154,
+    "points": 159,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "summary": "The Toit programming language has officially reached version 2.0.0 after years of alpha development and community-driven maintenance. The release finalizes major breaking changes regarding pin configurations and brings broader hardware support. Improvements include a rewritten package manager, better desktop scripting capabilities, and enhanced firmware customization.",
@@ -7125,7 +7368,7 @@
     "published": "2026-10-31T22:31:49Z",
     "image_url": "https://substackcdn.com/image/fetch/$s_!RnQl!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff54912b4-82dd-4e4a-a9f5-60d39f00bd35_840x599.jpeg",
     "image_checked": true,
-    "points": 88,
+    "points": 91,
     "weight": 1,
     "first_seen": "2026-11-03T08:20:23.956888509Z",
     "enriched": true,
@@ -7272,6 +7515,8 @@
     "section": "tutoriales",
     "published": "2026-10-31T14:00:00Z",
     "excerpt": "Build a cross-platform Python GUI with wxPython in this tutorial, from buttons and sizers to a working MP3 tag editor application.",
+    "image_url": "https://files.realpython.com/media/wxPython-GUI-Tutorial_Watermarked.917be5fbbf2c.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7287,6 +7532,8 @@
     "section": "tutoriales",
     "published": "2026-10-31T14:00:00Z",
     "excerpt": "Learn how to use the Python zip() function to iterate over multiple iterables in parallel, unzip sequences, and build dictionaries with less code.",
+    "image_url": "https://files.realpython.com/media/How-to-Use-Python-Zip-with-Examples_Watermarked.3020903367b6.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7302,6 +7549,8 @@
     "section": "tutoriales",
     "published": "2026-10-31T14:00:00Z",
     "excerpt": "Compare Python vs Java for object-oriented programming and learn how to apply your Java knowledge of classes and objects to Python in a Pythonic way.",
+    "image_url": "https://files.realpython.com/media/OOP-in-Python-vs-Java_Watermarked.d2a9a70a3455.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7354,6 +7603,8 @@
     "section": "tutoriales",
     "published": "2026-10-31T12:00:00Z",
     "excerpt": "In this quiz, you'll test your understanding of Python sockets. With this knowledge, you'll be able to create your own client-server applications, handle multiple connections simultaneously, and send messages and data between endpoints.",
+    "image_url": "https://files.realpython.com/media/Python-Sockets-Tutorial_Watermarked.aebb960a567a.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7537,6 +7788,7 @@
     "section": "tutoriales",
     "published": "2026-10-30T21:59:22Z",
     "excerpt": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source cod…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7800,6 +8052,8 @@
     "section": "tutoriales",
     "published": "2026-10-30T12:00:00Z",
     "excerpt": "In this quiz, you'll test your understanding of inheritance and composition in Python. These are two major concepts in object-oriented programming that help model the relationship between two classes. By working through this quiz, you'll revisit how to use inheritance and composition in Python, model class hierarchies, and use multiple inheritance.",
+    "image_url": "https://files.realpython.com/media/Inheritance-vs-Composition-in-Python_Watermarked_1.aec726368a97.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7815,6 +8069,8 @@
     "section": "tutoriales",
     "published": "2026-10-30T12:00:00Z",
     "excerpt": "How does Python manage memory behind the scenes? What are the common ways to lay out a Python project? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.",
+    "image_url": "https://files.realpython.com/media/E_317_Podcast_Title.a895d72907d6.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -7829,6 +8085,8 @@
     "section": "tutoriales",
     "published": "2026-10-30T12:00:00Z",
     "excerpt": "Find out how Python's mutable and immutable types behave, and see how mutability shapes lists, tuples, dictionaries, and your own classes.",
+    "image_url": "https://files.realpython.com/media/Mutable-and-Immutable-Data-Types-in-Python_Watermarked.2566c67a719d.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8026,6 +8284,7 @@
     "section": "tutoriales",
     "published": "2026-10-29T22:48:29Z",
     "excerpt": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan wit…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8110,6 +8369,8 @@
     "section": "tutoriales",
     "published": "2026-10-29T17:00:26Z",
     "excerpt": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to mod…",
+    "image_url": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8183,6 +8444,7 @@
     "section": "tutoriales",
     "published": "2026-10-29T14:06:27Z",
     "excerpt": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8207,6 +8469,8 @@
     "section": "tutoriales",
     "published": "2026-10-29T12:00:00Z",
     "excerpt": "Practice learning async Python with Mentor AI. Check how coroutines, await, and the event loop work, and how to steer your mentor.",
+    "image_url": "https://files.realpython.com/media/Learn-With-Mentor-AI-A-Guided-Journey-Through-Async-Python_Watermarked.652a37f32fa1.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8222,6 +8486,8 @@
     "section": "tutoriales",
     "published": "2026-10-29T12:00:00Z",
     "excerpt": "Test your understanding of Python dictionaries and arrays, from dict, defaultdict, and ChainMap to lists, typed arrays, and bytearray.",
+    "image_url": "https://files.realpython.com/media/Python-Tricks-Chapter-on-Data-Structures_Watermarked.b5d9d86333c3.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8317,6 +8583,7 @@
     "section": "tutoriales",
     "published": "2026-10-28T23:23:21Z",
     "excerpt": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c)…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8359,6 +8626,7 @@
     "section": "tutoriales",
     "published": "2026-10-28T16:45:23Z",
     "excerpt": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commi…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8385,6 +8653,8 @@
     "section": "tutoriales",
     "published": "2026-10-28T13:55:15Z",
     "excerpt": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones…",
+    "image_url": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8411,6 +8681,8 @@
     "section": "tutoriales",
     "published": "2026-10-28T12:00:00Z",
     "excerpt": "Test your understanding of Flask project structure, from the application factory and blueprints to Jinja templates and static files.",
+    "image_url": "https://files.realpython.com/media/UPDATE-Python-Web-Applications-with-Flask-1_Watermarked.3e384f2e53cf.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z"
   },
@@ -8422,6 +8694,7 @@
     "section": "tutoriales",
     "published": "2026-10-28T10:09:07Z",
     "excerpt": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the devel…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z"
   },
@@ -8466,6 +8739,8 @@
     "section": "tutoriales",
     "published": "2026-10-27T19:34:18Z",
     "excerpt": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy C…",
+    "image_url": "https://static.simonwillison.net/static/2026/zelda-card.jpg",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8523,6 +8798,8 @@
     "section": "tutoriales",
     "published": "2026-10-27T14:00:00Z",
     "excerpt": "AI coding agents come in four types: IDE, terminal, PR, and cloud. Learn how each workflow fits into modern Python development.",
+    "image_url": "https://files.realpython.com/media/A-Practical-Map-of-Types-of-AI-Coding-Agents_Watermarked.7955cfd5f864.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8551,6 +8828,8 @@
     "section": "tutoriales",
     "published": "2026-10-26T23:53:07Z",
     "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6…",
+    "image_url": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8565,6 +8844,7 @@
     "section": "tutoriales",
     "published": "2026-10-26T19:00:25Z",
     "excerpt": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them.…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8593,6 +8873,7 @@
     "section": "tutoriales",
     "published": "2026-10-26T16:15:00Z",
     "excerpt": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any exceptions to standard error. It's written in Go on top of the glaze library, which provides access to a syste…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8645,6 +8926,8 @@
     "section": "tutoriales",
     "published": "2026-10-26T00:00:00Z",
     "excerpt": "How the Go team responded to the eMudhra certificate compromise with our first-ever URGENT track security release.",
+    "image_url": "https://go.dev/doc/gopher/gopher5logo.jpg",
+    "image_checked": true,
     "weight": 1.3,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8659,6 +8942,7 @@
     "section": "tutoriales",
     "published": "2026-10-25T15:10:19Z",
     "excerpt": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wan…",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8673,6 +8957,8 @@
     "section": "tutoriales",
     "published": "2026-10-24T03:59:57Z",
     "excerpt": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude O…",
+    "image_url": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8688,6 +8974,8 @@
     "section": "tutoriales",
     "published": "2026-10-23T21:35:13Z",
     "excerpt": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags…",
+    "image_url": "https://static.simonwillison.net/static/2026/heron-oil.webp",
+    "image_checked": true,
     "weight": 1.2,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
@@ -8801,6 +9089,8 @@
     "section": "tutoriales",
     "published": "2026-10-21T00:00:00Z",
     "excerpt": "Share your experience with Go in the 2026 Go Developer Survey, open through November 3.",
+    "image_url": "https://go.dev/doc/gopher/gopher5logo.jpg",
+    "image_checked": true,
     "weight": 1.3,
     "first_seen": "2026-11-02T16:31:43.526468419Z",
     "tags": [
