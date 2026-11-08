@@ -1,5 +1,1030 @@
 [
   {
+    "id": "c8f84f80f451",
+    "title": "Pre-Call Cost Estimate: A Go Guide to Usage Report Evidence",
+    "url": "https://dev.to/ironspiredraven77/pre-call-cost-estimate-a-go-guide-to-usage-report-evidence-2do8",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T04:05:25Z",
+    "excerpt": "A pre-call cost estimate can stop an AI agent from choosing an expensive branch; a post-hoc usage report can only explain the spending afterward. TL;DR: use estimates to admit work, actual usage to reconcile it, and an account cap to bound the damage when the estimate is wrong. For a B2B SaaS access review, the useful artifact is a record that connects permission to spend with the decision it enab…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0e0uq8pf6068dti8gc4r.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "agents",
+      "go",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "0a3d4a7a2378",
+    "title": "Paramount’s 4-Part Action Fantasy Epic Has One of the Best Seasons in TV History",
+    "url": "https://www.polygon.com/the-legend-of-korra-season-3-best-season/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T04:00:17Z",
+    "excerpt": "In its third season, a beloved animated hero grows up the hard way, living with the fallout of her biggest choice and facing a chilling new villain.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/legend-of-korra-outlook.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The third season of The Legend of Korra explores the aftermath of leaving the spirit portals open, introducing the anarchist group Red Lotus as antagonists. This season highlights character growth as Korra faces mature consequences and new airbenders emerge worldwide. Studio Mir's animation elevates the dynamic fight choreography and distinct character designs.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "56ba036f386d",
+    "title": "How I built a lightweight background cache to stop ChatGPT and Claude from forgetting my project context",
+    "url": "https://dev.to/aimrrs/how-i-built-a-lightweight-background-cache-to-stop-chatgpt-and-claude-from-forgetting-my-project-18i7",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:56:06Z",
+    "excerpt": "If you use AI coding assistants across multiple platforms (like jumping between Claude and ChatGPT), you’ve probably hit the \"Empty Room\" problem. Every time you start a fresh chat session, the model has zero context about your database schema, your environment setup, or the architectural decisions you locked down yesterday. I got completely burnt out spending the first 10 minutes of every coding…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8o63tg1tj0g9fkmfxnk3.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "82a74bdb6c1a",
+    "title": "I built a local-first bookmark manager that actually remembers what you saved",
+    "url": "https://dev.to/_86cb5d746592807d24829/i-built-a-local-first-bookmark-manager-that-actually-remembers-what-you-saved-5b07",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:50:32Z",
+    "excerpt": "I saved links faster than I could find them again, so I built Linkit, a free desktop bookmark manager that fetches and summarizes every link as you save it. A browser bookmark stores a URL and nothing else. That leaves three gaps: keyword search only matches exact titles, you have to open a link to know what it says, and the same article saved from three URLs looks like three entries. Linkit works…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftl30nifxdv05cuk83tnu.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "web"
+    ]
+  },
+  {
+    "id": "97d7f57d96e6",
+    "title": "Why I Moved Audit Context out of Prompts, Into Hindsight.",
+    "url": "https://dev.to/chaithanya_n_cac59cb5d163/veriq-n27",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:43:47Z",
+    "excerpt": "Why I Moved Audit Context Out of Prompts, Into Hindsight Nobody could tell me exactly what our audit-drafting model had been told the last time it ran. In an audit program, that is a control gap. How the prompt grew Every time the model missed a prior finding, I added another loader to the prompt builder: parts = [ RULES , RUBRIC ] parts += [ r . full_text for r in load_reports ( last_n_quarters =…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faqa2yona04o1ji9b1exf.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "prompting"
+    ]
+  },
+  {
+    "id": "b9859236d7c9",
+    "title": "9 Near-Perfect Dragon Age Replacements For Fans of Fantasy RPGs",
+    "url": "https://www.polygon.com/best-dragon-age-replacements/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T03:40:49Z",
+    "excerpt": "If you're looking for the best games like Dragon Age, these Dragon Age replacement fantasy RPGs have you covered.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/9450027/dragon_age.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Fans of the Dragon Age series can explore similar fantasy role-playing games focusing on complex companions, branching choices, and tactical combat. Titles like Divinity: Original Sin and Neverwinter Nights offer deep party dynamics and immersive storytelling. These recommendations provide comparable adventures for players seeking rich narrative choices.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "373fc1efd4c3",
+    "title": "DeepSeek V4.1 Flash vs Claude Haiku 5.5: a 17-task benchmark of the two cheapest tiers",
+    "url": "https://dev.to/xiun_xiao_6eae2df5c108c5f/deepseek-v41-flash-vs-claude-haiku-55-a-17-task-benchmark-of-the-two-cheapest-tiers-130i",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:33:04Z",
+    "excerpt": "Originally published on the QuickSilver Pro blog . DeepSeek V4.1 Flash and Claude Haiku 5.5 are the two models people reach for when a job runs thousands of times a day: classification, extraction, small code edits, the background calls of an agent. Both are cheap per token. The question is which one is cheaper per finished task , and whether either gets things wrong more often. So we measured it,…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwsn5w0h3l60camp6mjeb.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "0ac31a6a9107",
+    "title": "Оценка, которая каждый месяц пишет новый экзамен: ноябрьская таблица SuperCLUE 2026, 19 моделей в одной таблице",
+    "url": "https://dev.to/_0e3192755d4df45b92/otsienka-kotoraia-kazhdyi-miesiats-pishiet-novyi-ekzamien-noiabrskaia-tablitsa-superclue-2026-19-modieliei-v-4364",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:18:58Z",
+    "excerpt": "Откуда у SuperCLUE вес Из двух вещей: экзамен переписывают каждый месяц, и его не публикуют. SuperCLUE продолжает CLUE для больших моделей. CLUE начался в 2019 году и стал опорной таблицей для обработки китайского языка. В оценке больших языковых моделей SuperCLUE цитируют в Китае чаще любой другой таблицы. Каждый месяц он собирает закрытый тестовый набор, поэтому модель не может подняться, заучив…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "bf7fb8425b53",
+    "title": "毎月、問題を作り直す評価機関: SuperCLUE 2026年11月ボード、世界最前線19モデルを一枚の表に",
+    "url": "https://dev.to/quantid/mei-yue-wen-ti-wozuo-rizhi-suping-jia-ji-guan-superclue-2026nian-11yue-bodo-shi-jie-zui-qian-xian-19moderuwo-mei-nobiao-ni-4amm",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:18:57Z",
+    "excerpt": "SuperCLUE の重みはどこから来るのか 毎月問題を作り直し、その問題を公開しない、という二点から来ます。 SuperCLUE は、2019年に始まり中国語自然言語処理の基準ボードになった CLUE の大規模言語モデル版です。大規模言語モデルの評価では、中国で最も多く引用されるボードです。毎月、非公開のテストセットを新しく作るため、公開済みの問題を暗記して順位を上げることができません。採点軸は五つあります。エージェント型コーディング、数学・科学推論、ハルシネーション抑制、厳密な指示遵守、超長文コンテキストです。クローズドな商用モデルとオープンウェイトモデルを同じ表に載せるため、二つの陣営を並べて読めます。 2026年11月のボードは 世界最前線の19モデル を対象にしています。以下の点数は SuperCLUE が11月の非公開セットで測定したものです。 軸ごとの首位 軸 最高点 オープ…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "a3545b65be7f",
+    "title": "La evaluación que reescribe su examen cada mes: el tablero de SuperCLUE de noviembre de 2026, 19 modelos en una tabla",
+    "url": "https://dev.to/_0e3192755d4df45b92/la-evaluacion-que-reescribe-su-examen-cada-mes-el-tablero-de-superclue-de-noviembre-de-2026-19-4c0l",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:18:23Z",
+    "excerpt": "¿De dónde viene el peso de SuperCLUE? De dos cosas: reescribe el examen cada mes y no lo publica. SuperCLUE es la continuación para grandes modelos de CLUE, el banco de pruebas de comprensión del chino que comenzó en 2019 y se convirtió en el tablero de referencia del procesamiento de lenguaje natural en chino. En evaluación de grandes modelos de lenguaje es el tablero más citado de China. Cada me…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "8785adb7d788",
+    "title": "매달 시험지를 새로 만드는 평가기관: 슈퍼클루 2026년 11월 보드, 글로벌 19개 모델 한 표",
+    "url": "https://dev.to/vidraft_lab/maedal-siheomjireul-saero-mandeuneun-pyeonggagigwan-syupeokeulru-2026nyeon-11weol-bodeu-geulrobeol-19gae-model-han-pyo-21pm",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:18:18Z",
+    "excerpt": "슈퍼클루의 무게는 어디서 나오는가 매달 시험지를 새로 만들고, 그 시험지를 공개하지 않는다는 점에서 나옵니다. 슈퍼클루는 2019년 시작해 중국어 자연어처리의 기준 보드가 된 CLUE 의 대형 언어모델 판입니다. 대형 언어모델 평가에서 중국에서 가장 많이 인용되는 보드입니다. 매달 비공개 시험지를 새로 만들기 때문에 공개된 문제를 외워서 순위를 올릴 수 없습니다. 채점 축은 다섯 개입니다. 에이전트 코딩, 수학·과학 추론, 환각 억제, 정밀 지시 이행, 초장문 문맥입니다. 비공개 상용 모델과 오픈 가중치 모델을 같은 표에 올리기 때문에 두 진영을 나란히 읽을 수 있습니다. 2026년 11월 보드는 세계 최상위 19개 모델 을 다룹니다. 아래 점수는 슈퍼클루가 11월 비공개 시험지로 매긴 것입니다. 축별 1위…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "f55400e07d43",
+    "title": "The Benchmark That Writes a New Exam Every Month: SuperCLUE's November 2026 Board, 19 Models, One Table",
+    "url": "https://dev.to/quantid/the-benchmark-that-writes-a-new-exam-every-month-superclues-november-2026-board-19-models-one-3ch8",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:18:17Z",
+    "excerpt": "Why does SuperCLUE carry weight? Because it changes the exam every month and keeps it private. SuperCLUE is the large-model successor to CLUE, the Chinese language understanding benchmark that started in 2019 and became the reference board for Chinese natural language processing. For large language models it is the most widely cited evaluation in China. Each month it builds a fresh private test se…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "5faf8e9c3d00",
+    "title": "# What Changed When I Gave My Audit Agent Hindsight",
+    "url": "https://dev.to/gururaj_n-17/-what-changed-when-i-gave-my-audit-agent-hindsight-b58",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:16:19Z",
+    "excerpt": "What Changed When I Gave My Audit Agent Hindsight Before I gave my audit agent memory, every question started from zero. It could tell me a control's status, but not that we'd seen the same gap before, or why we'd decided to leave it open. After I added Hindsight, it could answer both. That difference changed how I think about what an agent in a compliance tool is actually for. What Veriq does and…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3alx52f87aew0035cnyc.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "e66f4eeac8f3",
+    "title": "Goodbye Claude, Hello Pi",
+    "url": "https://caleb.software/posts/claude-to-pi.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-08T03:11:48Z",
+    "image_checked": true,
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "A developer shares their experience migrating their primary AI coding assistant setup from Claude Code to Pi due to persistent workflow frustrations and stability concerns. The transition highlights common pain points with modern AI coding harnesses, including IDE integration limitations and feature bloat. The user ultimately chose a more streamlined alternative over the rapidly expanding feature set of Anthropic's tool.",
+    "tags": [
+      "llm",
+      "agents",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5fa4fc3b3125",
+    "title": "One Week, Three Public Numbers: 73.68 Open-Weight #1 in Math Reasoning, 290 of 290 Actions Denied, 3.15M On-Device Downloads",
+    "url": "https://dev.to/ginigen_ai_010d9180cbbdb1/one-week-three-public-numbers-7368-open-weight-1-in-math-reasoning-290-of-290-actions-denied-1ml4",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-08T03:09:17Z",
+    "excerpt": "Three numbers, each on a page you can open SuperCLUE, November 2026. Darwin-180B-RSI-R3 scored 73.68 in mathematical and scientific reasoning: first among open-weight models and second of all 19 models , behind only GPT-6.1-Sol at 76.32 and ahead of Gemini-4-Argon, DeepSeek-V4.1-Flash, Grok-4.7 and Qwen3.8-Max. Scores are SuperCLUE's, measured on its private November test set. ViKernel action gate…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fsuperclue_math_science_2026-11.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "a34bfec7a4e9",
+    "title": "How to Play Every GTA Game in 2026",
+    "url": "https://www.polygon.com/gta-games-all-2026-where-to-play/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T02:54:13Z",
+    "excerpt": "GTA might be the most popular video game franchise of all time, but a lot of it is hard to play. Here's a guide on how to play every GTA game.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/grand-theft-auto-6-promo-shot.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Playing older titles in the Grand Theft Auto series presents challenges due to uneven availability and lack of modern platform support. While subscription services provide access to several classic installments, early 2D games remain difficult to run without retro hardware or unofficial modifications.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3030d4f57dad",
+    "title": "Twenty-six against forty",
+    "url": "https://dev.to/phpboyscout/twenty-six-against-forty-29on",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T02:51:23Z",
+    "excerpt": "I went to bed at about half nine, and the last thing I typed to the session before I did was this: I am going to head off to bed now, but I would like you to continue the rollout and create all the MRs for waves 1-5, but do not merge them, we will review together in the morning . The whole governance model is in that last clause An estate-wide migration off a third-party errors library onto our ow…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fphpboyscout.uk%2Ftwenty-six-against-forty%2Fcover-twenty-six-against-forty.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "472aece4f01f",
+    "title": "8 Near-Perfect BioWare Games That Aged Like Fine Wine",
+    "url": "https://www.polygon.com/top-bioware-games/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T02:43:33Z",
+    "excerpt": "From Baldur's Gate to a surprisingly good Sonic RPG, these 8 BioWare games still hold up decades later",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/07/Neverwinter-Nights-2-Enhanced-Edition-cover-image-Shadow-King.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "BioWare has developed numerous influential role-playing games over the years, ranging from expansive space operas to tactical dungeon crawlers. Many of these titles introduced mechanics such as persistent companion consequences and intricate relationship systems that continue to influence the industry.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "2c7fae9ac0b7",
+    "title": "Stop Passive AI Rewrites: Agentic Coaching in Google Docs with gdocumentor",
+    "url": "https://dev.to/gde/stop-passive-ai-rewrites-agentic-coaching-in-google-docs-with-gdocumentor-2448",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T02:40:06Z",
+    "excerpt": "A Go CLI and MCP server that turns Gemini and any AI agent into a Socratic writing and code review coach Figure 1. Overview of the gdocumentor architecture and its four core pillars. In my previous two articles— Building a Multimodal, Suggestion-Based AI Writing Coach with Gemini and Google Docs ( Ref ) and Beyond Passive AI Rewrites and Vibe Coding in Google Docs ( Ref )—I introduced the Google A…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flpgaad2u7ti48cxixr1i.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "llm",
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2460d2eded2b",
+    "title": "Game Replay Files: Browser Direct Object Storage Uploads via Presigned PUT",
+    "url": "https://dev.to/nyxenl29/game-replay-files-browser-direct-object-storage-uploads-via-presigned-put-2d8c",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T02:26:05Z",
+    "excerpt": "Short answer: for a gaming app moving large media, let the browser send bytes to private object storage with a short-lived presigned PUT, and make Node.js or Express sign and confirm the handoff. Keep signed download URLs on the read path. The decision is about access control versus delivery simplicity: the API should authorize the object, while storage carries the file. That boundary is a capacit…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs1fxagwsxoo56v7ak9lc.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "web",
+      "gaming",
+      "javascript"
+    ]
+  },
+  {
+    "id": "baa69ca47f81",
+    "title": "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things",
+    "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2s-game-director-thinks-a-death-recap-will-finally-allow-us-players-to-complain-about-the-right-things/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-08T02:13:27Z",
+    "excerpt": "Sometimes it's you, sometimes it's the crab",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/DGA7LqKTtAjY5xuVxbZqUa-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Path of Exile 2 will introduce a death recap feature in its upcoming 1.0 release to help players analyze combat failures. The tool aims to display damage sources and mitigation details, allowing users to better understand endgame defeats and identify necessary character upgrades.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e83fa584265c",
+    "title": "Weekly poll results: touchscreens on laptops only make sense if you can use the laptop as a tablet",
+    "url": "https://www.gsmarena.com/weekly_poll_results_touchscreens_on_laptops_only_make_sense_if_you_can_use_the_laptop_as_a_tablet-news-75367.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-08T02:03:02Z",
+    "excerpt": "The results from last week’s poll show that touchscreens do have a place on some laptops. It’s mainly the ones with a 360° hinge or the ones where the screen can detach from the keyboard – in other words, the laptops that can be used as a tablet. According to commenters, a touchscreen enables quick and easy navigation – especially for people who don’t like using a touchpad. Also, it has clear appl…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/weekly-poll-results-touchscreen-laptop/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "A recent poll examines user opinions on touchscreen laptops, indicating that touch functionality is primarily valuable on convertible or detachable devices functioning as tablets. While artists and some users appreciate the navigation ease, others worry about added costs for unused features. Meanwhile, operating systems like Windows and ChromeOS continue to refine tablet-friendly interfaces with mixed reception.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "30f8dc3d2296",
+    "title": "Consumer brain wave headsets threaten privacy",
+    "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-08T02:02:38Z",
+    "image_checked": true,
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "security",
+      "hardware",
+      "health"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4fe6bf290bd6",
+    "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
+    "url": "https://github.com/crmne/zapfast",
+    "source": "Hacker News",
+    "section": "linux",
+    "published": "2026-11-08T02:02:27Z",
+    "image_url": "https://repository-images.githubusercontent.com/1350713137/51d132b5-ac5f-4382-ad0a-2720c41f2a60",
+    "points": 8,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "ZapFast is a lightweight, native WhatsApp client built for Linux, macOS, and Windows using Rust, egui, and fastframe. It links directly to mobile devices as a companion app without relying on a browser engine, offering significantly lower memory consumption than traditional web clients. The application supports rich media messaging, local chat history encryption, multiple account management, and extensive custom themes.",
+    "tags": [
+      "rust",
+      "linux",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c6bb97e14b46",
+    "title": "4 Years Later, Captain Pike's Most Inspiring Star Trek Quote Is Still the Best Sci-Fi Line of the Decade",
+    "url": "https://www.polygon.com/star-trek-captain-pike-most-inspiring-quote/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T02:00:17Z",
+    "excerpt": "Anson Mount's Captain Pike delivers a powerful Star Trek quote about hope, destiny, and why the future is still ours to shape.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/snw3_307_mg_03_27_24_00037_rt_f.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "An analysis reflects on Captain Christopher Pike from Star Trek: Strange New Worlds, highlighting his enduring cultural impact. Anson Mount's portrayal has redefined the character, offering a blend of warmth, optimism, and leadership. A memorable line from the series premiere continues to resonate with fans of science fiction.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "30515707ffdf",
+    "title": "How to prove equations using diagrams, part 1",
+    "url": "https://www.epatters.org/post/e-graphs-1/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-08T01:48:58Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "f49b8ca90ce9",
+    "title": "Browser Object Upload Control Plane With Presigned PUT and Private Signed Downloads",
+    "url": "https://dev.to/thomasmoore157/browser-object-upload-control-plane-with-presigned-put-and-private-signed-downloads-1kpg",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T01:47:02Z",
+    "excerpt": "The operational constraint is not how quickly an application can mint a URL. It is whether the signing path, browser policy, object namespace, and cleanup process still behave predictably when uploads surge and clients retry. Short answer: keep the bucket private, let the application authorize a narrowly scoped upload and return a short-lived presigned PUT URL, send the file from the browser direc…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faxf3iya3scfe6mkt047o.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "web"
+    ]
+  },
+  {
+    "id": "6a5ae97db486",
+    "title": "Introduction to Docker Sandboxes with Go",
+    "url": "https://dev.to/karanpratapsingh/introduction-to-docker-sandboxes-with-go-25m3",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T01:46:36Z",
+    "excerpt": "AI coding agents are at their best when we let them work on their own, installing packages, running tests, building images, and trying things out without asking for permission every step of the way. But that's also when they're the most dangerous. An agent running on our laptop can do anything we can, including reading our SSH keys or wiping our home directory. Docker Sandboxes tries to solve exac…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4j46lwl9rxocecd3fg7m.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "agents",
+      "go"
+    ]
+  },
+  {
+    "id": "64fccab6ffec",
+    "title": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+    "url": "https://www.pcgamer.com/gaming-industry/a-bioware-documentary-was-already-in-the-works-when-the-shutdown-was-announced-with-the-studios-recent-closure-the-film-is-now-a-profound-valediction/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-08T01:31:13Z",
+    "excerpt": "\"The best stories never really end.\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/uSjqHDZA7WMXxsKULPqTL3-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "A documentary detailing the history of the studio BioWare was already in production prior to its closure by Electronic Arts. Titled Massive Effect: The BioWare Story, the film features interviews with key developers and founders. It serves as a retrospective tribute to the studio's legacy in storytelling.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cdf087d9a456",
+    "title": "Why the tropics lose the most birds when cities expand",
+    "url": "https://phys.org/news/2026-11-tropics-birds-cities.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-08T01:30:01Z",
+    "excerpt": "Tropical ecosystems are famous for their teeming, exuberant diversity. In fact, the dramatic increase in biodiversity from the poles to the tropics—known as the latitudinal diversity gradient—is pervasive across branches of the tree of life, and fossil evidence suggests it has existed for millennia.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/birds-tropical-city.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "adeb3a0eb9cc",
+    "title": "Tenant-Isolated AI Image Storage: Cheap Signed Downloads, No Open Bucket",
+    "url": "https://dev.to/yannicksterling6563/tenant-isolated-ai-image-storage-cheap-signed-downloads-no-open-bucket-4lp2",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T00:48:42Z",
+    "excerpt": "Short answer: For a logistics AI app, keep generated images in private object storage, authorize the tenant in the application, and issue a short-lived signed download link so the app does not proxy the media bytes. Keep it private. That answer is intentionally boring. Boring is useful when a fleet operator uploads a 300 MB inspection video, an image model produces several derivatives, and two cus…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffc0a78ojfy0qo92138lc.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "615aff925f2e",
+    "title": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance",
+    "url": "https://www.pcgamer.com/games/puzzle/chess-is-immediately-more-fun-if-you-jettison-most-of-the-rules-and-replace-them-with-weapons-grade-game-boy-advance/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-08T00:40:53Z",
+    "excerpt": "\"Pawn Chess\" is whatever you want it to be in Rulehouse.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/Y9Kr7JgAuyp7mudsm8uiRn-1920-80.png",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "An indie puzzle game titled Rulehouse reimagines traditional chess by introducing unconventional mechanics and modifiers. Inspired by Game Boy Advance aesthetics, the game incorporates varied tactical elements and a distinct retro presentation. A demo version showcases its creative approach to a classic pastime.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "755b2cf85a5c",
+    "title": "How to Reconstruct Checkout Outages with Go and Internal Load Balancer Signals",
+    "url": "https://dev.to/gagesterling2648/how-to-reconstruct-checkout-outages-with-go-and-internal-load-balancer-signals-3bh7",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-08T00:16:31Z",
+    "excerpt": "A checkout outage can exist while the public health check stays green. That happens when the probe reaches a healthy edge or a different backend path, while the internal load balancer is failing to deliver requests to the checkout service. The useful answer is a reconstruction path: pair an external transaction check with backend delivery signals, then correlate them by request ID, zone, and time…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4m7r09vqutt22nxt4mdn.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "go",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "77ceeed34173",
+    "title": "Cyberpunk 2077 Meets Papers, Please in Steam’s Latest Surprise Viral Hit",
+    "url": "https://www.polygon.com/probably-stolen-cyberpunk-shopkeeping-simulator-steam-hit/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-08T00:00:17Z",
+    "excerpt": "Probably Stolen is the latest indie game to explode in popularity on Steam, pulling in over 150,000 concurrent players, and it's showing no signs of s",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/probably-stolen-steam-hit-header.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The indie game Probably Stolen has achieved significant viral success on Steam following its release. Combining cyberpunk aesthetics with management mechanics inspired by Papers, Please, players run illicit market stalls on a dystopian space station. The title has garnered overwhelmingly positive reviews from players.",
+    "tags": [
+      "gaming",
+      "indie",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fb0087b2b9a7",
+    "title": "Google Keep's home screen widget turned our shared grocery list into a no-texting system",
+    "url": "https://www.androidpolice.com/google-keep-widget-trick-visible/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-08T00:00:10Z",
+    "excerpt": "A simple trick makes using Keep convenient",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/09/google-keep-grocery-assistant.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "An Android user shares a practical method for turning Google Keep into a synchronized household grocery list using home screen widgets and voice input. This setup allows partners to view and update shared tasks in real time without opening the app, reducing daily communication friction.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a90804883a81",
+    "title": "Retrieval Architecture for Insurance Claims Intake with Go and Delete Semantics",
+    "url": "https://dev.to/remielbarrett8283/retrieval-architecture-for-insurance-claims-intake-with-go-and-delete-semantics-jf6",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-07T23:59:48Z",
+    "excerpt": "Insurance claims intake has an awkward retrieval constraint: a document can become legally irrelevant before it becomes physically old. A withdrawn medical note, a superseded policy endorsement, or a duplicate claim must stop influencing an answer on a predictable schedule. Short answer: use a staged retrieval design with explicit collections, bounded queries, and traceable source context; make de…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Froyh12j7tjuec8buugin.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "go",
+      "health"
+    ]
+  },
+  {
+    "id": "f5913b377964",
+    "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+    "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+    "source": "Simon Willison",
+    "section": "coding",
+    "published": "2026-11-07T23:57:46Z",
+    "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: \u003chttps://latest.datasette.io/fixtures/compound_three_p…",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The Datasette project addressed an issue where HTTP link headers with rel=next attributes were sent to Firefox for HTML pages. This behavior caused Firefox to prefetch unnecessary data for subsequent rows, resulting in wasted server rendering. The fix ensures these headers are withheld from Firefox to optimize resource usage.",
+    "tags": [
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c88ed7efc89b",
+    "title": "How to Run 3 Go App Data Backups with Low-Maintenance Storage Lifecycle Rules",
+    "url": "https://dev.to/robertmiller4179/how-to-run-3-go-app-data-backups-with-low-maintenance-storage-lifecycle-rules-86k",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-07T23:50:43Z",
+    "excerpt": "Short answer: Choose AWS S3 or Azure Blob Storage for low-maintenance app data backups with lifecycle rules; use the one that already owns your identity, monitoring, and restore workflow. Both support lifecycle rules and automated expiry. The decision should follow the control plane your team already operates and the path your large media takes to storage. A useful implementation has three paths:…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm7shb8191s3gjvh0i4pb.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "cloud",
+      "go",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "3b30876234e2",
+    "title": "Fortune treasure hours schedule in the Fortnite Chapter 7 mini season",
+    "url": "https://www.polygon.com/fornite-treasure-hours-chapter-7-mini-season-c7ms/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-07T23:40:59Z",
+    "excerpt": "Here's what time you can expect the next batch of Fortnite treasure hours, as well as what bonuses are coming with them.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261105_1001_fn_treasurehour.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-05T23:13:19.481439122Z",
+    "summary": "Fortnite's Chapter 7 mini season features special Saturday hourly events centered around pirate-themed treasure hunts. During these specific windows, players experience increased drop rates for rare sprites and items such as self-revive kits and tokens. Schedules for these events are provided across multiple global time zones.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c4b91e3f1c08",
+    "title": "Dear Open Source Developers: It's OK not to embargo",
+    "url": "https://opensourcesecurity.io/2026/10-embargo/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-07T23:31:05Z",
+    "excerpt": "Comments",
+    "image_url": "https://opensourcesecurity.io/images/wide-sun-dial.jpg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "open-source"
+    ]
+  },
+  {
+    "id": "0175d091fc52",
+    "title": "Personalized savings reminders can help boost retirement savings",
+    "url": "https://phys.org/news/2026-11-personalized-boost.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-07T23:30:01Z",
+    "excerpt": "Private retirement savings are an increasingly important topic in public debate. One popular idea is to phrase savings reminders in one of two ways: either you emphasize what someone stands to lose if they don't save, or you emphasize what they stand to gain if they do. To date, research into which of the two reminder messages is more effective in terms of influencing people's efforts to save has…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/personalized-savings-r.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "013586f03158",
+    "title": "One of the buggiest D\u0026D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again",
+    "url": "https://www.pcgamer.com/games/rpg/one-of-the-buggiest-d-and-d-games-ever-released-pool-of-radiance-ruins-of-myth-drannor-is-back-and-actually-playable-again/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-07T23:22:07Z",
+    "excerpt": "But did anyone ask for this?",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/RTBYtRwwXNQ5uHRWkUh2FL-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The notoriously buggy 2001 Dungeons \u0026 Dragons dungeon crawler Pool of Radiance: Ruins of Myth Drannor is now available on modern platforms through SNEG. The rerelease fixes critical software issues, including file-deletion bugs, while adding widescreen support, controller compatibility, and updated visual elements.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cac662825b6f",
+    "title": "I’m not a fan of Deno’s security model (2024)",
+    "url": "https://goldstein.lol/posts/deno-security/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-07T23:19:53Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "f6cd4e085680",
+    "title": "Commodore PET – The Worlds First Personal Computer",
+    "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-07T23:15:34Z",
+    "image_url": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg",
+    "points": 27,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Announced in January 1977, the Commodore PET is widely considered the world's first fully functional personal computer. Designed by Chuck Peddle using the MOS 6502 processor, it came equipped with a keyboard, integrated monitor, and cassette storage in a single chassis. The machine marked a significant shift from raw circuit boards to accessible home computing.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3bcdfa6e04aa",
+    "title": "GitHub New pull request overview page in public preview",
+    "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-07T23:09:40Z",
+    "image_url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+    "points": 90,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "GitHub has introduced a public preview of a new pull request overview page designed to streamline the review process. The update places merge status and next actions in a compact summary at the top of the page. It also features conversation filtering and sorted comment views to help developers catch up on activity more efficiently.",
+    "tags": [
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "255d441d1ed1",
+    "title": "Google Messages homepage redesign: Pinned chat avatars, bottom search, corner Gemini",
+    "url": "https://9to5google.com/2026/11/07/google-messages-pinned-chats-redesign/",
+    "source": "9to5Google",
+    "section": "phones",
+    "published": "2026-11-07T23:08:00Z",
+    "excerpt": "In addition to the new app icon , Google Messages for Android is testing a big homepage redesign that has three core components. more…",
+    "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/google-messages-thread-1.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Google Messages for Android is testing a major interface redesign in its beta channel. The update introduces prominent pinned chat avatars at the top, a floating action button for search, and a Gemini shortcut relocated to the top-right corner.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e28ab088e571",
+    "title": "vivo X500 Ultra on track to launch next year, says tipster",
+    "url": "https://www.gsmarena.com/vivo_x500_ultra_launch_timeframe_corroborated-news-75399.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-07T22:59:02Z",
+    "excerpt": "Tipster Digital Chat Station recently said that the Oppo Find X10 Ultra is on hold and might not launch. Before that, we heard Xiaomi had canceled the 18 Ultra. This left some wondering whether vivo would also cancel its X500 Ultra, despite vivo's VP of Product confirming that the smartphone would arrive next year in March or April in China. That confirmation came in September, and plans can alway…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-x500-ultra-launch-timeframe-corroborated/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The upcoming vivo X500 Ultra smartphone remains on schedule for release in China next spring. Expected specifications include a high-refresh-rate AMOLED display, advanced periscope telephoto cameras, and a large battery capacity. An international rollout is anticipated following its domestic debut.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cc1f13b3f089",
+    "title": "Echoes of Mirror's Edge, Dishonored and a dream set in Italy I once had can be found in Boars in Rome, an expressive parkour platformer set in dystopian Rome",
+    "url": "https://www.rockpapershotgun.com/echoes-of-mirrors-edge-dishonored-and-a-dream-set-in-italy-i-once-had-can-be-found-in-boars-in-rome-an-expressive-parkour-platformer-set-in-dystopian-rome",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-07T22:52:30Z",
+    "excerpt": "Years ago, I had this dream where I was parkouring through a greatly sunken version of Venice, no doubt sourced from the many hours I put into Assassin's Creed 2 as a teen who should have been studying for their GCSEs a lot more than they were. It's stuck with me after all this time mostly because of how much I wanted to capture that feeling again somehow, as the real Assassin's Creed didn't quite…",
+    "image_url": "https://assetsio.gnwcdn.com/boars-in-rome.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Boars in Rome is an upcoming expressive parkour platformer set in a dystopian version of Rome. Inspired by games like Mirror's Edge and Counter-Strike Surf, the title combines smooth movement mechanics with exploration of overgrown historical monuments and futuristic megastructures.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "0daf724982aa",
+    "title": "OpenIndiana 2026.10 Released With Updated Tools \u0026 Compilers, New Apps",
+    "url": "https://www.phoronix.com/news/OpenIndiana-2026.10",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-07T22:50:46Z",
+    "excerpt": "OpenIndiana Hipster 2026.10 is out today as the newest six-month update to this operating system based on Illumos and with the lineage tracing back to the fruitful Sun OpenSolaris days...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=openindiana_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The release of OpenIndiana 2026.10 brings numerous package updates to the Illumos-based operating system. New additions include updated compilers, virtualisation tools, and desktop applications. The community-driven update also improves UEFI frame-buffer support.",
+    "tags": [
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c7f109631111",
+    "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+    "source": "NASA",
+    "section": "science",
+    "published": "2026-11-07T22:47:03Z",
+    "excerpt": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "space",
+      "energy"
+    ]
+  },
+  {
+    "id": "08fddc36e5fe",
+    "title": "IRA Velinsky – Commodore's Industrial Designer",
+    "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-07T22:45:39Z",
+    "image_url": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2026/04/Ira-Velinsky-Commodore-Computer-Industrial-Designer-Gets-Credit-For-New-NYC-Bus-Stop-Signage-in-1974.jpg",
+    "points": 18,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Industrial designer Ira Velinsky played a crucial role in shaping the aesthetic of Commodore computers during the 1980s. After transitioning from Digital Equipment Corporation, he replaced utilitarian metal designs with ergonomic, lifestyle-oriented chassis. His work includes the iconic CBM-II series, which helped establish Commodore's identity in the personal computer market.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "0e8402524669",
+    "title": "Retrieval Architecture for Developer Changelog Trackers: Source Deduplication",
+    "url": "https://dev.to/sawyerflynn1578/retrieval-architecture-for-developer-changelog-trackers-source-deduplication-5aab",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-07T22:41:28Z",
+    "excerpt": "Short answer: for a developer changelog tracker, use a staged retrieval architecture with explicit collections, bounded queries, and a source identity that survives re-indexing. Deduplicate before vector search, keep the canonical URL and revision in every chunk, and make the answer cite those records rather than trusting a model to reconstruct provenance. The decision record: define the retrieval…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmqulewu7fsvqugqew7lb.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "15a5be954f3e",
+    "title": "Making any integer with four 2s (2025)",
+    "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-07T22:38:58Z",
+    "image_checked": true,
+    "points": 79,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "A classic mathematical puzzle challenges people to generate any target number using exactly four instances of the digit two and various mathematical operations. While elementary approaches work for simple numbers, more advanced methods involve exponents, factorials, and complex functions. Physicist Paul Dirac later demonstrated a general formula using nested square roots and logarithms that can express any number.",
+    "tags": [
+      "math",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5c0ce818ec43",
+    "title": "Chromagraph Camera is exactly the camera app I’ve been looking for on iPhone",
+    "url": "https://9to5mac.com/2026/11/07/chromagraph-camera-is-exactly-the-camera-app-ive-been-looking-for-on-iphone/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-07T22:30:00Z",
+    "excerpt": "Last week, movie director Rian Johnson announced a surprise new camera app for iPhone that reimagines what a smartphone photo should look like. Many people would agree that Apple’s iPhone photos are a tad bit overprocessed. iPhone 18 Pro and iPhone Duo introduced a new film texture option, but in my view, it’s a bit too exaggerated. Chromagraph Camera , on the other hand, feels pretty perfect. mor…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/rian-camera-app.jpg?quality=82\u0026strip=all\u0026w=1500",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "ios",
+      "mobile"
+    ]
+  },
+  {
+    "id": "8f7215037a3b",
+    "title": "Zelda OOT Remake: Win the Treasure Chest Shop game",
+    "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-win-treasure-chest-shop-game/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-07T22:29:51Z",
+    "excerpt": "How to win the Treasure Chest Shop game in The Legend of Zelda: Ocarina of Time remake",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Win-the-Treasure-Chest-Shop-game-6.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "gaming",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "d510cad3d90d",
+    "title": "For This Year’s N7 Day, Fans, Alumni And Policy Makers Fought For Mass Effect’s Future",
+    "url": "https://kotaku.com/this-years-n7-day-spent-fighting-for-mass-effects-future-2000754828",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-07T22:12:46Z",
+    "excerpt": "While previous years brought hope of updates on BioWare's beloved Mass Effect saga, this November had incensed fans pushing EA towards a course correction",
+    "image_url": "https://kotaku.com/app/uploads/2024/03/ab7be0140108d75dfb05d247751184ee-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "8fc6ab4a9828",
+    "title": "Capacity-First Retention Tests for Object Storage Archives of App Data Backups",
+    "url": "https://dev.to/haelion14/capacity-first-retention-tests-for-object-storage-archives-of-app-data-backups-4gm7",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-07T22:08:26Z",
+    "excerpt": "Short answer: private, S3-compatible object storage belongs in an app backup design only after a restore drill proves the retention policy, signed download flow, regional placement, and transfer rate against your recovery SLO; the lowest advertised storage rate is not enough evidence. The failure pattern is familiar: a nightly job writes a database export and reports success, then an operator need…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fheq75lvrdf26h1gtqpq1.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "d44fec61ccb7",
+    "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+    "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-07T22:07:22Z",
+    "excerpt": "On Equity, we unpacked what the midterms mean for the tech industry.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2207245107-1.jpg?resize=1200,765",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "6117cb7bad8a",
+    "title": "Forget the Play Store: I built a self-hosted app updater on Android",
+    "url": "https://www.androidpolice.com/shizuku-obtainium-app-updates/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-07T22:00:10Z",
+    "excerpt": "Obtainium update-ium are the magic words",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/05/instagram-update-google-play-store.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "8ccdc2449e21",
+    "title": "Student finds proof of rare wild cat in northern New Mexico",
+    "url": "https://phys.org/news/2026-11-student-proof-rare-wild-cat.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-07T22:00:05Z",
+    "excerpt": "Armed with dozens of motion-sensing cameras, William Grooms spent this past summer documenting wildlife across Carson National Forest in northern New Mexico. It was his first field season collecting photos for a two-year study to understand how forest structure influences biodiversity in the Southern Rocky Mountains.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/nmsu-phd-student-finds.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "id": "61e8b05ee218",
+    "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+    "url": "https://eyesrhythm.com/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-07T21:47:47Z",
+    "image_url": "https://eyesrhythm.com/images/blink-cover.jpg?v=4",
+    "points": 28,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "EyesRhythm is an offline desktop application that uses a webcam to monitor blink rates and head movement during long screen sessions. The software calculates an ocular rhythm index to help users combat digital eye strain without sending video data to the cloud. It also provides guided practice sessions and posture tracking reminders.",
+    "tags": [
+      "hardware",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "8b02068bb8c1",
+    "title": "All Gold Skulltula locations in Ocarina of Time",
+    "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-gold-skulltula-token-locations-where-to-find/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-07T21:41:33Z",
+    "excerpt": "Gold Skulltulas are a collectible in Ocarina of Time, but they're also needed for a cursed family. Here's where to find every Gold Skulltula.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gold-skulltula_oot.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "This guide details the locations of all 100 Gold Skulltulas in The Legend of Zelda: Ocarina of Time remake. Players can collect these tokens to lift a curse on a family in Kakariko Village and earn various milestone rewards. Helpful items include expanded wallets, an Echo Gem for tracking, and upgrade pieces.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b07e93d11522",
+    "title": "County of Fortune, now out in early access, is a medieval city builder that asks, why limit yourself to just one city?",
+    "url": "https://www.rockpapershotgun.com/county-of-fortune-now-out-in-early-access-is-a-medieval-city-builder-that-asks-why-limit-yourself-to-just-one-city",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-07T21:30:50Z",
+    "excerpt": "I know what you want. The humble city builder isn't enough for you any more, is it? You need a cities builder, you can't just stop at one, but you don't want to build up an entirely different city on a new save file. If it were up to you, they'd all be on the same map, a motorway's worth of a drive away from each other. If we're talking contemporary cities, I can't help you, but if you can settle…",
+    "image_url": "https://assetsio.gnwcdn.com/county-of-fortune.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
+    "id": "6216779d37d1",
+    "title": "AI Stuffy Says ‘I Can’t Help With Killing You’ Completely Unprompted",
+    "url": "https://kotaku.com/ai-stuffy-says-i-cant-help-with-killing-you-completely-unprompted-2000754819",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-07T21:30:17Z",
+    "excerpt": "Cross that one off the Christmas list",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/bunny.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
     "id": "2c93e9013ac1",
     "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
@@ -32,12 +1057,12 @@
   },
   {
     "id": "ae73b82022ff",
-    "title": "Shadow of the Sun",
+    "title": "Shadow of the Sun (2021)",
     "url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-07T21:11:05Z",
-    "points": 3,
+    "points": 23,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "enriched": true,
@@ -63,7 +1088,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-07T21:08:35Z",
-    "points": 5,
+    "points": 33,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "enriched": true,
@@ -149,6 +1174,24 @@
     ]
   },
   {
+    "id": "49467a5ac995",
+    "title": "Early Apple Black Friday Deals on Apple Watch, MacBook Air, and More",
+    "url": "https://www.macrumors.com/2026/11/07/early-apple-black-friday-deals/",
+    "source": "MacRumors",
+    "section": "tech",
+    "published": "2026-11-07T20:50:00Z",
+    "excerpt": "Black Friday is now just a few weeks away, taking place on Friday, November 27 in 2026. As always, this will be the best time of the year to shop for great deals, including popular Apple products like AirPods, iPad, Apple Watch, and more. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive a small payment, which helps us kee…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/Black-Friday-Deals-26-9.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-07T21:22:40.043353951Z",
+    "summary": "Early Black Friday promotions bring significant price cuts on popular Apple devices, including Apple Watches, MacBooks, and AirPods. Several items are currently available at or near their all-time low prices across major online retailers. Consumers can find discounts of up to $250 on specific wearable and computer models ahead of the official holiday shopping event.",
+    "tags": [
+      "hardware",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
     "id": "c28360461542",
     "title": "CHIMERA simulates organic sound with acoustic tubes",
     "url": "https://chimera-vocal-synth.vercel.app/",
@@ -168,7 +1211,7 @@
     "section": "ai",
     "published": "2026-11-07T20:45:32Z",
     "image_checked": true,
-    "points": 31,
+    "points": 244,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "A security finding shows that Claude Code's configuration features led to sensitive credentials being exposed across public GitHub repositories. The issue highlights risks associated with automated development tools and agentic coding workflows handling environment secrets. Security platforms have noted the implications for enterprise software supply chains.",
@@ -295,6 +1338,19 @@
       "devtools"
     ],
     "enriched": true
+  },
+  {
+    "id": "a760dd930f44",
+    "title": "Workflow dependency lockfiles",
+    "url": "https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-07T20:27:05Z",
+    "excerpt": "Comments",
+    "image_url": "https://docs.github.com/assets/cb-345/images/social-cards/actions.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
   },
   {
     "id": "e6050507ffef",
@@ -684,7 +1740,7 @@
     "section": "tech",
     "published": "2026-11-07T18:12:12Z",
     "image_url": "https://blog.bosscher.ch/posts/openstick/index.png",
-    "points": 161,
+    "points": 421,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "A developer explores setting up a lightweight, low-power homelab using an inexpensive ARM-based stick PC running Debian. The tiny server hosts efficient tools like an ad blocker, a YouTube sponsorship skipper, and a minimalist AI agent harness. This project demonstrates how extremely modest hardware can still provide practical self-hosting capabilities with zero noise and minimal power consumption.",
@@ -763,7 +1819,7 @@
     "section": "ai",
     "published": "2026-11-07T18:02:17Z",
     "image_checked": true,
-    "points": 232,
+    "points": 423,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "Following the release of ChatGPT, researchers formed the AI Frontiers group at Microsoft Research to develop agent frameworks and model training pipelines. The team was later integrated into Microsoft AI, creating tension due to differing organizational philosophies prioritizing raw scale over exploratory research. This shift highlights ongoing debates within major technology companies regarding the best path forward for advanced model development.",
@@ -866,13 +1922,13 @@
   },
   {
     "id": "5fc0599aee78",
-    "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor",
+    "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
     "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
     "source": "Hacker News",
     "section": "tech",
     "published": "2026-11-07T17:54:56Z",
     "image_url": "https://img.atlasobscura.com/ZL05py2sPlLj1juR4egRFwLaQkr_YJYpVVfaaOBSlXQ/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8wMTQ1MDU0NDc2/YjI4YTE2YWJfNDg0/MTk4NDk1Ml9jNmI4/MTZlNjk3X2IuanBn.jpg",
-    "points": 21,
+    "points": 47,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "GeoWorks was a lightweight graphical operating system from the early 1990s that competed with Microsoft Windows. Originally starting as GEOS for the Commodore 64, it later brought an efficient GUI to low-power PCs. The platform offered approachable interfaces for novices along with built-in office productivity tools.",
@@ -918,7 +1974,7 @@
     "section": "coding",
     "published": "2026-11-07T17:30:49Z",
     "image_checked": true,
-    "points": 52,
+    "points": 95,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "An essay reflects on several esoteric and influential programming books that shaped the author's technical thinking over the decades. The selected titles explore niche topics such as assembly optimization, non-mainstream languages for scientific computing, and historical interviews with software pioneers. These works stand apart from standard introductory programming guides by presenting deep, domain-specific problem solving.",
@@ -951,7 +2007,7 @@
     "section": "tech",
     "published": "2026-11-07T17:27:30Z",
     "image_url": "https://opengraph.githubassets.com/09c500469d380ffa6339e326e0c64d189d2f58fb40808a7fe55fd003824ead24/hedgerow-dev/coldframe",
-    "points": 133,
+    "points": 205,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "Coldframe is a single-file Python honeypot designed to mimic vulnerable supermarket refrigeration controllers. It simulates specific industrial devices by replicating their headers, login pages, and API endpoints to log unauthorized access attempts and public exploits. This decoy tool helps security researchers monitor attacks targeting unpatched industrial Internet of Things infrastructure.",
@@ -995,7 +2051,7 @@
     "section": "ai",
     "published": "2026-11-07T17:19:00Z",
     "image_url": "https://maxxbench.unlap.ai/social-card.png",
-    "points": 117,
+    "points": 228,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "MaxxBench evaluates how coding large language models perform when requirements on established benchmarks are slightly altered. The research reveals that coding agents often override correct solutions if they believe a popular benchmark expects something else. This phenomenon highlights limitations in current benchmarks where models rely on memorized dataset patterns rather than actual reasoning.",
@@ -1028,7 +2084,7 @@
     "section": "phones",
     "published": "2026-11-07T17:06:36Z",
     "image_url": "https://i.guim.co.uk/img/media/28e97d03d0abcd9f1e2eb53b873f17079a1a7f82/998_270_3911_3129/master/3911.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026precrop=40:21,offset-x50,offset-y0\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=ae2dd9194072b73ebb69c7269d955ba3",
-    "points": 206,
+    "points": 399,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "Independent researchers have discovered that Apple's iOS predictive text features a hidden list of over 100,000 restricted words and phrases that are blocked from auto-completion. The list includes references to drugs, sexual acts, and various politically sensitive topics, effectively functioning as a light form of content moderation. This filtering mechanism sheds light on the complex heuristics and hard-coded rules governing modern mobile autocorrect systems.",
@@ -1225,13 +2281,13 @@
   },
   {
     "id": "a83c33866c41",
-    "title": "How long can life wait?",
+    "title": "How Long Can Life Wait?",
     "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
     "source": "Hacker News",
     "section": "science",
     "published": "2026-11-07T16:22:59Z",
     "image_checked": true,
-    "points": 95,
+    "points": 132,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "tags": [
@@ -1248,7 +2304,7 @@
     "section": "science",
     "published": "2026-11-07T16:21:36Z",
     "image_url": "https://sheets.works/og-cpu-dies.png",
-    "points": 51,
+    "points": 92,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "summary": "A collection of high-resolution microscopic photographs documents hundreds of processor dies produced between 1972 and 2024. These images reveal the physical silicon layouts inside various computing chips. Viewers can examine individual processors and compare their relative physical scales.",
@@ -1325,7 +2381,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-07T16:05:45Z",
-    "points": 50,
+    "points": 113,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "enriched": true,
@@ -1554,6 +2610,25 @@
     "enriched": true
   },
   {
+    "id": "946f48cd7c85",
+    "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+    "url": "https://www.retrosongbird.com/",
+    "source": "Hacker News",
+    "section": "gaming",
+    "published": "2026-11-07T15:06:54Z",
+    "image_url": "https://www.retrosongbird.com/og-image.png?v=2",
+    "points": 49,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "The Retro Song Bird is a hardware accessory that plays classic soundtracks and chiptunes when inserting Game Boy cartridges. It features individual USB audio streams for each sound channel, allowing users to remix audio or use it as a low-resolution webcam with Game Boy Camera cartridges. Additionally, the device offers an open developer API for archiving ROMs and backing up save files.",
+    "tags": [
+      "hardware",
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
     "id": "2307506531ff",
     "title": "Mass Effect composer Sam Hulick releases his 're-scored' trailer for N7 Day, 'my way of saying goodbye… at least for now'",
     "url": "https://www.pcgamer.com/games/mass-effect/mass-effect-composer-sam-hulick-releases-his-re-scored-trailer-for-n7-day-my-way-of-saying-goodbye-at-least-for-now/",
@@ -1665,24 +2740,6 @@
     "first_seen": "2026-11-07T21:22:40.043353951Z"
   },
   {
-    "id": "49467a5ac995",
-    "title": "Early Apple Black Friday Deals on Apple Watch, MacBook Air, and More",
-    "url": "https://www.macrumors.com/2026/11/07/early-apple-black-friday-deals/",
-    "source": "MacRumors",
-    "section": "tech",
-    "published": "2026-11-07T14:28:23Z",
-    "excerpt": "Black Friday is now just a few weeks away, taking place on Friday, November 27 in 2026. As always, this will be the best time of the year to shop for great deals, including popular Apple products like AirPods, iPad, Apple Watch, and more. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive a small payment, which helps us kee…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/Black-Friday-Deals-26-9.jpg",
-    "weight": 0.9,
-    "first_seen": "2026-11-07T21:22:40.043353951Z",
-    "summary": "Early Black Friday promotions bring significant price cuts on popular Apple devices, including Apple Watches, MacBooks, and AirPods. Several items are currently available at or near their all-time low prices across major online retailers. Consumers can find discounts of up to $250 on specific wearable and computer models ahead of the official holiday shopping event.",
-    "tags": [
-      "hardware",
-      "mobile"
-    ],
-    "enriched": true
-  },
-  {
     "id": "c3883cfdf6cd",
     "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf] (2016)",
     "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
@@ -1731,7 +2788,7 @@
     "published": "2026-11-07T14:00:20Z",
     "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMR6WHmKku5veDN9XI3ZTSOw9dSsNTbCsuJ6LSSxejLaYPTO-V71zPoc_-fpF0QYx260DGx5RSEsx58z-xxsujTZLugdjAs_7uaG6YZMdHBxrGaxlx9Q-H-NYszKY7-pvv1bfxEtmH1C3HZSoVBlkm5kdangQQyXUyRGFX8ja04tWg6ZzwsNs_9DuJJA/w1200-h630-p-k-no-nu/ox64.jpeg",
     "image_checked": true,
-    "points": 174,
+    "points": 209,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "tags": [
@@ -1886,6 +2943,25 @@
       "android",
       "mobile"
     ]
+  },
+  {
+    "id": "231bb2d3702f",
+    "title": "Cancer at Sea",
+    "url": "https://biographic.com/cancer-at-sea/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-07T13:37:27Z",
+    "image_url": "https://dv8lw3oy85qzn.cloudfront.net/wp-content/uploads/2026/07/24235310/GettyImages-517092616-517092616web-ready-1024x680.jpg",
+    "points": 23,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z",
+    "summary": "Marine biologists at the Marine Mammal Center in California are studying high rates of an aggressive, virus-triggered cancer in California sea lions. By performing necropsies on rescued animals that did not survive, researchers are uncovering how tumors spread through reproductive organs and spines. These findings may provide broader insights into how viral infections and environmental stressors contribute to cancer development across species, including humans.",
+    "tags": [
+      "biology",
+      "health",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "cbf6e8f13bec",
@@ -2644,7 +3720,7 @@
     "section": "tech",
     "published": "2026-11-07T11:11:15Z",
     "image_url": "https://www.windowslatest.com/wp-content/uploads/2026/11/Discords-current-Electron-client-and-its-new-Rust-client-launching-side-by-side-on-two-Lenovo-ThinkPads-running-Windows-11.jpg",
-    "points": 133,
+    "points": 251,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "Discord has demonstrated a new Windows 11 client rewritten in Rust that drastically outperforms its current Electron-based application. The new client launches significantly faster, uses less memory, and bypasses traditional loading and update screens. The performance gains highlight potential efficiency benefits for desktop applications moving away from web-tech wrappers.",
@@ -3080,7 +4156,7 @@
     "section": "tech",
     "published": "2026-11-07T09:46:03Z",
     "image_url": "https://8rank.ai/og-apple-intelligence-personal-knowledge-graph.png",
-    "points": 507,
+    "points": 639,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "Modern macOS versions utilize undocumented background daemons to construct an extensive personal knowledge graph by analyzing local user data and communications. Security researchers examine how these databases operate and discuss potential privacy risks when integrated with local artificial intelligence features.",
@@ -3112,7 +4188,7 @@
     "section": "linux",
     "published": "2026-11-07T09:39:06Z",
     "image_url": "https://decoded.legal/blog/content/images/decoded.legal_logo.png",
-    "points": 206,
+    "points": 247,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "A lawyer shares an update on running a small law firm entirely on free and open-source software. The setup relies on Debian, Vim, LibreOffice, and various command-line tools for daily legal practice and document generation.",
@@ -3131,7 +4207,7 @@
     "section": "gaming",
     "published": "2026-11-07T09:36:36Z",
     "image_checked": true,
-    "points": 678,
+    "points": 861,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "A developer has ported the classic PC racing game Need for Speed Underground 2 to run directly in web browsers. The recompiled version supports high framerates, widescreen displays, online multiplayer, and various controllers without monetization or ads.",
@@ -3319,7 +4395,7 @@
     "section": "ai",
     "published": "2026-11-07T06:39:04Z",
     "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
-    "points": 139,
+    "points": 154,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "This article explores how AI agents can manage long-term memory inspired by human biological processes like sleep and memory consolidation. Researchers propose using idle compute time to review logs, filter important details, and organize context for future sessions. This mechanism helps models maintain persistent knowledge across interactions.",
@@ -3369,7 +4445,7 @@
     "section": "linux",
     "published": "2026-11-07T05:20:18Z",
     "image_url": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
-    "points": 270,
+    "points": 342,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "summary": "The Asahi Linux project details its progress with Linux 7.3, highlighting major driver upstreaming efforts for Apple Silicon. Key updates include the integration of the macaudio and AVD drivers, initial support for newer M-series chips, and general availability for M3 machines.",
@@ -3445,7 +4521,7 @@
     "section": "science",
     "published": "2026-11-07T04:54:36Z",
     "image_checked": true,
-    "points": 185,
+    "points": 223,
     "weight": 1,
     "first_seen": "2026-11-07T12:21:38.045287822Z",
     "tags": [
@@ -4208,6 +5284,18 @@
     "first_seen": "2026-11-07T04:24:40.083134651Z",
     "enriched": true,
     "skip": true
+  },
+  {
+    "id": "68be897c8b54",
+    "title": "Libghostty 1.0",
+    "url": "https://mitchellh.com/writing/libghostty-1-0",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-06T23:48:03Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
   },
   {
     "id": "eb4a589d979a",
@@ -6602,7 +7690,7 @@
     "section": "tech",
     "published": "2026-11-06T18:13:35Z",
     "image_url": "https://storage.ghost.io/c/ee/88/ee889f88-37ef-43e5-9180-f9b88ee6261d/content/images/size/w1200/2026/11/Responsible-Disclosure-at-Scale.png",
-    "points": 172,
+    "points": 198,
     "weight": 1,
     "first_seen": "2026-11-06T22:39:50.295147937Z",
     "summary": "Security researchers have identified over 15,000 websites infected with malicious JavaScript payloads, including credit card skimmers and malware injectors. These compromises stem from direct vulnerabilities, supply chain issues, and cross-site scripting. The discoverers highlight the ongoing challenge of responsibly notifying affected organizations at scale.",
@@ -14311,18 +15399,6 @@
     ]
   },
   {
-    "id": "3b30876234e2",
-    "title": "Fortune treasure hours schedule in the Fortnite Chapter 7 mini season",
-    "url": "https://www.polygon.com/fornite-treasure-hours-chapter-7-mini-season-c7ms/",
-    "source": "Polygon",
-    "section": "gaming",
-    "published": "2026-11-05T21:02:06Z",
-    "excerpt": "Here's what time you can expect the next batch of Fortnite treasure hours, as well as what bonuses are coming with them.",
-    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261105_1001_fn_treasurehour.jpg",
-    "weight": 1,
-    "first_seen": "2026-11-05T23:13:19.481439122Z"
-  },
-  {
     "id": "ba7e2eca84a8",
     "title": "Magic’s Most Broken New Mechanic Perfectly Captures the Essence of Star Trek",
     "url": "https://www.polygon.com/mtg-star-trek-preview-federation-mechanic-limited-magic-the-gathering/",
@@ -14486,7 +15562,7 @@
     "section": "ai",
     "published": "2026-11-05T20:46:26Z",
     "image_checked": true,
-    "points": 78,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-07T04:24:40.083134651Z",
     "enriched": true,
@@ -19396,6 +20472,24 @@
     ]
   },
   {
+    "id": "e9262ebde8d5",
+    "title": "Uranium cubes reveal why the German nuclear project failed",
+    "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-05T10:52:04Z",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cube1-1152x648-1793713257.jpg",
+    "points": 88,
+    "weight": 1,
+    "first_seen": "2026-11-05T04:53:57.598444063Z",
+    "summary": "Historical analysis of uranium cubes from a World War II German nuclear reactor project indicates the team lacked sufficient materials to achieve criticality. Researchers found that resource competition, logistical challenges, and design limitations prevented the program from succeeding, contrary to earlier claims by its lead physicist.",
+    "tags": [
+      "research",
+      "physics"
+    ],
+    "enriched": true
+  },
+  {
     "id": "1305f89b8b5e",
     "title": "\"BioWare's closure represents an immense loss to and possibly a targeted attack on Canada's cultural legacy\" argues petition calling on Canadian government to step in",
     "url": "https://www.rockpapershotgun.com/biowares-closure-represents-an-immense-loss-to-and-possibly-a-targeted-attack-on-canadas-cultural-legacy-argues-petition-calling-on-canadian-government-to-step-in",
@@ -22888,21 +23982,6 @@
     "tags": [
       "android",
       "space"
-    ]
-  },
-  {
-    "id": "e9262ebde8d5",
-    "title": "Uranium cubes reveal why the German nuclear project failed",
-    "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-    "source": "Ars Technica",
-    "section": "tech",
-    "published": "2026-11-04T21:56:29Z",
-    "excerpt": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
-    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cube1-1152x648-1793713257.jpg",
-    "weight": 1.1,
-    "first_seen": "2026-11-05T04:53:57.598444063Z",
-    "tags": [
-      "energy"
     ]
   },
   {
@@ -29351,6 +30430,17 @@
     ]
   },
   {
+    "id": "559a2c871183",
+    "title": "Multi-Token Prediction Done Right",
+    "url": "https://arxiv.org/abs/2610.38331",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-04T06:46:01Z",
+    "points": 3,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
     "id": "e470ae63e7d7",
     "title": "I Got Tired of Remembering Ports for 30 Docker Apps in My Homelab. Here's How I Fixed it",
     "url": "https://feed.itsfoss.com/link/24361/17515094/tailscale-services",
@@ -29903,7 +30993,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-04T04:59:36Z",
-    "points": 67,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-07T21:22:40.043353951Z",
     "tags": [
@@ -30238,6 +31328,17 @@
     "tags": [
       "math"
     ]
+  },
+  {
+    "id": "195758404bc8",
+    "title": "Study solved a 150-year-old mystery into the identity of the extinct giant crane",
+    "url": "https://www.bournemouth.ac.uk/news/2026-10-28/study-has-solved-150-year-old-mystery-identity-extinct-giant-crane",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-04T03:30:28Z",
+    "points": 19,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
   },
   {
     "id": "865c3545bcec",
@@ -32846,6 +33947,17 @@
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wsu-research-could-sav.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-03T21:42:26.195492856Z"
+  },
+  {
+    "id": "058b8888a494",
+    "title": "Turning every radio into a radar",
+    "url": "https://tiaminetworks.com/turning-every-radio-into-a-radar/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T21:18:48Z",
+    "points": 42,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
   },
   {
     "id": "78da873c3350",
@@ -39969,6 +41081,17 @@
     "enriched": true
   },
   {
+    "id": "dd41286f5b28",
+    "title": "Amsterdam School",
+    "url": "https://architecture-history.org/schools/AMSTERDAM%20SCHOOL.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T13:50:19Z",
+    "points": 11,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
+  },
+  {
     "id": "93d957f67853",
     "title": "The Overwatch devs hear your complaints about skin distribution but concede that some cosmetics need to 'support the actual bottom-line business'",
     "url": "https://www.pcgamer.com/games/fps/the-overwatch-devs-hear-your-complaints-about-skin-distribution-but-concede-that-some-cosmetics-need-to-support-the-actual-bottom-line-business/",
@@ -40299,6 +41422,17 @@
       "research"
     ],
     "enriched": true
+  },
+  {
+    "id": "e8d0c1de8565",
+    "title": "Shipping 103,802 Dots in 82 KB",
+    "url": "https://layers.engineering/shipping-103-802-dots-in-82-kb-b4f7d3a89779",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-03T13:20:09Z",
+    "points": 10,
+    "weight": 1,
+    "first_seen": "2026-11-08T04:07:14.484817998Z"
   },
   {
     "id": "302e4ed601fa",
