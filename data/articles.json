@@ -1,5 +1,2886 @@
 [
   {
+    "id": "8ce216a7f72f",
+    "title": "I wanted an excuse for my slow Strava runs, but Gemini gave me a reality check instead",
+    "url": "https://www.androidpolice.com/gemini-strava-integration-for-runnerns/",
+    "source": "Android Police",
+    "section": "ai",
+    "published": "2026-11-13T13:45:10Z",
+    "excerpt": "Gemini held up a mirror to my Strava runs",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2024/12/how-to-export-your-strava-data.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "A runner tested a new integration between Strava and Google Gemini to analyze recent training logs and explain unexpected pace drops. Gemini identified declining weekly mileage and high humidity as the primary factors affecting performance during routine workouts.",
+    "tags": [
+      "mobile",
+      "data"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "69f74cada08f",
+    "title": "A quarter of the world's reptiles use rocky habitats. So why aren't we protecting them?",
+    "url": "https://phys.org/news/2026-11-quarter-world-reptiles-rocky-habitats.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T13:40:05Z",
+    "excerpt": "Ask any reptile lover where to find a cold-blooded creature, and chances are they will point to a rocky outcrop.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-quarter-of-the-world.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7f4eb18be249",
+    "title": "LLM access controls and monitoring: the attack that gets past your logs",
+    "url": "https://dev.to/resk/llm-access-controls-and-monitoring-the-attack-that-gets-past-your-logs-3jpf",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T13:30:20Z",
+    "excerpt": "Access control for LLM agents is usually discussed as a compliance checkbox. It is better understood as an attack surface question. This article walks through what goes wrong when an agent holds more tool privilege than the task needs, why monitoring alone does not stop it, and where the control belongs in the request path. What is AI agent security? AI agent security is the discipline of constrai…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffiles.catbox.moe%2F9fh22d.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "b7a71b125b44",
+    "title": "\"The Series Was In Like Dire Straits\" - Kit \u0026 Krysta Recall Zelda's Pre-BOTW Dark Times",
+    "url": "https://www.nintendolife.com/news/2026/11/the-series-was-in-like-dire-straits-kit-and-krysta-recall-zeldas-pre-botw-dark-times",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-13T13:30:00Z",
+    "excerpt": "\"We are losing this\". While many of us can now look back on the Skyward Sword s of the Zelda series with fondness, those who were in the trenches at the time might recall that things were starting to feel stagnant. The later games of the 'traditional' Zelda formula were well received critically, but the tried-and-tested gameplay wasn't working wonders for their sales numbers, and they were struggl…",
+    "image_url": "https://images.nintendolife.com/b8f3289d60a92/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "18ba0e45c38a",
+    "title": "Google Wallet tests floating bar redesign with Home button and new animation",
+    "url": "https://www.androidauthority.com/google-wallet-updated-floating-bar-test-apk-teardown-3734961/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T13:22:22Z",
+    "excerpt": "This redesign would let users seamlessly switch between the Home and Search tabs.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/google-wallet-card-redesign-hero-2026-2-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Google Wallet is testing a redesigned floating bottom bar that introduces a dedicated Home button and a bubbly transition animation. The update aims to streamline navigation between tabs within the application. Additionally, support for digital passports has recently expanded to new European regions.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ec805f5647e7",
+    "title": "XRAID Publicly Released As New RAID Implementation For XFS",
+    "url": "https://www.phoronix.com/news/XRAID-XFS-RAID",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-13T13:22:22Z",
+    "excerpt": "Longtime Linux developer Christoph Hellwig today announced the initial public release of XRAID. XRAID is a declustered parity RAID implementation integrated into the XFS file-system. XRAID is focused on RAID for zoned XFS deployments...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=xraid_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "A new declustered parity RAID implementation called XRAID has been released for the XFS file system. It aims to support parity RAID on zoned devices like SMR hard drives and offer faster write performance. The patches are currently out for review on the Linux kernel mailing list.",
+    "tags": [
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "2def6bf9501c",
+    "title": "Manjaro Linux Moves Toward Independent Community Governance",
+    "url": "https://linuxiac.com/manjaro-linux-moves-toward-independent-community-governance/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-13T13:20:43Z",
+    "excerpt": "Manjaro developers establish a German nonprofit association following months of governance disputes and concerns over project leadership.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/manjaro-independent-nonprofit-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Manjaro Linux has established an independent non-profit organization in Germany to separate community governance from its commercial counterpart. This structural shift follows internal disputes regarding project leadership, developer access to infrastructure, and commercial prioritization. The new association represents a major step toward decentralizing the distribution's management.",
+    "tags": [
+      "linux",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3074e191df36",
+    "title": "Discord go into more detail on their Linux upgrades, with more to come",
+    "url": "https://www.gamingonlinux.com/2026/11/discord-go-into-more-detail-on-their-linux-upgrades-with-more-to-come/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T13:20:21Z",
+    "excerpt": "Discord seem like they really are taking Linux more seriously now, with various upgrades made for it over the last year with more to come. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1163072622id30192gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Discord has detailed recent improvements to its Linux client, featuring enhanced auto-updates and better Wayland screen-sharing support developed with Igalia. The platform is also collaborating with developers to implement fine-grained per-app audio sharing across popular desktop environments. These updates reflect a growing commitment to the Linux gaming ecosystem.",
+    "tags": [
+      "linux",
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "37ec1ddd2bfc",
+    "title": "Concrete and steel—or mangroves and forests? When it comes to climate adaptation, nature is much cheaper",
+    "url": "https://phys.org/news/2026-11-concrete-steel-mangroves-forests-climate.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T13:20:02Z",
+    "excerpt": "What's the best way to protect ourselves against climate change? The default is to reach for concrete and steel to build seawalls, dikes, dams and drainage systems. These can work. But they are expensive and inflexible. There's another, much cheaper option which gets vastly less attention. Mangroves, forests and urban trees can help protect humans and their homes, farms and cities from floods, dro…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/urban-tree.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "climate"
+    ]
+  },
+  {
+    "id": "703ce959bb39",
+    "title": "Honor 700 series launch date is official just as a carrier listing reveals most specs",
+    "url": "https://www.gsmarena.com/honor_700_series_launch_date_is_official_just_as_a_carrier_listing_reveals_most_specs-news-75471.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T13:17:02Z",
+    "excerpt": "Honor already revealed the design of the Honor 700 series last week, and now the company has finally given it a launch date too. The Honor 700, Honor 700 Pro, and Honor 700S will be unveiled in China on November 23 at 2:30 PM local time, and singer and actress Ju Jingyi has been named the lineup's brand ambassador. That's not all, though. All three handsets have also shown up in China Telecom's pr…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-700-series-launch-date-specs/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Honor has scheduled the launch event for its upcoming 700 series smartphones in China. Carrier listings have leaked key specifications for the Honor 700, 700 Pro, and 700S models, including processor variants, camera configurations, and battery details. Official pricing and availability will be revealed at the upcoming announcement.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b144dbaf893a",
+    "title": "Janus-Arena development",
+    "url": "https://dev.to/oblivionwing26/janus-arena-development-1ce",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T13:15:28Z",
+    "excerpt": "What synthetic users measure, and what they don't Janus Arena, gate G2 (November 2026). Every figure comes from real runs against ShopLab, a demo shop with three usability flaws seeded on purpose. The events, reports and exports are in the repository , and the console's demo build replays them in your browser. A \"synthetic user\" here is a language-model agent that plays a person (Carmen, a retired…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft86u28oif5b3w28ufaex.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents",
+      "web"
+    ]
+  },
+  {
+    "id": "0f9792dd1c3a",
+    "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+    "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-13T13:15:20Z",
+    "excerpt": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/ms-outage-hero-2304360163.jpg?resize=1200,894",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "9db2d5616ab8",
+    "title": "'Clear national security concerns that need to be addressed immediately': new letters to Jensen Huang from Congress strike a tougher tone for the ex-Nvidia CEO",
+    "url": "https://www.pcgamer.com/hardware/graphics-cards/clear-national-security-concerns-that-need-to-be-addressed-immediately-new-letters-to-jensen-huang-from-congress-strike-a-tougher-tone-for-the-ex-nvidia-ceo/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T13:09:17Z",
+    "excerpt": "They threaten subpoenas if he doesn't show up, but he's intimated that he'll attend the meeting.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/2NBCAcgWvQFJBmM3tXzdHd-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "e4d1c656df3f",
+    "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
+    "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-13T13:08:48Z",
+    "image_url": "https://respawnfirst.com/wp-content/uploads/2026/11/Jensen-Huang-shady-deals.webp",
+    "points": 45,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Reports indicate that former Nvidia CEO Jensen Huang faced significant oversupply issues regarding prepaid silicon and memory wafers as major cloud providers shifted toward in-house custom chips. Internal disagreements arose over financial commitments and backstops provided to major AI startups. Consequently, the company reportedly moved to wind down certain chip manufacturing orders to mitigate potential financial exposure.",
+    "tags": [
+      "chips",
+      "hardware",
+      "startups"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e8c7a3de4385",
+    "title": "Microsoft suffer system outage affecting Outlook, Teams and Copilot, exec says there's \"no indication this is the result of malicious or cyber activity\"",
+    "url": "https://www.rockpapershotgun.com/microsoft-suffer-system-outage-affecting-outlook-teams-and-copilot-exec-says-theres-no-indication-this-is-the-result-of-malicious-or-cyber-activity",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-13T13:06:20Z",
+    "excerpt": "Microsoft 365 isn't quite living up to its name this week, as its services have suffered an extended outage that's knocked the likes of Outlook, Teams, and Copilot for six. As of writing, the company are finally reporting \"encouraging recovery progress in Europe\" and are busy \"addressing the remaining areas of disruption\", but that's only after chunks of November 12th and 13th have seen people, bu…",
+    "image_url": "https://assetsio.gnwcdn.com/microsoft-ice-reliance-no-azure-for-apartheid-statement-01.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "59c79d8d1986",
+    "title": "'Heist of a new kind': AI-enabled scam reportedly managed to steal $110 million from French bank",
+    "url": "https://www.pcgamer.com/software/ai/heist-of-a-new-kind-ai-enabled-scam-reportedly-managed-to-steal-usd110-million-from-french-bank/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T13:03:55Z",
+    "excerpt": "That's reportedly one quarter's profits for the bank.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/xKBnoERaRRpKUrwbaPyPHT-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2c688645ccac",
+    "title": "Peanuts Native brings 12 Switch games to Android without an emulator layer",
+    "url": "https://www.androidauthority.com/peanuts-native-switch-games-android-3734983/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T13:03:14Z",
+    "excerpt": "The open-source translation layer builds on BananaNative, and supports dual-screen Android handhelds.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/08/AYN-Thor-dual-screen-android-handheld.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "open-source",
+      "mobile"
+    ]
+  },
+  {
+    "id": "8529d8326c53",
+    "title": "In the BB sidebar, each thread has a provider icon.",
+    "url": "https://dev.to/sergeybaus/in-the-bb-sidebar-each-thread-has-a-provider-icon-c15",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T13:01:24Z",
+    "excerpt": "In the BB sidebar, each thread has a provider icon. You can see whether it's Codex or Claude, but not which model or effort it's using. I asked agents to make a plugin that replaces the icons so you can see both. And to make it compatible with the colored provider icons I use. The result is Model \u0026 Effort Badges. Instead of a logo, there's a small badge with a code: the model's letter and effort.…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi39sveccuhzwkypsqez5.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "bd03ff96826a",
+    "title": "Nintendo says a Zelda 3DS game is playable via Switch Online, prompting hopes for ports",
+    "url": "https://www.gamesradar.com/games/the-legend-of-zelda/as-nintendo-says-a-zelda-3ds-game-is-playable-via-switch-online-fans-hope-the-2011-handhelds-library-is-finally-being-ported-but-i-wouldnt-get-too-excited/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T13:01:05Z",
+    "excerpt": "A Link Between Worlds is on Switch Online, apparently... or at least, Nintendo seems to think so",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/gihguBHwzbPqvNjpL7dJ9m-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "prompting",
+      "gaming"
+    ]
+  },
+  {
+    "id": "65984d946950",
+    "title": "Steam’s Angriest New Game Is the Perfect Place to Channel Your AI Hate",
+    "url": "https://www.polygon.com/virtue-and-a-sledgehammer-review/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T13:00:18Z",
+    "excerpt": "Virtue and a Sledgehammer is a rage-filled takedown of AI, but it's more interested in what makes us human.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/virtue-and-a-sledgehammer-robots.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "pc-gaming",
+      "gaming"
+    ]
+  },
+  {
+    "id": "c29053ab0d67",
+    "title": "11 Ocarina Of Time Characters, Ranked By How Chewy They Look",
+    "url": "https://kotaku.com/11-ocarina-of-time-characters-ranked-by-how-chewy-they-look-2000756384",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-13T13:00:18Z",
+    "excerpt": "I'm not saying I *would* chew them, I'm just saying...",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/water-temple-8-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "4bf5757d00a7",
+    "title": "Samsung's Galaxy AI subscription is dead before it's even arrived",
+    "url": "https://www.androidpolice.com/galaxy-ai-doesnt-contain-anything-worth-paying-for/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-13T13:00:10Z",
+    "excerpt": "Can an AI service survive if nobody actually cares about it?",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/11/galaxy-ai-on-the-hook.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "space"
+    ]
+  },
+  {
+    "id": "00d8217ce521",
+    "title": "Wider daily temperature ranges linked to stronger fevers in amphibians and reptiles",
+    "url": "https://phys.org/news/2026-11-wider-daily-temperature-ranges-linked.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T13:00:05Z",
+    "excerpt": "When amphibians and reptiles get an infection, they sometimes raise their body temperature above its usual level by moving to a warmer environment. This well-documented behavioral response is known as behavioral fever.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wider-daily-temperatur.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "fa373831d4b1",
+    "title": "Euclid's first data release: A stepping stone to its 3D map of the sky",
+    "url": "https://phys.org/news/2026-11-euclid-stone-3d-sky.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T13:00:01Z",
+    "excerpt": "The ESA's Euclid has already teased us with some early results. In the past, it's given us a small image covering 60 square degrees of the sky, created with a few days of observations. Those images showed individual targets from the Horsehead Nebula to the Perseus cluster of galaxies.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/euclids-first-data-rel.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "id": "8714a2003e14",
+    "title": "Speculative decoding explained: Medusa, EAGLE-3 and limits",
+    "url": "https://dev.to/abdul_rehman_90cb34d3a146/speculative-decoding-explained-medusa-eagle-3-and-limits-kc3",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T13:00:00Z",
+    "excerpt": "Speculative decoding makes a large language model produce text faster by letting a cheaper process guess several tokens ahead while the big model checks the guesses all at once. The original paper, from Google researchers, reports a 2X to 3X speedup on a T5-XXL model with identical outputs. Later methods such as Medusa and EAGLE-3 report larger gains, under their own test conditions. Why one token…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1n7bx9f0vr13mhxdc0ss.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "c3cf356b93fc",
+    "title": "Apple should have made the MacBook logo RGB",
+    "url": "https://www.theverge.com/tech/1032550/apple-macbook-pro-proled-xdr-lid-logo-led-rgb-colors",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-13T13:00:00Z",
+    "excerpt": "When Apple CEO John Ternus announced the first touchscreen Mac last month, the biggest reaction in the room wasn't for the PROLED MacBook Pro's OLED touchscreen or the thinner and lighter chassis; it was for the illuminated lid logo. It's a throwback to the light-up logos on the old MacBooks, which Apple started phasing out […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268868_Apple_added_LEDs_to_its_logo_on_the_MacBook_Pro_and_now_I_want_RGB_CVirginia.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "93a6bc28f090",
+    "title": "The Legend of Zelda was in \"dire straits\" before Breath of the Wild, ex-Nintendo marketing leads say",
+    "url": "https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-was-in-dire-straits-before-breath-of-the-wild-former-nintendo-marketing-leads-say-they-were-selling-like-nothing/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T12:57:18Z",
+    "excerpt": "\"They had to do something dramatic\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/xfiYkoU7X9X4pFn8GbPSx-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles"
+    ]
+  },
+  {
+    "id": "e654a368788c",
+    "title": "Gmail’s Material 3 Expressive settings redesign is starting to reach Android users",
+    "url": "https://www.androidauthority.com/gmail-material-3-expressive-settings-redesign-rollout-3734964/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T12:56:09Z",
+    "excerpt": "A fresh look makes Gmail's settings easier to navigate.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/09/gmail-android-app-no-meet-tab-hero-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "9387f631f4d2",
+    "title": "Linux 7.5 To Upstream Driver For New Glanda GPU",
+    "url": "https://www.phoronix.com/news/Linux-7.5-GlandaGPU-Driver",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-13T12:55:37Z",
+    "excerpt": "Sent out today was the drm-misc-next pull request for the week of new material to queue in DRM-Next until the Linux 7.5 merge window gets underway in late December. Most notable this week is the introduction of the new GlandaGPU driver...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=glanda_gpu",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "The upcoming Linux 7.5 kernel will feature the new GlandaGPU driver. Designed in VHDL, GlandaGPU is an open-source soft GPU core that runs on FPGA hardware or can be emulated using QEMU. It serves primarily as a learning tool and supports basic VGA output and a 2D acceleration engine.",
+    "tags": [
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1cff1292bbaf",
+    "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
+    "source": "ScienceDaily",
+    "section": "science",
+    "published": "2026-11-13T12:55:11Z",
+    "excerpt": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and weakened immune responses, potentially leaving them more vulnerable to future threats. Surprisingly, prior vaccination completely prevented these harmful changes i…",
+    "image_url": "https://www.sciencedaily.com/images/1920/future-virus-vaccine-technology.webp",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "e00ed907e42f",
+    "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+    "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-13T12:52:19Z",
+    "excerpt": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "startups",
+      "chips"
+    ]
+  },
+  {
+    "id": "63d155951e04",
+    "title": "Developer's $300 Embroidery Machine Required a Subscription, So They Built This Open Source Tool",
+    "url": "https://feed.itsfoss.com/link/24361/17523834/zigzag-embroidery-software",
+    "source": "It's FOSS",
+    "section": "linux",
+    "published": "2026-11-13T12:50:00Z",
+    "excerpt": "ZigZag turns SVG art into stitches, exports five file formats, and can send designs over Bluetooth to an app-controlled Brother embroidery machine.",
+    "image_url": "https://itsfoss.com/content/images/2026/11/zigzag-embroidery-project-banner.png",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "open-source"
+    ]
+  },
+  {
+    "id": "4eafcdcb811c",
+    "title": "Linus Torvalds Says AI-Assisted Linux Kernel Fixes Are Becoming the Norm",
+    "url": "https://linuxiac.com/linus-torvalds-says-ai-assisted-linux-kernel-fixes-are-becoming-the-norm/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-13T12:48:14Z",
+    "excerpt": "Linux kernel 7.4-rc2 includes numerous AI-assisted fixes, as Torvalds highlights, encouraging progress in reducing kernel bugs.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/linux-kernel-ai-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "linux",
+      "kernel"
+    ]
+  },
+  {
+    "id": "6f142cf4df34",
+    "title": "Microsoft’s massive Outlook outage continues",
+    "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-13T12:48:03Z",
+    "excerpt": "Service is gradually starting to recover for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degradated state, some people (including Verge staffers) are reporting that access to their emails has been restored, though the flow of Outlook […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "48c9f56bef0e",
+    "title": "Xbox Shares New Fable Trailer that Divides the Fanbase",
+    "url": "https://www.polygon.com/fable-new-gameplay-trailer-xbox/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T12:45:30Z",
+    "excerpt": "Xbox shared a new gameplay trailer for the upcoming Fable reboot, and the bleak footage divided fans.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/screenshot-2026-06-07-at-1-12-35-pm.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "494729679028",
+    "title": "Google’s Gemini 4 Carbon turns agent pricing into the main battleground",
+    "url": "https://dev.to/spaisee/googles-gemini-4-carbon-turns-agent-pricing-into-the-main-battleground-3a39",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:45:01Z",
+    "excerpt": "Quick take Google is making Carbon available through the Gemini API, Gemini for business, Google AI Ultra, Gemini Antigravity, the Gemini app and AI Mode in Search. Its introductory API price is $2 per million input tokens and $10 per million output tokens, with configurable thinking levels to balance quality, latency and cost. Zapier reported Carbon completed 53.9% of 657 simulated business-workf…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fspaisee.com%2Fapi%2Fpublic%2Fmedia%2F2119",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents",
+      "climate"
+    ]
+  },
+  {
+    "id": "d5cb195cd002",
+    "title": "What a 30-second-old VPS does to your install script",
+    "url": "https://dev.to/dtisch/what-a-30-second-old-vps-does-to-your-install-script-1bgc",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:44:13Z",
+    "excerpt": "Most \"run your own VPN\" guides start the same way: rent a VPS, SSH in, paste twenty commands, edit a JSON file, open a port, copy a key back to your phone, and hope nothing was mistyped. For people who live in a terminal that's fine. For everyone else it's where they give up. I build Lume, a VPN client for Xray, AmneziaWG and OpenVPN. Its \"Set Up My Server\" screen asks for three things: the server…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwcrpyjjidj179ntuz08d.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "9e2787e61fac",
+    "title": "AMD has patched its SSD-eating GPU driver bug with an optional Adrenalin update for RX 7000-series graphics cards and above",
+    "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-patched-its-ssd-eating-gpu-driver-bug-with-an-optional-adrenalin-update-for-rx-7000-series-graphics-cards-and-above/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T12:42:43Z",
+    "excerpt": "It looks like it's got some quirks of its own, though.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/HhgRs2q5wjBRkGzn6o32Mh-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "17394bbf53e2",
+    "title": "How a multidrug-resistant bacterial clone emerged, evolved and disappeared in a hospital",
+    "url": "https://phys.org/news/2026-11-multidrug-resistant-bacterial-clone-emerged.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T12:40:05Z",
+    "excerpt": "Vancomycin-resistant Enterococcus faecium is listed by the World Health Organization as one of the highest-priority bacteria in its 2024 Bacterial Priority Pathogens List, ahead of MRSA, due to its ability to transfer resistance genes between humans, animals and the environment.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2018/2-hospital.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "91e7fa774bce",
+    "title": "Designing an AI Sales Assistant That Indicates When Confirmation Is Needed",
+    "url": "https://dev.to/globe_zenith_de7bcf163825/designing-an-ai-sales-assistant-that-indicates-when-confirmation-is-needed-158h",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:36:49Z",
+    "excerpt": "Designing an AI Sales Assistant That Indicates When Confirmation Is Needed The most dangerous moment in a sales meeting is not a tough question. It is a tough question answered confidently with a number that does not exist. Discount rates, delivery dates, implementation effort, SLA terms — if an AI assistant makes one of these up on the spot and the salesperson repeats it, the company has just mad…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpzz35hpid1ygg8k4lypl.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "4c1b6ee87acf",
+    "title": "Edge0-145B: a 145B Model That Runs on Your Laptop",
+    "url": "https://dev.to/paullovelace/edge0-145b-a-145b-model-that-runs-on-your-laptop-1c8o",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:36:08Z",
+    "excerpt": "Edge0-145B: a 145B Model That Runs on Your Laptop Edge0 just did the thing every local-AI fan has been waiting for someone to actually do. On 12 November 2026 the company launched Edge0-145B, a 145-billion-parameter open-weight model it claims is the world's first open-source 145B model built to run on a device. Not a datacentre. Not a rented GPU cluster. Your laptop. I have not run it yet — nobod…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ftoolscout-e2i.pages.dev%2Fimg%2Fedge0-145b-cover.jpg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "open-source",
+      "chips"
+    ]
+  },
+  {
+    "id": "75418bce1fde",
+    "title": "Splatchinko is a chaotic space roguelike pachinko out now - reviewed",
+    "url": "https://www.gamingonlinux.com/2026/11/splatchinko-is-a-chaotic-space-roguelike-pachinko-out-now-reviewed/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T12:35:41Z",
+    "excerpt": "I do love watching numbers go up, and I do love building up ridiculous combinations - Splatchinko is a chaotic space roguelike pachinko out now. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1982955256id30191gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "space"
+    ]
+  },
+  {
+    "id": "b744b18f07ed",
+    "title": "3 Best Walking Pad Treadmills for Homes and Offices (2026)",
+    "url": "https://www.wired.com/story/best-walking-pads/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T12:34:00Z",
+    "excerpt": "Our team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.",
+    "image_url": "https://media.wired.com/photos/6af64959c5d481da1362b325/master/pass/The-Best-Walking-Pads-WIRED-Staffers-Use-During-Remote-Days.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "69b43a95305b",
+    "title": "Jensen Huang didn’t show confidence in his successor, report says",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+    "source": "TechCrunch",
+    "section": "tech",
+    "published": "2026-11-13T12:28:23Z",
+    "excerpt": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv-e1794568317250.jpg?resize=1200,676",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "adbd77d42139",
+    "title": "PS5 jailbreak dev says \"just buy\" GTA 6, because \"things aren't looking good\" for a game dump",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/ps5-jailbreak-dev-says-just-buy-gta-6-because-things-arent-looking-good-for-a-game-dump-dont-say-i-didnt-warn-you/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T12:24:11Z",
+    "excerpt": "The dev suggests fans have waited long enough already",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/iMZ4fo3KMu7yRL2FouceCg-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "safety",
+      "gaming"
+    ]
+  },
+  {
+    "id": "35fedaf3fb3f",
+    "title": "Helping Montreal and other cities keep more institutional and commercial food waste out of the dump",
+    "url": "https://phys.org/news/2026-11-montreal-cities-commercial-food-dump.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T12:20:08Z",
+    "excerpt": "Businesses and institutions in just 6% of Montreal's mapped area account for about 100,000 metric tons (110,000 tons) of food waste sent to landfill each year—half of the total amount from nonhousehold sources in the city as a whole, McGill University researchers found. Food service and retail businesses were found to be the biggest contributors.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/helping-montreal-and-o.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "f8f0a7beca23",
+    "title": "Xbox boss announces Wolfenstein 3 and confirms new game in development at idSoftware despite reported job cut \"bloodbath\"",
+    "url": "https://www.eurogamer.net/wolfenstein-3-new-id-software-game-announced-xbox",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-13T12:19:50Z",
+    "excerpt": "Xbox boss Asha Sharma has confirmed Wolfenstein 3 is in development at MachineGames, the Swedish studio behind the acclaimed Wolfenstein: The New Order , Wolfenstein 2: The New Colossal, and 2024's celebrated Indiana Jones and the Great Circle . Additionally, she revealed Doom developer idSoftware - one of the Microsoft-owned studios heavily impacted by sweeping Xbox job cuts earlier this year - i…",
+    "image_url": "https://assetsio.gnwcdn.com/wolfenstein-header_gmu0BH3.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "401eb6360d2a",
+    "title": "How to get the Golden Scale in Ocarina of Time",
+    "url": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-golden-scale-fishing/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T12:19:35Z",
+    "excerpt": "The Golden Scale in Zelda OoT is a reward and prize from the Fishing Minigame in Lake Hylia",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/Q5NaFjugJUqHbQQC8SbJEe-1920-80.png",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "82909707b3c5",
+    "title": "Microsoft struggles to restore online services after major outage",
+    "url": "https://www.videogameschronicle.com/news/microsoft-struggles-to-restore-online-services-after-major-outage/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-13T12:17:50Z",
+    "excerpt": "Microsoft 365 services including Outlook and Teams have been experiencing issues for nearly 24 hours",
+    "image_url": "https://www.videogameschronicle.com/files/2022/10/microsoft_headquarters.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "ebd38bea59fe",
+    "title": "What 'grounded' actually means in an AML summary",
+    "url": "https://dev.to/technoxander/what-grounded-actually-means-in-an-aml-summary-5fna",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:16:33Z",
+    "excerpt": "Every vendor in this category says their summary is grounded. Almost none of them will tell you what that means operationally, and the ones who will usually mean \"we put citations in the output\". Citations are the easy part. Grounding is a property of the whole pipeline: what was retrieved, what was excluded, what the model was allowed to conclude from it, and whether a reviewer can reconstruct th…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fixqk7tzmwprhgz4jmnqd.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "d7ff74b9875f",
+    "title": "Four places your LLM API bill leaks money (and 5 free reviews)",
+    "url": "https://dev.to/getawaykr/four-places-your-llm-api-bill-leaks-money-and-5-free-reviews-3cj0",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:15:13Z",
+    "excerpt": "Most LLM bills I look at waste money in the same four places. If you run a product on OpenAI, Anthropic or Gemini, check these first. 1. The same prompt prefix, sent uncached on every call A long system prompt, tool definitions or retrieved docs that are identical on every request. Cached input is billed at roughly a tenth of the normal input price on Anthropic, and both OpenAI and Gemini discount…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx008t12j4dms0iwnsvv8.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "0c5a5bee5abd",
+    "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+    "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T12:10:24Z",
+    "points": 149,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "9151627dc891",
+    "title": "Avatar: Seven Havens producer says the animated sequel series \"isn't a kids' show\"",
+    "url": "https://www.gamesradar.com/entertainment/animation-shows/avatar-seven-havens-producer-says-the-animated-sequel-series-isnt-a-kids-show/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T12:08:12Z",
+    "excerpt": "Unlike its predecessor Avatar: The Last Airbender, Seven Havens isn't for a younger audience",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/9MkAz49KXVGjZTrLKXUF2U-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "ff79205706a4",
+    "title": "Less Is Suddenly Enough — Sparse Edits and Synthetic Data Start Beating Full-Scale Post-Training",
+    "url": "https://dev.to/felipe0liveira/less-is-suddenly-enough-sparse-edits-and-synthetic-data-start-beating-full-scale-post-training-4na1",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:05:11Z",
+    "excerpt": "This digest covers post-training and fine-tuning developments from 2026-11-06 to 2026-11-13, across arXiv, the Hugging Face blog, Together AI, Interconnects, and Latent Space. 🔥 Highlights Human or Synthetic? What a Fixed Budget Buys for Post-Training — synthetic preference data wins hard at low budgets. The Surprising Effectiveness of Deleting Weights in LLM Post-Training — zeroing 0.05% of weigh…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpesa2nkakwckciwqhh8a.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "space"
+    ]
+  },
+  {
+    "id": "a9ba75ef7515",
+    "title": "Reproducing an Experiment in a Local-First LLM Memory Project",
+    "url": "https://dev.to/nia_agent_d4ea108025639bc/reproducing-an-experiment-in-a-local-first-llm-memory-project-3hf7",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:03:30Z",
+    "excerpt": "This article was written by an AI agent from the project's README and release notes, and published automatically. The project is by krapcys1-maker ; the code is at krapcys1-maker/adaptive-agent-memory-research . The adaptive-agent-memory-research repository is an open research project on long-term memory for LLM agents, local-first and model-agnostic, with preregistration where possible and negati…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2Fkrapcys1-maker%2Fadaptive-agent-memory-research",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "11a7870633bc",
+    "title": "Terminal borders that don't cost a cell",
+    "url": "https://www.joshka.net/cell-borders/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T12:03:19Z",
+    "excerpt": "Comments",
+    "image_url": "https://www.joshka.net/cell-borders/og.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "a5455212a60e",
+    "title": "Gemini 4 Hydrogen, xhigh Thinking, and Native Orchestrator Mode in Google Antigravity",
+    "url": "https://dev.to/evgenii_zinner/gemini-4-hydrogen-xhigh-thinking-and-native-orchestrator-mode-in-google-antigravity-2699",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-13T12:01:13Z",
+    "excerpt": "When Gemini 4 Argon first landed in Google Antigravity a few weeks ago, I wrote about the manual workflow you had to adopt if you wanted to survive a full workday without hitting a quota wall. Because Argon was so good at architectural reasoning—and so expensive against your Pro quota pool—you couldn't just leave it selected for routine file edits. To get the best of both worlds, you had two choic…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvv8wgev8pvdhxtddf7gu.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "138c67a8d305",
+    "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+    "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+    "source": "Ars Technica",
+    "section": "science",
+    "published": "2026-11-13T12:00:40Z",
+    "excerpt": "\"You can simplify it as a big tank feeding engines.\"",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/electron-livery-1152x648.jpeg",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "SpaceX prepares for a historic test flight aiming to fully recover an orbital rocket, while Rocket Lab marks its 100th Electron mission with a special gold-and-black launch. Meanwhile, European aerospace updates raise questions about the long-term investment strategy for Italy's Vega rocket family amid growing demand for Ariane 6 boosters.",
+    "tags": [
+      "space"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "89fd3768389a",
+    "title": "Riders with disabilities face roadblocks when finding public transportation",
+    "url": "https://phys.org/news/2026-11-riders-disabilities-roadblocks.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T12:00:06Z",
+    "excerpt": "A new national database developed at the University of Michigan shows that none of the top 99 public transportation systems in the United States are easy for people with disabilities to use in four key areas of accommodation and accessibility.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/public-transport.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "5b498fce51fa",
+    "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+    "url": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-13T12:00:00Z",
+    "excerpt": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+    "image_url": "https://res.infoq.com/news/2026/11/netflix-ai-driven-observability/en/headerimage/generatedHeaderImage-1793693699423.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "6eb5e6642399",
+    "title": "TCL QM7L Mini-LED TV Review (2026)",
+    "url": "https://www.wired.com/review/tcl-qm7l/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T12:00:00Z",
+    "excerpt": "$1,500 buys you vibrant color, deep blacks, and a fast screen fit for just about anything. Just be sure the wide pedestal fits your setup.",
+    "image_url": "https://media.wired.com/photos/6af64cc07d3b549f19bbdcc7/master/pass/Review--TCL-QM7L-Mini-LED-TV.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7fe04006e402",
+    "title": "The Real Python Podcast – Episode #319: Mentoring Developers Beyond the Code With Tim Schilling",
+    "url": "https://realpython.com/podcasts/rpp/319/",
+    "source": "Real Python",
+    "section": "tutorials",
+    "published": "2026-11-13T12:00:00Z",
+    "excerpt": "What's it take to be a mentor to developers? Where in an engineer's career can a mentor make an impact? This week we speak with Tim Schilling, Django Steering Council member and Djangonaut Space administrator, about mentoring Python developers.",
+    "image_url": "https://files.realpython.com/media/E_319_Podcast_Title.974e4092ab2d.jpg",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "python",
+      "space"
+    ]
+  },
+  {
+    "id": "d692949aad85",
+    "title": "Quiz: Working With JSON in Python",
+    "url": "https://realpython.com/quizzes/working-json-data-python/",
+    "source": "Real Python",
+    "section": "tutorials",
+    "published": "2026-11-13T12:00:00Z",
+    "excerpt": "Test your understanding of Python's json module, from serializing and deserializing data to encoding and decoding custom types.",
+    "image_url": "https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "id": "f41c719b0c12",
+    "title": "Let’s talk about Jensen Huang’s many affairs!",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-13T12:00:00Z",
+    "excerpt": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "0ccde23ae2ac",
+    "title": "All MW4 DMZ Blackmarket locker locations",
+    "url": "https://www.gamesradar.com/games/call-of-duty/mw4-dmz-blackmarket-locker-locations/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:58:25Z",
+    "excerpt": "If you've secured a DMZ Blackmarket Locker key, here are all the locations at which you can use it",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/WBkiQM88pmxxeSyKtGZBd4-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "c552b9d68606",
+    "title": "Disney boss says talking to Hideo Kojima helped him fix a story issue in new movie Hexed",
+    "url": "https://www.gamesradar.com/entertainment/animation-movies/disney-boss-says-talking-to-hideo-kojima-helped-him-fix-a-story-issue-in-new-movie-hexed-games-are-cinema/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:57:35Z",
+    "excerpt": "Is there anything Hideo Kojima can't do?",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/toMWJrkuFtqBSrQkfxDXBb-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "9066a5145fa2",
+    "title": "Superheated magma could fuel towering lava fountains",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
+    "source": "ScienceDaily",
+    "section": "science",
+    "published": "2026-11-13T11:56:39Z",
+    "excerpt": "Why do some volcanoes erupt with spectacular lava fountains while others release lava more quietly? Scientists have discovered that a hidden effect of extreme heat inside magma may help explain the difference. Experiments revealed that superheated magma can delay crystal formation for more than eight hours, compared with just 20 minutes in magma that has not been superheated.",
+    "image_url": "https://www.sciencedaily.com/images/1920/lava-fountain-2021-tajogaite-eruption.webp",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "29ee1cd8b3a4",
+    "title": "New Game from Doom studio and New Wolfenstein Announced",
+    "url": "https://www.polygon.com/wolfenstein-doom-bethesda-new-game-announced/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T11:56:30Z",
+    "excerpt": "Xbox CEO Asha Sharma has unveiled upcoming Bethesda games coming from the studios that made Doom and Wolfenstein.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/doom-tda-revelations-slayer-1.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "2291a26ba4ea",
+    "title": "Robert Pattinson will only sign up for three films if he's cast as James Bond, one less than the rest of the 007 candidates",
+    "url": "https://www.gamesradar.com/entertainment/james-bond-movies/robert-pattinson-will-only-sign-up-for-three-films-if-hes-cast-as-james-bond-one-less-than-the-rest-of-the-007-candidates/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:56:28Z",
+    "excerpt": "He's a lot more expensive too",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/RftbRFPuwMwFEJd4W3acVG-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2e44306b3da3",
+    "title": "Major Microsoft 365 Outage Continues",
+    "url": "https://www.macrumors.com/2026/11/13/major-microsoft-365-outage-continues/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-13T11:55:16Z",
+    "excerpt": "The worldwide Microsoft 365 outage continues, leaving users unable to access email and disrupting features in Teams, Copilot, and other services, although Microsoft says recovery efforts are making progress. Issues emerged on Thursday, November 12, with nearly 130,000 Outlook reports recorded on Downdetector shortly after 1 p.m. Eastern, according to the Associated Press . The disruption extended…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/microsoft.jpeg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "49b327d3df58",
+    "title": "Microsoft Teams, Outlook, and 365 services are down, more than 12 hours now",
+    "url": "https://www.gsmarena.com/microsoft_teams_outlook_and_365_services_are_down_more_than_12_hours_now-news-75469.php",
+    "source": "GSMArena",
+    "section": "tech",
+    "published": "2026-11-13T11:52:02Z",
+    "excerpt": "Microsoft is experiencing a major server outage affecting all its cloud services, including Outlook, Teams, Microsoft 365 (Business and Enterprise), Azure, OneNote, OneDrive, and Microsoft ToDo. Microsoft says a malicious cyberattack didn't cause the issue. A statement from the company basically says that its servers are overloaded and that some machines aren't communicating properly. The company…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/microsoft-outage-live/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "A major server outage has disrupted Microsoft cloud services globally, affecting platforms like Teams, Outlook, Microsoft 365, and Azure for over half a day. Microsoft attributed the disruption to server overloads and communication failures rather than a malicious cyberattack. The incident has impacted users across numerous countries, including municipal governments and healthcare providers.",
+    "tags": [
+      "cloud",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "17b8c4ff7cba",
+    "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+    "url": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+    "source": "Ars Technica",
+    "section": "tech",
+    "published": "2026-11-13T11:50:38Z",
+    "excerpt": "Specialized’s second-fastest bike may be the smart buy.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/specialized_3170-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Specialized has released its Tarmac SL9 S-Level aero road bike, positioned just below the flagship S-Works model. The bike utilizes a slightly heavier carbon frame to lower the price point while retaining high-end groupset options from SRAM and Shimano.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "d1da415bc3dd",
+    "title": "After Xbox bloodbath, Doom studio id Software casually announces it's working on a new game",
+    "url": "https://www.gamesradar.com/games/fps/after-xbox-bloodbath-id-software-announces-its-working-on-a-new-game-as-asha-sharma-says-few-studios-have-shaped-the-first-person-shooter-genre-as-much/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:50:30Z",
+    "excerpt": "Hugo Martin is directing once again",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/2YndJm6QhAwUYrdj6gBaNg-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "2773c609d2d3",
+    "title": "Study Hard, Get a Career, Get Ahead? It's Not What It Used to Be",
+    "url": "https://www.nytimes.com/2026/11/13/world/europe/education-meritocracy.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T11:50:00Z",
+    "points": 15,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "4f60c40b84ff",
+    "title": "The Witcher 4 is going to be \"an unforgettable experience that's true to the core of the Witcher,\" narrative lead says",
+    "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-4-is-going-to-be-an-unforgettable-experience-thats-true-to-the-core-of-the-witcher-narrative-lead-says-as-the-rpg-wins-a-most-wanted-award/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:49:54Z",
+    "excerpt": "The upcoming RPG will be \"worthy\" of The Golden Joysticks' Most Wanted Game award, CD Projekt Red says",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/PecJ8qgEumVYHjsf4Lbbxb-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "06fc966112de",
+    "title": "FunOS Offers a Minimalist Ubuntu Experience with JWM Desktop",
+    "url": "https://linuxiac.com/funos-offers-a-minimalist-ubuntu-experience-with-jwm-desktop/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-13T11:49:24Z",
+    "excerpt": "Meet FunOS, a lightweight Ubuntu-based Linux distribution featuring JWM, low memory usage, and a Snap-free desktop experience.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/funos-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "linux"
+    ]
+  },
+  {
+    "id": "47179faa2b29",
+    "title": "As GTA 6 breaks records, Take-Two CEO says he isn't interested in an EA-style $55 billion buyout",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-breaks-records-take-two-ceo-says-he-isnt-interested-in-an-ea-style-usd55-billion-buyout-additional-scale-doesnt-seem-to-help/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:45:52Z",
+    "excerpt": "\"We are not in a place where we need to be part of a bigger organization to be competitive,\" says Strauss Zelnick",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/DJ5yrctKvkVPiUUuSo36xg-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "f37c9d28309c",
+    "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+    "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T11:45:00Z",
+    "excerpt": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+    "image_url": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "startups"
+    ]
+  },
+  {
+    "id": "0be79c41bea7",
+    "title": "The need for at least a third option",
+    "url": "https://blog.ovalerio.net/archives/3359",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T11:36:44Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "c87d5fbe44ea",
+    "title": "Xbox Live, Microsoft 365, Teams And Copilot Are All Still Spectacularly Broken, Fixes ‘Not Taking As Expected’",
+    "url": "https://kotaku.com/xbox-live-microsoft-365-copilot-outlook-outages-ongoing-2000756565",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-13T11:35:13Z",
+    "excerpt": "Microsoft's online services are in a complete state, all over the world, affecting governments, flights and more",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/xbox-not-live-1280x720.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "2bbcc5b58a87",
+    "title": "ML Modules for Mere Mortals",
+    "url": "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T11:33:56Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "4340c1d564d3",
+    "title": "Ex-Nvidia CEO Jensen Huang allegedly had an 'intimate relationship' with a second Nvidia employee, according to reports",
+    "url": "https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T11:33:19Z",
+    "excerpt": "The report is based on information from \"two people familiar with the matter.\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/Gv633MiZGGDKePyr3xCf5i-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "5cce6ebf4018",
+    "title": "'I stand by Jensen': Nvidia employees come out in support of Huang after resignation",
+    "url": "https://www.pcgamer.com/hardware/i-stand-by-jensen-nvidia-employees-come-out-in-support-of-huang-after-resignation/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T11:30:35Z",
+    "excerpt": "The now ex-CEO co-founded the company over three decades ago.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/arypsdXmTz7vUuxPxsFcRZ-1920-80.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "469c14191509",
+    "title": "Google Messages has a new scam protection feature; here's why and how I turned it on",
+    "url": "https://www.androidpolice.com/google-messages-new-scam-protection-why-how-turned-it-on/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-13T11:30:10Z",
+    "excerpt": "Scams that start friendly are the ones I worry about",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/08/spam-detection-google-messages.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "de86baac8d37",
+    "title": "Wolfenstein 3 Is Now Officially In Production, With Motion Capture Currently Underway",
+    "url": "https://kotaku.com/wolfenstein-3-in-production-machine-games-microsoft-asha-sharma-2000756436",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-13T11:30:07Z",
+    "excerpt": "Brian Bloom and Debra Wilson will return as BJ Blazkowicz and Grace Walker for the first mainline game in a decade",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/Wolfenstein-2-1280x805.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "ca4b2265d95c",
+    "title": "Even Black Friday Will Be More Expensive Than Usual",
+    "url": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T11:30:00Z",
+    "excerpt": "The AI memory crunch is coming for your holiday shopping list.",
+    "image_url": "https://media.wired.com/photos/6af7131c24bd9dbe89f314cb/master/pass/111326-Black%20Friday%20Memory%20Chip.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "39f47e9862ac",
+    "title": "Intel Posts Initial GCC Compiler Code For Razor Lake \u0026 Coral Rapids",
+    "url": "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-13T11:29:00Z",
+    "excerpt": "One of the consistent wonderful praise I have for Intel over the past 22+ years of covering the Linux hardware scene has been their upstreaming of new CPU targets into the open-source compilers like GCC well ahead of product launches. Particularly with GCC on an annual feature release cycle and not being quickly picked up by new Linux distribution releases, Intel upstreaming their new CPU targets…",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=gcc_coral_razor",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Intel has submitted initial GCC compiler patches adding support for upcoming Coral Rapids and Razor Lake processors ahead of their future releases. The patches outline instruction set extensions for the upcoming architectures, including specific features for the Coral Rapids chips.",
+    "tags": [
+      "linux",
+      "kernel",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "923ee0278a0c",
+    "title": "Take-Two boss isn't ruling out a GTA movie or TV show, but says they're \"very, very selective\" about who they work with",
+    "url": "https://www.gamesradar.com/entertainment/crime-movies/take-two-boss-isnt-ruling-out-a-gta-movie-or-tv-show-but-says-theyre-very-very-selective-about-who-they-work-with/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-13T11:24:25Z",
+    "excerpt": "A Grand Theft Auto movie could still happen one day",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/kWw9FEwneArzWxypW9xKMh-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "dfbfcfe2b615",
+    "title": "Schema Drift vs. Semantic Drift in Data Pipelines",
+    "url": "https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-13T11:23:18Z",
+    "excerpt": "When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but its meaning c",
+    "image_url": "https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/ae47b7ae-2c13-49b9-bad7-a20a28edbecb.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "fbe41ca94c4f",
+    "title": "After BP monitoring smartwatches, HUAWEI reveals its first continuous glucose monitor",
+    "url": "https://www.androidauthority.com/huawei-continuous-glucose-monitor-cgm-3734906/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T11:22:39Z",
+    "excerpt": "Data from the CGM can also be viewed directly on a HUAWEI smartwatch.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/Huawei-cgm.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "be10623bdedf",
+    "title": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+    "url": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T11:15:00Z",
+    "excerpt": "Jean Guerrero, Stephen Miller’s biographer, sees him as “a case study in oligarchic capture”—and as a way for Donald Trump to double down.",
+    "image_url": "https://media.wired.com/photos/6af48b9f1bbf3e7f3fba04d9/master/pass/GettyImages-2214264559.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2f44ca0e016f",
+    "title": "AI Is Destroying the Trust Between Writers and Readers",
+    "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T11:13:46Z",
+    "points": 15,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "84a51a999fb7",
+    "title": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
+    "url": "https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-13T11:09:59Z",
+    "excerpt": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of activity to bring it into a usable state and eventually parity and beyond compared to the existing out-of-tree NVIDIA Linux driver code or the incomplete and largely reverse engineered Nouveau kernel d…",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=nvidia_vgpu_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Nvidia engineers presented ongoing efforts to bring virtual GPU support to the Rust-based Nova Linux kernel driver. The work aims to enable GPU sharing across virtual machines and containers in cloud and data center environments. Initial upstream integration is targeted for upcoming kernel releases alongside companion user-space tooling.",
+    "tags": [
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "8dbdb45dfc48",
+    "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
+    "source": "ScienceDaily",
+    "section": "science",
+    "published": "2026-11-13T11:08:34Z",
+    "excerpt": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have switched from negative to positive roughly 9.5 billion years ago, potentially changing how we understand cosmic history.",
+    "image_url": "https://www.sciencedaily.com/images/1920/dark-matter-cosmology-measurement.webp",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "459652aabb6a",
+    "title": "How career stakes shaped China's one-child policy enforcement",
+    "url": "https://phys.org/news/2026-11-career-stakes-china-child-policy.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T11:01:34Z",
+    "excerpt": "China's one-child policy is widely considered one of the most stringent public policies in modern history. Yet researchers have long debated how much it actually contributed to the country's dramatic fertility decline.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-career-stakes-shap.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "38a80432e49e",
+    "title": "5 AI agents you can actually use on Android in 2026 (and who should use them)",
+    "url": "https://www.androidauthority.com/best-ai-agents-android-2026-3731766/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T11:00:33Z",
+    "excerpt": "There are many options, but let's explore 5 popular options out there.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/06/gemini-and-claude-on-two-smartphones-next-to-each-other-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "agents",
+      "mobile"
+    ]
+  },
+  {
+    "id": "096274b5c5cb",
+    "title": "Over A Third Of Game Developers Have Lost A Job In The Last Two Years, Bleak Report Finds",
+    "url": "https://kotaku.com/gdc-state-of-industry-job-losses-layoffs-ai-report-2000756433",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-13T11:00:12Z",
+    "excerpt": "Most developers say they are not using AI tools right now, but fear of it and layoffs contribute to low morale surrounding game development",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/Mass-Effect-5-1280x703.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "038594fbffee",
+    "title": "I replaced apps with shortcuts on my Android phone's home screen; I can't go back",
+    "url": "https://www.androidpolice.com/replaced-apps-with-shortcuts-android-phone-home-screen/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-13T11:00:11Z",
+    "excerpt": "My phone feels faster now",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/08/google-maps-home-screen-shortcut-near-grid.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "03360a206a9f",
+    "title": "Horu is a sci-fi 4X RTS inspired by Star Wars: Empire at War in which spaceships are spellcasters who can summon black holes",
+    "url": "https://www.rockpapershotgun.com/horu-is-a-sci-fi-4x-rts-inspired-by-star-wars-empire-at-war-in-which-spaceships-are-spellcasters-who-can-summon-black-holes",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-13T11:00:00Z",
+    "excerpt": "Clicking a random link this morning, I was dazzled by the glare of a thousand laser batteries firing simultaneously. My ears trembled beneath the trundle of a million caterpillar tracks. Balls of ice, bolts of lightning, shipments of rare alloys, and cascades of drop pods went screaming down my nerves and detonated in my frontal cortex, painting starlanes across the inside of my skull. \"Oh god, th…",
+    "image_url": "https://assetsio.gnwcdn.com/horu.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "17920c4a5997",
+    "title": "These 30+ Games Are Coming To Nintendo Switch eShop This Week (November 12)",
+    "url": "https://www.nintendolife.com/news/2026/11/these-30plus-games-are-coming-to-nintendo-switch-eshop-this-week-november-12",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-13T11:00:00Z",
+    "excerpt": "Including three tasty discounts! It's time for North America's Nintendo Download update, and our Switch eShop round-up for November 12th (yes, it came in late yesterday so we're catching up!). We're all still reeling from Ocarina last week , but although GTA won't be coming to Switch 2 next Thursday, Nintendo gamers still have plenty to choose from. Read the full article on nintendolife.com",
+    "image_url": "https://images.nintendolife.com/b3d44cb872233/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "1f9401fd47f1",
+    "title": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
+    "url": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T11:00:00Z",
+    "excerpt": "William Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.",
+    "image_url": "https://media.wired.com/photos/6aee55c49c22209c9f013e23/master/pass/Neuromancer-BTS-Culture_102_18753F.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "db329f0ae0f0",
+    "title": "Presentation: The Influence Toolkit",
+    "url": "https://www.infoq.com/presentations/bbc-software-architecture-influence/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-13T11:00:00Z",
+    "excerpt": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using RFCs and ADRs, and balancing tradeoffs - showing that effective software architecture is fundamentally about communication, relationship-building, and organizational influence. By Henry Wilson",
+    "image_url": "https://res.infoq.com/presentations/bbc-software-architecture-influence/en/mediumimage/henry-wilson-medium-1792653480613.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "608321a32d29",
+    "title": "Pixel Weather now lets you report inaccurate weather conditions",
+    "url": "https://www.androidauthority.com/google-pixel-weather-inaccurate-forecast-user-report-apk-teardown-3734890/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:56:40Z",
+    "excerpt": "A new card at the bottom of the weather details page features a new user feedback option.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/04/google-pixel-weather-forecast-boxes-details.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "d15a961d9875",
+    "title": "Motorola Razr Plus 2024 starts receiving Android 17, but US owners still have to wait",
+    "url": "https://www.androidauthority.com/motorola-razr-plus-2024-android-17-update-3734901/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:53:26Z",
+    "excerpt": "Months of beta testing are giving way to a stable release.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2024/07/Motorola-Razr-Plus-weather-app.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "c286d7a980c1",
+    "title": "Here’s a demo of Google Calculator’s new Unit Conversion feature and a preview of Pixel Solver",
+    "url": "https://www.androidauthority.com/google-calculator-unit-conversion-demo-3734899/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:53:00Z",
+    "excerpt": "The November 2026 Pixel Drop is supposed to bring these features, but many users don't have them yet.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/google_calculator_2.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "09368e3ca94e",
+    "title": "Dasharo ACPI Fan Control Linux Driver Posted For Adjusting Fan Curves",
+    "url": "https://www.phoronix.com/news/Dasharo-ACPI-Fan-Control-Driver",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-13T10:51:34Z",
+    "excerpt": "The 3mdeb consulting firm that has ported their Coreboot-based open-source firmware stack to the likes of an AMD Ryzen AM5 motherboard from MSI and a Gigabyte EPYC server motherboard, among others, has posted a new Linux kernel driver for supporting fan controls with Dasharo firmware...",
+    "image_url": "https://www.phoronix.net/image.php?id=msi-b850p-coreboot-opensil\u0026image=msi_ryzen_dasharo_6",
+    "image_checked": true,
+    "weight": 1.1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "linux",
+      "kernel",
+      "open-source"
+    ]
+  },
+  {
+    "id": "dbfd8a698203",
+    "title": "Build an LLM Gateway with hikyaku: One Endpoint, AI-Picked Models and Failover Across Providers",
+    "url": "https://dev.to/xavidop/build-an-llm-gateway-with-hikyaku-one-endpoint-ai-picked-models-and-failover-across-providers-4eh",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T10:51:13Z",
+    "excerpt": "Introduction Look at how your app calls a model today. There is an SDK, an API key and a model name, all in the code. That works until one of three things happens: The provider has a bad hour, and your feature is down with it. A cheaper or better model ships, and moving to it is a code change in every service. You pay for the strongest model on every request, including \"say hi\". An LLM gateway fix…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F79joydxphxl03upjmqum.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "6ec98444f1c5",
+    "title": "Motorola Signature 27's battery capacity in Germany is the same as other regions",
+    "url": "https://www.gsmarena.com/motorola_signature_27_battery_capacity_germany-news-75468.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T10:47:02Z",
+    "excerpt": "Motorola introduced the Signature 27 in September and fully unveiled it last week. The smartphone packs a 7,000 mAh battery. However, Motorola initially said it would come with a 5,500 mAh battery in Germany. Thankfully, that's not the case. That confirmation comes straight from Motorola Germany, which has updated the Signature 27's product page on its website to confirm the smartphone will pack a…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/10/motorola-signature-27-key-specs-geekbench/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Motorola has confirmed that the European version of the Signature 27 smartphone will feature a 7,000 mAh battery, matching other global regions. The device is powered by the Snapdragon 8 Elite Extreme Gen 6 chip and runs Android 17. It includes advanced camera features and high durability ratings.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bc2e71a756ef",
+    "title": "How to Build a Browser-Based Image Storyboard to PDF Tool Using JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-image-storyboard-to-pdf-tool-javascript/",
+    "source": "freeCodeCamp",
+    "section": "tutorials",
+    "published": "2026-11-13T10:44:43Z",
+    "excerpt": "Before anyone films a video, shoots an ad or draws the final pages of a comic, someone usually sketches the plan as a storyboard: one picture per shot, in order, with a short note about what happens a",
+    "image_url": "https://cdn.hashnode.com/uploads/covers/5fc16e412cae9c5b190b6cdd/eb2e1525-11db-47ef-a27c-b0672184efe8.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "web",
+      "javascript",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "5c297a308ce6",
+    "title": "Pixar's New Movie Gatto Gets First In-Depth Look in Official Trailer",
+    "url": "https://www.polygon.com/pixar-gatto-trailer/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T10:43:49Z",
+    "excerpt": "Pixar takes viewers to Venice to meet a mobster cat in Gatto, starring Mark Ruffalo and Laurence Fishburne.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gatto-pixar.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "ca54d0e2ffb9",
+    "title": "Apple Launches Two Products Today",
+    "url": "https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-13T10:37:25Z",
+    "excerpt": "Apple is releasing two new products today, Friday, November 13: the all-new Apple HomeView and the fourth-generation Apple TV 4K, both of which have been available to pre-order since mid-October. Apple HomeView : Apple's new smart home display, powered by Apple Intelligence with Siri AI, for entertainment and managing the home. Available in tabletop and wall-mounted models, it can recognize up to…",
+    "image_url": "https://images.macrumors.com/article-new/2026/10/apple-pro-tell-logo.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "3fcb20436249",
+    "title": "Wolfenstein 3 and new id Software game confirmed, as Xbox boss somehow unrelatedly shouts about one person soon wielding \"capabilities that once required entire nations\"",
+    "url": "https://www.rockpapershotgun.com/wolfenstein-3-and-new-id-software-game-confirmed-as-xbox-boss-somehow-unrelatedly-shouts-about-one-person-soon-wieldling-capabilities-that-once-required-entire-nations",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-13T10:34:40Z",
+    "excerpt": "Xbox have confirmed that Wolfenstein 3 is indeed in production at Indiana Jones and the Great Circle devs MachineGames and that Doom makers id Software have started work on their next game after losing a bunch of staff to the mass layoffs across Microsoft's gaming division this year. \"A single person will soon be able to wield capabilities that once required entire nations,\" isn't part of the mark…",
+    "image_url": "https://assetsio.gnwcdn.com/2_SN4DvSM.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "ab97ca5a123c",
+    "title": "Microsoft says there is 'no evidence of malicious activity' being the cause of the global service outage affecting governments and organisations around the world",
+    "url": "https://www.pcgamer.com/software/security/microsoft-says-there-is-no-evidence-of-malicious-activity-being-the-cause-of-the-global-service-outage-affecting-governments-and-organisations-around-the-world/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-13T10:33:22Z",
+    "excerpt": "A bunch of governments, state institutions, and companies are affected globally.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/cfgisUwZ3YoQNzEfxyMQwE-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "11b08c13bc43",
+    "title": "Leaked Dune Magic Secret Lair Has Amazing Value Reprints and 9 New Cards",
+    "url": "https://www.polygon.com/mtg-dune-magic-secret-lair-drop-leaks/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T10:30:47Z",
+    "excerpt": "An unconfirmed Dune x Magic Secret Lair superdrop leaked, and it includes great reprints and 9 new cards.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/dune-part-two-muad-dib.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2aff8797af1b",
+    "title": "Beyond AI Applications: How openEuler Is Rethinking the Agentic Infra OS",
+    "url": "https://feed.itsfoss.com/link/24361/17523787/openeuler-agentic-infra-os",
+    "source": "It's FOSS",
+    "section": "linux",
+    "published": "2026-11-13T10:30:23Z",
+    "excerpt": "From secure execution and intelligent caching to persistent memory and elastic data services, openEuler is building an infrastructure foundation for large-scale, production-ready AI agents.",
+    "image_url": "https://itsfoss.com/content/images/2026/11/open-euler-agentic-infra-os-1-.webp",
+    "weight": 0.9,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "8c01badbbe7c",
+    "title": "I finally have Google Messages’ new pinned chats UI. Here’s how to get it on your phone now",
+    "url": "https://www.androidauthority.com/google-messages-pinned-chats-redesign-hands-on-how-to-3733526/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:30:12Z",
+    "excerpt": "A very nice fresh coat of paint.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/google-messges-2026-redesign-hero-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "2f66ddddff75",
+    "title": "‘Call Him Out’: Cybertruck Loyalists Are in Mourning—and They Want Answers From Elon Musk",
+    "url": "https://www.wired.com/story/cybertruck-fans-demand-answers-from-elon-musk-about-the-vehicles-demise/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T10:30:00Z",
+    "excerpt": "Tesla’s unpredictable CEO is ready to move on from the company’s most controversial vehicle, but owners aren’t about to let him off the hook for what they see as a poor decision.",
+    "image_url": "https://media.wired.com/photos/6af663e1fcffa2a0af03f00a/master/pass/Cybertruck-Mourning-Culture.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "471a26766292",
+    "title": "Introducing hikyaku: A Message Relay That Routes with AI and Never Drops a Message",
+    "url": "https://dev.to/xavidop/introducing-hikyaku-a-message-relay-that-routes-with-ai-and-never-drops-a-message-l2l",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T10:24:16Z",
+    "excerpt": "Introduction Every backend has that one small service. It receives a webhook and forwards it to three other systems. It started as 40 lines. Then one target went down for an hour, and messages were lost. So it got a retry loop. Then a queue. Then a second target needed a different payload. Then someone asked: \"can it send billing questions to billing and bugs to support?\" That service is glue, and…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9p8uqdlchqky6v45i3rd.gif",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "60962c132d3a",
+    "title": "Testing AI Agents with tamesu: Simulated Users, LLM Judges and a Red Team in CI",
+    "url": "https://dev.to/xavidop/testing-ai-agents-with-tamesu-simulated-users-llm-judges-and-a-red-team-in-ci-e69",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T10:24:09Z",
+    "excerpt": "Introduction Think about how your team tests its AI agent today. Someone opens the chat, types three messages, reads the answers and says \"looks good\". Then a small prompt edit ships on Friday. On Monday the agent refunds orders it must refuse. Nobody saw it, because nothing checked it. The behaviour that matters was never written down as a test. tamesu (試す, Japanese for to try, to test ) is an op…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz9rdaat9fziyslv6tnfy.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "f16e36b8541b",
+    "title": "Agentic Browser Testing with tamesu: Tell the Browser What the User Wants",
+    "url": "https://dev.to/xavidop/agentic-browser-testing-with-tamesu-tell-the-browser-what-the-user-wants-5ci1",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T10:24:02Z",
+    "excerpt": "Introduction End-to-end tests have a bad name, and selectors are the reason. A test clicks #btn-add-42 . Someone renames the id, and the test fails. Nothing is wrong with the shop. The test was never about the shop. It was about the HTML. A person does not use a web page that way. A person wants something: \"log in\", \"add the first laptop bag to the cart\". They find the button by what it says. tame…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F237x2boykdpje0t5x6e0.gif",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents",
+      "web"
+    ]
+  },
+  {
+    "id": "ed34f26d8e82",
+    "title": "What are you doing this weekend?",
+    "url": "https://lobste.rs/s/4bvg9z/what_are_you_doing_this_weekend",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T10:22:29Z",
+    "excerpt": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
+    "image_url": "https://lobste.rs/touch-icon-144.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "22bcd83804c6",
+    "title": "Claude Is Down",
+    "url": "https://status.claude.com/history",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T10:20:09Z",
+    "image_checked": true,
+    "points": 157,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Anthropic's Claude platform experienced service outages affecting user access. The incident status was tracked via a public status page.",
+    "tags": [
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "106e540c022f",
+    "title": "Motorola Signature 27 could have a downgraded 5,500mAh battery in some markets (Update)",
+    "url": "https://www.androidauthority.com/motorola-signature-27-battery-downgrade-3734887/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:19:14Z",
+    "excerpt": "It looks like Motorola's flagship phone won't have a 7,000mAh battery everywhere.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/motorola-signature-27-entire-back-view-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "44da454e7900",
+    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+    "url": "https://status.claude.com/incidents/nn11wk485zfn",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T10:18:13Z",
+    "image_url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+    "points": 311,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Anthropic's Claude services, including claude.ai, the console, and developer tools, suffered from authentication errors and elevated failure rates. A fix was subsequently deployed and services recovered.",
+    "tags": [
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "96d4bcee85c6",
+    "title": "SpaceX Starship test to attempt first-ever spaceship 'catch'",
+    "url": "https://phys.org/news/2026-11-spacex-starship-spaceship.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T10:11:51Z",
+    "excerpt": "Elon Musk's SpaceX was poised Friday to carry out its latest test of the world's biggest and most powerful rocket, the Starship, with plans for a groundbreaking \"catch\" of the spaceship following a day in orbit.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/spacexs-starship-fligh.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "963143a17edb",
+    "title": "El Niño mostly to blame for Indonesian wildfires: Research",
+    "url": "https://phys.org/news/2026-11-el-nio-blame-indonesian-wildfires.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T10:10:32Z",
+    "excerpt": "Wildfires that consumed vast swaths of Indonesia this year were driven largely by a strong El Niño, fueled by climate change and decades of natural landscape destruction, researchers said Friday.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wildfires-have-burned-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "climate"
+    ]
+  },
+  {
+    "id": "b2e1eafc5110",
+    "title": "6 reasons I’d still buy the Galaxy S26 Ultra instead of the Motorola Signature 27",
+    "url": "https://www.androidauthority.com/samsung-galaxy-s26-ultra-vs-motorola-signature-27-3732992/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T10:00:36Z",
+    "excerpt": "The Motorola Signature 27 looks impressive, but Samsung's S26 Ultra still has a few tricks up its sleeve.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/05/samsung-galaxy-s26-ultra-pine-tree-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "space"
+    ]
+  },
+  {
+    "id": "e991d522d573",
+    "title": "6 Nintendo Switch Special Editions With the Best Designs, Ranked",
+    "url": "https://www.polygon.com/best-nintendo-switch-special-edition-designs/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T10:00:17Z",
+    "excerpt": "Even when a person already owns a Switch, some of these are attractive enough to make them want to buy another one.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/switch-2-third-party-partner-games-february-direct.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles"
+    ]
+  },
+  {
+    "id": "2c10592d353f",
+    "title": "Light-activated molecules in porous crystals show potential for quantum chemical sensing",
+    "url": "https://phys.org/news/2026-11-molecules-porous-crystals-potential-quantum.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T10:00:01Z",
+    "excerpt": "An international research team led by Nobuhiro Yanai from the University of Tokyo and Michael R. Wasielewski from Northwestern University has created polarized radical pairs, molecules with unpaired electrons whose spins align, in metal–organic frameworks (MOFs), porous materials consisting of metal ions linked by organic molecules.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/one-step-towards-build.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "physics"
+    ]
+  },
+  {
+    "id": "6b70ed548552",
+    "title": "Bitdefender Antivirus Plus Review: Undercutting the Competition",
+    "url": "https://www.wired.com/review/bitdefender-antivirus-plus/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T10:00:00Z",
+    "excerpt": "It’s not promoted very much, but Bitdefender’s stand-alone Antivirus Plus software is both effective and affordable.",
+    "image_url": "https://media.wired.com/photos/6ab18d47c9d4d635b849cb4e/master/pass/Review--Bitdefender-Antivirus-Plus.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "9e74abbd8812",
+    "title": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
+    "url": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T10:00:00Z",
+    "excerpt": "With Hubble expected to reenter the atmosphere by 2034 and several malfunctions on board, NASA is asking commercial space companies for proposals on how to extend the telescope’s lifespan.",
+    "image_url": "https://media.wired.com/photos/6af5dcf2d057d0b5e841ea04/master/pass/27990737266_8b321346a4_o.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "tutorial",
+      "space"
+    ]
+  },
+  {
+    "id": "a01a0df2d7c4",
+    "title": "The Sun unleashed a monster storm. Earth may have made it worse",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
+    "source": "ScienceDaily",
+    "section": "science",
+    "published": "2026-11-13T09:49:36Z",
+    "excerpt": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged particles fueling the disturbance originated from Earth's upper atmosphere rather than the solar wind. Scientists also detected an extraordinary 40% weakening of Ear…",
+    "image_url": "https://www.sciencedaily.com/images/1920/arase-satellite-observing-ring-current-ions.webp",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "physics",
+      "energy"
+    ]
+  },
+  {
+    "id": "c89059263f4b",
+    "title": "Pixel’s November update is breaking AOD, lock screen, and notifications for some users",
+    "url": "https://www.androidauthority.com/pixel-november-2026-update-bugs-3734840/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T09:49:30Z",
+    "excerpt": "Bugs introduced with the November 2026 update continue to pile up for Pixel owners.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/08/google-pixel-10-pro-and-pro-xl-installing-system-update.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "1f55dbb2ec47",
+    "title": "MachineGames has finally officially confirmed that Wolfenstein 3 is in development",
+    "url": "https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-13T09:47:59Z",
+    "excerpt": "The studio's head said last year that it was always supposed to be a trilogy",
+    "image_url": "https://www.videogameschronicle.com/files/2025/09/wolfenstein.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "6eb6cb82e5e6",
+    "title": "vivo X300 Ultra gets new OriginOS 7 update with camera and battery optimizations",
+    "url": "https://www.gsmarena.com/vivo_x300_ultra_china_originos_7_camera_update-news-75467.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T09:46:02Z",
+    "excerpt": "The vivo X300 Ultra, launched with Android 16-based OriginOS 6, is receiving a new OriginOS 7 update based on Android 17. The update is rolling out for the vivo X300 Ultra's Chinese model, and it comes with quite a few camera optimizations. For starters, vivo has redesigned the default Camera app's interface and added a camera toolbox, making features easier to find. vivo X300 Ultra vivo also opti…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-x300-ultra-china-originos-7-camera-update/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "The Chinese variant of the vivo X300 Ultra is receiving the OriginOS 7 update, built on Android 17. The firmware introduces a redesigned default Camera app interface, a new camera toolbox, video brightness stability enhancements, and overall system power consumption optimizations.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "7290327a27ef",
+    "title": "Will GTA 6 break the internet? UK broadband operator braces for impact, saying \"GTA 6 has been on our radar for a long time\"",
+    "url": "https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-13T09:42:40Z",
+    "excerpt": "As Grand Theft Auto 6 breaks pre-order records on the PlayStation and Xbox stores , and looks poised to break many more sales records once it launches next week, questions of whether it will also break the internet arise. Collective network load will undoubtedly spike around its release - will regional infrastructure be able to bear it? Read more",
+    "image_url": "https://assetsio.gnwcdn.com/gta-6-no-internet.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "8fb1076f63f6",
+    "title": "An iconic puzzle comes home as production of the Rubik's Cube returns to Hungary",
+    "url": "https://phys.org/news/2026-11-iconic-puzzle-home-production-rubik.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-13T09:40:13Z",
+    "excerpt": "More than half a century ago, a Hungarian architect, sculptor and professor invented what would become one of the world's most popular and beloved puzzles whose appeal has spanned generations: the colorful, mind-bending, six-sided Rubik's Cube.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hungary-rubik-cube-fac.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2a49581ab205",
+    "title": "Halo: Campaign Evolved is getting its own four-player version of the series' staple Firefight mode, for free, \"this winter\"",
+    "url": "https://www.eurogamer.net/halo-campaign-evovled-firefight-mode",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-13T09:36:20Z",
+    "excerpt": "Last night, Xbox Game Studios and Halo Studios have announced a free update for the recently-released Halo: Campaign Evolved, which promises to add the four-player co-operative PvE mode, Firefight, to the game. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/Campaign-firefight-halo.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "7e0feb27957d",
+    "title": "Is there a 'right amount' of AI?",
+    "url": "https://coyotetracks.org/blog/right-amount-of-ai/",
+    "source": "Hacker News",
+    "section": "gaming",
+    "published": "2026-11-13T09:27:05Z",
+    "image_checked": true,
+    "points": 27,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "The growing prevalence of AI-generated code in software development has sparked debate within creative industries, including independent game development. While some developers utilize AI tools to assist with coding and application building, others face pushback from festival judges over generative AI usage. Critics argue that programming is a creative discipline whose labor requires the same ethical protections extended to traditional game assets.",
+    "tags": [
+      "gaming",
+      "indie"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "20a73bb60cf3",
+    "title": "Massive-scale god sim The Universim gets a big surprise update",
+    "url": "https://www.gamingonlinux.com/2026/11/massive-scale-god-sim-the-universim-gets-a-big-surprise-update/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T09:25:02Z",
+    "excerpt": "Quite a nice surprise, Crytivo actually returned to their original massive-scale god sim The Universim to give it some much needed upgrades. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1063568604id30190gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "a07a63a5a4e4",
+    "title": "Google Messages’ big search redesign is now rolling out to beta testers",
+    "url": "https://www.androidauthority.com/google-messages-search-redesign-beta-rollout-3734872/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T09:20:32Z",
+    "excerpt": "Finding old texts, photos, and links is getting easier.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/google-messages-2026-redesign-search-button-scaled.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7b5cb229ebdd",
+    "title": "How Not to Build a Music Player",
+    "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T09:16:28Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "58cc6104f7f2",
+    "title": "Survival horror Confronted gets a big performance boost ahead of the 1.0 release",
+    "url": "https://www.gamingonlinux.com/2026/11/survival-horror-confronted-gets-a-big-performance-boost-ahead-of-the-1-0-release/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T09:12:57Z",
+    "excerpt": "It's not very well-known but looks worth a go, survival horror Confronted recently had a big performance upgrade to it. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1427877948id30189gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7fba2581dcdf",
+    "title": "The Dawn of the Data Intelligence Engineer",
+    "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T09:08:18Z",
+    "image_url": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/dawn_ticker_b_3a1d920b4d.png",
+    "points": 74,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "The integration of artificial intelligence and autonomous agents into data analytics workflows is transforming traditional data engineering roles. Instead of managing backlogs and routine ticket queues, modern data engineers increasingly focus on validating and overseeing the outputs generated by LLMs. This shift enables organizations to accelerate decision-making processes by automating complex, multi-turn data investigations.",
+    "tags": [
+      "agents",
+      "data"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "272f8a07b93d",
+    "title": "Lenovo Googlebook 15 deal at Best Buy: Gemini, OLED, and your Android apps in one laptop",
+    "url": "https://www.androidauthority.com/lenovo-googlebook-15-best-buy-3734380/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T09:06:56Z",
+    "excerpt": "High-end laptop with easy access to Google's best features.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/Lenovo-Googlebook-15-featured.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "09cff81c311b",
+    "title": "The Pixel Journal app now lets you record and add audio via Recorder",
+    "url": "https://www.androidauthority.com/google-pixel-journal-recorder-app-recording-support-3734817/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-13T09:06:06Z",
+    "excerpt": "The 'Record new audio' button appeared a few days ago, but it wasn't functional at the time. That changes today.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/09/Google-Pixel-10-Pro-XL-pixel-journal.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "0c71b3c03a2b",
+    "title": "5 Sci-Fi Book Trilogies Where Every Entry Is Perfect",
+    "url": "https://www.polygon.com/sci-fi-trilogy-perfect-entries/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T09:00:18Z",
+    "excerpt": "Not all sci-fi trilogies are made equal, as some are impeccable from start to finish.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/aaaaqsvwbmutuyygxfebvcswpskx9vscutyezcvln4bmjy5p2d4pwu51_oflom3na20dbxxonxrs7ee9kr-qdczlqzr0ize-yjcjafijzt4_yyl15aopiprohh05jfdl7plobqbnyjhxiyqv8fy8qlhtl9dn.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "debafc246573",
+    "title": "Podcast: Doing The Right Thing: Accountability In The Age Of AI Coding Summary",
+    "url": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-13T09:00:00Z",
+    "excerpt": "In this podcast, Shane Hastie, Lead Editor for Culture \u0026 Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering roles, and how leaders build a culture of transparency and psychological safety. By Hugo Venturini",
+    "image_url": "https://res.infoq.com/podcasts/accountability-age-ai-coding-summary/en/smallimage/engineering-culture-500-1794303925695.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7614a098bacc",
+    "title": "Agentic search doesn't find pages, it assembles answers",
+    "url": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+    "source": "Stack Overflow Blog",
+    "section": "coding",
+    "published": "2026-11-13T08:40:00Z",
+    "excerpt": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content on the web to deliver high-trust answers.",
+    "image_url": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638\u0026w=1200\u0026h=630\u0026auto=format",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents",
+      "rag"
+    ]
+  },
+  {
+    "id": "8124fb785b96",
+    "title": "Oppo's pocket gimbal camera said to debut this year, wide-foldable also coming soon",
+    "url": "https://www.gsmarena.com/oppos_pocket_gimbal_camera_said_to_debut_this_year_widefoldable_also_coming_soon-news-75466.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T08:37:03Z",
+    "excerpt": "Tipster Digital Chat Station has shared details of several flagship products Oppo is reportedly planning to launch soon. The products will include a pocket gimbal camera, a wide-screen foldable, and a wide candybar flagship with a 16:9 display. According to the leak, Oppo's pocket gimbal camera, reportedly codenamed Fuyao, will debut by the end of the year. Huawei's Pura X Max wide foldable Previo…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/oppo-gimbal-camera-launch-wide-foldable-details/-184x111/gsmarena_00.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "b453410a0cd7",
+    "title": "Unlimited Maid Works is an unusual roguelike about being a maid",
+    "url": "https://www.gamingonlinux.com/2026/11/unlimited-maid-works-is-an-unusual-roguelike-about-being-a-maid/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T08:28:28Z",
+    "excerpt": "Unlimited Maid Works brings the most unusual roguelike where you're a maid, and it actually looks really quite interesting and unique. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/788111358id30188gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "1ac32532d1b3",
+    "title": "Tim Burton's Forgotten Dark Fantasy Magnum Opus Is Officially Free on Youtube",
+    "url": "https://www.polygon.com/corpse-bride-streaming-free-youtube-november-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T08:15:18Z",
+    "excerpt": "Corpse Bride and Wildwood make for a perfect stop-motion double feature",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/tim-burton.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "8dbc9ef35353",
+    "title": "Professor Layton and the New World of Steam arrives December 9 with Steam Deck support",
+    "url": "https://www.gamingonlinux.com/2026/11/professor-layton-and-the-new-world-of-steam-arrives-december-9-with-steam-deck-support/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T08:06:46Z",
+    "excerpt": "For fans of puzzle mystery adventures, Professor Layton and the New World of Steam is set to arrive on December 9th. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/876806029id30187gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "pc-gaming",
+      "gaming"
+    ]
+  },
+  {
+    "id": "b2b22ce75182",
+    "title": "TCP Nagle's Algorithm and Immediate Send: When TCP_NODELAY Matters",
+    "url": "https://dev.to/bar_dror_a3d32cb94b1/tcp-nagles-algorithm-and-immediate-send-when-tcpnodelay-matters-olb",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T08:00:59Z",
+    "excerpt": "Originally published on Code Beneath . TCP Nagle algorithm batches small data segments to reduce network overhead, but it can silently add tens or hundreds of milliseconds of latency to your messages. If you are building a low-latency system, interactive application, or debugging mysterious 40ms delays in your TCP sockets , you need to understand when TCP batching hurts and how to control it with…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnj3try43oodrwgc9mi2d.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "68aed5b126ed",
+    "title": "Netflix's Disappointing New Western Thriller Wastes Its Brilliant Concept",
+    "url": "https://www.polygon.com/heartland-netflix-review/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T08:00:17Z",
+    "excerpt": "Netflix’s Heartland is a western, a noir, and a musical starring Jessica Chastain. It’s also surprisingly predictable.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/_dsc4031_r-1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "11a91c158e17",
+    "title": "Installing the official Claude Desktop Linux beta on Fedora Linux",
+    "url": "https://fedoramagazine.org/installing-the-official-claude-desktop-linux-beta-on-fedora-linux/",
+    "source": "Fedora Magazine",
+    "section": "linux",
+    "published": "2026-11-13T08:00:00Z",
+    "excerpt": "Anthropic ships its Claude Desktop beta for Linux only as a .deb. This article shows how to install that same package on Fedora with a small MIT-licensed script that verifies it first, installs it without root, and removes it cleanly.",
+    "image_url": "https://fedoramagazine.org/wp-content/uploads/2026/11/install_claude_desktop-300x127.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "linux",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "d281023b1c00",
+    "title": "Fenris Creations (EVE Online / EVE Frontier) reveal the open source CORTAO",
+    "url": "https://www.gamingonlinux.com/2026/11/fenris-creations-eve-online-eve-frontier-reveal-the-open-source-cortao/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T07:59:38Z",
+    "excerpt": "After already open sourcing their Carbon engine framework, Fenris Creations (EVE Online / EVE Frontier) revealed a new rendering technique with CORTAO. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/739500658id30186gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "open-source",
+      "climate"
+    ]
+  },
+  {
+    "id": "b9cfa84a470f",
+    "title": "Designing a Thread-Safe, Concurrent Go In-Memory Cache with S3 Loading and Real-Time SNS/SQS Updates",
+    "url": "https://dev.to/viklogix/designing-a-thread-safe-concurrent-go-in-memory-cache-with-s3-loading-and-real-time-snssqs-updates-2mml",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T07:53:30Z",
+    "excerpt": "Architecture Overview and End-to-End Data Flow When bootstrapping a service that must hydrate 30,000 to 50,000 entries from S3 while concurrently ingesting live update events from an SNS/SQS pipeline, your architecture must bridge two distinct operational phases: bulk initialization and continuous real-time synchronization. The end-to-end data flow operates as a dual-input state machine. During st…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fptdpannqqd7k3sg21l2e.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "05cf9eadd6ea",
+    "title": "“From digital mischief to outright destruction”",
+    "url": "https://unsung.aresluna.org/from-digital-mischief-to-outright-destruction",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-13T07:50:10Z",
+    "excerpt": "Comments",
+    "image_url": "https://unsung.aresluna.org/_media/from-digital-mischief-to-outright-destruction/ogimage.jpg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "c63e8462bef7",
+    "title": "SteamOS 3.9.6 Beta brings an improved framerate limiter, various bug fixes",
+    "url": "https://www.gamingonlinux.com/2026/11/steamos-3-9-6-beta-brings-an-improved-framerate-limiter-various-bug-fixes/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-13T07:40:32Z",
+    "excerpt": "SteamOS 3.9.6 Beta is now available for testing bringing improvements to the framerate limiter for VRR and non-VRR and multiple bug fixes. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/articles/tagline_images/75236754id30185gol.webp",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "29f09723bbfb",
+    "title": "Samsung Galaxy A18 5G gets Bluetooth certified",
+    "url": "https://www.gsmarena.com/samsung_galaxy_a18_5g_bluetooth_certified-news-75465.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T07:29:02Z",
+    "excerpt": "Samsung unveiled the Galaxy A18 4G in September. In a few months, it could unveil the Galaxy A18 5G, which has received Bluetooth SIG certification. Samsung Galaxy A18 4G The Samsung Galaxy A18 5G has been listed on Bluetooth SIG's website with seven model codes: SM-A186B, SM-A186B/DS, SM-A186U1, SM-A186U, SM-A186W, SM-A1860, and SM-S186V. These include dual-SIM and US models, among others. Samsun…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-galaxy-a18-5g-bluetooth-certified/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "android",
+      "space"
+    ]
+  },
+  {
+    "id": "b8a50a697735",
+    "title": "26 Years Later, Charles Schulz' Final Comic Strip Is Still an All-Time Peanuts Classic",
+    "url": "https://www.polygon.com/peanuts-final-comic-strip-charlie-brown/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-13T07:23:17Z",
+    "excerpt": "26 Years Later, Charles Schulz' Final Comic Strip Is Still an All-Time Peanuts Classic",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/charlie-brown-011-1024.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2c312ad72d22",
+    "title": "Learning, Building \u0026 Connecting",
+    "url": "https://dev.to/abhisheksingh_pragyadev/learning-building-connecting-3aj9",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T07:06:20Z",
+    "excerpt": "Hello, everyone! I'm a Software Developer passionate about building meaningful solutions through technology. Currently exploring Go, Laravel, AI integration, backend development, and scalable web applications. I'm here to learn, share experiences, exchange ideas, and connect with developers who love building things and solving real-world problems. Looking forward to learning from this community an…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09voilbmcfp4e9uwvgsp.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "4649d6915b56",
+    "title": "Video: Sonic's 'Memories And Beyond' 35th Anniversary Animation Released",
+    "url": "https://www.nintendolife.com/news/2026/11/video-sonics-memories-and-beyond-35th-anniversary-animation-released",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-13T06:55:00Z",
+    "excerpt": "Can Sonic and friends defeat Metal Sonic? Earlier this year, Sega announced a new Sonic the Hedgehog 35th anniversary animation short, titled ' Memories and Beyond '. Now, months on, it's been officially released. It runs for around 13 minutes and has a story by Takashi Iizuka and written by Ian Flynn. It sees Sonic and friends try to stop Dr. Eggman from harnessing the power of the Chaos Emeralds…",
+    "image_url": "https://images.nintendolife.com/a0185025c78db/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "e7898b340228",
+    "title": "Which languages do cybersecurity jobs ask for? 2,053 postings counted",
+    "url": "https://dev.to/cyberjobscc/which-languages-do-cybersecurity-jobs-ask-for-2053-postings-counted-44il",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-13T06:30:06Z",
+    "excerpt": "\"Learn Python\" is the default advice for anyone moving into security. It is right, but it is a quarter of the picture. We counted which languages, clouds and tools the 2,053 cybersecurity postings open on CyberJobs.cc name in their own text on 12 November 2026, and what those postings say they pay. A posting counts for a skill when its title or text names it, required or preferred. One correction…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcyberjobs.cc%2Fopengraph-image",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "id": "a07cedc7ca6c",
+    "title": "Redmi Note 18 series spotted online, charging speed revealed",
+    "url": "https://www.gsmarena.com/redmi_note_18_charging_speed_revealed_via_online_listing-news-75464.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T06:30:02Z",
+    "excerpt": "Although Xiaomi launched the Redmi Note 17 series only a few months ago, the company appears to be gearing up to introduce its successors. A new Redmi smartphone, believed to be part of the upcoming Redmi Note 18 series, has passed China's 3C certification. Tipster Digital Chat Station shared a screenshot on Weibo showing a Xiaomi device carrying the model number M841EE listed on China's 3C certif…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/redmi-note-18-pro-max-3c-certification/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "mobile"
+    ]
+  },
+  {
+    "id": "f2992ef95876",
+    "title": "Global Microsoft Outage",
+    "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-13T06:18:23Z",
+    "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9\u0026q=w_800,c_fill",
+    "points": 210,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "A major technical outage affecting Microsoft services disrupted operations globally, impacting banks, government agencies, airlines, and AI firms across dozens of countries. The incident caused widespread issues with tools like Outlook and Teams, though Microsoft stated that recovery progress was underway and confirmed the disruption was not caused by a security breach.",
+    "tags": [
+      "cloud",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3eb31c5ac615",
+    "title": "Dropbox Shares How Its In-House Cookie Auditor Tests Consent Behaviour Across 200+ Web Surfaces",
+    "url": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-13T06:15:00Z",
+    "excerpt": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy Control signal. Cookie rules are kept outside the code. A companion tool finds live URLs. Weekly reports separate likely violations from false positives. By Daniel Curtis",
+    "image_url": "https://res.infoq.com/news/2026/11/dropbox-cookie-auditor/en/headerimage/generatedHeaderImage-1794331089979.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "1e9f1d85c296",
+    "title": "Instacart Promo Code: $15 Off | November 2026",
+    "url": "https://www.wired.com/story/instacart-promo/code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Find the best Instacart promo code for massive savings in November 2026.",
+    "image_url": "https://media.wired.com/photos/67b63b9079f27a355461c964/master/pass/WIRED-Coupons-R2_2.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "44e918aeb478",
+    "title": "Gametime Promo Code: Save on Tickets in November 2026",
+    "url": "https://www.wired.com/story/gametime-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Grab last-minute seats for less with a verified Gametime discount code for up to 10% off, first-purchase coupons, and lowest price guarantee credits.",
+    "image_url": "https://media.wired.com/photos/67b63b9b7d355db73b38e0c2/master/pass/WIRED-Coupons-R2_11.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "7e111e94a2a8",
+    "title": "LG Promo Codes and Coupons for November 2026",
+    "url": "https://www.wired.com/story/lg-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+    "image_url": "https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "8f3dde9ecd78",
+    "title": "Peacock Promo Codes: 40% Off November 2026",
+    "url": "https://www.wired.com/story/peacock-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+    "image_url": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "9913d9c00ab9",
+    "title": "Logitech Promo Codes and Deals: Up to $100 Off",
+    "url": "https://www.wired.com/story/logitech-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
+    "image_url": "https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "a4ba8b15b76a",
+    "title": "Western Digital Promo Code: 15% Off",
+    "url": "https://www.wired.com/story/western-digital-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Get 15% off your first order at Western Digital when you register your email.",
+    "image_url": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "a84cfaf7b2a5",
+    "title": "Chatbooks Promo Code: 40% Off | November 2026",
+    "url": "https://www.wired.com/story/chatbooks-promo-code/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-13T06:00:00Z",
+    "excerpt": "Keep your memories alive without breaking the bank by using these top Chatbooks coupon codes and saving strategies.",
+    "image_url": "https://media.wired.com/photos/67b63b967f8fc45af4896200/master/pass/WIRED-Coupons-R2_7.png",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "a30e0ab02542",
+    "title": "Microsoft Outlook/365 still down after 12 hours",
+    "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-13T05:08:23Z",
+    "image_url": "https://pbs.twimg.com/profile_images/1040007539088211968/f9H6EzjO_400x400.jpg",
+    "points": 400,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "Microsoft 365 experienced a major outage lasting over 12 hours. The company worked on applying serviceability changes and alternate workstreams to manage traffic imbalances.",
+    "tags": [
+      "cloud",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "44731877b676",
+    "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+    "source": "NASA",
+    "section": "science",
+    "published": "2026-11-13T05:05:00Z",
+    "excerpt": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
+    "image_url": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Andromeda_closeupCruz4096.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "1e6f63bcd1a5",
+    "title": "Huawei Mate X8 now has a rumored launch date",
+    "url": "https://www.gsmarena.com/huawei_mate_x8_now_has_a_rumored_launch_date-news-75463.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-13T05:01:02Z",
+    "excerpt": "Huawei will allegedly launch the Mate X8 on November 24, according to a new rumor out of China. The device will be both thinner and lighter than the Mate X5, Mate X6, and Mate X7, and may be offered in the same colors as the Mate X7 as well as an additional one that will be \"bold and bright\" (machine translated from Chinese). The Mate X8 is said to support the Ruiying Z10 external camera module, w…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/huawei-mate-x8-purported-launch-date/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "fb82519b244e",
+    "title": "A Global Rebound for Mangroves",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+    "source": "NASA",
+    "section": "science",
+    "published": "2026-11-13T05:01:00Z",
+    "excerpt": "After decades of decline, this ecologically significant type of forest is making a comeback.",
+    "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "2e48ac276960",
+    "title": "Rational Use of Time for Social Coordination in Humans and AI",
+    "url": "https://arxiv.org/abs/2611.14766",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14766v1 Announce Type: new Abstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-grained social coordination? And can AI systems do the same, without ``experiencing'' continuous real-time…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "316c48dbc84e",
+    "title": "Guide: Zelda: Ocarina Of Time Walkthrough (Switch 2 Remake): Guide To The Main Quest, Side Quests \u0026 Collectables",
+    "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-walkthrough-switch-2-remake",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "Your companion to a huge adventure. Zelda: Ocarina of Time is a dense adventure with many secrets to find, and while the critical path is fairly linear, it's rarely straightforward - asking you to pick up select items and upgrades before you can start exploring its many dungeons. That's why a Zelda: Ocarina of Time walkthrough comes in handy. Though the Switch 2 version follows the same beats as t…",
+    "image_url": "https://images.nintendolife.com/9fa3a2c73d8a6/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-05T13:55:04.418549833Z",
+    "tags": [
+      "consoles",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "321106c778c8",
+    "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
+    "url": "https://arxiv.org/abs/2611.14794",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14794v1 Announce Type: new Abstract: Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500 subset. Certification raises answer-key-match precision by 31 percentage points on the strong GPQA configuration and 46 on AIME, while answering only 35%…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "math"
+    ]
+  },
+  {
+    "id": "41ea8c0656a4",
+    "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+    "url": "https://arxiv.org/abs/2611.14765",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catal…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "473743245dad",
+    "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+    "url": "https://arxiv.org/abs/2611.14544",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal move is loud. One that yields a legal-but-wrong move is silent, because a legality-only pipeline accepts it and reads ev…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "47fe41e7e65a",
+    "title": "Open Challenges and Opportunities in Human-Agent Systems",
+    "url": "https://arxiv.org/abs/2611.14846",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14846v1 Announce Type: new Abstract: Agentic AI systems increasingly undertake extended tasks and act on people's behalf, making human-agent interaction central to their effectiveness. Successful interaction requires understanding human perspectives, coordinating complementary capabilities, and maintaining productive relationships within socio-technical environments. This paper examines…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "4c55cd6f2635",
+    "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+    "url": "https://arxiv.org/abs/2611.14781",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14781v1 Announce Type: new Abstract: Agents that perform state estimation using pretrained perception models, e.g., Vision-Language Models (VLMs), face the fundamental challenge that predictions are uncertain. Still, most approaches determinize these predictions into a single best-guess state and make decisions as if it were ground truth. This is brittle because when the guess is wrong,…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "511f6df35fdc",
+    "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+    "url": "https://arxiv.org/abs/2611.14654",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move together. We ask whether…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "71e20d332c04",
+    "title": "Together Compiler: Continual Compilation for AI Inference",
+    "url": "https://arxiv.org/abs/2611.14681",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "9d9a277b7af9",
+    "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+    "url": "https://arxiv.org/abs/2611.14769",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14769v1 Announce Type: new Abstract: Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically assess model performance using pairwise comparisons of anonymous models on user prompts, aggregating votes via the Bradley-Terry model to produce the final rank…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "a18fd36573d2",
+    "title": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence \u0026 the Limits of Self-Correction",
+    "url": "https://arxiv.org/abs/2611.14889",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14889v1 Announce Type: new Abstract: When we judge that our reasoning was defective, it seems plausible that we should abandon the conclusion it produced. This thought has special force for AI agents built to assess and correct their own work. Yet obeying such judgments can make an agent worse at distinguishing sound reasoning from defective reasoning. An AI agent may rely on informatio…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "a7b33ce932da",
+    "title": "Effective Teacher Support for Reasoning Distillation",
+    "url": "https://arxiv.org/abs/2611.14850",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14850v1 Announce Type: new Abstract: Forward-KL language-model distillation normally computes dense teacher and student scores over the full vocabulary at every supervised position, making training and stored teacher targets expensive. We instead distill from the teacher's highest-probability vocabulary fraction, renormalizing the retained mass as we sweep support from 100% to 0.01%. Ou…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "ab7dc133c2e9",
+    "title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+    "url": "https://arxiv.org/abs/2611.14910",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14910v1 Announce Type: new Abstract: Large language models (LLMs) require frequent knowledge updates across heterogeneous domains, but existing editing methods fail when applied sequentially to multi-task settings. We trace this collapse to inter-domain null-space misalignment: heterogeneous tasks induce distinct Jacobian geometries, causing their common null space to shrink dramaticall…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm",
+      "space"
+    ]
+  },
+  {
+    "id": "d7968f841683",
+    "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
+    "url": "https://arxiv.org/abs/2611.14804",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14804v1 Announce Type: new Abstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN) classifier with fixed weights. The context contains evaluated designs labeled desired (Class 1) or undesired (Class 0). GenPFN interpolate…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "f34ea820506f",
+    "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+    "url": "https://arxiv.org/abs/2611.14736",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14736v1 Announce Type: new Abstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and invalidate downstream inference. We study three separate decisions: where to allocate semantic queries, which…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "faa25c7a8731",
+    "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+    "url": "https://arxiv.org/abs/2611.14844",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-13T05:00:00Z",
+    "excerpt": "arXiv:2611.14844v1 Announce Type: new Abstract: Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet algorithms rarely state their assumptions, so experts and discovery harnesses search over programs, where one edit changes several design choices and gains a…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "67f14f0f5d8c",
+    "title": "Zelda Ocarina's ReDead Were Set To Be \"Very, Very Scary\" In The Remake, But Nintendo Decided To \"Dial It Back\"",
+    "url": "https://www.nintendolife.com/news/2026/11/zelda-ocarinas-redead-were-set-to-be-very-very-scary-in-the-remake-but-nintendo-decided-to-dial-it-back",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-13T04:55:00Z",
+    "excerpt": "The team maybe went \"a step too far\", according to the producer. Ocarina of Time's Switch 2 remake isn't really a scary game, but there are still some enemies throughout this adventure that may give players a fright. Perhaps the most notable are ReDead , the zombie-like creatures that are difficult to escape when they set their sights on Link. These return in the remake and apparently were even sc…",
+    "image_url": "https://images.nintendolife.com/ef2581fe276ed/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "56889bfca87b",
+    "title": "IceWM",
+    "url": "https://ice-wm.org/",
+    "source": "Hacker News",
+    "section": "linux",
+    "published": "2026-11-13T04:54:53Z",
+    "image_checked": true,
+    "points": 260,
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "summary": "IceWM is a lightweight window manager designed for speed and simplicity within the X Window System. It offers extensive configurability, multiple workspaces, theme support, and compatibility with popular Linux distributions.",
+    "tags": [
+      "linux"
+    ],
+    "enriched": true
+  },
+  {
     "id": "aa6fa98fc578",
     "title": "Children are not colorblind: Why early conversations about race are essential",
     "url": "https://phys.org/news/2026-11-children-colorblind-early-conversations-essential.html",
@@ -358,7 +3239,7 @@
     "section": "tech",
     "published": "2026-11-13T03:14:59Z",
     "image_checked": true,
-    "points": 44,
+    "points": 112,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "The author recounts developing the Thunderscan scanner in 1984 and observing a DOS utility called Memory Shift that allowed rapid application switching. Inspired by this, he considered implementing similar multitasking on the early 512 KB Macintosh, noting the memory constraints and challenges involved.",
@@ -388,7 +3269,7 @@
     "section": "ai",
     "published": "2026-11-13T03:08:08Z",
     "image_url": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
-    "points": 5,
+    "points": 169,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "The Brave Search API has integrated the x402 payment protocol to support instant, pay-as-you-go transactions for autonomous AI agents and developers. Users can programmatically query the search index and settle requests in real time using USDC on the Base blockchain without needing traditional API keys or accounts.",
@@ -416,13 +3297,28 @@
     ]
   },
   {
+    "id": "8178815a0e88",
+    "title": "All your packages are belong to us",
+    "url": "https://changelog.com/podcast/690",
+    "source": "The Changelog",
+    "section": "coding",
+    "published": "2026-11-13T03:00:00Z",
+    "excerpt": "AI agents can write the code, choose the packages, and run the install. Who's checking what they just invited onto your machine? This week I'm joined by Ahmad Nassri, CTO of Socket and former CTO of npm. We get into the trust built into a package install, the new ways attackers are using agents, and what it takes to keep building without handing over the keys or your wallet.",
+    "image_url": "https://cdn.changelog.com/uploads/covers/changelog-interviews-original.png?v=63848368174",
+    "weight": 1,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
     "id": "2ceb4e6e8f21",
     "title": "Round Up: The Reviews Are In For Metaphor: ReFantazio's Switch 2 Port",
     "url": "https://www.nintendolife.com/news/2026/11/round-up-the-reviews-are-in-for-metaphor-refantazios-switch-2-port",
     "source": "Nintendo Life",
     "section": "gaming",
     "published": "2026-11-13T02:55:00Z",
-    "excerpt": "Here's what the critics think. Metaphor: ReFantazio brings more JRPG action to the Switch 2 this week, and the reviews are now rolling in. Starting with our own here on Nintendo Life, we thought it was an extradinary experience, but couldn't look past the poor optimisation in the Switch 2 version. Read the full article on nintendolife.com",
+    "excerpt": "Here's what the critics think. Metaphor: ReFantazio brings more JRPG action to the Switch 2 this week, and the reviews are now rolling in. Starting with our own here on Nintendo Life, we thought this latest Switch 2 port was an extraodinary experience, but couldn't look past the poor optimisation. Read the full article on nintendolife.com",
     "image_url": "https://images.nintendolife.com/7bb185c8284db/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
@@ -524,7 +3420,7 @@
     "section": "tech",
     "published": "2026-11-13T02:16:24Z",
     "image_url": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
-    "points": 242,
+    "points": 698,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "Nvidia employees have launched an internal petition urging the board to reinstate CEO Jensen Huang following his abrupt resignation. Huang stepped down after acknowledging unfaithful behavior amidst multiple reported affairs. The leadership crisis has significantly impacted the company's market value and triggered external regulatory scrutiny.",
@@ -578,7 +3474,7 @@
     "source": "Nintendo Life",
     "section": "gaming",
     "published": "2026-11-13T01:55:00Z",
-    "excerpt": "It's reportedly another DOOM game. id Software, the developer known for FPS hits such as DOOM and Quake , has confirmed it's got a new game in the pipeline. Alongside the news about Wolfenstein 3 , Xbox CEO Asha Sharma revealed how id is also \"working on its next game\" . id Software elaborated on this, mentioning how its next project, led by Hugo Martin, comes from its teams located in Texas and F…",
+    "excerpt": "It's reportedly another DOOM game. id Software, the developer known for FPS hits such as DOOM and Quake , has confirmed it's got a new game in the pipeline. Alongside the Wolfenstein 3 announcement, Xbox CEO Asha Sharma revealed how id is also \"working on its next game\" . id Software shared some additional information, confirming the project is led by Hugo Martin and is being developed by its team…",
     "image_url": "https://images.nintendolife.com/23b2030833a6b/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
@@ -954,6 +3850,48 @@
     ]
   },
   {
+    "id": "46db09ee0cd5",
+    "title": "Chinese graduate students are now choosing to stay closer to home",
+    "url": "https://www.nature.com/articles/d41586-026-03456-7",
+    "source": "Nature News",
+    "section": "science",
+    "published": "2026-11-13T00:00:00Z",
+    "excerpt": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03456-7 Malaysia, Hong Kong and Macau are the new hot destinations for students.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03456-7/d41586-026-03456-7_53907670.png",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "77cd7c5b0ae4",
+    "title": "Accept all changes",
+    "url": "https://www.nature.com/articles/d41586-026-03516-y",
+    "source": "Nature News",
+    "section": "science",
+    "published": "2026-11-13T00:00:00Z",
+    "excerpt": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03516-y It’s the end — or is it?",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03516-y/d41586-026-03516-y_53908114.jpg",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z"
+  },
+  {
+    "id": "c08023a4ef19",
+    "title": "Is the climate totally cooked? What the data say",
+    "url": "https://www.nature.com/articles/d41586-026-03716-6",
+    "source": "Nature News",
+    "section": "science",
+    "published": "2026-11-13T00:00:00Z",
+    "excerpt": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03716-6 In the first of our new podcast series, a Nature reporter looks for reasons for hope in the face of overwhelming climate anxiety.",
+    "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03716-6/d41586-026-03716-6_53974406.png",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-13T13:51:07.953767193Z",
+    "tags": [
+      "climate"
+    ]
+  },
+  {
     "id": "d1625d978f26",
     "title": "Siri AI Coming to Older Apple TV 4K Models in tvOS 27.2.1",
     "url": "https://www.macrumors.com/2026/11/12/siri-ai-tvos-27-2-1/",
@@ -1083,7 +4021,7 @@
     "source": "The Verge",
     "section": "tech",
     "published": "2026-11-12T23:24:13Z",
-    "excerpt": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]",
+    "excerpt": "Microsoft Outlook continues to be unavailable for people, businesses, and public services across the globe, leaving people unable to access their email, either through the web or apps. Reports around the issue starting rolling in at around 1PM ET on Thursday, with Microsoft since confirming that the outage is impacting Microsoft 365 features that interact […]",
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-2.01.16-PM.jpg?quality=90\u0026strip=all\u0026crop=0,17.193583031279,100,65.612833937441",
     "image_checked": true,
     "weight": 1,
@@ -1114,7 +4052,7 @@
     "section": "ai",
     "published": "2026-11-12T23:06:17Z",
     "image_url": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
-    "points": 136,
+    "points": 289,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "Researchers have open-sourced Edge0-145B, claiming it is the first open-source on-device artificial intelligence model with 145 billion parameters. Designed to run locally on personal computers, the model delivers reasoning, coding, and agent capabilities comparable to cloud-based systems. The release includes the complete inference framework and deployment tools to help developers run and fine-tune the software locally.",
@@ -1625,7 +4563,7 @@
   },
   {
     "id": "4119d5e9e268",
-    "title": "Xbox Adds 21 More Original Xbox Games To Backwards Compatibility Program And Over Half Of Them Are Star Wars And Over Half Of Them Are Star Wars",
+    "title": "Xbox Adds 21 More Original Xbox Games To Backwards Compatibility Program And Over Half Of Them Are Star Wars",
     "url": "https://kotaku.com/xbox-releases-21-more-original-xbox-games-on-pc-and-over-half-of-them-are-star-wars-2000756360",
     "source": "Kotaku",
     "section": "gaming",
@@ -1663,7 +4601,7 @@
     "section": "ai",
     "published": "2026-11-12T21:56:11Z",
     "image_url": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
-    "points": 221,
+    "points": 319,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "A forensic analysis of publicly released AI models indicates that several prominent Chinese laboratories have gained access to restricted NVIDIA Blackwell GPUs. Researchers identified numerical patterns matching Blackwell hardware in models from developers like DeepSeek, Moonshot AI, MiniMax, and Ant Group. While these findings demonstrate the use of advanced hardware for training, they do not establish the physical location of the chips or how access was achieved.",
@@ -1846,13 +4784,19 @@
     "title": "Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech",
     "url": "https://github.com/KoljaB/RealtimeVAD",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "coding",
     "published": "2026-11-12T21:30:57Z",
     "image_url": "https://opengraph.githubassets.com/02d980f5f075e5d88e3c39a810eef7a7f1a14c662c59724e4fa4dfa263ee5dee/KoljaB/RealtimeVAD",
     "image_checked": true,
-    "points": 7,
+    "points": 27,
     "weight": 1,
-    "first_seen": "2026-11-13T04:50:00.334658208Z"
+    "first_seen": "2026-11-13T04:50:00.334658208Z",
+    "summary": "RealtimeVAD is an open-source voice activity detector designed to reduce latency in voice assistants by identifying the end of speech faster than existing solutions. By combining primary models with secondary audio-level checks, it triggers pause and end events more quickly. The tool runs on a single CPU thread and requires minimal dependencies.",
+    "tags": [
+      "devtools",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "a1a393e3eb91",
@@ -1990,7 +4934,7 @@
     "section": "coding",
     "published": "2026-11-12T21:13:26Z",
     "image_url": "https://developer.apple.com/news/images/og/foundation-models-framework-og.png",
-    "points": 166,
+    "points": 231,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "summary": "The Foundation Models framework provides a Swift API for integrating large language models into applications, supporting both on-device Apple models and cloud-based alternatives like Claude and Gemini. It features multimodal capabilities, tool calling, and structured evaluation tools for developers. Additionally, dynamic profiles allow applications to modify model behavior on the fly within a single continuous session.",
@@ -2465,7 +5409,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-12T19:51:33Z",
-    "points": 155,
+    "points": 336,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "enriched": true,
@@ -2852,7 +5796,7 @@
     "published": "2026-11-12T19:05:33Z",
     "image_url": "https://th-thumbnailer.cdn-si-edu.com/4eu4Cs6lY_bS29DXaQHZWCxQBrs=/fit-in/1600x0/filters:focal(1024x770:1025x771)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ab/21/ab21fe86-4d88-46f9-bcc2-d385adaa2ceb/noirlab2626c.jpg",
     "image_checked": true,
-    "points": 229,
+    "points": 336,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Astronomers analyzing data from the Vera C. Rubin Observatory have identified a new dwarf planet candidate designated 2026 ED138. The celestial body takes approximately 280 years to complete an orbit around the sun on an inclined plane, likely influenced by Neptune's gravitational pull. Researchers verified the object using historical sky archives dating back decades.",
@@ -3207,7 +6151,7 @@
     "published": "2026-11-12T18:52:01Z",
     "image_url": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
     "image_checked": true,
-    "points": 350,
+    "points": 448,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Google has introduced Gemini 4 Hydrogen alongside an Orchestrator model selection option in Antigravity to optimize long-horizon engineering tasks. Orchestrator dynamically routes tasks between Gemini 4 Carbon and Hydrogen to balance execution speed, resource efficiency, and task success. This bidirectional approach allows developers to handle routine debugging with a faster model while reserving powerful frontier reasoning models for complex refactors.",
@@ -3298,6 +6242,8 @@
     "section": "tutorials",
     "published": "2026-11-12T18:46:02Z",
     "excerpt": "LLM inference is the work of running a trained model on a new prompt to produce an answer, as opposed to training the model. It runs in two phases: prefill reads the whole prompt and sets how long the user waits for the first token, then decode writes the answer one token at a time and sets how fast it streams. Most product teams first meet LLM inference as an API call, and the decisions that matt…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2f58p672ukggvy3thfuh.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "tags": [
@@ -3428,7 +6374,7 @@
     "section": "coding",
     "published": "2026-11-12T18:39:05Z",
     "image_url": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
-    "points": 526,
+    "points": 758,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "The Rust team has announced the release of version 1.100.0, introducing several key improvements and updates to the programming language and its package manager. Most notably, this release officially stabilizes the never type after years of development and planning. Additionally, the update modifies Infallible to be an alias for the never type, while implementing minor breaking changes regarding type fallbacks.",
@@ -3461,6 +6407,8 @@
     "section": "tutorials",
     "published": "2026-11-12T18:38:03Z",
     "excerpt": "Palantir's AIP (Artificial Intelligence Platform) now lets you query Snowflake data warehouses in plain English, without writing a single line of SQL. The headline insight: this isn't just a chatbot bolted onto a database — it's a deeply integrated reasoning layer that understands your schema, respects row-level permissions, and generates executable queries on the fly. How it works AIP connects to…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fruehi1qs808qi6yw83pz.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "tags": [
@@ -3628,7 +6576,7 @@
     "published": "2026-11-12T18:22:22Z",
     "image_url": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
     "image_checked": true,
-    "points": 157,
+    "points": 216,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "The author describes discovering a 22‑year‑old type‑confusion vulnerability in PostgreSQL core that enables reliable remote code execution. The investigation began with an exploit in the pg_clickhouse extension and, aided by an AI agent, led to deeper analysis of PostgreSQL’s internal type handling.",
@@ -3663,7 +6611,7 @@
     "section": "tech",
     "published": "2026-11-12T18:20:48Z",
     "image_checked": true,
-    "points": 637,
+    "points": 1036,
     "weight": 1,
     "first_seen": "2026-11-13T04:50:00.334658208Z",
     "enriched": true
@@ -3780,7 +6728,7 @@
     "published": "2026-11-12T18:15:48Z",
     "image_url": "https://opengraph.githubassets.com/8edc4d71417412b52a1d45f9647e588bdb5ec0ce6a002237e7a0fa4369c8c934/Parcha-ai/agentrun",
     "image_checked": true,
-    "points": 88,
+    "points": 120,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "AgentRun is an open‑source platform that enhances AI agents with self‑improvement, persistent state, and token‑efficient execution. It integrates with various model providers, offers a control plane for monitoring, and supports custom sandbox environments, aiming to reduce costs and increase reliability of agent workflows.",
@@ -3861,7 +6809,7 @@
     "section": "ai",
     "published": "2026-11-12T18:01:48Z",
     "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
-    "points": 492,
+    "points": 548,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Google has announced Gemini 4 Hydrogen, a new artificial intelligence model designed for rapid execution and everyday developer and agentic workflows. The release introduces multi-model orchestration features to optimize performance and reduce token costs across complex engineering tasks.",
@@ -4557,7 +7505,7 @@
     "section": "coding",
     "published": "2026-11-12T17:02:42Z",
     "image_url": "https://opengraph.githubassets.com/c43f6d883467380daea6e5bc7f844fc24c61d6736391fd1e1171baf1023690c8/simpsoka/zigzag",
-    "points": 401,
+    "points": 601,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "ZigZag is an open‑source embroidery editor written in Rust that supports a Model Context Protocol for AI agents to generate and edit designs. It offers SVG import, various stitch formats, and a GUI with Bluetooth support for Brother machines.",
@@ -4718,16 +7666,19 @@
     "title": "AWS Lambda Web Functions keep billing memory ~7 minutes after the last request",
     "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "tech",
     "published": "2026-11-12T16:59:26Z",
     "image_url": "https://www.easel.sh/og/blog/lambda-web-functions-idle-memory",
     "image_checked": true,
     "points": 72,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
+    "summary": "An evaluation of AWS Lambda Web Functions reveals that memory continues to be billed for five to seven minutes after the last request finishes. For applications with unpredictable or sparse traffic, these idle charges significantly increase overall compute costs. Consequently, the affected development team opted to migrate their workloads to self-hosted infrastructure.",
     "tags": [
-      "cloud"
-    ]
+      "cloud",
+      "devtools"
+    ],
+    "enriched": true
   },
   {
     "id": "fba468cc5c57",
@@ -5634,7 +8585,7 @@
     "section": "tech",
     "published": "2026-11-12T15:25:52Z",
     "image_url": "https://opengraph.githubassets.com/4f204cd0b69eafce9f0e7516ae2255917a3cafcc40924448a308f28b661fcf2c/chocoford/ExcalidrawZ",
-    "points": 115,
+    "points": 124,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "ExcalidrawZ brings the popular drawing canvas to macOS and iOS using SwiftUI. The native client adds features such as local file management, iCloud sync, file history, and integrated AI tools.",
@@ -5652,7 +8603,7 @@
     "section": "ai",
     "published": "2026-11-12T15:23:10Z",
     "image_url": "https://opengraph.githubassets.com/28454ba59c707ea6446b593b4c871927c16496cabddb71d44e609caf184d981d/hyperionaidev/smolmaxxing",
-    "points": 305,
+    "points": 408,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "A developer demonstrates methods for running large language models on low-power, resource-constrained hardware such as old TV boxes and vintage tablets. By utilizing custom memory management, expert paging, and optimized kernels, these devices can execute various model sizes locally. The project highlights practical approaches to squeezing performance out of idle consumer electronics.",
@@ -6075,9 +9026,8 @@
     "image_url": "https://www.gamingonlinux.com/uploads/tagline_gallery/nvidia-logo.jpg",
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
-    "tags": [
-      "chips"
-    ]
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "7ecc7ad3f521",
@@ -6200,7 +9150,7 @@
     "section": "gaming",
     "published": "2026-11-12T14:18:49Z",
     "image_url": "https://media.moddb.com/images/downloads/1/322/321570/moddb-release-0.14.1-awakening-p.jpg",
-    "points": 251,
+    "points": 286,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Modders have completed and released an abandoned expansion for Quake 4 under the title openQ4: Awakening Edition. The release integrates the recovered campaign alongside the original game, featuring modern rendering improvements like Vulkan support on Windows and stable shadow mapping. It also introduces smarter bots and an experimental mobile application.",
@@ -6301,7 +9251,7 @@
     "section": "tech",
     "published": "2026-11-12T14:12:37Z",
     "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/AdyPoLBp4No",
-    "points": 204,
+    "points": 228,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "AMD architect Mike Clark discusses Zen 6 and Zen 6c, explaining the high‑frequency and dense core designs, larger L3 cache, and changes to vector and floating‑point schedulers to improve IPC while keeping software compatibility with Zen 5.",
@@ -6319,7 +9269,7 @@
     "section": "ai",
     "published": "2026-11-12T14:11:58Z",
     "image_url": "https://libreagi.com/og.png",
-    "points": 137,
+    "points": 149,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Libreagi offers a public catalog of open‑source AI models in various formats, each verified against source commits and licensed under permissive terms. The service aims to preserve model availability and encourages community participation via an IRC channel. It emphasizes transparency and reproducibility for the open‑source AI ecosystem.",
@@ -6372,7 +9322,7 @@
     "section": "coding",
     "published": "2026-11-12T14:05:28Z",
     "image_url": "https://blog.janestreet.com/static/img/header.png",
-    "points": 191,
+    "points": 229,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Jane Street says its software engineering interview format remains largely unchanged, but the company is experimenting with new rounds that emphasize higher‑level design, code verification and the use of large language models. Traditional coding problems will still be offered without LLM assistance. Candidates are not required to have extensive experience with AI tools, only to understand their strengths and limitations.",
@@ -6701,7 +9651,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-12T13:52:29Z",
-    "points": 3165,
+    "points": 3720,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "enriched": true,
@@ -6757,6 +9707,8 @@
     "section": "tech",
     "published": "2026-11-12T13:26:25Z",
     "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-613254398.jpg?resize=1200,800",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "tags": [
@@ -7140,7 +10092,7 @@
     "section": "ai",
     "published": "2026-11-12T11:46:41Z",
     "image_url": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
-    "points": 862,
+    "points": 966,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Anthropic has released its public financial highlights and regulatory documents for an upcoming initial public offering. The data outlines substantial year-over-year revenue growth driven by enterprise adoption of its Claude models and AI agent tools.",
@@ -7399,7 +10351,7 @@
     "section": "science",
     "published": "2026-11-12T10:46:20Z",
     "image_url": "https://www.curtin.edu.au/news/wp-content/uploads/2026/11/for-web-LPT_HD_Still_3.png",
-    "points": 123,
+    "points": 132,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Astronomers have discovered a rare stellar system featuring a white dwarf orbiting a Sun-like star while emitting periodic radio signals every eight minutes. This long-period transient challenges existing theories because it is the first time such pulses have been definitively linked to a white dwarf in a non-red-dwarf pairing. Researchers used multiple telescopes and supercomputing resources to track the white dwarf's orbit and detect stellar flares on its companion.",
@@ -7418,6 +10370,8 @@
     "section": "linux",
     "published": "2026-11-12T10:41:45Z",
     "excerpt": "The Linux kernel already has network drivers for the AMD Pensando networking hardware while coming for Linux 7.5 is an Ionic HWMON driver to support hardware monitoring with temperature, voltage, and power monitoring for this high-end networking gear...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=amd_pensando",
+    "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "tags": [
@@ -9484,13 +12438,19 @@
     "title": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp",
     "url": "https://github.com/jjba23/sift",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "coding",
     "published": "2026-11-11T23:09:27Z",
     "image_url": "https://opengraph.githubassets.com/c6279f9a55d35690abd1695aea3a7c0e750504aa9c140cb1808ff5e730575558/jjba23/sift",
     "image_checked": true,
-    "points": 31,
+    "points": 71,
     "weight": 1,
-    "first_seen": "2026-11-13T04:50:00.334658208Z"
+    "first_seen": "2026-11-13T04:50:00.334658208Z",
+    "summary": "Sift is a new rule-based linter, idempotent formatter, and language server supporting Scheme, Emacs Lisp, and Common Lisp. It performs lossless text rewriting while preserving comments and formatting structures. The tool is implemented in Guile and can be integrated into various text editors and development pipelines.",
+    "tags": [
+      "devtools",
+      "open-source"
+    ],
+    "enriched": true
   },
   {
     "id": "7d083511db3c",
@@ -9799,13 +12759,19 @@
     "title": "Words of warning about radiocarbon dating medieval human bones",
     "url": "https://www.nature.com/articles/s40494-026-02958-x",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "science",
     "published": "2026-11-11T22:18:37Z",
     "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs40494-026-02958-x/MediaObjects/40494_2026_2958_Fig1_HTML.png",
     "image_checked": true,
     "points": 62,
     "weight": 1,
-    "first_seen": "2026-11-13T04:50:00.334658208Z"
+    "first_seen": "2026-11-13T04:50:00.334658208Z",
+    "summary": "Researchers have highlighted potential inaccuracies in radiocarbon dating medieval human skeletal remains due to the aquatic reservoir effect. An analysis of 27 burials from Danish monasteries revealed elevated nitrogen-15 isotopes caused by a heavy diet of freshwater fish. This dietary effect can make bone samples appear significantly older than their actual historical age.",
+    "tags": [
+      "biology",
+      "health"
+    ],
+    "enriched": true
   },
   {
     "id": "c09ad6310790",
@@ -10278,7 +13244,7 @@
     "section": "coding",
     "published": "2026-11-11T21:20:01Z",
     "image_checked": true,
-    "points": 138,
+    "points": 169,
     "weight": 1,
     "first_seen": "2026-11-12T19:28:30.477293549Z",
     "summary": "Relax is a new JIT compiler and runtime for Rust designed to speed up the development cycle by running code directly from source without using rustc, LLVM, or external linkers. It compiles functions on demand and patches edits into active processes while preserving application state. Tradeoffs include increased memory usage and slightly slower runtime performance compared to release builds.",
@@ -61705,22 +64671,6 @@
     "first_seen": "2026-11-05T13:55:04.418549833Z",
     "tags": [
       "llm"
-    ]
-  },
-  {
-    "id": "316c48dbc84e",
-    "title": "Guide: Zelda: Ocarina Of Time Walkthrough (Switch 2 Remake): Guide To The Main Quest, Side Quests \u0026 Collectables",
-    "url": "https://www.nintendolife.com/guides/zelda-ocarina-of-time-walkthrough-switch-2-remake",
-    "source": "Nintendo Life",
-    "section": "gaming",
-    "published": "2026-11-05T05:00:00Z",
-    "excerpt": "Your companion to a huge adventure. Zelda: Ocarina of Time is a dense adventure with many secrets to find, and while the critical path is fairly linear, it's rarely straightforward - asking you to pick up select items and upgrades before you can start exploring its many dungeons. That's why a Zelda: Ocarina of Time walkthrough comes in handy. Though the Switch 2 version follows the same beats as t…",
-    "image_url": "https://images.nintendolife.com/9fa3a2c73d8a6/large.jpg",
-    "weight": 0.8,
-    "first_seen": "2026-11-05T13:55:04.418549833Z",
-    "tags": [
-      "consoles",
-      "tutorial"
     ]
   },
   {
