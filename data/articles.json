@@ -1,5 +1,1371 @@
 [
   {
+    "id": "99432eb90e91",
+    "title": "GTA 6 Riata locations: How to restore the second car for Wyman",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-22T13:48:06Z",
+    "excerpt": "Fix the '70 Riata by tracking down some wrecked cars.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/UDuySb62PjV6diMhaDehpm-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "This guide details the locations needed to track down and restore classic vehicles for Wyman in GTA 6. Players must scan three specific Riatas scattered across different areas of the map using an in-game app. After covering the labor costs, players can collect the fully restored car from the designated scrapyard.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3720e7e3f7c8",
+    "title": "Blackberry releases secure browser for Windows",
+    "url": "https://www.blackberry.com/en/secure-communications/insights/blog/introducing-blackberry-access-secure-browser-windows",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-22T13:46:12Z",
+    "image_url": "https://assets.blackberry.com/f/286245462458556/1024x768/ffcbfa83f9/blackerry-access.webp",
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "BlackBerry has launched a secure browser for Windows built on Chromium, aiming to provide data protection for enterprise environments without requiring full device management. The tool addresses the security challenges of unmanaged personal computers and contractors by governing only the browser window where work occurs. This approach allows organizations to secure corporate data on personal hardware without deploying intrusive monitoring agents.",
+    "tags": [
+      "security",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "502f9e5b7d72",
+    "title": "Waterfox does everything Firefox can, but with even less bloat",
+    "url": "https://www.androidpolice.com/waterfox-features-privacy-less-ai-firefox-android-browser/",
+    "source": "Android Police",
+    "section": "tech",
+    "published": "2026-11-22T13:45:10Z",
+    "excerpt": "I installed Waterfox as an alternative to Firefox. I'm now using Waterfox as my full-time Android browser.",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/11/waterfox-android-app-on-google-play-on-nothing-phone.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Waterfox is a web browser built on the Gecko engine that offers a privacy-focused alternative to Firefox. It removes built-in artificial intelligence features and telemetry while maintaining support for standard Mozilla extensions and account synchronization. The browser also features enhanced DNS encryption and default privacy protections.",
+    "tags": [
+      "mobile",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "74b91c60c1d0",
+    "title": "Claw-Eval on Hugging Face: The Top 7 Rows Are All Model-Card Reports, and 0 of 22 Rows Are Verified",
+    "url": "https://dev.to/ward_ed_6b5e6aa8ded94a987/claw-eval-on-hugging-face-the-top-7-rows-are-all-model-card-reports-and-0-of-22-rows-are-verified-3cgg",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:43:47Z",
+    "excerpt": "TL;DR: The official Claw-Eval board on Hugging Face ( claw-eval/Claw-Eval ) lists 22 rows. On Nov 22, 2026, 0 of 22 are marked verified and 18 come from open pull requests. The top 7 rows (66.5 to 81.4) all cite a model card, which means the vendor's own report. The best row that cites the benchmark's own leaderboard site is rank 8, at 64.0. One vendor family holds 6 of the top 10 rows. The board…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fquickchart.io%2Fchart%3Fw%3D1000%26h%3D420%26bkg%3Dwhite%26c%3D%257B%2522type%2522%253A%2522bar%2522%252C%2522data%2522%253A%257B%2522labels%2522%253A%255B%25221%2522%252C%25222%2522%252C%25223%2522%252C%25224%2522%252C%25225%2522%252C%25226%2522%252C%25227%2522%252C%25228%2522%252C%25229%2522%252C%252210%2522%252C%252211%2522%252C%252212%2522%252C%252213%2522%252C%252214%2522%252C%252215%2522%252C%252216%2522%252C%252217%2522%252C%252218%2522%252C%252219%2522%252C%252220%2522%252C%252221%2522%252C%252222%2522%255D%252C%2522datasets%2522%253A%255B%257B%2522label%2522%253A%2522x%2522%252C%2522data%2522%253A%255B81.4%252C77.1%252C74.5%252C73.4%252C72.5%252C69.8%252C66.5%252C64%252C63.82%252C63.1%252C62.7%252C62.7%252C62.1%252C61.5%252C58.4%252C58.2%252C57.8%252C57.8%252C57.7%252C52.8%252C49.7%252C6.8%255D%252C%2522backgroundColor%2522%253A%255B%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%2523a0aec0%2522%252C%2522%25232b6cb0%2522%252C%2522%25232b6cb0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%25232b6cb0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%25232b6cb0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%252C%2522%2523a0aec0%2522%255D%257D%255D%257D%252C%2522options%2522%253A%257B%2522title%2522%253A%257B%2522display%2522%253Atrue%252C%2522text%2522%253A%2522Claw-Eval%2520board%2520JSON%252C%2520Nov%252022%252C%25202026%253A%252022%2520rows%252C%25200%2520verified%2520%2528blue%2520%253D%2520model-card%2520source%252C%2520grey%2520%253D%2520benchmark%2520site%2520source%2529%2522%252C%2522fontSize%2522%253A12%257D%252C%2522legend%2522%253A%257B%2522display%2522%253Afalse%257D%252C%2522scales%2522%253A%257B%2522xAxes%2522%253A%255B%257B%2522scaleLabel%2522%253A%257B%2522display%2522%253Atrue%252C%2522labelString%2522%253A%2522board%2520rank%2522%257D%257D%255D%252C%2522yAxes%2522%253A%255B%257B%2522ticks%2522%253A%257B%2522min%2522%253A0%252C%2522max%2522%253A100%257D%252C%2522scaleLabel%2522%253A%257B%2522display%2522%253Atrue%252C%2522labelString%2522%253A%2522score%252C%2520%2525%2522%257D%257D%255D%257D%257D%257D",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "ba0de2ca8869",
+    "title": "Your agent now runs in 5.4 GB of RAM — your guardrails should be just as small",
+    "url": "https://dev.to/nexusfoundry/your-agent-now-runs-in-54-gb-of-ram-your-guardrails-should-be-just-as-small-932",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:36:56Z",
+    "excerpt": "HN is climbing on \"Inkling-2-Mini in 5.4 GB Memory\" — a quantized local model you can run on a laptop, no datacenter required. The frontier keeps sliding toward the edge: smaller models, cheaper inference, agents that live on your machine instead of someone else's API bill. That shifts the security question. Most agent-guardrail advice assumes a hosted model behind an API key. Local agents break t…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyu2v4210oe967y4zkr6v.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "a7c0f441bc4c",
+    "title": "MCP token prices: why agents burn your budget",
+    "url": "https://dev.to/altrouter/mcp-token-prices-why-agents-burn-your-budget-197m",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:35:46Z",
+    "excerpt": "The local agent is built and ready. You connect it to the file system and the browser. You also plug in a database. A simple task runs. The agent takes fifteen steps and delivers the result. The API bill arrives later. The total is three times higher than expected. The model barely even called the tools. Connecting a typical stack of four MCP servers adds tens of thousands of overhead tokens to ev…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F796vtt9e4z1xm4t6tl55.webp",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents",
+      "web"
+    ]
+  },
+  {
+    "id": "e2a15fe4135d",
+    "title": "GTA 6 at 60fps is actually possible thanks to an Xbox Series X glitch",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-is-actually-possible-thanks-to-an-xbox-series-x-glitch-but-you-might-need-to-stomach-double-speed-animations-too/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-22T13:32:23Z",
+    "excerpt": "Give and take",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/igwCMw9CEsQDbWE7Waxm6G-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "84b70cbbcd8c",
+    "title": "A symlink is not code: refusing a tree entry before reading its bytes",
+    "url": "https://dev.to/polycratia/a-symlink-is-not-code-refusing-a-tree-entry-before-reading-its-bytes-2p65",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:26:57Z",
+    "excerpt": "A tool that verifies quoted code against a repository has to read bytes at a commit and compare them with the block printed in the prose. Not every path at a commit holds bytes that are code. A symlink entry holds a target path. A submodule entry names a commit that belongs to another repository, one the clone may not even have. Read either and compare it with a quoted block, and you get a confide…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw8meg24hngpjhgkql1we.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "d8049f1b4011",
+    "title": "TCL TAB A1 Plus NXTPAPER hits a record low for Black Friday",
+    "url": "https://www.androidauthority.com/tcl-tab-a1-plus-nxtpaper-black-friday-deal-3737817/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-22T13:25:47Z",
+    "excerpt": "Save $90 on TCL's 12.2-inch paper-like tablet, now $20 below the previous best price on Amazon.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/TCL-Tab-A1-Plus-NXTPAPER-Featured.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "0df07a492298",
+    "title": "Grand Theft Auto 6 has a 'complex drug network' that tracks everything from where drugs come from to 'how they eventually reach the street-level buyer'",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-has-a-complex-drug-network-that-tracks-everything-from-where-drugs-come-from-to-how-they-eventually-reach-the-street-level-buyer/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-22T13:25:42Z",
+    "excerpt": "\"Having that structure in the background as something we consistently refer to helps everything feel more real.\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/s8f7vCvwQwKdVpYM98hjNQ-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "5a6f117c61a2",
+    "title": "SenseNova-Loop-9B runs 32 layers 56 times: what that does to the KV cache, and what the 9B and 14.6B figures mean",
+    "url": "https://dev.to/ai_maya_063fc568e157562fd/sensenova-loop-9b-runs-32-layers-56-times-what-that-does-to-the-kv-cache-and-what-the-9b-and-2lle",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:23:33Z",
+    "excerpt": "TL;DR SenseNova-Loop-9B was released on Hugging Face on November 17, 2026 under Apache 2.0. It stores about 9.66B parameters, but it executes 56 decoder layers per forward pass from only 32 distinct layers, which the card says is about 14.6B inference-equivalent parameters. The loop is cheap in weights and not free in compute. Per token you do roughly 1.5 times the work the stored size suggests, s…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fquickchart.io%2Fchart%3Fw%3D1000%26h%3D420%26bkg%3Dwhite%26c%3D%257B%2522type%2522%253A%2522bar%2522%252C%2522data%2522%253A%257B%2522labels%2522%253A%255B%2522All%252032%2520layers%2520full%2520attention%2522%252C%252214%2520full-attn%2520executions%2520%2528per-pass%2520cache%2529%2522%252C%25228%2520full-attn%2520layers%2520%2528shared%2520cache%2529%2522%255D%252C%2522datasets%2522%253A%255B%257B%2522label%2522%253A%2522GB%2522%252C%2522data%2522%253A%255B34.4%252C15.0%252C8.6%255D%252C%2522backgroundColor%2522%253A%255B%2522%2523e45756%2522%252C%2522%2523f58518%2522%252C%2522%25234c78a8%2522%255D%257D%255D%257D%252C%2522options%2522%253A%257B%2522title%2522%253A%257B%2522display%2522%253Atrue%252C%2522text%2522%253A%2522KV%2520cache%2520at%2520256K%2520tokens%252C%2520BF16%2520%2528my%2520arithmetic%252C%2520GB%2529%2522%252C%2522fontSize%2522%253A18%257D%252C%2522legend%2522%253A%257B%2522display%2522%253Afalse%257D%252C%2522scales%2522%253A%257B%2522yAxes%2522%253A%255B%257B%2522ticks%2522%253A%257B%2522beginAtZero%2522%253Atrue%257D%252C%2522scaleLabel%2522%253A%257B%2522display%2522%253Atrue%252C%2522labelString%2522%253A%2522GB%2522%257D%257D%255D%257D%252C%2522plugins%2522%253A%257B%2522datalabels%2522%253A%257B%2522anchor%2522%253A%2522end%2522%252C%2522align%2522%253A%2522top%2522%252C%2522font%2522%253A%257B%2522weight%2522%253A%2522bold%2522%257D%257D%257D%257D%257D",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "a7695cee8cd4",
+    "title": "South Korea education minister resigns over exam cheating scandal",
+    "url": "https://www.bbc.com/news/articles/cw3dgk29d37no",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T13:19:47Z",
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "b6e228220b94",
+    "title": "Binding of Isaac dev pulls AI-generated music from Repentance+ after players expose it",
+    "url": "https://www.eurogamer.net/binding-of-isaac-repentance-plus-ai-music-removed",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-22T13:19:20Z",
+    "excerpt": "Nicalis has removed AI-generated music from The Binding of Isaac : Repentance+ after players discovered it in the game's latest update, prompting a wave of negative reviews on Steam. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/sc8p6p.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "pc-gaming",
+      "prompting",
+      "gaming"
+    ]
+  },
+  {
+    "id": "c6910358cea9",
+    "title": "How Tamagotchis got us hooked on digital pets",
+    "url": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-22T13:15:27Z",
+    "excerpt": "If you were are a kid in the late 1990s, there's a near-100 percent chance you either had a Tamagotchi or knew someone who did. The tiny digital pets came out of nowhere and became an overnight sensation, as millions of kids signed up to parent a crying, hungry, constantly dirty creature. Until they went […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRH_Tamagotchi_Site.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "207d77e535fc",
+    "title": "CachyOS November 2026 Release Adds Easy Anti-Cheat Support, Recovery Tool",
+    "url": "https://linuxiac.com/cachyos-november-2026-release-adds-easy-anti-cheat-support/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-22T13:15:16Z",
+    "excerpt": "CachyOS November 2026 adds Easy Anti-Cheat support, a revamped package installer, and a new recovery environment for broken systems.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/cachyos-nov-2026-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "CachyOS has released its November 2026 update, introducing a dedicated opt-in kernel to support Easy Anti-Cheat Linux v2 alongside strict security requirements. The update also features a redesigned package installer with enhanced AUR and Flatpak management, a new built-in recovery environment, and improved GPU startup handling. Additionally, the release brings updated hardware support, bug fixes, and general system improvements across its distribution architecture.",
+    "tags": [
+      "linux",
+      "gaming",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "fa1504e9c2a6",
+    "title": "CachyOS November 2026 Released With EAC Linux v2 Support, New Recovery Tool",
+    "url": "https://www.phoronix.com/news/CachyOS-November-2026",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T13:15:03Z",
+    "excerpt": "The latest ISO refresh for the Arch Linux powered CachyOS distribution is now available...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=cachyos_november",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The November 2026 ISO for the Arch‑based CachyOS distro adds a GUI package installer, Easy Anti‑Cheat Linux v2 support, a new recovery image, and driver enhancements, all built on the Linux 7.3.5 kernel. It also provides a Windows Subsystem for Linux image for Windows 11 and includes various installer improvements.",
+    "tags": [
+      "linux",
+      "kernel",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "34e2c658dd6f",
+    "title": "Your AI agent's model provider just got caught mishandling data. Here's what to check before your prompts leak.",
+    "url": "https://dev.to/nexusfoundry/your-ai-agents-model-provider-just-got-caught-mishandling-data-heres-what-to-check-before-your-26l1",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:15:02Z",
+    "excerpt": "OpenRouter just published a security announcement that should matter to anyone running AI agents in production: researchers found evidence that certain inference providers were not upholding their data policies. OpenRouter's response — off-board three providers entirely, strip 125 endpoints from Zero Data Retention (ZDR) eligibility, and notify affected customers. Source: OpenRouter — Data Process…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F90s9lod9zyy9bew18t06.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "0b90f66880eb",
+    "title": "Raph Levien analisa o futuro das interfaces gráficas em Rust",
+    "url": "https://dev.to/guiadeti/raph-levien-analisa-o-futuro-das-interfaces-graficas-em-rust-hgh",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T13:13:13Z",
+    "excerpt": "Raph Levien avalia o futuro das interfaces gráficas em Rust e reúne recomendações para os próximos projetos da área. Em artigo publicado em 21 de novembro de 2026, ele retoma conselhos de 2022 e analisa como a IA, o desempenho e o avanço dos dispositivos móveis influenciam as escolhas de arquitetura. Rust segue como alternativa para interfaces Muitos aplicativos gráficos sofrem com baixo desempenh…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fguiadeti.com.br%2Fmedia%2FCACHE%2Fimages%2Flibrary%2F2026%2F11%2Fmaestro3-fefdbe181339487eb7c1d3ab12e6cdef-cover_image%2F860149a1e829d5411c6e8ad11d1bf591.webp",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "rust"
+    ]
+  },
+  {
+    "id": "1bdd245d9e1d",
+    "title": "GTA 6 Challenges – all 80 challenges to complete",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-challenges/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-22T13:08:12Z",
+    "excerpt": "There are 80 challenges in GTA 6 split across eight different categories to complete",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/XdhQ3SUwoqU6sS6JkN7j5M-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "3e1c4d4520a5",
+    "title": "Intel Coral Rapids \u0026 Razor Lake Model IDs Submitted For Linux 7.4-rc4",
+    "url": "https://www.phoronix.com/news/Coral-Rapids-Razor-Lake-7.4",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T13:06:26Z",
+    "excerpt": "Sent out today as part of the x86 fixes for the week going into Linux 7.4-rc4 are the model IDs for identifying upcoming Coral Rapids server processors and the Razor Lake client processors...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=linux74_rc4_x86",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Intel submitted model identifiers for upcoming Coral Rapids server CPUs and Razor Lake client CPUs to the Linux 7.4‑rc4 tree, enabling future driver and kernel work. The change also adds Granite Rapids D processors to the Sub‑NUMA Clustering support list, preparing for later kernel releases.",
+    "tags": [
+      "linux",
+      "kernel",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "23037570a18e",
+    "title": "How to get a GTA 6 Rhino tank and become virtually indestructible",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tank-rhino/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-22T13:04:45Z",
+    "excerpt": "There are rows of GTA 6 tanks waiting to be liberated right from the start of the game, to earn the Challenging Tank award",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/6TkMTypEzXTZbpYs2m4BsX-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "gaming",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "00aa8aae69bf",
+    "title": "Prisons get OK to jam contraband phones",
+    "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-22T13:00:52Z",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg",
+    "points": 11,
+    "weight": 1,
+    "first_seen": "2026-11-20T23:37:30.636801737Z",
+    "summary": "The Federal Communications Commission voted to allow state and local correctional facilities to use targeted mobile phone jamming technology to combat contraband devices. While proponents argue the technology helps prevent illegal activities inside prisons, industry groups have raised concerns about potential interference with external, legitimate communications and emergency services.",
+    "tags": [
+      "policy",
+      "security",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "77bc88767f9c",
+    "title": "GTA 6 Makes It Nearly Impossible to Play Without Killing Anyone",
+    "url": "https://www.polygon.com/gta-6-no-kill-playthrough-fail/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T13:00:17Z",
+    "excerpt": "I tried not to kill anyone in Grand Theft Auto 6 and failed. However, it changed the way I thought about and approached the game's violence.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/jasonrob.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The author attempted to play GTA 6 without killing any characters, describing how the game's design makes non‑violent play extremely difficult. He recounts early missions, a stealthy escape from a police impound, and repeated failures due to driving mechanics and unavoidable combat.",
+    "tags": [
+      "gaming",
+      "pc-gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "93e41aeed60f",
+    "title": "Google's early Android 17 QPR2 release is your sign to switch to the Pixel",
+    "url": "https://www.androidpolice.com/googles-early-android-17-qpr2-release-is-your-sign-to-switch-to-the-pixel/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-22T13:00:10Z",
+    "excerpt": "Pixels get over 200 security fixes, foldable window handles, and rear light alerts while other phones wait months",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/07/quick-settings-tool-and-shortcuts-on-google-pixel-9-pro-xl-smartphone-running-on-android-17.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Google rolled out Android 17 QPR2 to Pixel devices a month earlier than usual, adding a custom colour picker, status‑bar tweaks, Auracast voice broadcast and over 200 security fixes. The article explains the update schedule, Pixel‑only features, and how the new trunk‑stable development model enables faster releases.",
+    "tags": [
+      "android",
+      "mobile",
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "180a91a94589",
+    "title": "Parasite makes mice more attractive to blood-feeding bugs, which may aid its spread",
+    "url": "https://phys.org/news/2026-11-parasite-mice-blood-bugs-aid.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-22T13:00:02Z",
+    "excerpt": "Some parasites, such as Trypanosoma rangeli and Trypanosoma cruzi, can be passed between mammals and blood-feeding insects called triatomine bugs. Bugs can acquire these parasites when feeding on infected mammals, while mammals can also become infected through encounters with infected bugs.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-parasite-makes-mice-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "0c81fa30a9f6",
+    "title": "The vibe-coding revolution is coming to all the gadgets",
+    "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-22T13:00:00Z",
+    "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.732984293194%2C100%2C78.534031413613\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "A trend called “vibe‑coding” uses large language models to modify consumer gadgets, allowing users to remove bloatware and customize interfaces via AI‑generated code. The piece highlights a developer who repurposed an Android TV using Claude Code, and notes that many devices run Android, making them accessible to such AI‑driven hacks.",
+    "tags": [
+      "llm",
+      "hardware",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "b500aa42b3ef",
+    "title": "Your questions about Apple HomeView’s audio, answered",
+    "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-22T13:00:00Z",
+    "excerpt": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268864_Smart_home_photos_HMCRAE94.jpg?quality=90\u0026strip=all\u0026crop=0%2C21.350153838458%2C100%2C78.47632823109\u0026w=1200",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The review evaluates Apple’s HomeView smart display as a speaker, comparing its sound quality to the HomePod Mini, Sonos One and full‑size HomePod. While the HomeView offers louder bass and spatial audio, it falls short in clarity and room‑filling capability, and cannot be paired for stereo sound.",
+    "tags": [
+      "hardware",
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "765b54f8e642",
+    "title": "CachyOS November 2026 Release brings support for Easy Anti-Cheat Linux v2",
+    "url": "https://www.gamingonlinux.com/2026/11/cachyos-november-2026-release-brings-support-for-easy-anti-cheat-linux-v2/",
+    "source": "GamingOnLinux",
+    "section": "gaming",
+    "published": "2026-11-22T12:55:53Z",
+    "excerpt": "With Epic Games supporting Linux with their new Epic Games Launcher Preview and Easy Anti-Cheat Linux v2 coming, CachyOS adds support for what's needed. Read the full article on GamingOnLinux .",
+    "image_url": "https://www.gamingonlinux.com/uploads/tagline_gallery/cachyos-logo_gol2_ff07b5be.webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The November 2026 release of CachyOS introduces support for Easy Anti-Cheat Linux v2 through a specialized, opt-in bootable kernel. This feature requires specific security configurations such as Secure Boot, TPM 2.0, and an enabled IOMMU to function properly with protected games. The update also adds a native recovery tool for managing Btrfs snapshots, updates core graphics drivers, and refines hardware support for convertible laptops.",
+    "tags": [
+      "linux",
+      "gaming",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c35e61c5401c",
+    "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+    "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-22T12:54:00Z",
+    "excerpt": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+    "image_url": "https://res.infoq.com/news/2026/11/postgresql-19-released/en/headerimage/generatedHeaderImage-1795349035334.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "PostgreSQL 19 introduces online table repacking, query‑plan advice extensions, and several performance and replication enhancements, aiming to reduce admin overhead. New features include REPACK CONCURRENTLY, pg_plan_advice, logical replication of sequences, and default LZ4 compression, while JIT is disabled by default.",
+    "tags": [
+      "devtools",
+      "data",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e200897fd14a",
+    "title": "CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0",
+    "url": "https://9to5linux.com/cachyos-november-2026-iso-release-brings-cachyos-package-installer-2-0",
+    "source": "9to5Linux",
+    "section": "linux",
+    "published": "2026-11-22T12:52:13Z",
+    "excerpt": "The CachyOS ISO snapshot for November 2026 is now available for download with Linux 6.18 LTS and Linux 7.3 kernels, CachyOS Package Installer 2.0, and other changes. The post CachyOS November 2026 ISO Release Brings CachyOS Package Installer 2.0 appeared first on 9to5Linux - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/cos1126.webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "linux"
+    ]
+  },
+  {
+    "id": "b0268e609c9e",
+    "title": "Upload2Shell: a trusted .jpg became RCE in Ghostscript. Your file pipeline is the new perimeter",
+    "url": "https://dev.to/nexusfoundry/upload2shell-a-trusted-jpg-became-rce-in-ghostscript-your-file-pipeline-is-the-new-perimeter-pnc",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:49:52Z",
+    "excerpt": "A research team at pwn.ai just published CVE-2026-125396 , which they call Upload2Shell . The short version: files with trusted extensions like .jpg and .png were routed through ImageMagick's format handling into Ghostscript, a memory-corruption bug in its font loader let them escape the -dSAFER sandbox, and the result was remote command execution in most of the applications they tested. Source: p…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F74hvs31mruefxcthn3br.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "bcb2cf1b204f",
+    "title": "vivo S70 Pro/V90 Pro leaks with live photo and basic specs sheet",
+    "url": "https://www.gsmarena.com/vivo_s70_pro_v90_pro_leaks_with_live_photo_and_basic_specs_sheet-news-75582.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T12:49:02Z",
+    "excerpt": "A new leak has surfaced online, allegedly detailing and even depicting the unannounced vivo S70 Pro. Since vivo typically repackages its Chinese-only S-series devices as global V-series phones, speculation is that this might very well become the vivo V90 Pro. Arguably the most exciting rumor is that the phone will support a 200mm external vivo teleconverter attachment. That would make it the first…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-s70-pro-v90-pro-leak/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "A recent online leak suggests the upcoming Vivo S70 Pro, possibly rebranded globally as the Vivo V90 Pro, could feature a 200 MP main sensor, a 64 MP telephoto lens, an 8 MP ultrawide camera and a 50 MP selfie camera, along with a 6.59‑inch 1.5K OLED display, Snapdragon 8s Gen 4 chipset, a 7,000 mAh battery with 90 W charging, and support for a 200 mm teleconverter accessory. The device would have a metal frame and IP69 rating.",
+    "tags": [
+      "android",
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e5a0bf20f900",
+    "title": "The designer of Atari's notorious E.T. likens the deluge of AI games to events that preceded the '80s industry crash: 'There was a glut of crap on the market'",
+    "url": "https://www.pcgamer.com/gaming-industry/game-development/the-designer-of-ataris-notorious-e-t-likens-the-deluge-of-ai-games-to-events-that-preceded-the-80s-industry-crash-there-was-a-glut-of-crap-on-the-market/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-22T12:44:48Z",
+    "excerpt": "Despite this, Howard Scott Warshaw thinks AI will be a \"super positive thing\" for the industry.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/wWpvRCE5GXHwEVaYibPhMU-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "a58fedd7f690",
+    "title": "Asking an LLM to Rank My Own Trending Topics Took 150,000x Longer Than Four Lines of Python, and Landed on the Identical Answer",
+    "url": "https://dev.to/enjoy_kumawat/asking-an-llm-to-rank-my-own-trending-topics-took-150000x-longer-than-four-lines-of-python-and-3ld5",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:44:34Z",
+    "excerpt": "A trending dev.to post this week asked \"Is coding with AI actually faster and cheaper?\" and it stuck with me, because I run a small pipeline that already has a buried answer to a narrower version of that question, and I'd never actually measured it. Twice a day, a scheduled job in my my-git-manager repo pulls the top posts from six dev.to tags ( ai , llm , mcp , claudecode , agents , productivity…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkga9gfkvtk1ddr5cv0oi.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "llm",
+      "agents",
+      "python"
+    ]
+  },
+  {
+    "id": "ef6b1a53501a",
+    "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-22T12:32:07Z",
+    "excerpt": "Far from Hot Coffee",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/LknmDHFCtA4v9eTgEcjHcG-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "5b4ac49e2e02",
+    "title": "Fixing Google’s Feedburner problem, and caching that half works",
+    "url": "https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-22T12:30:56Z",
+    "excerpt": "Comments",
+    "image_url": "https://joshua.hu/assets/img/social/fixing-google-feedburner-cache-problem-atom-rss.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "9125f2b36810",
+    "title": "Structured Output From a Small Model: How a Grammar Makes Every JSON Answer Valid, and the One Error It Cannot Fix",
+    "url": "https://dev.to/aiexplore369zoho/structured-output-from-a-small-model-how-a-grammar-makes-every-json-answer-valid-and-the-one-233m",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:30:01Z",
+    "excerpt": "Part 8 of ten. Each post is a short, plain-words tour of one lesson from e=mc² , a free build-an-LLM-from-scratch course; the full lesson, notebook and numbers are on the site. A language model that only talks is a toy; the moment it has to fill in a form that a program will run, it becomes a tool, and that is exactly where it starts to break. Yesterday's post left you a tiny model that could read…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Ftheaivibe.org%2Fuploads%2Fblog%2Fstructured-output-small-model-json-constrained-decoding.webp",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "670eddc251fd",
+    "title": "Persistent memory for AI agents with MCP: what it needs, and how to add it in two minutes",
+    "url": "https://dev.to/nestdaddy/persistent-memory-for-ai-agents-with-mcp-what-it-needs-and-how-to-add-it-in-two-minutes-2gkb",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:28:40Z",
+    "excerpt": "An agent that forgets is an agent you babysit. It asks the same questions every run, retries the approach that failed yesterday, and drops the decision you made last week. Context windows got big, but a context window is not memory. It is gone when the session ends, and it cannot span your other tools. Persistent memory is what survives. What agent memory actually needs A table of notes is easy. N…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fnestdaddy.com%2Fstatic%2Fog%2Fblog%2Fpersistent-memory-for-ai-agents.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "bd1f183f3616",
+    "title": "Defeating the Pink Elephant Effect in Coding Agents: 25+ Negative 'NEVER DO X' Rules vs. 1 Positive Golden Code Template (2.85x Faster)",
+    "url": "https://dev.to/tappers_/defeating-the-pink-elephant-effect-in-coding-agents-25-negative-never-do-x-rules-vs-1-positive-3ooe",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:26:57Z",
+    "excerpt": "💡 AI Labo Benchmark Series — Experiment E24 (Prompt Hygiene \u0026 Affirmative Guides) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated Proxmox VMs against a hidden 20-case grading suite. 🚀 View All 41 Benchmark Results \u0026 Master Ranking 🛡️ Read How Our Proxmox \u0026 systemd Anti-Cheating Sandbox Works Metadata \u0026 Experiment Identity Experim…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2frixw2dr3fkz5w8cuf4.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "kernel",
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "276378a57ff5",
+    "title": "9to5Linux Weekly Roundup: November 22nd, 2026",
+    "url": "https://9to5linux.com/9to5linux-weekly-roundup-november-22nd-2026",
+    "source": "9to5Linux",
+    "section": "linux",
+    "published": "2026-11-22T12:24:52Z",
+    "excerpt": "9to5Linux Weekly Roundup for November 22nd, 2026, brings news about AlmaLinux OS 10.3, FFmpeg 9.1, Rocky Linux 10.3, Shotcut 26.11, AV Linux 25.3, Wireshark 4.6.10, Peppermint OS Debian, Calibre 9.19, BackBox Linux 10, Shelly 3.4, Debian 13.8, ClamAV 1.5.5, DietPi 10.9, fwupd 2.1.10, CachyOS Package Installer 2.0, Mesa 26.3.1, PHP 8.6, and more. The post 9to5Linux Weekly Roundup: November 22nd, 20…",
+    "image_url": "https://9to5linux.com/wp-content/uploads/2026/11/wr319.webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "linux"
+    ]
+  },
+  {
+    "id": "bef9f596e2b6",
+    "title": "Continue yesterday's work: an AI that remembers every conversation",
+    "url": "https://dev.to/nestdaddy/continue-yesterdays-work-an-ai-that-remembers-every-conversation-1io",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T12:24:15Z",
+    "excerpt": "Think about how you talk to a colleague the morning after a long day of work. \"Let's continue.\" \"The thing we set up on Tuesday, is it done?\" \"No, not that one, the other one.\" \"What did we decide about the price again?\" None of those sentences make sense on their own. A colleague understands them because they remember the conversation. Most AI does not, so you end up re-explaining your work every…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fnestdaddy.com%2Fstatic%2Fog%2Fblog%2Fai-that-remembers-every-conversation.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "f31db582746f",
+    "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+    "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+    "source": "Ars Technica",
+    "section": "science",
+    "published": "2026-11-22T12:07:41Z",
+    "excerpt": "GLP-1 drugs could cut food demand enough to free farmland larger than Italy.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/agriculture-1152x648.jpg",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Researchers argue that GLP‑1 medications could reduce the environmental impact of food production by encouraging lower calorie intake, but emphasize that broader dietary and agricultural changes are needed. The article highlights the link between obesity treatment, healthier diets, and sustainability, urging systemic food‑system reforms alongside medical interventions.",
+    "tags": [
+      "health",
+      "climate",
+      "biology"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "be33c318ab70",
+    "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
+    "url": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-22T12:02:30Z",
+    "excerpt": "On Grand Theft Auto 6 's launch day, more than half of everyone playing on PS5 and Xbox was playing GTA 6. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/GTA6_5nov-(12).jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "b70f5870667b",
+    "title": "30 Years Later, Sean Connery's Secret James Bond Thriller Is Officially Free on Streaming",
+    "url": "https://www.polygon.com/the-rock-sean-connery-free-to-stream/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T12:00:18Z",
+    "excerpt": "Michael Bay’s 1996 thriller The Rock is currently free to stream. 30 years later, its still an exciting ride.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/msdrock_ec013_h.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "94ce981594b6",
+    "title": "I built a Google Home holiday mode that follows my presence and TV use instead of simple schedules",
+    "url": "https://www.androidpolice.com/i-built-a-google-home-holiday-mode-that-follows-my-presence-and-tv-use-instead-of-simple-schedules/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-22T12:00:10Z",
+    "excerpt": "A 10-minute Google Home workflow syncs Hue scenes, a smart plug tree light, and a speaker to greet your arrival",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/11/start-playing-christmas-music.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "ec5571eec0cd",
+    "title": "8 Best Travel Adapters (2026): 20+ Models Tested",
+    "url": "https://www.wired.com/gallery/best-travel-adapters/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T12:00:00Z",
+    "excerpt": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers that I’ve tested myself.",
+    "image_url": "https://media.wired.com/photos/69f5039cd2f33f723151e0ca/master/pass/The-Best-Travel-Adapters.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "3e16cde54a7f",
+    "title": "CachyOS Releases Package Installer 2.0 With Convenient AUR / Flatpak / AppImage Support",
+    "url": "https://www.phoronix.com/news/CachyOS-Package-Installer-2.0",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T11:55:29Z",
+    "excerpt": "After teasing the CachyOS Package Installer 2.0 in recent weeks, today the CachyOS developers formally rolled out the CachyOS Package Installer 2.0 update. This provides a fresh UI/UX for managing packages on this Arch Linux based distribution...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=cachyos_pkg_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "CachyOS has released Package Installer 2.0, offering an updated user interface and expanded integration with the Arch User Repository, Flatpak, and AppImages. The software provides an app-store-like experience designed to make package management easier for users who prefer graphical interfaces over the command line. This installer will also be included in upcoming distribution ISO refreshes.",
+    "tags": [
+      "linux",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "eb427a7b99a4",
+    "title": "Samsung’s 2026 HW-Q800H soundbar and subwoofer are $400 off",
+    "url": "https://www.androidauthority.com/samsung-hw-q800h-soundbar-deal-3737816/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-22T11:54:10Z",
+    "excerpt": "Samsung's 5.1.2-channel Q-Series soundbar with a wireless subwoofer is 36% off on Amazon ahead of Black Friday.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/Samsung-Q-Series-Soundbar-HW-Q800H-White-Featured.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "android"
+    ]
+  },
+  {
+    "id": "2e2a70517e2a",
+    "title": "OLake Go: Replicate PostgreSQL and MySQL into Apache Iceberg Without a Heavy Pipeline",
+    "url": "https://dev.to/sh20raj/olake-go-replicate-postgresql-and-mysql-into-apache-iceberg-without-a-heavy-pipeline-4c13",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T11:38:01Z",
+    "excerpt": "Operational databases are excellent at serving application requests. They are not always the best place to run large analytical queries, build historical datasets, or feed multiple warehouses. Moving that data safely into a lakehouse usually introduces a pipeline made of connectors, message brokers, stream processors, and table-maintenance jobs. OLake Go is an open-source ingestion engine designed…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdaoek8rwr2vvpu4edygx.webp",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "open-source",
+      "go"
+    ]
+  },
+  {
+    "id": "8d16a6aa9528",
+    "title": "Linux 7.5 To Introduce Initial Mainline Support For Ambarella SoCs",
+    "url": "https://www.phoronix.com/news/Linux-7.5-Ambarella-SoCs",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T11:35:20Z",
+    "excerpt": "Following some initial Device Tree and driver preparation patches that were merged for Linux v7.4, the upcoming Linux v7.5 kernel is set to introduce initial support for Ambarella SoCs with the CV75 being the initial SoC target...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=ambarella_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The upcoming Linux 7.5 kernel will introduce initial mainline support for Ambarella system-on-chips, beginning with the CV75 model. Developed for computer vision, robotics, and edge AI applications, the 5nm chip utilizes Arm Cortex cores. This addition integrates Ambarella's hardware directly into the upstream kernel rather than relying on out-of-tree drivers.",
+    "tags": [
+      "linux",
+      "kernel",
+      "hardware",
+      "robotics"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c678a1ea840f",
+    "title": "I keep going back to TickTick over every other to-do app; here's why",
+    "url": "https://www.androidpolice.com/i-keep-coming-back-to-this-to-do-list-app/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-22T11:30:10Z",
+    "excerpt": "I am sticking with TickTick permanently because of these features",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/07/ticktick-daily.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "06e13d4a2776",
+    "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+    "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T11:30:00Z",
+    "excerpt": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
+    "image_url": "https://media.wired.com/photos/6b00a8e85e9b91466a86b55b/master/pass/The-Best-Black-Friday-Nintendo-Switch-2-Deals.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "1c0690eed941",
+    "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
+    "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-22T11:22:10Z",
+    "excerpt": "A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network ban after sending a friend a photo they took in the game's nudist resort. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/gta-6-rockstar-art-jason-and-lucia-sitting-together.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "consoles",
+      "gaming"
+    ]
+  },
+  {
+    "id": "f415b863b9a1",
+    "title": "PSR2 \u0026 Panel Replay + Pipe Joiner To Be Supported For Intel On Linux 7.5",
+    "url": "https://www.phoronix.com/news/Intel-PSR2-Panel-Replay-Joiner",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T11:14:00Z",
+    "excerpt": "Intel's pipe joiner functionality is around allowing multiple internal display pipes to be used for driving a single ultra high resolution or high refresh rate display. This allows overcoming limitations of a single display pipe by using multiple pipes -- with the four-pipe ultra joiner configuration allowing for 8K and 4K@240Hz displays. Until now though the Panel Replay and PSR2 power-savings fe…",
+    "image_url": "https://www.phoronix.net/image.php?id=intel-arc-b580-workstation\u0026image=intel_arc_b580_spec_1",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Intel engineers have added support for Panel Replay, PSR2, and pipe joiner functionality to the Linux graphics driver for the upcoming kernel. This combination enables power-saving display features to work alongside multi-pipe configurations required for ultra-high-resolution and high-refresh-rate screens. The patches have been submitted to the DRM-Next tree for the upcoming kernel merge window.",
+    "tags": [
+      "linux",
+      "kernel",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "347294e65ca6",
+    "title": "How to flip an overturned car in GTA 6",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-flip-car/",
+    "source": "GamesRadar",
+    "section": "gaming",
+    "published": "2026-11-22T11:13:33Z",
+    "excerpt": "You can flip your car with brute strength in GTA 6.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/yVBmP6rZsE7RjwUgHxuc4Y-1920-80.jpg",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "81d999907492",
+    "title": "Best Gifts for Mom (2026): Digital Wall Calendars, Better Bags, Personalized Jewelry, and More",
+    "url": "https://www.wired.com/story/best-gifts-for-moms-2026/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T11:02:00Z",
+    "excerpt": "From a calendar that keeps my family organized to a frame that rescues photos from my camera roll, these favorites make thoughtful gifts.",
+    "image_url": "https://media.wired.com/photos/6b00a7fa835217c5c30f2b18/master/pass/The-Gifts-Moms-Actually-Want,-Picked-by-Moms.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "d436c9961e1c",
+    "title": "The Fitbit Air lacks notification alerts, but I found an Android app that adds them",
+    "url": "https://www.androidpolice.com/fitbit-air-lacks-notification-alerts-found-android-app-adds-them/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-22T11:00:10Z",
+    "excerpt": "Distraction-free does not mean complete silence",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/07/google-fitbit-air-black-puck-with-stephen-curry-band-being-held-by-a-hand-showing-g-logo.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "694104882b28",
+    "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+    "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-22T11:00:00Z",
+    "excerpt": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+    "image_url": "https://res.infoq.com/news/2026/11/claude-code-leaking-secrets/en/headerimage/linux-6-12-real-time-1795344939763.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "9826d82b1b2c",
+    "title": "Banks Have Had It Up to Here With Your AI Agent",
+    "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T11:00:00Z",
+    "excerpt": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+    "image_url": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/pass/GettyImages-2285133719.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "fdc747bfd707",
+    "title": "The Sunday Papers",
+    "url": "https://www.rockpapershotgun.com/the-sunday-papers-837",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-22T11:00:00Z",
+    "excerpt": "Sundays are for googling local purveyors of live Christmas trees, the sole upside of no longer having a cat being that you can once again enjoy the smell of chopped woodland without the risk of it poisoning a family member. Well, then again, I mean... empirically speaking, you're probably just assuming that your human loved ones haven't eaten spruce needles. Can you say for an absolute fact that t…",
+    "image_url": "https://assetsio.gnwcdn.com/the-sunday-papers-big.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "663a81843397",
+    "title": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
+    "url": "https://www.phoronix.com/news/Rust-WMI-Driver-Clevo-Laptops",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T10:56:26Z",
+    "excerpt": "The first Rust-based driver being developed for making use of the Linux kernel's Rust Windows Management Instrumentation (WMI) interface abstractions is \"clevo-laptop\" and is a new driver for Clevo laptops, including those sold by TUXEDO Computers, Metabox, Sager, XMG, and others...",
+    "image_url": "https://www.phoronix.net/image.php?id=tuxedo-aura15-gen2\u0026image=tuxedo_aura15gen2_1",
+    "image_checked": true,
+    "weight": 1.1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "linux",
+      "kernel",
+      "rust"
+    ]
+  },
+  {
+    "id": "f493a2871724",
+    "title": "Jason's stoic character in Grand Theft Auto 6 was inspired by Steve McQueen and research into Army veterans: 'These guys typically aren't running their mouths'",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/jasons-stoic-character-in-grand-theft-auto-6-was-inspired-by-steve-mcqueen-and-research-into-army-veterans-these-guys-typically-arent-running-their-mouths/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-22T10:54:09Z",
+    "excerpt": "Rockstar made a point of creating \"authentic characters that didn't stray too far from reality.\"",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/e3fPzBmapimeiWj59SBAiQ-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "6264759e69a3",
+    "title": "How I got Samsung’s best multitasking feature on my Pixel for free",
+    "url": "https://www.androidauthority.com/how-i-got-samsungs-best-multitasking-feature-on-my-pixel-for-free-3736624/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-22T10:30:21Z",
+    "excerpt": "It keeps my muscle memory intact when I switch to my Pixel.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/11/adding-a-sidebar-to-pixel-phone-with-panels-1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "android"
+    ]
+  },
+  {
+    "id": "e218ed9e39e7",
+    "title": "Scientists Tried to Kill This Dirt, but It Wouldn’t Die",
+    "url": "https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T10:30:00Z",
+    "excerpt": "Biologically important chemical reactions persisted in the sterilized soil for six years—offering clues to how life on Earth may have gotten its start.",
+    "image_url": "https://media.wired.com/photos/6afec80a658c126f4fca9f94/master/pass/Abiotic-metabolism%20cr-Samuel%20Velasco-Lede.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "faaeee59fe3f",
+    "title": "Libreboot Reverses AI Code Ban, Adopts Reduction Policy",
+    "url": "https://linuxiac.com/libreboot-reverses-ai-code-ban-adopts-reduction-policy/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-22T10:25:22Z",
+    "excerpt": "Libreboot reverses its total AI code ban, introducing a policy to reduce AI-generated contributions while allowing exceptions when necessary.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/libreboot-ai-policy-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "1981335f0ae7",
+    "title": "Weekly poll: the Xiaomi 18 Pro and 18 Pro Max are global now, have you changed your mind about them?",
+    "url": "https://www.gsmarena.com/weekly_poll_the_xiaomi_18_pro_and_18_pro_max_are_global_now_have_you_changed_your_mind_about_them-news-75551.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T10:17:02Z",
+    "excerpt": "After the Xiaomi 18 Pro and the Xiaomi 18 Pro Max made their debut in China, we ran a poll to gauge the interest in their then-upcoming global release. The results indicated that their success will strongly depend on the global pricing, which wasn’t known at the time. Xiaomi 18 Pro Max and Xiaomi 18 Pro The two phones are officially available in Europe and the prices are, well, they are not cheap.…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/weekly-poll-xiaomi-18-pro-xiaomi-18-pro-max/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "GSMArena surveyed interest in the Xiaomi 18 Pro and 18 Pro Max after their global launch, noting that high pricing heavily influences buyer decisions. Prices range from €1,400 to €1,800, and the phones have received nominations in GSMArena’s End‑of‑Year Awards. Availability is expanding to Europe and India.",
+    "tags": [
+      "android",
+      "mobile",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "cd42dd263fce",
+    "title": "AirPods Pro 3 just got even cheaper, now $169 ($80 off)",
+    "url": "https://9to5mac.com/2026/11/22/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
+    "source": "9to5Mac",
+    "section": "phones",
+    "published": "2026-11-22T10:15:48Z",
+    "excerpt": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up again this weekend with the first discount on Apple’s brand new OLED iPad mini , the 2026 AirPods Max 2 down again at $130 off , even deeper discounts on the cu…",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/11/airpods-pro3-holiday.jpg?quality=82\u0026strip=all\u0026w=1600",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "ios"
+    ]
+  },
+  {
+    "id": "e294ce559640",
+    "title": "Implementing idempotency in distributed systems: patterns and pitfalls",
+    "url": "https://dev.to/ayinedjimi-consultants/implementing-idempotency-in-distributed-systems-patterns-and-pitfalls-4bck",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T10:01:45Z",
+    "excerpt": "Distributed systems fail in partial ways. A network timeout does not tell you whether the request arrived, executed, and was lost on the way back — or never arrived at all. Without idempotency, retrying that request can double-charge a customer, send the same email twice, or insert duplicate records. This article covers the practical patterns you need and the traps most teams fall into. What idemp…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F42hqtnhmqxvzi2uy1ir3.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "ba84c443626e",
+    "title": "Star Wars’ 2-Part Sci-Fi War Thriller Has One of the Best Seasons in TV History",
+    "url": "https://www.polygon.com/disney-sci-fi-thriller-star-wars-andor/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T10:00:18Z",
+    "excerpt": "Disney needed a win for one specific franchise, and Tony Gilroy gave Star Wars just that with the first season of 'Andor.'",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/andor-season-1-taramyn.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "62f6dbacc269",
+    "title": "\"It stayed alive for so long\" - Behind the wheel with the Last Riders saying goodbye to GTA Online, amidst GTA 6's world-changing launch",
+    "url": "https://www.eurogamer.net/gta-6-grand-theft-auto-online-last-ride",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-22T10:00:10Z",
+    "excerpt": "In the decade or so since Grand Theft Auto Online 's arrival, its roads have become a kind of home; well-loved by its racers, its gear heads, and speed freaks. It's a game that allows players to lose themselves in the roleplay, the heists, and the crime sprees. But for me, an occasional dipper into its major updates, the car folk have always been the engine driving its appeal. Read more",
+    "image_url": "https://assetsio.gnwcdn.com/gta-week-last-drive-header-2.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "2361fd38e5e5",
+    "title": "Poll: Which Mario \u0026 Luigi: Superstar Saga Box Art Is The Best?",
+    "url": "https://www.nintendolife.com/features/poll-which-mario-and-luigi-superstar-saga-box-art-is-the-best",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-22T10:00:00Z",
+    "excerpt": "One good, one Fawful? Ahoy folks, and welcome to another edition of Box Art Brawl ! Looking back on last week, we checked out Dr. Mario \u0026 Puzzle League for the GBA to celebrate its recent addition to the NSO library. Neither design in this instance was particularly enthralling, and this is perhaps evident in the final result. Japan just about managed to claim a win with 51% of the vote, with North…",
+    "image_url": "https://images.nintendolife.com/4446d81a931d1/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "a52b5545647b",
+    "title": "How This Year’s Super El Niño Will Worsen Global Hunger",
+    "url": "https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/",
+    "source": "Wired",
+    "section": "tech",
+    "published": "2026-11-22T10:00:00Z",
+    "excerpt": "While some regions get wetter, others face massive drought. On top of wars and cuts to foreign aid, the weather phenomenon could leave millions of people in vulnerable countries without enough to eat.",
+    "image_url": "https://media.wired.com/photos/6b00ddb2631c13f3e234776c/master/pass/How-This-Years-Super-El-Nino-Will-Worsen-Global-Hunger-Science-2297395830.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "21bd1d482ae2",
+    "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "source": "Hacker News",
+    "section": "tutorials",
+    "published": "2026-11-22T09:57:01Z",
+    "image_checked": true,
+    "points": 13,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Developer Graham Dumpleton is documenting the creation of Muru, an AI-assisted Rust server designed for running ASGI and WSGI Python applications. He is publishing detailed articles covering every step of the development process, from early architecture to containerization and tracing.",
+    "tags": [
+      "rust",
+      "python",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ec7dea3b12a4",
+    "title": "How I Built a Read-Only MCP Server for Microsoft Teams by Parsing IndexedDB in Go",
+    "url": "https://dev.to/stn1slv/how-i-built-a-read-only-mcp-server-for-microsoft-teams-by-parsing-indexeddb-in-go-51cf",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T09:41:03Z",
+    "excerpt": "If you work as an external consultant or contractor across multiple client tenants, you probably know this problem. You want to automate your workflow or connect an AI assistant like Claude Code to your Microsoft Teams messages, so you look into the Microsoft Graph API. However, you quickly run into a restriction. Reading messages through Graph requires permissions like Chat.Read and tenant admin…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F000jclaufnl5ecl5l3p7.jpeg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "llm",
+      "go"
+    ]
+  },
+  {
+    "id": "e87400909e88",
+    "title": "go-sqlkit@v0.1.2",
+    "url": "https://dev.to/pardnchiu/go-sqlkitv012-598m",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T09:31:47Z",
+    "excerpt": "go-sqlkit v0.1.1 -\u003e v0.1.2 Summary Stops the background SQLite WAL checkpoint worker when the connector closes. 翻譯 關閉 SQLite 連線時會通知背景 WAL 檢查點工作結束，避免工作在連線關閉後持續執行。 Changes FIX Stop SQLite WAL checkpoints when the connector closes 翻譯 Connector.Close() 會在關閉資料庫連線池前送出停止訊號，背景工作收到訊號後會退出並停止計時器；重複呼叫時不會重複關閉停止通道。 Scope core/connector.go — FIX core/interface.go — FIX core/sqlite.go — FIX Generated by SKILL",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdm5txg0rksf06a0z7bc0.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "82096ba10f6c",
+    "title": "8 Best Science Fantasy Books of the 21st Century",
+    "url": "https://www.polygon.com/best-science-fantasy-books-of-the-century/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T09:04:17Z",
+    "excerpt": "Break genre barriers with spacefaring necromancers and aliens employing goblins. Here are some of the best sci-fi fantasy books.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/gideon-the-ninth.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "250bae739165",
+    "title": "29 years later, Homer’s Best ‘The Simpsons’ Quote is Still Pure Genius",
+    "url": "https://www.polygon.com/the-simpsons-best-homer-quote/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T09:00:17Z",
+    "excerpt": "Homer Simpson’s best quote from The Simpsons came during season 8 and contains some profoubd wisdom",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6058959/homer-simpson.0.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "98778c59100e",
+    "title": "I've never known a moment like this in video games",
+    "url": "https://www.eurogamer.net/gta-6-video-games-biggest-moment",
+    "source": "Eurogamer",
+    "section": "gaming",
+    "published": "2026-11-22T09:00:00Z",
+    "excerpt": "It was hard not to spend the first hour or so of Grand Theft Auto 6 's launch day in a kind of stun-lock. As far as video games editorial goes - which is not that far, in fairness; prepare for an over-flattering analogy - the effect was roughly the equivalent of Tom Hanks' experience, as his John H. Miller first set foot on Omaha beach. Tweets and reels whistled overhead, news leads stung the ears…",
+    "image_url": "https://assetsio.gnwcdn.com/GTA-6-review-10.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "38c61351fe0d",
+    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-22T08:57:34Z",
+    "image_url": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065\u0026ssl=1",
+    "points": 277,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "An analysis of power commitments reveals that Anthropic's data centers will rely heavily on fossil fuels by 2028. The findings show that the vast majority of energy used will come from gas, with a smaller portion from coal, as direct commitments to renewable energy remain limited.",
+    "tags": [
+      "climate",
+      "energy",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "476833f2cf70",
+    "title": "'Calvin and Hobbes' Best Bully Quote Is Still Among the Wisest in Comic Strip History",
+    "url": "https://www.polygon.com/calvin-and-hobbes-moe-best-quote/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T08:00:18Z",
+    "excerpt": "Moe was Calvin’s big dumb bully in Calvin and Hobbes. Here is his best quote from the beloved comic strip.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/screen-shot-2026-11-18-at-7-58-53-pm.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "81c04fb13c45",
+    "title": "Amazon UK Black Friday Week: best tablet deals UK edition",
+    "url": "https://www.gsmarena.com/amazon_uk_black_friday_week_best_tablet_deals_uk_edition_-news-75576.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T07:39:02Z",
+    "excerpt": "This year’s Black Friday deals are already underway for Amazon Prime subscribers, and we’re now bringing you some hand-picked tablet deals. As usual with these offers, you’ll need an active Prime membership, and there’s limited stock. The deals will be live until November 30, aka Cyber Monday. Samsung’s Galaxy Tab S10+ is down to £599 in its 12/256GB trim. Despite being two years old at this point…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/black-friday-amazon-uk/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Amazon UK has launched its Black Friday tablet discounts for Prime members, featuring price cuts on various popular devices through Cyber Monday. Notable offers include discounts on Samsung's AMOLED-equipped tablet, Microsoft's Windows-powered Surface Pro, and refreshed hardware from Lenovo and TCL. These limited-stock deals span multiple operating systems and form factors, ranging from compact media tablets to versatile 2-in-1 laptops.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "9b2e7714135d",
+    "title": "Katsuhiro Harada Reveals The Pokémon He Wanted To Add To Pokken Tournament",
+    "url": "https://www.nintendolife.com/news/2026/11/katsuhiro-harada-reveals-the-pokemon-he-wanted-to-add-to-pokken-tournament",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-22T07:00:00Z",
+    "excerpt": "The producer's pick 'Pangoro' missed out. Famous Japanese game director and producer Katsuhiro Harada, known for the Bandai Namco series Tekken , has revealed a Pokémon he wanted to add to the Pokémon fighting game Pokken Tournament but it didn't make the cut. Read the full article on nintendolife.com",
+    "image_url": "https://images.nintendolife.com/8eedb914f197b/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "457ae2a3f09d",
+    "title": "Notes on the discrete Fourier transform (DFT)",
+    "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-22T06:52:25Z",
+    "image_checked": true,
+    "points": 47,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "This article explores the discrete Fourier transform and its application in digital signal processing for finite-duration signals. It explains the mathematical relationship between the discrete-time Fourier series and the discrete Fourier transform, accompanied by a Python implementation using NumPy.",
+    "tags": [
+      "math",
+      "research",
+      "python"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ce5b97d879cc",
+    "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+    "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-22T06:30:00Z",
+    "excerpt": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+    "image_url": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "4aa756f501d5",
+    "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+    "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global",
+    "source": "InfoQ",
+    "section": "coding",
+    "published": "2026-11-22T06:27:00Z",
+    "excerpt": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-J…",
+    "image_url": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "chips",
+      "cloud"
+    ]
+  },
+  {
+    "id": "1fd500df4662",
+    "title": "Show HN: The Riemann Proof Handbook",
+    "url": "https://github.com/tamnd/riemann-handbook",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-22T05:46:30Z",
+    "image_url": "https://opengraph.githubassets.com/59942f1ca4af4e3e03ad0b7443cfc3b8f700258cadce9a10d4a0b4fe9f7130dd/tamnd/riemann-handbook",
+    "points": 71,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "The Riemann Proof Handbook provides a detailed text explanation of the Lean proof for the Riemann Hypothesis. Written in PDF and EPUB formats, the book breaks down the mathematical definitions, theorems, and underlying code structure across multiple volumes.",
+    "tags": [
+      "devtools",
+      "research",
+      "math"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "50176baa8d98",
+    "title": "My Hybrid AI System in Obsidian: Local and Cloud AI Integration",
+    "url": "https://feed.itsfoss.com/link/24361/17537415/obsidian-hybrid-ai-system",
+    "source": "It's FOSS",
+    "section": "linux",
+    "published": "2026-11-22T05:18:03Z",
+    "excerpt": "Using AI with notes gives superpower to your notes. But should you give AI access to your knowledge base?",
+    "image_url": "https://itsfoss.com/content/images/2026/11/obsidian-hybrid-ai-system.png",
+    "weight": 0.9,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "d84ff07904ee",
+    "title": "Weekly poll results: people keep entry-level phones for 3 years, higher-end models for longer",
+    "url": "https://www.gsmarena.com/weekly_poll_results_people_keep_entrylevel_phones_for_3_years_higherend_models_for_longer-news-75563.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T05:06:02Z",
+    "excerpt": "This was an interesting experiment – last week, we asked you “how long do you plan to keep your current phone?” and some of the data shows what we expected to see, but there were a couple of surprises too. Here are the results – we calculated the average and the median replacement time (in years) for each of the three categories, flagship, mid-range and entry-level. The one-sentence summary is “en…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/weekly-poll-results-phone-upgrades/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
+    "id": "b46b957c5901",
+    "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+    "source": "NASA",
+    "section": "science",
+    "published": "2026-11-22T05:05:00Z",
+    "excerpt": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]",
+    "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048\u0026h=2048\u0026fit=clip",
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
+  },
+  {
     "id": "49217c7cff1d",
     "title": "Agents forget everything — today's Product Hunt is full of fixes, but memory without eval is just a bigger context window",
     "url": "https://dev.to/nexusfoundry/agents-forget-everything-todays-product-hunt-is-full-of-fixes-but-memory-without-eval-is-just-a-4mol",
@@ -32,6 +1398,25 @@
     ]
   },
   {
+    "id": "3400785e0033",
+    "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+    "url": "https://github.com/EL4CTEO/fast-anything",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-22T04:10:09Z",
+    "image_url": "https://opengraph.githubassets.com/97f6b667a7270da4990dba363e7eba7c075460f77f2784530ddcde1ba8c962ce/EL4CTEO/fast-anything",
+    "points": 73,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "summary": "Fast-Anything is a command-line tool that uses coding agents to selectively port performance-critical functions of an application to Rust. Instead of rewriting an entire codebase, the tool profiles performance, translates specific slow functions, and verifies correctness against recorded calls.",
+    "tags": [
+      "devtools",
+      "rust",
+      "web"
+    ],
+    "enriched": true
+  },
+  {
     "id": "4497313ae351",
     "title": "Your MCP server costs money to run. Here's how to charge for it.",
     "url": "https://dev.to/nischaldhakal/your-mcp-server-costs-money-to-run-heres-how-to-charge-for-it-2pg",
@@ -51,13 +1436,13 @@
   },
   {
     "id": "d3a1a9a15e49",
-    "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
     "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
     "source": "Hacker News",
     "section": "tech",
     "published": "2026-11-22T04:04:56Z",
     "image_url": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh\u0026resize=1200:*",
-    "points": 42,
+    "points": 722,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "Toyota, Nissan, and Honda have agreed to standardize certain non-consumer-facing automotive components to reduce production costs. The initial phase will focus on unified quality criteria for steel, consistent plastic protocols, and color-coded wiring harnesses, helping Japanese automakers compete globally.",
@@ -353,7 +1738,7 @@
     "section": "ai",
     "published": "2026-11-22T02:14:14Z",
     "image_url": "https://openrouter.ai/og.png",
-    "points": 57,
+    "points": 204,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "OpenRouter removed several inference providers and zero data retention endpoints following security research that revealed data policy violations. The platform is updating its monitoring procedures and notifying affected customers while requiring strict compliance before restoring provider access.",
@@ -388,7 +1773,7 @@
     "section": "ai",
     "published": "2026-11-22T02:10:02Z",
     "image_url": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop\u0026fm=pjpg\u0026h=628\u0026ixlib=php-3.3.1\u0026w=1200\u0026wpsize=noema-social-facebook\u0026s=ac64b80d34a8583e44429565e7df4a07",
-    "points": 16,
+    "points": 96,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "Neuroscientist Anil Seth explores the historical and cultural obsession with creating conscious synthetic beings, winning the Berggruen Prize essay competition for his work. The article discusses how society's long-standing fear and fascination with artificial minds have resurfaced alongside modern advancements in artificial intelligence. While some prominent researchers debate whether machines can or already do possess consciousness, the implications of this prospect remain profound.",
@@ -585,7 +1970,7 @@
     "section": "gaming",
     "published": "2026-11-22T00:07:59Z",
     "image_url": "https://stulle.app/og.jpg",
-    "points": 93,
+    "points": 351,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "Sandwich Simulator is a web-based interactive minigame where players build custom sandwiches by dragging ingredients, spreading spreads, and taking photos of their final creations. Users can interact with items using mouse controls or touch inputs.",
@@ -656,26 +2041,6 @@
     "image_url": "https://images.nintendolife.com/e4d04ccee89dc/large.jpg",
     "weight": 0.8,
     "first_seen": "2026-11-22T04:50:20.551398663Z"
-  },
-  {
-    "id": "21bd1d482ae2",
-    "title": "Muru",
-    "url": "https://simonwillison.net/2026/Nov/21/muru/",
-    "source": "Simon Willison",
-    "section": "tutorials",
-    "published": "2026-11-21T23:56:28Z",
-    "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of…",
-    "image_checked": true,
-    "weight": 1.2,
-    "first_seen": "2026-11-22T04:50:20.551398663Z",
-    "summary": "Developer Graham Dumpleton is documenting the creation of Muru, an AI-assisted Rust server designed for running ASGI and WSGI Python applications. He is publishing detailed articles covering every step of the development process, from early architecture to containerization and tracing.",
-    "tags": [
-      "rust",
-      "python",
-      "devtools",
-      "tutorial"
-    ],
-    "enriched": true
   },
   {
     "id": "31561496d272",
@@ -948,7 +2313,7 @@
     "section": "tutorials",
     "published": "2026-11-21T22:09:58Z",
     "image_url": "https://opengraph.githubassets.com/8a3b1f3ffab3c93c04c54f64dcf473a8f245b7716cecd7580a1c9654c849c208/sebaandrada-cell/PcapAnalyzer",
-    "points": 86,
+    "points": 130,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "PcapAnalyzer is a free, self-hosted network packet capture analysis tool featuring twenty-seven automated problem detectors. It runs locally via Docker or a manual setup to inspect network traffic while keeping sensitive capture data private. An optional AI feature lets users investigate captures using natural language queries powered by an Anthropic API key.",
@@ -1316,7 +2681,7 @@
     "section": "ai",
     "published": "2026-11-21T20:47:41Z",
     "image_url": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
-    "points": 52,
+    "points": 113,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "Pandex provides European legal data through an API and Model Context Protocol (MCP) server, designed for integration with AI assistants and software agents. It compiles legislation and high-court decisions from the EU and multiple European nations, offering structured access to official documents and historical versions. The platform aims to ground legal AI applications in verifiable primary sources.",
@@ -1798,7 +3163,7 @@
     "section": "tech",
     "published": "2026-11-21T18:29:29Z",
     "image_url": "https://pwn.ai/upload2shell-share.png?v=2",
-    "points": 96,
+    "points": 133,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A critical use-after-free vulnerability in Ghostscript's Type 1 font loader, tracked as CVE-2026-125396, allows crafted documents to bypass the -dSAFER sandbox and execute arbitrary commands. The flaw impacts various software ecosystems and applications that handle image and document rendering. Affected vendors and distributions have responded with security updates and patches.",
@@ -1874,7 +3239,7 @@
     "section": "ai",
     "published": "2026-11-21T18:02:19Z",
     "image_url": "https://opengraph.githubassets.com/f446bc816c37cec8f0a2ce83651c3d994f0e9734faef0ca75d51c66c3f07e353/ShinMegamiBoson/lookatmyquant",
-    "points": 401,
+    "points": 496,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new quantization compiler called LookAtMyQuant compresses large language models like Qwen and Inkling-2-Mini to fit stringent memory budgets while minimizing accuracy loss. The tool uses techniques like trellis codes, Fisher information allocation, and distillation. Results demonstrate competitive performance on math and coding benchmarks compared to existing quantization methods.",
@@ -2112,7 +3477,7 @@
     "section": "coding",
     "published": "2026-11-21T17:08:04Z",
     "image_url": "https://jespino.github.io/gopgext/img/social.png",
-    "points": 130,
+    "points": 160,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "The gopgext project enables developers to build PostgreSQL extensions using plain Go code via TinyGo. It automatically generates the required C glue code, control files, and installation scripts. Although experimental and not recommended for production, it supports standard library features, custom data types, and various PostgreSQL extension mechanisms.",
@@ -2643,7 +4008,7 @@
     "section": "science",
     "published": "2026-11-21T15:54:34Z",
     "image_checked": true,
-    "points": 106,
+    "points": 119,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "Researchers have verified the Lean proof of the Riemann Hypothesis using automated tools and independent kernels. Multiple systems successfully compiled and validated the massive archive of modules against the challenge theorems. The verification process confirms the correctness of the mathematical proof without relying on unproven axioms.",
@@ -2723,7 +4088,7 @@
     "section": "coding",
     "published": "2026-11-21T15:39:09Z",
     "image_url": "https://onurgumus.github.io/zero-csharp/img/social.png?v=2",
-    "points": 143,
+    "points": 163,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new fork of bflat allows developers to compile C# programs directly into native binaries without requiring the .NET runtime or garbage collector. It utilizes memory arenas and a minimal support library to maintain standard C# language features like generics and type checking. The resulting applications can run across multiple platforms, including Linux, macOS, WebAssembly, and DOS.",
@@ -2930,7 +4295,7 @@
     "section": "science",
     "published": "2026-11-21T14:36:45Z",
     "image_url": "https://leanprover-community.github.io/blog/meta-twitter.png",
-    "points": 908,
+    "points": 1100,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "The Lean and Mathlib communities have formally verified a 17-million-line proof of the Riemann Hypothesis released by Levent Alpöge. Multiple independent proof checkers and experts confirmed the correctness of both the mathematical statement and its computer-checked code. This milestone opens new avenues for computer-assisted mathematical research and formal verification.",
@@ -3517,7 +4882,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-21T13:23:14Z",
-    "points": 572,
+    "points": 639,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "enriched": true,
@@ -3734,12 +5099,12 @@
   },
   {
     "id": "b9dab227b42d",
-    "title": "Weekend Black Friday Apple deals: MacBooks from $649, Series 12, AirPods $130 off, new iPad mini, more",
+    "title": "Weekend Black Friday Apple deals: MacBooks from $649, Series 12, AirPods, new iPad mini, more [Updated]",
     "url": "https://9to5mac.com/2026/11/21/official-black-friday-apple-deals-now-live/",
     "source": "9to5Mac",
     "section": "phones",
     "published": "2026-11-21T12:59:00Z",
-    "excerpt": "Black Friday is already in full force with Amazon’s massive official sale event and there is absolutely no shortage of Apple deals. Alongside the lowest prices ever on every Apple Watch Series 12 config , the Mac deals are wild this week with as much as $250 off the brand new M6 MacBook Pro and PROLED XDR MacBook Pro , while, perhaps even more universally exciting, the most affordable M5 MacBook A…",
+    "excerpt": "Update 11/22: Amazon has now dropped the price on AirPods Pro 3 even lower to $169.99 shipped , or just shy of $80 off the list price. You’ll also now find an even deeper deal on the current-generation Apple Watch SE 3 from $179 . Black Friday is already in full force with Amazon’s massive official sale event and there is absolutely no shortage of Apple deals. Alongside the lowest prices ever on e…",
     "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-Black-Friday-deals.jpg?quality=82\u0026strip=all\u0026w=1600",
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
@@ -4585,13 +5950,13 @@
   },
   {
     "id": "4cb2fb025b2b",
-    "title": "RCE in Gnupg",
+    "title": "GnuPG Security Advisory for GPGME",
     "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
     "source": "Hacker News",
     "section": "coding",
     "published": "2026-11-21T08:32:58Z",
     "image_checked": true,
-    "points": 246,
+    "points": 262,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "summary": "GnuPG has released GPGME version 2.3.1 to address a critical security vulnerability involving a double free bug. The flaw, tracked as CVE-2026-129975, could potentially allow remote code execution through crafted OpenPGP keys. Users are strongly advised to update their libraries immediately.",
@@ -6426,7 +7791,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-20T22:11:05Z",
-    "points": 202,
+    "points": 327,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "enriched": true,
@@ -6957,7 +8322,7 @@
     "published": "2026-11-20T21:03:12Z",
     "image_url": "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026precrop=40:21,offset-x50,offset-y0\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=e108196e90ed29a731e8a7ec890173bf",
     "image_checked": true,
-    "points": 798,
+    "points": 1139,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new experimental pill called daraxonrasib has shown promising results in clinical trials for advanced pancreatic cancer, shrinking tumors and halting disease progression in a high percentage of patients. As a KRAS inhibitor, the targeted treatment blocks specific mutations that drive tumor growth, offering renewed hope for one of the deadliest forms of cancer.",
@@ -7639,18 +9004,6 @@
     ]
   },
   {
-    "id": "00aa8aae69bf",
-    "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
-    "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
-    "source": "Ars Technica",
-    "section": "tech",
-    "published": "2026-11-20T19:52:59Z",
-    "excerpt": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
-    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg",
-    "weight": 1.1,
-    "first_seen": "2026-11-20T23:37:30.636801737Z"
-  },
-  {
     "id": "6f259e16b3fb",
     "title": "Apple TV keeps adding fan-favorite movies, here’s what’s new and coming next",
     "url": "https://9to5mac.com/2026/11/20/apple-tv-keeps-adding-fan-favorite-movies-heres-whats-new-and-coming-next/",
@@ -8315,7 +9668,7 @@
     "section": "science",
     "published": "2026-11-20T18:33:14Z",
     "image_checked": true,
-    "points": 2400,
+    "points": 2432,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "A mathematician shared a proposed proof of the Generalized Riemann Hypothesis by Alessandro Masullo. While initially reviewed by human experts, community members subsequently identified several issues using AI models. The proof remains unverified by the broader mathematical community.",
@@ -9652,7 +11005,7 @@
     "section": "coding",
     "published": "2026-11-20T15:24:11Z",
     "image_url": "/og-image.png",
-    "points": 679,
+    "points": 727,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "Slopstrap is a playful CSS and JavaScript framework designed to give websites the distinct visual aesthetic of AI-generated or hastily vibecoded applications. It offers pre-built components featuring glowing orbs, animated gradients, and status badges.",
@@ -10129,7 +11482,7 @@
     "section": "science",
     "published": "2026-11-20T14:16:21Z",
     "image_checked": true,
-    "points": 2865,
+    "points": 2889,
     "weight": 1,
     "first_seen": "2026-11-20T14:49:51.968930094Z",
     "summary": "A PDF document details a claimed proof of the Generalized Riemann Hypothesis. The work has drawn attention from mathematicians and researchers evaluating its validity.",
@@ -11435,6 +12788,19 @@
       "space",
       "physics"
     ]
+  },
+  {
+    "id": "cd6a351c5806",
+    "title": "Field Mice on Drugs",
+    "url": "https://ambrook.com/offrange/livestock/field-mice-on-drugs",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-20T12:40:06Z",
+    "image_url": "https://cdn.sanity.io/images/h6kk644c/production/61430b734d9f4c7c8631d0acebaa9f8b041164d4-2000x1050.jpg?w=1200\u0026h=630",
+    "image_checked": true,
+    "points": 5,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
     "id": "61691e20f995",
@@ -13659,6 +15025,18 @@
     "enriched": true
   },
   {
+    "id": "e17e0feb02af",
+    "title": "If tiny 'primordial' black holes exist",
+    "url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-20T03:37:41Z",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/if-tiny-primordial-bla.jpg",
+    "points": 46,
+    "weight": 1,
+    "first_seen": "2026-11-20T00:14:07.687955198Z"
+  },
+  {
     "id": "5bf3596fda97",
     "title": "Jujutsu Primer",
     "url": "https://ethanlowman.com/posts/jj-primer/",
@@ -14420,7 +15798,7 @@
     "source": "Nature News",
     "section": "science",
     "published": "2026-11-20T00:00:00Z",
-    "excerpt": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03789-3 Countries are starting to grapple with the reality that bringing temperatures down after they breach the 1.5 ºC target would require removingmassive amounts of carbon dioxide from the air.",
+    "excerpt": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03789-3 Countries are starting to grapple with the reality that bringing temperatures down after they breach the 1.5 ºC target would require removing massive amounts of carbon dioxide from the air.",
     "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03789-3/d41586-026-03789-3_53997332.jpg",
     "image_checked": true,
     "weight": 1.2,
@@ -15072,18 +16450,6 @@
     "tags": [
       "space"
     ]
-  },
-  {
-    "id": "e17e0feb02af",
-    "title": "If tiny 'primordial' black holes exist, here's how we might find them",
-    "url": "https://phys.org/news/2026-11-tiny-primordial-black-holes.html",
-    "source": "Phys.org",
-    "section": "science",
-    "published": "2026-11-19T22:40:07Z",
-    "excerpt": "Scientists have hypothesized that, in the fraction of a second following the Big Bang, minute black holes may have been forged within tiny, dense pockets that collapsed under their own gravity. If these primordial black holes are ever found, they could represent a significant component of dark matter—the invisible substance that makes up most of the universe's matter.",
-    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/if-tiny-primordial-bla.jpg",
-    "weight": 0.6,
-    "first_seen": "2026-11-20T00:14:07.687955198Z"
   },
   {
     "id": "482937766645",
@@ -15990,6 +17356,19 @@
       "consoles",
       "space"
     ]
+  },
+  {
+    "id": "fcae5d1009fa",
+    "title": "Self-hosted library branch over public web OPDS",
+    "url": "https://joinmayberry.com/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T21:15:47Z",
+    "image_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/5Q5IK0WP3rRXcLGXwPa6vPAreI13/social-images/social-1773563482965-Mayberry_%E2%80%94_The_Public_Library_System_-_Vivaldi_2026-03-15_at_4.31.11_AM.webp",
+    "image_checked": true,
+    "points": 42,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
     "id": "a75be04db3a3",
@@ -19344,7 +20723,7 @@
     "published": "2026-11-19T14:08:33Z",
     "image_url": "https://www.jacktollenaar.top/media/images/split-rc-card.png",
     "image_checked": true,
-    "points": 4,
+    "points": 45,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z"
   },
@@ -19927,6 +21306,17 @@
     "first_seen": "2026-11-19T05:42:53.979930176Z",
     "enriched": true,
     "skip": true
+  },
+  {
+    "id": "0aabcb888f9d",
+    "title": "Is 'fork' missing operation in sandboxes?",
+    "url": "https://avrea.com/blog/avrea-sandboxes-computers-should-be-forkable",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T13:28:43Z",
+    "points": 12,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
     "id": "f1e022e6adbe",
@@ -23584,6 +24974,18 @@
     "first_seen": "2026-11-19T05:42:53.979930176Z"
   },
   {
+    "id": "bb868f2a9c67",
+    "title": "Reversing the Next-Page Prefetcher in Skylake-X",
+    "url": "https://devsh0.github.io/microarchitecture,/intel,/computer-architecture/2026/11/17/reversing-the-next-page-prefetcher-in-skylake-x.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T00:50:05Z",
+    "image_checked": true,
+    "points": 16,
+    "weight": 1,
+    "first_seen": "2026-11-18T23:50:23.310588011Z"
+  },
+  {
     "id": "fb35f8221da3",
     "title": "Siri Modular Apple Watch face gains two new styles with watchOS 27.3",
     "url": "https://9to5mac.com/2026/11/18/siri-modular-apple-watch-face-gains-two-new-styles-with-watchos-27-3/",
@@ -25863,18 +27265,6 @@
     ]
   },
   {
-    "id": "bb868f2a9c67",
-    "title": "Reversing the Next-Page Prefetcher in Skylake-X",
-    "url": "https://devsh0.github.io/microarchitecture,/intel,/computer-architecture/2026/11/17/reversing-the-next-page-prefetcher-in-skylake-x.html",
-    "source": "Lobsters",
-    "section": "coding",
-    "published": "2026-11-18T21:15:49Z",
-    "excerpt": "Comments",
-    "image_checked": true,
-    "weight": 0.8,
-    "first_seen": "2026-11-18T23:50:23.310588011Z"
-  },
-  {
     "id": "3a9edeebffe3",
     "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
     "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
@@ -27640,6 +29030,17 @@
     "image_url": "https://images.macrumors.com/article-new/2026/01/Apple-Creator-Studio.jpg",
     "weight": 0.9,
     "first_seen": "2026-11-18T23:50:23.310588011Z"
+  },
+  {
+    "id": "1664e6625afd",
+    "title": "String Art Font (2017)",
+    "url": "https://erikdemaine.org/fonts/stringart/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-18T17:42:57Z",
+    "points": 10,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
     "id": "55122dcda947",
@@ -29529,7 +30930,7 @@
     "section": "ai",
     "published": "2026-11-18T14:15:58Z",
     "image_checked": true,
-    "points": 214,
+    "points": 278,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "tags": [
@@ -37984,6 +39385,21 @@
     "image_checked": true,
     "weight": 1.1,
     "first_seen": "2026-11-18T00:26:54.974293163Z"
+  },
+  {
+    "id": "09f9438d13b9",
+    "title": "A real Linux kernel, compiled to WebAssembly",
+    "url": "https://github.com/pithings/unkernel",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-17T16:35:46Z",
+    "points": 124,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "linux",
+      "kernel"
+    ]
   },
   {
     "id": "9073920a14ea",
@@ -63469,6 +64885,20 @@
       "startups"
     ],
     "enriched": true
+  },
+  {
+    "id": "a7566751aa94",
+    "title": "Show HN: Compile the same source for GPUs and CPUs",
+    "url": "https://github.com/ThrudTheBarbarian/xc",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-13T17:53:42Z",
+    "points": 23,
+    "weight": 1,
+    "first_seen": "2026-11-22T13:57:52.583674386Z",
+    "tags": [
+      "chips"
+    ]
   },
   {
     "id": "66f0659c806b",
@@ -162097,46 +163527,5 @@
       "llm",
       "prompting"
     ]
-  },
-  {
-    "id": "d053d7081b69",
-    "title": "Accordion Icons: Which Work Best?",
-    "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
-    "source": "Smashing Magazine",
-    "section": "coding",
-    "published": "2026-10-23T13:00:00Z",
-    "excerpt": "A closer look at accordion icons, why split menus are harmful, and why it’s better not to have icons and text labels link to different actions. Plus, why the caret is the safest icon choice. You’ll find more [useful guides](https://www.smashingmagazine.com/category/guides/) and [online workshops](https://smashingconf.com/online-workshops) here on Smashing Magazine, so make sure to browse and explo…",
-    "image_url": "http://files.smashing.media/articles/how-name-things-choose-accordion-icons/accordion-icons-which-work-best.jpg",
-    "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
-  },
-  {
-    "id": "a26768addf5c",
-    "title": "Rumors of the SaaS demise are greatly exaggerated",
-    "url": "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/",
-    "source": "Stack Overflow Blog",
-    "section": "coding",
-    "published": "2026-10-23T07:40:00Z",
-    "excerpt": "Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the modern build-versus-buy decision in the era of AI, and the critical importance of understanding system architectures to manage long-term infrastructure costs.",
-    "weight": 1,
-    "first_seen": "2026-11-03T18:24:33.525130791Z"
-  },
-  {
-    "id": "0c6f10b533ad",
-    "title": "iPhone Duo arrives at Apple Store locations worldwide",
-    "url": "https://www.apple.com/newsroom/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/",
-    "source": "Apple Newsroom",
-    "section": "phones",
-    "published": "2026-10-23T06:10:35.677Z",
-    "excerpt": "On Friday, October 23, the highly anticipated iPhone Duo made its debut at Apple Store locations worldwide.",
-    "image_url": "https://www.apple.com/newsroom/images/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/tile/Apple-Domain-NORTHSIDE-Austin-iPhone-Duo-launch-moments-261023-lp.jpg.og.jpg",
-    "weight": 0.8,
-    "first_seen": "2026-11-03T18:24:33.525130791Z",
-    "summary": "Apple has released the iPhone Duo globally, offering customers hands-on demonstrations at Apple Store locations. The new device introduces a foldable design to the company's smartphone lineup. Shoppers can also access specialized setup assistance and trade-in programs through Apple Specialists.",
-    "tags": [
-      "mobile",
-      "ios"
-    ],
-    "enriched": true
   }
 ]
