@@ -1,5 +1,847 @@
 [
   {
+    "id": "49217c7cff1d",
+    "title": "Agents forget everything — today's Product Hunt is full of fixes, but memory without eval is just a bigger context window",
+    "url": "https://dev.to/nexusfoundry/agents-forget-everything-todays-product-hunt-is-full-of-fixes-but-memory-without-eval-is-just-a-4mol",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T04:47:20Z",
+    "excerpt": "Today's Product Hunt launches keep circling the same problem: agents have no memory. Four different products, one thesis — the model is fine, the context window isn't enough. AI Context Flow MCP — \"Memory you control, synced to every agent, tool and team\" (PoD #2, ~93 upvotes, claims 5K users) Codemany — \"Run GitHub Actions 3x faster\" (~85 upvotes) Shipyard — MCP server to automate integrations ac…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyjq8opyt6y9tkek160z6.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "bf951f7114b3",
+    "title": "What Is AI Hallucination, and Why You Cannot See It",
+    "url": "https://dev.to/vladimir_beskorovainyi/what-is-ai-hallucination-and-why-you-cannot-see-it-2bm9",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T04:28:29Z",
+    "excerpt": "A hallucination is a confident answer that is wrong. I counted such answers on 1,534 questions. When I made the models repair their failures, the number of wrong answers that look fine went up. An AI hallucination is an answer from a language model that sounds confident, looks plausible, and is wrong. The model names a book that does not exist, gets a date wrong, or cites a court case nobody decid…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fbesk.tech%2Farticles%2Fwhat-is-ai-hallucination%2Fcover-devto.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "4497313ae351",
+    "title": "Your MCP server costs money to run. Here's how to charge for it.",
+    "url": "https://dev.to/nischaldhakal/your-mcp-server-costs-money-to-run-heres-how-to-charge-for-it-2pg",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T04:07:59Z",
+    "excerpt": "Every call to your MCP server costs you something. Maybe it's an LLM call, a GPU minute, a scraping proxy, or a paid API you're reselling. When the caller was a human clicking a button, that was fine. Now the caller is an agent in a loop, and it can call your tool 400 times before lunch. At some point you have to charge for it. This post walks through the three ways to do that today, with the code…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyr7jagmjwlezi899g5ii.jpg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm",
+      "agents",
+      "chips"
+    ]
+  },
+  {
+    "id": "d3a1a9a15e49",
+    "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-22T04:04:56Z",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh\u0026resize=1200:*",
+    "points": 42,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Toyota, Nissan, and Honda have agreed to standardize certain non-consumer-facing automotive components to reduce production costs. The initial phase will focus on unified quality criteria for steel, consistent plastic protocols, and color-coded wiring harnesses, helping Japanese automakers compete globally.",
+    "tags": [
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1ecb144d35f6",
+    "title": "46 Years Later, the Most Influential Thriller of All Time Is Officially Free on YouTube",
+    "url": "https://www.polygon.com/friday-the-13th-youtube-watch-free-november-2026/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T04:00:17Z",
+    "excerpt": "The start of Jason Voorhees's story, 'Friday the 13th,' is now available to watch for free.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/m8dfrth_ec020.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "The 1980 horror film Friday the 13th is now available to stream for free on YouTube. Directed by Sean S. Cunningham with practical effects by Tom Savini, the slasher classic introduced iconic gore and shaped the horror genre.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "97dd105ae494",
+    "title": "58 Years Later, Captain Kirk's Best Star Trek Quote Is the Greatest Line in Sci-Fi History",
+    "url": "https://www.polygon.com/best-captain-kirk-quote-star-trek-original-series/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T03:59:17Z",
+    "excerpt": "Captain Kirk's speech in 'Return to Tomorrow' says more about what Star Trek stands for than any other line in the original series.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/captain-kirk-og.png",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "b4e71f694c96",
+    "title": "Cobra Go CLI Tutorial: Build a Real Shop Orders Tool",
+    "url": "https://dev.to/practicaldevblog/cobra-go-cli-tutorial-build-a-real-shop-orders-tool-2a4b",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T03:46:08Z",
+    "excerpt": "Quick answer Cobra is the Go library behind tools like kubectl, Hugo, and GitHub CLI: you describe each command as a small struct with flags, and Cobra builds the help text, parses the flags, and prints a usage error when a required flag is missing. This post builds a small orders CLI for a shop in Karachi with add, list, and totals commands, real orders, and the first error beginners hit. A shop…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fditejpz0a2erqxfojoxe.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "3f4003579b17",
+    "title": "Go Mail Domain Limits — Tenant Admission, Reconciliation, and Deliverability Evidence",
+    "url": "https://dev.to/liamfoster1844/go-mail-domain-limits-tenant-admission-reconciliation-and-deliverability-evidence-18i2",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T03:37:11Z",
+    "excerpt": "Consider a healthtech mail-onboarding page at 2 a.m.: a paying customer's additional sending domain is blocked, and the on-call sees a quota rejection while the customer sees an unfinished SPF, DKIM, and DMARC setup. This is a design scenario, not an incident report. The first useful question is how the application decided that the tenant had no room left. TL;DR: Enforce per-tenant domain limits i…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs291s3kmzgv7o1w4jp6u.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "0ba5c2c1b976",
+    "title": "How to estimate Cursor cost per session",
+    "url": "https://dev.to/momin_aziz_1/how-to-estimate-cursor-cost-per-session-3a2",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T03:35:18Z",
+    "excerpt": "Originally published on ReclaimLLM . Estimate Cursor session cost from request-level usage, account for cache reads and writes, and understand what a team spend limit covers. A Cursor spend limit tells you the maximum you can spend. It doesn't tell you how much a session actually cost. You need to estimate that from the model requests the session made. Start with the conversation ID. The token and…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftgq2i6hvk0l49zpg3aqu.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "f24779657729",
+    "title": "Prompt injection is an authorization bug",
+    "url": "https://dev.to/shubham399/prompt-injection-is-an-authorization-bug-26oe",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T03:22:02Z",
+    "excerpt": "Summary Prompt injection is usually described as a model believing malicious text. That framing leads to input filters. The filters miss paraphrases, encoded text, and ordinary requests that carry an attacker-supplied target. A better frame is authorization. The agent holds credentials, so every tool call is a privileged action. Decide who the action is for, what it may touch, and whether a human…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimagedelivery.net%2FlLmNeOP7HXG0OqaG97wimw%2F95a7ced4-fd82-4716-a6d0-b434f9e2b1f7%2Faf8d4c1d-c77e-43df-a6eb-7e48803f44a8%2Fpublic",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "7bac73473e11",
+    "title": "Together.ai: Prompt Leakage for Requests",
+    "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T03:07:27Z",
+    "image_url": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b022ac06b3b148585570c47_OG-image_20261121-security-event-prompt-leakage2.png",
+    "points": 6,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Together AI experienced a security incident where an unauthorized party downloaded stored prompt samples after a credential for a private repository was accidentally committed by an AI coding agent. The company stated that the exposed data has been deleted and no further leakage has been found. In response, Together AI has strengthened its development workflows, introduced stricter credential checks, and made zero data retention the default for new accounts.",
+    "tags": [
+      "security",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "bbc83ef27996",
+    "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+    "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T03:06:35Z",
+    "image_checked": true,
+    "points": 16,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "d558529d8f3a",
+    "title": "Astarion's Baldur's Gate 3 prequel novel infuriated fans, now it's Shadowheart's turn",
+    "url": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-22T03:03:45Z",
+    "excerpt": "Her book's being written by award-winning author Tasha Suri.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/ZzLc6TsxfGskr3J8FoCT7G-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Author Tasha Suri is set to write Baldur's Gate 3: Shadowheart, an official prequel novel focusing on Shadowheart's past in the Church of Shar. The story features a murder mystery involving familiar characters from the game and explores the protagonist's complex relationships. However, the project faces skepticism from fans following criticisms regarding tone and lore accuracy in a previous prequel novel.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "43871d48f954",
+    "title": "ViKernel: VIDRAFT's In-Weight AI Safety Kernel Blocked All 897 Dangerous Tool Calls Across 20 Failing Models",
+    "url": "https://dev.to/ai_openfree_b23025ef075cf/vikernel-vidrafts-in-weight-ai-safety-kernel-blocked-all-897-dangerous-tool-calls-across-20-1icp",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T03:01:23Z",
+    "excerpt": "ViKernel: VIDRAFT's In-Weight AI Safety Kernel Blocked All 897 Dangerous Tool Calls Across 20 Failing Models TL;DR: VIDRAFT's ViKernel embeds a safety kernel directly into model weights rather than relying on external guardrails, intercepting dangerous tool calls before execution. In a public benchmark using 8 simulated tools and 100 attack prompts, every one of 20 tested AI models scored F — yet…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmqcbnnq4vqdbv1gdj5e6.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "kernel",
+      "prompting",
+      "safety"
+    ]
+  },
+  {
+    "id": "2814df4657c9",
+    "title": "61 Years Later, Charlie Brown's Greatest Enemy Is Still an Undefeated 'Peanuts' Icon",
+    "url": "https://www.polygon.com/kite-eating-tree-peanuts/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T03:00:28Z",
+    "excerpt": "Charlie Brown's only real arch-rival was a malevolent tree. Chomp chomp chomp.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/charlie-brown-011-1024.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Charles Schulz's classic comic strip Peanuts features a long-running rivalry between Charlie Brown and a neighborhood tree that routinely destroys his kites. Inspired by everyday observations of stuck kites, the inanimate antagonist became a recurring fixture in storylines spanning decades. The hostile tree even appeared in notable plots involving the EPA and an abandoned toy piano.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3348713c1670",
+    "title": "The Most Popular Car Colors in America",
+    "url": "https://www.iseecars.com/most-popular-car-colors-study",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T02:47:18Z",
+    "points": 9,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "0de8d74eb9a1",
+    "title": "Prompt Chaining with Spring AI: Four Small Steps Beat One Big Prompt",
+    "url": "https://dev.to/said_olano/prompt-chaining-with-spring-ai-four-small-steps-beat-one-big-prompt-37gg",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T02:43:12Z",
+    "excerpt": "Prompt Chaining with Spring AI: Four Small Steps Beat One Big Prompt I keep running into the same temptation when I build LLM features. I write one long prompt that asks the model to extract some data, clean it up, sort it, and format it, all in one go. Sometimes it works. Often the result is almost right: a number is in the wrong unit, a row is missing, or the formatting drifts. Then I spend more…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkuu1auqcrw5fyc1ciy0a.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "cf04d912151c",
+    "title": "vivo Y21s 5G, Y11s 5G, Y05s 4G specs and images leak",
+    "url": "https://www.gsmarena.com/vivo_y21s_5g_y11s_5g_y05s_4g_specs_and_images_leak-news-75584.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T02:33:02Z",
+    "excerpt": "Vivo will apparently be flushing out its budget lineup in India soon with at least three new devices. These are not particularly exciting in any meaningful way, but might just offer a good value proposition. There are some clear similarities between the three. All of them are built around a 6.74-inch, 1600 × 720, 120Hz LCD and have a 6,500 mAh battery. The vivo Y21s 5G is the highest-end of the tr…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-y21s-y11s-y05s-leak/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Vivo is preparing to expand its budget smartphone lineup in India with three new models featuring large 6.74-inch displays and substantial 6,500 mAh batteries. The upcoming devices include the Y21s 5G, Y11s 5G, and Y05s 4G, varying in processor performance, camera configurations, and charging speeds. Each phone incorporates expandable storage and side-mounted fingerprint readers.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "6a56b39af8e6",
+    "title": "Orchestrator-Workers with Spring AI: Let the Model Decide the Subtasks",
+    "url": "https://dev.to/said_olano/orchestrator-workers-with-spring-ai-let-the-model-decide-the-subtasks-1618",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T02:28:03Z",
+    "excerpt": "Orchestrator-Workers with Spring AI: Let the Model Decide the Subtasks Most LLM workflows I have built start the same way. I know the steps before I write the code. I call the model once to extract something, once to transform it, once to check it, and the control flow is hard-coded in Java. That works well until the input shape changes and the steps change with it. A product description needs a d…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F59dx3ftblbzvb22zeaep.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "c4c9e6015782",
+    "title": "LLMs for 8 GB VRAM: What Fits and What Doesn't",
+    "url": "https://dev.to/wayne_lay_957709c8ebac47a/llms-for-8-gb-vram-what-fits-and-what-doesnt-2l4j",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T02:26:20Z",
+    "excerpt": "I have been running local models on a 24 GB card for a while, and I keep getting asked the same question by people building their first box: can an 8 GB card actually run a useful LLM? The honest answer is yes, but only if you pick the model to fit the card instead of buying the card for a model it cannot hold. Here is the arithmetic I use, with real file sizes. Short answer An 8 GB card runs 7B–8…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwt08b29ne92bnfv1wmc8.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "94296c728329",
+    "title": "An AI Coding Agent Committed the Keys: Inside Together AI's Prompt Leak",
+    "url": "https://dev.to/tin_thnhbnh_6d6c9102d/an-ai-coding-agent-committed-the-keys-inside-together-ais-prompt-leak-439c",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T02:18:48Z",
+    "excerpt": "On November 21, 2026, Together AI published a security disclosure with an uncomfortable root cause: an AI coding agent leaked the credential that exposed months of customer prompts. Not a phishing email. Not a misconfigured bucket left open by a tired engineer at 2 a.m. An AI coding agent, working on the company's public GitHub repository, committed a credential that unlocked a private repository…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsmynr1semr1kz43kgodj.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "agents",
+      "prompting"
+    ]
+  },
+  {
+    "id": "381628060ea9",
+    "title": "Data Processing Incidents on Inference Providers",
+    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T02:14:14Z",
+    "image_url": "https://openrouter.ai/og.png",
+    "points": 57,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "OpenRouter removed several inference providers and zero data retention endpoints following security research that revealed data policy violations. The platform is updating its monitoring procedures and notifying affected customers while requiring strict compliance before restoring provider access.",
+    "tags": [
+      "security",
+      "llm",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5f24bcaa87c9",
+    "title": "오늘의 한국 AI 순위 (2026-11-22): 공인 벤치마크 1위 14개, 다운로드 1위 POCKET-Darwin-180B-GGUF",
+    "url": "https://dev.to/vidraft_lab/oneulyi-hangug-ai-sunwi-2026-11-22-gongin-bencimakeu-1wi-14gae-daunrodeu-1wi-pocket-darwin-180b-gguf-3am3",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T02:11:31Z",
+    "excerpt": "한눈에 보기 (2026-11-22 기준) 허깅페이스 공인 벤치마크 63개 가운데 순위가 실린 보드는 57개, 등재 결과는 1469건입니다. 한국 모델이 1위인 보드는 14개입니다. 그중 비드래프트 모델이 12개 보드에서 1위입니다. 한국 오픈 LLM 다운로드 1위는 POCKET-Darwin-180B-GGUF 입니다. 최근 30일 496,222 회입니다. 한국 상위 30위 안에 비드래프트 계열 모델이 3개 있습니다. 어제와 달라진 점 등재 결과가 1485건에서 1469건이 됐습니다. A.X-K2-NVFP4 가 한국 다운로드 6위에서 5위로 올랐습니다. EXAONE-3.5-2.4B-Instruct 가 한국 다운로드 7위에서 6위로 올랐습니다. SOLAR-10.7B-Instruct-v1.0 가 한국 다운로드 11…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fbench_daily%2F2026-11-22%2Fa.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm",
+      "energy"
+    ]
+  },
+  {
+    "id": "528d6924cf9a",
+    "title": "The Mythology of Conscious AI",
+    "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T02:10:02Z",
+    "image_url": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop\u0026fm=pjpg\u0026h=628\u0026ixlib=php-3.3.1\u0026w=1200\u0026wpsize=noema-social-facebook\u0026s=ac64b80d34a8583e44429565e7df4a07",
+    "points": 16,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Neuroscientist Anil Seth explores the historical and cultural obsession with creating conscious synthetic beings, winning the Berggruen Prize essay competition for his work. The article discusses how society's long-standing fear and fascination with artificial minds have resurfaced alongside modern advancements in artificial intelligence. While some prominent researchers debate whether machines can or already do possess consciousness, the implications of this prospect remain profound.",
+    "tags": [
+      "research",
+      "safety"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "60f5080d0979",
+    "title": "Go Chat Authorization with Room Channels (Logistics Cursors Versus One Filtered Stream)",
+    "url": "https://dev.to/seraphinalyn7139/go-chat-authorization-with-room-channels-logistics-cursors-versus-one-filtered-stream-5ebn",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T01:37:50Z",
+    "excerpt": "Choose a channel per room whenever room membership determines who may receive a cursor update. In a logistics team's collaborative editor, the authorization boundary belongs before delivery: a dispatcher editing one shipment plan should not receive another plan's cursor events merely because both plans belong to the same workspace. TL;DR: A room-scoped token makes channel membership the chat autho…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjr43f2o3f3ji5tcumxnn.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "9c83d6b4c5a2",
+    "title": "Routing Workflow with Spring AI: Classify First, Then Answer",
+    "url": "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T01:37:20Z",
+    "excerpt": "Most LLM applications start with one prompt that tries to do everything. It classifies the request, answers it, and follows a policy, all in the same instruction. That works for a demo. In production, it becomes hard to tune, hard to test, and hard to explain when one kind of request gets a poor answer because the prompt was written for another kind. The Routing Workflow pattern takes a different…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsv7thse8m0rlf6u98d2e.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "3fddbb6f4d1a",
+    "title": "The Best Self-Hosted LLM Gateway for Small Teams in 2026",
+    "url": "https://dev.to/voss8979209/the-best-self-hosted-llm-gateway-for-small-teams-in-2026-4k5k",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-22T01:32:35Z",
+    "excerpt": "A team of two to ten engineers does not have a platform group, and that is the constraint that should pick the gateway. Ops time matters more than the length of a feature list. Nobody's title says platform. You are already paying three model providers. Two people have the production OpenAI key in their shell history. Someone in finance just asked which feature burned last month's Anthropic bill. A…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1wthb330p5ofgp34puo2.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "adcbd85caef5",
+    "title": "Linux 7.4 To Remove NVMe Namespaces In Parallel For Faster Results",
+    "url": "https://www.phoronix.com/news/Linux-7.4-NVMe-NS-Parallel",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T01:24:33Z",
+    "excerpt": "As part of this week's block subsystem fixes for the Linux 7.4-rc4 kernel release due out on Sunday are many bug fixes plus also a nice NVMe namespaces optimization...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=nvme_ns_removal",
+    "weight": 1.1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "The Linux 7.4 kernel update introduces an optimization that allows NVMe namespaces to be removed in parallel. By using an asynchronous domain, the system overlaps wait times across namespaces to eliminate bottlenecks in complex server environments. This improvement speeds up storage controller disconnection in multi-tenant and isolated workloads.",
+    "tags": [
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "3ee4faa630cd",
+    "title": "8 Must-Play JRPGs for People With Real-Life Schedules",
+    "url": "https://www.polygon.com/jrpgs-real-life-schedules/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T01:00:17Z",
+    "excerpt": "Busy schedule, long JRPG backlog? These eight games fit short sessions with chapter breaks, adjustable battles, and easy saves.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/octopath-traveler-switch-2.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "JRPGs often demand dozens of hours of playtime, making them challenging for players with limited schedules. However, several titles accommodate busy routines through chapter-based structures, adjustable battle speeds, and flexible save options. Notable games like Dragon Quest 11 and the Final Fantasy Pixel Remasters allow players to enjoy deep role-playing experiences in short sessions.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "82c4c0f6e87d",
+    "title": "Single feathers may reveal whether eastern black rails stay in Texas or migrate north",
+    "url": "https://phys.org/news/2026-11-feathers-reveal-eastern-black-rails.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-22T01:00:01Z",
+    "excerpt": "High-stepping like you're in a marching band while dragging a rope through a wetland at night can make you wonder about your life choices. Several plastic bottles, each filled with two or three noisy cat toys, are attached to the rope. It's pitch black, and all I can hear are the cat toys jingling, the mosquitoes buzzing in my ears and the wetland grasses bouncing in the wind.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/photo-of-the-team-stan.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "01af6e752b2c",
+    "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+    "url": "https://github.com/ItsNotRexed/Leonida",
+    "source": "Hacker News",
+    "section": "gaming",
+    "published": "2026-11-22T00:57:26Z",
+    "image_url": "https://opengraph.githubassets.com/d94da9c2122cb4d71a26f6f217523d993839b2099a0be3d0361db3c9627e8616/ItsNotRexed/Leonida",
+    "points": 89,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "An open-source static recompilation project aims to run the Xbox Series version of Grand Theft Auto VI natively on Windows PCs using the player's own game files. The project successfully translates console shaders and exports assets, though it remains in an early stage without an executable to test booting.",
+    "tags": [
+      "pc-gaming",
+      "open-source",
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "5d87055f8941",
+    "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
+    "url": "https://pwn.ai/upload2shell/research.html",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-22T00:52:23Z",
+    "excerpt": "Here's the NVD page for the CVE with some additional useful context . Comments",
+    "image_url": "https://pwn.ai/upload2shell-share.png?v=2",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Researchers have detailed a critical vulnerability in Ghostscript, designated CVE-2026-125396, known as Upload2Shell. The use-after-free bug in the Type 1 font loader allows attackers to achieve remote code execution by exploiting file-processing pipelines in standard applications.",
+    "tags": [
+      "security"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "4232fff96631",
+    "title": "Star Trek Reboot Officially Teased as Crimson Tide Meets Training Day Sci-Fi Thriller",
+    "url": "https://www.polygon.com/star-trek-movie-reboot-crimson-tide-training-day/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-22T00:40:17Z",
+    "excerpt": "The next Star Trek movie has writers and a strong pitch: Crimson Tide meets Training Day meets Starfleet.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/01/mcdsttr_ec059.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Directors Jonathan Goldstein and John Francis Daley have shared new details regarding an upcoming Star Trek feature film. Inspired by Training Day and Crimson Tide, the project will examine flawed characters within Starfleet and feature a real-time narrative structure. The film aims to introduce original characters rather than relying on established franchise nostalgia.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c98f7cdb49db",
+    "title": "NixOS bring-up on an Alibaba RISC-V board",
+    "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-22T00:30:07Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "d56acf2e069f",
+    "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
+    "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-22T00:18:14Z",
+    "excerpt": "A Vice City mode was using music made by AI",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/binding-of-isaac.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "A recent console update for The Binding of Isaac: Repentance+ faced immediate backlash after players discovered AI-generated music tracks embedded in a special promotional game mode. The unexpected inclusion of tool-generated audio sparked widespread criticism on social media and led to a massive wave of negative user reviews on Steam. The game's creator stated he was completely unaware of the AI content and quickly pushed an emergency update to remove the tracks.",
+    "tags": [
+      "gaming",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f759d984a78b",
+    "title": "Sandwich Simulator",
+    "url": "https://stulle.app/",
+    "source": "Hacker News",
+    "section": "gaming",
+    "published": "2026-11-22T00:07:59Z",
+    "image_url": "https://stulle.app/og.jpg",
+    "points": 93,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Sandwich Simulator is a web-based interactive minigame where players build custom sandwiches by dragging ingredients, spreading spreads, and taking photos of their final creations. Users can interact with items using mouse controls or touch inputs.",
+    "tags": [
+      "gaming"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "642c59c79c3a",
+    "title": "Motorola Moto Tag 3 listed on Amazon",
+    "url": "https://www.gsmarena.com/motorola_moto_tag_3_features_design_amazon_listing-news-75585.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-22T00:03:02Z",
+    "excerpt": "Motorola unveiled the Moto Tag in 2024 and followed up with the Moto Tag 2 in January this year. Considering the gap between the first and second-gen Moto Tags, we weren't expecting Motorola to launch Moto Tag 3 anytime soon, but it seems Motorola could launch it in a few months, or even weeks, as it is already listed on Amazon. Amazon UK has listed the Moto Tag in Pantone Lucent White color, whil…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/motorola-tag-3-amazon-listing/-184x111/gsmarena_001.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Motorola's upcoming Moto Tag 3 has appeared in listings on Amazon UK and Italy. The tracker appears identical to its predecessor, retaining features like Ultra-Wideband, Bluetooth connectivity, an IP68 rating, and a replaceable CR2032 battery rated for over 500 days of use.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ea66f7921010",
+    "title": "Escopo e Shadowing em Go",
+    "url": "https://dev.to/oliversieto/escopo-e-shadowing-em-go-412o",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T00:01:48Z",
+    "excerpt": "Hoje eu vou falar de duas coisas importantes em Go que são Escopo e Shadowing . Apesar de ser algo simples de entender, muitas vezes por descuido podemos introduzir bugs que podem afetar a aplicação em tempo de execução. Então vamos ao que interessa. Escopo O escopo de um nome é o trecho de código em que aquele nome exista e se refere a uma determinada variável, tipo ou função. Fora do escopo, o n…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fts9g9a81xmordkf8h0m6.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "781c9fc0bf82",
+    "title": "How to reduce Google Maps battery drain on Android",
+    "url": "https://www.androidpolice.com/reduce-google-maps-battery-drain-with-these-tweaks/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-22T00:00:10Z",
+    "excerpt": "Navigation shouldn't cost battery life",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/11/pixel-phone-showing-battery-usage-menu.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Navigating with Google Maps can significantly drain smartphone batteries during long road trips, but a few simple settings adjustments can reduce power consumption by over half. Users can disable heavy satellite imagery in favor of the default map view, enforce dark mode interfaces, or use built-in power-saving modes. Additionally, relying solely on voice guidance with the phone screen turned off helps preserve battery life on extended journeys.",
+    "tags": [
+      "mobile",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "db901bdb09f3",
+    "title": "\"We're Going Bananas For Our Newest Furry Friend\" - Donkey Kong Out Now On Build-A-Bear Workshop",
+    "url": "https://www.nintendolife.com/news/2026/11/were-going-bananas-for-our-newest-furry-friend-donkey-kong-out-now-on-build-a-bear-workshop",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-22T00:00:00Z",
+    "excerpt": "Pauline when? : We understand GTA 6 is a big deal, but Build-A-Bear Workshop has also teased some important news this week. On its official Instagram page , the store where you build your own bear, has announced it's \"going bananas\" for its newest furry friend, who is \"coming soon from the jungle\". As you can see, it's a silhouette of Donkey Kong ! Read the full article on nintendolife.com",
+    "image_url": "https://images.nintendolife.com/e4d04ccee89dc/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "21bd1d482ae2",
+    "title": "Muru",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "source": "Simon Willison",
+    "section": "tutorials",
+    "published": "2026-11-21T23:56:28Z",
+    "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of…",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Developer Graham Dumpleton is documenting the creation of Muru, an AI-assisted Rust server designed for running ASGI and WSGI Python applications. He is publishing detailed articles covering every step of the development process, from early architecture to containerization and tracing.",
+    "tags": [
+      "rust",
+      "python",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "31561496d272",
+    "title": "DNS Zone Write Isolation in Go (Separate Inventories and Tenant Subdomain Overhead)",
+    "url": "https://dev.to/haelion14/dns-zone-write-isolation-in-go-separate-inventories-and-tenant-subdomain-overhead-4e8g",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-21T23:56:28Z",
+    "excerpt": "A separate DNS zone buys a hard write boundary at the cost of another inventory to verify and credentials to rotate; keeping staging under a subdomain buys less overhead, provided the team accepts that its protection depends on the permissions held by the writer. TL;DR: choose by who holds write access. For a B2B SaaS that automatically assigns every tenant a subdomain, use a separate staging zone…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7byf4fd0hxwcghyn6yn8.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "996cc6c7165c",
+    "title": "DietPi 10.9 Released with Support for Odroid C5 and Orange Pi Zero 4",
+    "url": "https://9to5linux.com/dietpi-10-9-released-with-support-for-odroid-c5-and-orange-pi-zero-4",
+    "source": "9to5Linux",
+    "section": "linux",
+    "published": "2026-11-21T23:50:53Z",
+    "excerpt": "DietPi 10.9 distribution for single-board computers is now available for download with support for Odroid C5, Orange Pi Zero 4, Orange Pi 6, and Orange Pi 6 Plus boards. The post DietPi 10.9 Released with Support for Odroid C5 and Orange Pi Zero 4 appeared first on 9to5Linux - do not reproduce this article without permission. This RSS feed is intended for readers, not scrapers.",
+    "image_url": "https://9to5linux.com/wp-content/uploads/2026/05/dietpi.webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "The lightweight DietPi distribution has released version 10.9, bringing official system support for several new single-board computers including the Odroid C5 and multiple models from the Orange Pi lineup. This update expands hardware compatibility for DIY enthusiasts and server operators utilizing ARM-based boards.",
+    "tags": [
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f382f86b81a2",
+    "title": "DietPi 10.9 Released with Support for Five New Single-Board Computers",
+    "url": "https://linuxiac.com/dietpi-10-9-released-with-support-for-five-new-single-board-computers/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-21T23:42:10Z",
+    "excerpt": "DietPi 10.9 adds support for new Odroid and Orange Pi boards, expands its software catalog, and improves Raspberry Pi management.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/dietpi109-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "DietPi 10.9 has been released, introducing support for five new single-board computers alongside various system enhancements and software additions. The update adds compatibility for boards like the Odroid C5 and new Orange Pi models, while integrating applications such as Podman and Paperless-ngx. It also includes dedicated fan control utilities for Raspberry Pi devices and improved diagnostic warnings.",
+    "tags": [
+      "linux",
+      "kernel",
+      "open-source"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "d8143851654f",
+    "title": "port scanning for mojang",
+    "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-21T23:40:51Z",
+    "excerpt": "Comments",
+    "image_url": "https://sipacid.com/blog/port-scanning-for-mojang/index.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "220375b28879",
+    "title": "Wizards of the Coast to pass full AI copyright payout to D\u0026D writers",
+    "url": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-21T23:40:42Z",
+    "excerpt": "You gotta hand it to them, but the payout sounds like it would have been small potatoes to the company.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/iVnpcXYQRt6vWcgUKCQZg7-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "8446dc271805",
+    "title": "Customer Domain Support in Go: Why I Chose Apex Record Ownership",
+    "url": "https://dev.to/liraelvex6403/customer-domain-support-in-go-why-i-chose-apex-record-ownership-56c2",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-21T23:37:51Z",
+    "excerpt": "Retries belong behind a reconciliation check. For property managers publishing customer domains and mail authentication records, I would choose a documented apex A record and a www CNAME, accepting the obligation to coordinate future address changes rather than treating a successful write as proof that the customer's zone matches intent. TL;DR: standard DNS forbids an apex CNAME; an A record is th…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F39y15kto47duzy4gkdxr.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "go",
+      "math"
+    ]
+  },
+  {
+    "id": "d7ec8d7180f2",
+    "title": "New Dungeons \u0026 Dragons Live-Action Series Officially Replaces Netflix's Forgotten Realms",
+    "url": "https://www.polygon.com/dungeons-and-dragons-ravenloft-tv-show-netflix/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-21T23:34:17Z",
+    "excerpt": "Netflix’s new live-action Dungeons \u0026 Dragons series Ravenloft could bring the fan-favorite vampire Strahd to streaming.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/ravenloft-coverart_annapodedworna-3.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "ba639674b72f",
+    "title": "KDE Releases Kwi 0.1, Its New GPU-Accelerated Terminal Emulator",
+    "url": "https://linuxiac.com/kde-releases-kwi-0-1-its-new-gpu-accelerated-terminal-emulator/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-21T23:26:42Z",
+    "excerpt": "KDE's new Kwi terminal emulator reaches version 0.1 with improved tabs, global menu support, interface refinements, and a Flatpak release.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/kwi-terminal-first-stable-release-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "c2851a5ea1eb",
+    "title": "GTA 6 Meet the Heders walkthrough: Find and open the SCOOP container",
+    "url": "https://www.videogameschronicle.com/guide/gta-6-meet-the-heders-walkthrough-find-and-open-the-scoop-container/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-21T22:55:42Z",
+    "excerpt": "Here's how to find and open the Scoop container in Meet The Heders",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Meet-The-Heders-1-1.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "0fee78ebb899",
+    "title": "Final Fantasy Toy Counterfeiting Ring Ends In $300,000 Bust Of Tifa Lockhart Statues",
+    "url": "https://kotaku.com/shanghai-police-bust-up-bootleg-tifa-lockhart-toy-operation-2000759206",
+    "source": "Kotaku",
+    "section": "gaming",
+    "published": "2026-11-21T22:54:21Z",
+    "excerpt": "13 individuals have reportedly been arrested in connection to $300,000 worth of counterfeit Final Fantasy figurines",
+    "image_url": "https://kotaku.com/app/uploads/2026/11/tifaff7rebirth.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
+    "id": "d048b7c8f0ff",
+    "title": "Alt Video is a digital, faux Blockbuster video store that you can fill with movies from your Letterboxd watchlist and Plex server",
+    "url": "https://www.rockpapershotgun.com/alt-video-is-a-digital-faux-blockbuster-video-store-that-you-can-fill-with-movies-from-your-letterboxd-watchlist-and-plex-server",
+    "source": "Rock Paper Shotgun",
+    "section": "gaming",
+    "published": "2026-11-21T22:50:30Z",
+    "excerpt": "Since the beginning of the year, I have watched almost 150 films. I know this, because over the past few years, I've become one of those people… a Letterboxd user. Gasp! I know, I know, but I don't think I'm too insufferable about it. I'll only do a joke review in the hopes of like farming if I think it's genuinely funny! But many of these films were watched digitally, meaning I don't have a bunch…",
+    "image_url": "https://assetsio.gnwcdn.com/alt-video.jpg?width=690\u0026quality=85\u0026format=jpg\u0026auto=webp",
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
     "id": "8ca48f24b92b",
     "title": "iOS 27: My favorite new iPhone features (other than AI)",
     "url": "https://9to5mac.com/2026/11/21/ios-27-my-favorite-new-iphone-features-other-than-ai/",
@@ -106,7 +948,7 @@
     "section": "tutorials",
     "published": "2026-11-21T22:09:58Z",
     "image_url": "https://opengraph.githubassets.com/8a3b1f3ffab3c93c04c54f64dcf473a8f245b7716cecd7580a1c9654c849c208/sebaandrada-cell/PcapAnalyzer",
-    "points": 5,
+    "points": 86,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "PcapAnalyzer is a free, self-hosted network packet capture analysis tool featuring twenty-seven automated problem detectors. It runs locally via Docker or a manual setup to inspect network traffic while keeping sensitive capture data private. An optional AI feature lets users investigate captures using natural language queries powered by an Anthropic API key.",
@@ -330,7 +1172,7 @@
     "section": "coding",
     "published": "2026-11-21T21:17:53Z",
     "image_checked": true,
-    "points": 3,
+    "points": 116,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "Recent developments in the Rust GUI ecosystem reflect a growing interest fueled by artificial intelligence and the demand for high-performance software. Although building user interfaces in Rust remains challenging due to steep learning curves, LLMs are lowering the barrier for writing and maintaining complex codebases. Projects like the Zed editor demonstrate the practical viability of shipping native Rust interfaces, though architectural consensus on UI toolkits is still emerging.",
@@ -406,12 +1248,18 @@
     "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
     "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "science",
     "published": "2026-11-21T21:06:14Z",
     "image_checked": true,
-    "points": 11,
+    "points": 34,
     "weight": 1,
-    "first_seen": "2026-11-21T22:43:05.79028328Z"
+    "first_seen": "2026-11-21T22:43:05.79028328Z",
+    "summary": "Recent archaeological findings shed light on the development of social stratification within the Czech Corded Ware culture. Researchers analyze shifts in wealth distribution, power dynamics, and patrilineal structures during this historical period. The study highlights the interplay between cooperation and competition in early European societies.",
+    "tags": [
+      "research",
+      "biology"
+    ],
+    "enriched": true
   },
   {
     "id": "6b1fd27836ba",
@@ -461,6 +1309,25 @@
     ]
   },
   {
+    "id": "b77be25502fd",
+    "title": "Pandex – Official European Law for AI Agents, over MCP",
+    "url": "https://www.pandex.io",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-21T20:47:41Z",
+    "image_url": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
+    "points": 52,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Pandex provides European legal data through an API and Model Context Protocol (MCP) server, designed for integration with AI assistants and software agents. It compiles legislation and high-court decisions from the EU and multiple European nations, offering structured access to official documents and historical versions. The platform aims to ground legal AI applications in verifiable primary sources.",
+    "tags": [
+      "agents",
+      "web",
+      "data"
+    ],
+    "enriched": true
+  },
+  {
     "id": "f30512d3a78a",
     "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
     "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
@@ -471,9 +1338,11 @@
     "image_url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Avery-Pawn-Safe-Code-1.jpg",
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
+    "summary": "Players tackling Grand Theft Auto 6 can find extra cash and valuables by cracking the safe during the Avery Pawn Shop robbery. The four-digit code is randomized and must be obtained by intimidating the shop's employees before entering the back office. Once the combination is acquired, players can access the safe located inside the office.",
     "tags": [
-      "tutorial"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "1ae77caeb713",
@@ -494,12 +1363,12 @@
   },
   {
     "id": "d657ffc56dfe",
-    "title": "Should you proceed or postpone when you meet Abe in the Protective Custody mission in GTA 6?",
+    "title": "GTA 6 Protective Custody: Should you choose proceed or postpone when you go to meet Abe?",
     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-protective-custody-choice-proceed-or-postpone-meet-abe/",
     "source": "PC Gamer",
     "section": "gaming",
     "published": "2026-11-21T20:32:43Z",
-    "excerpt": "In the Chapter 5 mission, should you meet with your lawyer now or wait and do it later?",
+    "excerpt": "Meet with your lawyer or wait and do it later?",
     "image_url": "https://cdn.mos.cms.futurecdn.net/7KiM9WgPTcRophKnNZkU8k-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z"
@@ -929,7 +1798,7 @@
     "section": "tech",
     "published": "2026-11-21T18:29:29Z",
     "image_url": "https://pwn.ai/upload2shell-share.png?v=2",
-    "points": 58,
+    "points": 96,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A critical use-after-free vulnerability in Ghostscript's Type 1 font loader, tracked as CVE-2026-125396, allows crafted documents to bypass the -dSAFER sandbox and execute arbitrary commands. The flaw impacts various software ecosystems and applications that handle image and document rendering. Affected vendors and distributions have responded with security updates and patches.",
@@ -1005,7 +1874,7 @@
     "section": "ai",
     "published": "2026-11-21T18:02:19Z",
     "image_url": "https://opengraph.githubassets.com/f446bc816c37cec8f0a2ce83651c3d994f0e9734faef0ca75d51c66c3f07e353/ShinMegamiBoson/lookatmyquant",
-    "points": 289,
+    "points": 401,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new quantization compiler called LookAtMyQuant compresses large language models like Qwen and Inkling-2-Mini to fit stringent memory budgets while minimizing accuracy loss. The tool uses techniques like trellis codes, Fisher information allocation, and distillation. Results demonstrate competitive performance on math and coding benchmarks compared to existing quantization methods.",
@@ -1243,7 +2112,7 @@
     "section": "coding",
     "published": "2026-11-21T17:08:04Z",
     "image_url": "https://jespino.github.io/gopgext/img/social.png",
-    "points": 101,
+    "points": 130,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "The gopgext project enables developers to build PostgreSQL extensions using plain Go code via TinyGo. It automatically generates the required C glue code, control files, and installation scripts. Although experimental and not recommended for production, it supports standard library features, custom data types, and various PostgreSQL extension mechanisms.",
@@ -1523,9 +2392,11 @@
     "image_url": "https://cdn.mos.cms.futurecdn.net/QSYeXFDYmqVX3aynee9h2T-1920-80.jpg",
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
+    "summary": "During Chapter 2 of Grand Theft Auto 6, players undertaking the Avery Pawn Shop robbery can secure extra loot by opening a hidden office safe. By holding up the store and threatening the clerks, players can prompt them to reveal a randomized four-digit combination. Entering this code into the back-room safe successfully unlocks cash and jewellery.",
     "tags": [
-      "tutorial"
-    ]
+      "gaming"
+    ],
+    "enriched": true
   },
   {
     "id": "e90bde27ba3c",
@@ -1769,15 +2640,18 @@
     "title": "Verification files for the Lean proof of the Riemann Hypothesis",
     "url": "https://math.mit.edu/~drew/grh/",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "science",
     "published": "2026-11-21T15:54:34Z",
     "image_checked": true,
-    "points": 75,
+    "points": 106,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
+    "summary": "Researchers have verified the Lean proof of the Riemann Hypothesis using automated tools and independent kernels. Multiple systems successfully compiled and validated the massive archive of modules against the challenge theorems. The verification process confirms the correctness of the mathematical proof without relying on unproven axioms.",
     "tags": [
+      "research",
       "math"
-    ]
+    ],
+    "enriched": true
   },
   {
     "id": "05e6c4bae264",
@@ -1849,7 +2723,7 @@
     "section": "coding",
     "published": "2026-11-21T15:39:09Z",
     "image_url": "https://onurgumus.github.io/zero-csharp/img/social.png?v=2",
-    "points": 112,
+    "points": 143,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new fork of bflat allows developers to compile C# programs directly into native binaries without requiring the .NET runtime or garbage collector. It utilizes memory arenas and a minimal support library to maintain standard C# language features like generics and type checking. The resulting applications can run across multiple platforms, including Linux, macOS, WebAssembly, and DOS.",
@@ -2056,7 +2930,7 @@
     "section": "science",
     "published": "2026-11-21T14:36:45Z",
     "image_url": "https://leanprover-community.github.io/blog/meta-twitter.png",
-    "points": 711,
+    "points": 908,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "The Lean and Mathlib communities have formally verified a 17-million-line proof of the Riemann Hypothesis released by Levent Alpöge. Multiple independent proof checkers and experts confirmed the correctness of both the mathematical statement and its computer-checked code. This milestone opens new avenues for computer-assisted mathematical research and formal verification.",
@@ -2643,7 +3517,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-21T13:23:14Z",
-    "points": 465,
+    "points": 572,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "enriched": true,
@@ -3461,13 +4335,13 @@
   },
   {
     "id": "e3142f2708c0",
-    "title": "My Monitor Was Cutting My Download Speed by 75%",
+    "title": "My monitor was cutting my download speed by 75%",
     "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
     "source": "Hacker News",
     "section": "tech",
     "published": "2026-11-21T10:36:32Z",
     "image_url": "https://blog.tymscar.com/studio-display-ethernet/og-card.png",
-    "points": 83,
+    "points": 533,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "summary": "A user discovered that connecting an Ethernet adapter through a monitor severely throttled their high-speed internet connection. Troubleshooting revealed that the issue involved network drivers and flow control settings between the display's hub and the computer.",
@@ -3717,7 +4591,7 @@
     "section": "coding",
     "published": "2026-11-21T08:32:58Z",
     "image_checked": true,
-    "points": 212,
+    "points": 246,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "summary": "GnuPG has released GPGME version 2.3.1 to address a critical security vulnerability involving a double free bug. The flaw, tracked as CVE-2026-129975, could potentially allow remote code execution through crafted OpenPGP keys. Users are strongly advised to update their libraries immediately.",
@@ -5361,7 +6235,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-20T22:30:47Z",
-    "points": 349,
+    "points": 365,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "enriched": true,
@@ -5552,7 +6426,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-20T22:11:05Z",
-    "points": 83,
+    "points": 202,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "enriched": true,
@@ -6079,16 +6953,20 @@
     "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
     "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "science",
     "published": "2026-11-20T21:03:12Z",
     "image_url": "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026precrop=40:21,offset-x50,offset-y0\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=e108196e90ed29a731e8a7ec890173bf",
     "image_checked": true,
-    "points": 343,
+    "points": 798,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
+    "summary": "A new experimental pill called daraxonrasib has shown promising results in clinical trials for advanced pancreatic cancer, shrinking tumors and halting disease progression in a high percentage of patients. As a KRAS inhibitor, the targeted treatment blocks specific mutations that drive tumor growth, offering renewed hope for one of the deadliest forms of cancer.",
     "tags": [
-      "health"
-    ]
+      "health",
+      "biology",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "1e3e087aba94",
@@ -7437,7 +8315,7 @@
     "section": "science",
     "published": "2026-11-20T18:33:14Z",
     "image_checked": true,
-    "points": 2373,
+    "points": 2400,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "A mathematician shared a proposed proof of the Generalized Riemann Hypothesis by Alessandro Masullo. While initially reviewed by human experts, community members subsequently identified several issues using AI models. The proof remains unverified by the broader mathematical community.",
@@ -7541,7 +8419,7 @@
     "section": "ai",
     "published": "2026-11-20T18:17:51Z",
     "image_url": "https://near.tl/utils/resize/image?cdn=https://cdn.neartail.com/1FAIpQLScjbts-yMOruG0IK47bi0s9ciOCA6pyW7RlmwKwcFIRnw9HUQ/1795197373296/markdown/thumbnail.png\u0026w=1200\u0026h=630",
-    "points": 570,
+    "points": 594,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "Using AI assistants for coding without clear architectural oversight can lead to severe performance bottlenecks. Because language models focus on functional requirements and security, they often make inefficient design choices that compromise application speed. Developers must actively manage architecture rather than relying solely on automated code generation.",
@@ -7992,7 +8870,7 @@
     "published": "2026-11-20T17:21:36Z",
     "image_url": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200\u0026ts=1795217670",
     "image_checked": true,
-    "points": 531,
+    "points": 541,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "Researchers have utilized AI assistance to develop proofs and formalizations for complex mathematical and fluid dynamics problems, including the incompressible Euler and Navier-Stokes equations, as well as the Generalized Riemann Hypothesis. These developments are currently undergoing rigorous community verification and review.",
@@ -8154,7 +9032,7 @@
     "section": "tech",
     "published": "2026-11-20T17:03:39Z",
     "image_url": "https://klauria.tech/klauria-art.jpg",
-    "points": 131,
+    "points": 162,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A developer shares the technical architecture behind a personal art website that combines static site hosting with a dynamic content-management interface. The setup offers the performance benefits of a static site while avoiding manual deployments through automated updates triggered by a custom web UI.",
@@ -8774,7 +9652,7 @@
     "section": "coding",
     "published": "2026-11-20T15:24:11Z",
     "image_url": "/og-image.png",
-    "points": 644,
+    "points": 679,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "Slopstrap is a playful CSS and JavaScript framework designed to give websites the distinct visual aesthetic of AI-generated or hastily vibecoded applications. It offers pre-built components featuring glowing orbs, animated gradients, and status badges.",
@@ -8843,7 +9721,7 @@
     "section": "phones",
     "published": "2026-11-20T15:03:31Z",
     "image_url": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/11/Mozilla_Illustrations_Pixelgram_Arrows_Orange-1082x721.png",
-    "points": 438,
+    "points": 520,
     "weight": 1,
     "first_seen": "2026-11-20T23:37:30.636801737Z",
     "summary": "Despite regulatory pressures from the EU and Japan requiring open browser choices, no developer has successfully launched a non-WebKit browser on iOS. Apple enforces strict compliance conditions, such as requiring separate standalone apps rather than direct updates, which creates prohibitive user friction. Mozilla argues that these rules render genuine browser engine competition practically impossible.",
@@ -9251,7 +10129,7 @@
     "section": "science",
     "published": "2026-11-20T14:16:21Z",
     "image_checked": true,
-    "points": 2854,
+    "points": 2865,
     "weight": 1,
     "first_seen": "2026-11-20T14:49:51.968930094Z",
     "summary": "A PDF document details a claimed proof of the Generalized Riemann Hypothesis. The work has drawn attention from mathematicians and researchers evaluating its validity.",
@@ -18458,6 +19336,19 @@
     ]
   },
   {
+    "id": "3eb9c6b33f38",
+    "title": "Split Radiance Cascades",
+    "url": "https://www.jacktollenaar.top/articles/split-rc.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T14:08:33Z",
+    "image_url": "https://www.jacktollenaar.top/media/images/split-rc-card.png",
+    "image_checked": true,
+    "points": 4,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
     "id": "b7533d9014c3",
     "title": "TUXEDO Computers Unveil AMD-Only InfinityBook Pro 15 Gen11 Linux Laptop",
     "url": "https://9to5linux.com/tuxedo-computers-unveil-amd-only-infinitybook-pro-15-gen11-linux-laptop",
@@ -19375,7 +20266,7 @@
     "source": "InfoQ",
     "section": "coding",
     "published": "2026-11-19T13:00:00Z",
-    "excerpt": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
+    "excerpt": "At QCon San Francisco 2026, Jordan Cutler, senior staff engineer and web platform tech lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
     "image_url": "https://res.infoq.com/news/2026/11/ai-staff-engineer/en/headerimage/generatedHeaderImage-1795089716434.jpg",
     "weight": 1,
     "first_seen": "2026-11-19T15:09:23.204819345Z"
@@ -19656,6 +20547,18 @@
     "tags": [
       "gaming"
     ]
+  },
+  {
+    "id": "339d9b697365",
+    "title": "Unit-testing in the Ü programming language",
+    "url": "https://panzerschrek.github.io/U-00DC-Sprache-site/2026/11/18/unit-testing.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T12:34:54Z",
+    "image_checked": true,
+    "points": 8,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
   },
   {
     "id": "51263f1ff0ce",
@@ -21444,7 +22347,12 @@
     "image_checked": true,
     "points": 46,
     "weight": 1,
-    "first_seen": "2026-11-21T14:06:29.168195557Z"
+    "first_seen": "2026-11-21T14:06:29.168195557Z",
+    "summary": "A technology leader shares an experiment involving the complete prohibition of traditional slide decks in favor of AI-generated interactive web applications for meetings. By replacing static presentations with customized, explorable formats like planetary systems or strategy explainers, teams can communicate complex ideas more effectively. This approach reduces the tedious burden of pixel-pushing formatting while boosting engagement and collaboration among participants.",
+    "tags": [
+      "web"
+    ],
+    "enriched": true
   },
   {
     "id": "7bd7c021a4af",
@@ -23405,6 +24313,17 @@
     "first_seen": "2026-11-18T23:50:23.310588011Z"
   },
   {
+    "id": "c3841840a6d7",
+    "title": "Maak v1.0.0 – infinitely extensible command runner, build sys in Lisp",
+    "url": "https://github.com/jjba23/maak",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-18T23:41:38Z",
+    "points": 3,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
+  },
+  {
     "id": "e4fd712e62fc",
     "title": "Reading the temperature fingerprints of electrocatalytic reactions",
     "url": "https://phys.org/news/2026-11-temperature-fingerprints-electrocatalytic-reactions.html",
@@ -24108,6 +25027,17 @@
       "devtools"
     ],
     "enriched": true
+  },
+  {
+    "id": "a393df9597ee",
+    "title": "Shaping the Loops, Closing the Loops",
+    "url": "https://revyl.com/blog/pattern-engineering/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-18T22:29:04Z",
+    "points": 18,
+    "weight": 1,
+    "first_seen": "2026-11-22T04:50:20.551398663Z"
   },
   {
     "id": "ea7360a8548b",
@@ -28599,7 +29529,7 @@
     "section": "ai",
     "published": "2026-11-18T14:15:58Z",
     "image_checked": true,
-    "points": 163,
+    "points": 214,
     "weight": 1,
     "first_seen": "2026-11-21T14:06:29.168195557Z",
     "tags": [
@@ -28691,7 +29621,7 @@
     "published": "2026-11-18T14:07:09Z",
     "image_url": "https://levineuwirth.org/og-image.png",
     "image_checked": true,
-    "points": 79,
+    "points": 102,
     "weight": 1,
     "first_seen": "2026-11-19T15:09:23.204819345Z"
   },
@@ -28927,6 +29857,8 @@
     "section": "tutorials",
     "published": "2026-11-18T14:00:00Z",
     "excerpt": "Learn how to combine data in pandas with merge(), .join(), and concat(), and when to use each one to unify your Series and DataFrame objects.",
+    "image_url": "https://files.realpython.com/media/Merging-Joining-and-Concatenating-in-Pandas_Watermarked_1.e45698a508a4.jpg",
+    "image_checked": true,
     "weight": 1,
     "first_seen": "2026-11-19T15:09:23.204819345Z",
     "tags": [
@@ -31726,6 +32658,8 @@
     "section": "tutorials",
     "published": "2026-11-18T07:09:48Z",
     "excerpt": "Go Module Verification Has a Private-Module Blind Spot Go's module system uses go.sum files and the public checksum database to make repeated downloads of a module version reproducible. A downloaded module can be checked against a recorded hash, and the checksum database supplies a signed, append-only record for public modules. The model is strong for public dependencies. It becomes more nuanced w…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffj69qkf8lji2j1vtd5x7.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T15:00:20.92166103Z",
     "tags": [
@@ -31740,6 +32674,8 @@
     "section": "tutorials",
     "published": "2026-11-18T07:00:20Z",
     "excerpt": "💡 Originally published on Bijak Technology Enterprise Journal with full interactive parameter benchmarks. At 02:30 AM, production metrics on our modular monolith system suddenly spiked. The memory consumption graph in our monitoring dashboard showed an unrelenting upward linear curve, culminating in pod crashes driven by the Out-Of-Memory (OOM) Killer. The root cause was not a traditional heap mem…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1621761191319-c6fb62004040%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1200%26h%3D675%26q%3D80",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T15:00:20.92166103Z",
     "tags": [
@@ -33932,6 +34868,8 @@
     "section": "tutorials",
     "published": "2026-11-17T22:28:52Z",
     "excerpt": "I run language models at home on a mid-range NVIDIA card. A 9B-class hybrid model still asks for more memory than a lot of cards have if you load full-precision (or even comfortably quantized) weights all at once. Off-the-shelf servers are excellent when the model fits. I wanted a path that still works when it does not: measure free VRAM, keep as many layers resident as that budget allows, and str…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqo490c1sts78e793svtc.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -33947,6 +34885,8 @@
     "section": "tutorials",
     "published": "2026-11-17T22:26:56Z",
     "excerpt": "I work from a phone more often than I would like to admit. Most mobile AI apps I tried were front-ends: one provider, a prompt box, maybe a document picker. As soon as I needed a shell on a VPS, a file on the phone, an MCP server at home, or the ability to tap something in another app, I was back at a computer. So I built an AI app for Android. ForgeMind is a native Kotlin + Jetpack Compose app. I…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6yya0fv2g6wchgedcmrq.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -33979,6 +34919,8 @@
     "section": "tutorials",
     "published": "2026-11-17T22:23:33Z",
     "excerpt": "To replay recorded agent traces against a different model, use teacher-forced replay. Record each production run in full, including every tool result. Then send the new model the recorded context one round at a time, execute no tools, and compare the tool calls it makes in each round with the ones the original model made. This post covers why rerunning the agent does not work, the method step by s…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiv49825oo1po3ui1d74e.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -34337,6 +35279,8 @@
     "section": "tutorials",
     "published": "2026-11-17T21:51:40Z",
     "excerpt": "Originally published on Litmiq . Updated 13 November 2026. Sources on that page were read the same day. OpenAI Evals became read-only on 31 October 2026 and is scheduled to shut down on 30 November 2026 (dashboard, API, and graders for eval workflows). OpenAI recommends migrating to Promptfoo. Dates and wording should be checked against OpenAI's deprecations page , which is authoritative if anythi…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Flitmiq.com%2Fog-image.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -34469,6 +35413,8 @@
     "section": "tutorials",
     "published": "2026-11-17T21:39:03Z",
     "excerpt": "Reducing integration work is useful only if the notification system still remembers which recipients it must stop contacting. TL;DR: retrieve SMS status events by message ID, keep recipient suppression as an explicit application decision, and evaluate the account-to-email-to-SMS handoff before choosing a provider stack. A successful request is evidence that an API answered; it isn't proof that a w…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk76jnppsrjiehyrb6y35.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -35020,6 +35966,8 @@
     "section": "tutorials",
     "published": "2026-11-17T19:59:35Z",
     "excerpt": "A property management company's production mail should keep reaching its provider while the platform team rehearses an MX change. In a hypothetical alert, the on-call sees a failed mail-delivery check for the company domain, followed by a staging deployment in the change timeline. The least complex acceptable arrangement depends on who can write: a reviewed staging subdomain can suffice for one te…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9nv4zpesmr3pwtk1i7ae.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -35324,6 +36272,8 @@
     "section": "tutorials",
     "published": "2026-11-17T19:21:55Z",
     "excerpt": "I maintain a free book, Networking with Go, Made Easy , that ships as a web reader, a PDF and an EPUB from the same Markdown sources. The web reader renders Mermaid diagrams in the browser. The PDF did not: it printed 25 blocks of flowchart TB and sequenceDiagram as literal source code. This is the story of the build step that fixed it, including the parts that were not obvious. Three constraints,…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5fd5ogx2438v4sx22553.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -35369,6 +36319,8 @@
     "section": "tutorials",
     "published": "2026-11-17T19:15:19Z",
     "excerpt": "Short answer: use a presigned URL for a tenant's export, and make its expiry short enough that the link is a delivery token rather than a second access-control system. The storage service creates the URL from the bucket, object key, and requested expiry. Your application still owns tenant authorization, region and retention decisions, deletion policy, and the audit trail. That division is the oper…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsdaqpqkor6zppfwnrrn1.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -35626,6 +36578,8 @@
     "section": "tutorials",
     "published": "2026-11-17T18:48:22Z",
     "excerpt": "Use a CNAME record for each marketplace tenant subdomain, and keep apex addresses in a separate rollback inventory. Move the shared target only after you can compare the published records with an approved intent snapshot and restore the previous target. Keep the old destination available through the rollback window. Short answer: use CNAME records for tenant subdomains so infrastructure changes ha…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqqvdf8091wm2y0o3to0u.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-18T00:26:54.974293163Z",
     "tags": [
@@ -37682,7 +38636,7 @@
     "section": "ai",
     "published": "2026-11-17T15:08:54Z",
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/species-in-tropical-ra.jpg",
-    "points": 33,
+    "points": 46,
     "weight": 1,
     "first_seen": "2026-11-17T15:26:36.993250725Z",
     "tags": [
@@ -39128,6 +40082,8 @@
     "section": "tutorials",
     "published": "2026-11-17T13:54:07Z",
     "excerpt": "A flag that was parsed but never passed along, and a test that proves it now reaches the importer. Short answer Plakar's backup -no-xattr flag was accepted but never passed to the importer, so Plakar still read extended attributes. On filesystems that don't support them, such as Proxmox's FUSE-mounted /etc/pve , files failed with \"operation not supported\". The fix copies the flag into the importer…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyn5kuyoral2gpah4b30a.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T15:26:36.993250725Z"
   },
@@ -39139,6 +40095,8 @@
     "section": "tutorials",
     "published": "2026-11-17T13:53:41Z",
     "excerpt": "A bug open since 2022, fixed with one guard and two regression tests. Short answer When okteto destroy ran, it updated the dev environment's ConfigMap with a status but no manifest, which overwrote the stored yaml field with an empty value. If the destroy then failed, a retry no longer knew which destroy commands to run. The fix only writes the yaml field when the caller actually provides manifest…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2ccnteqwvw0eg8yrla7b.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T15:26:36.993250725Z"
   },
@@ -39150,6 +40108,8 @@
     "section": "tutorials",
     "published": "2026-11-17T13:52:56Z",
     "excerpt": "Moving an apply-time SQL error to a plan-time validation error, in a two-year-old issue. Short answer The materialize_source_kafka resource let you set format together with key_format , which Materialize does not accept, so terraform apply failed with a SQL syntax error. The fix adds ConflictsWith and RequiredWith rules to the schema, so Terraform rejects invalid combinations during plan. It was m…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9yohzg4id6o5w2g0m4pk.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T15:26:36.993250725Z"
   },
@@ -39161,6 +40121,8 @@
     "section": "tutorials",
     "published": "2026-11-17T13:52:18Z",
     "excerpt": "An htmx swap mode, and a validation path that rendered the wrong form. Short answer In IOTA SDK's CRM, after saving a client card the Save button stayed on screen, and clicking it again reverted the changes. Update responses were swapped into the card's inner HTML, leaving the old form wrapped around the new read-only card. The fix sends HX-Reswap: outerHTML with each update response. It also corr…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flakdne3fwps14299sh7h.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T15:26:36.993250725Z",
     "tags": [
@@ -39175,6 +40137,8 @@
     "section": "tutorials",
     "published": "2026-11-17T13:52:12Z",
     "excerpt": "A Go templating fix for date inputs that came up blank. Short answer In IOTA SDK, date fields on edit pages didn't show the value stored in the database. The date field only rendered its default, and the datetime-local field passed a raw time.Time as an attribute value. The fix uses the stored value when present and formats it in the layout HTML expects. It was merged as PR #1031 and closed issue…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ilor01wgka481jyjsr8.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T15:26:36.993250725Z",
     "tags": [
@@ -43539,6 +44503,8 @@
     "section": "tutorials",
     "published": "2026-11-16T21:12:29Z",
     "excerpt": "Gate a property report email on current account and suppression state, then use delivery status polling for secondary SMS event notification alerts. A generated attachment is the business requirement; an accepted send request is only one checkpoint toward meeting it. Country guardrails and a per-user rate limit belong before dispatch. Short answer: keep the report dispatch record in your applicati…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8bdt71vrq9jeps2nz3jb.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z"
   },
@@ -44750,6 +45716,8 @@
     "section": "tutorials",
     "published": "2026-11-16T18:38:39Z",
     "excerpt": "A web search API returning nothing for a niche query usually means the phrasing is too narrow, not that the request failed. Remove quoted operators, shorten long exact phrases, and retry in controlled steps. Test the same wording in a browser before paging the API owner. In a fintech news digest that detects near-duplicate records semantically, an empty result is also a valid outcome: the topic ma…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F37m0bslyix7aoyiqgi9y.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z",
     "tags": [
@@ -44886,6 +45854,8 @@
     "section": "tutorials",
     "published": "2026-11-16T18:25:40Z",
     "excerpt": "If most of your deployment experience comes from platforms like Render, Railway, or Vercel, your mental model of \"deploying\" probably looks like this: Push your code to GitHub. Paste some environment variables into a clean dashboard. Watch a build log scroll by for three minutes. Click a *.onrender.com URL that already has HTTPS. It's fast, predictable, and asks you to know almost nothing about wh…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fttoh9znwv0ca54fuj9dx.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z",
     "tags": [
@@ -45137,6 +46107,8 @@
     "section": "tutorials",
     "published": "2026-11-16T17:51:17Z",
     "excerpt": "A gaming signup flow needs evidence that the player completed verification; an SMS delivery status cannot establish that fact. Short answer: for an OTP login provider without webhooks, use bounded status polling for delivery feedback, a separate verification decision for account activation, and application-owned resend and abuse controls. For a signup verification link delivered by email, keep the…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fos0bzb065sh4tbk9hji0.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z",
     "tags": [
@@ -45245,6 +46217,8 @@
     "section": "tutorials",
     "published": "2026-11-16T17:33:37Z",
     "excerpt": "In my last article I wrote an unnecessary JOIN by hand to see what it cost. That test came from a worry: after a long time of letting GORM write my SQL, I didn't trust myself to write it efficiently. I ended that article with a promise to check the other half of the worry, which was my assumption that GORM's own SQL is efficient. So I took the same task and wrote it three ways in GORM. The version…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0pd2q5h4sicntqru95og.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z"
   },
@@ -45284,6 +46258,8 @@
     "section": "tutorials",
     "published": "2026-11-16T17:30:48Z",
     "excerpt": "Send a gaming order receipt only after payment settles, and keep the approved template version under application ownership before choosing a bulk SMS alerts API. The deciding constraint is who can receive, retain, and delete the player's contact data and rendered receipt across US and EU processing boundaries. A shared credential makes integration easier; it does not settle those questions. Short…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7fxxrdvx4fv4zrbnhp98.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-17T01:29:34.873513277Z",
     "tags": [
@@ -48998,6 +49974,8 @@
     "section": "tutorials",
     "published": "2026-11-16T09:25:41Z",
     "excerpt": "I work on a cloud telephony product ReceptionMonk . One feature lets a business owner upload their own audio for the phone menu: \"Press 1 for sales, press 2 for support.\" Those files end up on the telephony server and play to every caller. That means a stranger can send a file that lands on a server that talks to the phone network. So every upload goes through a virus scanner before it is stored.…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy5g6r3s1vy5axs2dhkd2.png",
+    "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-16T14:37:42.517808627Z",
     "tags": [
@@ -161160,18 +162138,5 @@
       "ios"
     ],
     "enriched": true
-  },
-  {
-    "id": "6430909168b5",
-    "title": "Does Your Model Run on AWS Trainium? Look It Up",
-    "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-    "source": "Hugging Face Blog",
-    "section": "ai",
-    "published": "2026-10-23T00:00:00Z",
-    "weight": 1,
-    "first_seen": "2026-11-02T16:31:43.526468419Z",
-    "tags": [
-      "cloud"
-    ]
   }
 ]
