@@ -1,5 +1,1114 @@
 [
   {
+    "id": "7f1801c74a75",
+    "title": "同题对照之后，有些场景可以选择 AmendAQ",
+    "url": "https://dev.to/zealot2002/tong-ti-dui-zhao-zhi-hou-you-xie-chang-jing-ke-yi-xuan-ze-amendaq-1dhk",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T05:19:15Z",
+    "excerpt": "同题对照之后，有些场景可以选择 AmendAQ 系列：AmendAQ, a better RAG?（3/3） 上一篇： AmendAQ 在 mycs 里是一本可以改的问答 可以选择。场景要收窄：一次一本制度，几十到两百条可以单独改的问答，用户问的是义务、数字、拒答，或者要把两三条规定合在一起。在这个范围里，AmendAQ 和一条认真实现的传统 RAG、以及 LightRAG，准确率在同一档。AmendAQ 多出来的是发布前就把话说死，以及改一条不用重建索引。 它没有在对照里全面更高。传统 RAG 更快，输入 token 更少。库一长，AmendAQ 的拒答会松。下面按两次实测写，先写结论能用在哪，再写它输在哪。 这不是公开基准上的冠军榜。对照只锁了一条传统管线，外加 LightRAG 1.5.8。GraphRAG 没有跑：整库抽取贵，而且那个项目目前基本是维护模式。 怎么比才算同一道题 语…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl5omuh0arbl2m038ly51.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "197a7eecee70",
+    "title": "AmendAQ 在 mycs 里是一本可以改的问答",
+    "url": "https://dev.to/zealot2002/amendaq-zai-mycs-li-shi-ben-ke-yi-gai-de-wen-da-539",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T05:18:15Z",
+    "excerpt": "AmendAQ 在 mycs 里是一本可以改的问答 系列：AmendAQ, a better RAG?（2/3） 上一篇： 如果一条制度可以改完就生效，还要先向量化吗 AmendAQ 是这套做法的名字。 mycs 是它的实现：上一篇的原型收成一条能发布、能提问、能核对的路径。知识单位就是已发布的 AQ。提问时不做向量检索。 一次命中的问题，模型通常只做两件事：看着标题勾编号，再看着勾中的正文写答复。中间取正文、空列表停住、对照原文核对，都是程序。 已选知识库 ↓ 已发布 AQ：编号、标题、摘要（每批最多 200 条，批批都走完） ↓ 模型只返回编号 ↓ 按编号取出答案全文 ↓ 只根据这些全文写答复 ↓ 规则核对；碰到有上限的数量，由程序算 没发布的，模型看不见 导入或新建的问答先是草稿。问答只读已发布的条目。一条可以单独改：标题、摘要、正文、发布状态。保存成已发布之后，下一问才会把它算进候…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg9i48809wx9ih0g1dvux.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "913a0aee2c4c",
+    "title": "如果一条制度可以改完就生效，还要先向量化吗",
+    "url": "https://dev.to/zealot2002/ru-guo-tiao-zhi-du-ke-yi-gai-wan-jiu-sheng-xiao-huan-yao-xian-xiang-liang-hua-ma-501b",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T05:18:11Z",
+    "excerpt": "如果一条制度可以改完就生效，还要先向量化吗 系列：AmendAQ, a better RAG?（1/3） 员工手册把年假结转上限从 20 天改成 30 天。运营要的动作很具体：打开那一条，改一个数字，保存。下一问就按 30 天答。 向量检索要的动作是另一套。这句话落在哪几个切片里，重叠窗口有没有把旧数字再带出来，嵌入是不是还指着上一版，都得重新走一遍。改的人面对的不是一条制度，而是一库浮点。 这篇从 RAG 怎么走到今天讲起，停在一个还没被检索技巧消化掉的问题上：企业要维护的往往是一条可以指认、可以改掉的问答，而向量化交出来的是一段看起来像的文本。后面把这种问答叫做 AQ 。逐条修订、按编号作答的做法叫做 AmendAQ ：要改的是某一条，打开它，改定，发布。问号留到第三篇，用同一套题再回答。 RAG 每一代都在补「找不到」 第一代把文档切成固定长度的块，嵌进向量库，取得分最高的几段，交给…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhq7zhe15xxlw3zucdzy0.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "613c6d5290b0",
+    "title": "Marches \u0026 Gnats programming challenges",
+    "url": "https://mng.quest/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-23T05:12:52Z",
+    "excerpt": "Comments",
+    "image_url": "https://mng.quest/static/img/og_image.6be84c239f1b.jpg",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "069de2a3a729",
+    "title": "Robot submarine exploring world's deepest ocean trench finds unprecedented volcanic activity",
+    "url": "https://phys.org/news/2026-11-robot-submarine-exploring-world-deepest.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-23T05:00:02Z",
+    "excerpt": "Fifty-two million years ago, the Pacific tectonic plate began to slide under the Philippine Sea plate, forming the Mariana Trench, the deepest known valley on the Earth's ocean floor. The deepest part of this abyss, the Challenger Deep, is almost 11,000 meters (36,000 feet) below sea level. But why is it so deep? Scientists trying to answer this question sent a remotely operated vehicle to collect…",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/robot-submarine-explor.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "9869cbd73483",
+    "title": "Seller Order Email: How to Diagnose API Timeouts Before Retrying",
+    "url": "https://dev.to/ironspiredraven77/seller-order-email-how-to-diagnose-api-timeouts-before-retrying-fhf",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T05:00:01Z",
+    "excerpt": "Keep seller notification templates under a named owner, preserve the original send intent, and investigate an email API response timeout before replaying the order notification. The deciding constraint is uncertainty: a client that stopped waiting cannot establish whether the provider accepted the message. TL;DR: Check connectivity, set explicit request deadlines, and reconcile the original attemp…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fef4l3711gyijdbdrwb34.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "036e80097ea4",
+    "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+    "url": "https://arxiv.org/abs/2611.26663",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference. Two…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "0d97de254e8e",
+    "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+    "url": "https://arxiv.org/abs/2611.26910",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26910v1 Announce Type: new Abstract: LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge question answering (QA), and episodic memory, but a correct answer does not show that the agent ever observed the…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "3433b5b74f58",
+    "title": "Self-similar Organization of Information in Language",
+    "url": "https://arxiv.org/abs/2611.26935",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26935v1 Announce Type: new Abstract: How much information relevant to predicting the future of a passage (i.e. predictive information) is carried by the preceding text, and how is this information distributed along that history? These questions are fundamental to understanding both the statistical structure of language and what large language models (LLMs) can learn about it. Indeed, LL…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "392b2bf540dc",
+    "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
+    "url": "https://arxiv.org/abs/2611.26870",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26870v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in socially consequential settings, where they must distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Most fairness benchmarks evaluate demographic discrimination under a single reasoning objective, and none we know of tests whether…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "397a58d08f7e",
+    "title": "Keep the Process, Change the Supplier: Runtime Governance for Tool-Using AI Agents",
+    "url": "https://arxiv.org/abs/2611.26966",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26966v1 Announce Type: new Abstract: Tool-using AI agents propose actions whose authorization and external effects cannot be inferred from generated text alone. We study an execution boundary that separates agent proposals from business-controlled authority, context disclosure, and supplier selection. The Open Process Control Plane (OPCP) mediates capability calls and records uncertain…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "5ab33db9554f",
+    "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+    "url": "https://arxiv.org/abs/2611.26912",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26912v1 Announce Type: new Abstract: The growing complexity of electronic systems demands efficient design flows, yet EDA scripting remains a bottleneck: proprietary APIs are sparsely documented, and errors often appear as silent failures or cryptic exceptions. Hand-crafted knowledge helps but is difficult to maintain as toolchains evolve. We present ZhuLong-SE (Self-Evolution), an exec…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "biology"
+    ]
+  },
+  {
+    "id": "692a19875bb6",
+    "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+    "url": "https://arxiv.org/abs/2611.26906",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26906v1 Announce Type: new Abstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes attempts on subgoals that require stronger models. We present BudgetPV, an agentic budget-aware pred…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "agents",
+      "math"
+    ]
+  },
+  {
+    "id": "7b900895fb88",
+    "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+    "url": "https://arxiv.org/abs/2611.26797",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26797v1 Announce Type: new Abstract: Generative models now write working code, produce realistic images, and hold long conversations, yet the mechanisms behind their intelligence still evade our understanding. This thesis explores that puzzle through Associative Memory (AM), in which patterns are stored as energy minima and retrieved through attractor dynamics. Beyond their capacity, AM…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "energy"
+    ]
+  },
+  {
+    "id": "7ccc51f7d59b",
+    "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+    "url": "https://arxiv.org/abs/2611.26722",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing the correct call, but never contrasts it with a plausible incorrect one. In an environment where even a minor form…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "967eeb51cb75",
+    "title": "Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs",
+    "url": "https://arxiv.org/abs/2611.26968",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26968v1 Announce Type: new Abstract: A financial report drafted by an LLM can state every number correctly but still go beyond its input, adding judgments and causes that no one supplied. We call these additions unsupported framing and find them far more often in LLM drafts than in reports written by proInput facts Revenue +3% Higher prices 10-K filings Revenue increased 3% on higher pr…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "c8d198630fcb",
+    "title": "CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory",
+    "url": "https://arxiv.org/abs/2611.26942",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26942v1 Announce Type: new Abstract: As AI agents ship more code with minimal human oversight, code review becomes the critical quality-control checkpoint -- but one without a reliable, objective verifier: review quality is nuanced and ultimately a judgment call by the PR author. Existing benchmarks are structurally misaligned with this: annotators are third-party reviewers, like the bo…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "d55ff3b0f9c3",
+    "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+    "url": "https://arxiv.org/abs/2611.26717",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26717v1 Announce Type: new Abstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded. We study an alternative paradigm, generation by simulation: rather than describing a relational artifact, we simulate a process…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "d63805c1edc2",
+    "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+    "url": "https://arxiv.org/abs/2611.26782",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results wit…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "agents"
+    ]
+  },
+  {
+    "id": "e212b1020568",
+    "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H\u0026E and mIF",
+    "url": "https://arxiv.org/abs/2611.26794",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26794v1 Announce Type: new Abstract: Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H\u0026E with cell phenotypes from multiplex immunofluorescence (mIF). Multimodal large language models (MLLMs) could automate these readouts with an explanation, but two gaps remain. Patholo…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "f9653447a3f8",
+    "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
+    "url": "https://arxiv.org/abs/2611.26903",
+    "source": "arXiv cs.AI",
+    "section": "ai",
+    "published": "2026-11-23T05:00:00Z",
+    "excerpt": "arXiv:2611.26903v1 Announce Type: new Abstract: Partial-edit deepfake localization aims to identify manipulated regions within otherwise authentic speech. Recent systems report strong overall results, but aggregate scores do not reveal whether this performance holds across different editing conditions. In this work, we present an edit- and generator-conditioned analysis of Segment-Aware Localizati…",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "image_checked": true,
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "c544d9f327f1",
+    "title": "schemagate: 91% fewer schema tokens for text-to-SQL, and only the tables the caller may read",
+    "url": "https://dev.to/ashish_sinha_5241c7673d93/schemagate-91-fewer-schema-tokens-for-text-to-sql-and-only-the-tables-the-caller-may-read-1df5",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:52:38Z",
+    "excerpt": "Text-to-SQL prompts usually carry the whole database schema, and pay for it on every question. schemagate sends the model only the tables a question needs, and only the ones the person asking may read. 91% fewer schema tokens on real warehouses (Spider 2.0, databases with 50+ tables, median) #1 on UniQL Oracle: 64.93%, ahead of Claude-4.5-Sonnet (49.61) #1 on BIRD Mini-Dev Legacy: SQLite 81.0 · My…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe797or8kkznot5xms2rt.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "prompting"
+    ]
+  },
+  {
+    "id": "0ee8d5a71c09",
+    "title": "Mass destruction of weapons",
+    "url": "https://computer.rip/2026-11-22-mass-destruction-of-weapons.html",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-23T04:47:35Z",
+    "image_url": "https://computer.rip/static/img/chem/1.jpg",
+    "points": 3,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "This article explores the history and management of chemical, biological, and nuclear weapons, commonly known as weapons of mass destruction. It discusses the 1993 Chemical Weapons Convention and the subsequent efforts to safely dismantle vast military stockpiles in the United States. The text also touches on past safety incidents involving hazardous compounds and the evolution of atmospheric plume forecasting models to assess risks.",
+    "tags": [
+      "research",
+      "safety",
+      "policy"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "f8cdb70dcad3",
+    "title": "How to Audit Node.js SMS Delivery and Email Fallback Retry Decisions",
+    "url": "https://dev.to/carterhughes6853/how-to-audit-nodejs-sms-delivery-and-email-fallback-retry-decisions-2nlf",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:46:38Z",
+    "excerpt": "Fast alerts and defensible records compete for attention; settle that trade-off by making the escalation decision auditable before optimizing channel delivery. TL;DR: for urgent US/EU travel itinerary changes, send SMS first, poll its delivery status, and fall back to email when the SMS is undelivered, the number is suppressed, or an application-owned deadline expires. Bind the generated logistics…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3zq9l2tv12slxyd2hguf.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "javascript",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "284af2b9cc6a",
+    "title": "OpenRouter Pulled 125 Endpoints From Zero Data Retention. 5 Changes to Make in Your LLM Calls This Week",
+    "url": "https://dev.to/toolbit_ai/openrouter-pulled-125-endpoints-from-zero-data-retention-5-changes-to-make-in-your-llm-calls-this-2ngh",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:46:24Z",
+    "excerpt": "Three disclosures landed within four days, and together they're the best argument I've seen this year for looking at what actually goes into your LLM prompts. 19 November: Dragos published research in which it sent about two million prompts seeded with canary credentials (AWS keys, URLs, git and SSH targets) to AI providers between July and November, then watched what happened to them. 21 November…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faj23ag7moquys79fbr6o.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "prompting",
+      "cloud"
+    ]
+  },
+  {
+    "id": "255a6b3bbb8f",
+    "title": "Sarvam-105B-1711 Brings Sharper Indian-Language Agents at a Third of the Cost",
+    "url": "https://dev.to/rohan_techofficial_81a0f/sarvam-105b-1711-brings-sharper-indian-language-agents-at-a-third-of-the-cost-p5k",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:44:53Z",
+    "excerpt": "Originally published at https://rohantechofficial.com/tech-news/sarvam-105b-1711-indian-language-agents/ Sarvam-105B-1711 Brings Sharper Indian-Language Agents at a Third of the Cost Sarvam AI released Sarvam-105B-1711 on 22 November 2026, a new open-weight checkpoint of its 105B model. It's a 105-billion-parameter mixture-of-experts model with 10.3B active parameters, released under Apache 2.0, w…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdgd1xykzcomn3ax3sred.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "c3cfd64374d5",
+    "title": "China Telecom Open-Sources Xing4.1-Preview — a 285B Model Trained Without a Single Nvidia Chip",
+    "url": "https://dev.to/rohan_techofficial_81a0f/china-telecom-open-sources-xing41-preview-a-285b-model-trained-without-a-single-nvidia-chip-4mfa",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:43:56Z",
+    "excerpt": "Originally published at https://rohantechofficial.com/tech-news/china-telecom-xing4-1-preview-open-weights/ China Telecom Open-Sources Xing4.1-Preview — a 285B Model Trained Without a Single Nvidia Chip China Telecom has released the open weights for Xing4.1-Preview, a 285-billion-parameter model from its Xingchen AGI Lab. The release arrived on 23 November 2026, and the detail that stands out is…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fztkckir9qa18fm1nmdjd.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "chips"
+    ]
+  },
+  {
+    "id": "7431d44aa3ce",
+    "title": "The AI Weekend Effect",
+    "url": "https://dev.to/bamboohat/the-ai-weekend-effect-5968",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:37:18Z",
+    "excerpt": "Three counterintuitive findings from 35 days of data On Friday evening, the office lights go out floor by floor. By Saturday, the elevators are quieter and the café downstairs opens a little later. If AI had a schedule, would it take the weekend off too? It does — but not in the way you might think. Spread 35 days of daily usage data on the table and split it into weekdays and weekends, and three…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3uv81n1ekm8ayl75ehgv.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "50b591297dae",
+    "title": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
+    "url": "https://www.facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-23T04:31:32Z",
+    "points": 10,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "e6efd28aae94",
+    "title": "[Boost]",
+    "url": "https://dev.to/pixel_nomad1856/-3kjb",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:31:12Z",
+    "excerpt": "ContinumAI: The Memory That Survives When the Model Changes Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Submission 👻🌼 Abhishek Gupta Abhishek Gupta Abhishek Gupta Follow Oct 29 ContinumAI: The Memory That Survives When the Model Changes # hf26challenge # ai # opensource # devchallenge 5  reactions 13  comments 4 min read",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4169405%2Fe17c5fd5-1777-477e-bf4c-b8eec035044b.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "open-source"
+    ]
+  },
+  {
+    "id": "1a97f8573a16",
+    "title": "Can AI Understand? Beyond the Turing Test",
+    "url": "https://dev.to/tramonique/can-ai-understand-beyond-the-turing-test-2lg1",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:30:46Z",
+    "excerpt": "When I ask a large language model (LLM) a question, it gives me a sensible response. Suppose I ask it to explain recursion, and if I am still confused, I ask for a simpler explanation. It accepts the request and adjusts its response. Is it understanding my request and recursion, or is it just producing convincing answers? Turing (1950) proposed that a machine can be considered intelligent if a hum…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Figuvcqfucgr44jr9jqoi.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "cb167a27c0b4",
+    "title": "Samsung may shift Galaxy Watch to a two-year launch cycle",
+    "url": "https://www.gsmarena.com/samsung_may_shift_galaxy_watch_to_a_twoyear_launch_cycle-news-75587.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-23T04:30:01Z",
+    "excerpt": "According to a new report from South Korea, Samsung may skip launching a new Galaxy Watch lineup next year and shift to a two-year release cycle. The company has followed an annual launch schedule since introducing the first Galaxy Watch in 2018. The report, citing industry sources, claims that Samsung Electronics' Mobile eXperience (MX) division has reportedly been facing losses for the past two…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/samsung-galaxy-watch-two-year-launch-cycle-report/-184x111/gsmarena_00.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Samsung is reportedly considering shifting its Galaxy Watch lineup to a two-year release cycle following sluggish sales and profitability challenges in its mobile division. Instead of launching a new watch series next year, the company plans to focus on software updates and introduce a new fitness tracker. Additionally, Samsung may scale back production of mid-range smartphones to concentrate on higher-end models.",
+    "tags": [
+      "mobile"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "dac8911c3dba",
+    "title": "Your RAG chunks forgot where they came from: add context before you embed them (Contextual Retrieval)",
+    "url": "https://dev.to/m_t_ramkrushna/your-rag-chunks-forgot-where-they-came-from-add-context-before-you-embed-them-contextual-3o7n",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:22:40Z",
+    "excerpt": "Monday AI Insight. One practical RAG lesson: a chunk that makes sense inside its document can be useless on its own. Before you embed it, tell it where it came from. The problem: chunking strips context Most RAG pipelines split documents into chunks of a few hundred tokens, embed each chunk, and (if you are doing hybrid search) index the same chunks with BM25. Each chunk is now searched alone. Ant…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fieagufdv3fo1yz754sxn.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": "794687c6d1bb",
+    "title": "Clair Obscur: Expedition 33 ‘A Painted Symphony’ Officially Returns in 2027",
+    "url": "https://www.polygon.com/clair-obscur-expedition-33-painted-symphony-2027-dates-locations/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T04:06:17Z",
+    "excerpt": "Clair Obscur: Expedition 33's acclaimed Painted Symphony concert series is getting a world tour in 2027",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/clair-obscur-expedition-33-esquie.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "555389bdae36",
+    "title": "Read Both Bodies and the Loudest Issue Wins",
+    "url": "https://dev.to/aheadkit/read-both-bodies-and-the-loudest-issue-wins-4le5",
+    "source": "dev.to (LLM)",
+    "section": "tutorials",
+    "published": "2026-11-23T04:00:00Z",
+    "excerpt": "The helper reads the docs issue first. Issue 390, the README with the wrong flag, two sentences in, the answer sitting right there in the trimmed list. Then it reads the crash issue. Issue 412, the config file crash, four comments, the loudest report in the set. Then it answers 412. That is the moment this piece is about. Not a wrong answer from too little information — the helper had the right is…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F87bycvv0drlpbwxjppyi.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "35cfea2e7f27",
+    "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+    "url": "https://github.com/AFK-surf/xnulinux",
+    "source": "Hacker News",
+    "section": "linux",
+    "published": "2026-11-23T03:49:24Z",
+    "image_url": "https://opengraph.githubassets.com/714bca9fc24c46908cf5565175d83804ffa8e9529c7dafc62a73f0f92f4ef124/AFK-surf/xnulinux",
+    "points": 72,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "A novel project allows users to run the macOS XNU kernel and userspace directly on top of an unmodified Linux kernel. By loading XNU as a kernel module, macOS processes execute natively alongside Linux tasks without a hypervisor. The system utilizes a foreign kernel interface to share resources like memory, networking, and graphics.",
+    "tags": [
+      "linux",
+      "kernel",
+      "hardware"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "089c74914d69",
+    "title": "YouTube is cooking up 7 new app icons, and the retro designs are a treat",
+    "url": "https://www.androidauthority.com/youtube-new-app-icons-3737984/",
+    "source": "Android Authority",
+    "section": "phones",
+    "published": "2026-11-23T03:48:49Z",
+    "excerpt": "Remember the old YouTube TV icon? It could soon return to your home screen.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2024/02/YouTube-TV-logo-on-smartphone-stock-photo-3.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "4a822ee0659c",
+    "title": "Go Gaming API Calls Refused by Budget Cap Boundaries and Quota Controls",
+    "url": "https://dev.to/alariccross6851/go-gaming-api-calls-refused-by-budget-cap-boundaries-and-quota-controls-3kn",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T03:40:01Z",
+    "excerpt": "Retrying keeps transient refusals from becoming incidents, but retrying against an exhausted spending allowance only adds noise. TL;DR: read the budget and usage first, compare them over the same period, and separate a reached cap from a quota problem before changing credentials or increasing concurrency. For a gaming backend with a prepaid balance, alert on remaining headroom early enough for a h…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4mpc70yw5b52f79hqwil.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "gaming",
+      "go"
+    ]
+  },
+  {
+    "id": "d3701af5a61a",
+    "title": "The New Docker: Built to Run on Trust",
+    "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-23T03:34:29Z",
+    "image_url": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png",
+    "points": 19,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Docker is introducing a rebrand and strategic shift to address the security and governance challenges brought by autonomous AI agents. While maintaining its core tools for traditional software containers, the company aims to adapt its ecosystem for agentic workflows.",
+    "tags": [
+      "agents",
+      "security",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "77bd31f8da5b",
+    "title": "Good morning and welcome to my idea of a new web",
+    "url": "https://dave.writersweb.org/index.md",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-23T03:15:06Z",
+    "excerpt": "Comments",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "c1224af28569",
+    "title": "De-fanging dangerous triggers in GitHub Actions across an organization",
+    "url": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-23T03:02:13Z",
+    "excerpt": "Comments",
+    "image_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/psf/grants/report-2006-10/psf-logo.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "690604fb40c5",
+    "title": "Robert Pattinson's Forgotten Dark Fantasy Thriller Proves He's a Perfect James Bond",
+    "url": "https://www.polygon.com/the-lighthouse-robert-pattinson-james-bond/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T03:00:27Z",
+    "excerpt": "The Lighthouse, which is available on HBO Max, is the perfect film for the Robert Pattinson skeptic",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/robert-pattinson-in-tenet.jpeg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "7f4bbd286a5f",
+    "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
+    "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+    "source": "The Verge",
+    "section": "tech",
+    "published": "2026-11-23T03:00:00Z",
+    "excerpt": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step […]",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kodak1.jpg?quality=90\u0026strip=all\u0026crop=0%2C10.740836125969%2C100%2C78.518327748063\u0026w=1200",
+    "image_checked": true,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "1f9b7eb7b9f5",
+    "title": "Black Friday / End Of Year Special \u0026 The Unfortunate Ad Network Situation This Year",
+    "url": "https://www.phoronix.com/news/Black-Friday-Week-2026",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-23T02:45:00Z",
+    "excerpt": "If you have enjoyed the more than 3,125+ news articles so far this year and 200+ Linux hardware reviews this calendar year with a lot of interesting content, running this week is the annual Phoronix Premium end-of-year / \"Black Friday\" promotion to help support the site while enjoying ad-free access, multi-page articles on a single page, and other benefits while helping Phoronix continue as it app…",
+    "image_url": "https://www.phoronix.net/image.php?id=2025\u0026image=forums",
+    "image_checked": true,
+    "weight": 1.1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "linux"
+    ]
+  },
+  {
+    "id": "1b8a5e10473c",
+    "title": "34 Years Later, the Best 'Far Side' Quote Will Still Leave You Speechless",
+    "url": "https://www.polygon.com/best-far-side-quote/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T02:34:17Z",
+    "excerpt": "Gary Larson's comic strip The Far Side was known for its visual humor, but this is the best-ever quote from the series",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/screen-shot-2026-10-15-at-1-27-56-pm.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "d101b406e8bb",
+    "title": "Advanced Character Physics (2001) [pdf]",
+    "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-23T02:17:27Z",
+    "image_checked": true,
+    "points": 11,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "This historical paper from 2001 presents techniques for advanced character physics and particle systems in computer graphics and simulation. It details mathematical approaches for handling constraints, collision detection, and rigid body dynamics. The document serves as a foundational reference for developers implementing physics engines in video games and interactive 3D applications.",
+    "tags": [
+      "devtools",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "011b5cc5bf3f",
+    "title": "Star Wars Is Getting an Official IMAX 70mm Release for the First Time",
+    "url": "https://www.polygon.com/star-wars-50th-anniversary-imax-release-2027/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T02:13:17Z",
+    "excerpt": "In 2027, the original untouched Star Wars will return to movie theaters — and in IMAX 70mm screenings for the first time, Lucasfilm confirms.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/msdstwa_ec005.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "b0da3d1e88e0",
+    "title": "Treemap of the Riemann Hypothesis Lean Proof",
+    "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-23T01:50:23Z",
+    "image_checked": true,
+    "points": 17,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "A massive formalization of the Riemann Hypothesis and its generalization has been released, utilizing thousands of modules written in the Lean 4 proof assistant with AI assistance. An interactive visualization maps out the extensive repository, showing module dependencies and mathematical topics. The project demonstrates the scale of computer-checked mathematics achievable with modern tools.",
+    "tags": [
+      "math",
+      "open-source",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "914bb147d0bf",
+    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+    "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+    "source": "TechCrunch",
+    "section": "ai",
+    "published": "2026-11-23T01:25:53Z",
+    "excerpt": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "TechCrunch details how venture firm Notable Capital, Singapore’s GIC, and Baillie Gifford each invested heavily in Anthropic before its record‑breaking IPO, betting on the Claude LLM’s growing developer adoption. The article outlines the investment timeline, valuation milestones, and the expected multi‑fold returns for these investors.",
+    "tags": [
+      "llm",
+      "startups"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "048482af0e5e",
+    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+    "url": "https://spelunkr.tv",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-23T01:13:51Z",
+    "points": 292,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
+    "id": "9ded6cb1fd92",
+    "title": "Binding of Isaac DLC adds AI music in GTA 6-parodying update despite not having an AI disclosure, Steam reviews drop to Overwhelmingly Negative, music gets pulled",
+    "url": "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-23T01:11:23Z",
+    "excerpt": "\"Woke up to a shit show,\" Edmund McMillen wrote.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/HNtA6QWZH23oHdCY8geRZU-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "pc-gaming",
+      "gaming"
+    ]
+  },
+  {
+    "id": "49a04a2f355e",
+    "title": "Logistics Handbook Answers: How to Choose RAG vs Long Context in 2026",
+    "url": "https://dev.to/darianreed1254/logistics-handbook-answers-how-to-choose-rag-vs-long-context-in-2026-40e3",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T01:08:51Z",
+    "excerpt": "The page should identify the stale listing. For a low-volume Q\u0026A service over a 200-page logistics handbook, start with the least complex candidate: put the current handbook in the prompt, then check whether answers use the correct source revision. In the illustrative incident below, the responder instead sees a disputed pickup cutoff in an answer assembled from multiple listing sources. A green r…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq11zb1lhbszjqvq2lfcc.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag",
+      "prompting",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "b3c8f7daac88",
+    "title": "Xiaomi 18 Pro series goes global, anniversary iPhone details surface, Week 47 in review",
+    "url": "https://www.gsmarena.com/xiaomi_18_pro_series_goes_global_anniversary_iphone_details_surface_week_47_in_review-news-75581.php",
+    "source": "GSMArena",
+    "section": "phones",
+    "published": "2026-11-23T01:02:02Z",
+    "excerpt": "This week's most popular article isn't about phones, it's about Instagram. It seems like the latest Instagram update got people's attention and introduced a feature that people have been waiting for for years - the ability to edit stories after posting them. You can change text, music, stickers, and drawings. Of course, there's a catch. You can edit stories only 15 minutes after posting them. More…",
+    "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/week-47-in-review/-184x111/gsmarena_000.jpg",
+    "weight": 1.2,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Recent mobile industry news highlights the global release of the Xiaomi 18 Pro series and new rumors surrounding upcoming Apple and Samsung flagship devices. Instagram rolled out an update allowing users to edit stories within fifteen minutes of posting. Additionally, technology awards named top smartphones of the year across various categories including cameras and design.",
+    "tags": [
+      "mobile",
+      "ios",
+      "android"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "1d77a1f23ecf",
+    "title": "What we learned operating auth for 1k APIs",
+    "url": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-23T01:01:11Z",
+    "image_url": "https://cdn.sanity.io/images/7yse5usn/production/3c399a96bf3e292ee10595e55c6598da8b0be60f-1674x940.jpg",
+    "points": 23,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "An open-source integration project shares lessons learned after operating authentication for over a thousand APIs. The team explains how token rotation bugs can permanently break user connections and discusses provider-specific quirks. They emphasize treating refresh tokens securely to avoid unexpected service disruptions.",
+    "tags": [
+      "open-source",
+      "security",
+      "cloud"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "54e4613d04e9",
+    "title": "A Guide to Go SMS OTP for a Beginner SaaS 2FA Login Stack",
+    "url": "https://dev.to/liraelvex6403/a-guide-to-go-sms-otp-for-a-beginner-saas-2fa-login-stack-3p00",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T00:47:09Z",
+    "excerpt": "Payment settlement and identity verification need separate state, even when the receipt and the login challenge reach the same customer within seconds. TL;DR: for a beginner US/EU SaaS workflow, use SMS OTP with a suppression preflight and bounded status polling; keep receipt eligibility tied to settlement, and keep 2FA success tied to verification. Choose the integration by how much application c…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbeo34528vow8tkc71r5c.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "go",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "f5048ae8ecda",
+    "title": "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War",
+    "url": "https://www.polygon.com/gta-6-review-bombed-legend-of-zelda/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T00:45:43Z",
+    "excerpt": "Grand Theft Auto 6 and The Legend of Zelda: Ocarina of Time fans are fighting over Metacritic scores as part of a larger anti-woke culture war.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/lucia_caminos_07.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "06be32ad49c0",
+    "title": "Vector Collections Explained: Go Guardrails for Marketplace Duplicate Detection",
+    "url": "https://dev.to/callumreed2198/vector-collections-explained-go-guardrails-for-marketplace-duplicate-detection-3l6l",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T00:42:23Z",
+    "excerpt": "A vector collection groups records whose embeddings can be compared under one numeric contract. Its dimension must be fixed because distance functions compare coordinates position by position; a 768-value vector and a 1,536-value vector do not inhabit the same coordinate space. For marketplace duplicate detection, use one embedding model and preprocessing version per collection, validate length be…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyaf8nn97gyvzqd9rj6eq.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "rag",
+      "go",
+      "space"
+    ]
+  },
+  {
+    "id": "234335647562",
+    "title": "Kernel prepatch 7.4-rc4",
+    "url": "https://lwn.net/Articles/1108900/",
+    "source": "LWN.net",
+    "section": "linux",
+    "published": "2026-11-23T00:32:07Z",
+    "excerpt": "The 7.4-rc4 kernel is out for testing. Linus said: \" It's huge. What a surprise. Lots of little fixes all over, with drivers being pretty exactly half of it (gpu and networking showing up as usual, but there's usb, iio, nvme, sound.. you name it). \"",
+    "image_checked": true,
+    "weight": 1.1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "The LWN.net post announces the release of Linux kernel 7.4‑rc4 for testing. Linus Torvalds notes the release is large, with many driver fixes across GPU, networking, USB, IIO, NVMe, sound, and other subsystems, alongside core kernel updates.",
+    "tags": [
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "c0628390116a",
+    "title": "Stackin SDK Go: NF-e e NFS-e",
+    "url": "https://dev.to/stackin/stackin-sdk-go-nf-e-e-nfs-e-2a0a",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-23T00:13:20Z",
+    "excerpt": "O SDK oficial da Stackin para Go simplifica a integração com a API fiscal. A struct Invoice reúne as operações para emitir e acompanhar NF-e e NFS-e, sem precisar montar manualmente cada chamada REST. Instalação go get github.com/stackin-io/stackin-go-sdk Requer Go 1.21 ou superior. Operações disponíveis Invoice inclui Issue() , Consult() , Cancel() e Reissue() para o ciclo da nota. Também oferece…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqyew1ptohod1eesvszto.png",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "0b69a212fadc",
+    "title": "GTA 6 Chapter 2 Mission List: Every Missions in Order \u0026 Point Of No Return",
+    "url": "https://www.videogameschronicle.com/guide/gta-6-chapter-2-mission-list/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-23T00:12:39Z",
+    "excerpt": "How many missions are in GTA 6 Chapter 2? All missions listed",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Chapter-List-2.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "6870cc68421b",
+    "title": "SNEG has re-released three more venerable PC strategy games including Warlords 4: Heroes of Etheria",
+    "url": "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/",
+    "source": "PC Gamer",
+    "section": "gaming",
+    "published": "2026-11-23T00:07:24Z",
+    "excerpt": "Let the war begin.",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/avAQzCuSJEy42TSwqASt5H-1920-80.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "5bd86d2dd41f",
+    "title": "Netflix’s (Very) R-Rated 45-Episode Sci-Fi Anthology Doesn’t Get the Attention It Deserves",
+    "url": "https://www.polygon.com/r-rated-sci-fi-anthology-netflix-must-watch/",
+    "source": "Polygon",
+    "section": "gaming",
+    "published": "2026-11-23T00:00:17Z",
+    "excerpt": "This genre-blend anthology boasts exceptionally well-crafted episodes.",
+    "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/nexusstudios_lovedeathrobots_emilydean_stills_3.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "1a3ae420e7a1",
+    "title": "How to use Google Maps' social features",
+    "url": "https://www.androidpolice.com/why-google-maps-is-my-social-planner-now-not-my-navigator/",
+    "source": "Android Police",
+    "section": "phones",
+    "published": "2026-11-23T00:00:10Z",
+    "excerpt": "It works better that way",
+    "image_url": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/08/google-maps-home-screen-shortcut-wide-map.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "d693ca959a63",
+    "title": "Reliance on technology is eroding trust in one another and ability to tell what is even real, expert warns",
+    "url": "https://phys.org/news/2026-11-reliance-technology-eroding-ability-real.html",
+    "source": "Phys.org",
+    "section": "science",
+    "published": "2026-11-23T00:00:01Z",
+    "excerpt": "The danger of generative AI is not some distant algorithmic failure; it is the slow erosion of our ability to tell what's real, to trust our institutions and to think for ourselves at all. These are the warnings of Mateusz Łabuz in his new book, The End of Reality.",
+    "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/generative-ai-1.jpg",
+    "weight": 0.6,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
+  },
+  {
+    "id": "fe70e11cd2d8",
+    "title": "Linuxiac Weekly Wrap-Up: Week 47, 2026 (November 16 – 22)",
+    "url": "https://linuxiac.com/linuxiac-weekly-wrap-up-week-47-2026-november-16-22/",
+    "source": "Linuxiac",
+    "section": "linux",
+    "published": "2026-11-22T23:55:22Z",
+    "excerpt": "Catch up on the latest Linux news: Debian 13.8, CachyOS November 2026, PHP 8.6, Noctalia 5.6, PostgreSQL 19, Microsoft releases Azure Linux 4, and more.",
+    "image_url": "https://linuxiac.com/wp-content/uploads/2026/11/linuxiac-weekly-wrap-up-47-2026-380x214.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "linux",
+      "cloud"
+    ]
+  },
+  {
+    "id": "4886ca7677fc",
+    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+    "url": "https://0rwx.com/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T23:53:00Z",
+    "image_checked": true,
+    "points": 34,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "The 0rwx framework provides a simple labeling system inspired by Unix permissions to categorize human usage and oversight of large language models. It helps domain experts discuss AI integration levels ranging from zero usage to fully automated generation.",
+    "tags": [
+      "llm",
+      "research"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "a0899ff76722",
+    "title": "GTA 6 Ride or Die walkthrough: Where to find the DWNPLY sneakers and get them for free",
+    "url": "https://www.videogameschronicle.com/guide/gta-6-ride-or-die-walkthrough-where-to-find-the-dwnply-sneakers-and-get-them-for-free/",
+    "source": "VGC",
+    "section": "gaming",
+    "published": "2026-11-22T23:46:36Z",
+    "excerpt": "Where are the DWNPLY sneakers in GTA 6?",
+    "image_url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Ride-or-Die-walkthrough-where-to-find-DWNPLY-sneakers-11.jpg",
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "id": "79b711b6f18a",
+    "title": "Go PDF Parsing — Debug Empty Text in Scanned Versus Digital Contracts",
+    "url": "https://dev.to/brodyvance2149/go-pdf-parsing-debug-empty-text-in-scanned-versus-digital-contracts-jl0",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T23:42:44Z",
+    "excerpt": "Consider this proposed page in a healthtech contract service: a contract is waiting for a server-side signature, the extraction step returned empty text, and the on-call sees a document reference with no record of whether the input had a text layer. The dashboard is green because the request completed. What page fired, and what decision can the responder make from it? Short answer: when PDF parsin…",
+    "image_url": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuxxx9k755t3f5y4glbe5.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "go"
+    ]
+  },
+  {
+    "id": "a66f15ce1336",
+    "title": "Introducing Dioptra: A Zero-Config, Pure-Go Interactive UI Engine for AI Agents",
+    "url": "https://dev.to/jbryanh187/introducing-dioptra-a-zero-config-pure-go-interactive-ui-engine-for-ai-agents-42dh",
+    "source": "dev.to (Go)",
+    "section": "tutorials",
+    "published": "2026-11-22T23:16:01Z",
+    "excerpt": "Hey everyone! I'm Bryan, a software engineer. Over the past few months, I've been reflecting a lot on where our profession is heading and how our daily workflows are evolving alongside AI. Because I genuinely love software engineering and building for builders, I started creating open-source tools to give back to the community—and today, I'd love to share my latest contribution with you. Meet Diop…",
+    "image_url": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "agents",
+      "open-source",
+      "go"
+    ]
+  },
+  {
+    "id": "8fac989d8212",
+    "title": "Linux 7.4-rc4 Released: \"It's Huge. What A Surprise.\"",
+    "url": "https://www.phoronix.com/news/Linux-7.4-rc4-Released",
+    "source": "Phoronix",
+    "section": "linux",
+    "published": "2026-11-22T23:13:30Z",
+    "excerpt": "Linux 7.4-rc4 is out today as the newest weekly test candidate for Linux 7.4. Continuing to be fueled by AI/LLM generated bug reports and patches, the Linux 7.4 cycle remains quite active...",
+    "image_url": "https://www.phoronix.net/image.php?id=2026\u0026image=linux_74_rc4",
+    "weight": 1.1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Phoronix notes the availability of Linux 7.4‑rc4, describing it as a substantial release driven partly by AI‑generated bug reports and patches. Highlights include parallel NVMe namespace removal, new CPU family IDs for Intel Razor Lake and Coral Rapids, and numerous driver and core kernel fixes.",
+    "tags": [
+      "linux",
+      "kernel"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "ae6e6a35191d",
+    "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+    "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-22T23:12:10Z",
+    "points": 194,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "enriched": true,
+    "skip": true
+  },
+  {
     "id": "ea352c0c24e0",
     "title": "Fantastic News, Sam Kinison’s Brother Wants To Revive The Shrieking Comic Through AI",
     "url": "https://kotaku.com/fantastic-news-sam-kinisons-brother-wants-to-revive-the-shrieking-comic-through-ai-2000759297",
@@ -13,6 +1122,25 @@
     "summary": "The estate of late comedian Sam Kinison has partnered with an artificial intelligence firm to recreate his voice and likeness using language models. This project is part of a growing trend where the families and agencies of deceased entertainers license their digital likenesses for various media. Critics and observers note the complex ethical landscape surrounding posthumous AI recreations.",
     "tags": [
       "llm"
+    ],
+    "enriched": true
+  },
+  {
+    "id": "e80d783c68e8",
+    "title": "GL.iNet Security Notice 2026-11-20",
+    "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "source": "Hacker News",
+    "section": "tech",
+    "published": "2026-11-22T23:06:37Z",
+    "image_url": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
+    "points": 139,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "GL.iNet issued a security warning regarding a vulnerability in its cloud remote management services that allowed attackers to install malicious software on routers and KVM devices. The company has blocked the attack path and released updated firmware for various affected models. Users are strongly advised to check their devices for signs of compromise and install the latest stable updates.",
+    "tags": [
+      "security",
+      "hardware",
+      "cloud"
     ],
     "enriched": true
   },
@@ -107,15 +1235,17 @@
     "title": "Invalidity of the Alpoge Proposed Proof of the Riemann Hypothesis",
     "url": "https://philpapers.org/rec/NIEIOT-2",
     "source": "Hacker News",
-    "section": "ai",
+    "section": "science",
     "published": "2026-11-22T22:41:33Z",
     "image_checked": true,
     "points": 7,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "tags": [
-      "math"
-    ]
+      "math",
+      "research"
+    ],
+    "enriched": true
   },
   {
     "id": "441d3589235d",
@@ -164,6 +1294,25 @@
     ]
   },
   {
+    "id": "69aed33940f7",
+    "title": "Localcode, open source agentic coding on your Mac with one command",
+    "url": "https://github.com/mjwsolo/localcode",
+    "source": "Hacker News",
+    "section": "coding",
+    "published": "2026-11-22T22:18:48Z",
+    "image_url": "https://opengraph.githubassets.com/843efc6b99cc3b83bdcfdb6a88b0b88cf57071d71304315ac790585fa4f65c5b/mjwsolo/localcode",
+    "points": 43,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Localcode is an open-source command-line tool that enables agentic coding workflows using local models on Apple Silicon Macs. It runs tests, edits project files, and integrates optimization features like prompt caching and speed drafting for various supported models.",
+    "tags": [
+      "agents",
+      "open-source",
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
     "id": "a01aa422cde6",
     "title": "12 times one AI model stood completely alone against the rest",
     "url": "https://dev.to/getmultio/12-times-one-ai-model-stood-completely-alone-against-the-rest-39ob",
@@ -193,15 +1342,17 @@
   },
   {
     "id": "a98356207bc1",
-    "title": "The Usefulness of Useless Knowledge [pdf]",
+    "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
     "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-22T22:10:58Z",
     "image_checked": true,
-    "points": 13,
+    "points": 96,
     "weight": 1,
-    "first_seen": "2026-11-22T23:09:53.727069786Z"
+    "first_seen": "2026-11-22T23:09:53.727069786Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "c80b1921b739",
@@ -342,6 +1493,22 @@
     ]
   },
   {
+    "id": "abe4c1951f79",
+    "title": "Testing Terraform with AWS Emulator",
+    "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-22T21:44:04Z",
+    "excerpt": "Comments",
+    "image_url": "https://notes.hatedabamboo.me/og-images/6e403ade.png",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
     "id": "a8d352f5c56e",
     "title": "‘You Can See Everything’ has made more than $100M worldwide",
     "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
@@ -379,9 +1546,11 @@
     "published": "2026-11-22T21:33:12Z",
     "image_url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/images/feature-freedom.png",
     "image_checked": true,
-    "points": 9,
+    "points": 85,
     "weight": 1,
-    "first_seen": "2026-11-22T23:09:53.727069786Z"
+    "first_seen": "2026-11-22T23:09:53.727069786Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "ece60fd6da8e",
@@ -533,7 +1702,7 @@
     "section": "tutorials",
     "published": "2026-11-22T21:01:16Z",
     "image_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
-    "points": 92,
+    "points": 365,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "The tutorial shows how to set up a private, locally‑run LLM on a Windows PC using Unsloth Desktop and a quantized model such as Qwen. It lists required hardware, steps to install the app, choose a model that fits the GPU’s VRAM, and enable LAN access so household members can chat with the AI without cloud subscriptions.",
@@ -568,6 +1737,18 @@
     "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-596631439.jpg?resize=1200,800",
     "image_checked": true,
     "weight": 1,
+    "first_seen": "2026-11-22T23:09:53.727069786Z"
+  },
+  {
+    "id": "840d333ecaff",
+    "title": "AirPods Pro 3 Drop to $169.99 in Amazon Black Friday Sale",
+    "url": "https://www.macrumors.com/2026/11/22/airpods-pro-3-169/",
+    "source": "MacRumors",
+    "section": "phones",
+    "published": "2026-11-22T20:52:00Z",
+    "excerpt": "Apple's AirPods Pro 3 have dropped to an even lower price today for Black Friday, available for $169.99 on Amazon, down from $249.00. This beats the previous low price by about $10, and is matching the all-time low price we've only seen once before very briefly during Amazon's summertime Prime Day. Note: MacRumors is an affiliate partner with Amazon. When you click a link and make a purchase, we m…",
+    "image_url": "https://images.macrumors.com/article-new/2026/11/airpods-pro-3-blue-snow.jpeg",
+    "weight": 0.9,
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
   {
@@ -701,7 +1882,7 @@
     "section": "tech",
     "published": "2026-11-22T20:33:23Z",
     "image_url": "https://smallsf.com/share.jpg?v=4",
-    "points": 81,
+    "points": 206,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "A miniature representation of San Francisco featuring live transit data for buses, planes, and boats is built using map data from Google and OpenStreetMap. The visualization demonstrates real‑time integration of multiple transportation modes on a compact map.",
@@ -792,7 +1973,7 @@
     "section": "linux",
     "published": "2026-11-22T20:15:59Z",
     "image_checked": true,
-    "points": 67,
+    "points": 118,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "Nyx is a nonprofit ISP that provides free public internet access, email, web hosting, Usenet, and Linux shell accounts, offering Unix/Linux development tools without fees. Recent updates include changes to the SSH host key and permitted algorithms.",
@@ -967,6 +2148,22 @@
     ]
   },
   {
+    "id": "8cc270b18470",
+    "title": "Select Styling Specimens",
+    "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+    "source": "Simon Willison",
+    "section": "tutorials",
+    "published": "2026-11-22T19:45:06Z",
+    "excerpt": "Tool: Select Styling Specimens I got frustrated at how HTML \u003cselect\u003e boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser After s…",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "llm",
+      "web"
+    ]
+  },
+  {
     "id": "01914533a422",
     "title": "Assume People Are Not Interested in Your Blog Post",
     "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
@@ -975,9 +2172,11 @@
     "published": "2026-11-22T19:41:30Z",
     "image_url": "https://danielsada.tech/images/DanielSadaLogo.png",
     "image_checked": true,
-    "points": 14,
+    "points": 125,
     "weight": 1,
-    "first_seen": "2026-11-22T23:09:53.727069786Z"
+    "first_seen": "2026-11-22T23:09:53.727069786Z",
+    "enriched": true,
+    "skip": true
   },
   {
     "id": "8c5128c185f5",
@@ -1050,7 +2249,7 @@
     "section": "tech",
     "published": "2026-11-22T19:20:15Z",
     "image_url": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2026/11/What-happened-to-Silicon-Valley-Image-created-with-ChatGPT-1600x901.png",
-    "points": 305,
+    "points": 538,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "In a lecture titled “What Happened to Silicon Valley?” the speaker reflects on four decades of the region’s political economy, tracing its shift from a collaborative, user‑focused internet pioneer to a fear‑inducing industry. He recounts his own company’s organic growth, the early web portal GNN, and the evolving principles that once emphasized spreading knowledge and creating more value than captured.",
@@ -1097,7 +2296,7 @@
     "section": "gaming",
     "published": "2026-11-22T19:10:34Z",
     "image_url": "https://media.audubon.org/2026-11/gta-still.jpg?width=1200\u0026height=630\u0026auto=webp\u0026quality=90\u0026fit=crop\u0026enable=upscale",
-    "points": 265,
+    "points": 421,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "A player explores the wildlife of GTA 6’s Vice City, noting that the game now includes around sixty bird species alongside its usual criminal activities. The guide explains how the in‑game binoculars let players study birds, adding them to a progress menu, and provides examples of species found early in the game.",
@@ -1288,12 +2487,16 @@
     "section": "ai",
     "published": "2026-11-22T18:01:54Z",
     "image_checked": true,
-    "points": 23,
+    "points": 62,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
+    "summary": "Harvard University announces a graduate-level course on artificial intelligence safety and alignment for the fall semester. The curriculum covers both technical alignment challenges and broader societal impacts. Students are encouraged to utilize generative and agentic AI tools for their coursework and projects.",
     "tags": [
-      "safety"
-    ]
+      "research",
+      "llm",
+      "agents"
+    ],
+    "enriched": true
   },
   {
     "id": "f59a44917d1a",
@@ -1501,7 +2704,7 @@
     "section": "ai",
     "published": "2026-11-22T17:06:27Z",
     "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600\u0026h=900\u0026fit=fill",
-    "points": 429,
+    "points": 539,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "The article argues that perplexity, measured as cross‑entropy loss, should serve as a common metric for tracking AI progress and informing safety standards. It outlines OpenAI’s internal perplexity data across model generations, describes how lower perplexity correlates with capabilities such as chain‑of‑thought reasoning, and calls for industry‑wide transparency to support shared pacing and safety efforts.",
@@ -1745,36 +2948,6 @@
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
   {
-    "id": "6cbedf0ee0fa",
-    "title": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
-    "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
-    "source": "Hacker News",
-    "section": "coding",
-    "published": "2026-11-22T15:59:59Z",
-    "image_url": "https://secure.gravatar.com/blavatar/fe7f5b0b83dba894afe26c42bcab33fe2d1246d9730ef182c72c0bff0dc26acb?s=200\u0026ts=1795269608",
-    "image_checked": true,
-    "points": 53,
-    "weight": 1,
-    "first_seen": "2026-11-21T14:06:29.168195557Z",
-    "summary": "The ISO C++ committee has completed technical work on C++26 for a second time following international review. Discussions centered largely on the contracts feature and associated syntax. The updated document is set to proceed to a second approval ballot.",
-    "tags": [
-      "devtools"
-    ],
-    "enriched": true
-  },
-  {
-    "id": "840d333ecaff",
-    "title": "AirPods Pro 3 Drop to $169.99 in Amazon Black Friday Sale",
-    "url": "https://www.macrumors.com/2026/11/22/airpods-pro-3-169/",
-    "source": "MacRumors",
-    "section": "phones",
-    "published": "2026-11-22T15:40:00Z",
-    "excerpt": "Apple's AirPods Pro 3 have dropped to an even lower price today for Black Friday, available for $169.99 on Amazon, down from $249.00. This beats the previous low price by about $10, and is matching the all-time low price we've only seen once before very briefly during Amazon's summertime Prime Day. Note: MacRumors is an affiliate partner with Amazon. When you click a link and make a purchase, we m…",
-    "image_url": "https://images.macrumors.com/article-new/2026/11/airpods-pro-3-blue-snow.jpeg",
-    "weight": 0.9,
-    "first_seen": "2026-11-22T23:09:53.727069786Z"
-  },
-  {
     "id": "a6214178f45a",
     "title": "M6 MacBook Pro Drops to $1,799 in New Black Friday Sale ($200 Off)",
     "url": "https://www.macrumors.com/2026/11/22/m6-macbook-pro-200-discount/",
@@ -1809,7 +2982,7 @@
     "section": "tech",
     "published": "2026-11-22T15:35:24Z",
     "image_checked": true,
-    "points": 112,
+    "points": 141,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "A developer shares their experience of joining the global NTP Pool by setting up a public Stratum 2 time server. The setup relies on a primary Stratum 1 time server connected to a GNSS antenna and a high-grade module. The author highlights the logistical challenges, resource commitments, and security considerations involved in hosting public network time infrastructure.",
@@ -1858,7 +3031,7 @@
     "section": "tech",
     "published": "2026-11-22T15:24:32Z",
     "image_url": "https://osw-alliance.net/wp-content/uploads/2026/07/cropped-OSWA-Dots-01-freisteller-scaled-1.png",
-    "points": 201,
+    "points": 234,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "The Open Social Web Alliance proposes a decentralized social networking ecosystem using standard email‑like protocols such as ActivityPub, AT Protocol, and Matrix to enable interoperable, user‑controlled platforms. It outlines challenges—including infrastructure, governance, funding, appeal, and public mandate—and suggests ways to overcome them.",
@@ -2270,7 +3443,7 @@
     "section": "gaming",
     "published": "2026-11-22T13:56:58Z",
     "image_url": "https://opengraph.githubassets.com/35a0e13dd2672879520fe505432d2566c85657d3db917654b78499f0f37912f1/gulivan/worker755",
-    "points": 253,
+    "points": 296,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "Show HN introduces a browser‑based game where the player acts as a sub‑agent for an LLM manager that assigns tasks via a terminal interface. The game simulates a workplace with time‑limited instructions, performance reviews, and optional integration with various model APIs, offering both sandbox and production modes for players to experiment with AI‑driven task orchestration.",
@@ -3281,6 +4454,25 @@
     "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
+    "id": "a7483c370049",
+    "title": "Masullo on the Riemann Hypothesis",
+    "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+    "source": "Hacker News",
+    "section": "science",
+    "published": "2026-11-22T10:59:56Z",
+    "image_checked": true,
+    "points": 135,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "summary": "Two independent attempts to prove the Riemann Hypothesis emerged, including a human-written manuscript by Alessandro Masullo and a formalization developed with AI assistance. A mathematician breaks down Masullo's proof strategy, which relies on an explicit formula linking prime numbers and the zeros of the zeta function. The text explains how the logarithmic derivative helps analyze these mathematical structures.",
+    "tags": [
+      "math",
+      "research",
+      "llm"
+    ],
+    "enriched": true
+  },
+  {
     "id": "663a81843397",
     "title": "The First Rust WMI Linux Driver Being Developed Is For Clevo Laptops",
     "url": "https://www.phoronix.com/news/Rust-WMI-Driver-Clevo-Laptops",
@@ -3448,26 +4640,6 @@
     "first_seen": "2026-11-22T13:57:52.583674386Z"
   },
   {
-    "id": "21bd1d482ae2",
-    "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-    "url": "https://simonwillison.net/2026/Nov/21/muru/",
-    "source": "Hacker News",
-    "section": "tutorials",
-    "published": "2026-11-22T09:57:01Z",
-    "image_checked": true,
-    "points": 70,
-    "weight": 1,
-    "first_seen": "2026-11-22T04:50:20.551398663Z",
-    "summary": "Developer Graham Dumpleton is documenting the creation of Muru, an AI-assisted Rust server designed for running ASGI and WSGI Python applications. He is publishing detailed articles covering every step of the development process, from early architecture to containerization and tracing.",
-    "tags": [
-      "rust",
-      "python",
-      "devtools",
-      "tutorial"
-    ],
-    "enriched": true
-  },
-  {
     "id": "ec7dea3b12a4",
     "title": "How I Built a Read-Only MCP Server for Microsoft Teams by Parsing IndexedDB in Go",
     "url": "https://dev.to/stn1slv/how-i-built-a-read-only-mcp-server-for-microsoft-teams-by-parsing-indexeddb-in-go-51cf",
@@ -3544,7 +4716,7 @@
     "section": "science",
     "published": "2026-11-22T08:57:34Z",
     "image_url": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065\u0026ssl=1",
-    "points": 834,
+    "points": 931,
     "weight": 1,
     "first_seen": "2026-11-22T13:57:52.583674386Z",
     "summary": "An analysis of power commitments reveals that Anthropic's data centers will rely heavily on fossil fuels by 2028. The findings show that the vast majority of energy used will come from gas, with a smaller portion from coal, as direct commitments to renewable energy remain limited.",
@@ -3784,7 +4956,7 @@
     "section": "tech",
     "published": "2026-11-22T04:04:56Z",
     "image_url": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh\u0026resize=1200:*",
-    "points": 1158,
+    "points": 1236,
     "weight": 1,
     "first_seen": "2026-11-22T04:50:20.551398663Z",
     "summary": "Toyota, Nissan, and Honda have agreed to standardize certain non-consumer-facing automotive components to reduce production costs. The initial phase will focus on unified quality criteria for steel, consistent plastic protocols, and color-coded wiring harnesses, helping Japanese automakers compete globally.",
@@ -3809,6 +4981,18 @@
       "gaming"
     ],
     "enriched": true
+  },
+  {
+    "id": "12e6321bf080",
+    "title": "Fatal Fury: City Of The Wolves Adds Laocorn From The Motion Picture",
+    "url": "https://www.nintendolife.com/news/2026/11/fatal-fury-city-of-the-wolves-adds-laocorn-from-the-motion-picture",
+    "source": "Nintendo Life",
+    "section": "gaming",
+    "published": "2026-11-22T04:00:00Z",
+    "excerpt": "Reminder: The Fatal Fury movie antagonist is now available. : SNK's expansion of the Fatal Fury: City of the Wolves roster will continue with the release of Laocorn next week on 19th November 202 6 . Read the full article on nintendolife.com",
+    "image_url": "https://images.nintendolife.com/283e980586455/large.jpg",
+    "weight": 0.8,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
   },
   {
     "id": "97dd105ae494",
@@ -4385,6 +5569,26 @@
     "first_seen": "2026-11-22T04:50:20.551398663Z"
   },
   {
+    "id": "21bd1d482ae2",
+    "title": "Muru",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "source": "Simon Willison",
+    "section": "tutorials",
+    "published": "2026-11-21T23:56:28Z",
+    "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of…",
+    "image_checked": true,
+    "weight": 1.2,
+    "first_seen": "2026-11-22T04:50:20.551398663Z",
+    "summary": "Developer Graham Dumpleton is documenting the creation of Muru, an AI-assisted Rust server designed for running ASGI and WSGI Python applications. He is publishing detailed articles covering every step of the development process, from early architecture to containerization and tracing.",
+    "tags": [
+      "rust",
+      "python",
+      "devtools",
+      "tutorial"
+    ],
+    "enriched": true
+  },
+  {
     "id": "31561496d272",
     "title": "DNS Zone Write Isolation in Go (Separate Inventories and Tenant Subdomain Overhead)",
     "url": "https://dev.to/haelion14/dns-zone-write-isolation-in-go-separate-inventories-and-tenant-subdomain-overhead-4e8g",
@@ -4642,7 +5846,7 @@
     "section": "coding",
     "published": "2026-11-21T22:15:39Z",
     "image_checked": true,
-    "points": 102,
+    "points": 127,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z",
     "summary": "The author examines the shortcomings of current software testing terminology, which often relies on vague definitions and subjective classifications. A structured approach is proposed to categorize tests based on scope, distinguishing between function-level and system-level boundaries as well as stateful and stateless behaviors.",
@@ -6966,6 +8170,24 @@
     ]
   },
   {
+    "id": "6cbedf0ee0fa",
+    "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+    "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+    "source": "Lobsters",
+    "section": "coding",
+    "published": "2026-11-21T13:57:53Z",
+    "excerpt": "Comments",
+    "image_url": "https://secure.gravatar.com/blavatar/fe7f5b0b83dba894afe26c42bcab33fe2d1246d9730ef182c72c0bff0dc26acb?s=200\u0026ts=1795269608",
+    "image_checked": true,
+    "weight": 0.8,
+    "first_seen": "2026-11-21T14:06:29.168195557Z",
+    "summary": "The ISO C++ committee has completed technical work on C++26 for a second time following international review. Discussions centered largely on the contracts feature and associated syntax. The updated document is set to proceed to a second approval ballot.",
+    "tags": [
+      "devtools"
+    ],
+    "enriched": true
+  },
+  {
     "id": "d1fd421f6198",
     "title": "Day 28/90 — The Hidden Engineering Challenges Behind MCP Integration",
     "url": "https://dev.to/rimsha_kanwal/day-2890-the-hidden-engineering-challenges-behind-mcp-integration-329k",
@@ -7666,6 +8888,19 @@
       "open-source"
     ],
     "enriched": true
+  },
+  {
+    "id": "874169489a85",
+    "title": "'Legally, they don't exist': the hybrid crabs puzzling biologists and fishers",
+    "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-21T12:09:23Z",
+    "image_url": "https://i.guim.co.uk/img/media/9fdb0a2c2757969e8c0d78e2fdaf3c659856ca2b/386_148_4136_3308/master/4136.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026precrop=40:21,offset-x50,offset-y0\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=9bca6273c5040256a049e2b2c363bb34",
+    "image_checked": true,
+    "points": 12,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
   },
   {
     "id": "aecba16ab4d4",
@@ -10332,19 +11567,6 @@
     "first_seen": "2026-11-20T23:37:30.636801737Z"
   },
   {
-    "id": "3efb53094bce",
-    "title": "Verifying formal models of Raft implementations",
-    "url": "https://antithesis.com/blog/2026/verifying-formal-models/",
-    "source": "Lobsters",
-    "section": "coding",
-    "published": "2026-11-20T21:54:45Z",
-    "excerpt": "Comments",
-    "image_url": "https://antithesis.com/optimized-images/8c536331fc12eb06f747ed05364222576cff38e29f13d352e19d6d6dc50cce12.jpeg",
-    "image_checked": true,
-    "weight": 0.8,
-    "first_seen": "2026-11-20T23:37:30.636801737Z"
-  },
-  {
     "id": "4f109f7e1f94",
     "title": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
     "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
@@ -10687,7 +11909,7 @@
     "published": "2026-11-20T21:03:12Z",
     "image_url": "https://i.guim.co.uk/img/media/d7bac7cca6890657580a396f9255cf7d7b3d2874/1250_0_6250_5000/master/6250.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026precrop=40:21,offset-x50,offset-y0\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=e108196e90ed29a731e8a7ec890173bf",
     "image_checked": true,
-    "points": 1328,
+    "points": 1347,
     "weight": 1,
     "first_seen": "2026-11-21T22:43:05.79028328Z",
     "summary": "A new experimental pill called daraxonrasib has shown promising results in clinical trials for advanced pancreatic cancer, shrinking tumors and halting disease progression in a high percentage of patients. As a KRAS inhibitor, the targeted treatment blocks specific mutations that drive tumor growth, offering renewed hope for one of the deadliest forms of cancer.",
@@ -13006,6 +14228,19 @@
     ]
   },
   {
+    "id": "3efb53094bce",
+    "title": "Verifying formal models of Raft implementations",
+    "url": "https://antithesis.com/blog/2026/verifying-formal-models/",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-20T16:33:22Z",
+    "image_url": "https://antithesis.com/optimized-images/8c536331fc12eb06f747ed05364222576cff38e29f13d352e19d6d6dc50cce12.jpeg",
+    "image_checked": true,
+    "points": 16,
+    "weight": 1,
+    "first_seen": "2026-11-20T23:37:30.636801737Z"
+  },
+  {
     "id": "3181b4736549",
     "title": "Microsoft to Retire 'To Do' Apps Next Year",
     "url": "https://www.macrumors.com/2026/11/20/microsoft-to-retire-to-do-apps/",
@@ -13790,6 +15025,19 @@
     "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/with-ai-blamed-for-mas.jpg",
     "weight": 0.6,
     "first_seen": "2026-11-20T14:49:51.968930094Z"
+  },
+  {
+    "id": "61062aafd80b",
+    "title": "How the World Draws the World",
+    "url": "https://googlemapsmania.blogspot.com/2026/10/how-world-draws-world.html",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-20T14:20:15Z",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWATlLMuOnu6AhZ20XugCYydUVLAZVNqyLdezXbGWwk2iGo7H2PhGyZ26XzI9euzTGx7O3n8tl_1IBQ2xNjsWVAlgccjbtWQdEHRtPEorXOsSIigSg0JZfOKyYk60u4S_0BYN8XDNOM3tMaeJMGYItlWT0bguss94W3H4hc1fwI9scAcFECSpNfw/w1200-h630-p-k-no-nu/thedrawnworld.png",
+    "image_checked": true,
+    "points": 19,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
   },
   {
     "id": "0cb35778cef2",
@@ -17580,6 +18828,17 @@
     "image_checked": true,
     "weight": 0.8,
     "first_seen": "2026-11-19T15:09:23.204819345Z"
+  },
+  {
+    "id": "4f1b61cb250a",
+    "title": "LittleBit: Ultra Low-Bit Quantization via Latent Factorization",
+    "url": "https://arxiv.org/abs/2506.13771",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-20T02:40:48Z",
+    "points": 17,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z"
   },
   {
     "id": "469e186dcd0d",
@@ -21720,7 +22979,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-19T16:26:51Z",
-    "points": 52,
+    "points": 62,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
@@ -22896,6 +24155,20 @@
     "first_seen": "2026-11-19T15:09:23.204819345Z",
     "tags": [
       "open-source"
+    ]
+  },
+  {
+    "id": "ea413748cec5",
+    "title": "The Unlicensed Gospel: Wisdom Tree's Bible Games on the Game Boy",
+    "url": "https://www.gameboymuseum.com/single-post/the-unlicensed-gospel-wisdom-tree-s-bible-games-on-the-game-boy",
+    "source": "Hacker News",
+    "section": "ai",
+    "published": "2026-11-19T14:27:07Z",
+    "points": 34,
+    "weight": 1,
+    "first_seen": "2026-11-23T05:29:55.349830464Z",
+    "tags": [
+      "gaming"
     ]
   },
   {
@@ -24247,7 +25520,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-19T12:50:25Z",
-    "points": 51,
+    "points": 65,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
@@ -32387,7 +33660,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-18T15:43:29Z",
-    "points": 27,
+    "points": 165,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
@@ -34042,7 +35315,7 @@
     "source": "Hacker News",
     "section": "ai",
     "published": "2026-11-18T13:33:25Z",
-    "points": 27,
+    "points": 72,
     "weight": 1,
     "first_seen": "2026-11-22T23:09:53.727069786Z"
   },
@@ -165955,23 +167228,6 @@
     "tags": [
       "ios",
       "mobile"
-    ]
-  },
-  {
-    "id": "5699208333bf",
-    "title": "battledrones v14: Compass Rose, a four player map",
-    "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-    "source": "Simon Willison",
-    "section": "tutorials",
-    "published": "2026-10-24T03:59:57Z",
-    "excerpt": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude O…",
-    "image_url": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
-    "image_checked": true,
-    "weight": 1.2,
-    "first_seen": "2026-11-02T16:31:43.526468419Z",
-    "tags": [
-      "llm",
-      "prompting"
     ]
   }
 ]
